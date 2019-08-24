@@ -1,0 +1,175 @@
+/* ---------------------------------------------------------------------- */
+/*	1024 Version
+/* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 1024px) {
+	.search-domain .revtp-searchform input[type="text"]{ width: 46%; }
+	.container{ width: auto; }
+	.carousel-installations,
+	.list-features-plus img,
+	.photos-panel{ display: none !important; }
+	.box-services-active li{ padding: 50px !important; }
+	.quote-company{ padding: 70px 50px 70px 70px; }
+	.star-price-currency{ left: 70px; }
+	.plus-service .star-price-currency{ left: 410px; }
+	.title-header h3{ letter-spacing: 0; font-size: 40px; }
+	.image-map{ right: 0; }
+	.info-highlighted .text-big{ padding: 0; }
+	.info-highlighted .text-list{ padding-top: 0;}
+    .about .about-info .title-header h3 { line-height: 50px; }
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version
+/* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 980px){
+	.top-panel,
+	.right.top-panel-social,
+	.menulogo-panel,
+	.right.menu,
+	.search-domain h4,
+	.list-features-plus .right,
+	.list-features-plus,
+	.list-features-plus .left,
+	.info-highlighted .text-big{ text-align: center; }
+	.menulogo-panel{ 
+		margin-top: 30px; 
+    	display: list-item;
+	}
+	.logo h1{ margin-bottom: 40px; }
+	.top-panel{ padding: 15px 50px; }
+	.search-domain .revtp-searchform input[type="text"]{ width: 52%; }
+	.services{
+		margin-bottom: 40px;
+    	padding: 0 30px;
+	}
+	.box-services-active li{ 
+		width: 100%; 
+		border-bottom: 1px solid rgba(211, 211, 211, 0.5);
+		border-right: none;
+	}
+	.box-services-active li:last-child{ border-bottom: none; }
+	.about .about-info{ 
+		padding: 8%; 
+		height: auto;
+    	min-height: auto;
+	}
+	.quote-company, .testimonials { margin: 0 5%; }
+	.testimonials.top{ margin-top: 0; }
+	.testimonials,
+	.about-short-text{ margin-bottom: 50px; }
+	.list-features-plus { margin-top: 30px; }
+	.plus-service .star-price-currency{ left: 280px; }
+	.star-pricing-table{ 
+		max-width: 400px;
+    	margin: 0 auto;
+    	margin-bottom: 20px;
+	}
+	.info-highlighted .text-big h2{ margin: 40px 0; }
+	.info-highlighted .text-list { padding-top: 50px; }
+    .contact-form{ margin: 0 5%; }
+    .star-price-currency { left: 110px; }
+	.form-contact { margin-top: 0px; }
+    .image-map{ width: 30%; }
+}
+
+/* ---------------------------------------------------------------------- */
+/*	610px Version
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 640px) {
+	.menu{ margin-top: 20px; }
+	.title-header h3, .plus-service .title-header h3 {
+    	font-size: 35px;
+    	line-height: 45px;
+	}
+	.star-price-currency { left: 110px; }
+	.plus-service .star-price-currency { left: 200px; }
+	.image-map{ 
+		bottom: 150px; 
+		top: auto; 
+	}
+	.search-domain .revtp-searchform input[type="text"] { width: 40% !important; }
+	.about-short-text { padding-right: 0; }
+	.static .top-panel, .static .menulogo-panel{ 
+		position: relative;
+		top: 0;
+		margin-top: 0;
+	}
+	.logo h1 { margin-bottom: 0; }
+	.menulogo-panel{ padding-bottom: 30px; }
+	.paddings{ padding: 8rem 0; }
+	.contact-info .col-sm-4 { margin-top: 10px; }
+	.WebProduct-Button{ font-size: 13px !important; }
+	.menu a{ padding: 10px 6px; }
+	.top-panel{ padding: 5px 50px; }
+	.menulogo-panel{ margin-top: 0; }
+	.revtp-searchform input[type="text"]{ width: 60% !important; }
+	.searchrev{ margin-left: 30px; }
+	.search-domain h3{ text-align: center; }
+	.top-panel-info li::after{ display: none; }
+}
+
+/* ---------------------------------------------------------------------- */
+/*	480px Version
+/* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 480px) {
+	.plus-service .star-price-currency { left: 138px; }
+	.WebProduct-Button{ font-size: 12px !important; line-height: 42px !important;}
+	.revtp-searchform input[type="text"]{
+	    width: 40% !important;
+   		margin-left: 65px !important;
+   	}
+	.search-domain .revtp-searchform input[type="text"] {
+	    margin-left: 0 !important;
+	    width: 56% !important;
+	}
+	.search-domain .searchrev input[type="submit"]{ margin-top: 10px; }
+	.about .about-info .title-header h3{ line-height: 45px; }
+	.quote-company h2 {
+	    font-size: 40px;
+	    line-height: 50px;
+	}
+	.quote-company { padding: 50px 20px 50px 20px; }
+	.star-pricing-table { max-width: 300px; }
+	.star-price-currency { left: 65px; }
+}
+
+/* ---------------------------------------------------------------------- */
+/*	384px Version
+/* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 384px) {
+	.search-domain p{
+		float: none;
+		text-align: center;
+	}
+	.search-domain .revtp-searchform input[type="text"] { width: 100% !important; }
+	.search-domain .slider-style{ margin-left: 0; margin-top: 10px; }
+	.search-domain .searchrev input[type="submit"]{  margin-top: 10px; width: 61%; }
+	.box-services-active li i{ font-size: 50px; }
+	.box-services-active li { padding: 40px 24px !important; }
+	.quote-company { 
+		padding: 30px 30px; 
+		margin: 0;
+	}
+	.quote-company h2 {
+    	font-size: 30px;
+    	line-height: 40px;
+	}
+	.list-features-plus ul.left li::before, .list-features-plus ul.right li::after{ 
+		font-size: 10px;
+    	margin-right: 5px;
+    	padding: 9px;
+	}
+	.star-price-currency { left: 82px; }
+	.testimonials h3{ font-size: 21px; }
+	footer .col-xs-6{ width: 100%; }
+	.image-map{ display: none; }
+	.revtp-searchform input[type="text"]{
+		width: 30% !important;
+    	margin-left: 110px !important;
+	}
+	.searchrev input[type="submit"]{ padding: 0 8px; font-size: 12px; }
+	.search-domain .searchrev { margin-left: 0; }
+	.star-price-currency { left: 60px; }
+	.plus-service .star-price-currency { left: 70px; }
+}

@@ -1,0 +1,14 @@
+===========================
+27 July, 2017 - Version 1.7
+===========================
+
+-----------------------------------------------------------------------
+Backup your theme/style folder and files before applying these updates.
+-----------------------------------------------------------------------
+
+[+] Added Option to Set How Many Category Tab will Show in Dedicate Hosting Pricing Section
+[+] Added Option to Set How Many Category Tab will Show in Hosting Pricing Section
+[*] Fixed Some Minor CSS Issues
+
+***(need to update the 'ecohosting' Theme to get the above changes)***
+

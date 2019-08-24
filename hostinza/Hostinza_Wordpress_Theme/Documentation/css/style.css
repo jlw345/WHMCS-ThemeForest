@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555555;
+    background-color: #ffffff;
+}
+
+.navbar {
+    line-height: 40px;
+}
+.navbar-inner, .navbar-static-top .navbar-inner {
+
+    background: #FA6742;
+}
+.main-doc {
+    padding-top: 50px;
+}
+.navbar .brand {
+    color: #fff;
+    float: none;
+    text-shadow: none;
+    font-size: 18px;
+    padding: 15px 0 5px;
+    margin: 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+.main-content{
+    margin-top:40px;
+}
+.nav-list > .active > a, .nav-list > .active > a:hover {
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+    background: #FA6742;
+}
+
+.nav > li > a{
+    color:#000;
+}
+
+.tocify {
+
+    margin-top: 40px;
+    border-radius: 0;
+}
+
+.tocify-subheader li{
+    font-size: 13px;
+}
+
+.hero-unit p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+    font-weight: bold;
+    line-height: 20px;
+    color: #252a37;
+}
+h1, h2, h3 {
+    line-height: 40px;
+}

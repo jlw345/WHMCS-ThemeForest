@@ -1,0 +1,196 @@
+/******************************************
+    File Name: dark.css
+    Template Name: HostHubs
+    Created By: Show WP Team
+    Envato Profile: http://themeforest.net/user/wordpressshowcase
+    Website: https://showwp.com
+    Version: 1.0
+    Support: wordpressshowcasecom@gmail.com
+/******************************************
+
+/******************************************
+    DARK 
+******************************************/
+
+.center-tab .with-nav-tabs.panel-primary .nav-tabs > li.active > a:hover::after,
+.center-tab .with-nav-tabs.panel-primary .nav-tabs > li.active > a:focus::after,
+.center-tab .with-nav-tabs.panel-primary .nav-tabs > li.active > a::after {
+    border-top-color: #010101 !important
+}
+
+.wbp,
+.withbg,
+.dropdown:hover .widhbgcolor,
+.withbgcolor,
+.dropdown-menu,
+.footer-distributed,
+.navbar-right > li > .dropdown-menu li,
+.newsletter-widget .form-control,
+.rightv span,
+.box-feature-03,
+.whitebg,
+.tab-style-1 .nav-tabs > li:hover > a,
+.tab-style-1 .nav-tabs > li.active > a,
+.pricing-box-08.white-style .my_planHeader.my_plan2,
+.pricing-box-08.white-style .my_planHeader.my_plan1,
+.first-accordion.withicon .panel-default > .panel-heading,
+.flat.white-style .plan,
+.checkdomain-wrapper .form-control,
+.my_featureRow,
+.center-tab .panel.with-nav-tabs .nav-tabs,
+.banner,
+.box-feature-02,
+#pricing-table .pricing .pricing-list,
+.cart-body .panel-info > .panel-heading,
+.chat-wrapper .panel-footer,
+.center-tab .wb,
+.pager li > a,
+.pager li > span,
+.accordion-toggle-2 .panel,
+.accordion-toggle-2 .panel-title,
+.accordion-toggle-2 .panel-heading a:hover,
+.accordion-toggle-2 .panel-heading a:focus,
+.accordion-toggle-2 .panel-heading a,
+.section,
+.content,
+.header {
+    background-color: #010101 !important
+}
+
+.market-clients .owl-item img,
+.row-elements .box,
+.work-elements li .box,
+.navbar-right > li > .dropdown-menu li .form-control,
+.smallsec,
+.footer-distributed .footer-center i,
+.footer-distributed .footer-icons a,
+.dropdown-menu > li:hover > a,
+.footer,
+.cart-body .form-control,
+.customtab .nav-pills > li > a,
+.lists-elements li .box,
+.box-feature-04,
+.box-feature-01,
+.pagination > li > a,
+.pagination > li > span,
+.panel,
+.progress,
+.hover-services .box,
+.chat-wrapper .input-group .form-control,
+.checkbox-warning input[type="checkbox"] + label::before,
+.checkbox-warning input[type="radio"]:checked + label::before,
+.checkdomain-wrapper .form-group,
+.post-padding blockquote,
+.contact_form .form-control,
+.section.lb,
+.after-header,
+.comments .media-list li,
+.dropdown-menu li:hover,
+.pricing-bigger,
+.pricing-bigger .pricing-body ul li,
+.dropdown-menu li:focus,
+.navbar-nav > li:hover,
+.navbar-nav > li:focus,
+.greybox,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.topbar {
+    background-color: #222222 !important;
+}
+
+.my_featureRow,
+#pricing-table .pricing .pricing-list,
+#pricing-table .pricing .pricing-list ul li,
+.navbar-right > li > .dropdown-menu li .form-control,
+.chat li,
+.first-accordion .panel,
+.first-accordion .panel-body,
+.panel-default > .panel-heading + .panel-collapse > .panel-body,
+.panel,
+.workinghours ul li,
+.flat.white-style .plan,
+.pricing-bigger .pricing-body ul li,
+.pricing-bigger,
+.checkbox-warning input[type="checkbox"] + label::before,
+hr,
+.tab-style-1 .nav-tabs > li:hover > a,
+.tab-style-1 .nav-tabs > li.active > a,
+.yamm-content .widget-title h4,
+.dropdown-menu,
+.navbar-nav > li > .dropdown-menu,
+.section-title h3,
+.related-posts .entry,
+.chat-wrapper .input-group .form-control,
+.panel-footer,
+.pricing-box-08.white-style .my_planHeader.my_plan2,
+.pricing-box-08.white-style .my_planHeader.my_plan1,
+.work-elements li .box,
+.first-accordion.withicon .panel-default > .panel-heading,
+.checkdomain-wrapper .form-control,
+.lists-elements li .box,
+.content,
+.cart-body .panel-info > .panel-heading,
+.comments .media-list li,
+.contact_form .form-control,
+.tab-style-1 .tab-content,
+.checkdomain-wrapper .form-group,
+.center-tab .panel.with-nav-tabs .nav-tabs,
+.center-tab .with-nav-tabs,
+.center-tab .with-nav-tabs.panel-primary .nav-tabs > li,
+.center-tab .with-nav-tabs.panel-primary .nav-tabs > li:first-child,
+.banner,
+.pricing-bigger .pricing-border,
+.navbar-nav > li {
+    border-color: #292929 !important;
+}
+
+a,
+.chat .primary-font,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #ffffff;
+}
+
+.whitebg h3,
+.cart-body .panel-info > .panel-heading,
+.workinghours ul li,
+.pagination > li > a,
+.pagination > li > span,
+blockquote cite::before,
+blockquote cite,
+#pricing-table .pricing .pricing-list ul li,
+#pricing-table .pricing .pricing-list ul li span,
+.dropdown-menu > li:hover > a,
+.yamm-content .widget-title h4,
+.big-title h3 span,
+.center-tab .with-nav-tabs.panel-primary .nav-tabs > li.active > a,
+.center-tab .with-nav-tabs.panel-primary .nav-tabs > li.active > a:hover,
+.center-tab .with-nav-tabs.panel-primary .nav-tabs > li.active > a:focus,
+.navbar-nav > li > a {
+    color: #ffffff !important;
+}
+
+.readmore,
+.large-post-meta small,
+.large-post-meta a {
+    color: #777777 !important;
+}
+
+.yamm ul li a {
+	color:#aaaaaa;
+}
+.related-posts .entry p a,
+body,
+li,
+p {
+    color: #777777;
+}
+
+.frameTC .content {
+    background-color: transparent !important;
+}

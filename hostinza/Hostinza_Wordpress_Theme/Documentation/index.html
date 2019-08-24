@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Hostinza - WordPress Theme</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <!-- Le styles -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/jquery.tocify.css" rel="stylesheet">
+        <link href="css/prettify.css" type="text/css" rel="stylesheet" />
+        <link href="css/style.css" type="text/css" rel="stylesheet" />
+
+        <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <!-- Le fav and touch icons -->
+        <link rel="shortcut icon" href="../ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="../ico/apple-touch-icon-57-precomposed.png">
+        <!-- Syntax Highlighter -->
+
+          <style>
+            body {
+                padding-top: 20px;
+            }
+            p {
+                font-size: 16px;
+                line-height: 25px;
+                margin: 15px 0;
+            }
+            .headerDoc {
+                color: #005580;
+            }
+            hr {
+                margin-top: 180px;
+            }
+            img {
+                margin: 30px 0;
+                padding: 10px;
+                background: #EDEDED;
+            }
+            .alert {
+                font-size: 16px;
+                padding: 5px 10px;
+                line-height: 27px;
+                font-weight: 500;
+            }
+            .lis li{line-height: 25px; font-size: 16px;}
+            .tocify {
+                width: 20%;
+                max-height: 90%;
+                overflow: auto;
+                margin-left: 0
+            }
+            .span9.builder{
+                margin-left: 0px;
+            }
+            .wistia_18_socialbar {
+                display: none;
+            }
+            /*            p>b {
+                            font-size: 24px
+                        }*/
+            @media (max-width: 767px) {
+                #toc {
+                    position: relative;
+                    width: 100%;
+                    margin: 0px 0px 20px 0px;
+                }
+            }
+        </style>
+        <base target="_blank">
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-fixed-top ">
+
+            <div class="navbar-inner">
+                <div class="container">
+                    <p class="brand" >Documentation for Hostinza - WordPress Theme<p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid main-doc">
+
+
+            <div class="row-fluid">
+                <div class="span3">
+                    <div id="toc">
+                    </div><!--/.well -->
+                </div><!--/span-->
+                <div class="span9 builder">
+                    <div class="main">
+                        <div class="hero-unit">
+                            <h2>General information</h2>
+
+                            Hostinza Version: 1.0
+                            <br>
+                            Created:  01/05/2018
+                            <br>
+                            Created by: XpeedStudio
+                            <br>
+                            Any Advice?: <a href="http://themeforest.net/user/XpeedStudio#contact"  target="_blank">Send message from contact form</a><br>
+                            Need Help ? <a href="http://support.xpeedstudio.com/forums/" target="_blank">Open support ticket in our Support Center</a>
+                            <br>
+                            <p>Thank you for purchasing our theme. If you have any questions that are beyond the scope of this help file, please feel free to open support ticket in our <a href="http://support.xpeedstudio.com/forums/ " target="_blank">support forum </a>. Thanks so much!</p>
+                        </div>
+
+
+                        <hr>
+                        <h2>Introduction and quick start guide.</h2>
+
+                        <p>Thank you so much for purchasing our theme called <strong>Hostinza - WordPress Theme</strong>. Please feel free to contact us if you have questions or problems about this theme. No guarantee is provided, but we will do our best to provide you with the best possible assistance.</p>
+
+
+
+
+
+                        <h3>First Step</h3>
+
+
+
+                        <ul>
+                            <li><strong>Documentation</strong> - <em>That's where you</em></li>
+                            <li><strong>License</strong> - <em>Some info's about theme licencing terms</em></li>
+                            <li><strong>Dummy Content</strong> - <em>Placeholder content for testing the theme</em></li>
+                            <li><strong>SampleData</strong> - <em>Import Data to get the exact Site as the Preview Page</em></li>
+                            <li><strong>Upload</strong> - <em>This is where all Theme files are (zipped &amp; unzipped format)</em></li>
+                        </ul>
+                        &nbsp;
+
+                        First of all if you are all new to WordPress, I would recommend to learn a little bit about it before you get started. Here are some nice Resources on how to get started with WordPress.
+
+                        &nbsp;
+                        <ul>
+                            <li><a title="First Steps With WordPress" href="http://codex.wordpress.org/First_Steps_With_WordPress">First Steps With WordPress</a></li>
+                            <li><a title="FAQ New To WordPress" href="http://codex.wordpress.org/FAQ_New_To_WordPress">FAQ New To WordPress</a></li>
+                            <li><a title="WP101 Basix Training" href="http://wp.tutsplus.com/sessions/wp101-basix-training/">WP101 Basic Training</a></li>
+                        </ul>
+
+
+                        <hr />
+                        <h3>What are Parent and Child Themes?</h3>
+                        <p>A WordPress child theme takes the functionality of another theme, named parent theme. It gives you the possibility to customize an existing theme. Instead of modifying the theme files directly, you can activate the child theme and work within it.</p>
+
+                        <p>All customizations are stored in the child theme and anything in the child takes priority over the parent. So if the same file exist in both child and parent, the file from the child will control that aspect of the theme.</p>
+
+                        <p>Working with child themes, your customizations are safeguarded from future upgrades because you only upgrade the parent theme, which you never edit, while the customizations are protected in your child theme which you don’t upgrade.</p>
+
+                        <p><b>Why use a Child theme?</b></p>
+
+                        <p>Safe Updates. You can easily modify your website using child themes without ever changing the parent theme. When a new version of the parent theme appears, you can safely update it as all your modifications are saved in the child theme.</p>
+
+                        <p>Easy to Extend. A child theme has a great flexibility. It does not require writing a lot of code. You can modify only those template files and functions that you need.</p>
+                        <div class="alert alert-danger" role="alert">
+                            When you install one of our Hostinza themes you must upload both Hostinza parent and Hostinza child theme folders to /wp-content/themes/ but you should only activate the Hostinza Child theme via <b>Appearance ->  Themes</b>.
+                        </div>
+
+                        <hr />
+                        
+                        <h3> Install Theme / required plugins / demo content and setup</h3>
+                        <ul>
+                            <li><b>FTP Upload:</b>
+                                <ul>
+                                    <li>Unzip the <b>"hostinza.zip"</b> file from theme folder</li>
+                                    <li>Open up your FTP manager and connect to your hosting</li>
+                                    <li>Browse to wp-content/themes</li>
+                                    <li>Upload the <strong>Hostinza </strong> in theme folder</li>
+                                    <li>Log Into WordPress and go to <b>Appearance</b> &gt; <b>Themes</b></li>
+                                    <li>Find the <b>Hostinza</b> Theme and click activate</li>
+                                </ul>
+                            </li>
+
+                            <li><b>WordPress Upload:</b>
+
+                                <ul>
+                                    <li>Log into your WordPress backend</li>
+                                    <li>Navigate to <strong>Appearance &gt; Themes</strong></li>
+                                    <li>Click <strong>Install Themes</strong></li>
+                                    <li>Click <strong>Upload</strong></li>
+                                    <li>Now you just need to find the "hostinza.zip" in the Upload folder and hit <strong>Install now</strong>.</li>
+                                    <li>After complete installation click on active button to active The theme.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <p>
+                            If you are experiencing any issues during the installation I would recommend to check out this
+
+                        </p>
+                        <h4>Installation Screencast</h4>
+
+                        <ol><strong>
+                            <li>ACTIVATE THEME</li>
+                            <li>.. That's it ! :) ...</li>
+                        </strong></ol>
+                        <p>Here's our  demo data install screencast:</p>
+                        <iframe width="860" height="615" src="https://www.youtube.com/embed/QhmxXrLhgFk" frameborder="0" allowfullscreen></iframe>
+
+
+                        <h2>Theme Customizer</h2>
+
+                        <h3>General Setting</h3>
+                        <p>You can find the all Theme Option from <strong>Appearance-> Customize->Theme Options</strong></p>
+
+                        <p> From <b>General Settings</b>, you can add/update your site logo, enable/disable preloader, Google Map API Key, and Social Media at the top etc.</p>
+                        <p>You can cretae your google api key from here. <a href="https://console.cloud.google.com/apis/">Click Here</a></p>
+                        <img src="images/customizer-1.png" alt="" />
+                        <hr />
+
+                        <h3>Navigation Setting</h3>
+                        <p>To change the header layout and social media go to Appearance > Customize >Hostinza Options > <b>Header Settings</b> and scroll down a little bit</p>
+                        <ul>
+                            <li>1. Header layout change the header layout. </li>
+                            <li>2. Change the header primary color </li>
+                            <li>3. Topbar email/phone/navigation.</li>
+                            <li>4. Show or Hide search</li>
+                            <li>5. Show or Hide sidebar</li>
+                            <li>6. Contact info</li>
+                            <li>7. Shor/Hide subscribe form</li>                       
+                        </ul>
+                        <img src="images/customizer-2-1.png" alt="" />
+                        <img src="images/customizer-2-2.png" alt="" />
+                        <hr />
+
+                        <h3>Page Settings</h3>
+                        <p>To change the page layout and page breadcrumb, go to Appearance > Customize >Theme Options > <b>Page Settings</b> </p>  
+                        <img src="images/customizer-3.png" alt="" />
+                        <hr />
+
+                        <h3>Blog Settings</h3>
+                        <p>To change the Blog layout and blog breadcrumb, go to Appearance > Customize >Theme Options > <b>Blog Settings</b> </p>  
+                        <img src="images/customizer-4.png" alt="" />
+
+                        <h3>Single Blog Settings</h3>
+                        <p>To change the single Blog layout, go to Appearance > Customize >Theme Options > <b>Single Blog Settings</b> </p>  
+                        <img src="images/customizer-5.png" alt="" />
+                        <hr />
+
+                        <h3>Footer Settings</h3>
+                        <p>To change the Footer, go to Appearance > Customize >Theme Options > <b>Footer Settings</b> </p> 
+                        <ul>
+                             <li>1. Number of column in footer widget area</li>
+                             <li>2. Footer background image</li>
+                             <li>3. Upload footer logo</li>
+                             <li>4. footer Background color & text color etc.</li>
+                             <li>5. Enable/Disable terms & security </li>
+                             <li>6. Copyright text</li>
+                             <li>7. Copyright text background color & text color</li>
+                             <li>8. Social Control</li>
+                         </ul> 
+                         <img src="images/customizer-6.png" alt="" />
+                        <img src="images/customizer-7.png" alt="" />
+                        <hr />
+
+                        <h3>404 Settings</h3>
+                        <p>To change the 404 page title, back to home button text, 404 logo. Go to Appearance > Customize >Theme Options > <b>Styling Settings</b> </p>
+                        <img src="images/customizer-9.png" alt="" />
+                        <hr />
+
+                        <h3>Styling Settings</h3>
+                        <p>To change the font family, font style, font color, font size etc. Go to Appearance > Customize >Theme Options > <b>Styling Settings</b> </p>
+                        <img src="images/customizer-8.png" alt="" />
+                        <hr />
+
+
+                       
+                        <h2>Visual Page Builder</h2>
+                            <h3>Accessing the editor</h3>
+                            <br>
+                            <p>To start working with Elementor, go to the WordPress dashboard. Then, add a new page by clicking on Pages > Add New.  Then, create a new page and save it with the 'full width' template and then click on the 'Edit with Elementor' button. </p>
+                             <img src="images/seobin-page-creation.png" alt="" />
+                             <h3>Elementor UI: Getting to know the interface</h3>
+
+                             <p>
+                               The Elementor page builder includes these main areas:                
+                               <br>
+                               1.   
+                               <strong>Panel (Top)</strong>: Use the search field to find a widget.             <br>
+                               2.   
+                               <strong>Widgets / Widget Settings: </strong>Choose a widget and configure it.            <br>
+                               3.   
+                               <strong>Preview Button: </strong>Enables you to preview the page. Once clicked it hides/shows the panel.             <br>
+                               4.   
+                               <strong>Panel (Bottom)</strong>: View page, Go back to Dashboard or Save page.           <br>
+                               5.   
+                               <strong>Content Area:</strong> Drag &amp; drop widgets and design your page.             <br>
+                               6.   
+                               <strong>Add New Section / Add Template:</strong> Choose between creating a new section or inserting an existing template.
+                            </p>
+                            <img src="images/elements.png">
+                            <h3>Creating your section</h3>
+
+                        <br />
+                        <p>A section is the most basic element that you can work with. It's the building block of every page. A section can be set as full width and spread all over the screen, or receive the content area width (by default).</p>
+                       
+                       <iframe width="850" height="450" src="https://www.youtube.com/embed/joWTUN77hnA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <br />
+                        <br />
+                        <p>
+                            After you create a section you can drag and drop a widget inside. You can also divide each section to few columns. Every page you create can contain as many sections as you want. You can drag a section above or under another one to relocate it.
+                            <ol>
+                                <li>Add New Section: Click this button to create a new section or simply drag a widget from the panel and drop it in the content area. </li>
+                                <li>
+                                     Select Yout Structure: Choose a structure for your section (Later, you can edit the exact width of every column).
+                                </li>
+                            </ul>
+                            You can edit, duplicate or delete a section. You can also save it as a template or add a new section above. 
+                        </p>
+                        <img src="images/elements_section.png">
+                        <h3>Adding columns to sections</h3>
+                        <br>
+                        <p>
+                            Every section includes one or more columns. You are able to insert your content into each column. You can easily arrange and order the columns, simply by dragging and dropping them.
+                        </p>
+                        <p>
+                            You can edit, duplicate, add or delete a column. You can also drag & drop it anywhere on your page. 
+                            Resize Column: Drag right & left to change the width of your columns.  
+                        </p>
+                        <img src="images/elements_column.png">
+                        <h3>Inserting a widget </h3>
+                        <br>
+                        <p>Click the content to edit, duplicate or delete a widget. You can also save it as a  Global Widget. Add Widget: Drag a widget from the left panel and drop it into a column.</p>
+                        <p>
+                           1. To edit a widget, click the pencil icon.          
+                           <br>
+                           2. On the Panel header, you can choose to edit the widget's content and style.                   
+                           <br>
+                           3. Every widget has a different setting.&nbsp;                   
+                           <br>
+                           4. You can save your current changes at any stage.                   
+                           <br>
+                           5. When you have finished designing, click the 'X' button at the bottom panel and view the page.
+                        </p>
+                        <img src="images/elements_widget.png">
+
+
+                        <h2>Hostinza Shortcodes</h2>                        
+                        <h3>Create Elementor Page</h3>
+                        <img src="images/elementor-widgets-1.png">
+                        <hr>
+
+                        <h3>Hostinza Slider</h3> 
+                        <img src="images/elementor-widgets-2.png">
+                        <hr>
+
+                        <h3>Hostinza Domain Search</h3> 
+                        <p>In WHMCS URL field, put the site URL of your WHMCS installation. Make sure this is exactly the same as the settings field 'WHMCS System URL</p>
+                        <img src="images/elementor-widgets-21.png">
+                        <hr>
+
+                        <h3>Hostinza Heading</h3> 
+                        <img src="images/elementor-widgets-3.png">
+                        <hr>
+
+                        <h3>Hostinza Image Box</h3> 
+                        <img src="images/elementor-widgets-4.png">
+                        <hr>
+
+                        <h3>Hostinza Pricing Plans</h3> 
+                        <img src="images/elementor-widgets-5.png">
+                        <hr>
+
+                        <h3>Hostinza Service</h3> 
+                        <img src="images/elementor-widgets-6.png">
+
+                        <h3>Hostinza Service</h3> 
+                        <img src="images/elementor-widgets-6.png">
+                        <hr>
+
+                        <h3>Hostinza Call to Action</h3> 
+                        <img src="images/elementor-widgets-7.png">
+                        <hr>
+
+                        <h3>Hostinza Logo Carousel</h3> 
+                        <img src="images/elementor-widgets-8.png">
+                        <hr>
+
+                        <h3>Hostinza Animated Image</h3> 
+                        <img src="images/elementor-widgets-9.png">
+                        <hr>
+
+                        <h3>Hostinza Spinning Icon</h3> 
+                        <img src="images/elementor-widgets-10.png">
+                        <hr>
+
+                        <h3>Hostinza Button</h3> 
+                        <img src="images/elementor-widgets-11.png">
+                        <hr>
+
+                        <h3>Image Box</h3> 
+                        <img src="images/elementor-widgets-12.png">
+                        <hr>
+
+                        <h3>Image</h3> 
+                        <img src="images/elementor-widgets-13.png">
+                        <hr>
+
+                        <h3>Hostinza Testimonial</h3> 
+                        <img src="images/elementor-widgets-14.png">
+                        <hr>
+
+                        <h3>Hostinza Post</h3> 
+                        <img src="images/elementor-widgets-15.png">
+                        <hr>
+
+                        <h3>Hostinza Domain Price</h3> 
+                        <img src="images/elementor-widgets-16.png">
+                        <hr>
+
+                        <h3>Hostinza Pricing Table</h3> 
+                        <img src="images/elementor-widgets-18.png">
+                        <hr>
+
+                        <h3>Hostinza Dedicated Server Pricing</h3> 
+                        <img src="images/elementor-widgets-17.png">
+                        <hr>
+
+                        <h3>Hostinza VPS Slider</h3> 
+                        <img src="images/elementor-widgets-19.png">
+                        <hr>
+
+                        <h3>Hostinza Team</h3> 
+                        <img src="images/elementor-widgets-20.png">
+                        <hr>
+
+                        <h2>Creating Mega Menu</h2>
+                        <p>To create a mega menu is really simple. Just follow the instruction</p>
+                        <img src="images/megamenu-1.png">
+                        <img src="images/megamenu-2.png">
+                        <img src="images/megamenu-3.png">
+                        <h2>Credits</h2>
+
+
+                        <p>The Plugins/Components that were used to make this theme:</p>
+
+                        &nbsp;
+                        <ul>
+
+                            <li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+                            <li><a href="https://github.com/scdoshi/jquery-ajaxchimp">Ajax chimp</a></li>
+                            <li><a href="http://unyson.io">Unison Framework</a></li>
+                            <li><a href="">jquery.countdown</a></li>
+                            <li><a href="">jquery.easing</a></li>
+                            <li><a href="">jquery.easypiechart</a></li>
+                            <li><a href="">jquery-contact</a></li>
+                            <li><a href="">jquery.localScroll</a></li>
+                            <li><a href="">jquery.scrollTo</a></li>
+                            <li><a href="">modernizr-2.8.3</a></li>
+                            <li><a href="">owl.carousel</a></li>
+                            <li><a href="">smoothscroll</a></li>
+                            <li><a href="">tweet-featcher</a></li>
+                            <li><a href="">wow.min</a></li>
+                            <li><a href="">waypoints</a></li>
+
+                        </ul>
+
+                        &nbsp;
+
+                        &nbsp;
+
+                        <p>Video Background Used:</p>
+                        <ul>
+                            <li><a href="http://www.ignitemotion.com/video_background/Bubbles_Animation/4a0Pbx0_BBA/">ignitemotion</a></li>
+                        </ul>
+                        <p>icons Used:</p>
+                        <ul>
+                            <li><a href="http://fontawesome.io/icons/">Font Awesome</a></li>
+                        </ul>
+                        &nbsp;
+                        <p>Image used</p>
+                        <ul>
+                            <li><a href="#.">Flickr</a></li>
+                            <li><a href="#.">Behance</a></li>
+                            <li><a href="#.">Unsplash</a></li>
+                            <li><a href="http://thezinx.com/design/20-amazing-crystalized-wallpapers/">zinx</a></li>
+                        </ul>
+                        &nbsp;
+
+                        <p>Special Thanks to:</p>
+
+                        &nbsp;
+                        <ul>
+                            <li><a href="#.">MoldCraft</a></li>
+                            <li><a href="#.">valeriuzdrobau</a></li>
+                            <li><a href="#.">GheorgheP</a></li>
+                            <li><a href="#.">Ilemuria</a></li>
+                            <li><a href="#.">Emran Susuke</a></li>
+
+                        </ul>
+
+                        <p>Personal images used in demo, and for demo content themeforest assets library.</p>
+
+                        &nbsp;
+
+                        &nbsp;
+
+                        <p>Once again, thank you so much for purchasing our theme. As we said at the beginning, we are glad to help you if you have any questions relating to this theme. Just contact us via email at xpeedstudio@Gmail.com. And please do not forget to rate this theme! :)</p>
+
+                        <p>XpeedStudio</p>
+
+
+
+
+
+
+
+                    </div><!--main-->
+                </div>
+
+            </div><!--/row-->
+
+        </div><!--/.fluid-container-->
+
+        <!-- Le javascript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery-ui-1.9.1.custom.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.tocify.min.js"></script>
+        <script src="js/jquery.syntaxhighlighter.min.js"></script>
+
+        <script>
+            $( function () {
+
+                var toc = $( "#toc" ).tocify( {
+                    selectors: "h2,h3,h4,h5",
+                    highlightOffset: 40,
+                    scrollTo: 70,
+                    showAndHide: true
+                } ).data( "toc-tocify" );
+
+
+
+            } );
+            $.SyntaxHighlighter.init();
+        </script>
+
+    </body>
+</html>

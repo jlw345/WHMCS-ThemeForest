@@ -1,0 +1,37 @@
+/*BACKGROUND*/
+.btns-fixed ul li:hover,
+.box-services-active li .btn-link, .btn-link,
+.resalt-zone,
+.list-features-plus ul.left li::before,
+.list-features-plus ul.right li::after,
+.search-domain .searchrev input[type="submit"],
+#theme-options .openclose:before,
+.searchrev input[type="submit"],
+.info-highlighted .text-big i,
+.text-list ul li::before,
+.form-contact input[type=submit]{ background-color: #79316e; }
+
+/*COLOR*/
+.social-big-zone a:hover i, .link-color,
+.quote-company span,
+.star-style-pricing:hover .star-discount,
+.about-short-text h2 a,
+#theme-options .layout-style li.active, #theme-options .layout-style li.active a,
+.info-highlighted .text-big h2,
+.btn-link:hover,
+.box-services-active li i,
+.about-short-text a,
+.social li:hover a i,
+.services i,
+.testimonials a:hover,
+.item-features h4 i{ color:#79316e; }
+
+/*BORDER*/
+.about-short-text h2, .btn-link{ border-color: rgba(121,49,110,0.8); }
+
+/*BACKGROUND OPACITY*/
+.tp-caption.tp-shape.tp-shapewrapper.tp-resizeme,
+.searchrev input[type="submit"]{ background-color: rgba(121,49,110,0.9); }
+
+.btn-link-border:hover,
+.star-style-pricing:hover .btn-link-border{ border-color: #79316e; color: #79316e; }

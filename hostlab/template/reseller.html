@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Host Lab</title>
+    <meta name="description" content="">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/open-sans.css" rel="stylesheet">
+    <link href="css/lato.css" rel="stylesheet">
+    <link href="css/idangerous.swiper.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="img/favicon.ico" rel="shortcut icon">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="loader"></div>
+    <!-- 
+    *******************
+        HEADER    
+    ******************* 
+    -->
+    <div class="main-header">
+      <div class="container no-padding-sm">
+        <div class="row">
+          <div class="header-info">
+            <div class="col-sm-6">
+              <div class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" role="button">
+                <img src="img/en-flag.png" width="18" alt="en"> English<span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href=""><img src="img/es-flag.png" width="18" alt="es"> Español</a></li>
+                  <li><a href=""><img src="img/de-flag.png" width="18" alt="de"> Deutsch</a></li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" role="button">
+                USD ($)&nbsp;<span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="">EUR (€)</a></li>
+                  <li><a href="">CNY (¥)</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="pull-right">
+                <a class="phone" href="tel:+0000000000"> +0-345-222-1111</a>
+                <a href="#">Support</a>
+                <a href="#" data-toggle="modal" data-target="#mylogin">Login</a>
+                <a href="cart.html" class="cart"> <i class="fa fa-shopping-cart"></i>0</a>
+                <a href="register.html" class="cart"> <span class="btn xs">Get Started</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+    *******************
+        LOGIN   
+    *******************
+    -->
+    <div class="modal" id="mylogin">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <form action="http://inebur.com/hostlab/whmcs/dologin.php?goto=clientarea.php" method="post" class="login-form">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="wrapper">
+                  <h3 class="title"><i class="fa fa-lock"></i> Log in</h3>
+                  <div class="subtitle">Access myHostlab area</div>
+                  <input type="email" name="username" class="field"  placeholder="Primary Email" required>
+                  <input type="password" name="password" class="field" placeholder="Password" required>
+                  <button type="submit" class="btn btn-block">LOGIN</button> 
+                  <label class="label-form"><input type="checkbox" class="btn-check">Remember me</label>
+                  <a href="https://clearwaterhost.com/pwreset.php" class="link">Forgot my password</a>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- 
+    *******************
+        NAV MENU    
+    ******************* 
+    -->
+    <div class="menu-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 no-padding">
+            <a href="index.html"><img src="img/logo.png" alt="logo" class="logo-menu"></a>
+          </div>
+          <div class="col-sm-9 col-lg-7 col-lg-offset-2 no-padding">
+            <nav class="nav-menu">
+              <button class="menu-toggle">
+              <span class="icon"></span>
+              <span class="icon"></span>
+              <span class="icon"></span>
+              </button>
+              <ul class="main-menu">
+                <li class="menu-item menu-item-has-children">
+                  <a href="index.html">Home</a>
+                  <ul class="sub-menu">
+                    <li class="menu-item"><a href="index.html">Home Layout 01</a></li>
+                    <li class="menu-item"><a href="homepage-2.html">Home Layout o2</a></li>
+                    <li class="menu-item"><a href="homepage-3.html">Home Layout 03</a></li>
+                    <li class="menu-item"><a href="homepage-4.html">Home Layout 04</a></li>
+                  </ul>
+                </li>
+                <li class="menu-item active menu-item-has-children">
+                  <a href="hosting.html">Hosting</a>
+                  <div class="sub-menu menu-large">
+                    <ul class="container no-padding">
+                      <li class="service-list">
+                        <div class="row">
+                          <div class="col-sm-6 service">
+                            <div class="media-left">
+                              <i class="fa fa-diamond"></i>
+                            </div>
+                            <div class="media-body">
+                              <a class="menu-item" href="hosting.html">Shared Hosting</a>
+                              <p>Lorem ipsum dolor sit amet, ectetur.</p>
+                            </div>
+                          </div>
+                          <div class="col-sm-6 service">
+                            <div class="media-left">
+                              <i class="fa fa-users"></i>
+                            </div>
+                            <div class="media-body">
+                              <a class="menu-item" href="reseller.html">Reseller Hosting</a>
+                              <p>Adipiscing integer act lacinia ed justo.</p>
+                            </div>
+                          </div>
+                          <div class="col-sm-6 service">
+                            <div class="media-left">
+                              <i class="fa fa-cloud"></i>
+                            </div>
+                            <div class="media-body">
+                              <a class="menu-item" href="cloud.html">Cloud VPS</a>
+                              <p>Dolor sit amet conse adipiscing orci.</p>
+                            </div>
+                          </div>
+                          <div class="col-sm-6 service">
+                            <div class="media-left">
+                              <i class="fa fa-server"></i>
+                            </div>
+                            <div class="media-body">
+                              <a class="menu-item" href="servers.html">Dedicated Server</a>
+                              <p>Tristique sit nunc non elit act ultricies.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="start-offer">
+                        <div class="inner">
+                          <div class="title">WordPress Hosting Plans</div>
+                          <p>Fully Managed Wordpress Hosting</p>
+                          <a href="wordpress.html" class="btn modern wordpress">See More Plans</a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="menu-item menu-item-has-children">
+                  <a href="domains.html">Domains</a>
+                </li>
+                <li class="menu-item menu-item-has-children">
+                  <a href="blog.html">Blog</a>
+                  <ul class="sub-menu">
+                    <li class="menu-item"><a href="blog.html">Blog Layout 01 </a></li>
+                    <li class="menu-item"><a href="blog-2.html">Blog Layout 02</a></li>
+                    <li class="menu-item"><a href="blog-single.html">Blog Details</a></li>
+                  </ul>
+                </li>
+                <li class="menu-item menu-item-has-children">
+                  <a href="about.html">Pages</a>
+                  <ul class="sub-menu">
+                    <li class="menu-item"><a href="about.html"> About Us</a></li>
+                    <li class="menu-item"><a href="services.html">Services</a></li>
+                    <li class="menu-item"><a href="team.html">Our Team</a></li>
+                    <li class="menu-item"><a href="404.html">404</a></li>
+                    <li class="menu-item"><a href="countdown.html">Coming Soon</a></li>
+                    <li class="menu-item"><a href="register.html">Register</a></li>
+                    <li class="menu-item"><a href="faq.html">Faq</a></li>
+                    <li class="menu-item"><a href="checkout.html">Checkout</a></li>
+                    <li class="menu-item"><a href="cart.html">Cart</a></li>
+                    <li class="menu-item"><a href="#" data-toggle="modal" data-target="#mylogin">Login</a></li>
+                  </ul>
+                </li>
+                <li class="menu-item menu-item-has-children"><a href="elements.html">Elements</a></li>
+                <li class="menu-item menu-item-has-children menu-last"><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+    *******************
+        NAV MENU MOBILE  
+    ******************* 
+    -->
+    <div class="menu-wrap mobile">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 no-padding">
+            <a href="index.html"><img src="img/logo.png" alt="logo" class="logo-menu"></a>
+          </div>
+          <div class="col-sm-9 col-lg-7 col-lg-offset-2 no-padding">
+            <nav class="nav-menu">
+              <button class="menu-toggle">
+              <span class="icon"></span>
+              <span class="icon"></span>
+              <span class="icon"></span>
+              </button>
+              <ul class="main-menu">
+                <li class="menu-item menu-item-has-children">
+                  <a>Home</a>
+                  <ul class="sub-menu">
+                    <li class="menu-item"><a href="index.html">Home Layout 01</a></li>
+                    <li class="menu-item"><a href="homepage-2.html">Home Layout o2</a></li>
+                    <li class="menu-item"><a href="homepage-3.html">Home Layout 03</a></li>
+                    <li class="menu-item"><a href="homepage-4.html">Home Layout 04</a></li>
+                  </ul>
+                </li>
+                <li class="menu-item active menu-item-has-children">
+                  <a>Hosting</a>
+                  <ul class="sub-menu">
+                    <li class="menu-item"><a href="hosting.html">Shared Hosting</a></li>
+                    <li class="menu-item"><a href="reseller.html">Reseller Hosting</a></li>
+                    <li class="menu-item"><a href="cloud.html">Cloud VPS</a></li>
+                    <li class="menu-item"><a href="servers.html">Dedicated Server</a></li>
+                  </ul>
+                </li>
+                <li class="menu-item">
+                  <a href="domains.html">Domains</a>
+                </li>
+                <li class="menu-item menu-item-has-children">
+                  <a>Blog</a>
+                  <ul class="sub-menu">
+                    <li class="menu-item"><a href="blog.html">Blog Layout 01 </a></li>
+                    <li class="menu-item"><a href="blog-2.html">Blog Layout 02</a></li>
+                    <li class="menu-item"><a href="blog-single.html">Blog Details</a></li>
+                  </ul>
+                </li>
+                <li class="menu-item menu-item-has-children">
+                  <a>Pages</a>
+                  <ul class="sub-menu">
+                    <li class="menu-item"><a href="about.html"> About Us</a></li>
+                    <li class="menu-item"><a href="services.html">Services</a></li>
+                    <li class="menu-item"><a href="team.html">Our Team</a></li>
+                    <li class="menu-item"><a href="404.html">404</a></li>
+                    <li class="menu-item"><a href="countdown.html">Coming Soon</a></li>
+                    <li class="menu-item"><a href="register.html">Register</a></li>
+                    <li class="menu-item"><a href="faq.html">Faq</a></li>
+                    <li class="menu-item"><a href="checkout.html">Checkout</a></li>
+                    <li class="menu-item"><a href="cart.html">Cart</a></li>
+                    <li class="menu-item"><a href="#" data-toggle="modal" data-target="#mylogin">Login</a></li>
+                  </ul>
+                </li>
+                <li class="menu-item"><a href="elements.html">Elements</a></li>
+                <li class="menu-item menu-last"><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+    *******************
+      	TOP BANNER
+    ******************* 
+    -->
+    <div class="top-header overlay img-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 no-padding">
+            <div class="wrapper">
+              <div class="heading">Our Reseller</div>
+              <div class="subheding">
+                <a href="index.html" class="link">home</a><small>&#9733;</small>
+                <a href="#" class="link">pages</a><small>&#9733;</small>
+                <a href="about.html" class="link active">Our Reseller</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+    *******************
+      	RESELLER PLANS
+    *******************
+    -->
+    <div class="hosting-plans pricing classic">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 no-padding-sm">
+            <div class="table-responsive">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <td></td>
+                    <td>
+                      <div class="title">Personal</div>
+                      <div class="price"><sup>$</sup>3.49<span class="period">/mo</span></div>
+                      <div class="info">Sed ut perspiciatis unde omnis iste<br> natus error sit voluptatem</div>
+                      <a href="" class="btn">get started</a><br>
+                    </td>
+                    <td>
+                      <div class="title">Professional</div>
+                      <div class="price"><sup>$</sup>9.99<span class="period">/mo</span></div>
+                      <div class="info">Sed ut perspiciatis unde omnis iste<br> natus error sit voluptatem</div>
+                      <a href="" class="btn">get started</a>
+                    </td>
+                    <td>
+                      <div class="title">Business</div>
+                      <div class="price"><sup>$</sup>14.99<span class="period">/mo</span></div>
+                      <div class="info">Sed ut perspiciatis unde omnis iste<br> natus error sit voluptatem</div>
+                      <a href="" class="btn">get started</a>
+                    </td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="section-bar" colspan="4">
+                      <span class="pull-right">Web Hosting includes</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="title-table" data-toggle="tooltip" data-placement="top" title="I must explain to you">Web Space
+                      </div>
+                    </td>
+                    <td>5GB</td>
+                    <td>Unlimited</td>
+                    <td>Unlimited</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div id="element" class="title-table" data-toggle="tooltip" data-placement="top" title="I must explain to you">Bandwidth
+                      </div>
+                    </td>
+                    <td>20GB</td>
+                    <td>40GB</td>
+                    <td>Unlimited</td>
+                  </tr>
+                  <tr>
+                    <td class="title-table">Websites</td>
+                    <td>120 Sites</td>
+                    <td>500 Sites</td>
+                    <td>2300 Sites</td>
+                  </tr>
+                  <tr>
+                    <td class="title-table">Mailboxes</td>
+                    <td>1.000</td>
+                    <td>9.000</td>
+                    <td>Unlimited</td>
+                  </tr>
+                  <tr>
+                    <td class="title-table">FTP account</td>
+                    <td><i class="fa fa-check"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                  </tr>
+                  <tr>
+                    <td class="title-table">Subdomains</td>
+                    <td><i class="fa fa-times"></i></td>
+                    <td>10.000</td>
+                    <td>Unlimited</td>
+                  </tr>
+                  <tr>
+                    <td class="title-table">Log in with SSH</td>
+                    <td><i class="fa fa-times"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                  </tr>
+                  <tr>
+                    <td class="title-table">Free Daily Backups</td>
+                    <td><i class="fa fa-check"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                    <td><i class="fa fa-times"></i></td>
+                  </tr>
+                  <tr>
+                    <td class="title-table">24x7 Support</td>
+                    <td><i class="fa fa-check"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                    <td><i class="fa fa-check"></i></td>
+                  </tr>
+                  <tr>
+                    <td class="no-border"></td>
+                    <td><a href="" class="btn">get started</a></td>
+                    <td><a href="" class="btn">get started</a></td>
+                    <td><a href="" class="btn">get started</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+    *******************
+      	PLANS INCLUDE
+    *******************
+    -->
+    <div class="host-plan">
+      <div class="container no-padding-sm">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="section-heading small-text">
+              All Plans Include 
+            </div>
+            <div class="section-subheading small-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis ante sed dui semper consequat.
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="wrapper">
+              <i class="fa fa-desktop"></i>
+              <div class="heading">Websites</div>
+              <div class="desc">
+                Sed ut perspiciatis unde omnis natus error sit voluptatem accusantium doloremque.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="wrapper">
+              <i class="fa fa-envelope"></i>
+              <div class="heading">Mailboxes</div>
+              <div class="desc">
+                Sed ut perspiciatis unde omnis natus error sit voluptatem accusantium doloremque.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="wrapper">
+              <i class="fa fa-gears"></i>
+              <div class="heading">FTP account</div>
+              <div class="desc">
+                Sed ut perspiciatis unde omnis natus error sit voluptatem accusantium doloremque.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="wrapper">
+              <i class="fa fa-support"></i>
+              <div class="heading">Support 24x7</div>
+              <div class="desc">
+                Sed ut perspiciatis unde omnis natus error sit voluptatem accusantium doloremque.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+    *******************
+      	HOSTING PLANS
+    *******************
+    -->
+    <div class="host-plans tab02">
+      <div class="container no-padding-sm">
+        <div class="row">
+          <div class="part-plans">
+            <div class="col-md-5 no-padding text-xs-center text-sm-center">
+              <div class="wrap-img wrap-img-2">
+                <img src="img/reseller.png" alt="icon" class="img img-responsive">
+              </div>
+            </div>
+            <div class="col-md-7 no-padding-sm text-xs-center text-sm-center">
+              <div class="heading">Reseller <br><span>Hosting</span></div>
+              <div class="subheading">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+              </div>
+              <div class="info-group">
+                <span class="text"><i class="fa fa-space-shuttle"></i> All-SSD Storage </span>
+                <span class="text"><i class="fa fa-lock"></i> Resources Protection </span>
+                <span class="text"><i class="fa fa-heart"></i> Free Migration</span>
+                <span class="text"><i class="fa fa-undo"></i> Backup &amp; Restore </span>
+                <span class="text"><i class="fa fa-envelope"></i> Unlimited Emails</span>
+                <span class="text"><i class="fa fa-support"></i> Suporte 24x7x365</span>
+              </div>
+              <a href="" class="btn">Starting at only $6.00 month</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+    *******************
+       HOSTING SERVICES 
+    *******************
+    -->
+    <div class="h-services">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="heading-section small-text">
+              Service Overview
+            </div>
+            <h3 class="section-subheading small-text">
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
+            </h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6">
+            <div class="wrap-service">
+              <i class="fa fa-envelope"></i>
+              <div class="heading">Unlimited Emails</div>
+              <div class="text-info">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="wrap-service">
+              <i class="fa fa-hdd-o"></i>
+              <div class="heading">Unlimite Disk Space</div>
+              <div class="text-info">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 clear-sm">
+            <div class="wrap-service">
+              <i class="fa fa-support"></i>
+              <div class="heading">27x7x365 Support</div>
+              <div class="text-info">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 clear-md">
+            <div class="wrap-service">
+              <i class="fa fa-tachometer"></i>
+              <div class="heading">High Speed</div>
+              <div class="text-info">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="wrap-service">
+              <i class="fa fa-shield"></i>
+              <div class="heading">Site Protections</div>
+              <div class="text-info">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="wrap-service">
+              <i class="fa fa-space-shuttle"></i>
+              <div class="heading">SSD Storage</div>
+              <div class="text-info">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+    *******************
+       WHY CHOOSE   
+    ****************** 
+    -->
+    <div class="services classic services">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="heading-section text-center small-text">
+              Why Choose Host Lab
+            </div>
+            <h3 class="section-subheading text-center small-text">
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco. 
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="service-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 no-padding">
+              <div class="service-section service">
+                <i class="fa fa-dashboard"></i>
+                <div class="title">SPEED</div>
+                <div class="subtitle">
+                  Excepteur sint occaecat <br> cupidatat non proident
+                </div>
+                <a href="" class="link">read more</a>
+              </div>
+            </div>
+            <div class="col-md-3 no-padding">
+              <div class="service-section">
+                <i class="fa fa-lock"></i>
+                <div class="title">SECURITY</div>
+                <div class="subtitle">
+                  Duis aute irure dolor in <br> reprehenderit in voluptate velit  
+                </div>
+                <a href="" class="link">read more</a>
+              </div>
+            </div>
+            <div class="col-md-3 no-padding">
+              <div class="service-section service">
+                <i class="fa fa-support"></i>
+                <div class="title">SUPPORT</div>
+                <div class="subtitle">
+                  Excepteur sint occaecat <br> cupidatat non proident 
+                </div>
+                <a href="" class="link">read more</a>
+              </div>
+            </div>
+            <div class="col-md-3 no-padding">
+              <div class="service-section">
+                <i class="fa fa-bullhorn"></i>
+                <div class="title">RELIABILITY</div>
+                <div class="subtitle">
+                  Duis aute irure dolor in <br> reprehenderit in voluptate velit
+                </div>
+                <a href="" class="link">read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+    *******************
+      	TOP FOOTER
+    ******************* 
+    -->
+    <div class="top-footer-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="top-content">
+              <i class="fa fa-support"></i>
+              <a href="#">Support <br> 24x7x365</a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="top-content">
+              <i class="fa fa-envelope"></i>
+              <a href="#">Email <br>lab@lab.com</a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="top-content">
+              <i class="fa fa-phone"></i>
+              <a href="#">Phone <br> +0-345-222-1111</a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="top-content">
+              <i class="fa fa-wechat"></i>
+              <a href="#">Talk <br> Live Chat</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+    *******************
+      	FOOTER
+    ******************* 
+    -->
+    <footer class="footer">
+      <div class="container no-padding-sm">
+        <div class="footer-top">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <div class="heading">Hosting</div>
+              <ul class="footer-menu classic">
+                <li class="menu-item"><a href="hosting.html">Shared Hosting</a></li>
+                <li class="menu-item"><a href="reseller.html">Reseller Hosting</a></li>
+                <li class="menu-item"><a href="cloud.html">Cloud VPS</a></li>
+                <li class="menu-item"><a href="servers.html">Dedicated Server</a></li>
+                <li class="menu-item"><a href="domains.html">Domains</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="heading">Company</div>
+              <ul class="footer-menu classic">
+                <li class="menu-item"><a href="contact.html">Contact Us</a></li>
+                <li class="menu-item"><a href="about.html">About Us</a> </li>
+                <li class="menu-item"><a href="datacenter.html">Datacenter</a></li>
+                <li class="menu-item"><a href="team.html">Our Team</a></li>
+                <li class="menu-item"><a href="faq.html">Faq</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="heading">Suport</div>
+              <ul class="footer-menu classic">
+                <li class="menu-item"><a href="#" data-toggle="modal" data-target="#mylogin">Login</a> </li>
+                <li class="menu-item"><a href="register.html">Get Satarted</a> </li>
+                <li class="menu-item"><a href="countdown.html">Countdown</a></li>
+                <li class="menu-item"><a href="#">Knowledgebase</a></li>
+                <li class="menu-item"><a href="#">Free Migration</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <a><img src="img/logo-light.png" alt="logo"></a>
+              <div class="copyrigh">©2017 Host Lab - All rights reserved.</div>
+              <div class="social">Stay Connected</div>
+              <div class="soc-icons">
+                <a href=""><i class="fa fa-facebook"></i></a>
+                <a href=""><i class="fa fa-google-plus"></i></a>
+                <a href=""><i class="fa fa-twitter"></i></a> 
+                <a href=""><i class="fa fa-linkedin"></i></a>                      
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 no-padding-sm">
+            <div class="footer-bottom">
+              <div class="container no-padding-sm">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <ul class="footer-menu">
+                      <li class="menu-item"><a href="#">Legal</a></li>
+                      <li class="menu-item"><a href="#">Sitemap</a></li>
+                      <li class="menu-item"><a href="#">Privacy Policy</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6">
+                    <ul class="payment-list">
+                      <li>
+                        <p>Payments We Accept</p>
+                      </li>
+                      <li><i class="fa fa-cc-paypal"></i></li>
+                      <li><i class="fa fa-cc-visa"></i></li>
+                      <li><i class="fa fa-cc-mastercard"></i></li>
+                      <li><i class="fa fa-credit-card"></i></li>
+                      <li><i class="fa fa-cc-discover"></i></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <a href="#0" class="cd-top"></a>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/idangerous.swiper.min.js"></script>
+    <script src="js/jquery.viewportchecker.min.js"></script>
+    <script src="js/jquery.circliful.min.js"></script>
+    <script src="js/jquery.countdown.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

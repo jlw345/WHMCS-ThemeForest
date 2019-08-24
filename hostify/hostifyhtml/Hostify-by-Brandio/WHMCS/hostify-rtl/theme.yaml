@@ -1,0 +1,9 @@
+# Hostify Theme for WHMCS Configuration File
+
+name: "Hostify Theme for WHMCS"
+description: "Hostify - Html5 WHMCS Theme"
+author: "Brandio"
+properties:
+  serverSidePagination: false # Defines client side will handle pagination
+
+# WHMCS version 7.7.1

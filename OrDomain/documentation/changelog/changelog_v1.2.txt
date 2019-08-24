@@ -1,0 +1,20 @@
+// # List of updates
+// ------------------------------
+
+[*] slider setting option issue fixed
+[+] slider background color and text color option added
+
+[+] header background color and text color option added
+
+[+] logo height width change option added
+[+] menu padding change option add
+ed
+[+] slider, question, history content added suppot span, strong, a, br tag
+
+[*] Fixed single Banner issue
+[+] Added slider and banner overlay, overlay background color, opacity options 
+
+[+] Added Retina version logo upload option
+
+[+] Added svg image/icon upload support
+

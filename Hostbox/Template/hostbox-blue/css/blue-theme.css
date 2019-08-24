@@ -1,0 +1,332 @@
+/* By Brandio */
+@charset "UTF-8";
+
+/*---- Accent Color ------*/
+.accent-color-bg{
+	background-color:#1e67d7;
+}
+.accent-color-text{
+	color:#1e67d7;
+}
+.accent-color-border{
+	border-color:#1e67d7;
+}
+.menu-holder ul li a:hover{
+	color:#1e67d7;
+}
+/*---- Accent Color End ------*/
+
+/*---- Template Colors --------*/
+.color1-bg{
+	background-color:#ffffff;
+}
+.color2-bg{
+	background-color:#ffffff;
+}
+.color3-bg{
+	background-color:#ffffff;
+}
+.color4-bg{
+	background-color:#ffffff;
+}
+
+.color1{
+	color:#9d9d9d;
+}
+.color2{
+	color:#9d9d9d;
+}
+.color3{
+	color:#9d9d9d;
+}
+.color4{
+	color:#9d9d9d;
+}
+
+.color1-border{
+	border-color:#ffffff!important;
+}
+.color2-border{
+	border-color:#ffffff !important;
+}
+.color3-border{
+	border-color:#ffffff !important;
+}
+.color4-border{
+	border-color:#ffffff !important;
+}
+.blur{
+	opacity:0.5;
+}
+.fullpage-menu{
+	background-color:rgba(0,0,0,0.85);
+}
+.fullpage-menu .menu-holder ul li{
+	color:#ffffff;
+}
+.fullpage-menu .menu-holder ul li a{
+	color:#ffffff;
+}
+.fullpage-menu .close-btn:hover{
+	opacity:0.8;
+}
+.inline-menu .menu-holder ul li{
+	color:#ffffff;
+}
+.inline-menu .menu-holder ul li a{
+    color:#ffffff;
+}
+.inline-menu .menu-holder ul li a:hover{
+    opacity: 0.7;
+}
+/*------- End Menu Styles ---------*/
+
+/*------------------------------------------------------------------
+	2. Header Styles
+-------------------------------------------------------------------*/
+#top-content{
+	color:#ffffff;
+}
+#top-content .color-overlay{
+	opacity:0.9;
+}
+#top-content .logo-menu{
+	border-bottom:1px solid rgba(255,255,255,0.13);
+}
+#top-content .logo-menu .menu-button:hover{
+	opacity:0.8;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #ffffff;
+    opacity: 0.7;
+}
+.signup-button{
+	color:#ffffff;
+	border:2px solid #ffffff;
+	background-color:rgba(255,255,255,0.0);
+}
+.signup-button:hover{
+	background-color:rgba(255,255,255,0.1);
+}
+/*------------------------------------------------------------------
+	3. Partners Styles
+-------------------------------------------------------------------*/
+#partners{
+	background-color:#ffffff;
+}
+.partners-slider img{
+	opacity:1;
+}
+.partners-slider img:hover{
+	opacity:0.7;
+}
+.slick-prev, .slick-next{
+	border: 1px solid #CCC;
+	background-color: transparent;
+	color: #aaa;
+}
+.slick-prev:hover, .slick-next:hover{
+	border: 1px solid #888;
+	color: #777;
+}
+/*------------------------------------------------------------------
+	4. Features Styles
+-------------------------------------------------------------------*/
+
+#features{
+	background-color:#ebeded;
+}
+#features .feature-button:hover{
+	opacity:0.7;
+}
+#features .feature-button .feature-title{
+	color:#1e67d7;
+}
+@-moz-document url-prefix() {
+	#features .box3d .box3d-part{
+		border:1px solid #ebeded;
+	}
+}
+#features .box3d .box3d-open{
+	opacity:0.8;
+}
+.f-details .feature-title{
+	color:#1e67d7;
+}
+.f-details .feature-text{
+	color:#adb7bf;
+}
+
+/*------------------------------------------------------------------
+	5. Pricing Styles
+-------------------------------------------------------------------*/
+#pricing{
+	background-color:#ffffff;
+}
+#pricing .price-table{
+	background-color:#fafafa;
+	color:#5a5a5a;
+}
+#pricing .price-table .sp{
+	border-bottom:1px solid #fafafa;
+}
+#pricing .price-table .price-top-bar{
+	background-color:#000000;
+}
+#pricing .price-table .price-top-bar .pbar{
+	opacity:0.85;
+}
+#pricing .price-table .diamond .diamond-back{
+	background-color:#000000;
+}
+#pricing .price-table .diamond .diamond-back div{
+	opacity:0.9;
+}
+#pricing .price-table .diamond .diamond-top{
+	background-color:#000000;
+}
+#pricing .price-table .diamond .diamond-top div{
+	opacity:0.8;
+}
+#pricing .price-table .diamond .diamond-bottom{
+	background-color:#000000;
+}
+#pricing .price-table .price-title{
+	color:#1e67d7;
+}
+#pricing .price-table .price-btn .pr-signup-button{
+    color: #ffffff;
+}
+#pricing .price-table .price-btn .pr-signup-button:hover{
+	opacity:0.8;
+}
+#pricing .price-table .details-list li{
+    border-bottom:1px solid #c2c2c2;
+}
+#pricing .price-table .details-list li:hover{
+    color: #999999;
+}
+#pricing .price-table.pr-color1 .details-list li:before{
+    color: #9d9d9d;
+}
+#pricing .price-table.pr-color2 .details-list li:before{
+    color: #9d9d9d;
+}
+#pricing .price-table.pr-color3 .details-list li:before{
+    color: #9d9d9d;
+}
+#pricing .price-table.pr-color4 .details-list li:before{
+    color: #9d9d9d;
+}
+/*------------------------------------------------------------------
+	6. Information Styles
+-------------------------------------------------------------------*/
+.info-color1{
+	color:#545197;
+}
+.info-color2{
+	color:#8ebc3a;
+}
+.info-color3{
+	color:#3e73a0;
+}
+#info1{
+	background-color:#f4f4f4;
+}
+#info2{
+	background-color:#ffffff;
+}
+#info3{
+	background-color:#f4f4f4;
+}
+.info .info-image img:hover{
+	opacity:0.8;
+}
+.info .info-text ul li {
+	color:#35303e;
+}
+/*------------------------------------------------------------------
+	7. Testimonials Styles
+-------------------------------------------------------------------*/
+
+#testimonials{
+    background-color: #ffffff;
+}
+#testimonials .message-icon .message-icon-body{
+	color:#ffffff;
+}
+#testimonials .person-details{
+	opacity:0.4;
+}
+#testimonials .person-details:hover{
+	opacity:1;
+}
+/*------------------------------------------------------------------
+	8. Contacts Styles
+-------------------------------------------------------------------*/
+#contact .row-title{
+	color:#ffffff;
+}
+#contact .sub-title{
+	color:#ffffff;
+	border-bottom:1px solid #ffffff;
+}
+#contact p{
+	color:#ffffff;
+}
+#contact input[type=text],#contact input[type=email]{
+	border-bottom:1px solid #ffffff;
+	color:#ffffff;
+}
+#contact .form-label{
+	color:#ffffff;
+}
+#contact textarea{
+	color:#ffffff;
+	background-color:transparent;
+	border:1px solid #ffffff;
+}
+
+#contact #submit{
+	color:#ffffff;
+	border:1px solid #ffffff;
+	background-color:rgba(255,255,255,0.0);
+}
+#contact #submit:hover{
+	background-color:rgba(255,255,255,0.1);
+}
+
+#contact .loading{
+	border:3px solid #ffffff !important;
+	border-bottom:3px solid rgba(0,0,0,0) !important;
+	border-left:3px solid rgba(0,0,0,0) !important;
+	background-color:transparent !important;
+}
+
+.ajax-button .fa{
+  color:#ffffff;
+}
+.error{
+	color:#EFEFEF;
+}
+.valid{
+	background:rgba(255,255,255,0.08) !important;
+	color:#FFFFFF;
+}
+/*------------------------------------------------------------------
+	9. Responsive Styles
+-------------------------------------------------------------------*/
+
+/* Other screens styles modifications */
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 480px) {
+}

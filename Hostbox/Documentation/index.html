@@ -1,0 +1,255 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+<title>Hostbox - Documentation</title>
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/prettify.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+<div id="header" class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="doc-title"><div class="glyph-icon flaticon-document-1"></div>Hostbox - Documentation</div>
+        </div>
+    </div>
+</div>
+<div id="content" class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12 col-md-3" style="padding:0;">
+            <div class="menu-holder">
+                <ul class="main-menu">
+                    <li><a href="#html" class="active"><i class="fa fa-angle-right" aria-hidden="true"></i>HTML Structure</a></li>
+                    <li><a href="#css"><i class="fa fa-angle-right" aria-hidden="true"></i>CSS & JavaScript</a></li>
+                    <li><a href="#logo"><i class="fa fa-angle-right" aria-hidden="true"></i>Logo & Menu</a></li>
+                    <li><a href="#pricing"><i class="fa fa-angle-right" aria-hidden="true"></i>Pricing tables</a></li>
+                    <li><a href="#testimonials"><i class="fa fa-angle-right" aria-hidden="true"></i>Testimonials</a></li>
+                    <li><a href="#form"><i class="fa fa-angle-right" aria-hidden="true"></i>Form Setup</a></li>
+                    <li><a href="#whmcs"><i class="fa fa-angle-right" aria-hidden="true"></i>WHMCS Theme Installation</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-9 content">
+            <h3 id="html">HTML Structure</h3>
+            <p>The template is based on bootstrap library, please read more about bootstrap here: <a href="http://getbootstrap.com/getting-started/" target="_blank">http://getbootstrap.com/getting-started/</a>
+
+                To edit the template, a very basic knowledge in dealing with bootstrap is required.
+            </p>
+            
+            <p>The Html file can be edited in any text editor, best example is Adobe Dreamweaver.
+            </p>
+            
+            <p>Hostio template structure is based on bootstrap layout, the page is separated in rows, every row created like the following figure:
+            </p>
+            
+            <img src="assets/images/doc.jpg">
+            <br>
+            <p>The template is arranged in sections, each section(div) has an id, Ex: "header", "features", "pricing", ...etc</p>
+            <p>For the WHMCS template you can edit this layout in "header.tpl", and the footer content in "footer.tpl".</p>
+            <pre class="prettyprint">
+&lt;div id="header" class="container-fluid"&gt;
+...
+&lt;div id="partners" class="container-fluid"&gt;
+...
+&lt;div id="features" class="container-fluid"&gt;
+...
+&lt;div id="pricing" class="container-fluid"&gt;
+...
+&lt;div id="info1" class="container-fluid"&gt;
+...
+&lt;div id="testimonials" class="container-fluid"&gt;
+...</pre>
+            <h3 id="css">CSS</h3>
+            <p>There are five CSS files in the template. First is "bootstrap.min.css", used for layout — originally in bootstrap, the other file is "font-awesome.min.css", "slick.css" and "style.css" is used for style customisation, where the texts, colors, backgrounds and font styles can be changed and there are "purple-theme.css", "black-theme.css" and "blue-theme.css" files it depend on the theme color you choose.</p>
+            
+            <p>
+                We arrange the styles according to the order of the tags in the html.
+            </p>
+            <pre class="prettyprint">/*------------------------------------------------------------------
+[Table of contents]
+
+1. General styles.
+2. Header Styles.
+3. Partners Styles.
+4. Features Styles.
+5. Pricing Styles.
+6. Information Styles.
+7. Testimonials Styles.
+8. Contact Styles.
+9. Responsive Styles.
+-------------------------------------------------------------------*/</pre>
+           
+            <h3 id="javascript">JavaScript</h3>
+            <p>This template imports eight Javascript files.</p>
+
+            <ul>
+                <li>"jquery.min.js": jQuery is a Javascript library that greatly reduces the amount of code that you must write.</li>
+                <li>"bootstrap.min.js": Bootstrap is the most popular Javascript framework for developing responsive, mobile first projects on the web.</li>
+                <li>"jquery.validate.min.js": This jQuery plugin makes simple clientside form validation easy.</li>
+                <li>"createjs.min.js": CreateJS is a JavaScript suite for developers looking to control the true power of HTML5's canvas element.</li>
+                <li>"logo.js": The logo animation code.</li>
+                <li>"modernizr-custom.js": Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser.</li>
+                <li>"slick.min.js": slick is a responsive carousel jQuery plugin that supports multiple breakpoints, CSS3 transitions, touch events/swiping & much more!</li>
+                <li>"main.js": Our custom javascript code.</li>
+            </ul>
+            
+            <h3 id="logo">Logo</h3>
+            <p>To change the logo you have to replace these two lines</p>
+            <pre class="prettyprint">
+&lt;canvas id=&quot;logo-canvas&quot; width=&quot;50&quot; height=&quot;50&quot;&gt;&lt;/canvas&gt;
+&lt;div class=&quot;logo-text&quot;&gt;Hostbox&lt;/div&gt;</pre>
+            <p>With this line</p>
+            <pre class="prettyprint">
+&lt;div class="logo-img"&gt;&lt;img src="" alt="" width="150" height="50" /&gt;&lt;/div&gt;</pre>
+            <p>Add your logo link in src="", the logo image should be in png format and the dimentions (300px x 100px).</p>
+            
+            <h3 id="menu">Menu</h3>
+            <p> There are two types of menu in the Template, you can set that simply by changing id and class for the menu:</p>
+            <p>Fullscreen Menu code:</p>
+            <pre class="prettyprint">
+&lt;div id=&quot;default-button&quot; class=&quot;menu-button&quot;&gt;
+    &lt;div class=&quot;fa fa-circle-o&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;fa fa-circle-o&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;fa fa-circle-o&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;default-menu&quot; class=&quot;fullpage-menu&quot;&gt;
+    &lt;div class=&quot;close-btn&quot;&gt;&lt;img src=&quot;images/close-btn.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;menu-holder&quot;&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;a class=&quot;menu-link&quot; href=&quot;#header&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a class=&quot;menu-link&quot; href=&quot;#features&quot;&gt;Features&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a class=&quot;menu-link&quot; href=&quot;#pricing&quot;&gt;Pricing&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a class=&quot;menu-link&quot; href=&quot;#contact&quot;&gt;Contact Us&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+            
+            <p>Inline Menu code:</p>
+            <pre class="prettyprint">
+&lt;div id=&quot;main-button&quot; class=&quot;menu-button&quot;&gt;
+    &lt;div class=&quot;fa fa-circle-o&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;fa fa-circle-o&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;fa fa-circle-o&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;main-menu&quot; class=&quot;inline-menu&quot;&gt;
+    &lt;div class=&quot;close-btn&quot;&gt;&lt;img src=&quot;images/close-btn.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;menu-holder&quot;&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;a class=&quot;menu-link&quot; href=&quot;#header&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a class=&quot;menu-link&quot; href=&quot;#features&quot;&gt;Features&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a class=&quot;menu-link&quot; href=&quot;#pricing&quot;&gt;Pricing&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a class=&quot;menu-link&quot; href=&quot;#contact&quot;&gt;Contact Us&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+            
+            <p>The WHMCS version has only inline menu.</p>
+            <h3 id="pricing">Pricing tables</h3>
+            <p>Every Pricing table start with this code. In the code there is class "pr-color1", this class is changing the main color of the table, there are four colors to use, "pr-color1", "pr-color2", "pr-color3" and "pr-color4".</p>
+            <pre class="prettyprint">&lt;div class=&quot;price-table pr-color1&quot;&gt;</pre>
+            <p>This code is for the pricing table. The title, price and the details can be changed easily </p>
+            <pre class="prettyprint">
+&lt;div class=&quot;price-table pr-color1&quot;&gt;
+    &lt;div class=&quot;price-top-bar&quot;&gt;
+        &lt;div class=&quot;pbar color1-bg&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;diamond&quot;&gt;
+            &lt;div class=&quot;diamond-back&quot;&gt;&lt;div class=&quot;color1-bg&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+            &lt;div class=&quot;diamond-top&quot;&gt;&lt;div class=&quot;color1-bg&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+            &lt;div class=&quot;diamond-bottom&quot;&gt;&lt;div class=&quot;color1-bg&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;price-title color1-bg&quot;&gt;Smallbox&lt;/div&gt;
+    &lt;div class=&quot;price accent-color-text&quot;&gt;
+        &lt;span class=&quot;monthly-num&quot;&gt;&lt;span class=&quot;currency&quot;&gt;$&lt;/span&gt;9.99&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;duration accent-color-text&quot;&gt;
+        &lt;span class=&quot;monthly-obj&quot;&gt;/monthly&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;ul class=&quot;details-list&quot;&gt;
+        &lt;li&gt;GB 1000 Storage&lt;/li&gt;
+        &lt;li&gt;GB 2000 Monthly Traffic&lt;/li&gt;
+        &lt;li&gt;128Mb Ram&lt;/li&gt;
+        &lt;li&gt;10Subdomains&lt;/li&gt;
+        &lt;li&gt;Sharing data&lt;/li&gt;
+        &lt;li&gt;Unlimited Email accounts&lt;/li&gt;
+        &lt;li&gt;Support 24/7&lt;/li&gt;
+        &lt;li&gt;Linux server&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;a href=&quot;#&quot; class=&quot;price-btn&quot;&gt;&lt;div class=&quot;pr-signup-button accent-color-bg&quot;&gt;Sign Up&lt;/div&gt;&lt;/a&gt;
+&lt;/div&gt;</pre>
+    
+            <p>In WHMCS template, you will be using this list code when you add the ordering list, to be looks like the Html template exactly.</p>
+            <pre class="prettyprint">
+&lt;ul class=&quot;details-list&quot;&gt;
+    &lt;li&gt;GB 1000 Storage&lt;/li&gt;
+    &lt;li&gt;GB 2000 Monthly Traffic&lt;/li&gt;
+    &lt;li&gt;128Mb Ram&lt;/li&gt;
+    &lt;li&gt;10Subdomains&lt;/li&gt;
+    &lt;li&gt;Sharing data&lt;/li&gt;
+    &lt;li&gt;Unlimited Email accounts&lt;/li&gt;
+    &lt;li&gt;Support 24/7&lt;/li&gt;
+    &lt;li&gt;Linux server&lt;/li&gt;
+&lt;/ul&gt;</pre>
+            
+            
+            <h3 id="testimonials">Testimonials</h3>
+            <p>If you want to add a testimonial, duplicate this code and modify it with your data.</p>
+            <pre class="prettyprint">
+&lt;div class=&quot;testimonial-text t1 accent-color-text&quot;&gt;
+    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. &lt;/p&gt;
+&lt;/div&gt;</pre>
+            <p>Also dublicate the following code:</p>
+            <pre class="prettyprint">
+&lt;div class=&quot;person-details person-details-show&quot; data-num=&quot;1&quot;&gt;
+    &lt;div class=&quot;person-image-holder&quot;&gt;
+        &lt;img class=&quot;person-image&quot; src=&quot;images/people/1.jpg&quot; alt=&quot;&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;person-details-holder&quot;&gt;
+        &lt;div class=&quot;person-name&quot;&gt;Jane Doe&lt;/div&gt;
+        &lt;div class=&quot;person-title&quot;&gt;Job Title&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+            <p>Be sure that the number in the class "t1" in the first code is connected to the "data-num='1'" in the second code, it must be same numbers.</p>
+            
+            <h3 id="form">Form Setup</h3>
+            <p>Set your email in the form:<br> Open "mailer.php" file in any text editor and replace this email "you@yourdomain.com" with your email, it's in the line 20 of the file.</p>
+            
+            <h3 id="whmcs">WHMCS Theme Installation</h3>
+            <ul>
+                <li>Copy "hostbox-colourful","hostbox-black" and "hostbox-blue" folders to WHMCS templates folder.</li>
+                <li>Copy "hostbox_cart" folder to WHMCS templates/orderforms folder.</li>
+                <li>On your WHMCS admin panel go to Setup > General Settings, choose the template "Hostbox" and save changes.</li>
+                <li>Go to Setup > General Settings then Ordering Tab, choose "Hostbox Cart" and save changes.</li>
+            </ul>
+            
+
+            <hr>
+            <p>Once again, thank you so much for purchasing this template. We'd be glad to help you if you have any questions relating to this template. No guarantees, but We'll do our best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+        </div>
+    </div>
+</div>
+<div id="footer" class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="brandio-logo-holder">
+                <img src="assets/images/brandio.png" alt="Brandio">
+            </div>
+            <div class="doc-info">
+                <div><b>Created:</b> 17/3/2017</div>
+                <div><b>By:</b> Brandio</div>
+                <div><b>Support:</b> faisal@brandio.io</div>
+            </div>
+        </div>
+    </div>
+</div>
+<a id="back-to-top" href="#header"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+<script src="assets/js/jquery.min.js"></script> 
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/prettify.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+@media screen and (max-width:480px) {
+    #blog-nav .navigation ul{
+        margin: 0;
+        padding: 0;
+    }
+    .post-content-sticky{
+        padding: 15px;
+    }
+    .entry-title-sticky{
+        font-size: 25px;
+    }
+    .post-content-wrapper{
+        padding: 20px;
+    }
+    div#primary.content-area{
+        padding: 0;
+    }
+}

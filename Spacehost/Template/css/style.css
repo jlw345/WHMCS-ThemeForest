@@ -1,0 +1,1317 @@
+@charset "UTF-8";
+/*------------------------------------------------------------------
+ * Theme Name: Spacehost Responsive Template
+ * Theme URI: http://www.brandio.io/envato/spacehost
+ * Author: Brandio
+ * Author URI: http://www.brandio.io/
+ * Description: A Bootstrap Responsive HTML5 Template
+ * Version: 1.0
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2017 Brandio.
+ -------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. General Styles.
+2. Header Styles.
+3. Top Content Styles.
+4. Features Section Styles
+5. Partners Section Styles.
+6. More Features Section Styles.
+7. Pricing Section Styles.
+8. Search-box Section Styles.
+9. Domain Pricing Section Styles.
+10. Testimonials Section Styles.
+11. Message Section Styles.
+12. Contact Section Styles.
+13. Responsive Styles.
+-------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,700,900');
+@import url("../fonts/spacehost.css");
+
+/*------------------------------------------------------------------
+	1. General Styles
+-------------------------------------------------------------------*/
+*,body{
+    transition: all 0.3s ease 0.0s;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+}
+.rtl-cols div[class^="col-"] {
+    float: right;
+}
+
+.slick-slide{
+    cursor: pointer;
+    outline: 0;
+}
+.slick-dots{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.slick-dots li{
+    display: inline-block;
+    text-indent: -9999px;
+    white-space: nowrap; 
+    border: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    opacity: 0.5;
+    margin-left: 5px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+}
+.slick-dots li.slick-active{
+    opacity: 1;
+}
+.bg-color1{
+    background-color: #6958ca;
+}
+.bg-color2{
+    background-color: #90caf6;
+}
+.bg-color3{
+    background-color: #7c969d;
+}
+
+.sp-arrow{
+    display: inline-block;
+    position: relative;
+    width: 18px;
+}
+.sp-arrow span{
+    position: absolute;
+    width: 18px;
+    height: 2px;
+    background-color: #6958ca;
+    border-radius: 5px;
+}
+.sp-arrow span:before{
+    position: absolute;
+    content: "";
+    width: 9px;
+    height: 2px;
+    background-color: #6958ca;
+    right: 1px;
+    top: 0;
+    -webkit-transform-origin: right center;
+    -moz-transform-origin: right center;
+    transform-origin: right center;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-radius: 5px;
+}
+.sp-arrow span:after{
+    position: absolute;
+    content: "";
+    width: 9px;
+    height: 2px;
+    background-color: #6958ca;
+    right: 1px;
+    bottom: 0;
+    -webkit-transform-origin: right center;
+    -moz-transform-origin: right center;
+    transform-origin: right center;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    border-radius: 5px;
+}
+/*------------------------------------------------------------------
+	2. Header Styles
+-------------------------------------------------------------------*/
+#header-holder{
+    position: relative;
+    z-index: 100;
+    background-color: #ffffff;
+    background-image: url(../images/bgpattern.svg);
+    background-repeat: repeat;
+    background-size: 778px 481px;
+    padding-top: 55px;
+    -webkit-animation: movebg 30s linear both infinite;
+	-moz-animation: movebg 30s linear both infinite;
+	animation: movebg 30s linear both infinite;
+}
+@keyframes movebg {
+    0%   {background-position: 0 0px;}
+    100% {background-position: 0 480px;}
+}
+@-webkit-keyframes movebg {
+    0%   {background-position: 0 0px;}
+    100% {background-position: 0 480px;}
+}
+#header-holder .bottom-gradiant{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    z-index: -1;
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+#header-holder #main-nav{
+    border: 0;
+    background-color: transparent;
+}
+.logo{
+    width: 153px;
+    height: 46px;
+    margin-top: 7px;
+}
+.navbar{
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.navbar-default .navbar-nav>li>a {
+    font-family: 'Roboto', sans-serif;
+    color: #a7bcc1;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+.navbar-default .navbar-nav>li>a span {
+    font-family: 'Roboto', sans-serif;
+    color: #a7bcc1;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+.navbar-default .navbar-nav>li>a span:after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -4px;
+    background-color: #6958ca;
+    transition: all 0.3s ease;
+}
+.navbar-default .navbar-nav>li>a:hover span:after{
+    width: 100%;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #0397ff;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:focus, 
+.navbar-default .navbar-nav > .active > a:hover{
+    color: #0397ff;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a.chat-button{
+    display: inline-block;
+    position: relative;
+    padding: 4px 14px 4px 28px;
+    background-color: #eafcd9;
+    border-radius: 17px;
+    color: #4e717a;
+    opacity: 1;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 12px;
+    -webkit-box-shadow: 0 7px 16px 0 rgba(0, 0, 0, 0.11);
+    -moz-box-shadow: 0 7px 16px 0 rgba(0, 0, 0, 0.11);
+    box-shadow: 0 7px 16px 0 rgba(0, 0, 0, 0.11);
+}
+.navbar-default .navbar-nav>li>a.chat-button:before{
+    position: absolute;
+    content: "";
+    left: 10px;
+    top: 10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    background-color: #80e847;
+    
+}
+.navbar-default .navbar-nav>li>a.chat-button:hover,
+.navbar-default .navbar-nav>li>a.chat-button:focus{
+    background-color: #e1fac8;
+    -webkit-box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.18);
+    box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.18);
+    margin-top: 15px;
+}
+@media (min-width: 768px){
+    .navbar-nav>li>a {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+.navbar-default .navbar-toggle{
+    border: 0px;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #6958ca;
+}
+
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover{
+    background-color: transparent;
+    opacity: 0.7;
+}
+
+.navbar-toggle{
+    margin-top: 17px;
+}
+
+.navbar-right .dropdown-menu {
+    left: 0;
+    right: auto;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    border: 0;
+    top: 50px;
+    padding: 12px 11px;
+    border-radius: 12px;
+    -webkit-box-shadow: 0 5px 20px rgba(224, 230, 243, 0.56);
+    -moz-box-shadow: 0 5px 20px rgba(224, 230, 243, 0.56);
+    box-shadow: 0 5px 20px rgba(224, 230, 243, 0.56);
+}
+.dropdown-menu > li > a{
+    color: #7f888f;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    padding: 3px 11px;
+    border-radius: 10px;
+}
+.dropdown-menu > li > a:focus, 
+.dropdown-menu > li > a:hover{
+    color: #6c84af;
+    background-color: #f9fbff;
+    /*text-shadow: 0px 0px 2px #6c84af;*/
+}
+.dropdown:hover .dropdown-menu ,
+.dropdown:focus .dropdown-menu {
+    display: block;
+}
+/*------------------------------------------------------------------
+	3. Top Content Styles
+-------------------------------------------------------------------*/
+#top-content{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+#top-content .big-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #527292;
+    font-weight: 100;
+    line-height: 62px;
+    margin-bottom: 40px;
+}
+#top-content .domain-search-holder{
+    margin-bottom: 120px;
+}
+#top-content .domain-search-holder input[type="text"]{
+    padding: 20px 35px;
+    border-radius: 10px;
+    background-color: #f1f4f5;
+    font-size: 18px;
+    color: #7c969d;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    max-width: 420px;
+}
+#top-content .domain-search-holder input[type="text"]:hover,
+#top-content .domain-search-holder input[type="text"]:focus{
+    background-color: #f4f7f8;
+}
+#top-content .domain-search-holder input[type="submit"]{
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: #6958ca;
+    font-size: 18px;
+    color: #ffffff;
+    border: 0;
+    margin-left: 8px;
+}
+#top-content .domain-search-holder input[type="submit"]:hover,
+#top-content .domain-search-holder input[type="submit"]:focus{
+   background-color: #5849af; 
+}
+#top-content .domain-search-holder ::-webkit-input-placeholder {color: #7c969d;}
+#top-content .domain-search-holder :-moz-placeholder {color: #7c969d;}
+#top-content .domain-search-holder ::-moz-placeholder {color: #7c969d;}
+#top-content .domain-search-holder :-ms-input-placeholder {color: #7c969d;}
+
+#top-content .arrow-button-holder{
+    text-align: center;
+    display: inline-block;
+}
+#top-content .arrow-button-holder a{
+    cursor: pointer;
+    text-decoration: none;
+}
+#top-content .arrow-button-holder .arrow-icon{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background-color: #eafcd9;
+    border-radius: 100px;
+    -webkit-box-shadow: 0 19px 19px rgba(166, 165, 169, 0.3);
+    -moz-box-shadow: 0 19px 19px rgba(166, 165, 169, 0.3);
+    box-shadow: 0 19px 19px rgba(166, 165, 169, 0.3);
+    margin-bottom: 22px;
+}
+#top-content .arrow-button-holder a:hover .arrow-icon,
+#top-content .arrow-button-holder a:focus .arrow-icon{
+    -webkit-box-shadow: 0 15px 15px rgba(166, 165, 169, 0.35);
+    -moz-box-shadow: 0 15px 15px rgba(166, 165, 169, 0.35);
+    box-shadow: 0 15px 15px rgba(166, 165, 169, 0.35);
+}
+#top-content .arrow-button-holder .arrow-icon .fa{
+    width: 100%;
+    text-align: center;
+    color: #6958ca;
+    padding-top: 17px;
+}
+#top-content .arrow-button-holder a:hover .arrow-icon .fa,
+#top-content .arrow-button-holder a:focus .arrow-icon .fa{
+    padding-top: 19px;
+}
+#top-content .arrow-button-holder .arrow-icon .sphst{
+    color: #6958ca;
+    font-size: 15px;
+    padding-top: 16px;
+}
+#top-content .arrow-button-holder a:hover .arrow-icon .sphst,
+#top-content .arrow-button-holder a:focus .arrow-icon .sphst{
+    padding-top: 18px;
+}
+#top-content .arrow-button-holder .button-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #a7bcc1;
+    text-transform: uppercase;
+}
+#top-content .arrow-button-holder a:hover .button-text,
+#top-content .arrow-button-holder a:focus .button-text{
+    color: #9bb0b5;
+}
+
+/*------------------------------------------------------------------
+	4. Features Section Styles
+-------------------------------------------------------------------*/
+.row-title-only{
+    background-color: #ffffff;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.row-title-only.more-padding{
+    padding-bottom: 40px;
+}
+.row-title{
+    display: inline-block;
+    padding: 6px 50px;
+    font-size: 19px;
+    font-weight: 700;
+    color: #7c969d;
+    background-color: #ffffff;
+    border-radius: 100px;
+    -webkit-box-shadow: 0 2px 38px rgba(0,0,0,0.08);
+    -moz-box-shadow: 0 2px 38px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 38px rgba(0,0,0,0.08);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#features{
+    background-color: #6958ca;
+    /*background-color: #ffffff;*/
+    -webkit-box-shadow: 0 30px 80px rgba(0,0,0,0.19);
+    -moz-box-shadow: 0 30px 80px rgba(0,0,0,0.19);
+    box-shadow: 0 30px 80px rgba(0,0,0,0.19);
+    /*-webkit-box-shadow: 0 1px 36px rgba(175, 161, 255, 0.33);
+    -moz-box-shadow: 0 1px 36px rgba(175, 161, 255, 0.33);
+    box-shadow: 0 1px 36px rgba(175, 161, 255, 0.33);*/
+    position: relative;
+    z-index: 1000;
+}
+#features .feature-box{
+    position: relative;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    perspective: 800px;
+}
+#features .feature-box .feature-icon{
+    margin-bottom: 25px;
+}
+#features .feature-box .feature-icon img{
+    width: 73px;
+}
+#features .feature-box .feature-icon .fa{
+    color: #ffffff;
+    font-size: 70px;
+}
+#features .feature-box .feature-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    /*color: #6958ca;*/
+    font-weight: 100;
+}
+#features .feature-box .feature-details{
+    position: absolute;
+    background-color: #ffffff;
+    /*background-color: #6958ca;*/
+    top: 0;
+    width: 110%;
+    left: 50%;
+    margin-left: -55%;
+    height: 106%;
+    top: -3%;
+    padding: 50px 35px;
+    -webkit-box-shadow: 0 2px 80px rgba(0,0,0,0.18);
+    -moz-box-shadow: 0 2px 80px rgba(0,0,0,0.18);
+    box-shadow: 0 2px 80px rgba(0,0,0,0.18);
+    z-index: 1000;
+    opacity: 0;
+    -webkit-transform: translateY(-20px) rotateX(-20deg);
+    -moz-transform: translateY(-20px) rotateX(-20deg);
+    transform: translateY(-20px) rotateX(-20deg);
+}
+#features .feature-box .feature-details p{
+    font-size: 20px;
+    color: #7b9ba2;
+    /*color: #ffffff;*/
+    line-height: 32px;
+    margin-bottom: 26px;
+}
+#features .feature-box .feature-details h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    color: #6958ca;
+    /*color: #ffffff;*/
+    font-weight: 900;
+}
+
+#features .feature-box:hover .feature-details,
+#features .feature-box:focus .feature-details{
+    opacity: 1;
+    -webkit-transform: translateY(0px) rotateX(0deg);
+    -moz-transform: translateY(0px) rotateX(0deg);
+    transform: translateY(0px) rotateX(0deg);
+}
+/*------------------------------------------------------------------
+	5. Partners Section Styles
+-------------------------------------------------------------------*/
+#partners{
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+#partners p{
+    color: #7b9ba2;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+#partners .partners-slider{
+    overflow: hidden;
+}
+#partners .partners-slider *{
+    outline: none;
+}
+#partners .partners-slider img{
+    opacity: 0.7;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+#partners .partners-slider img:hover{
+    opacity: 1;
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+#partners .partners-slider .slick-list {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#partners .partners-slider .slick-prev, #partners .partners-slider  .slick-next{
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	border: 0px solid #CCC;
+	background-color: transparent;
+	color: #aaa;
+	line-height: 1;
+    font-size: 0;
+}
+#partners .partners-slider .slick-prev:hover, #partners .partners-slider .slick-next:hover{
+	color: #777;
+}
+#partners .partners-slider .slick-prev{
+	left:0px;
+}
+#partners .partners-slider .slick-prev:after{
+	font-family: FontAwesome;
+	content:"\f104";
+	font-size:18px;
+}
+#partners .partners-slider .slick-next{
+	right:0px;
+}
+#partners .partners-slider .slick-next:after{
+	font-family: FontAwesome;
+	content:"\f105";
+	font-size:18px;
+}
+#partners .partners-slider .slick-prev::before, #partners .partners-slider .slick-next::before{
+	font-size:0;
+}
+#partners .partners-slider .slick-slide img{
+	margin-left: auto;
+  	margin-right: auto;
+    max-width: 150px;
+}
+#partners .partners-slider .slick-dots {
+    position: absolute;
+    bottom: -45px;
+    display: none !important;
+    width: 100%;
+    padding: 0px;
+    list-style: outside none none;
+    text-align: center;
+}
+#partners .partners-slider .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0px 5px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+/*------------------------------------------------------------------
+	6. More Features Section Styles
+-------------------------------------------------------------------*/
+#more-features{
+    background-color: #f8f9f9;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+#more-features .mfeature-box{
+    margin-bottom: 20px;
+}
+#more-features .mfeature-box .mfeature-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #8199a0;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+#more-features .mfeature-box .mfeature-text{
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 40px 60px;
+    font-size: 17px;
+    -webkit-box-shadow: 0 6px 37px rgba(0,0,0,0.11);
+    -moz-box-shadow: 0 6px 37px rgba(0,0,0,0.11);
+    box-shadow: 0 6px 37px rgba(0,0,0,0.11);
+}
+#more-features .mfeature-box:hover .mfeature-text{
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
+}
+/*------------------------------------------------------------------
+	7. Pricing Section Styles
+-------------------------------------------------------------------*/
+#pricing{
+    background-color: #d0eafe;
+    background-image: url(../images/bgpattern.svg);
+    background-repeat: repeat;
+    background-size: 778px 481px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+#pricing .pricing-box{
+    position: relative;
+    padding: 30px 10px;
+}
+#pricing .pricing-box.best-choise .pricing-title:before{
+    position: absolute;
+    font-family: "spacehost" !important;
+    content: "\61";
+    color: #45eaa2;
+    top: -22px;
+    right: -5px;
+    transform: rotate(-15deg);
+    font-size: 40px;
+}
+#pricing .pricing-box.best-choise .pricing-title:after{
+    position: absolute;
+    content: "Best choise!";
+    color: #6958ca;
+    font-weight: 700;
+    font-size: 16px;
+    top: -47px;
+    right: -40px;
+    transform: rotate(-10deg);
+}
+#pricing .pricing-box .pricing-content{
+    position: relative;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 25px;
+    z-index: 100;
+    -webkit-box-shadow: 0 19px 19px rgba(166, 165, 169, 0.3);
+    -moz-box-shadow: 0 19px 19px rgba(166, 165, 169, 0.3);
+    box-shadow: 0 19px 19px rgba(166, 165, 169, 0.3);
+}
+#pricing .pricing-box:hover .pricing-content,
+#pricing .pricing-box:focus .pricing-content{
+    transform: scale(1.03);
+    -webkit-box-shadow: 0 19px 19px rgba(76, 47, 237, 0.3);
+    -moz-box-shadow: 0 19px 19px rgba(76, 47, 237, 0.3);
+    box-shadow: 0 19px 19px rgba(76, 47, 237, 0.3);
+}
+#pricing .pricing-box .pricing-content .pricing-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    color: #6958ca;
+    margin-bottom: 20px;
+}
+#pricing .pricing-box:hover .pricing-content .pricing-title,
+#pricing .pricing-box:focus .pricing-content .pricing-title{
+    color: #ffffff;
+}
+#pricing .pricing-box .pricing-content .pricing-price{
+    font-size: 65px;
+    font-weight: 700;
+    color: #6958ca;
+    margin-bottom: 22px;
+}
+#pricing .pricing-box:hover .pricing-content .pricing-price,
+#pricing .pricing-box:focus .pricing-content .pricing-price{
+    color: #ffffff;
+}
+#pricing .pricing-box .pricing-content .pricing-info{
+    color: #6958ca;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+#pricing .pricing-box:hover .pricing-content .pricing-info,
+#pricing .pricing-box:focus .pricing-content .pricing-info{
+    color: #ffffff;
+}
+#pricing .pricing-box .pricing-content .pricing-details ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#pricing .pricing-box .pricing-content .pricing-details ul li{
+    position: relative;
+    color: #6958ca;
+    font-size: 17px;
+    margin-bottom: 18px;
+    text-align: left;
+    margin-left: 10px;
+}
+#pricing .pricing-box:hover .pricing-content .pricing-details ul li,
+#pricing .pricing-box:focus .pricing-content .pricing-details ul li{
+    color: #ffffff;
+}
+#pricing .pricing-box .pricing-content .pricing-details ul li:first-child{
+    font-weight: 600;
+}
+#pricing .pricing-box .pricing-content .pricing-details ul li:before{
+    font-family: "spacehost" !important;
+    content: "\63";
+    color: #45eaa2;
+    font-size: 12px;
+    font-weight: 400;
+    margin-right: 16px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#pricing .pricing-box:hover .pricing-content .pricing-details ul li:before,
+#pricing .pricing-box:focus .pricing-content .pricing-details ul li:before,
+#pricing .pricing-box:hover .pricing-content .pricing-details ul li:after,
+#pricing .pricing-box:focus .pricing-content .pricing-details ul li:after{
+    color: #ffffff;
+}
+#pricing .pricing-box .pricing-content:after,
+#pricing .pricing-box .pricing-content:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    z-index: -1;
+
+    background: #6a52f2; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #6a52f2 0%, #6958ca 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #6a52f2 0%,#6958ca 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #6a52f2 0%,#6958ca 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a52f2', endColorstr='#6958ca',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+#pricing .pricing-box:hover .pricing-content:after,
+#pricing .pricing-box:focus .pricing-content:after{
+    opacity: 1;
+}
+#pricing .pricing-box .pricing-link{
+    margin-top: 50px;
+}
+#pricing .pricing-box .pricing-link a{
+    color: #6958ca;
+    font-size: 20px;
+    text-decoration: none;
+}
+#pricing .pricing-box .pricing-link a .sphst{
+    vertical-align: middle;
+    transform: rotate(-90deg);
+    font-size: 16px;
+}
+#pricing .pricing-box .pricing-link a .sphst{
+    color: #3ee99f;
+}
+#pricing .pricing-box .pricing-link a:hover .sphst,
+#pricing .pricing-box .pricing-link a:focus .sphst{
+    margin-left: 5px;
+}
+/*------------------------------------------------------------------
+	8. Search-Box Section Styles
+-------------------------------------------------------------------*/
+#search-box{
+    background-color: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+#search-box p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #527292;
+    font-weight: 100;
+    line-height: 62px;
+    margin-bottom: 40px;
+}
+#search-box .domain-search-holder input[type="text"]{
+    padding: 20px 35px;
+    border-radius: 10px;
+    background-color: #f1f4f5;
+    font-size: 18px;
+    color: #7c969d;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    max-width: 420px;
+}
+#search-box .domain-search-holder input[type="text"]:hover,
+#search-box .domain-search-holder input[type="text"]:focus{
+    background-color: #f4f7f8;
+}
+#search-box .domain-search-holder input[type="submit"]{
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: #6958ca;
+    font-size: 18px;
+    color: #ffffff;
+    border: 0;
+    margin-left: -20px;
+}
+#search-box .domain-search-holder input[type="submit"]:hover,
+#search-box .domain-search-holder input[type="submit"]:focus{
+   background-color: #5849af; 
+}
+#search-box .domain-search-holder ::-webkit-input-placeholder {color: #7c969d;}
+#search-box .domain-search-holder :-moz-placeholder {color: #7c969d;}
+#search-box .domain-search-holder ::-moz-placeholder {color: #7c969d;}
+#search-box .domain-search-holder :-ms-input-placeholder {color: #7c969d;}
+/*------------------------------------------------------------------
+	9. Domain Pricing Section Styles
+-------------------------------------------------------------------*/
+
+#domain-pricing{
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+#domain-pricing .container{
+     border-radius: 25px;
+    background: #6a52f2; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #6a52f2 0%, #6958ca 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #6a52f2 0%,#6958ca 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #6a52f2 0%,#6958ca 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a52f2', endColorstr='#6958ca',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    -webkit-box-shadow: 0 19px 19px rgba(76, 47, 237, 0.3);
+    -moz-box-shadow: 0 19px 19px rgba(76, 47, 237, 0.3);
+    box-shadow: 0 19px 19px rgba(76, 47, 237, 0.3);
+}
+#domain-pricing .domain-lists-holder{
+    padding-bottom: 50px;
+}
+#domain-pricing ul.domain-list{
+    list-style: none;
+    padding: 0;
+    margin: 30px 40px;
+}
+#domain-pricing ul.domain-list li{
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 4px 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 100px;
+}
+#domain-pricing ul.domain-list li div{
+    font-weight: 700;
+}
+#domain-pricing ul.domain-list li:hover,
+#domain-pricing ul.domain-list li:focus{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+#domain-pricing ul.domain-list li:hover div[class^="col-"],
+#domain-pricing ul.domain-list li:focus div[class^="col-"]{
+
+}
+#domain-pricing ul.domain-list li div[class^="col-"]{
+    padding: 0;
+    display: inline-block;
+    width: 49%;
+    float: inherit;
+    color: #ffffff;
+}
+#domain-pricing ul.domain-list li div[class^="col-"]:first-child{
+    text-align: left;
+}
+#domain-pricing ul.domain-list li div[class^="col-"]:last-child{
+    text-align: right;
+}
+
+/*------------------------------------------------------------------
+	10. Testimonials Section Styles
+-------------------------------------------------------------------*/
+#testimonials{
+    background-color: #eaf2f8;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+#testimonials .testimonials-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #527292;
+    font-weight: 100;
+    line-height: 62px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#testimonials .testimonial-box{
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 0 6px 36px rgba(0,0,0,0);
+    -moz-box-shadow: 0 6px 36px rgba(0,0,0,0);
+    box-shadow: 0 6px 36px rgba(0,0,0,0);
+}
+#testimonials .testimonial-box:hover,
+#testimonials .testimonial-box:focus{
+    background-color: rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0 6px 36px rgba(0,0,0,0.11);
+    -moz-box-shadow: 0 6px 36px rgba(0,0,0,0.11);
+    box-shadow: 0 6px 36px rgba(0,0,0,0.11);
+}
+#testimonials .testimonial-box div[class^="col-"]{
+    padding-left: 0;
+    padding-right: 0;
+}
+#testimonials .testimonial-box.right-img div[class^="col-"]{
+    float: right;
+}
+#testimonials .testimonial-box.left-img div[class^="col-"]{
+    float: left;
+}
+#testimonials .testimonial-box p{
+    color: #7b9ba2;
+    font-size: 17px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#testimonials .testimonial-box:hover p,
+#testimonials .testimonial-box:focus p{
+    color: #6958c9;
+}
+#testimonials .testimonial-box img{
+    border-radius: 10px;
+    width: 66px;
+    margin-top: 8px;
+}
+#testimonials .testimonial-box .img-holder{
+    position: relative;
+}
+#testimonials .testimonial-box .img-holder:after{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    top: 50%;
+    margin-top: -1px;
+}
+#testimonials .testimonial-box .img-holder.dot-color1:after{
+    background-color: #ffdb11;
+}
+#testimonials .testimonial-box .img-holder.dot-color2:after{
+    background-color: #c8c1ee;
+}
+#testimonials .testimonial-box .img-holder.dot-color3:after{
+    background-color: #c9f0fb;
+}
+#testimonials .testimonial-box .img-holder.dot-color4:after{
+    background-color: #ecc8ee;
+}
+#testimonials .testimonial-box.right-img .img-holder:after{
+    right: inherit;
+    left: -10px;
+}
+#testimonials .testimonial-box.left-img .img-holder:after{
+    right: -10px;
+    left: inherit;
+}
+/*------------------------------------------------------------------
+	11. Message Section Styles
+-------------------------------------------------------------------*/
+#message-with-link{
+    background-color: #97adb9;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+#message-with-link span{
+    font-size: 17px;
+    color: #ffffff;
+    margin: 5px;
+    margin-right: 20px;
+}
+#message-with-link a.button-bluegrey{
+    display: inline-block;
+    background-color: #7d96a3;
+    padding: 4px 20px 6px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 5px;
+}
+#message-with-link a.button-bluegrey:hover,
+#message-with-link a.button-bluegrey:focus{
+    text-decoration: none;
+    background-color: #6b808b;
+}
+#message-with-link a.button-purple{
+    display: inline-block;
+    background-color: #6958ca;
+    padding: 4px 15px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 5px;
+}
+#message-with-link a.button-purple:hover,
+#message-with-link a.button-purple:focus{
+    text-decoration: none;
+    background-color: #5647aa;
+}
+/*------------------------------------------------------------------
+	12. Contact Section Styles
+-------------------------------------------------------------------*/
+#contact{
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+#contact .contact-holder{
+    display: inline-block;
+    width: 60%;
+}
+#contact .contact-holder div[class^="col-"]{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#contact .contact-box{
+    text-align: left;
+    margin-bottom: 40px;
+}
+#contact .contact-box h4{
+    font-size: 17px;
+    font-weight: 600;
+    color: #6958ca;
+    margin-bottom: 10px;
+}
+#contact .contact-box p{
+    font-size: 17px;
+    color: #7b9ba2;
+    margin-bottom: 10px;
+}
+#contact .contact-box a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #527292;
+    text-decoration: none;
+    position: relative;
+}
+#contact .contact-box a:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    left: 50%;
+    margin-left: -50%;
+    bottom: -3px;
+    background-color: #6958ca;
+    transition: all 0.3s ease;
+}
+#contact .contact-box a:hover:after,
+#contact .contact-box a:hover:focus{
+    width: 90%;
+    margin-left: -45%;
+}
+#contact #contactform{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+#contact #contactform ::-webkit-input-placeholder {color: #7c969d;}
+#contact #contactform :-moz-placeholder {color: #7c969d;}
+#contact #contactform ::-moz-placeholder {color: #7c969d;}
+#contact #contactform :-ms-input-placeholder {color: #7c969d;}
+
+#contact #contactform input[type="text"]{
+    border: 1px solid #9e9e9e;
+    background-color: #ffffff;
+    border-radius: 12px;
+    font-size: 17px;
+    color: #7c969d;
+    padding: 14px 20px;
+    outline: none;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+#contact #contactform input[type="text"]:hover,
+#contact #contactform input[type="text"]:focus{
+    border: 1px solid #696969;
+}
+#contact #contactform input[type="email"]{
+    border: 1px solid #9e9e9e;
+    background-color: #ffffff;
+    border-radius: 12px;
+    font-size: 17px;
+    color: #7c969d;
+    padding: 14px 20px;
+    outline: none;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+#contact #contactform input[type="email"]:hover,
+#contact #contactform input[type="email"]:focus{
+    border: 1px solid #696969;
+}
+#contact #contactform textarea{
+    border: 1px solid #9e9e9e;
+    background-color: #ffffff;
+    border-radius: 12px;
+    font-size: 17px;
+    color: #7c969d;
+    padding: 10px 20px;
+    outline: none;
+    width: 100%;
+    height: 180px;
+    text-align: left;
+    margin-bottom: 10px;
+    resize: none;
+}
+#contact #contactform textarea:hover,
+#contact #contactform textarea:focus{
+    border: 1px solid #696969;
+}
+#contact #contactform input[type="submit"]{
+    background-color: #6958ca;
+    float: right;
+    border: 0;
+    padding: 10px 20px;
+    color: #ffffff;
+    pointer-events: all;
+    border-radius: 12px;
+    font-size: 17px;
+    outline: none;
+}
+#contact #contactform input[type="submit"]:hover{
+    background-color: #5446a5;
+}
+#contact #contactform .ajax-button.sending input[type="submit"]{
+    pointer-events: none;
+    font-size:0;
+    width:35px;
+    height:35px;
+    border-radius:50px;
+    padding:0;
+    border:2px solid #5446a5;
+    border-bottom:2px solid rgba(84, 70, 165, 0);
+    border-left:2px solid rgba(84, 70, 165, 0);
+    background-color:transparent !important;
+    animation-name: rotateAnimation;
+    -webkit-animation-name: rotateAnimation;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-delay: 0.2s;
+    -webkit-animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+@keyframes rotateAnimation {
+    0%   {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+@-webkit-keyframes rotateAnimation {
+    0%   {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(360deg);}
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    border: 1px solid rgba(255,255,255,0);
+    border-bottom: 1px solid rgba(255,255,255,1);
+    -webkit-text-fill-color: white;
+    -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+/*------------------------------------------------------------------
+	13. Responsive Styles
+-------------------------------------------------------------------*/
+
+/* Other screens styles modifications */
+@media (max-width: 1200px) {
+    #features .feature-box .feature-details {
+        padding: 40px 20px;
+    }
+    #features .feature-box .feature-details p{
+        font-size: 17px;
+    }
+    #features .feature-box .feature-details h4 {
+        font-size: 21px;
+    }
+    #pricing .pricing-box {
+        padding: 30px 0px;
+    }
+    #pricing .pricing-box .pricing-content {
+        padding: 40px 30px;
+    }
+}
+@media (max-width: 992px) {
+    #features .feature-box .feature-details {
+        padding: 50px 40px;
+    }
+    #pricing .pricing-box.best-choise .pricing-title:after {
+        top: -44px;
+        right: -5px;
+    }
+    #pricing .pricing-box.best-choise .pricing-title:before {
+        top: -24px;
+        right: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .navbar-toggle{
+        margin-right: 0;
+    }
+    #top-content .domain-search-holder input[type="text"]{
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    #top-content .domain-search-holder input[type="submit"]{
+        margin-left: 0px;
+    }
+    #search-box .domain-search-holder input[type="text"]{
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    #search-box .domain-search-holder input[type="submit"]{
+        margin-left: 0px;
+    }
+    #contact .contact-holder {
+        width: 90%;
+    }
+}
+@media (max-width: 480px) {
+
+}

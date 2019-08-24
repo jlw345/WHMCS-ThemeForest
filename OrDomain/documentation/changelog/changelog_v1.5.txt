@@ -1,0 +1,8 @@
+// # List of updates
+// ------------------------------
+
+[*] Improved Customizability
+[+] Added Fontawesome Icon Support in sections
+[+] Added slider speed control option
+[*] Fixed some bug
+[*] Included Envato Toolkit Plugin

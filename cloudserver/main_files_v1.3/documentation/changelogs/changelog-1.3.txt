@@ -1,0 +1,123 @@
+==========================
+28 May, 2017 - Version 1.3
+==========================
+
+-----------------------------------------------------------------------
+Backup your theme/style folder and files before applying these updates.
+-----------------------------------------------------------------------
+
+#. WHMCS template updated to be compatible with latest "WHMCS Version 7.2"
+
+    #. "Add" the following Files:
+
+        *. managessl.tpl
+
+    #. "Add" the following Folders:
+
+        *. /error
+        *. /store
+
+    #. "Replace" the following Files:
+
+        *. /css/theme/theme-overrides.css
+
+        *. /css/theme/theme-color-1.css
+        *. /css/theme/theme-color-2.css
+        *. /css/theme/theme-color-3.css
+        *. /css/theme/theme-color-4.css
+        *. /css/theme/theme-color-5.css
+        *. /css/theme/theme-color-6.css
+        *. /css/theme/theme-color-7.css
+        *. /css/theme/theme-color-8.css
+        *. /css/theme/theme-color-9.css
+        *. /css/theme/theme-color-10.css
+		
+        *. /css/overrides.css
+        *. /css/styles.css
+
+        *. /includes/navbar.tpl
+        *. /includes/sidebar.tpl
+        *. /includes/tablelist.tpl
+		
+        *. /js/main.js
+        *. /js/scripts.js
+        *. /js/scripts.min.js
+        *. /js/twitter.js
+        *. /js/whmcs.js
+		
+        *. announcements.tpl
+        *. clientareachangepw.tpl
+        *. clientareacontacts.tpl
+        *. clientareaproductdetails.tpl
+        *. downloads.tpl
+        *. downloadscat.tpl
+        *. homepage.tpl
+        *. knowledgebase.tpl
+        *. knowledgebasearticle.tpl
+        *. knowledgebasecat.tpl
+        *. login.tpl
+        *. managessl.tpl
+        *. supportticketslist.tpl
+        *. viewannouncement.tpl
+        *. viewinvoice.tpl
+
+    #. "Change" the following Files:
+
+        *. /includes/head.tpl
+		
+			"line 2":
+				"Deleted":
+				<link href="//fonts.googleapis.com/css?family=Open+Sans:400,600%7CRaleway:400,700%7CRoboto:300,400,500,700,900%7CMontserrat:700" rel="stylesheet">
+					
+				"Added":
+				<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600%7CRaleway:400,700%7CRoboto:300,400,500,700,900%7CMontserrat:700" rel="stylesheet">
+		
+        *. header.tpl
+		
+			"line 271":
+				"Deleted":
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				
+				"Added":
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary-nav">
+		
+			"line 280":
+				"Deleted":
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				
+				"Added":
+				<div class="collapse navbar-collapse" id="primary-nav">
+		
+			"line 383":
+				"Deleted":
+				<section id="main-body" class="container">
+				
+				"Added":
+				<section id="main-body">
+					<div class="container{if $skipMainBodyContainer}-fluid without-padding{/if}">
+		
+			"line 387":
+				"Deleted":
+				{if $primarySidebar->hasChildren()}
+				
+				"Added":
+				{if $primarySidebar->hasChildren() && !$skipMainBodyContainer}
+		
+			"line 398":
+				"Deleted":
+				{if !$primarySidebar->hasChildren() && !$showingLoginPage && !$inShoppingCart && $templatefile != 'homepage'}
+				
+				"Added":
+				{if !$primarySidebar->hasChildren() && !$showingLoginPage && !$inShoppingCart && $templatefile != 'homepage' && !$skipMainBodyContainer}
+				
+        *. footer.tpl
+		
+			"line 8":
+				"Deleted":
+					<div class="clearfix"></div>
+				</section>
+				
+				"Added":
+						<div class="clearfix"></div>
+					</div>
+				</section>

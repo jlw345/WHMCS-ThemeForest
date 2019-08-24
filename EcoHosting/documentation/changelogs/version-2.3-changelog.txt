@@ -1,0 +1,21 @@
+============================
+25 April, 2018 - Version 2.3
+============================
+
+-------------------------------------------------------------------------------------------
+Backup your theme/style folder and files before applying these updates.
+-------------------------------------------------------------------------------------------
+The best way is to use a compare tool, like: https://sourceforge.net/projects/kdiff3/files/
+and use it to compare the 'folders' (the version you're using with the new version)
+-------------------------------------------------------------------------------------------
+Updating HTML Templates Requires Manual Work.
+-------------------------------------------------------------------------------------------
+
+
+*. WHMCS template updated to be compatible with latest "WHMCS Version 7.5.1":
+-----------------------------------------------------------------------------
+
+	*. Files Affected:
+	------------------
+		-> /js/scripts.js
+		-> /js/scripts.min.js

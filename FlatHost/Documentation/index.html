@@ -1,0 +1,226 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<head lang="en">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <title>Flathost Documentation</title>
+    <!-- Framework CSS -->
+    <link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+    <!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+    <link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+    <style type="text/css" media="screen">
+    p,
+    table,
+    hr,
+    .box {
+        margin-bottom: 25px;
+    }
+    
+    .box p {
+        margin-bottom: 10px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1 class="center">&ldquo;  FlatHost - Responsive Hosting Template  &rdquo;</h1>
+
+        <div class="borderTop">
+            <div class="span-6 colborder info prepend-1">
+                <p class="prepend-top">
+                    <strong>
+					Created: 20 Jun 2013<br>
+                    Updated: 02 Mar 2015<br>
+					By: Surjith SM<br>
+					Email: <a href="mailto:support@surjithctly.in">support@surjithctly.in</a>
+					</strong>
+                </p>
+            </div>
+            <!-- end div .span-6 -->
+
+            <div class="span-12 last">
+                <p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/surjithctly">here</a>. Thanks so much!</p>
+            </div>
+        </div>
+        <!-- end div .borderTop -->
+
+        <hr>
+
+        <h2 id="toc" class="alt">Table of Contents</h2>
+        <ol class="alpha">
+            <li><a href="#htmlStructure">HTML Structure</a></li>
+            <li><a href="#cssFiles">CSS Files and Structure</a></li>
+            <li><a href="#javascript">JavaScript</a></li>
+            <li><a href="#whmcs">Installing WHMCS Template</a></li>
+            <li><a href="#psdFiles">PSD Files</a></li>
+            <li><a href="#credits">Sources and Credits</a></li>
+        </ol>
+
+        <hr>
+
+        <h3 id="htmlStructure"><strong>A) HTML Structure</strong> - <a href="#toc">top</a></h3>
+        <p>This theme is a fixed layout with three columns. All of the information within the main content area is nested within a div with an class of "wrapper".The general template structure is the same throughout the template. Here is the general structure.</p>
+
+        <img src="assets/images/htmlstructure.png" alt="HTML Structure" />
+
+        <p>If you would like to edit the color, font, or style of any elements in one of these columns, you would do the following:</p>
+
+        <pre>	.wrapper a {
+		color: #someColor;
+	} 
+</pre>
+
+        <p>If you find that your new style is not overriding, it is most likely because of a specificity problem. Scroll down in your CSS file and make sure that there isn't a similar style that has more weight.</p>
+
+        <p>I.E.</p>
+
+        <pre>	body .wrapper a {
+		color: #someColor;
+	}
+</pre>
+
+        <p>So, to ensure that your new styles are applied, make sure that they carry enough "weight" and that there isn't a style lower in the CSS file that is being applied after yours.</p>
+
+        <hr>
+
+        <h3 id="cssFiles"><strong>B) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+
+        <p>I'm using three CSS files in this theme. Bootstrap, Responisive CSS</p>
+
+        <p>And &quot;hosting.css&quot; contains all of the specific stylings for the page. The file is separated into sections using:</p>
+
+        <pre>	
+1. GLOBAL STYLES
+1. HEADER
+2. MAIN FEATURES
+3. MORE FEATURES
+4. TESTIMONIALS
+5. PLANS AND PRICING
+6. FOOTER / CONTACT US
+7. MODAL SIGNIN / SIGHUP
+8. CUSTOM MEDIA QUERIES
+
+</pre>
+
+        <p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p>
+        <hr>
+
+        <h3 id="javascript"><strong>C) JavaScript</strong> - <a href="#toc">top</a></h3>
+
+        <p>This theme imports four Javascript files.</p>
+
+        <ol>
+            <li>jQuery</li>
+            <li>Mordernizer</li>
+            <li>Bootstrap</li>
+            <li>jquery easing</li>
+        </ol>
+
+        <ol>
+            <li>jQuery is a Javascript library that greatly reduces the amount of code that you must write.</li>
+            <li>Mordernizer helps fallbacks for older browsers</li>
+            <li>Bootsrtap JS and Modelbox</li>
+
+            <li>Jquery for easing</li>
+
+            <li>In addition to the custom scripts, I have added page scroll script. that you can fnd at bottom just before closing of &lt;/body&gt;
+                <pre>            $(function() {
+                $('.nav li a').bind('click',function(event){
+                    var $anchor2 = $(this).parent();
+				    var $anchor = $(this);
+					$('.nav  li').removeClass('active');
+                    $anchor2.addClass('active');
+					
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top - 50
+                    }, 1500,'easeInOutExpo');
+                    /*
+                    if you don't want to use the easing effects:
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1000);
+                    */
+                    event.preventDefault();
+                });
+            });</pre>
+            </li>
+        </ol>
+
+        <hr>
+
+        <h3 id="whmcs"><strong>D) Integrating WHMCS</strong> - <a href="#toc">top</a></h3>
+
+        <p>Easily install Flathost Template to your WHMCS.</p>
+
+        <p><strong>NOTE:</strong> THE WHMCS TEMPLATE PROVIDES MATCHING VISUAL STYLES WITH THE FLATHOST HTML TEMPLATE
+            <br> So, The HTML files should be on the root /public_html folder
+            <br> And the WHMCS should be installed in a subfolder or subdomain. eg: /clients or /billing</p>
+        <ol>
+
+            <li> Upload the "flathost" Folder to your WHMCS/templates folder. (This is the main Template)</li>
+            <li>Upload the "/orderforms/flathost" folder to your server in WHMCS/templates/orderforms folder</li>
+            <li> Activate "Flathost" Template from WHMCS Admin Panel Setup => General Settings</li>
+            <li> Set "Flathost" as default Order form Template from Setup => General Settings => Ordering</li>
+            <li> If you have existing Products/Services, Then change orderform to "Flathost" Template in Product Group Settings. Setup => Product/Services => Product/Services => Edit Group => Use system default</li>
+            <li> Refresh the Client Area.</li>
+        </ol>
+
+        <p>If you need to update the WHMCS Header and footer for WHMCS, Open header.tpl and footer.tpl inside /flathost folder and edit accordingly. You can also copy paste from the HTML page to match with your website. </p>
+
+        <p>PS: Contact me if you need the v5.x compatible version.</p>
+
+        <p><strong>DOMAIN SEARCH AND LOGIN FORM</strong></p>
+        <p>To make Domain Search and Login Popup work, You should change the Form action Path inside both form</p>
+
+        <pre>
+        Eg: &lt;form action="CHANGE_YOUR__URL_HERE"&gt;&lt;/form&gt;
+        </pre>
+
+        <p>To get the form action URL, go to WHMCS => Admin => Utilities Tab => Integration Code. There you can see the URL for each form</p>
+
+        <p>If you have any doubts in implementing, please open a support ticket here : https://support.surjithctly.in/</p>
+
+        <hr>
+
+        <h3 id="psdFiles"><strong>E) PSD Files</strong> - <a href="#toc">top</a></h3>
+
+        <p>I've included Fully layered and grouped one psd with this theme: Compatible with CS3+</p>
+
+        <ol>
+            <li>Index.psd</li>
+        </ol>
+
+        <p>If you'd like to change the theme. you can open index.psd and edit. </p>
+
+        <p>All Sections are grouped. just find the group in the PSD, then edit.</p>
+
+        <hr>
+
+        <h3 id="credits"><strong>F) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+
+        <p>I've used the following resources.
+
+            <ul>
+                <li>Framework by <a href="http://getbootstrap.com">Bootstrap</a></li>
+                <li>Images by <a href="http://www.flickr.com/photos/getbutterfly/">Ciprian Popescu</a> on Flickr / Creative COmmons </li>
+                <li>Mordernizr Plugin</li>
+                <li> Icons by <a href="http://iconfinder.com">Iconfinder</a> </li>
+
+                <li>Page scrolling by <a href="http://tympanus.net">codrops</a></li>
+            </ul>
+
+            <hr>
+
+            <p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+
+            <p class="append-bottom alt large"><strong>Surjith SM</strong></p>
+            <p><a href="#toc">Go To Table of Contents</a></p>
+
+            <hr class="space">
+    </div>
+    <!-- end div .container -->
+</body>
+
+</html>

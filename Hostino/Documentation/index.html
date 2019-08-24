@@ -1,0 +1,351 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+<title>Hostino - Documentation</title>
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/prettify.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+<div id="header" class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="doc-title"><div class="glyph-icon flaticon-document-1"></div>Hostino - Documentation</div>
+        </div>
+    </div>
+</div>
+<div id="content" class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12 col-md-3" style="padding:0;">
+            <div class="menu-holder">
+                <ul class="main-menu">
+                    <li><a href="#html" class="active"><i class="fa fa-angle-right" aria-hidden="true"></i>HTML Structure</a></li>
+                    <li><a href="#css"><i class="fa fa-angle-right" aria-hidden="true"></i>CSS & JavaScript</a></li>
+                    <li><a href="#theme"><i class="fa fa-angle-right" aria-hidden="true"></i>Switch the Style</a></li>
+                    <li><a href="#logo"><i class="fa fa-angle-right" aria-hidden="true"></i>Logo & Menu</a></li>
+                    <li><a href="#top-content"><i class="fa fa-angle-right" aria-hidden="true"></i>Top Content</a></li>
+                    <li><a href="#icons"><i class="fa fa-angle-right" aria-hidden="true"></i>Icons & text</a></li>
+                    <li><a href="#pricing"><i class="fa fa-angle-right" aria-hidden="true"></i>Pricing tables</a></li>
+                    <li><a href="#apps"><i class="fa fa-angle-right" aria-hidden="true"></i>Apps Icons & text</a></li>
+                    <li><a href="#testimonials"><i class="fa fa-angle-right" aria-hidden="true"></i>Testimonials</a></li>
+                    <li><a href="#photo-slider"><i class="fa fa-angle-right" aria-hidden="true"></i>Photo slider</a></li>
+                    <li><a href="#address"><i class="fa fa-angle-right" aria-hidden="true"></i>Footer - address & social</a></li>
+                    <li><a href="#whmcs"><i class="fa fa-angle-right" aria-hidden="true"></i>WHMCS Theme Installation</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-9 content">
+            <h3 id="html">HTML Structure</h3>
+            <p>The template is based on bootstrap library, please read more about bootstrap here: <a href="http://getbootstrap.com/getting-started/" target="_blank">http://getbootstrap.com/getting-started/</a>
+
+                To edit the template, a very basic knowledge in dealing with bootstrap is required.
+            </p>
+            
+            <p>The Html file can be edited in any text editor, best example is Adobe Dreamweaver.
+            </p>
+            
+            <p>Hostio template structure is based on bootstrap layout, the page is separated in rows, every row created like the following figure:
+            </p>
+            
+            <img src="assets/images/doc.jpg">
+            <br>
+            <p>The template is arranged in sections, each section(div) has an id, Ex: "mainNav", "top-content", "pricing", ...etc</p>
+            <p><b>Note:</b> for the WHMCS, the same layout can be found in "header.tpl".</p>
+            <pre class="prettyprint">
+&lt;div id="top-content" class="container-fluid"&gt;
+...
+&lt;div id="info" class="container-fluid"&gt;
+...
+&lt;div id="features" class="container-fluid"&gt;
+...
+&lt;div id="pricing" class="container-fluid"&gt;
+...
+&lt;div id="apps" class="container-fluid"&gt;
+...
+&lt;div id="testimonials" class="container-fluid"&gt;
+...
+&lt;div id="footer" class="container-fluid"&gt;
+...</pre>
+            <h3 id="css">CSS</h3>
+            <p>There are four CSS files in the template. First is "bootstrap.min.css", used for layout — originally in bootstrap, the other files are "font-awesome.min.css", "slick.css" and "style.css" is used for style customisation, where the texts, colors, backgrounds and font styles can be changed.</p>
+            
+            <p>
+                We arrange the styles according to the order of the tags in the html.
+            </p>
+            <pre class="prettyprint">/*------------------------------------------------------------------
+[Table of contents]
+
+1. General Styles.
+2. Header Section Styles.
+3. Top Content Section Styles.
+4. Info Section Styles
+5. Features Section Styles.
+6. Pricing Section Styles.
+7. Apps Section Styles.
+8. Testimonials Section Styles.
+9. More Features Section Styles.
+10. Get Started Section Styles.
+11. Footer Section Styles.
+12. Inner Pages Styles.
+13. Responsive Styles.
+-------------------------------------------------------------------*/</pre>
+           
+            <h3 id="javascript">JavaScript</h3>
+            <p>This template imports six Javascript files.</p>
+
+            <ul>
+                <li>"jquery.min.js": jQuery is a Javascript library that greatly reduces the amount of code that you must write.</li>
+                <li>"bootstrap.min.js": Bootstrap is the most popular Javascript framework for developing responsive, mobile first projects on the web.</li>
+                <li>"paper-full.min.js":  Is an open source vector graphics scripting framework that runs on top of the HTML5 Canvas.</li>
+                <li>"slick.min.js": slick is a responsive carousel jQuery plugin that supports multiple breakpoints, CSS3 transitions, touch events/swiping & much more!</li>
+                <li>"metaball.js": the animation file.</li>
+                <li>"main.js": Our custom javascript code.</li>
+            </ul>
+            
+            <h3 id="theme">Switch the Style</h3>
+            <p>To switch the style to the other style, simply add this code to the head of the page after all styles links as follow:</p>
+            <pre class="prettyprint">
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/blue-grey.css&quot;&gt;</pre>
+            
+            <p>To be look like this:</p>
+            <pre class="prettyprint">
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/bootstrap.min.css&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/font-awesome.min.css&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/slick.css&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/style.css&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/blue-grey.css&quot;&gt;</pre>
+            
+            <p>For the WHMCS, add this code to the "head.tpl" file in the "includes" folder.</p>
+            <pre class="prettyprint">
+&lt;link href=&quot;{$WEB_ROOT}/templates/{$template}/css/blue-grey.css&quot; rel=&quot;stylesheet&quot;&gt;</pre>
+            
+            <p>And this should be look like the following code:</p>
+            <pre class="prettyprint">
+&lt;link href=&quot;{$WEB_ROOT}/templates/{$template}/css/custom.css&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;link href=&quot;{$WEB_ROOT}/templates/{$template}/css/styles-modified.css&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;link href=&quot;{$WEB_ROOT}/templates/{$template}/css/slick.css&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;link href=&quot;{$WEB_ROOT}/templates/{$template}/css/style.css&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;link href=&quot;{$WEB_ROOT}/templates/{$template}/css/blue-grey.css&quot; rel=&quot;stylesheet&quot;&gt;</pre>
+            
+            <h3 id="logo">Logo</h3>
+            <p>To change the logo, replace the img src="" with the logo url, consider that the dimentions of the logo must be width: 194 px ×  height: 34px.</p>
+            <pre class="prettyprint">&lt;img class="logo" src="images/logo.png" alt="Hostino"&gt;</pre>
+            
+            <h3 id="menu">Menu</h3>
+            <p>To change the menu links, simply edit this code.</p>
+            <pre class="prettyprint">
+&lt;ul class=&quot;nav navbar-nav navbar-right&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;index.html&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;dropdown&quot;&gt;
+        &lt;a href=&quot;pages.html&quot;&gt;Pages &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+        &lt;ul class=&quot;dropdown-menu&quot;&gt;
+            &lt;li&gt;&lt;a href=&quot;about.html&quot;&gt;About us&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;webhosting.html&quot;&gt;Web hosting plans&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;domain.html&quot;&gt;Domain names&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;blog.html&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;support.html&quot;&gt;Support portal&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;contact.html&quot;&gt;Contact us&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a class=&quot;signin-button&quot; href=&quot;signin.html&quot;&gt;Sign in&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a class=&quot;chat-button&quot; href=&quot;#&quot;&gt;Chat now&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</pre>
+            <br>
+            <p>Add a link to "Chat now" button, by replacing the # in href="#" </p>
+            <pre class="prettyprint">&lt;li&gt;&lt;a class=&quot;chat-button&quot; href=&quot;#&quot;&gt;Chat now&lt;/a&gt;&lt;/li&gt;</pre>
+            
+            <h3 id="top-content">Top Content</h3>
+            <p>There are three slides in the top of the home page, every slide has "title" attribute, the title value will shown as slide title, to change it simply edit the following code:</p>
+            <pre class="prettyprint">
+&lt;div id=&quot;main-slider&quot;&gt;
+    &lt;div class=&quot;slide domainsearch-slide&quot; title=&quot;Welcome !&quot;&gt;
+        ...
+    &lt;/div&gt;
+    &lt;div class=&quot;slide info-slide1&quot; title=&quot;Features&quot;&gt;
+        ...
+    &lt;/div&gt;
+    &lt;div class=&quot;slide info-slide2&quot; title=&quot;Get started&quot;&gt;
+        ...
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+            <p>Each slide has simple content, the first one has domain search input with some text, the text can be edited by modifying the following code:</p>
+            <pre class="prettyprint">
+&lt;div class=&quot;b-title&quot;&gt;Find a personal or professional domain&lt;br&gt;
+that stands out.&lt;/div&gt;</pre>
+            <p>And the other slides has image, text and button. You can edit it easily as follow:</p>
+            <pre class="prettyprint">
+&lt;div class=&quot;image-holder&quot;&gt;&lt;img src=&quot;images/main-slide-img1.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;text-holder&quot;&gt;Take your career to the next level&lt;br&gt;
+Get your website today.&lt;/div&gt;
+&lt;div class=&quot;button-holder&quot;&gt;&lt;a href=&quot;signup.html&quot; class=&quot;blue-button&quot;&gt;Sign up now&lt;/a&gt;&lt;/div&gt;</pre>
+            
+            <h3 id="icons-text">Icons & text</h3>
+            <p>This way of the layout is repeated in many different places in the template and can be edited easily as follow:</p>
+            <p>You can change the icon, title and details text by editing this code for each one.</p>
+            <p>You can use FontAwesome icons. Assume you needed twitter icon. To do that, replace this "fa fa-star" with this "fa fa-twitter".</p>
+            <p>To relplace the icon with an image, replace this code &lt;i class="fa fa-star"&gt; with this &lt;img src="image/image.png" width"60" height="60" /&gt; and modify the src="" with the image url.</p>
+            <pre class="prettyprint">
+&lt;div class=&quot;mfeature-box&quot;&gt;
+    &lt;div class=&quot;mfeature-icon&quot;&gt;
+        &lt;div class=&quot;icon-bg&quot;&gt;&lt;img src=&quot;images/clouds-light.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+        &lt;i class=&quot;fa fa-star&quot;&gt;&lt;/i&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;mfeature-title&quot;&gt;Uptime 100%. Guaranteed.&lt;/div&gt;
+    &lt;div class=&quot;mfeature-details&quot;&gt;Mauris at libero sed justo pretium maximus ac non ex. Donec sit amet ultrices dolo.&lt;/div&gt;
+&lt;/div&gt;</pre>
+            <p>Make sure to repeat the same modifications in this code as well.</p>
+            
+            <h3 id="pricing">Pricing tables</h3>
+            <p>Every Pricing table start with this code. In the code there is class "pr-color1", this class is changing the main color of the table, there are three colors to use, "pr-color1", "pr-color2", "pr-color3".</p>
+            <pre class="prettyprint">&lt;div class=&quot;pricing-box pr-color1&quot;&gt;</pre>
+            <p>You can add "Recommended" icon at the top of the table by adding "recommended" class next to other classes as follow.</p>
+            <pre class="prettyprint">&lt;div class=&quot;pricing-box pr-color1 recommended&quot;&gt;</pre>
+            <p>This code is for the pricing table in "index.html","webhosting.html" pages. The title, price and the details can be changed easily </p>
+            <pre class="prettyprint">
+&lt;div class=&quot;pricing-box pr-color1&quot;&gt;
+    &lt;div class=&quot;pricing-title&quot; title=&quot;Starter&quot;&gt;Starter&lt;/div&gt;
+    &lt;div class=&quot;pricing-box-body&quot;&gt;
+        &lt;div class=&quot;pricing-amount&quot;&gt;
+            &lt;div class=&quot;price&quot;&gt;
+                &lt;span class=&quot;currency&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;amount&quot;&gt;8.3&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;duration&quot;&gt;monthly&lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;pricing-details&quot;&gt;
+            &lt;ul&gt;
+                &lt;li&gt;Storage &mdash; 10 GB&lt;/li&gt;
+                &lt;li&gt;Bandwidth ( Traffic ) &mdash; 15 GB&lt;/li&gt;
+                &lt;li&gt;Domain name &mdash; Free!&lt;/li&gt;
+                &lt;li&gt;Ram &mdash; 128 MB&lt;/li&gt;
+                &lt;li&gt;Subdomains &mdash; 10 GB&lt;/li&gt;
+                &lt;li&gt;Sharing data&lt;/li&gt;
+                &lt;li&gt;Unlimited Email Account&lt;/li&gt;
+                &lt;li class=&quot;not-supported&quot;&gt;Support 24/7&lt;/li&gt;
+                &lt;li class=&quot;not-supported&quot;&gt;One Click Install&lt;/li&gt;
+                &lt;li class=&quot;not-supported&quot;&gt;Private SSL &amp; IP&lt;/li&gt;
+                &lt;li class=&quot;not-supported&quot;&gt;Free VoIP Phone Service&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;pricing-button&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;pricing-button&quot;&gt;Buy now&lt;/a&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+            <p>In the list items, the items that labeled as not supported will have class name "not-supported".</p>
+    
+            <p>In WHMCS template, you will be using this list code when you add the ordering list, to be looks like the Html template exactly.</p>
+            <pre class="prettyprint">
+&lt;ul&gt;
+    &lt;li&gt;Storage &mdash; 10 GB&lt;/li&gt;
+    &lt;li&gt;Bandwidth ( Traffic ) &mdash; 15 GB&lt;/li&gt;
+    &lt;li&gt;Domain name &mdash; Free!&lt;/li&gt;
+    &lt;li&gt;Ram &mdash; 128 MB&lt;/li&gt;
+    &lt;li&gt;Subdomains &mdash; 10 GB&lt;/li&gt;
+    &lt;li&gt;Sharing data&lt;/li&gt;
+    &lt;li&gt;Unlimited Email Account&lt;/li&gt;
+    &lt;li class=&quot;not-supported&quot;&gt;Support 24/7&lt;/li&gt;
+    &lt;li class=&quot;not-supported&quot;&gt;One Click Install&lt;/li&gt;
+    &lt;li class=&quot;not-supported&quot;&gt;Private SSL &amp; IP&lt;/li&gt;
+    &lt;li class=&quot;not-supported&quot;&gt;Free VoIP Phone Service&lt;/li&gt;
+&lt;/ul&gt;</pre>
+            
+            <h3 id="apps">Apps Icons & text</h3>
+            <p>To change the image logo in the apps section, replace the src="" url of the img tag with your url.</p>
+            <p>Also the app title can be changed in the same code as follow:</p>
+            <pre class="prettyprint">
+&lt;div class=&quot;app-icon-holder app-icon-holder1 opened&quot; data-id=&quot;1&quot;&gt;
+    &lt;div class=&quot;app-icon&quot;&gt;&lt;img src=&quot;images/wordpress.png&quot; alt=&quot;wordpress&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;app-title&quot;&gt;Wordpress&lt;/div&gt;
+&lt;/div&gt;</pre>
+            <p>And for the details, you have to modify the following code:</p>
+            <pre class="prettyprint">
+&lt;div class=&quot;app-details1 show-details&quot;&gt;
+    &lt;div class=&quot;app-title&quot;&gt;Wordpress Hosting&lt;/div&gt;
+    &lt;div class=&quot;app-text&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/div&gt;
+&lt;/div&gt;</pre>
+            <p>Make sure to repeat the same modifications in this code as well.</p>
+            
+            <h3 id="testimonials">Testimonials</h3>
+            <p>If you want to add a testimonial, duplicate this code and modify it with your data.</p>
+            <pre class="prettyprint">
+&lt;div&gt;
+    &lt;div class=&quot;details-holder&quot;&gt;
+        &lt;img class=&quot;photo&quot; src=&quot;images/person1.jpg&quot; alt=&quot;&quot;&gt;
+        &lt;h4&gt;Chris Walker&lt;/h4&gt;
+        &lt;h5&gt;CEO &amp; CO-Founder @HelloBrandio&lt;/h5&gt;
+        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris egestas non ante non consequat. Aenean accumsan eros vel elit tristique, non sodales nunc luctus. Etiam vitae odio eget orci finibus auctor ut eget magna.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+            
+            <h3 id="photo-slider">Photo slider</h3>
+            <p>To change any photo slider in the template, look at the following code:</p>
+            <pre class="prettyprint">
+&lt;div class=&quot;photo-slider&quot;&gt;
+    &lt;div&gt;&lt;img src=&quot;images/photo1.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;img src=&quot;images/photo2.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;img src=&quot;images/photo3.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;</pre>
+            <p>You can add, remove or replace any photo by replacing the src="" url.</p>
+            
+            <h3 id="address">Footer - address & social</h3>
+            <p>To edit the address in the footer, simply change the information in this code.</p>
+            <pre class="prettyprint">
+&lt;div class=&quot;address-holder&quot;&gt;
+    &lt;div class=&quot;phone&quot;&gt;&lt;i class=&quot;fa fa-phone&quot;&gt;&lt;/i&gt; 00 285 900 38502&lt;/div&gt;
+    &lt;div class=&quot;email&quot;&gt;&lt;i class=&quot;fa fa-envelope&quot;&gt;&lt;/i&gt; hello@hostino.io&lt;/div&gt;
+    &lt;div class=&quot;address&quot;&gt;
+        &lt;i class=&quot;fa fa-map-marker&quot;&gt;&lt;/i&gt; 
+        &lt;div&gt;Bahrain, Manama&lt;br&gt;
+        Road 398, Block 125&lt;br&gt;
+        The City Avenue&lt;br&gt;
+        Office 38, floor 3&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+            <p>To put a url to the social media icons, replace the # with your url.</p>
+            <pre class="prettyprint">
+&lt;div class=&quot;col-xs-2&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-facebook&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;col-xs-2&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;col-xs-2&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-youtube-play&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;col-xs-2&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-behance&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;col-xs-2&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-dribbble&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;col-xs-2&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-pinterest-p&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/div&gt;</pre>
+            
+            <h3 id="whmcs">WHMCS Theme Installation</h3>
+            <ul>
+                <li>Copy "hostino" folder to WHMCS templates folder.</li>
+                <li>Copy "hostino_cart" and "standard_cart" folders to WHMCS templates/orderforms folder.</li>
+                <li>On your WHMCS admin panel go to Setup > General Settings, choose the template "Hostino" and save changes.</li>
+                <li>Go to Setup > General Settings then Ordering Tab, choose "Hostino Cart" and save changes.</li>
+            </ul>
+            
+
+            <hr>
+            <p>Once again, thank you so much for purchasing this template. We'd be glad to help you if you have any questions relating to this template. No guarantees, but We'll do our best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+        </div>
+    </div>
+</div>
+<div id="footer" class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="brandio-logo-holder">
+                <img src="assets/images/brandio.png" alt="Brandio">
+            </div>
+            <div class="doc-info">
+                <div><b>Created:</b> 12/3/2017</div>
+                <div><b>By:</b> Brandio</div>
+                <div><b>Support:</b> faisal@brandio.io</div>
+            </div>
+        </div>
+    </div>
+</div>
+<a id="back-to-top" href="#header"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+<script src="assets/js/jquery.min.js"></script> 
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/prettify.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

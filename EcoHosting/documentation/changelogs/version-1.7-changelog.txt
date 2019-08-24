@@ -1,0 +1,11 @@
+2017 March 23 – Version 1.7
+
+// # List of updates
+// ------------------------------
+
+
+[*] Improved Customizability
+[*] FontAwesome Icon Support in counter section
+[*] FontAwesome Icon support in service section
+[*] Fixed vps slider bug 
+[*] Fixed some more issues

@@ -1,0 +1,137 @@
+/*
+Theme Name: X-DATA
+Theme URI: http://www.whmcsdes.com
+Description: X-DATA Template v1.0
+Version: 1.0
+Author: WHMCSdes
+Author URI: http://whmcsdes.com
+Tags: powerful, host
+*/
+
+/* Aside */
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700';
+
+body {
+    margin: 0;
+}
+
+aside {
+    background: #2E363F;
+    float: left;
+    height: 100%;
+    position: fixed;
+    width: 20%;
+}
+
+.logoz {
+    display: block;
+    margin: 30px auto;
+}
+
+.date{
+    margin-top: 50px;
+}
+
+.date,.version {
+    color: #ffffff;
+    font-family: open sans,sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.glyphicon.glyphicon-time,.glyphicon.glyphicon-send {
+    padding-right: 7px;
+}
+
+.links a {
+    color: #ffffff;
+    font-family: open sans,sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    padding-left: 37px;
+    text-decoration: none;
+}
+.links {
+    margin-left: 0;
+    margin-top: 40px;
+    padding-left: 0;
+}
+.links li {
+    border-bottom: 1px solid #22282e;
+    padding: 10px 0;
+    transition: all .3s;
+}
+
+.links li:hover {
+    background: #1DA0DA;
+}
+
+.links li:focus {
+    background: #1DA0DA;
+}
+
+.active {
+    background: #22282e;
+}
+
+
+article {
+    background: #f8f8f8 none repeat scroll 0 0;
+    float: right;
+    padding: 30px;
+    width: 80%;
+}
+.start > h1 {
+    color: #000000;
+    font-family: raleway,sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.start > h2 {
+    color: #7e7e7e;
+    font-family: open sans,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+}
+
+.start {
+    margin: 100px 0;
+}
+
+.structurez {
+    border: 1px solid #e7e7e7;
+    width: 100%;
+}
+
+.structure > h1,.logo > h1,.plugins > h1,.cutdown > h1,.carousel > h1,.icon > h1,.credits > h1 {
+    border-bottom: 1px solid #e7e7e7;
+    font-family: raleway,sans-serif;
+    font-size: 21px;
+    padding-bottom: 28px;
+}
+.structure > h2,.logo > h2,.plugins > h2,.cutdown > h2,.carousel > h2,.icon > h2 {
+    color: #7e7e7e;
+    font-family: open sans,sans-serif;
+    font-size: 13px;
+    line-height: 27px;
+    padding-bottom: 12px;
+}
+
+blockquote {
+    margin-top: 44px;
+}
+
+.struc a {
+    font-family: open sans,sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.structure,.logo,.plugins,.carousel,.cutdown,.icon {
+    margin-bottom: 100px;
+}

@@ -1,0 +1,9 @@
+2017 February 09 – Version 1.5
+
+// # List of updates
+// ------------------------------
+
+[*] Fixed responsive menu color issue
+[*] Fixed Domain pricing table responsive issue
+[*] Fixed Dedicated Server pricing table responsive issue
+

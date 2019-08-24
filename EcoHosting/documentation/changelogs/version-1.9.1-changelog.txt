@@ -1,0 +1,7 @@
+=============================
+27 July, 2017 - Version 1.9.1
+=============================
+[*] Fixed Slider Speed Issue
+[*] Fixed Some Minor CSS Issues
+
+***(need to update the 'ecohosting' Theme to get the above changes)***

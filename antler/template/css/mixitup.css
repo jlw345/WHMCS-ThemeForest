@@ -1,0 +1,331 @@
+
+/* MIXITUP - FILTERING BY RANGEf
+---------------------------------------------------------------------- */
+/* Controls
+---------------------------------------------------------------------- */
+.controls {
+    padding: 1rem;
+    font-size: 0.1px;
+}
+.control {
+    position: relative;
+    display: inline-block;
+    width: 2.7rem;
+    height: 2.7rem;
+    background: #444;
+    cursor: pointer;
+    font-size: 0.1px;
+    color: white;
+    transition: background 150ms;
+}
+.control:hover {
+    background: #3f3f3f;
+}
+.control[data-filter]:after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: calc(50% - 6px);
+    left: calc(50% - 6px);
+    border: 2px solid currentColor;
+    border-radius: 2px;
+    background: currentColor;
+    transition: background-color 150ms, border-color 150ms;
+}
+.control[data-sort]:after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid;
+    border-left: 2px solid;
+    top: calc(50% - 6px);
+    left: calc(50% - 6px);
+    transform:  translateY(1px) rotate(45deg);
+}
+.control[data-sort*=":desc"]:after {
+    transform:  translateY(-4px) rotate(-135deg);
+}
+.mixitup-control-active {
+    background: #393939;
+}
+.mixitup-control-active[data-filter]:after {
+    background: transparent;
+}
+.control:first-of-type {
+    border-radius: 3px 0 0 3px;
+}
+.control:last-of-type {
+    border-radius: 0 3px 3px 0;
+}
+
+/* Container
+---------------------------------------------------------------------- */
+
+.mixcontainer {
+    position: relative;
+    text-align: justify;
+}
+
+.mixcontainer:after {
+    content: '';
+    width: 100%;
+}
+
+/* Radio Buttons
+---------------------------------------------------------------------- */
+.radio-group {
+    display: inline-block;
+    padding: .5rem;
+    margin-right: .75rem;
+    vertical-align: top;
+}
+.radio {
+    text-align: justify;
+}
+.radio:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+.radio-input,
+.radio-label {
+    display: inline-block;
+}
+.radio-label {
+    color: white;
+    font-family: 'Open Sans', arial, sans-serif;
+    font-size: .9rem;
+    margin-right: .5rem;
+}
+/* Range Slider
+---------------------------------------------------------------------- */
+.range-slider {
+    width: 49% !important;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+.range-slider:last-child {
+    margin-left: 0;
+}
+.range-slider::before,
+.range-slider::after,
+.range-slider-label {
+    font-family: 'Open Sans', arial, sans-serif;
+}
+.range-slider::before,
+.range-slider::after {
+    font-size: 14px;
+    color: #000;
+    content: '16GB';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 .2rem;
+}
+.range-slider::after {
+    content: '256GB';
+    left: auto;
+    right: 0;
+}
+.range-slider-label {
+    display: block;
+    font-size: .8rem;
+    color: #ccc;
+    margin-bottom: .05rem;
+}
+.range-slider:last-child .range-slider-label {
+    text-align: right;
+}
+.range-slider-input {
+    width: 100% !important;
+    position: relative;
+    background: transparent;
+    -webkit-appearance: none;
+    margin-bottom: 1.70rem;
+    z-index: 1;
+}
+.range-slider-input::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 1px;
+    border: none;
+    border-radius: 0px;
+    transition: background 150ms;
+}
+.range-slider-input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    margin-top: -8px;
+}
+.range-slider-input:focus {
+    outline: none;
+}
+.range-slider-input:hover {
+    border: none;
+}
+.range-slider input,
+.range-slider input:focus,
+.range-slider input:hover {
+    border: none !important;
+    padding: 0px !important;
+    outline: none !important;
+}
+/* Input Search
+---------------------------------------------------------------------- */
+.input {
+    display: inline-block;
+    font-size: 1rem;
+    padding: .75rem;
+    border-radius: 2px;
+    border: 0 none;
+    background: white;
+    font-family: 'helvetica neue', arial, sans-serif;
+    vertical-align: top;
+}
+/* Checkbox
+---------------------------------------------------------------------- */
+.checkbox {
+    text-align: justify;
+}
+.checkbox:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+.checkbox-input,
+.checkbox-label {
+    display: inline-block;
+}
+.checkbox-label {
+    color: white;
+    font-family: 'Open Sans', arial, sans-serif;
+    font-size: .9rem;
+    margin-right: .5rem;
+}
+/* Target Elements
+---------------------------------------------------------------------- */
+.mix,
+.gap {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.mix {
+    position: relative;
+}
+
+.mix:before {
+    display: inline-block;
+}
+
+.mix,
+.gap {
+    width: 31%;
+}
+/* Responsive
+---------------------------------------------------------------------- */
+@media (max-width: 767px) {
+    .mixcontainer.pb-5 {
+        padding-bottom: 0px !important;
+    }
+}
+
+/* Grid Breakpoints
+---------------------------------------------------------------------- */
+/* 1 Columns */
+.mix.ext {
+    width: calc(100%/1 - (((1 - 1) * 1rem) / 1));
+    display: table-row;
+}
+
+.mix,
+.gap {
+    width: calc(100%/1 - (((1 - 1) * 1rem) / 1));
+}
+
+/* 2 Columns */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .mix,
+    .gap {
+        width: calc(100%/2 - (((2 - 1) * 1rem) / 1));
+    }
+    .mixcontainer.pb-80 {
+        padding-bottom: 0px;
+    }
+}
+
+/* 3 Columns */
+
+@media screen and (min-width: 992px){
+    .mix,
+    .gap {
+        width: calc(100%/3 - (((3 - 1) * 1rem) / 1));
+    }
+}
+
+/* 4 Columns 
+
+@media screen and (min-width: 961px) {
+    .mix,
+    .gap {
+        width: calc(100%/4 - (((4 - 1) * 1rem) / 4));
+    }
+}*/
+
+/* 5 Columns 
+
+@media screen and (min-width: 1281px) {
+    .mix,
+    .gap {
+        width: calc(100%/5 - (((5 - 1) * 1rem) / 5));
+    }
+}*/
+
+/*----------------------*/
+/*      VARIABLES       */
+/*----------------------*/
+/*----------------------*/
+/*        MIXINS        */
+/*----------------------*/
+@media (min-width: 450px) {
+  .visible-xs-mobile {
+    display: none; } }
+@media (min-width: 768px) {
+  .no-padding-sm {
+    padding: 0; }
+  .main-menu {
+    display: block !important; } }
+@media (min-width: 992px) {
+  .clear-md {
+    clear: both; }
+  .no-padding-md {
+    padding: 0; } }
+@media (min-width: 1200px) {
+  .text-lg-left {
+    text-align: left; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .text-sm-center {
+    text-align: center; }
+  .clear-sm {
+    clear: both; } }
+@media (max-width: 991px) {
+  .container-responsive {
+    width: auto;
+    padding: 0; } }
+@media (max-width: 767px) {
+  .text-xs-center {
+    text-align: center; }
+  .text-xs-left {
+    text-align: left; } }
+@media (max-width: 480px) {
+  .col-xs-mobile {
+    width: 100%; } 
+  .no-padding-xs {
+    padding: 0; } }
+/*# sourceMappingURL=responsive.css.map */

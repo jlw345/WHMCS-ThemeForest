@@ -1,0 +1,7 @@
+===============================
+10 August, 2017 - Version 1.9.2
+===============================
+
+[*] Fixed Responsive Mobile Menu Issue
+
+***(need to update the 'ecohosting' Theme to get the above changes)***

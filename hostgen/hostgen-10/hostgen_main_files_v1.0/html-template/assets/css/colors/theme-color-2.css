@@ -1,0 +1,169 @@
+/*
+	***********************
+	00: Theme Color 2 CSS
+  ***********************/
+/*Color*/
+.c1, 
+a:hover, 
+.btn-inline:hover, 
+.offer-wrapper .offer-text .offer-btn:hover, 
+.single-blog .blog-content .blog-btn:hover, 
+.footer-top .footer-widget .footer-about .footer-about-btn:hover, 
+.page-welcome-content h1 span, 
+.ColorSwitcher__control, 
+.main-menu #menu-button, 
+.main-menu ul li:hover > a, 
+.main-menu ul li.active > a, 
+.header-v2 .header-btn, 
+.header-v2 .header-btn:active, 
+.header-v2 .header-btn:hover, 
+.header-v2 .header-btn:focus, 
+.header-v2.header-fixed .main-menu #menu-button, 
+.header-v2.header-fixed .main-menu > ul > li.active > a, 
+.header-v2.header-fixed .main-menu > ul > li:hover > a, 
+.header-v2.header-fixed .main-menu > ul > li:focus > a, 
+.hero-area .shaped-hero-image .vdo-btn, .hero-v2 .hero-btn, 
+.hero-v2 .hero-btn:hover, 
+.hero-v2 .hero-btn:focus, 
+.hero-v2 .hero-btn:active, 
+.hero-v2 .btn-white:hover, 
+.hero-v2 .domain-pricing-table tbody tr .pricing-btn:hover, 
+.domain-pricing-table tbody tr .hero-v2 .pricing-btn:hover, 
+.hero-v2 .btn-white:focus, 
+.hero-v2 .domain-pricing-table tbody tr .pricing-btn:focus, 
+.domain-pricing-table tbody tr .hero-v2 .pricing-btn:focus, 
+.hero-v2 .btn-white:active, 
+.hero-v2 .domain-pricing-table tbody tr .pricing-btn:active, 
+.domain-pricing-table tbody tr .hero-v2 .pricing-btn:active, 
+.plan-navtab .nav-tabs a.active, 
+.single-service:hover h4, 
+.testimonial-slider.testimonial-v2 .single-testimonial .testi-author h4, 
+.single-blog .blog-header .ticker:hover, .blog-details .post-content > p:first-child:first-letter, 
+.tag-cat-soc .post-counter li a:hover, 
+.post-comments .load-more-btn:hover, 
+.principle-content .single-principle span, 
+.hero-feature-text h5 span, 
+.widget .archive-widget .single-year ul a:hover, 
+.not-found-form form button, 
+.countdown li,
+.plan-slider .single-plan-item .plan-content li:before {
+  color: #06beb6;
+}
+
+/* Background Color */
+.c1-bg, 
+.btn, 
+.domain-search .domain-search-form .src-btn, 
+.plan-slider .owl-item.center .single-plan-item .plan-btn, 
+.single-hosting-item .ordr-btn, 
+.domain-feature-area .domain-btn, 
+.pagination li.active, 
+.pagination li:hover, 
+.input-wrap .highlight, 
+.form-response, 
+.hero-area .shaped-hero-image .vdo-btn:hover, 
+.single-hosting-item .plan-content:after, 
+.testimonial-slider.testimonial-v2 .owl-dots .owl-dot.active, 
+.post-nav .post-nav-icon:hover, 
+.team-slider .owl-nav button:after,
+.plan-slider .owl-nav button:after,
+.feature-slider.feature-slider-v2 .owl-nav button:after, 
+.domain-feature-area .domain-vdo-btn:hover, 
+.faq-btns .question-btn:after, 
+.hosting-pricing-table .pricing-table-item .pt-head, 
+.widget .tagcloud li a:hover, 
+.widget .blog-widget .blog-widget-video .media-body .play-btn:hover, 
+.countdown li:after {
+  background-color: #06beb6;
+}
+
+/* Border Color */
+.c1-bo, 
+.btn-white, 
+.header-v2.header-fixed .header-btn, 
+.domain-pricing-table tbody tr .pricing-btn, 
+.pagination li.active, 
+.pagination li:hover, 
+.hero-area .shaped-hero-image .vdo-btn:hover:before, 
+.hero-area .shaped-hero-image .vdo-btn:hover:after, 
+.domain-search .domain-search-form input, 
+.feature-slider-v2 .single-feature, 
+.plan-navtab .nav-tabs, .offer-wrapper, 
+.full-width-blog, 
+.blog-details .blockquote .quote-content, 
+.post-nav .post-nav-icon:hover, 
+.domain-feature-area ul li:after, 
+.domain-feature-area .domain-vdo-btn, 
+.widget .search-widget input, 
+.widget .blog-widget .blog-widget-video .media-body .play-btn:hover {
+  border-color: #06beb6 !important;
+}
+
+/* Gradient Color */
+.gradient-bg, 
+.btn-white:after, 
+.header-v2.header-fixed .header-btn:after, 
+.domain-pricing-table tbody tr .pricing-btn:after, 
+.breadcrumb-area:after, 
+.section-bg .section-bg-img:after, 
+.bg-overlay:after, .rounded:after, 
+.preloader, 
+.main-menu ul li ul.sub-menu li a:after, 
+.hero-area .shaped-hero-image:after, 
+.hero-v2, 
+.plan-slider .owl-item.center .single-plan-item .plan-header, 
+.single-team .team-hover, 
+.contact-details-content:after, 
+.subscribe-area, 
+.footer-bottom, 
+.back-top {
+  background: #06beb6;
+  background: -moz-linear-gradient(left, #06beb6 0%, #3e9bb2 100%);
+  background: -webkit-linear-gradient(left, #06beb6 0%,#3e9bb2 100%);
+  background: linear-gradient(to right, #06beb6 0%,#3e9bb2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#06beb6', endColorstr='#3e9bb2',GradientType=1 );
+}
+
+/* Button Effect */
+.gradient-img, 
+.btn, 
+.domain-search .domain-search-form .src-btn, 
+.plan-slider .owl-item.center .single-plan-item .plan-btn, 
+.single-hosting-item .ordr-btn, 
+.domain-feature-area .domain-btn {
+  background-image: -webkit-linear-gradient(left, #06beb6, #3cb3ba, #40cacc, #3e9bb2);
+  background-image: linear-gradient(to right, #06beb6, #3cb3ba, #40cacc, #3e9bb2);
+}
+
+/* SVG Color */
+svg .cls-1,
+svg .cls-2,
+svg .cls-3 {
+  fill: #06beb6;
+  -webkit-filter: unset;
+          filter: unset;
+}
+
+.team-slider .owl-nav svg .cls-1,
+.plan-slider .owl-nav svg .cls-1,
+.feature-slider.feature-slider-v2 .owl-nav svg .cls-1,
+svg .st4 {
+  fill: #06beb6;
+}
+
+/* Homepage 2 Menu Color */
+.header-v2 .main-menu > ul > li > a {
+  color: #fff;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 991px) {
+  .header-v2 .main-menu > ul > li > a {
+    color: #333333;
+  }
+  .header .main-menu ul li.active > a, .header .main-menu ul li:hover > a, .header .main-menu ul li:focus > a {
+    color: #06beb6;
+  }
+  .header .main-menu ul li ul.sub-menu li:hover > a, .header .main-menu ul li ul.sub-menu li.active > a, .header .main-menu ul li ul.sub-menu li.focus > a {
+    color: #06beb6;
+  }
+}

@@ -1,0 +1,13 @@
+============================
+22 July, 2018 - Version 2.6
+============================
+
+-------------------------------------------------------------------------------------------
+Backup your theme/style folder and files before applying these updates.
+-------------------------------------------------------------------------------------------
+
+[*] Fixed Theme Metabox Drag & Drop Issue
+[*] Updated ecohosting-core Plugin
+
+
+***(need to update the 'ecohosting' Theme & 'ecohosting-core' plugin to get the above changes)***

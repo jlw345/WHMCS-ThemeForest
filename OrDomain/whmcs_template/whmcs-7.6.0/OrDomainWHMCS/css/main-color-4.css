@@ -1,0 +1,322 @@
+/*
+
+[MAIN COLORS]
+
+Project: OrDomain - Responsive HTML5 WHMCS Hosting Template
+Version: 2.6
+Author : themelooks.com
+
+*/
+
+/*------------------------------------*\
+    MAIN COLOR
+\*------------------------------------*/
+/* COLOR */
+#navigation a.navbar-brand span,
+.banner-content .title h2,
+.extensions input:checked + label,
+.feature-item .icon,
+.feature-item:hover .heading,
+.post-content .title a,
+.post-content .meta a:hover,
+.post-content .meta a:focus,
+.post-content .footer a:hover,
+.post-content .footer a:focus,
+.copyright p a,
+.team-item:hover figcaption .name a,
+.team-social-links ul li a:hover,
+.team-social-links ul li a:focus,
+.blog-page-sidebar .widget.recent-items a.footer-thumb-link:hover,
+.blog-page-sidebar .widget.recent-items a.footer-thumb-link:focus,
+.blog-page-sidebar .widget.categories li:hover a,
+.blog-page-sidebar .widget.tags li:hover a,
+.blog-page-sidebar .widget.archives li:hover a,
+.blog-page-sidebar .widget.latest-tweets-widget li:before,
+.blog-page-sidebar .widget.latest-tweets-widget a,
+.post-item-content blockquote,
+.post-item-content li,
+.full-post .category-link:hover,
+.full-post:hover a.btn-custom:hover,
+.full-post .post-author-metadata a:hover,
+.comment-thumb a,
+.contact-address address p i.fa,
+.ca-icon i.fa,
+#vpsSlider2 .ui-slider-handle,
+.vps-slider-stage .stage h4,
+.contact-bar a:hover,
+.contact-bar a:focus,
+.contact-bar .social-icons .nav li a:hover,
+.contact-bar .social-icons .nav li a:focus,
+.domain--addons ul li:hover h3,
+.domain--addons ul li i.fa,
+.banner-primary .extensions input:checked + label,
+.main-content a,
+.header-lined .breadcrumb a,
+.login-popover a:hover,
+#order-standard_cart .order-summary .btn-continue-shopping:hover,
+.view-cart-items .item-title .btn-link:hover {
+    color: #ff9600;
+}
+
+/* BACKGROUND-COLOR */
+.bg-blue,
+.btn-custom.btn-blue,
+.back-to-top button,
+.section-title h2:before,
+.pricing-tab-filter .nav > li > a:hover,
+.pricing-tab-filter .nav > li > a:focus,
+.pricing-tab-filter .nav > li.active > a,
+.pricing-table .head .price,
+.footer-widgets .title:before,
+#open-switcher,
+#close-switcher,
+.pricing-details-item .heading h3,
+#domainPricing table thead,
+.timeline-footer,
+.a-pricing-item .head,
+.blog-page-sidebar .widget-title:before,
+#blogPage .post-meta .comments,
+.post-social-links li a:hover,
+.contact-address h2:before,
+.contact-social-links li a:hover,
+#vpsSlider2:before,
+#vpsSlider2 .ui-slider-range,
+#vpsPricing .action a.order-link,
+#domainSearchForm .input-group-addon .form-control,
+.btn-info,
+.panel-default>.panel-heading,
+.logincontainer .btn-default,
+div.home-shortcuts,
+div.header-lined-order h1,
+.dataTables_wrapper .dataTables_info,
+#order-standard_cart .header-lined h1,
+#order-standard_cart div.order-summary,
+#order-standard_cart div.view-cart-items-header,
+#order-standard_cart .empty-cart button.btn,
+#order-standard_cart .products .product .btn-success,
+#order-standard_cart .panel-addon-selected div.panel-price,
+#order-standard_cart .panel-addon div.panel-add,
+.panel-sidebar a.list-group-item.active,
+.panel-sidebar a.list-group-item.active:focus,
+.panel-sidebar a.list-group-item.active:hover,
+#order-standard_cart .promo-banner button.btn,
+.order-summary .btn-checkout {
+    background-color: #ff9600;
+}
+
+.btn-custom.btn-blue:hover,
+.btn-custom.btn-blue:focus,
+#vpsPricing .action a.order-link:hover,
+#vpsPricing .action a.order-link:focus,
+#domainSearchForm .input-group-addon .form-control:hover,
+.btn-info:hover,
+.btn-info:focus,
+.logincontainer .btn-default:hover,
+.logincontainer .btn-default:focus {
+    background-color: #ffb449;
+}
+
+.pricing-table .head .price:before,
+.service-slider .price-tag:before {
+    background-color: rgba(255, 150, 0, 0.6);
+}
+
+/* BORDER-COLOR */
+#navigation .navbar .nav > li > a:hover,
+#navigation .navbar .nav > li > a:focus,
+#navigation .navbar .nav > li.active > a,
+#navigation .navbar .nav > li.open > a,
+#navigation .navbar .nav .dropdown-menu > li > a:hover,
+#navigation .navbar .nav .dropdown-menu > li > a:focus,
+#navigation .navbar .nav .dropdown-menu > li.active > a,
+.post-item-content blockquote,
+.post-social-links li a:hover,
+.contact-social-links li a:hover,
+#order-standard_cart div.order-summary,
+#order-standard_cart div.view-cart-items,
+#order-standard_cart .products .product .btn-success,
+#order-standard_cart div.panel-addon-selected,
+.panel-sidebar a.list-group-item.active,
+.panel-sidebar a.list-group-item.active:focus,
+.panel-sidebar a.list-group-item.active:hover,
+.suggested-domains div.panel-heading {
+    border-color: #ff9600;
+}
+
+div.header-lined-order h1:after,
+.header-lined h1:after {
+    border-top-color: #ff9600;
+}
+
+.pricing-table .head,
+.pricing-item:hover .head,
+.pricing-item.active .head {
+    border-bottom-color: #ff9600;
+}
+
+/*------------------------------------*\
+    SECONDARY COLOR
+\*------------------------------------*/
+/* COLOR */
+.text-green,
+.section-title h2,
+.counter-holder i.fa,
+.pageHslider-item-content h2,
+.pageHslider-item-content p i.fa,
+#vpsSlider .ui-slider-handle,
+#pageHeader .breadcrumb-holder .breadcrumb>.active,
+#loginForm p.help-block a:hover {
+    color: #ff9600;
+}
+
+.copyright p a:hover,
+.post-content .title a:hover,
+.post-content .title a:focus,
+div.announcement-single a.label:hover,
+div.announcement-single a.label:focus {
+    color: #ffb449;
+}
+
+/* BACKGROUND-COLOR */
+.bg-green,
+.btn-green,
+.pageHslider-item-content .price a,
+.pageHslider-slider .owl-dot.active,
+.pricing-table .body .buy-now .btn,
+.accordion .panel-heading a,
+#service .bx-pager-link.active,
+#service .bx-pager-link:hover,
+#service .bx-pager-link:focus,
+.pricing-details-item.body .content .action-btn .btn,
+#vpsPricing .action a.deatils-link,
+#vpsSlider .ui-slider-range,
+#dedicatedPricing table .btn,
+.btn-custom,
+.faq-categories ul li a:hover,
+.faq-categories ul li.active a,
+#loginForm .submit-button,
+.f0f--search-bar .input-group-addon,
+#f0f a.btn,
+.blog-page-sidebar .widget.search .input-group-addon,
+a.comment-reply,
+.post-comment-form-group .form-control.submit-btn,
+#contactForm .submit-button,
+.blog-page--pagination .pagination > li.active > span,
+#dedicatedPricing table thead,
+.dedicated-pricing-tab-filter .nav > li > a:hover,
+.dedicated-pricing-tab-filter .nav > li.active > a,
+.navbar-main,
+#home-banner .btn-warning,
+#home-banner .label-warning,
+a.list-group-item.active,
+a.list-group-item.active:hover,
+a.list-group-item.active:focus,
+.logincontainer .btn-primary,
+.btn.btn-primary,
+.btn.btn-primary:active,
+.btn-primary.disabled.focus,
+.btn-primary.disabled:focus,
+.btn-primary.disabled:hover,
+.btn-primary[disabled].focus,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled]:hover,
+.logincontainer #login,
+.landing-page.ssl .detailed-info div.panel-heading,
+.landing-page .get-started .btn.btn-order-now {
+    background-color: #ff9600;
+}
+
+.btn-green:hover,
+.btn-green:focus,
+.pageHslider-item-content .price a:hover,
+.pageHslider-item-content .price a:focus,
+.pricing-table .body .buy-now .btn:hover,
+.pricing-table .body .buy-now .btn:focus,
+.pricing-details-item.body .content .action-btn .btn:hover,
+.pricing-details-item.body .content .action-btn .btn:focus,
+#vpsPricing .action a.deatils-link:hover,
+#vpsPricing .action a.deatils-link:focus,
+#dedicatedPricing table .btn:hover,
+#dedicatedPricing table .btn:focus,
+.btn-custom:hover,
+.btn-custom:focus,
+#loginForm .submit-button:hover,
+.affiliate-signup-btn-holder a:hover,
+.affiliate-signup-btn-holder a:focus,
+.f0f--search-bar .input-group-addon:hover,
+#f0f a.btn:hover,
+#f0f a.btn:focus,
+.blog-page-sidebar .widget.search .input-group-addon:hover,
+#blogPage .post-content a.read-more-btn:hover,
+#blogPage .post-content a.read-more-btn:focus,
+a.comment-reply:hover,
+a.comment-reply:focus,
+.post-comment-form-group .form-control.submit-btn:hover,
+#contactForm .submit-button:hover,
+.ca-holder a.btn:hover,
+.ca-holder a.btn:focus,
+.back-to-top button:hover,
+.blog-page--pagination .pagination > li > a:hover,
+.blog-page--pagination .pagination > li > a:focus,
+.blog-page--pagination .pagination > li > span:hover,
+.blog-page--pagination .pagination > li.active > span,
+.navbar-main .navbar-nav > li > a:hover,
+.navbar-main .navbar-nav > li > a:focus,
+.navbar-main .navbar-nav > .open > a,
+.navbar-main .navbar-nav > .open > a:hover,
+.navbar-main .navbar-nav > .open > a:focus,
+.navbar-main .dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+#home-banner .btn-warning:focus,
+#home-banner .btn-warning:hover,
+.logincontainer #login:hover,
+#home-banner .btn.btn-info,
+.landing-page .get-started .btn.btn-order-now:hover,
+.order-summary .btn-checkout:hover {
+    background-color: #ffb449;
+}
+
+/* BORDER-COLOR */
+#service .bx-pager-link,
+.vps-item-feature-name,
+.blog-page--pagination .pagination > li.active > span,
+.pricing-item:hover .head.border-green,
+.pricing-item.active .head.border-green,
+.blog-page--pagination .pagination > li > a:hover,
+.blog-page--pagination .pagination > li > a:focus,
+.blog-page--pagination .pagination > li > span:hover,
+.blog-page--pagination .pagination > li.active > span,
+.a-pricing-item .head,
+.logincontainer .btn-primary,
+.btn.btn-primary,
+.btn.btn-primary:active,
+.btn-primary.disabled.focus,
+.btn-primary.disabled:focus,
+.btn-primary.disabled:hover,
+.btn-primary[disabled].focus,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled]:hover,
+.domain-pricing .tld-pricing-header div.col-sm-4,
+.domain-pricing .tld-pricing-header div.col-xs-4,
+#order-standard_cart .promo-banner,
+div.dataTables_wrapper table.table-list thead th,
+div.dataTables_wrapper table.table-list thead th:nth-child(even) {
+    border-color: #ff9600;
+}
+
+.aCounter-text {
+    border-bottom-color: #ff9600;
+}
+
+.triangle-down-green:before,
+#order-standard_cart .header-lined h1:after {
+    border-top-color: #ff9600;
+}
+
+.faq-categories ul li a:before {
+    border-left-color: #ff9600;
+}
+
+.a-pricing-item .head {
+    border-bottom-color: #ffb449;
+}

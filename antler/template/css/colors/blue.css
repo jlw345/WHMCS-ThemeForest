@@ -1,0 +1,258 @@
+/*------------------------------------------------------------------
+ * Website Name: Antler
+ * App URI: http://inebur.com/antler/template/
+ * Author: inebur
+ * Author URI: http://inebur.com/
+ * Copyright 2018 Antler
+ * Version: 1.0 
+
+ * Blue Color Skin
+ -------------------------------------------------------------------*/
+
+/* Blue Light */
+svg #svg-ico {
+    fill:#68cef5;
+}
+svg #svg-concept {
+    stroke:#68cef5;
+}
+.golink {
+    color: #68cef5 !important;
+    border-bottom: solid 1px #68cef5;
+}
+.golink:hover {
+    color: #68cef5 !important;
+}
+.bg-pink {
+    background-color: #68cef5 !important;
+}
+.c-pink {
+    color: #68cef5 !important;
+}
+.bb-pink {
+    border-bottom: solid 1px #68cef5 !important;
+}
+.popover {
+    border: solid 1px #68cef5;
+}
+.popover .arrow::before {
+    border-top-color: #68cef5;
+}
+.popover .popover-header{
+    background-color: #68cef5;
+}
+::selection {
+    background: #68cef5;
+}
+.nav-menu .main-menu > .menu-item > .sub-menu > .menu-item a:hover {
+    color: #68cef5;
+}
+.nav-menu .main-menu .menu-item .menu-large .service-list .service .media-body a:hover {
+    color: #68cef5;
+}
+.megamenu .start-offer .inner {
+    background-color: #68cef5;
+}
+.megamenu .service-list .service.special .media-body a:hover{
+    color: #68cef5;
+}
+.megamenu .service-list .service .media-body a:hover {
+    color: #68cef5;
+}
+.megamenu-list .service-list .service .media-body a:hover {
+    color: #68cef5;
+}
+.team .wrapper:hover .team-info .desc {
+    color: #68cef5;
+}
+.wpc-cloud-range .noUi-connect {
+    background-color: #68cef5;
+}
+.wpc-cloud-range .noUi-tooltip:before {
+    border-color: #68cef5 transparent transparent transparent;
+}
+.wpc-cloud-range .noUi-tooltip {
+    background-color: #68cef5;
+}
+.wpc-cloud-range .noUi-horizontal .noUi-handle {
+    background-color: #68cef5;
+}
+.wpc-vps-info .title .info {
+    color: #68cef5;
+}
+.fullrock .closer {
+    color: #68cef5 !important;
+}
+.form-control:focus {
+    border:  solid 1px #68cef5 !important;
+}
+.sec-bg5 {
+    background-color: #68cef5;
+}
+.total-grad {
+    background: linear-gradient(-60deg, #68cef5 0%,#1697bf 100%) !important;
+}
+.total-grad-inverse {
+    background: linear-gradient(240deg, #1697bf 0%,#68cef5 100%);
+}
+.menu-wrap.fixed {
+    background: linear-gradient(89deg,#1697bf 3%,#68cef5 98%);
+}
+.btn-default-pink {
+    color: #68cef5;
+    border: 1px solid #68cef5;
+}
+.btn-default-pink:hover {
+    background-color: #68cef5;
+}
+.btn-default-grad-purple-fill {
+    background-image: linear-gradient(to right, #1697bf, #68cef5 40%, #68cef5 40%, #1697bf);
+}
+.btn-default-grad-purple-fill:hover {
+    background-image: linear-gradient(to right, #1697bf, #68cef5 40%, #68cef5 40%, #1697bf);
+}
+.btn-default-pink-fill {
+    background-color: #68cef5 !important;
+}
+.owl-theme .owl-dots .owl-dot.active span {
+    border: solid 1px #68cef5 !important;
+}
+.pricing .wrapper .title {
+    color: #68cef5;
+}
+.pricing .list-info {
+    background-color: #68cef5;
+}
+.slick #slider .plan-container .title {
+    color: #68cef5;
+}
+.tabs-header .btn-secondary:not(:disabled):not(.disabled).active {
+    background-color: #68cef5 !important;
+}
+.tabs.offers-tabs .tabs-header .active {
+    border-left: solid 1px #68cef5;
+    color: #68cef5;
+}
+.tabs.offers-tabs .tabs-header .active:hover {
+    color: #68cef5;
+}
+.fill-input:focus {
+    border-color: #68cef5 !important;
+}
+.countdown .wrapper .clock div:first-child {
+    border: solid 1px #68cef5;
+    background-color: #68cef5;
+}
+.accordion.faq .panel-title.active {
+    border-bottom: solid 1px #68cef5;
+}
+.blog .sidebar .heading.active {
+    color: #68cef5;
+}
+.blog .sidebar .posts .tabs-header li.active {
+    color: #68cef5;
+    border-bottom-color: #68cef5;
+}
+.blog .sidebar .line.active:before {
+    background-color: #68cef5;
+}
+.blog .media .media-heading a:hover {
+    color: #68cef5;
+}
+.blog .wrap-blog .social-icon i {
+    color: #68cef5;
+}
+.blog .sidebar .categories .heading a.active {
+    color: #68cef5;
+}
+.blog .sidebar .categories .heading a:after {
+    color: #68cef5;
+}
+.blog .sidebar .categories .heading span {
+    color: #68cef5;
+}
+.circle-section .title-round {
+    color: #68cef5;
+}
+.domain-prices li {
+    color: #68cef5;
+}
+.maping .datacenters {
+    background: #68cef5;
+}
+.footer .soc-icons i {
+    color: #68cef5;
+}
+.included i{
+    color: #68cef5;
+}
+.soc-icons-apply span {
+    color: #68cef5;
+}
+.bigline {
+    border:  solid 1px #68cef5;
+}
+.smallline {
+    border:  solid 1px #68cef5;
+}
+.knowledge a {
+    color: #68cef5;
+}
+.godown span{
+    color: #68cef5;
+}
+.cd-filter-block input[type=radio]:checked + label::before, .cd-filter-block input[type=checkbox]:checked + label::before {
+    border: solid 1px #68cef5 !important;
+    background-color: #68cef5 !important;
+}
+.cd-filter-block select:hover {
+    border: solid 1px #68cef5 !important;
+}
+.cd-filter-block input:hover {
+    border: solid 1px #68cef5 !important;
+}
+.cd-filter-block input:focus,
+.cd-filter-block select:focus {
+    border-color: #68cef5 !important;
+}
+.range-slider-input::-webkit-slider-runnable-track {
+    background: #68cef5;
+}
+.range-slider-input::-webkit-slider-thumb {
+    background: #68cef5;
+}
+.zoo-content .icoo i {
+    background-color: #68cef5;
+}
+.services .service-wrap .pay img {
+    border: solid 1px #68cef5;
+}
+/* Blue Dark */
+.bg-purple {
+    background-color: #1697bf !important;
+}
+.c-purple {
+    color: #1697bf !important;
+}
+.sec-grad-white-to-purple {
+    background: linear-gradient(90deg, #fff 70%, #1697bf 0%) !important;
+}
+.btn-default-purple {
+    color: #1697bf;
+    border: 1px solid #1697bf;
+}
+.btn-default-purple:hover {
+    background-color: #1697bf;
+}
+.btn-default-purple-fill {
+    background-color: #1697bf !important;
+}
+.pricing .table .title {
+    color: #1697bf;
+}
+.accordion.faq .panel-title.active {
+    color: #1697bf !important;
+}
+.wpc-vps-info .price-wrap .title {
+    background-color: #1697bf;
+}

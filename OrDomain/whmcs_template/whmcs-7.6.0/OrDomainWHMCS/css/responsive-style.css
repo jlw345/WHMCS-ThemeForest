@@ -1,0 +1,594 @@
+/*
+
+[Responsive Stylesheet]
+
+Project: OrDomain - Responsive HTML5 WHMCS Hosting Template
+Version: 2.6
+Author : themelooks.com
+
+[Table of contents]
+
+1. MEDIA QUERIES
+    - 1-1 LARGE DEVICES, WIDE SCREENS
+    - 1-2 MEDIUM DEVICES, DESKTOPS
+    - 1-3 SMALL DEVICES, TABLETS
+    - 1-4 SMALL DEVICES, SMARTPHONES
+    - 1-5 CUSTOM, IPHONE RETINA
+
+*/
+
+/*------------------------------------*\
+    1. MEDIA QUERIES
+\*------------------------------------*/
+/* 1-1 LARGE DEVICES, WIDE SCREENS */
+@media screen and (max-width: 1200px) {
+    /* HEADER CONTACT BAR */
+    .contact-bar--text:nth-child(3) {
+        display: none;
+    }
+    
+    /* SERVICE AREA */
+    #service .bx-pager {
+        width: 970px;
+    }
+    
+    /* BLOG AREA */
+    .post-item > .row > .col-md-2 {
+        padding: 0;
+    }
+    
+    /* BLOG PAGE */
+    #blogPage .post-item > .row > .col-md-2 {
+        padding: 0;
+    }
+}
+
+/* 1-2 MEDIUM DEVICES, DESKTOPS */
+@media screen and (max-width: 991px) {
+    /* HEADER CONTACT BAR */
+    .contact-bar--text:nth-child(2) {
+        display: none;
+    }
+    
+    /* NAVIGATION AREA */
+    #navigation .navbar .nav > li > a {
+        margin-left: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    /* BANNER AREA */
+    .extensions {
+        margin: 25px 0 25px;
+    }
+    
+    /* FEATUER AREA */
+    .feature-item:nth-last-child(3),
+    .feature-item:nth-last-child(4) {
+        margin-bottom: 70px;
+    }
+    
+    /* SERVICE AREA */
+    .service-slider .item:before {
+        width: 100%;
+    }
+    #service .bx-pager {
+        top: auto;
+        left: 0;
+        bottom: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    #service .bx-pager-item {
+        display: inline-block;
+    }
+    
+    /* PRICEING AREA */
+    .pricing-table .pricing-item {
+        margin-bottom: 50px;
+    }
+    .pricing-table .pricing-item:last-child {
+        margin-bottom: 0;
+    }
+
+    /* PRICING DETAILS */
+    .pricing-details-item.head {
+        display: none;
+    }
+    .pricing-details-item.body {
+        margin-bottom: 20px;
+    }
+    .pricing-details-item.body:last-child {
+        margin-bottom: 0;
+    }
+    .pricing-details-item .heading h3 {
+        padding-right: 20px;
+        border-left-width: 1px;
+        color: #222;
+        background-color: #fff;
+        font-size: 18px;
+        text-align: right;
+    }
+    .pricing-details-item.body .content li {
+        border-left: 1px solid #e9e9e9;
+        text-align: right;
+    }
+    .pricing-details-item.body .content li .labelText {
+        float: left;
+        font-weight: 500;
+    }
+    .pricing-details-item.body .content .action-btn {
+        border-left: 1px solid #e9e9e9;
+    }
+    
+    /* EXTRA FEATURE AREA */
+    .extra-feature-img {
+        text-align: center;
+    }
+
+    /* BLOG AREA */
+    .post-item {
+        margin-bottom: 55px;
+    }
+    .post-item:last-child {
+        margin-bottom: 0;
+    }
+    .post-item:before {
+        top: auto;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 1px;
+        margin-left: 0;
+    }
+    .post-item > .row,
+    .post-item > .row > div {
+        display: block;
+    }
+    .post-item > .row > .col-md-2 {
+        padding: 0 15px;
+    }
+    .post-item:nth-child(even) .post-meta {
+        margin-left: 0;
+    }
+    .post-meta {
+        display: table;
+        width: 100%;
+        height: 100%;
+        margin: 35px 0;
+    }
+    .post-item:nth-child(even) .post-meta {
+        margin: 35px 0 30px;
+    }
+    .post-meta .date,
+    .post-meta .comments {
+        width: 50%;
+        display: table-cell;
+        vertical-align: middle;
+        padding: 0;
+    }
+    .post-meta .date {
+        font-size: 18px;
+    }
+    .post-meta .date i.fa,
+    .post-meta .comments span {
+        display: inline-block;
+    }
+    .post-meta .date i.fa {
+        margin: 0 10px 0 0;
+    }
+    .post-meta .comments {
+        padding: 25px;
+        font-size: 18px;
+    }
+    
+    /* QUICK CONTACT AREA */
+    #quickContact a {
+        border-right: none;
+        border-bottom: 1px solid #222;
+    }
+    #quickContact .row > div:first-child a {
+        border-left: none;
+    }
+    #quickContact .row > div:nth-last-child(1) a,
+    #quickContact .row > div:nth-last-child(2) a {
+        border-bottom: none;
+    }
+    
+    /* FOOTER AREA */
+    .footer-widgets .about,
+    .footer-widgets .useful-links,
+    .footer-widgets .recent-posts {
+        margin-bottom: 50px;
+    }
+    
+    /* ABOUT PAGE - TEAM */
+    .team-item {
+        margin-bottom: 50px;
+    }
+    .team-item:nth-last-child(1),
+    .team-item:nth-last-child(2) {
+        margin-bottom: 0;
+    }
+    .team-item img {
+        width: 100%;
+    }
+    
+    /* AFFILIATE PAGE - COUNTER */
+    #aCounter {
+        padding-bottom: 50px;
+    }
+    .aCounter > .container > .row > div {
+        margin-bottom: 50px;
+    }
+    .aCounter > .container > .row > div:last-child {
+        margin-bottom: 0;
+    }
+
+    .a-pricing-item {
+        margin-bottom: 50px;
+    }
+    .a-pricing-item:last-child {
+        margin-bottom: 0;
+    }
+
+    
+    /* DEDICATED PRICING AREA */
+    #dedicatedPricing table {
+        border: 0;
+    }
+    #dedicatedPricing table thead {
+        display: none;
+    }
+    #dedicatedPricing table tr {
+        margin-bottom: 10px;
+        display: block;
+        border-bottom: 2px solid #ddd;
+        background-color: #fff;
+    }
+    #dedicatedPricing table tbody tr:nth-child(even) td {
+        background-color: #fff;
+    }
+    #dedicatedPricing table td {
+        display: block;
+        text-align: right;
+        font-size: 13px;
+        border-bottom: 1px dotted #ccc;
+    }
+    #dedicatedPricing table td:last-child {
+        border-bottom: 0;
+    }
+    #dedicatedPricing table td span.labelText {
+        float: left;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    /* DOMAIN PRICING AREA */
+    #domainPricing table {
+        border: 0;
+    }
+    #domainPricing table thead {
+        display: none;
+    }
+    #domainPricing table tr {
+        margin-bottom: 10px;
+        display: block;
+        border-bottom: 2px solid #ddd;
+        background-color: #fff;
+    }
+    #domainPricing table tbody tr:nth-child(even) td {
+        background-color: #fff;
+    }
+    #domainPricing table td {
+        display: block;
+        text-align: right;
+        font-size: 13px;
+        border-bottom: 1px dotted #ccc;
+    }
+    #domainPricing table td:last-child {
+        border-bottom: 0;
+    }
+    #domainPricing table td span.labelText {
+        float: left;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    /* PAGE HEADER SLIDER AREA */
+    #pageHslider {
+        padding-top: 110px;
+    }
+    
+    /* BLOG PAGE */
+    .blog-page-content + .blog-page-sidebar {
+        margin-top: 100px;
+    }
+    
+    /* COLOR SWITCHER */
+    #open-switcher,
+    #close-switcher,
+    #switcher-color {
+        display: none;
+    }
+    
+    /* RESPONIVE-COLUMNS */
+    .res-col > .col-md-4:nth-last-child(2),
+    .res-col > .col-md-4:nth-last-child(3) {
+        margin-bottom: 30px;
+    }
+}
+
+/* 1-3 SMALL DEVICES, TABLETS */
+@media screen and (max-width: 767px) {
+    /* HEADER CONTACT BAR */
+    .social-icons {
+        display: none;
+    }
+    .contact-bar--text:last-child {
+        margin-left: 0px;
+        margin-right: 0;
+    }
+    
+    /* NAVIGATION AREA */
+    #navigation a.navbar-brand {
+        margin-left: 15px;
+        padding-top: 13px;
+    }
+    #navigation .navbar-toggle {
+        float: right;
+    }
+    
+    #navbar {
+        max-height: 320px;
+        border-color: #e9e9e9;
+        overflow: auto;
+    }
+    #navigation .navbar .nav {
+        margin: 0;
+    }
+    #navigation .navbar .nav > li > a {
+        padding: 15px;
+    }
+    #navigation .navbar .nav > li:hover > .dropdown-menu {
+        display: none;
+    }
+    #navigation .navbar .nav > li.open > .dropdown-menu {
+        display: block;
+        box-shadow: none;
+        background-color: #f8f8f8;
+    }
+    
+    .dashboard-links {
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    .dashboard-links .btn-group .signup,
+    .dashboard-links .btn-group .or {
+        display: block;
+    }
+    
+    /* FEATUER AREA */
+    .feature-item:nth-last-child(2) {
+        margin-bottom: 70px;
+    }
+    
+    /* SERVICE AREA */
+    #service {
+        border: none;
+    }
+    .service-slider .item .row {
+        display: block;
+    }
+    .service-slider .item .row > div {
+        display: block;
+    }
+    .service-slider .item .image {
+        padding: 50px 0 0;
+    }
+    .service-slider .item .content {
+        padding: 50px 0 90px;
+    }
+    
+    /* COUNTER AREA */
+    #counter > .container > .row > div {
+        margin-bottom: 70px;
+    }
+    #counter > .container > .row > div:last-child,
+    #counter > .container > .row > div:nth-last-child(2) {
+        margin-bottom: 0;
+    }
+    
+    /* CONTACT AREA */
+    #contactForm {
+        padding-left: 0;
+    }
+    
+    /* CONTACT ACTIONS */
+    #contactActions > .container > .row > div {
+        margin-bottom: 60px;
+    }
+    #contactActions > .container > .row > div:last-child {
+        margin-bottom: 0;
+    }
+    
+    /* FOOTER WIDGETS */
+    .footer-widgets .payment-methods {
+        text-align: center;
+    }
+    .footer-widgets .social-links {
+        float: none;
+        text-align: center;
+    }
+    .footer-widgets .social-links ul {
+        display: inline-block;
+    }
+    
+    /* ABOUT DESCRIPTION */
+    .about-description .about-desc-img {
+        margin-bottom: 35px;
+    }
+    .about-description .row {
+        display: block;
+    }
+    .about-description .row > div {
+        display: block;
+    }
+
+    /* ABOUT PAGE */
+    .team-item:nth-last-child(2) {
+        margin-bottom: 50px;
+    }
+    .team-social-links .nav li {
+        float: left;
+    }
+    
+
+    ul.timeline:before {
+        display: none;
+    }
+    ul.timeline > li {
+        margin-bottom: 0px;
+        position: relative;
+        width: 100%;
+        float: left;
+        clear: left;
+    }
+    ul.timeline > li > .timeline-badge {
+        left: 28px;
+        margin-left: 0;
+        top: 16px;
+    }
+    ul.timeline > li > .timeline-panel {
+        float: right;
+        width: 100%;
+        overflow: hidden;
+    }
+    .timeline > li:nth-child(odd) > .timeline-panel,
+    .timeline > li:nth-child(even) > .timeline-panel {
+        margin: 0;
+    }
+    ul.timeline > li > .timeline-panel:before {
+        border-left-width: 0;
+        border-right-width: 15px;
+        left: -15px;
+        right: auto;
+    }
+    ul.timeline > li > .timeline-panel:after {
+        border-left-width: 0;
+        border-right-width: 14px;
+        left: -14px;
+        right: auto;
+    }
+    .timeline > li.timeline-inverted {
+        float: left;
+        clear: left;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .timeline > li.timeline-inverted > .timeline-badge {
+        left: 28px;
+    }
+
+    /* DOMAIN PRICING AREA */
+    #pricingTable2 > .container {
+        padding: 0 15px;
+    }
+    
+    /* PAGE HEADER SLIDER AREA */
+    #pageHslider {
+        height: auto;
+        min-height: auto;
+        padding-top: 155px;
+    }
+    .pageHslider-item-content-holder + .pageHslider-item-img-holder,
+    .pageHslider-item-img-holder + .pageHslider-item-content-holder {
+        margin: 45px auto 90px;
+    }
+    
+    /* BLOG DETAILS PAGE */
+    .full-post > .row > div {
+        float: none;
+    }
+    .full-post .post-author-metadata {
+        margin-bottom: 0;
+    }
+    .post-social-links {
+        margin-bottom: 15px;
+    }
+    .post-social-links ul {
+        text-align: left;
+    }
+    .post-social-links li {
+        margin-left: 0;
+        margin-right: 2px;
+    }
+}
+
+/* 1-4 SMALL DEVICES, SMARTPHONES */
+@media screen and (max-width: 480px) {
+    /* HEADER CONTACT BAR */
+    div#top-nav .nav:last-child a.quick-nav {
+        margin: 0;
+    }
+
+    /* NAVIGATION AREA */
+    .dashboard-links {
+        margin-left: 0;
+    }
+    .dashboard-links .btn-group .signup,
+    .dashboard-links .btn-group .or {
+        display: none;
+    }
+    
+    /* SUBSCRIBE AERA */
+    #subscribeForm .input-box {
+        width: 100%;
+    }
+    
+    /* COUNTER AREA */
+    #counter > .container > .row > div {
+        width: 100%;
+        float: none;
+    }
+    #counter > .container > .row > div:nth-last-child(2) {
+        margin-bottom: 70px;
+    }
+    
+    /* FEEDBACK AREA */
+    .clients-holder {
+        width: 280px;
+    }
+    .clients-holder:before,
+    .clients-holder:after {
+        display: none;
+    }
+    
+    /* QUICK CONTACT AREA */
+    #quickContact .container {
+        padding: 0;
+    }
+    #quickContact > .container > .row > .col-xs-6 {
+        width: 100%;
+        float: none;
+    }
+    #quickContact .row > div:nth-last-child(2) a {
+        border-bottom: 1px solid #222;
+    }
+    
+    /* LOGIN AREA */
+    #loginForm p.help-block a {
+        float: none !important;
+        display: block;
+    }
+}
+
+/* 1-5 CUSTOM, IPHONE RETINA */
+@media screen and (max-width: 380px) {
+    /* VPS PRICING AREA */
+    #vpsPricing .action a {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 320px) {
+}

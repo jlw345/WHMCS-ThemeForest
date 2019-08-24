@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMinYMin slice" viewBox="0 0 1920 603">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                                         
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+
+    </style>
+    <linearGradient id="grad1" x1="960" y1="603" x2="960" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" style="stop-color:#2629b0; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0084ff; stop-opacity:.9" />
+    </linearGradient>
+  </defs>
+  <path id="bg" d="M1920,0s-33.45,67.1-256,130c-181.72,51.355-319.87,1.589-363.02-12.172-69-22.006-167.39-49.442-259.01,41.031s-230.006-25.329-305.009-35.026-192.622-5.6-352.011,93.068S44.289,217.414,0,207V603H1920V0Z" fill="url(#grad1)"/>
+</svg>

@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HostLab - Responsive Hosting Service Template</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/jquery.tocify.css" rel="stylesheet">
+    <link href="assets/img/favicon.ico" rel="shortcut icon">
+    <link href="assets/css/prettify.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+  </head>
+  <body>
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+          <div class="container">
+              <div class="navbar-header col-md-3">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="index.html">
+                      <img src="assets/img/logo.png" alt="logo" width="215" height="40">
+                  </a>
+              </div>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav pull-right">
+                      <li><a href="index.html">Overview</a></li>
+                      <li class="active"><a href="structure.html">Structure</a></li>
+                      <li><a href="contact.html">Contacts</a></li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3">
+              <div id="toc">
+                <h6>Copyright © 2017 <a href="http://inebur.com" target="_blank">iNEBUR</a></h6>
+              </div>
+          </div>
+          <div class="col-lg-9 col-md-9 col-sm-9">
+            <h1>General Structure</h1>
+            <p>Lets begin. Open index.html file and follow the steps. Most of the structure are same for all pages.</p>
+
+            <h4>Nav Menu - Full Width Responsive Menu</h4>
+<pre class="prettyprint linenums">
+&lt;nav class="nav-menu"&gt;
+  &lt;button class="menu-toggle"&gt;
+    &lt;span class="icon"&gt;&lt;/span&gt;
+    &lt;span class="icon"&gt;&lt;/span&gt;
+    &lt;span class="icon"&gt;&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;ul class="main-menu"&gt;
+    &lt;li class="menu-item active menu-item-has-children"&gt;
+      &lt;a href="index.html"&gt;Home&lt;/a&gt;
+      &lt;ul class="sub-menu"&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="index.html"&gt;Home Layout 01&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="homepage-2.html"&gt;Home Layout 02&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="homepage-3.html"&gt;Home Layout 03&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="homepage-4.html"&gt;Home Layout 04&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li class="menu-item menu-item-has-children"&gt;
+      &lt;a href="hosting.html"&gt;Hosting&lt;/a&gt;
+      &lt;ul class="sub-menu-large"&gt;
+        &lt;div class="container"&gt;
+          &lt;div class="row"&gt;
+            &lt;li class="service-list"&gt;
+              &lt;div class="col-sm-6 service"&gt;
+                &lt;div class="media-left"&gt;
+                  &lt;i class="fa fa-diamond"&gt;&lt;/i&gt;
+                &lt;/div&gt;
+                &lt;div class="media-body"&gt;
+                  &lt;a class="menu-item" href="hosting.html"&gt;Shared Hosting&lt;/a&gt;
+                  &lt;p&gt; Lorem ipsum dolor sit amet, ectetur.&lt;/p&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+              &lt;div class="col-sm-6 service"&gt;
+                &lt;div class="media-left"&gt;
+                  &lt;i class="fa fa-users"&gt;&lt;/i&gt;
+                &lt;/div&gt;
+                &lt;div class="media-body"&gt;
+                  &lt;a class="menu-item" href="reseller.html"&gt;Reseller Hosting&lt;/a&gt;
+                  &lt;p&gt; Adipiscing integer act lacinia ed justo.&lt;/p&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+              &lt;div class="col-sm-6 service"&gt;
+                &lt;div class="media-left"&gt;
+                  &lt;i class="fa fa-cloud"&gt;&lt;/i&gt;
+                &lt;/div&gt;
+                &lt;div class="media-body"&gt;
+                  &lt;a class="menu-item" href="cloud.html"&gt;Cloud VPS&lt;/a&gt;
+                  &lt;p&gt; Dolor sit amet conse adipiscing orci.&lt;/p&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+              &lt;div class="col-sm-6 service"&gt;
+                &lt;div class="media-left"&gt;
+                  &lt;i class="fa fa-cloud"&gt;&lt;/i&gt;
+                &lt;/div&gt;
+                &lt;div class="media-body"&gt;
+                  &lt;a class="menu-item" href="server.html"&gt;Dedicated Server&lt;/a&gt;
+                  &lt;p&gt; Tristique sit nunc non elit act ultricies.&lt;/p&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/li&gt;
+            &lt;li class="start-offer"&gt;
+              &lt;div class="inner"&gt;
+                &lt;div class="title"&gt;WordPress Hosting Plans&lt;/div&gt;
+                &lt;p&gt; Fully Managed Wordpress Hosting&lt;/p&gt;
+                &lt;a href="wordpress.html" class="btn modern wordpress"&gt;See More Plans&lt;/a&gt;
+              &lt;/div&gt;
+            &lt;/li&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li class="menu-item menu-item-has-children"&gt;
+      &lt;a href="domains.html"&gt;Domains&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class="menu-item menu-item-has-children"&gt;
+      &lt;a href="blog.html"&gt;Blog&lt;/a&gt;
+      &lt;ul class="sub-menu"&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="blog.html"&gt;Blog Layout 01&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="blog-2.html"&gt;Blog Layout 02&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="blog-single.html"&gt;Blog Details&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li class="menu-item menu-item-has-children"&gt;
+      &lt;a href="blog.html"&gt;Pages&lt;/a&gt;
+      &lt;ul class="sub-menu"&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="about.html"&gt;About Us&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="services.html"&gt;Services&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="team.html"&gt;Team&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="404.html"&gt;404&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="countdown.html"&gt;Coming Soon&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="register.html"&gt;Register&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="faq.html"&gt;Faq&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="checkout.html"&gt;Checkout&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="cart.html"&gt;Cart&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="#" data-toggle="modal" data-target="mylogin"&gt;Login&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li class="menu-item menu-item-has-children"&gt;&lt;a href="elements.html"&gt;Elements&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="menu-item menu-item-has-children menu-last"&gt;&lt;a href="cotact.html"&gt;Contacts&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+</pre>
+
+            <h4>Nav Menu Mobile</h4>
+<pre class="prettyprint linenums">
+&lt;nav class="nav-menu"&gt;
+  &lt;button class="menu-toggle"&gt;
+    &lt;span class="icon"&gt;&lt;/span&gt;
+    &lt;span class="icon"&gt;&lt;/span&gt;
+    &lt;span class="icon"&gt;&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;ul class="main-menu"&gt;
+    &lt;li class="menu-item active menu-item-has-children"&gt;
+      &lt;a&gt;Home&lt;/a&gt;
+      &lt;ul class="sub-menu"&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="index.html"&gt;Home Layout 01&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="homepage-2.html"&gt;Home Layout 02&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="homepage-3.html"&gt;Home Layout 03&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="homepage-4.html"&gt;Home Layout 04&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+
+    &lt;li class="menu-item menu-item-has-children"&gt;
+      &lt;a&gt;Hosting&lt;/a&gt;
+      &lt;ul class="sub-menu"&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="hosting.html"&gt;Shared Hosting&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="reseller.html"&gt;Reseller Hosting&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="cloud.html"&gt;Cloud VPS&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="servers.html"&gt;Dedicated Server&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+
+    &lt;li class="menu-item"&gt;
+      &lt;a href="domains"&gt;Domains&lt;/a&gt;
+    &lt;/li&gt;
+
+    &lt;li class="menu-item menu-item-has-children"&gt;
+      &lt;a&gt;Blog&lt;/a&gt;
+      &lt;ul class="sub-menu"&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="blog-1.html"&gt;Blog Layout 01&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="blog-2.html"&gt;Blog Layout 02&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="blog-single.html"&gt;Blog Details&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+
+    &lt;li class="menu-item menu-item-has-children"&gt;
+      &lt;a&gt;Pages&lt;/a&gt;
+      &lt;ul class="sub-menu"&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="about.html"&gt;About Us&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="services.html"&gt;Services&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="team.html"&gt;Our Team&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="404.html"&gt;404&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="countdown.html"&gt;Coming Soon&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="register.html"&gt;Register&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="faq.html"&gt;Faq&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="checkout.html"&gt;Checkout&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="cart.html"&gt;Cart&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="#" data-toggle="modal" data-target="mylogin"&gt;Login&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+
+    &lt;li class="menu-item"&gt;&lt;a href="elements.html"&gt;Elements&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="menu-item"&gt;&lt;a href="contact.html"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+</pre>
+
+            <h4>Header Logo</h4>
+<pre class="prettyprint linenums">
+&lt;a href="index.html"&gt;
+  &lt;img src="img/logo.png" alt="logo" class="logo-menu"&gt;
+&lt;/a&gt;
+</pre>
+
+            <h4>Login - Modal</h4>
+<pre class="prettyprint linenums">
+&lt;form class="login-form"&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="col-sm-12"&gt;
+      &lt;div class="wrapper"&gt;
+        &lt;h3 class="title"&gt;&lt;i class="fa fa-lock"&gt;&lt;/i&gt; Log in&lt;/h3&gt;
+        &lt;div class="subtitle"&gt; Access myHostlab area&lt;/div&gt;
+        &lt;input type="text" name="username" placeholder="Primary Email" class="field" required&gt;
+        &lt;input type="password" name="password" placeholder="Password" class="field" required&gt;
+        &lt;input type="submit" class="btn btn-block" value="log in"&gt;
+        &lt;label class="label-form"&gt;&lt;input type="checlout" class="btn-check"Remember me&gt;&lt;/label&gt;
+        &lt;a href="" class="link"&gt;Forgot my password&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/form&gt;
+</pre>
+
+            <h4>Pricing Table - Classic</h4>
+<pre class="prettyprint linenums">
+&lt;div class="pricing classic"&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="row"&gt;
+      &lt;div class="col-sm-4 no-padding"&gt;
+        &lt;div class="wrapper first"&gt;
+          &lt;i class="fa fa-diamond"&gt;&lt;/i&gt;
+          &lt;div class="title"&gt;Shared Hosting&lt;/div&gt;
+          &lt;div class="period"&gt;from only&lt;/div&gt;
+          &lt;div class="price"&gt;&lt;sup&gt;$&lt;/sup&gt;23.99&lt;/div&gt;
+          &lt;div class="period"&gt;per month&lt;/div&gt;
+          &lt;ul class="list-info"&gt;
+            &lt;li&gt;90GB Disk Space&lt;/li&gt;
+            &lt;li&gt;500GB Bandwith&lt;/li&gt;
+            &lt;li&gt;35 Email Accounts&lt;/li&gt;
+          &lt;/ul&gt;
+          &lt;a href="" class="btn"&gt;Order Now&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="col-sm-4 no-padding"&gt;
+        &lt;div class="wrapper active"&gt;
+          &lt;i class="fa fa-diamond"&gt;&lt;/i&gt;
+          &lt;div class="title"&gt;Reseller Hosting&lt;/div&gt;
+          &lt;div class="period"&gt;from only&lt;/div&gt;
+          &lt;div class="price"&gt;&lt;sup&gt;$&lt;/sup&gt;35.00&lt;/div&gt;
+          &lt;div class="period"&gt;per month&lt;/div&gt;
+          &lt;ul class="list-info"&gt;
+            &lt;li&gt;60GB Disk Space&lt;/li&gt;
+            &lt;li&gt;25 Limited Accounts&lt;/li&gt;
+            &lt;li&gt;SSD 10x Higher Performance&lt;/li&gt;
+          &lt;/ul&gt;
+          &lt;a href="" class="btn"&gt;Order Now&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="col-sm-4 no-padding"&gt;
+        &lt;div class="wrapper third"&gt;
+          &lt;i class="fa fa-cloud"&gt;&lt;/i&gt;
+          &lt;div class="title"&gt;Cloud VPS&lt;/div&gt;
+          &lt;div class="period"&gt;from only&lt;/div&gt;
+          &lt;div class="price"&gt;&lt;sup&gt;$&lt;/sup&gt;109.99&lt;/div&gt;
+          &lt;div class="period"&gt;per month&lt;/div&gt;
+          &lt;ul class="list-info"&gt;
+            &lt;li&gt;4GB Memory&lt;/li&gt;
+            &lt;li&gt;60GB HDD RAID 10 SAN&lt;/li&gt;
+            &lt;li&gt;100Mbps Unlimited Traffic&lt;/li&gt;
+          &lt;/ul&gt;
+          &lt;a href="" class="btn"&gt;Order Now&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+
+            <h4>Blog Content</h4>
+<pre class="prettyprint linenums">
+&lt;div class="wrapper"&gt;
+    &lt;div class="wrapper"&gt;
+      &lt;div class="heading blog"&gt;&lt;a href="#"&gt;Duis aute irure dolor&lt;/a&gt;&lt;/div&gt;
+        &lt;div class="blog-info"&gt;
+          But I must explain to you...
+        &lt;/div&gt;
+        &lt;div class="text-blog"&gt;
+          &lt;i class="fa fa-calendar"&gt;&lt;/i&gt;
+          &lt;span&gt;March 28, 2016&lt;/span&gt;´
+          &lt;i class="fa fa-user"&gt;&lt;/i&gt;
+          &lt;span&gt;by Philips&lt;/span&gt;´
+        &lt;/div&gt;
+        &lt;div class="social"&gt;
+          &lt;i class="fa fa-facebook"&gt;&lt;/i&gt;
+          &lt;i class="fa fa-twitter"&gt;&lt;/i&gt;
+          &lt;i class="fa fa-linkedin"&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;div class="infos"&gt;
+          &lt;i class="fa fa-thumbs-o-up"&gt;&lt;/i&gt;
+          &lt;span&gt;980&lt;/span&gt;
+          &lt;i class="fa fa-comments-o"&gt;&lt;/i&gt;
+          &lt;span&gt;79&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;a href="#" class="btn classic classic-x"&gt;continue reading&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+
+            <h4>Google Map</h4>
+<pre class="prettyprint linenums">
+&lt;div class="google-maps"&gt;
+  &lt;div class="map" data-lat="-37.754399" data-lng="144.973339" data-marker="img/marker.png" 
+  data-zoom="10" data-style="style-2"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+            <p>To replace the google map link, click <a href="https://support.google.com/maps/answer/144361?hl=en" target="_blank">here</a></p>
+
+            <h1>HTML Structure</h1>
+            <p>This Template has a Responsive layout and is based on the Bootstrap Framework. For more information about this visit 
+              <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
+            </p>
+            <p>The default Bootstrap grid system utilizes 12 columns, making for a 1170px wide container without responsive features enabled. With the responsive CSS file added, the grid adapts to be 724px and 1170px wide depending on your viewport. Below 767px viewports, the columns become fluid and stack vertically.
+            </p>
+
+            <h4>Basic Grid HTML</h4>
+<pre class="prettyprint linenums">
+&lt;div class="container"&gt;
+  &lt;div class="col-md-3"&gt;&lt;/div&gt;
+  &lt;div class="col-md-9"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+
+            <h4>Nesting Columns</h4>
+            <p>To nest your content with the default grid, add a new container and set of .col-md-? columns within an existing .col-md-? column. Nested rows should include a set of columns that add up to the number of columns of its parent. 
+            </p>
+<pre class="prettyprint linenums">
+&lt;div class="container"&gt;
+  &lt;div class="col-md-6"&gt;
+    &lt;div class="col-md-2"&gt;&lt;/div&gt;
+    &lt;div class="col-md-10"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="col-md-6"&gt;
+    &lt;div class="col-md-8"&gt;&lt;/div&gt;
+    &lt;div class="col-md-4"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+
+            <h1>CSS Structure</h1>
+            <p>These are the css files that are loaded into templates in Head Section.</p>
+<pre class="prettyprint linenums">
+&lt;link href="css/bootstrap.min.css" rel="stylesheet"&gt;
+&lt;link href="css/font-awesome.css" rel="stylesheet"&gt;
+&lt;link href="css/open-sans.css" rel="stylesheet"&gt;
+&lt;link href="css/lato.css" rel="stylesheet"&gt;
+&lt;link href="css/idangerous.swiper.css" rel="stylesheet"&gt;
+&lt;link href="css/magnific-popup.css" rel="stylesheet"&gt;
+&lt;link href="css/style.css" rel="stylesheet"&gt;
+&lt;link href="css/responsive.css" rel="stylesheet"&gt;
+&lt;link href="css/slick.css" rel="stylesheet"&gt;
+</pre>
+<p>Dont change anything in bootstrap.min.css file. It may affect the whole theme.</p>
+<p>By default, the template loads this font from css file, but you can change the font.</p>
+
+            <h1>JavaScript Structure</h1>
+            <p>These are the JS files that are loaded into templates in end of the body section.</p>
+<pre class="prettyprint linenums">
+&lt;script src="js/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/bootstrap.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/idangerous.swiper.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/jquery.viewportchecker.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/jquery.circliful.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/jquery.countdown.js"&gt;&lt;/script&gt;
+&lt;script src="js/jquery.magnific-popup.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/slick.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/scripts.js"&gt;&lt;/script&gt;
+</pre>
+
+
+   
+          </div>     
+        </div>
+      </div>
+
+
+      <!-- JavaScript -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/bootstrap.min.js"></script>
+      <script src="assets/js/jquery-ui.min.js"></script>
+      <script src="assets/js/jquery.tocify.min.js"></script>
+      <script src="assets/js/prettify.js"></script>
+      <script>
+      $(function() {
+        var toc = $("#toc").tocify({
+        selectors: "h1, h2"
+        }).data("toc-tocify");
+        prettyPrint();
+      });
+      </script>
+  </body>
+</html>

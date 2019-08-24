@@ -1,0 +1,99 @@
+/* BEGIN Light */
+@font-face {
+  font-family: 'Open Sans Light';
+  src: url("../fonts/Opensans/Light/OpenSans-Light.eot");
+  src: url("../fonts/Opensans/Light/OpenSans-Light.svg");
+  src: url("../fonts/Opensans/Light/OpenSans-Light.ttf");
+  font-weight: 300;
+  font-style: normal; }
+/* END Light */
+
+/* BEGIN Light Italic */
+@font-face {
+  font-family: 'Open Sans LightItalic';
+  src: url("../fonts/Opensans/LightItalic/OpenSans-LightItalic.eot");
+  src: url("../fonts/Opensans/LightItalic/OpenSans-LightItalic.svg");
+  src: url("../fonts/Opensans/LightItalic/OpenSans-LightItalic.ttf");
+  font-weight: 300;
+  font-style: italic; }
+/* END Light Italic */
+
+/* BEGIN Regular */
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/Opensans/Regular/OpenSans-Regular.eot");
+  src: url("../fonts/Opensans/Regular/OpenSans-Regular.svg");
+  src: url("../fonts/Opensans/Regular/OpenSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal; }
+/* END Regular */
+
+/* BEGIN Italic */
+@font-face {
+  font-family: 'Open Sans Italic';
+  src: url("../fonts/Opensans/Italic/OpenSans-Italic.eot");
+  src: url("../fonts/Opensans/Italic/OpenSans-Italic.svg");
+  src: url("../fonts/Opensans/Italic/OpenSans-Italic.ttf");
+  font-weight: normal;
+  font-style: italic; }
+/* END Italic */
+
+/* BEGIN Semibold */
+@font-face {
+  font-family: 'Open Sans Semibold';
+  src: url("../fonts/Opensans/Semibold/OpenSans-Semibold.eot");
+  src: url("../fonts/Opensans/Semibold/OpenSans-Semibold.svg");
+  src: url("../fonts/Opensans/Semibold/OpenSans-Semibold.ttf");
+  font-weight: 600;
+  font-style: normal; }
+/* END Semibold */
+
+/* BEGIN Semibold Italic */
+@font-face {
+  font-family: 'Open Sans SemiboldItalic';
+  src: url("../fonts/Opensans/SemiboldItalic/OpenSans-SemiboldItalic.eot");
+  src: url("../fonts/Opensans/SemiboldItalic/OpenSans-SemiboldItalic.svg");
+  src: url("../fonts/Opensans/SemiboldItalic/OpenSans-SemiboldItalic.ttf");
+  font-weight: 600;
+  font-style: italic; }
+/* END Semibold Italic */
+
+/* BEGIN Bold */
+@font-face {
+  font-family: 'Open Sans Bold';
+  src: url("../fonts/Opensans/Bold/OpenSans-Bold.eot");
+  src: url("../fonts/Opensans/Bold/OpenSans-Bold.svg");
+  src: url("../fonts/Opensans/Bold/OpenSans-Bold.ttf");
+  font-weight: bold;
+  font-style: normal; }
+/* END Bold */
+
+/* BEGIN Bold Italic */
+@font-face {
+  font-family: 'Open Sans BoldItalic';
+  src: url("../fonts/Opensans/BoldItalic/OpenSans-BoldItalic.eot");
+  src: url("../fonts/Opensans/BoldItalic/OpenSans-BoldItalic.svg");
+  src: url("../fonts/Opensans/BoldItalic/OpenSans-BoldItalic.ttf");
+  font-weight: bold;
+  font-style: italic; }
+/* END Bold Italic */
+
+/* BEGIN Extrabold */
+@font-face {
+  font-family: 'Open Sans ExtraBold';
+  src: url("../fonts/Opensans/ExtraBold/OpenSans-ExtraBold.eot");
+  src: url("../fonts/Opensans/ExtraBold/OpenSans-ExtraBold.svg");
+  src: url("../fonts/Opensans/ExtraBold/OpenSans-ExtraBold.ttf");
+  font-weight: 800;
+  font-style: normal; }
+/* END Extrabold */
+
+/* BEGIN Extrabold Italic */
+@font-face {
+  font-family: 'Open Sans ExtraBoldItalic';
+  src: url("../fonts/Opensans/ExtraBoldItalic/OpenSans-ExtraBoldItalic.eot");
+  src: url("../fonts/Opensans/ExtraBoldItalic/OpenSans-ExtraBoldItalic.svg");
+  src: url("../fonts/Opensans/ExtraBoldItalic/OpenSans-ExtraBoldItalic.ttf");
+  font-weight: 800;
+  font-style: italic; }
+/* END Extrabold Italic */

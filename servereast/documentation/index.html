@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>ServerEast - Hosting WordPress Theme</title>
+	<style type="text/css" media="screen">
+		#toc {
+			position: fixed;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			width: 300px;
+			padding: 30px 15px;
+			overflow: auto;
+			background: #333;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+		#toc ul {
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+		}
+
+		#toc li {
+			line-height: 1.7;
+		}
+		.toc-h1 {
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+
+		.toc-h1 a {
+			color: #fff;
+		}
+
+		.toc-h2 {
+			font-size: 13px;
+			padding-left: 15px;
+		}
+
+		.toc-h3 {
+			font-size: 13px;
+			padding-left: 30px;
+		}
+
+		.toc-active {
+			font-style: italic;
+			font-weight: bold;
+			text-decoration: underline;
+		}
+
+		#content {
+			width: 100%;
+			padding: 0 0 0 330px;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+		.navbar {
+			display: none;
+		}
+
+		#content h1,
+		#content h2,
+		#content h3 {
+			margin: 30px 0;
+		}
+
+		@media (max-width: 768px) {
+			#toc {
+				display: none;
+			}
+			#content {
+				padding: 0 30px;
+			}
+		}
+	</style>
+</head>
+<body>
+
+<xmp theme="simplex" style="display:none;">
+
+Introduction
+==========
+
+Welcome! First of all we want to thank you for purchasing our product, ServerEast - Responsive Hosting Wordpress Theme.
+
+ServerEast is a Modern Multipurpose and Responsive Wordpress Theme. This theme is suited for any type of website, hosting or personal or business use. The MultiPage is designed with modern look and feel while keeping in mind to make it user friendly and eye catching so that people using it can get the best out of their website.
+
+In the following sections we will explain how to set up and use ServerEast theme the easiest way possible. If you cannot locate your answer here, sign up for our support forum and our supporters will help you.
+
+-----------------------------
+
+
+Files included in package
+=========================
+
+The download package (.zip) that you get from ThemeForest contains the following files and folder:
+
+- `servereast.zip`: main theme file that need to be uploaded to host to install ServerEast theme.
+- `servereast-child.zip`: basic child theme of ServerEast theme. It is created for people who want to customize code of ServerEast theme.
+- `data_export/demo-content.xml`: this file contains all sample content which will help you to have a first look of how we use ServerEast theme.
+- `data_export/theme-options.txt`: theme option backup file. You'll need this to restore the default theme options that setup for demo website.
+- `data_export/widgets-data.wie`: widget backup file. You'll need this to restore the default widget that setup for demo website.
+- `Documentation`: documetation folder that contains documentation files.
+
+------------------------------
+
+Installation
+=========
+
+- Do you want  custom theme, Starting At Only $30 contact us now <a href ="">**oceanthemes2014@gmail.com**</a>
+
+
+
+Step 1 - Install theme
+-------------
+
+After you download the package from ThemeForest, unzip it. You'll see a file `ServerEast.zip`, which is the main file that needed to upload and install.
+
+You can either choose to upload and installl the theme using **WordPress theme install** or use **FTP** function.
+
+**Install theme using WordPress install function**
+
+- Go to `Appearance > Themes` and click **Add New**
+- Select **Upload**
+- Click **Browse** and select the `servereast.zip` file
+- Click **Install Now**
+- When upload and installation progresses are completed, click **Activate**, or go to `Appearance > Themes` and activate **ServerEast** theme
+
+**Upload and install using FTP**
+
+If you get any fail when install theme by Wordpress install function, we recommend to use FTP:
+
+- Unzip `servereast.zip`, you'll get a folder `servereast`
+- Use a FTP client like [FileZilla](http://filezilla-project.org/) and upload that folder to `wp-content/themes` folder on your host
+- Set the `Transfer Type` to `Binary` by expanding `Transfers > File Types`
+![setup ftp](images/setup-ftp.png)
+- Go to `Appearance > Themes` and activate **ServerEast** theme
+
+
+
+Step 2 - Install plugins
+----------------
+
+After installing ServerEast, you'll see a notification in the top of the page that says the theme needs some plugins to function properly.
+
+ServerEast theme **requires** following plugins:
+
+- [Meta Box](http://wordpress.org/plugins/meta-box/): plugin for creating meta boxes for posts, pages,... It is free and available on WordPress.org
+- [WPBakery Visual Composer](http://codecanyon.net/item/visual-composer-page-builder-for-wordpress/242431): premium plugin for page builder. It is the most popular plugin on Codecanyon.
+
+ServerEast theme **recommends** following plugins:
+
+- [Contact Form 7](https://wordpress.org/plugins/contact-form-7/): plugin for creating contact forms. It is free and available on WordPress.org 
+- [Newsletter](https://wordpress.org/plugins/newsletter/): is a real newsletter system for your WordPress blog: perfect for list building, you can easily create, send and track e-mails, headache-free. It just works out of box!.
+- [WHMCS Bridge](https://wordpress.org/plugins/whmcs-bridge/): plugin for creating whmcs pages. It is free and available on WordPress.org.
+- OT Testimonial: List or slider reviews via functions, shortcodes.
+
+ServerEast is working perfectly with these plugins. It automatically adds more styles to them to make the design match the theme.
+
+To install these plugins:
+
+- Click **Begin installing plugins**
+- You'll be redirect to a page where all needed plugins are listed. Just click on **Install** below each plugin's name
+- After installing, if it's required to activate the plugin, just activate
+
+![install plugins](images/install-plugins.png)
+
+
+One click import demo content
+===================
+Before importing the available content, make sure you have installed and activated all the required plugins. Please take a look at **Step 2 - Install plugins** to know how to install and active plugins.
+
+
+Install ServerEast Demo Content plugin
+----------------------------------------------------
+- **Install a Plugin using Upload Method**
+	- Go to `Plugins > Add New`.
+	- Click to `Upload Plugin`.
+	- Click to `Choose File`, browse `servereast-demo-content.zip` in plugins folder of package theme and upload it. 
+	- Click to `Install Now`.
+	- Click on `Activate the plugin`.
+
+- **Install a Plugin using FTP Manager**
+	- You can use a FTP client like [FileZilla](http://filezilla-project.org/).
+	- Unzip the `servereast-demo-content.zip` file, you'll get a folder `servereast-demo-content`.
+	- Upload that folder to `wp-content/plugins` folder on your host.
+	- Go to `Appearance > Plugins` and activate the **servereast-demo-content** plugin.
+
+
+Import demo content
+-----------------------------------
+
+ To import available demo content, just go to `Appearance`>`Theme option data` and click on Import `Demo Content button.`
+-  After installing demo content,  your website won’t look like the live preview. You’ll still need to config a few more things in your website.
+
+![One Click Import](images/one-click.png)
+
+**VIDEO TUTORIAL**: https://youtu.be/8dDIBAGycu4
+
+Manual import  demo content
+===================
+
+Step 1 - Import demo content
+----------------------------
+
+- Go to `Tools > Import`
+- Select **WordPress** from the list
+- If you haven't installed the **WordPress import plugin**, a popup window will appears and ask you to install it. Just click **Install Now**. When the installation progress is completed, click **Activate Plugin & Run Importer**. If you have installed this plugin, skip to next step.
+- Click **Browse** and select `demo-content.xml` file from the download package
+- Click **Upload file and import**
+- When you are asked to import author, you can create new author or import to existing author. You also should check the checkbox **Download and import file attachments**.
+
+![import](images/import-data.png)
+
+![install plugin importer](images/install-plugin-importer.png)
+
+![select demo content](images/select-import-data.png)
+
+![install plugin importer](images/install-plugin-importer.png)
+
+![select demo content](images/select-import-data.png)
+
+After completing all above steps, go to `Posts`, `Pages`, `Products` to see imported data.
+
+
+
+Step 2 - Import Widgets Data
+-------------------
+
+- Install and activate the [Widgets Importer/Exporter](https://wordpress.org/plugins/widget-importer-exporter/) plugin.
+- Go to `Tools > Widget Importer & Exporter`, click **Choose file ** button and select `widgets-data.wie` file from the download package.
+- Click to **Import widgets**.
+![import widgets](images/import-widgets.png)-
+
+Step 3 - Import Theme Options
+----------------------------------
+
+- Open the `theme-options.txt` file from from the download package.
+- Copy all content inside this file.
+- Go to `Appearance > Theme Options > Backup - Restore`, and paste the text file’s contents into the ‘Backup Settings’ field.
+- Click the **Import Options** button to start importing theme opitons.
+![import theme options](images/import-theme-options.png)
+
+
+Step 4 - Setup Menu
+--------------
+
+Although the theme is working now and it shows menu, but because we haven't created a menu for primary location, the theme will display all pages by default.
+When you import the demo data, WordPress automatically create menus for you. These menus are the same as our demo.
+
+**Main Menu(Primary Menu)**
+
+- Go to `Appearance > Menus`
+- Select **Main Menu(Primary Menu)** and click **Select** button to edit it.
+- Scroll to bottom of page and check **Primary Menu** for **_Theme location_**
+- Click **Save Menu**
+![main menu](images/main-menu.png)
+
+
+Setup homepage and blog page
+-------------------------------------
+
+After install demo content, you'll see a page 8 Homepage pages, as you see on our demo. You can use one of theme as the homepage of the website. To set it as homepage, please go to `Settings \ Reading`, under **Front page displays**, please chose **A static page (select below)** and select a homepage version (eg: Homepage Slider Dark) for **Front page** and select **Blog** page for **Posts page**.
+
+![setup front page](images/setup-front-page.png)
+
+
+
+Create New Menu
+===============
+
+Following these steps to create a menu:
+
+- Go to `Appearance > Menus`
+- Click the **create a new menu** link to create new menu.
+- Select items from the left meta boxes and click **Add to Menu**
+- On the right, feel free to drag and drop menu items to organize them
+- When you're done moving menu items, check **Primary Menu** for **Theme locations** at the bottom of the page
+- Click **Save Menu**
+
+![edit menu](images/edit-menu.png)
+
+------------------------------
+
+Visual Composer Basics
+======================
+
+It has very simple and intuitive interface, but before getting started, you may find it useful to get accustomed with its documentation:
+
+[Visual Composer Documentation](https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress?title=Visual_Composer)
+
+In ServerEast theme, we also create some new Elements and add some new parameters to exists elements of Visual Composer. It will help you a lot to build your One Page easier. Following we will go through some popular elements of Visual Composer and all of new elements that ServerEast theme brings to you.
+
+###Row
+
+This is the most popular you can't live without when using Visual Composer. In ServerEast theme, we use it as a section of One Page. So, when you edit a row, there is new parameters you will see beside the defaults:
+
+**_General tab_**:
+
+- **Row ID**: Enter row ID (Note: make sure it is unique and valid according to [w3c specification](http://www.w3schools.com/tags/att_global_id.asp)).
+- **Extra class name**: Style particular content element differently - add a class name and refer to it in custom CSS.
+- **Section Full Width?**: Section full width or not, Default: not fullwidth
+
+**_Design options tab_**:
+
+- **Css**: It hepl you to change margin, border and padding.
+- **Overlay**: This option allows to place an additional layer above the row's background.
+- **Border**: Select a color for border.
+- **Background **: Select a color for background.
+- **set image**: Select a image conformity with content.
+- **Box controls**: select this option will you to simplify controls.
+
+###Column
+
+As Row, column is also the most popular element in Visual Composer, they are always be together. In ServerEast theme, we add new tab called "**Animation**" when you edit a column. This tab contains options allow you to set up animation for that column when it appear on screen for the first time. This tab contains following options:
+
+**_General_**
+
+- **Extra class name**: Style particular content element differently - add a class name and refer to it in custom CSS.
+- **Animation**: Animation style options.
+**_Design options_**:
+
+- **Css**: It hepl you to change margin, border and padding.
+- **Overlay**: This option allows to place an additional layer above the row's background.
+- **Border**: Select a color for border.
+- **Background **: Select a color for background.
+- **set image**: Select a image conformity with content.
+- **Box controls**: select this option will you to simplify controls.
+
+**_Width and Responsiveness_**:
+
+- **Width**: Select number column.
+- **Responsiveness **: Adjust column for different screen sizes. Control width, offset and visibility settings.
+
+###Heading
+
+This element is used to create the title area for each heading. It is used in almost heading in our demo. It contains following parameters:
+
+- **Text**: The title content.
+- **Element Tag**: Section Element Tag.
+- **Text Align**: Section Overlay.
+- **Font Size**: Enter font size.
+- **Color**: Select color.
+- **Margin Bottom**: Add margin bottom
+- **Extra class**: Enter extra class names if you want to apply your own style rule.
+
+###Button
+
+ It contains following parameters:
+
+- **Button Icon**: Button with icon. Find [here](http://fontawesome.io/icons/)
+- **Icon After?**: Position icon after or before label button. Defaul: before.
+- **Button Text**: Add text of button.
+- **Button Link**: Add link button.
+- **Button Type**: Select button type. 
+
+
+###Client Logos
+
+ It contains following parameters:
+
+- **Logo Client**: Upload logo images.
+- **Number Images**: Number images visible.
+- **Carousel Speed**: Speed slide carousel.
+- **Style Show**: Grid or Carousel.
+
+
+###Google Maps
+
+ It contains following parameters:
+
+- **Always Show Map?**: Always show map or click button to show.
+- **Label Button**: Add text of button.
+- **Latitude**: Please enter [Latitude](http://www.latlong.net/) ServerEast map
+- **Longitude**: Please enter [Longitude](http://www.latlong.net/) ServerEast map 
+- **Location Image**: Upload Location Image.
+- **Tootip Location Click**: Please enter tootip location
+- **Zoom map number**: Please enter zoom map. defaul 14.
+- **Height (px)**: Example: 400px.
+
+![portfolio element](images/portfolio-element.png)
+
+------------------------------
+
+
+Theme Options
+=============
+
+ServerEast theme comes with unique, creative and easy-to-use Theme Options page. You can change all theme options in one place!
+
+![preload](images/preload.png)
+
+All options have full description so you can know what you are doing. Just click and save!
+
+
+------------------------------
+
+
+Post Format
+===========
+
+[Post Formats](http://codex.wordpress.org/Post_Formats) is theme feature which is a piece of meta information that can be used by a theme to customize its presentation of a post.
+
+In short, with a theme that supports Post Formats, a blogger can change how each post looks by choosing a Post Format from a radio-button list.
+
+ServerEast theme supports the following post formats:
+
+- `gallery` - A gallery of images, which will be displayed in a responsive image slider, powered by Flexslider.
+- `image` - A single image, which will be shown above post title.
+- `video` - A single video, which can be any video from Youtube, Video or other video websites. Support URL or embed code. The video will be displayed above post title.
+- `audio` - An audio file, which can be any video from Youtube, Video or other video websites. Support URL or embed code. The video will be displayed using a powerful HTML5 audio player provided by Wordpress as default player.
+
+Using post format in ServerEast lets you differentiate post from each other and make the blog page / single page looks more beautiful.
+
+[Go to blog page](http://demo.vegatheme.com/ServerEast/blog/) to see how post formats look.
+
+
+
+
+When you edit a post, select a format you want to apply to that post on the **Format** meta box on the right:
+
+![formats](images/post-format-box.png)
+
+When you choose a format, a corresponding meta box will appear **below** the content editor, here's the list of them:
+
+![formats](images/post-formats.png)
+
+All you need to do is just enter **all** information in the fields in these meta boxes. This information will be used to decorate the post. For example: gallery post format will uses uploaded images to show a slider above post title, a video post will display a video player above post title, etc.
+
+
+------------------------------
+
+
+Translation
+=========
+
+###Tell WordPress which language file to use.
+
+If you don’t use WordPress in your native language so far, you have to tell WordPress which language to use to activate the theme translation.
+
+You can do this by editing the wp-config.php file (the file is located in the main directory of your WordPress files) and defining the WPLANG constant. You have to set your language code there, for example fr_FR for French translation.
+
+ust add the line below to your wp-config.php or change it if it already exists:
+
+`define ('WPLANG', 'fr_FR');`
+
+
+###First Method: Using Codestyling Plugin
+
+The easiest way to translate your theme locally is by using the [Codestyling Localization](https://wordpress.org/plugins/codestyling-localization/) plugin. After you have installed and activated the plugin, simply go to `Tools > Localization` (shown in your language) and translate the theme from your WordPress backend following the [plugin instructions](http://www.code-styling.de/english/development/wordpress-plugin-codestyling-localization-en)
+
+###Second Mothod: Using Poedit
+
+Poedit is a common program which you can use to translate the theme. It’s available for free on [poedit.net](http://www.poedit.net/).
+
+After you have installed Poedit, you can open it and select `File > New Catalog from POT file`. Then select the .pot file from the theme you wish to translate which you can find in the `/languages/` folder of theme.
+
+Then go through every line of text and translate it to your native language. Afterwards you can save the catalog with your language code (for example `en_US.po`). Normally Poedit automatically creates the .mo file and saves it, too.
+
+The last step you have to do is to upload your created language files to the language folder of your theme using FTP.
+
+
+------------------------------
+
+
+Child Theme
+===========
+
+Fastlat is fully child theme compatible. We have attached a basic child theme to the download package which contains the minimum of required files. If you are planing any code customisations we highly recommend to do this inside the child theme! Learn more about child themes [here](http://codex.wordpress.org/Child_Themes)
+
+
+
+Need Helps
+=========
+
+If you need help, please do not hesitate to contact us! To grant best support we set up a support forum at [http://support.oceanthemes.net](http://support.oceanthemes.net). Channeling all requests at one place keeps and makes it simple, easier and even more effective for every customers to get quick help. All issues, requests and questions can be discussed and answered at one place. Please note, you will only get access to our forums with a valid purchase key!
+
+</xmp>
+
+<script src="js/strapdown.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/toc.min.js"></script>
+<script>
+	jQuery(document).ready(function($) {
+		$('body').prepend('<div id="toc"></div>');
+		$('#toc').toc({
+			'selectors': 'h1,h2,h3,h4,h5,h6',
+			'container': '#content'
+		});
+	});
+</script>
+</body>
+</html>

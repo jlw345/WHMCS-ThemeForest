@@ -1,0 +1,292 @@
+/*------------------------------------------------------------------
+ * Website Name: Antler
+ * App URI: http://inebur.com/antler/template/
+ * Author: inebur
+ * Author URI: http://inebur.com/
+ * Copyright 2019 Antler
+ * Version: 1.0 
+
+ -------------------------------------------------------------------*/
+
+div#order-antler {
+    padding:0 0 0 0;
+    margin:0 0 30px 0;
+    height: 100%;
+    width: 100%;
+    line-height:18px;
+    font-size:14px;
+    color:#666666;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: ===antialiased !important;
+}
+/* Text Styling */
+#order-antler a,
+#order-antler a:hover,
+#order-antler a:active,
+#order-antler a:visited,
+#order-antler a:link {
+    outline:none;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+}
+/* Headings */
+#order-antler h1 {
+}
+#order-antler h2 {
+}
+#order-antler h3 {
+    padding:0 0 0 0;
+    margin:0;
+    font-size:32px;
+    line-height:38px;
+    font-weight:bold;
+    color:#333333;
+}
+#order-antler h4 {
+    padding:0 0 0 0;
+    margin:10px 0;
+    font-size:24px;
+    color:#333333;
+}
+#order-antler h5 {
+    padding:0 0 0 0;
+    margin:5px 0;
+    font-size:16px;
+    color:#666666;
+}
+
+#order-antler .txt-center {
+    text-align:center;
+}
+
+#order-antler .alert {
+    margin-top: 70px;
+    padding: 15px;
+}
+
+#order-antler .main-container {
+    padding:0px;
+    margin:0 auto;
+}
+#order-antler .main-container.price-01 {
+    font-size:14px;
+    line-height:17px;
+}
+#order-antler .main-container.price-01 h3,
+#order-antler .main-container.price-01 h5 {
+    font-weight:normal;
+    margin-bottom: 10px;
+}
+
+#order-antler .price-table-container {
+    padding:10px 0 0 0;
+    margin:0 0 0 0;
+}
+#order-antler .price-table-container ul {
+    padding:0 0 0 0;
+    margin:0 0 0 0;
+    list-style:none;
+    text-align:center;
+}
+#order-antler .price-table-container .price-table {
+    position: relative;
+    border-radius: 15px;
+    margin-top: 50px;
+    background-color: #fff;
+    border: solid 1px #efefef;
+    box-shadow: 0 5px 15px 0 rgba(110,110,110,.1);
+    text-align: left;
+}
+#order-antler .price-table-container .price-table.active {
+    margin:-30px 0 0 0;
+    width:245px;
+}
+#order-antler .price-table-container .price-table .top-head .top-area {
+    padding: 80px 0 15px 0;
+    margin:0 0 0 0;
+}
+#order-antler .price-table-container .price-table .top-head .top-area h4 {
+    font-size: 22px;
+    margin: 0 0 0 0;
+    font-weight: normal;
+    font-family: "Open sans SemiBold";
+}
+#order-antler .price-table-container .price-table .top-head .top-area p {
+    padding:5px 0 0 0;
+    margin:0 0 0 0;
+    color:#80a7ba;
+    font-size:13px;
+    line-height:20px;
+}
+#order-antler .price-table-container .price-table .top-head .price-area {
+    padding: 40px 60px 40px 60px;
+    color: #181b22;
+    font-size: 28px;
+}
+#order-antler .price-table-container .price-table .top-head .price-area img{
+    height: 60px;
+    width: 60px;
+}
+#order-antler .price-table-container .price-table .top-head .price-area .price {
+    padding: 0px 0px 25px 0px;
+    font-size: 18px;
+}
+#order-antler .price-table-container .price-table .top-head .price-area .price span {
+    color: #181b22;
+    font-size: 28px;
+}
+#order-antler .price-table-container .order-button {
+    cursor: pointer;
+    border: none;
+    background-color: #fdd700;
+    border-radius: 50px;
+    color: #000;
+    font-size: 14px;
+    line-height: 1;
+    margin: 0;
+    padding: 17px 26px;
+    position: relative;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    font-family: "Open Sans Semibold";
+    box-shadow: 0 2px 8px 0 rgba(62,62,79,.23);
+    -webkit-transition: all 300ms linear 0ms;
+    -moz-transition: all 300ms linear 0ms;
+    -ms-transition: all 300ms linear 0ms;
+    transition: all 300ms linear 0ms;
+}
+#order-antler .price-table-container .order-button:hover {
+    background-color: #808080;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.30);
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+#order-antler .price-table-container .order-button.unavailable:hover {
+    cursor: not-allowed;
+    /* Old browsers */
+    background: #404A53;
+    /* FF3.6+ */
+    background: -moz-linear-gradient(top,  #404A53 0%, #949499 100%);
+    /* Chrome,Safari4+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#404A53), color-stop(100%,#949499));
+    /* Chrome10+,Safari5.1+ */
+    background: -webkit-linear-gradient(top,  #404A53 0%,#949499 100%);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top,  #404A53 0%,#949499 100%);
+    /* IE10+ */
+    background: -ms-linear-gradient(top,  #404A53 0%,#949499 100%);
+    /* W3C */
+    background: linear-gradient(to bottom,  #404A53 0%,#949499 100%);
+    /* IE6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#404A53', endColorstr='#949499',GradientType=0);
+}
+#order-antler .price-table-container .price-table ul {
+    text-align: left;
+    padding: 30px 60px 40px 60px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin: 0px;
+    list-style-type: none;
+}
+#order-antler .price-table-container .price-table ul li {
+    color:#fff;
+}
+#order-antler .price-table-container .price-table ul li .list-info{
+    line-height: 25px;
+    font-size: 16px;
+}
+#order-antler .price-table-container .price-table ul li .svg{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 40px;
+}
+#order-antler .price-table-container .price-table ul li .list-info i{
+    font-size: 38px;
+    color: #fff;
+    margin: 0px 15px 0px 0px;
+    float: left;
+    padding: 5px 0px
+}
+#order-antler .price-table-container .price-table ul li a {
+    color:#006699;
+}
+#order-antler .price-table-container .price-table ul li:last-child {
+    border-bottom:0;
+}
+#order-antler .price-table-container .price-table .popular-plan {
+    padding:7px 0 5px 0;
+    background:rgba(0,0,0,0.2);
+    border-bottom:1px solid #004662;
+    color:#a3d900;
+    font-size:13px;
+    text-transform:uppercase;
+}
+#order-antler .includes-features {
+	margin:0 auto;
+	width:100%;
+	max-width:780px;
+	padding-top:10px;
+}
+#order-antler .includes-features .head-area {
+    padding:0 0 0 0;
+    margin:0 0 0 0;
+    text-align:center;
+    background:url(../img/head-bg.png) no-repeat center center;
+    background-size:100% auto;
+}
+#order-antler .includes-features .head-area span {
+    padding:0 20px;
+    margin:0 0 0 0;
+    display:inline-table;
+    background:#ffffff;
+}
+#order-antler .main-container.price-01 .includes-features .head-area span {
+    background:#f3f3f3;
+}
+#order-antler .includes-features ul.list-features {
+    padding:20px 0 0 0;
+    margin:0 0 0 0;
+    list-style:none;
+}
+#order-antler .includes-features ul.list-features li {
+    padding:0 0 0 22px;
+    margin:5px 0;
+    width:33%;
+    display:inline-table;
+    background:url(../img/tick.png) no-repeat;
+}
+/* This media query is written for iPad and tablets */
+@media (max-width: 991px) {
+    #order-antler .includes-features ul.list-features li {
+        width:48%;
+    }
+}
+/* This media query is written for Mobile only */
+@media (max-width: 480px) {
+    #order-antler .includes-features ul.list-features li {
+        width:100%;
+    }
+}
+/* Sidebar */
+.row-product-selection {
+    position: relative;
+    left: 0;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+}
+.product-selection-sidebar {
+    position: absolute;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    display: none;
+}
+#btnShowSidebar {
+    margin: 0 0 20px 0;
+}

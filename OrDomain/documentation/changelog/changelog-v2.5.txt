@@ -1,0 +1,105 @@
+=============================
+06 August, 2018 - Version 2.5
+=============================
+
+-------------------------------------------------------------------------------------------
+Backup your theme/style folder and files before applying these updates.
+-------------------------------------------------------------------------------------------
+The best way is to use a compare tool, like: https://sourceforge.net/projects/kdiff3/files/
+and use it to compare the 'folders' (the version you're using with the new version)
+-------------------------------------------------------------------------------------------
+Updating HTML Templates Requires Manual Work.
+-------------------------------------------------------------------------------------------
+
+
+*. WHMCS template updated to be compatible with latest "WHMCS Version 7.6.0":
+-----------------------------------------------------------------------------
+
+    *. New File/Folders Added:
+    -------------------
+        -> webfonts/
+
+    *. Files Affected:
+    ------------------
+        -> css/theme/color-1.css
+        -> css/theme/color-2.css
+        -> css/theme/color-3.css
+        -> css/theme/color-4.css
+        -> css/theme/color-5.css
+        -> css/theme/color-6.css
+        -> css/theme/color-7.css
+        -> css/theme/color-8.css
+        -> css/theme/color-9.css
+        -> css/theme/color-10.css
+        -> css/theme/style.css
+        -> css/theme/style-overrides.css
+        -> css/theme/style-responsive.css
+        -> css/all.css
+        -> css/all.min.css
+        -> css/overrides.css
+        -> css/styles.css
+        -> error/page-not-found.tpl
+        -> error/unknown-routepath.tpl
+        -> includes/head.tpl
+        -> includes/modal.tpl
+        -> includes/sidebar.tpl
+        -> includes/tablelist.tpl
+        -> includes/verifyemail.tpl
+        -> js/main.js
+        -> js/scripts.js
+        -> js/scripts.min.js
+        -> js/twitter.js
+        -> js/whmcs.js
+        -> oauth/redirect.tpl
+        -> store/css/style.css
+        -> store/promos/upsell.tpl
+        -> store/sitelock/index.tpl
+        -> store/spamexperts/index.tpl
+        -> store/ssl/shared/certificate-pricing.tpl
+        -> store/ssl/shared/features.tpl
+        -> store/ssl/competitive-upgrade.tpl
+        -> store/ssl/index.tpl
+        -> store/weebly/index.tpl
+        -> store/weebly/master.js
+        -> store/weebly/upgrade.tpl
+        -> store/order.tpl
+        -> affiliates.tpl
+        -> announcements.tpl
+        -> banned.tpl
+        -> clientareaaddcontact.tpl
+        -> clientareacontacts.tpl
+        -> clientareacreditcard.tpl
+        -> clientareadomaincontactinfo.tpl
+        -> clientareadomaindetails.tpl
+        -> clientareadomains.tpl
+        -> clientareaemails.tpl
+        -> clientareahome.tpl
+        -> clientareainvoices.tpl
+        -> clientareaproductdetails.tpl
+        -> clientareaproducts.tpl
+        -> clientareaquotes.tpl
+        -> contactaccessdenied.tpl
+        -> creditcard.tpl
+        -> domain-pricing.tpl
+        -> downloads.tpl
+        -> downloadscat.tpl
+        -> footer.tpl
+        -> header.tpl
+        -> knowledgebase.tpl
+        -> knowledgebasearticle.tpl
+        -> knowledgebasecat.tpl
+        -> managessl.tpl
+        -> serverstatus.tpl
+        -> subscription-manage.tpl
+        -> supportticketslist.tpl
+        -> supportticketsubmit-confirm.tpl
+        -> supportticketsubmit-stepone.tpl
+        -> supportticketsubmit-steptwo.tpl
+        -> ticketfeedback.tpl
+        -> twitterfeed.tpl
+        -> upgrade-configure.tpl
+        -> viewannouncement.tpl
+        -> viewemail.tpl
+        -> viewinvoice.tpl
+        -> viewquote.tpl
+        -> viewticket.tpl

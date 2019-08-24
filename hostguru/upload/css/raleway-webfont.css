@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "Raleway Thin";
+  src: url("../fonts/raleway-semibold.eot");
+  src: url("../fonts/raleway-thin.svg");
+  src: url("../fonts/raleway-thin.ttf");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Extralight";
+  src: url("../fonts/raleway-semibold.eot");
+  src: url("../fonts/raleway-extralight.svg");
+  src: url("../fonts/raleway-extralight.ttf");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Light";
+  src: url("../fonts/raleway-semibold.eot");
+  src: url("../fonts/raleway-light.svg");
+  src: url("../fonts/raleway-light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/raleway-semibold.eot");
+  src: url("../fonts/raleway-regular.svg");
+  src: url("../fonts/raleway-regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Medium";
+  src: url("../fonts/raleway-semibold.eot");
+  src: url("../fonts/raleway-medium.svg");
+  src: url("../fonts/raleway-medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Semibold";
+  src: url("../fonts/raleway-semibold.eot");
+  src: url("../fonts/raleway-semibold.svg");
+  src: url("../fonts/raleway-semibold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Bold";
+  src: url('../fonts/raleway-bold.eot');
+  src: url("../fonts/raleway-bold.svg");
+  src: url("../fonts/raleway-bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Extrabold";
+  src: url('../fonts/raleway-extrabold.eot');
+  src: url("../fonts/raleway-extrabold.svg");
+  src: url("../fonts/raleway-extrabold.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Heavy";
+  src: url('../fonts/raleway-heavy.eot');
+  src: url("../fonts/raleway-heavy.svg");
+  src: url("../fonts/raleway-heavy.ttf");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway Black";
+  src: url('../fonts/raleway-black-webfont.woff2');
+  font-weight: 900;
+  font-style: normal;
+}

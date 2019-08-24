@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Antler - Hosting Provider & WHMCS Template</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/jquery.tocify.css" rel="stylesheet">
+    <link href="assets/img/favicon.ico" rel="shortcut icon">
+    <link href="assets/css/prettify.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header col-md-3">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/logo.svg" alt="logo" width="120" height="40">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav pull-right">
+                    <li class="active"><a href="index.html">Overview</a></li>
+                    <li><a href="structure.html">Structure</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="policy.html">Support Policy</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                <div class="b-solid" id="toc">
+                    
+                </div>
+            </div>
+            <div class="col-sm-9 col-md-9 col-lg-9">
+                <div class="content b-solid m-0">
+                    <h6 class="byinebur">Hybrid Design With ♥ by <a href="http://inebur.com" target="_blank">inebur</a></h6>
+                    <h1>Welcome</h1>
+                    <div>Thank you for purchasing Antler - Hosting Provider & WHMCS Template. <br> If you have any questions that are not present this help document, please feel free to contact support <a class="link" href="http://themeforest.net/user/neburdesign" target="_blank">here.</a><br> Thank you!</div><hr>
+                    <h5>Antler Template:</h5>
+                    <div>Antler are a professional and modern template. 
+                    It uses the latest technology HTML5 and CSS3 based on the <a class="link" href="https://getbootstrap.com/" target="_blank">Bootstrap Framework.</a> Comes with 30+ powerful page templates, and 30+ custom short-code elements with special reference to the professional Filter of Dedicated Servers and Domains - Switch prices dynamically - And customize servers according to your needs.</div><br>
+                    <h5>Antler Highlights:</h5>
+                    <div>- Load and customize a single header and footer page included in several html pages.</a></div><br>
+                    <div>- Antler comes with language translation. I18next is a Internationalisation framework written in and for JavaScript. ​Learn more about I18next <a class="link" href="https://www.i18next.com/" target="_blank">here</a> or check below how to configure.</div><br>
+                    <div>- Order Form WHMCS available and integrated with Antler Demo Template. <a class="link" href="https://docs.whmcs.com/Order_Form_Templates" target="_blank">Order Form</a> Templates define the look and feel of the shopping cart process. Please, check below how to configure.</div><br>
+                    <div>- 45+ Illustration and Patterns in SVG or AI editable format. You are free to use and edit all illustration SVG images on any project. Or if you prefer, we can customize for you.</div><br>
+                    <div>- Choice your delicious color in real time. Purple, Blue and Green or simply create a specific color that fits your core business model easily and intuitively. Please, check <b>Resouces Tab</b> how to configure.</div><br>
+                    <div>Antler Template include the <a class="link" href="https://www.whmcs.com/" target="_blank">Latest WHMCS </a> and Order Form Template. Designed for all web hosting, business, multi purpose, domain sale websites, online business, personal blogs and similar sites. <br>Now, customise your template and run your project.</div>
+                    <hr>
+                    <p>
+                    Hybrid Designer: <a href="http://themeforest.net/user/neburdesign" target="_blank">Rúben Rodrigues</a><br>
+                    Contact Support: <a href="mailto:support@inebur.com">support@inebur.com</a><br>
+                    If you enjoy please: <a href="https://themeforest.net/downloads" target="_blank">Rate Antler</a><br>   
+                    </p>
+                </div>
+                
+                <div class="content b-solid">
+                    <h1>Installing Templates </h1>
+                    <h2>Antler Template</h2>
+                    <p><b>Step One -</b> Unzip the download pack. Inside you can find six folders. Check "template" folder and run index.html file in any browser. You can display or edit without an internet connection;</p>
+                    <p><b>Step Two -</b> Open your FTP Client (FileZilla for example), and upload the content of the template folder on your server root;</p>
+                    <p><b>Step Three -</b> Finally, and once the files are done uploading, go to www.yourdomain.com/</p><br>
+                    <p class="alert alert-info"><b>Please Note!</b> It is likely that some links do not work. You need to remove the .html extension through the .htaccess file. The <b>.htaccess</b> file is a hidden text file that allows you to control the way visitors access your site. Some common uses of the .htaccess file would be restricting access to certain files or redirecting URLs.<br><br>By default you should have a .htaccess file created on your account in the following directory: <b>/home/user/public_html/.htaccess </b> Put the next code inside .htaccess file:<br><br>
+                    RewriteEngine On<br>
+                    RewriteCond %{REQUEST_FILENAME} !-f<br>
+                    RewriteRule ^([^\.]+)$ $1.html [NC,L]</p><br>
+                    <h2>WHMCS Client Area</h2>
+                    <p><b>Step One -</b> Unzip the download pack, inside, you can find six folders. Check "whmcs template" folder;</p>
+                    <p><b>Step Two -</b> Now, and assuming that your WHMCS platform was been yet installed, open your FTP Client (FileZilla for example), and upload the <b>'antler'</b> folder to inside <b>Templates</b> folder.<br> Path: whmcs -> templates;</p>
+                    <p><b>Step Three -</b> Finally, go to WHMCS admin panel. Click on Setup -> General Settings. Set "template" to "Antler" for example. That's it.</p><br>
+                    <p class="alert alert-info"><b>Please Note!</b> If you find some error installing the template like "Missing style.css" or something similar, please, make sure you are uploading the correct folder. It is important to have into account that the file you must to install is the <b>'Antler'</b> folder inside <b>'whmcs-template'</b> folder the whole package you download from ThemeForest. <br><br>If you see an <b>"Oops"</b> error page like this indicates an error occurred during the generation of the page. The error can be anything, from a simple notice or warning to a fatal error that halts execution. It's the PHP error reporting level on your server that determines which types of errors will trigger it.
+                    <br><br>Some suggestions to fix the issue:<br>
+                    <span class="badge bg-pink">1</span> Missing or corrupted files / incomplete uploads;<br>
+                    <span class="badge bg-pink">2</span> Server not meeting minimum system requirements;<br>
+                    <span class="badge bg-pink">3</span> PHP, Apache or Ioncube related errors;<br>
+                    <span class="badge bg-pink">4</span> Incompatible hooks or addons;<br>
+                    <span class="badge bg-pink">5</span> Syntax errors in custom modules, hooks or templates.<br>
+                    <span class="badge bg-pink">6</span> If the above suggestions do not solve please contact your hosting provider.</p><br>
+                    <h2>Antler Order Form</h2>
+                    <p><b>Step One -</b> Unzip the download pack, inside, you can find five folders. Check "order-form" folder;</p>
+                    <p><b>Step Two -</b> Now, and assuming that your WHMCS platform was been yet installed, open your FTP Client (FileZilla for example), and upload the <b>'antler'</b> folder to inside <b>orderforms</b> folder.<br> Path: whmcs -> templates -> orderforms;</p>
+                    <p><b>Step Three -</b> Finally, go to WHMCS admin panel. Click on Setup -> General Settings -> Tab Ordering and set "Standard Cart" to "Antler" for example. That's it.</p><br>
+                    <p class="alert alert-info"><b>Please Note!</b> Next, you need to create and customize the plans. Go to Products and Services and create a new VPS Group for example. Path: Setup -> Products/Services and click Products/Services<br><br>After been product edit (details, pricing, etc..) you need customize product description. Go to Product Description in tab Details and replace code for:<br> 
+
+<pre class="prettyprint linenums">
+&lt;img class="svg" src="/whmcs/templates/orderforms/antler/fonts/svg/vps.svg"&gt;
+&lt;div class="list-info"&gt;
+    &lt;i class="icon-cpu"&gt;&lt;/i&gt; 
+    &lt;span class="spec"&gt;CPU&lt;/span&gt;&lt;br&gt; 
+    &lt;span&gt;2 Cores&lt;/span&gt;
+&lt;/div&gt;
+</pre>
+                
+                <br>
+                <h2>WHMCS Email</h2>
+                <p>Install and customize your Antler WHMCS Email Template. You can use the Antler Email Template your own email templates to serve as custom in all email you send manually via WHMCS.<br><br>To do that, do you just need config the <b>header</b>, <b>footer</b> and <b>global CSS style</b> in your WHMCS Admin Panel.<br>Please, follow the below steps:</p>
+                <p><b>Step One -</b> Go to your WHMCS Admin Panel in the following directory: Setup -> General Settings -> Email tab;</p>
+                <p><b>Step Two -</b> Unzip the download Antler pack, and open the "email" folder. Inside email folder, you can find three files (header.html, footer.html and global.css) and one folder (img);</p>
+                <p><b>Step Three -</b> Open the global.css file and copy all code. After, replace code inside "Global Email CSS Styling" field. Do the same process for the other elements;</p>
+                <p><b>Step Four -</b> Finally, login to your FTP account, and upload <b>"img" folder</b> to your server.<br> You should have particularly attention in the images directory, to upload the correctly files. In my case, I created "img" folder, inside the email folder at http://inebur.com/antler/email/img</p><br>
+                <p class="alert alert-info"><b>Please Note!</b><br> "Global Email CSS Styling" field should include the contents of the <b>global.css</b> file.<br>"Client Email Header Content" field should include the contents of the <b>header.html</b> file.<br>"Client Email Footer Content" field should include the contents of the <b>footer.html</b> file.<br><br>After copying the code, click on <b>"Save Changes"</b> and enjoy your newly configured email template.<br>
+                <p class="alert alert-warning"><b>Please Note!</b><br> The email templates allow you to customise the messages that go out to your customers when actions occur inside WHMCS. To customise an email template, go to Setup -> Email Templates and click the edit icon next to the template you want to change.<br>
+                </div>
+
+                <div class="content b-solid">
+                    <h1 class="m-0">Language Translation</h1>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 mt-30">
+                            <p>Antler comes with language translation. I18next is a Internationalisation framework written in and for JavaScript. If you would like to translate your html pages or add new language, see below how to do.<br><br>
+                            <h5>How Edit Translations Files?</h5>
+                            <p>All translations are stored inside simple <b>JSON files</b>, which can be edited even using simple Notepad. You can find this files in the following directory: template -> locales. Inside en-US folder, you can find <b>translations.json</b> file. This is the English translation file. Here is a small example of how JSON looks:</p>
+
+<pre class="prettyprint linenums">
+"header": {
+    "home": "Home",
+    "services": "Hosting",
+    "pages": "Pages",
+    "features": "Features",
+    "support": "Support",
+    "login": "Client Area"
+},
+</pre><br>
+
+                            <p>Basically, you only need to provide a locale’s name and then put translations inside. It is a common practice to prefix the keys with the name (home, services.. in this example). Keys are usually written in lowercase, with individual words separated by hyphens.</p>
+                            <p>Then add some HTML tag on the page with the data-i18n attribute. This attribute should have the value equal to the translation key you want to employ:<p>
+
+<pre class="prettyprint linenums">
+&lt;a class="h-stroke" href="index" data-i18n="[html]header.home"&gt; &lt;/a&gt;
+</pre><br>
+
+                            <p>This is it! The library will automatically search for all data-i18n attributes and replace the tag’s contents with the corresponding value. If you are not completely clear, please check all the documentation on the official i18next website at <a class="link" href="https://www.i18next.com/" target="_blank">https://www.i18next.com/</a></p>
+
+                            <p class="alert alert-info"><b>Please Note!</b> To add a new language translation, do you just need create a new folder for example de-DE and add translation.json file. You can find and change the translation buttons, inside <b>header.html</b> file. The translation by default is English Language, but you can change this inside <b>scripts.js</b> file from 115 to 125 line.<br> As an example, only the header was been translated. Please, <a class="link" href="http://inebur.com/antler/template" target="_blank">check now.</a></p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content b-solid">
+                    <h1 class="m-0">Resources</h1>
+                        <h2>Change Color</h2>
+                        <p>Choice your delicious color in real time. Purple, Blue and Green or simply create a specific color that fits your core business model easily and intuitively. Follow the steps below.</p><br>
+                        <p><b>Step One -</b> Follow to header.html file and search for "data-rel="pink". You can find at the end of file. <br>Now, replace the data-rel="pink" and "class="pink" to "class="red" and data-rel="red" for example. <br>As the below example;</p>
+<pre class="prettyprint linenums">
+&lt;li class="red"&gt;&lt;a href="#" data-rel="red" class="styleswitch">&lt;/a&gt;&lt;/li&gt;
+</pre><br>
+
+                        <p><b>Step Two -</b> Now, go to the pink.css file (path: template -> css -> colors). Change the file name to red.css. Open the CSS file and replace "#ee5586" pink hexa color to "#f62a2a" red color in all class;</p><br>
+
+                        <p><b>Step Three -</b> Finally, change the link tag in all HTML files to:</p>
+
+<pre class="prettyprint linenums">
+&lt;link href="css/colors/red.css" rel="stylesheet" title="red"/&gt;
+</pre><br>
+
+                        <h2>Load Header & Footer</h2>
+                        <p>If we say that we Antler Template only loads two common files (header.html and footer.html), across multiple HTML pages? Yes it's true! This allows you to save time on your customization and code multiplication, making your website with hight performance.</p>
+
+                        <h4>HTMl Code - Put header and footer #id tags, inside ".index.html" for example</h4>
+<pre class="prettyprint linenums">
+&lt;header id="header"&gt; &lt;/header&gt;
+&lt;footer id="footer"&gt; &lt;/footer&gt;
+</pre><br>
+
+                        <h4>Javascript Code - You can find inside scipts.js file</h4>
+<pre class="prettyprint linenums">
+function headerfooter(){
+    $("#header").load("header.html", function(res, status, xhr){
+        $('#drop-lng [data-lng="' + localStorage.getItem('lng') + '"]').addClass('xpto active');
+        $('#drop-lng label').click(function(e){
+            e.preventDefault();
+            localStorage.setItem('lng', $(this).attr('data-lng'));
+            location.reload(true);
+        });
+    });
+    $("#footer").load("footer.html", function(res, status, xhr){
+        $('#drop-lng [data-lng="' + localStorage.getItem('lng') + '"]').addClass('xpto active');
+        $('#drop-lng label').click(function(e){
+            e.preventDefault();
+            localStorage.setItem('lng', $(this).attr('data-lng'));
+            location.reload(true);
+        });
+    });
+}
+</pre><br>
+
+                       
+
+                </div>
+
+                <div class="content b-solid">
+                    <h1 class="m-0">Template Features</h1>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 mt-30">
+                            <p><span class="badge bg-pink">Hot</span> Latest Bootstrap Framework Ready</p>
+                            <p><span class="badge bg-pink">Hot</span> Latest WHMCS Ready</p>
+                            <p><span class="badge bg-pink">Hot</span> WHMCS Template Included</p>
+                            <p><span class="badge bg-pink">Hot</span> Custom Order Form Template Available</p>
+                            <p><span class="badge bg-pink">Hot</span> 30+ Powerful Page Templates</p>
+                            <p><span class="badge bg-pink">Hot</span> 30+ Custom Shortcode Elements</p>
+                            <p><span class="badge">Top</span> Login and Domain Checker Integration</p>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 mt-30">
+                            <p><span class="badge bg-pink">Pro</span> I18next language translation available</p>
+                            <p><span class="badge bg-pink">Pro</span> Filter of Dedicated Servers and Domains</p>
+                            <p><span class="badge bg-pink">Hot</span> Switch prices dynamically</p>
+                            <p><span class="badge bg-pink">Hot</span> Custom VPS Servers with interactive slider</p>
+                            <p><span class="badge">Top</span> Login, Register and Countdown full screen</p>
+                            <p><span class="badge">Top</span> Scalable vector graphics animation</p>
+                            <p><span class="badge bg-pink">Hot</span> 45+ Illustration and Patterns in SVG & AI</p>
+                        </div>
+                        
+                        <div class="col-sm-12 col-md-6 mt-30">
+                            <p><span class="badge bg-pink">Free</span> Cloudicon - 300 Simple Line icons (Save $16)</p>
+                            <p>- W3C validated HTML & CSS code</p>
+                            <p>- Video modal and banner full screen</p>
+                            <p>- Font Awesome Icons (Easy to use)</p>
+                            <p>- Full Width Responsive Pricing Tables</p> 
+                            <p>- Responsive Layout Design</p> 
+                            <p>- Retina Display Ready)</p>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 mt-30">
+                            <p><span class="badge bg-pink">Hot</span> Choice your delicious color in real time</p>
+                            <p>- Clean and Simple Design</p>
+                            <p>- Google Fonts Supported</p>
+                            <p>- Modern Browsers Compatible</p> 
+                            <p>- Custom Blog Page</p> 
+                            <p>- Free Live Chat</p> 
+                            <p>- Detailed Documentation</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content b-solid">
+                    <h1 class="m-0">Sources and Credits</h1>
+
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 mt-30">
+                            <h4>Sources Fonts</h4>
+                            <p><a class="link" href="https://www.google.com/fonts/specimen/Open+Sans" target="_blank">Open Sans</a> from google webfont;</p>
+                            <p><a class="link" href="https://fontawesome.com/" target="_blank">Font Awesome v5.6.3</a> vector icons and social logos</p>
+                            <p><a class="link" href="https://graphicriver.net/item/cloudicon-300-simple-line-icons/21186263?s_rank=1" target="_blank">Cloudicon</a> 300 simple line icons (Save $16)</p>
+                        </div>
+
+                        <div class="col-sm-12 col-md-12 mt-30">
+                            <h4>Included Libraries</h4>
+                            <p>Bootstrap by <a class="link" href="https://getbootstrap.com/" target="_blank">Twitter</a></p>
+                            <p>Mixitup by <a class="link" href="https://www.kunkalabs.com/mixitup/" target="_blank">KunkaLabs</a></p>
+                                <p>Isotope plugin by <a class="link" href="http://isotope.metafizzy.co/" target="_blank">Metafizzy</a></p>
+                            <p>Magnific-Popup plugin by <a class="link" href="https://github.com/dimsemenov/Magnific-Popup" target="_blank">Dimsemenov</a></p>
+                            <p>Circliful plugin by <a class="link" href="https://github.com/pguso/jquery-plugin-circliful" target="_blank">Pguso</a></p>
+                            <p>CountDown plugin by <a class="link" href="https://github.com/hilios/jQuery.countdown" target="_blank">Hilios</a></p>
+                            <p>Swipper plugin by <a class="link" href="http://idangero.us/swiper/#.V5QBFJOAOko" target="_blank">iDangero</a></p>
+                            <p>OWL Carousel by <a class="link" href="https://owlcarousel2.github.io/OwlCarousel2/" target="_blank">David Deutsch</a></p>
+                            <p>Modernizr by <a class="link" href="https://modernizr.com/" target="_blank">Developers</a></p>
+                        </div>
+                        
+                        <div class="col-sm-12 col-md-12 mt-30">
+                            <h4>Used Photos in Demo</h4>
+                            <p>Images used from <a class="link" href="https://pixabay.com" target="_blank">Pixabay</a></p>
+                            <p>Images used from <a class="link" href="https://www.pexels.com" target="_blank">Pexels</a></p>
+                            <p>Images used from <a class="link" href="https://unsplash.com" target="_blank">Unsplash</a></p>
+                            <p>Images used from <a class="link" href="http://www.freepik.com" target="_blank">Freepik</a></p>
+                            <p>All images are just used for preview purposes only and not included in the final purchase files.</p>
+                        </div>  
+                    </div>
+                </div>
+
+                <div class="content b-solid">
+                    <h1 class="m-0">Mandatory Styles</h1>
+
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 mt-30">
+                            <h4>Stylesheets (CSS)</h4>
+                            <p>Here's a list of the mandatory Stylesheet files. You can find more information opening each file:</p>
+                            <p><b>bootstrap.min.css</b> - Basic bootstrap stylesheet file 
+                                <a class="link" href="https://getbootstrap.com/" target="_blank">Page</a>
+                            </p>
+                            <p><b>style.css</b> - Important stylesheet file for this template </p>
+                            <p><b>owl.carousel.css</b> - Stylesheet file for the full slider 
+                                <a class="link" href="https://owlcarousel2.github.io/OwlCarousel2/" target="_blank">Page</a>
+                            </p>
+                            <p><b>cloudicon.css</b> - Stylesheet file for the icon fonts 
+                                <a class="link" href="https://graphicriver.net/item/cloudicon-300-simple-line-icons/21186263" target="_blank">Page</a>
+                            </p>
+                            <p><b>opensans.css</b> - Stylesheet file for the Open Sans fonts 
+                                <a class="link" href="https://fonts.google.com/specimen/Open+Sans" target="_blank">Page</a>
+                            </p>
+                        </div>
+
+                        <div class="col-sm-12 col-md-12 mt-30">
+                            <h4>JavaScript (JS)</h4>
+                            <p>Here's a list of the mandatory JavaScript files. You can find more information opening each file:</p>
+                            <p><b>bootstrap.min.js</b> - Basic bootstrap javascript file 
+                                <a class="link" href="https://getbootstrap.com/" target="_blank">Page</a>
+                            </p>
+                            <p><b>scripts.js</b> - Important JavaScript file for this template </p>
+                            <p><b>owl.carousel.min.js</b> - JavaScript file for the full slider 
+                                <a class="link" href="https://owlcarousel2.github.io/OwlCarousel2/" target="_blank">Page</a>
+                            </p>
+                            <p><b>slick.min.js</b> - JavaScript file for all carousel on this template
+                                <a class="link" href="http://kenwheeler.github.io/slick/" target="_blank">Page</a>
+                            </p>
+                        </div> 
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/jquery.tocify.min.js"></script>
+    <script src="assets/js/prettify.js"></script>
+    <script>
+    $(function() {
+      var toc = $("#toc").tocify({
+      selectors: "h1, h2"
+      }).data("toc-tocify");
+      prettyPrint();
+    });
+    </script>
+</body>
+</html>

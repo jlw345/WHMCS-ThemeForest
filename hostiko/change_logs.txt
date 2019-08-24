@@ -1,0 +1,208 @@
+19-June-2019
+NEw pages released of Layout 30 Version 30.0.1
+03-June-2019
+Layout 30 Released Version 30.0.0
+10-May-2019
+Fixes Layout 28 27 26 25 24  Version 29.0.3
+8-May-2019
+Fixes Layout 29
+6-May-2019
+WHMCS Menu Fixes
+23-April-2019
+Fixes WHMCS Menu 29.0.3
+20-April-2019
+Fixes Testimonails  Version 29.0.2
+16-April-2019
+Layout 29 added Version 29.0.1
+11-April-2019
+Layout 29 added Version 29.0.0
+09-April-2019
+WHMCS Material Updated
+04-April-2019
+Layout 28 added Version 28.0.0
+22-FEB-2019
+Update WHMCS Theme to version 7.7.1
+15-FEB-2019
+Update layout all layout header and WHMCS Theme released Version 27.0.18
+
+30-jan-2019
+Update layout 21 22 23 24 25 26 27 Version 27.0.17
+
+17-jan-2019
+Update in Core with new plugins
+
+03-jan-2019
+New headers for layout 10 11 12 13 14 15 16 17 18 Version 27.0.15
+
+21-dec-2018
+New headers for layout 23 22 21 20 19 Version 27.0.14
+
+21-dec-2018
+New headers for layout 27 26 25 24 Version 27.0.13
+
+1-dec-2018
+added layout 27 Version 27.0.0
+
+23-NOV-2018
+added layout 26 Version 26.0.0
+
+20-NOV-2018
+added layout 25 Version 25.0.1
+
+12-NOV-2018
+added layout 25 Version 25.0.0
+
+
+07-NOV-2018
+fixes CSS layout 24,23,22 Version 24.0.03
+
+05-NOV-2018
+fixes CSS layout 23 Version 24.0.01
+
+31-OCT-2018
+added layout 24 Version 24.0.0
+
+23-OCT-2018
+fixes css in layout 22 Version 23.0.1
+
+16-OCT-2018
+added layout 23 Version 23.0.0
+
+11-OCT-2018
+updated CSS
+
+05-OCT-2018
+added layout 22 Version 22.0.0
+
+14-SEP-2018
+Fixed font awesome  icon issue Version 21.0.0
+
+3-SEP-2018
+added layout 21 Version 21.0.0
+
+20-Aug-2018
+added layout 20 Version 20.0.0
+
+16-Aug-2018
+added layout 19 Version 19.0.0
+
+08-Aug-2018
+added layout 18 Version 18.0.0
+
+03-Aug-2018
+added layout 17 Version 17.0.0
+
+19-july-2018
+update layout 16 Version 16.2.0
+
+19-july-2018
+Layout 16 added Version 16.0.0
+
+19-july-2018
+Layout 15 added Version 15.0.0
+
+16-july-2018
+WHMCS for All layouts
+
+5-july-2018
+WHMCS for Layout 14
+
+26-june-2018
+assets update
+
+21-June-2018
+Layout 13 CSS fixed
+
+14-June-2018
+Layout 13 added
+
+07-June-2018
+Layout 12 added
+
+22-May-2018
+Updated theme options
+
+11-May-2018
+Domain search added
+
+10-May-2018
+LAyout 10 and 11 added
+
+19-April-2018
+Layout 01 CSS changes
+
+19-April-2018
+CSS changes
+
+16-April-2018
+Updated to WHMCS 7.5
+
+12-April-2018
+Blog Css updated
+
+03-April-2018
+Mega Menu Updated
+
+26-March-2018
+WHMCS layout Added
+
+26-March-2018
+New Layout Added
+
+23-March-2018
+Theme Option Updated
+
+22-March-2018
+Mega Menu for Layout 09
+
+15-March-2018
+WHMCS Version update
+
+14-March-2018
+WHMCS for new layout added
+
+09-March-2018
+New Layout Added (Version: 2.0.18)
+Theme option fixes
+
+05-March-2018
+WHMCS Fixes
+
+02-March-2018
+Footer layout 01 css fixed
+
+28-FEB-2018
+-RTL Version updated
+
+27-FEB-2018
+-Child-Theme updated
+-.po (translation file) updated
+26-FEB-2018
+- Document updated
+- RTL Theme files updated
+
+20-FEB-2018
+-Related Post Feature Added 
+
+12-FEB-2018
+- Slider Revolution added for Layout 03
+- Back to Top Feature added in Theme Option
+10-FEB-2018
+- Slider Revolution added for Layout 02
+09-FEB-2018
+- Fixes CSS Bugs
+- Back To Top Issue
+- Theme Option update
+        
+08-FEB-2018
+- Slider Revolution added for Layout 01
+29-Jan-2018
+- WHMCS Files Update
+27-Jan-2018
+-  2 Unique layout added
+- Child Theme added
+- Theme Option improved
+- CSS Improved
+23-Jan-2018
+- WHMCS Fixes;
+- Documentation is updated.

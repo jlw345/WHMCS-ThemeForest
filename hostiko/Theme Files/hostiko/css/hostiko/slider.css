@@ -1,0 +1,300 @@
+/************************Slider**********************/
+.ui-slider {
+    position: relative;
+    text-align: left;
+}
+.ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 1.2em;
+    height: 1.2em;
+    cursor: default;
+}
+.ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    font-size: .7em;
+    display: block;
+    border: 0;
+    background-position: 0 0;
+}
+.ui-slider-horizontal {
+    height: .8em;
+}
+.ui-slider-horizontal .ui-slider-handle {
+    top: -.3em;
+    margin-left: -.6em;
+}
+.ui-slider-horizontal .ui-slider-range {
+    top: 0;
+    height: 100%;
+}
+.ui-slider-horizontal .ui-slider-range-min {
+    left: 0;
+}
+.ui-slider-horizontal .ui-slider-range-max {
+    right: 0;
+}
+.ui-slider-vertical {
+    width: .8em;
+    height: 100px;
+}
+.ui-slider-vertical .ui-slider-handle {
+    left: -.3em;
+    margin-left: 0;
+    margin-bottom: -.6em;
+}
+.ui-slider-vertical .ui-slider-range {
+    left: 0;
+    width: 100%;
+}
+.ui-slider-vertical .ui-slider-range-min {
+    bottom: 0;
+}
+.ui-slider-vertical .ui-slider-range-max {
+    top: 0;
+}
+.horizontal_slider .slider-container {
+    display: inline-block;
+    width: 88%;
+    position: relative;
+    margin:0;
+    padding: 45px 0 0;
+    background: #f2f2f2;
+    box-shadow: 0 0 0 2px #e5e5e5 inset, 5px 0 0 0 #f2f2f2;
+}
+.horizontal_slider .slider_box {
+    text-align: center;
+    width: 100%;
+    padding: 0 60px 102px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.horizontal_slider .slider-container #slider, .horizontal_slider .slider-container1 #slider2{
+    width: 100%;
+    height: 2px;
+    display: inline-block;
+    *display:inline;
+    vertical-align: top;
+    background: #dfdfdf;
+}
+.horizontal_slider .slider-container #slider .ui-slider-range, .horizontal_slider .slider-container1 #slider2 .ui-slider-range{
+    background: #006e2e;
+}
+.slider-container #slider .ui-slider-handle,.slider-container1 #slider2 .ui-slider-handle{
+}
+.slider-container #slider .ui-slider-handle:hover,.slider-container1 #slider2 .ui-slider-handle:hover {
+    cursor: pointer;
+}
+.horizontal_slider .price-greybox{
+    background-color: #323232;
+    padding: 18px 25px 20px;
+    margin: 0;
+    width: 30%;
+    text-align: center;
+    float: left;
+    border-radius: 4px;
+    box-shadow: 5px 5px 0 0 #282828 inset;
+}
+.horizontal_slider .price_wrap{
+    width: 100%;
+    display: inline-block;
+}
+.horizontal_slider  .price_rangetxt {
+    display: inline-block;
+    *display:inline;
+    vertical-align: top;
+    width: 100%;
+    padding-bottom: 28px;
+}
+.horizontal_slider  .price_rangetxt div.icon {
+    color: #777;
+    font-size: 24px;
+    line-height: 24px;
+    cursor: pointer;
+    margin: 0;
+    display: inline-block;
+    width: 19.5%;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    vertical-align: top;
+    position: relative;
+}
+.horizontal_slider .price_rangetxt div.icon:after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 2px solid #fff;
+    margin: 0 auto;
+    border-radius: 100%;
+    background: #ccc;
+    bottom: -39px;
+    z-index: 5;
+}
+.horizontal_slider .price_rangetxt div.icon:last-child {
+    margin: 0;
+}
+.horizontal_slider .price_rangetxt div.current {
+    color: #006e2e;
+}
+.horizontal_slider .price_rangetxt div.current:after {
+    border-color: #006e2e;
+    background: #fff;
+}
+.horizontal_slider .price-slider-rt {
+    width: 100%;
+    padding: 0 60px 45px;
+    background: #fff;
+    float: left;
+    border: 2px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+}
+.horizontal_slider .priceslider_content {
+    float: left;
+    width:100%;
+    margin-top: -67px;
+}
+.horizontal_slider .priceslider_content .smalbox1 {
+    float: left;
+    color: #fff;
+    width: 16%;
+    margin: 0 1.5% 0 0;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 30px 0 28px;
+    background-color: #006e2e;
+    font-weight: 300;
+    border-radius: 4px;
+    box-shadow: 5px 5px 0 0 #005825 inset;
+}
+.horizontal_slider .priceslider_content .smalbox1 span.numeric1 {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 600;
+    margin: 3px 0 0;
+    display: block;
+}
+.horizontal_slider .priceslider_content .smalbox1 figure {
+    margin: 0 auto 15px;
+    height: 43px;
+    display: table;
+}
+.horizontal_slider .priceslider_content .smalbox1 figure span {
+    display: table-cell;
+    vertical-align: middle;
+}
+.horizontal_slider .priceslider_content .smalbox1:last-child{
+    margin-right: 0;
+}
+.horizontal_slider .price_txt {
+    float: left;
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+}
+.horizontal_slider .price_txt .dollar ,.horizontal_slider .price_txt #price_val, .horizontal_slider .price_txt #price2_val{
+    font-size: 52px;
+    line-height: 52px;
+}
+.horizontal_slider .price-button {
+    float: left;
+    width: 100%;
+    margin: 19px 0 0;
+}
+.horizontal_slider .price-button a{
+    display: block;
+    font-size: 14px;
+    line-height: 45px;
+    padding:0;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    box-shadow: 0 0 0  2px #fff inset;
+    transition: all ease-in-out 0.6s;
+}
+.horizontal_slider .price-button a:hover{
+    background-color: #fff;
+    color: #282828;
+}
+@media screen and (max-width: 1199px){
+    .horizontal_slider .slider-container {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 991px){
+    .horizontal_slider .slider_box{
+        padding: 0 30px 70px;
+    }
+    .horizontal_slider .price-slider-rt{
+        padding: 0 30px 45px;
+    }
+    .horizontal_slider .price_txt .dollar, .horizontal_slider .price_txt #price_val, .horizontal_slider .price_txt #price2_val{
+        font-size: 34px;
+        line-height: 34px;
+    }
+    .horizontal_slider .priceslider_content .smalbox1{
+        padding: 22px 0 19px;
+    }
+    .horizontal_slider .price_rangetxt div.icon{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .horizontal_slider .price_txt{
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width: 767px){
+    .horizontal_slider .priceslider_content .smalbox1{
+        width: 23.8%;
+    }
+    .horizontal_slider .priceslider_content .smalbox1:nth-child(4){
+        margin-right: 0;
+    }
+    .horizontal_slider .price-greybox{
+        width: 100%;
+        margin: 20px 0 0 ;
+    }
+    .horizontal_slider .price_rangetxt div.icon:after{
+        display: none;
+    }
+    .horizontal_slider .price_rangetxt{
+        display: none;
+    }
+    .horizontal_slider .slider-container #slider .ui-slider-handle,.horizontal_slider .slider-container1 #slider2 .ui-slider-handle{
+        width: 20px;
+        height: 20px;
+        border: 2px solid #006e2e;
+        margin: 0 auto;
+        border-radius: 100%;
+        background: #fff;
+        z-index: 5;
+        top: -9px;
+    }
+}
+@media screen and (max-width: 560px){
+    .horizontal_slider .priceslider_content .smalbox1{
+        width: 49%;
+        margin: 0 0 5px;
+    }
+    .horizontal_slider .priceslider_content .smalbox1:nth-child(even) {
+        float: right;
+    }
+    .horizontal_slider .price-slider-rt{
+        padding: 0 15px 20px;
+    }
+    .horizontal_slider .price-greybox{
+        margin: 10px 0 0;
+    }
+}
+/*************************************************/

@@ -1,0 +1,225 @@
+.admin-color-fresh #redux-header, .wp-customizer #redux-header{
+    background: #050505;
+    border: none;
+    padding: 20px 20px;
+}
+.redux-container #redux-header .display_header{
+    margin: 0;
+}
+.redux-container #info_bar{
+    background: #222;
+    border: none;
+    box-shadow: none;
+    height: 35px;
+    padding: 6px 10px;
+}
+.redux-container #redux-header .display_header h2 {
+    display: inline-block;
+    font-style: normal;
+    padding-right: 5px;
+    margin: 0;
+    font-size: 26px;
+    line-height: 26px;
+}
+form#redux-form-wrapper{
+    background: #222;
+}
+.redux-sidebar .redux-group-menu li a{
+    color: #fff;
+    opacity: 1;
+    padding: 14px 4px 14px 14px;
+    border-bottom: 1px solid #333;
+}
+.redux-container .redux-sidebar, .redux-container .redux-main{
+    border: none;
+}
+.redux-main #redux-sticky #info_bar{
+    height: 35px;
+}
+#redux-defaults{
+    background: #e5504a;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+}
+.redux-container .redux-action_bar{
+    margin: 0px 0 0;
+}
+.redux-main input{
+    line-height: 40px;
+    padding: 0 15px;
+    height: 40px;
+}
+.redux-container .notice-yellow{
+    padding: 15px 35px 14px 14px !important;
+    background: #d9edf6;
+}
+.admin-notice .notice-green{
+    padding: 15px 35px 14px 14px !important;
+}
+.redux-sidebar .redux-group-menu li a:hover{
+    background: #333;
+    color: #fff;
+}
+.redux-sidebar .redux-group-menu li.active a, .redux-sidebar .redux-group-menu li.active a:hover, .redux-sidebar .redux-group-menu li.activeChild a, .redux-sidebar .redux-group-menu li.activeChild a:hover{
+    background: #333;
+    color: #fff !important;
+}
+.wp-core-ui .button-primary, .redux-main .button, #redux-defaults{
+    line-height:30px;
+    padding: 0 20px;
+    height: 30px;
+    border: none;
+    box-shadow: none;
+}
+.redux-main .upload_button_div .media_upload_button{
+    background: #0085ba;
+    color: #fff;
+}
+.redux-main .upload_button_div:hover .media_upload_button:hover{
+    opacity: 0.9;
+}
+.redux-main .button.remove-image, .redux-main .removeCSS{
+    background: #ef521d;
+    color: #fff;
+}
+.redux-main .button.remove-image:hover, .redux-main .removeCSS:hover{
+    color: #fff !important;
+    opacity: 0.9;
+}
+.select2-container .select2-choice abbr{
+    top: 11px;
+}
+.select2-container .select2-choice{
+    height: 34px;
+    line-height: 34px;
+    border-radius: 0;
+    padding: 0 15px;
+}
+.select2-container .select2-choice .select2-arrow b{
+    background-position: 0 5px !important;
+}
+.redux-container #redux-footer{
+    background: #222 !important;
+}
+.redux-container #redux-footer .redux-container .redux-action_bar{
+    margin:0;
+}
+.redux-footer .redux-main .button{
+    margin-right: 2px !important;
+    margin-left: 2px !important;
+}
+#opt_theme_options-opt-spacing .select2-container .select2-choice, #opt_theme_options-opt_dimensions4 .select2-container .select2-choice{
+    padding: 0 0 0 8px;
+    line-height: 26px;
+    height: 26px;
+}
+#opt_theme_options-opt-spacing input, #opt_theme_options-opt_dimensions4 input{
+    line-height: 37px;
+    padding: 0 5px !important;
+    height: 28px !important;
+}
+#opt_theme_options-opt-spacing .select2-container .select2-choice abbr, #opt_theme_options-opt_dimensions4 .select2-container .select2-choice abbr{
+    top: 8px;
+}
+#opt_theme_options-opt-spacing  .select2-container .select2-choice .select2-arrow b{
+    background-position: 0 1px !important;
+}
+.form-table  input.color-transparency{
+    line-height: 19px !important;
+    height: 19px !important;
+
+}
+.upload_button_div  #footer-background-media{
+    background: #0085ba !important;
+    color: #fff !important
+}
+#opt_theme_options-footer-background .wp-color-result-text, #opt_theme_options-subbanner-background .wp-color-result-text{
+    border-right: 1px solid;
+}
+#redux-form-wrapper #subbanner-background-color{
+    height: 24px;
+}
+#opt_theme_options-footer-background #footer-background-color{
+    height: 24px;
+}
+.redux-main #redux-footer-sticky #redux-defaults-section{
+    margin-right: 4px;
+    margin-left: 4px;
+}
+#opt_theme_options-redux_import_export .redux-field-container input{
+    line-height: 16px;
+    padding: 0px !important;
+    height: 16px !important;
+}
+#opt_theme_options-redux_import_export #ef3-demo-slug{
+    line-height: 40px !important;
+    padding: 0 15px !important;
+    height: 40px !important;
+}
+.ef3-export-demo #create-pakage{
+    line-height: 16px;
+    padding: 0px !important;
+    height: 16px !important;
+}
+.form-table td fieldset label{
+    margin: 0 !important;
+}
+.redux-notice-field{
+    box-shadow: 0px 0px 2px 4px #ebccd1 inset;
+    padding: 20px 30px;
+}
+.redux-notice-field.redux-critical {
+    border-left: 4px solid #a94442;
+    color: #a94442;
+    background-color: #f2dede;
+
+}
+#opt_theme_options-opt_dimensions4 .select2-container .select2-choice .select2-arrow b{
+    background-position: 0 1px !important;
+}
+#redux-form-wrapper .form-table td  .color-transparency-check{
+    margin: 0 0 10px !important;
+}
+.ef3-action .ef3-data-import input{
+    line-height: 16px;
+    padding: 0px !important;
+    height: 16px !important;
+}
+#opt_theme_options-subheadingText textarea{
+    padding: 12px 15px;
+}
+.redux-main select option:hover{
+    background-color: #0085ba !important;
+}
+.redux-main .wp-picker-container .wp-color-result{
+    border: 1px solid #000;
+    margin: 0 0 12px !important;
+}
+.wp-picker-container input[type=text].wp-color-picker{
+    height: auto;
+}
+.redux-main .mini, .redux-main input[type=text].mini{
+    padding: 0;
+    line-height: 36px;
+    height: 36px;
+}
+.upload_button_div .redux-background-upload{
+    background: #0085ba;
+    color: #fff;
+}
+.upload_button_div .redux-background-upload:hover{
+    opacity: 0.8;
+}
+.redux-main input.color-transparency{
+    margin-left: 0;
+}
+.redux-main .input-append .add-on, .redux-main .input-prepend .add-on{
+    padding: 7px 4px;
+}
+.dimensions-units .select2-choice{
+    padding: 0 0 0 5px;
+}
+input[type=radio], input[type=checkbox]{
+    height: 16px !important;
+}

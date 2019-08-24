@@ -1,0 +1,268 @@
+
+XXXXXXXXXXXXXXXXXX Changelog. XXXXXXXXXXXXXXXXXX 
+
+v3.9.5
+------------------------------
+07 Mar 2018
+
+UPDATE : Flathost WHMCS Template for v7.4.2
+
+https://github.com/WHMCS/templates-six/compare/v7.4.1-release.1...v7.4.2-release.1
+
+v3.9.4
+------------------------------
+12 Dec 2017
+
+UPDATE : Flathost WHMCS Template for v7.4.1
+
+https://github.com/WHMCS/templates-six/compare/v7.3.0-release.1...v7.4.1-release.1
+
+v3.9.3
+------------------------------
+20 Oct 2017
+
+UPDATE : Flathost WHMCS Template for v7.3.0
+
+https://github.com/WHMCS/templates-six/compare/v7.2.3-release.1...v7.3.0-release.1
+
+v3.9.2
+------------------------------
+15 Sep 2017
+
+UPDATE : Flathost WHMCS Template for v7.2.3
+
+https://github.com/WHMCS/templates-six/compare/v7.2.1-release.1...v7.2.3-release.1
+
+v3.9.1
+------------------------------
+19 May 2017
+
+UPDATE : Flathost WHMCS Template for v7.2.1
+
+See Changes here: https://github.com/WHMCS/templates-six/compare/v7.1.0-release.1...v7.2.1-release.1
+
+v3.9
+------------------------------
+17 Dec 2016
+
+UPDATE : Flathost WHMCS Template for v7.1.0
+
+See Changes here: https://github.com/WHMCS/templates-six/compare/v7.0.0-release.1...v7.1.0-release.1
+
+v3.8
+------------------------------
+20 oct 2016
+
+UPDATE : Flathost WHMCS Template for v7.0.0
+
+
+v3.7
+------------------------------
+09 Apr 2016
+
+UPDATE : Flathost WHMCS Template for v6.3.0
+
+
+v3.6
+------------------------------
+13 Dec 2015
+
+UPDATE : Flathost WHMCS Template for v6.2.0
+
+
+
+v3.5
+------------------------------
+10 Nov 2015
+
+UPDATE : Flathost WHMCS Template for v6.1.1
+
+
+v3.4
+------------------------------
+07 Oct 2015
+
+UPDATE : Flathost WHMCS Template for v6.1.0
+
+
+
+v3.3
+------------------------------
+28 Jul 2015
+
+Upgraded Flathost WHMCS Template for v6.0.1
+
+Affected files : 
+
+Order Forms
+
+templates/orderforms/flathost/configureproduct.tpl
+templates/orderforms/flathost/js/main.js
+templates/orderforms/flathost/viewcart.tpl
+
+Flathost Template
+
+templates/flathost/affiliates.tpl
+templates/flathost/clientareadomains.tpl
+templates/flathost/clientareaemails.tpl
+templates/flathost/clientareahome.tpl
+templates/flathost/clientareaproductdetails.tpl
+templates/flathost/clientareaproducts.tpl
+templates/flathost/clientareaquotes.tpl
+templates/flathost/clientareasecurity.tpl
+templates/flathost/clientregister.tpl
+templates/flathost/configuressl-stepone.tpl
+templates/flathost/header.tpl
+templates/flathost/includes/pwstrength.tpl
+templates/flathost/knowledgebasearticle.tpl
+templates/flathost/supportticketslist.tpl
+
+v3.2
+------------------------------
+20 Jul 2015
+
+[HOT] Flathost WHMCS Template for v6.0
+
+
+v3.1
+------------------------------
+02 Mar 2015
+
+Added No Captcha Recaptcha v2 Contact form
+Added Server Status Page 
+Added Custom 404 Page
+Added Font Awesome v 4.3.0
+Added Respond.js + html5shiv.js (IE)
+Updated Bootstrap to v3.3.2
+Updated Jquery to v1.11.2
+Updated Modernizrto v2.8.3
+Updated Flexslider to v2.3.0
+Fixed WHMCS Cart - Configure page
+Fixed WHMCS Table Alignment issue
+Fixed Validation Class names in contact_form.js
+
+v3.0
+------------------------------
+06 Feb 2015
+
+New - Responsive WHMCS Template
+New - Template with Video Background
+Other Improvements and Fixes
+
+v2.2
+------------------------------
+24 Sep 2014
+
+Fixed Button issues (was not able to click) in services page
+Fixed Auto renew button on domain page
+Hotfix for Password Strength (documented on readme.txt)
+Fixed currency selection tab in register
+
+
+
+v2.1
+--------------------------------
+04 Sep 2014
+
+Fixed Support Ticket Reply button issue
+Fixed WHMCS Menu bar
+Fixed Password strength in Signup forms
+
+
+v2.0
+--------------------------------
+25 Aug 2014
+
+Redesigned completely with Bootstrap 3.2.0
+Added WHMCS Template Matching with Flathost
+Optimized for WHMCS
+WHMCS INtegrated Embed Login Popup & Domain Search 
+
+
+
+v1.3
+--------------------------------
+Dec 11 2013
+
+WHMCS Header and Footer Integration
+Updated Documentation
+
+Added
+----------------
+
+WHMCS Folder
+
+
+
+
+
+v1.2
+--------------------------------
+Dec 04 2013
+
+Added Scroll to Top button for Onepage 
+Modified Hover Zoom in size
+Fixed Font Jagged issue in chrome
+Fixed Header slider Border issue
+Fixed One px shift of Nav dots
+Fixed Active color change of Primary button
+
+
+
+Added Files
+-----------------------------
+onepage/images/icon_top.png
+
+Modified Files
+-----------------------------
+onepage/css/flexslider.css
+onepage/css/hosting.css
+onepage/index.html
+
+Multipage/css/flexslider.css
+Multipage/css/hosting.css
+Multipage/index.html
+
+
+
+
+v1.1
+--------------------------------
+Jun 28 2013
+
+Added Working Contact form [Jquery/Ajax/PHP based]
+Changed Dropdown view to hover
+Fixed Login / Sign up - Responsive issue
+Fixed Signup bg issue when active
+
+
+
+Added Files
+------------------------------
+Contact.php 
+js/contact_form.js
+
+
+Modified Files
+-----------------------------
+
+Onepage/index.html
+Multipage/contact.html
+css/hosting.css
+
+
+
+
+
+v1.0
+--------------------------------
+Initial Release
+
+Jun 26 2013
+
+
+
+
+
+
+

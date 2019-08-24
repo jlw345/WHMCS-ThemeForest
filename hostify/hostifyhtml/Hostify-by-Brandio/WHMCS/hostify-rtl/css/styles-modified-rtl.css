@@ -1,0 +1,178 @@
+/*    By Brandio    */
+.pull-md-left.sidebar {
+    clear: right;
+}
+
+#primary-nav > ul.navbar-right > li:last-child a {
+    padding-right: 22px;
+    padding-left: 22p;
+}
+
+#primary-nav > ul > li:first-child > a {
+    padding-left: initial;
+    padding-right: 0;
+}
+
+.tiles .tile {
+    border-right: inherit;
+    border-left: 0;
+}
+
+.tiles .tile:last-child .tile-content {
+    margin-right: inherit;
+    margin-left: 0;
+}
+
+.tiles .tile .tile-content {
+    margin-right: inherit;
+    margin-left: 10px;
+}
+
+.tile .icon {
+    right: inherit;
+    left: 10px;
+}
+
+.support-button-holder .dropdown-menu {
+    right: inherit !important;
+    left: 0 !important;
+}
+
+.support-button-holder a.support-button {
+    margin-left: inherit !important;
+    margin-right: 0 !important;
+}
+
+ul.top-nav {
+    margin-top: 5px;
+    float: left;
+}
+
+ul.top-nav > li.primary-action {
+    border-left-width: 0;
+    border-right-width: 1px;
+}
+
+.navbar-main .navbar-nav .dropdown-menu {
+    -webkit-transform-origin: 77% 0%;
+    -moz-transform-origin: 77% 0%;
+    -ms-transform-origin: 77% 0%;
+    transform-origin: 77% 0%;
+}
+
+.navbar-main .navbar-nav .dropdown-menu:before {
+    right: 40px;
+    left: inherit;
+}
+
+.fullpage .form-control-feedback {
+    right: inherit;
+    left: 0px;
+}
+
+body.fullpage > p {
+    right: inherit;
+    left: 10px;
+}
+
+.inner-header ul.top-nav > li.primary-action {
+    border-left-width: 0;
+    border-right-width: 1px;
+}
+
+.contact-form-holder .control-label {
+    text-align: right;
+}
+
+.input-group-addon:first-child, .input-group .form-control:first-child, .input-group-btn:first-child > .btn-group > .btn, .input-group-btn:first-child > .btn, .input-group-btn:first-child > .dropdown-toggle, .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.input-group-addon:last-child, .input-group .form-control:last-child, .input-group-btn:first-child > .btn-group:not(:first-child) > .btn, .input-group-btn:first-child > .btn:not(:first-child), .input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group > .btn, .input-group-btn:last-child > .dropdown-toggle {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+blockquote {
+    border-left: none;
+    border-right: 0px solid #eee;
+}
+
+.form-control {
+    text-align: right;
+}
+
+#order-standard_cart .product-info ul {
+    padding-left: initial;
+    padding-right: 13px;
+}
+
+.domain-search-holder ul {
+    right: inherit;
+    left: 10px;
+}
+
+.domain-search-holder ul li .transfer {
+    margin-left: inherit;
+    margin-right: 5px;
+}
+
+.domain-search-holder ul input {
+    right: inherit !important;
+    left: 0 !important;
+}
+
+@media (max-width: 768px) {
+    .domain-search-holder ul {
+        right: inherit;
+        left: 0;
+    }
+}
+
+.login-form div[class^="icheckbox"] input {
+    left: inherit !important;
+    right: inherit !important;
+}
+
+.login-form label.checkbox-inline {
+    padding-left: initial !important;
+    padding-right: 0 !important;
+}
+
+.affiliate-stat {
+    text-align: right;
+}
+
+.affiliate-stat i {
+    margin-right: inherit;
+    margin-left: 20px;
+}
+
+.captchaimage img {
+    margin-left: 5px;
+    margin-right: auto;
+}
+
+.admin-message .admin-masquerade-notice {
+    text-align: right;
+}
+
+#default-captcha-domainchecker #inputCaptcha {
+    margin-left: inherit;
+    margin-right: 5px;
+}
+
+#pricing .pricing-box.recommended .pricing-box-body .pricing-details:after {
+    left: inherit !important;
+    right: -9px !important;
+}
+
+.pricing-box .pricing-content .pricing-details ul li {
+    text-align: right;
+}
+
+.domain-pricing .two-row-center {
+    border-right: 0px solid #e6e5f1;
+    border-left: 2px solid #e6e5f1;
+}

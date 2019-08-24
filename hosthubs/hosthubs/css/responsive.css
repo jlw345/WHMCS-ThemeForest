@@ -1,0 +1,419 @@
+/******************************************
+    RESPONSIVE
+******************************************/
+
+@media (min-width: 992px) {
+    .navbar-collapse {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .hasmenu:hover > ul {
+        visibility: visible;
+        opacity: 1;
+        top: 100%;
+    }
+    .navbar-nav .hasmenu ul {
+        -webkit-transition: visibility 0.35s ease-in-out, opacity 0.35s ease-in-out, top 0.35s ease-in-out, bottom 0.35s ease-in-out, left 0.35s ease-in-out, right 0.35s ease-in-out;
+        -moz-transition: visibility 0.35s ease-in-out, opacity 0.35s ease-in-out, top 0.35s ease-in-out, bottom 0.35s ease-in-out, left 0.35s ease-in-out, right 0.35s ease-in-out;
+        -o-transition: visibility 0.35s ease-in-out, opacity 0.35s ease-in-out, top 0.35s ease-in-out, bottom 0.35s ease-in-out, left 0.35s ease-in-out, right 0.35s ease-in-out;
+        transition: visibility 0.35s ease-in-out, opacity 0.35s ease-in-out, top 0.35s ease-in-out, bottom 0.35s ease-in-out, left 0.35s ease-in-out, right 0.35s ease-in-out;
+    }
+    .hasmenu .dropdown-menu {
+        min-width: 240px;
+        padding: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+    }
+    .hasmenu > ul {
+        position: absolute;
+        top: 130%;
+        visibility: hidden;
+        display: block;
+        opacity: 0;
+        left: 0;
+    }
+    .hasmenu > ul.start-right {
+        right: 0;
+        left: auto;
+    }
+    .hasmenu > ul li {
+        position: relative;
+    }
+    .hasmenu > ul li:hover > ul {
+        visibility: visible;
+        opacity: 1;
+        left: 100%;
+    }
+    .hasmenu > ul li:hover > ul.show-right {
+        right: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-nav .has-submenu {
+        position: relative;
+    }
+    .navbar-nav .has-submenu:hover > ul {
+        visibility: visible;
+        opacity: 1;
+        top: 100%;
+    }
+    .navbar-nav .has-submenu:hover > ul li ul {
+        margin-top: -1px;
+    }
+    .navbar-nav .has-submenu ul {
+        -webkit-transition: visibility 0.35s ease-in-out, opacity 0.35s ease-in-out, top 0.35s ease-in-out, bottom 0.35s ease-in-out, left 0.35s ease-in-out, right 0.35s ease-in-out;
+        -moz-transition: visibility 0.35s ease-in-out, opacity 0.35s ease-in-out, top 0.35s ease-in-out, bottom 0.35s ease-in-out, left 0.35s ease-in-out, right 0.35s ease-in-out;
+        -o-transition: visibility 0.35s ease-in-out, opacity 0.35s ease-in-out, top 0.35s ease-in-out, bottom 0.35s ease-in-out, left 0.35s ease-in-out, right 0.35s ease-in-out;
+        transition: visibility 0.35s ease-in-out, opacity 0.35s ease-in-out, top 0.35s ease-in-out, bottom 0.35s ease-in-out, left 0.35s ease-in-out, right 0.35s ease-in-out;
+    }
+    .navbar-nav .has-submenu .dropdown-menu {
+        min-width: 240px;
+        padding: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+    }
+    .navbar-nav .has-submenu > ul {
+        position: absolute;
+        top: 130%;
+        visibility: hidden;
+        display: block;
+        opacity: 0;
+        left: 0;
+    }
+    .navbar-nav .has-submenu > ul.start-right {
+        right: 0;
+        left: auto;
+    }
+    .navbar-nav .has-submenu > ul li {
+        position: relative;
+    }
+    .navbar-nav .has-submenu > ul li:hover > ul {
+        visibility: visible;
+        opacity: 1;
+        left: 100%;
+    }
+    .navbar-nav .has-submenu > ul li:hover > ul.show-right {
+        right: 100%;
+    }
+    .navbar-nav .has-submenu > ul li ul {
+        position: absolute;
+        top: 0;
+        visibility: hidden;
+        display: block;
+        opacity: 0;
+        left: 130%;
+    }
+    .navbar-nav .has-submenu > ul li ul.show-right {
+        right: 130%;
+        left: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-nav > li > .dropdown-menu {
+        border: 1px solid #f4f4f7 ;
+    }
+    .navbar-right > li > .dropdown-menu {
+        background-color: #ffffff !important;
+    }
+    .navbar-right > li > .dropdown-menu:after {
+        border: 0 !important;
+    }
+    .navbar-right .dropdown-menu {
+        left: auto;
+        right: 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header .nav > li > a {
+        padding:35px 15px 32px
+    }
+    .checkdomain-wrapper .form-control {
+        width: 80%
+    }
+    .checkdomain-wrapper .btn {
+        width: 19%;
+    }
+    .checkdomain-wrapper .checkbox {
+        display: inline-block;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        padding-left: 0;
+        text-align: left;
+    }
+}
+
+@media (max-width: 992px) {
+    .frameTC h1 {
+        font-size: 32px;
+
+    }
+    .frameTC h4 {
+        font-size: 15px;
+    }
+    .support-box,
+    .team-member {
+        margin:15px 0;
+    }
+    .navbar-default .navbar-toggle {
+        border: 0 !important;
+        margin-top: 10px;
+        background-color: #000000 !important;
+    }
+    .navbar-brand,
+    .navbar-header {
+        float:none !important;
+        text-align: center;
+        width: 100%;
+        padding-left: 25px;
+        margin:0 auto;
+        display: block;
+        padding-bottom: 0;
+    }
+    .navbar-brand img {
+        max-width:200px;
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .cenmobile {
+        text-align: center;
+        float:none;
+        margin:5px 0;
+    }
+    .navbar-nav > li,
+    .navbar-nav > li > a {
+        border-left: 0 !important;
+        border-right: 0 !important;
+    }   
+    .yamm-content .widget {
+        margin-bottom: 30px;
+    }
+    .m30 {
+        margin-bottom: 30px;
+    }
+
+    .footer-distributed .widget,
+    .footer .widget {
+        margin: 15px 0
+    }
+    .footer hr {
+        margin: 0;
+    }
+    .footer-center i {
+        margin-left: 0;
+    }
+    .flat {
+        margin-top:20px;
+    }
+
+.box-feature-full  {
+    padding:30px !important;
+}
+
+}
+
+@media (max-width: 768px) {
+
+    .grid-layout .grid-blog {
+        width: 100%;
+        float:left;
+        display: block;
+    }
+
+    .custom-services p {
+        padding:20px 0 !important;
+    }
+    .custom-services  h2,
+    .custom-services {
+        text-align: center !important;
+    }
+    .post-sharing .btn .fa-twitter, .post-sharing .btn .fa-facebook {
+        border-right: 0;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    .smallsec .btn {
+        display: block;
+        margin-top: 15px;
+    }
+    .rounded-services hr {
+        display: none;
+    }
+    .custom-service,
+    .rounded-services .box {
+        margin:15px 0;
+    }
+    .pricing-ver-9,
+    .pricing-ver-9.text-right,
+    .pricing-ver-9.text-left {
+        text-align: center !important;
+    }
+    .welcomemessage h2 {
+        font-size: 16px !important;
+    }
+    .welcomemessage .lead {
+        font-size: 13px !important
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: transparent;
+    }
+    .welcomemessage .lead br {
+        display: none !important
+    }
+    .navbar-nav > li > a {
+        border-bottom: 0 !important;
+    }
+    .yamm .yamm-content {
+        padding: 0;
+    }
+    .header .widget {
+        margin-top: 15px;
+    }
+    .dropdown-menu {
+        background-color: #ffffff !important;
+    }
+    .nav > li > a {
+        padding: 5px 20px;
+    }
+    .navbar-nav > li:hover,
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus {
+        background-color: transparent !important;
+    }
+    .chat-wrapper {
+        display: none;
+    }
+    .navbar-brand {
+        float:left !important;
+        text-align: center;
+        width: auto;
+        padding-left: 15px;
+        margin:0;
+        display: block;
+        padding-bottom: 0;
+    }
+    .navbar-header {
+        float:none !important;
+        text-align: center;
+        width: 100%;
+        padding-left: 0;
+        margin:0;
+        display: block;
+        padding-bottom: 0;
+    }
+    .navbar-brand img {
+        max-width:200px;
+        display: block;
+        padding: 10px 0 20px;
+        margin: 0;
+    }
+    .navbar-toggle {
+        margin-top:40px !important 
+    }
+    .after-header {
+        display: none;
+    }
+    .header .nav > li > a {
+        padding:10px 15px 10px
+    }
+    .checkdomain-wrapper .checkbox {
+        display: none;
+    }
+    .dropdown:hover .widhbgcolor,
+    .withbgcolor {
+        background-color: #F4F4F7 !important;
+    }
+    .header .dropdown-menu > li {
+        border-bottom: 1px solid #efefef;
+        padding: 0;
+    }
+    .yamm-content .widget {
+        padding:20px 30px;
+        margin: 0;
+    }
+    .searchmenu .dropdown-menu {
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+@media (max-width: 568px) {
+    .checkdomain-wrapper .form-control {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .checkdomain-wrapper .btn {
+        width: 100%;
+    }
+    .center-tab .nav > li > a {
+        font-size: 11px;
+        padding: 5px 10px;
+    }
+    .lists-elements li .box {
+        border:0;
+        min-height: auto;
+        padding:10px 20px !important;  
+    }
+    .lists-elements li {
+        float: none;
+        cursor: default;
+        border:0 !important;
+        list-style: none outside none;
+        margin: 0;
+        width: 100%;
+    }
+
+    .testimonials blockquote img {
+        display: none;
+    }
+    .smallsec h3 {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+}
+@media (max-width: 428px) {
+    .navbar-toggle {
+        margin-top: 35px !important;
+    }
+    .navbar-brand img {
+        max-width: 170px;
+    }
+    .box-feature img {
+        width: 100%;
+    }
+    .center-tab .with-nav-tabs.panel-primary .nav-tabs > li {
+        border:0;
+    }
+    .center-tab .nav > li > a {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .work-elements li .box {
+        border:0;
+        min-height: auto;
+        padding:10px 20px !important;  
+    }
+    .work-elements li {
+        float: none;
+        cursor: default;
+        border:0 !important;
+        list-style: none outside none;
+        margin: 0;
+        width: 100%;
+    }
+}
+@media (max-width: 336px) {
+    .navbar-toggle {
+        margin-top: 30px !important;
+    }
+    .navbar-brand img {
+        max-width: 150px;
+    }
+}
+

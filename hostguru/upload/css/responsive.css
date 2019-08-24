@@ -1,0 +1,51 @@
+/*----------------------*/
+/*      VARIABLES       */
+/*----------------------*/
+/*----------------------*/
+/*        MIXINS        */
+/*----------------------*/
+@media (min-width: 450px) {
+  .visible-xs-mobile {
+    display: none; } }
+@media (min-width: 768px) {
+  .no-padding-sm {
+    padding: 0; }
+
+  .main-menu {
+    display: block !important; } }
+@media (min-width: 992px) {
+  .clear-md {
+    clear: both; }
+
+  .no-padding-md {
+    padding: 0; } }
+@media (min-width: 1200px) {
+  .text-lg-left {
+    text-align: left; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .text-sm-center {
+    text-align: center; }
+
+  .clear-sm {
+    clear: both; } }
+@media (max-width: 991px) {
+  .container-responsive {
+    width: auto;
+    padding: 0; }
+
+  h1 {
+    font-size: 26px; }
+
+  h3 {
+    font-size: 18px; } }
+@media (max-width: 767px) {
+  .text-xs-center {
+    text-align: center; }
+
+  .text-xs-left {
+    text-align: left; } }
+@media (max-width: 480px) {
+  .col-xs-mobile {
+    width: 100%; } }
+
+/*# sourceMappingURL=responsive.css.map */

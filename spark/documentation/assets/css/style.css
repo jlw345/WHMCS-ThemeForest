@@ -1,0 +1,272 @@
+/*
+|--------------------------------------------------------------------------------------------------------
+|  HTML, BODY
+|--------------------------------------------------------------------------------------------------------
+*/
+html, body
+{
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  padding-top: 40px;
+    font-size: 17px;
+  line-height: 25px;
+}
+#welcome{
+  padding-bottom: 100px;
+}
+.width600 {
+  width: 600px
+}
+
+.navbar{
+  margin-bottom: 0px;
+  background: #F4F9FF;
+}
+
+.navbar-default .navbar-nav>li.current a{
+  background: #3A88E5;
+  color: #fff;
+}
+/*
+|--------------------------------------------------------------------------------------------------------
+| GLOBAL STYLES
+|--------------------------------------------------------------------------------------------------------
+*/
+h1, 
+h2{
+  font-weight: 100;
+}
+p{
+  color: #313131;
+  font-weight: 300;
+}
+a{
+  color: #19B5FE;
+}
+
+ul, ol{
+  margin: 0px;
+  padding: 0px;
+}
+ul li{
+  list-style: none;
+}
+li a{
+  text-decoration: none;
+}
+
+.gap-30{
+  height: 30px;
+}
+.gap-10{
+  height: 10px;
+}
+.gap-20{
+  height: 20px;
+}
+.gap-50{
+  height: 50px;
+}
+.gap-80{
+  height: 80px;
+}
+.gap-100{
+  height: 100px;
+}
+.gap-120{
+  height: 120px;
+}
+.gap-150{
+  height: 150px;
+}
+
+.mt-50{
+  margin-top: 50px;
+}
+.mt-100{
+  margin-top: 100px;
+}
+.mt-120{
+  margin-top: 120px;
+}
+.mt-150{
+  margin-top: 150px;
+}
+.margin-left{
+  margin-left: 40px;
+}
+span.text-highlight {
+    background: #f0f2f1;
+    color: #f4645f;
+    padding: 1px 5px;
+    border-radius: 3px;
+}
+
+.desc p{
+  margin-bottom: 00px;
+}
+/*
+|--------------------------------------------------------------------------------------------------------
+| WELCOME
+|--------------------------------------------------------------------------------------------------------
+*/
+#welcome {}
+#welcome h1{
+  margin-top: 40px;
+  font-size: 40px;
+  position: relative;
+}
+
+#welcome h1:after {
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    width: 150px;
+    margin-left: -75px;
+    background: #232323;
+    content: '';
+    height: 1px;
+}
+
+#welcome p{
+  margin-top: 30px;
+}
+
+.single-step h4{
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.inner-row{
+  padding-left: 100px;
+}
+/*/
+|--------------------------------------------------------------------------------------------------------
+| SECTION, SECTION TITLE & SECTION CONTENT
+|--------------------------------------------------------------------------------------------------------
+*/
+section {
+  padding: 120px 0px 200px;
+}
+section:nth-child(2n + 2){
+  background: #F4F9FF
+}
+.section-title {
+    margin-bottom: 30px;
+}
+.section-title h1{
+  position: relative;
+  color: #272727;
+  font-size: 45px
+}
+.section-title h1:after {
+    position: absolute;
+    left: 0px;
+    bottom: -15px;
+    width: 200px;
+    height: 1px;
+    background: #232323;
+    content: '';
+}
+.section-title h1 a{
+  font-size: 16px;
+  float: right;
+  font-weight: 300;
+  padding-top: 15px;
+}
+
+.section-title p {
+    color: #313131;
+    font-weight: 300;
+    margin-top: 24px;
+    font-size: 17px;
+}
+
+.sub-cat{
+  margin-left: 70px;
+}
+
+.inner-row-up{
+  padding-left: 30px;
+}
+
+.sub-cat h4{
+  font-weight: 100;
+  font-size: 25px;
+}
+
+.sub-cat ul {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.sub-cat ul ol {
+  margin-left: 25px;
+}
+.sub-cat  li {
+  margin-bottom: 6px;
+}
+.sub-cat ul li{
+  list-style: initial;
+  list-style-type: lower-roman
+}
+
+.sub-cat ol li {
+  list-style-type: decimal-leading-zero
+}
+
+/*/
+|--------------------------------------------------------------------------------------------------------
+| Table of Contents
+|--------------------------------------------------------------------------------------------------------
+*/
+
+#table-of-contents{}
+#table-of-contents ul li{
+  margin-bottom: 15px;
+  position: relative;
+}
+
+#table-of-contents ul li a{
+  color: #232323;
+  font-size: 16px;
+}
+#table-of-contents ul li span.dropdown {
+  font-size: 20px;
+}
+#table-of-contents ul li span.dropdown:hover {
+  cursor: pointer;
+}
+#table-of-contents ul li:hover ul.sub {
+/*  visibility: visible;
+  opacity: 1;*/
+}
+#table-of-contents ul li ul.sub {
+  margin-top: 10px;
+  display: none;
+  background: #efefef;
+  color: #232323;
+  width: 400px;
+  padding: 20px;
+}
+
+
+/*/
+|--------------------------------------------------------------------------------------------------------
+| INSTALL
+|--------------------------------------------------------------------------------------------------------
+*/
+#install ol li{
+  margin-left: 10px;
+  margin-bottom: 6px;
+}
+.installation_wizard h2{
+  font-size: 24px 
+}
+
+.para{
+  font-size: 17px;
+  line-height: 25px;
+}

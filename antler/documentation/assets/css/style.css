@@ -1,0 +1,190 @@
+body {
+    margin-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100; 
+    color: #414142;
+    line-height: 2;
+    background-color: #f6f6f6;
+}
+a {
+    color: #212122;
+}
+a:hover {
+    text-decoration: none;
+    color: #ee5586;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+a.link {
+    color: #ee5586;
+}
+a.link:hover {
+    text-decoration: underline;
+}
+h1, h2, h3, h4 {
+    margin-bottom: 30px !important;
+    line-height: 32px !important;
+}
+h1 {
+    margin-top: 0px;
+    line-height: 42px !important;
+}
+h2 {
+    font-size: 22px;
+}
+.m-0 {
+    margin: 0px !important;
+}
+.mt-0 {
+    margin-top: 0px !important;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
+.navbar {
+    padding: 0px 0px 10px 0px;
+    border: 0;
+    z-index: 90;
+    background-color: #fff;
+    box-shadow: 0 2px 8px 0 rgba(62,62,79,.23);
+    background: linear-gradient(89deg,#a5215e 3%,#ee5586 98%);
+}
+.navbar-brand {
+    position: absolute;
+    padding: 10px 0px 0px 0px;
+    line-height: 20px;
+    margin-right: 50px;
+}
+.navbar-inverse .navbar-nav > a  {
+    margin: 15px !important;
+    padding: 10px 15px !important;
+}
+.navbar-inverse .navbar-nav > .active > a  {
+    margin-top: 8px;
+    padding: 10px 15px;
+    color: #fff !important;
+    background-color: transparent;
+    font-weight: 600;
+}
+.navbar-collapse.in > .active > a  {
+    color: #ee5586 !important;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: transparent !important;
+}
+.nav>li>a:hover {
+    background-color: transparent;
+}
+.navbar-collapse.collapse.in {
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    font-size: 18px;
+	display: block;
+    text-align: center;
+    background: #15212a !important;
+    transition: initial;
+    box-shadow: 0 5px 15px 0 rgba(110,110,110,.1);
+}
+.b-solid {
+    border: solid 1px #efefef;
+}
+.content {
+    padding: 40px;
+    margin-top: 40px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px 0 rgba(110,110,110,.1);
+}
+.content h5{
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+.content div{
+    font-size: 15px;
+}
+.content p{
+    font-size: 15px;
+}
+.byinebur {
+    color: #808080;
+    font-size: 13px;
+    top: 20px;
+    position: absolute;
+    right: 60px;
+}
+.navbar-toggle {
+    margin: 0px;
+    position: absolute;
+    right: 0;
+    padding: 20px 15px 0px 0px;;
+    border: none;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-toggle:hover {
+    background-color: transparent;
+}
+.navbar-inverse .navbar-toggle:focus {
+    background-color: transparent !important;
+}
+.navbar-inverse .navbar-collapse {
+    border: none;
+}
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 8px;
+    background-color: #fff !important;
+}
+.navbar-toggle .icon-bar {
+    width: 28px !important;
+    background-color: #fff !important;
+}
+.navbar.navbar-inverse.navbar-fixed-top {
+    height: 60px;
+}
+.navbar-nav>li>a {
+    color: #efefef !important;
+    margin-top: 10px !important;
+    padding: 10px 20px !important;
+}
+.bg-pink {
+    background-color: #ee5586;
+}
+b, strong {
+    font-weight: 600 !important;
+}
+@media (max-width: 767px)  {
+   .tocify {width:100%;position: relative;margin-bottom: 20px;}
+   .nav.navbar-nav {
+        float: none !important;
+    }
+   .navbar-inverse .navbar-nav > .active > a  {
+        margin: 15px !important;
+        padding: 10px 15px !important;
+        color: #ee5586 !important;
+    }
+    .navbar-inverse .navbar-nav > .active > a:hover  {
+        color: #ee5586 !important;
+    }
+    .navbar-inverse .navbar-nav a  {
+        margin: 15px !important;
+        padding: 10px 15px !important;
+    }
+}
+@media (min-width: 768px)  {
+   .tocify {
+        width:150px;
+   }
+   .navbar-inverse .navbar-collapse {
+        display: none;
+    }
+}
+@media (min-width: 1200px)  {
+   .tocify {width:260px;}
+}

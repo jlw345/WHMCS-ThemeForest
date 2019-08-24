@@ -1,0 +1,13 @@
+=================================
+08 September, 2018 - Version 2.8
+=================================
+
+-----------------------------------------------------------------------------------------
+Backup your theme/style folder and files before applying these updates.
+-----------------------------------------------------------------------------------------
+
+
+[*] Mailchimp Subscribe Issue Fixed
+
+
+***(need to remove and reinstall the 'ecohosting-core' plugin to get the above update)***

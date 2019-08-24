@@ -1,0 +1,13 @@
+==============================
+18 January, 2017 - Version 1.2
+==============================
+
+-----------------------------------------------------------------------
+Backup your theme/style folder and files before applying these updates.
+-----------------------------------------------------------------------
+
+*. PHPMailer security update
+
+    *. Replace the following folder
+
+        *. /phpmailer/

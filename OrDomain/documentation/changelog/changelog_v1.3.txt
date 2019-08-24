@@ -1,0 +1,10 @@
+// # List of updates
+// ------------------------------
+
+[*] Added slider and page header overlay color and opacity option
+[+] Added common page header overlay, overlay color and opacity option
+[+] Fixed some css issues
+[+] Added logo height change option in theme option
+[+] Fixed logo alignment issue
+
+

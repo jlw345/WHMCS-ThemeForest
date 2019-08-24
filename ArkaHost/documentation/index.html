@@ -1,0 +1,1833 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<meta name="keywords" content="">
+
+	<title>Arkahost | Documentation by King-Theme.Com</title>
+
+    <link rel="shortcut icon" href="images/favico.png" type="image/x-icon" />
+
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/stroke.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shCore.css" media="all">
+	<link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shThemeDefault.css" media="all">
+
+	<!-- COLORS -->
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+		
+</head>
+<body>
+
+	<div id="wrapper">
+
+
+		<section id="top" class="section white">
+
+			<!-- Fixed navbar -->
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			            <span class="sr-only">Toggle navigation</span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+					</button>
+		        </div>
+		        <div id="navbar" class="navbar-collapse collapse">
+		          <ul class="nav navbar-nav">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">General</a>
+							<ul class="dropdown-menu">
+								<li><strong>Common Errors</strong></li>
+								<li><a href="#error-install">Error during installation</a></li>
+								<li><a href="#error-import">Error during import sample data</a></li>
+								<li><a href="#translate-theme">Translations</a></li>
+								<li><a href="#update-theme">Update Theme</a></li>
+								
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Installation</a>
+							<ul class="dropdown-menu">
+								<li><strong>Install Theme</strong></li>
+								<li><a href="#required-before-install">Required before install</a></li>
+								<li><a href="#install-theme-from-admin-panel">Install from Admin</a></li>
+								<li><a href="#upload-via-ftp-server">Upload via FTP server</a></li>
+								<li><strong>Install Plugins</strong></li>
+								<li><a href="#install-plugins">List of Plugins</a></li>
+								<li><a href="#plugins-admin">Install via Admin panel</a></li>
+								<li><a href="#plugins-manual">Install manual</a></li>
+								
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sample Data</a>
+							<ul class="dropdown-menu">
+								<li><a href="#import-from-admin">Import from Admin panel</a></li>
+								<li><a href="#import-manual">Import manual</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">WHMCS</a>
+							<ul class="dropdown-menu">
+								<li><a href="#plugins-whmcs">Install WHMCS</a></li>
+								<li><a href="#install-whmcs-bridge">Install WHMCS Bridge Plugin</a></li>
+								<li><a href="#configuration-whmcs-bridge">Configuration WHMCS Bridge</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Options</a>
+							<ul class="dropdown-menu">
+								<li><a href="#theme-options">Appearance > ArkaHost - Options</a></li>
+								<li><a href="#page-settings">ArkaHost Theme - Page Settings</a></li>
+								<li><a href="#common-layout">Page Layouts</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Builder</a>
+							<ul class="dropdown-menu">
+								<li><a href="#vc">Visual Composer</a></li>
+								<li><a href="#king-elements">King Elements</a></li>
+								<li><a href="#page-columns">Columns Classes</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+							<ul class="dropdown-menu">
+								<li><a href="#blog">Blog Layouts</a></li>
+								<li><a href="#blog-switch">How to switch layout?</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menus</a>
+							<ul class="dropdown-menu">
+								<li><a href="#mega">Mega Menu</a></li>
+							</ul>
+						</li>
+
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Package Sections</a>
+							<ul class="dropdown-menu">
+								<li><a href="#what-is-package-sections">What is Package Sections?</a></li>
+								<li><a href="#how-to-add-sections-to-page">How to add sections to page</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Post Types</a>
+							<ul class="dropdown-menu">
+								<li><a href="#custom-posts">Custom Post Types</a></li>
+								<li><a href="#member-item">Team/Member Post Type</a></li>
+								<li><a href="#project-item">Project/Our Work Post Type</a></li>
+								<li><a href="#testimonial-item">Testimonial Post Type</a></li>
+								<li><a href="#testimonial-item">Testimonial Post Type</a></li>
+								<li><a href="#pricing-item">Pricing Tables Post Type</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Customization</a>
+							<ul class="dropdown-menu">
+								<li><a href="#show-hide-user-menu">How to show/hide user link login/register</a></li>
+								<li><a href="#show-hide-cart-icon">How to show/hide cart icon - WooEcommerce</a></li>
+								<li><a href="#hide-search-icon">How to hide search icon on menu</a></li>
+								<li><a href="#change-topinfo">How to change top info: email/phone</a></li>
+								<li><a href="#add-icon-menu">How to add icon for menu item</a></li>
+								<li><a href="#change-social">How to change social links</a></li>
+								<li><a href="#change-copyright">How to change copyright info</a></li>
+								<li><a href="#remove-footer-links">How to remove footer links: Terms of Service	| Privacy Policy</a></li>
+								<li><a href="#change-background">How to change background of sections</a></li>
+								<li><a href="#disable-effect">How to disable Effects elements</a></li>
+								<li><a href="#onepage">How To Create Onepage Website</a></li>
+								<li><a href="#fullwidth">How to create section fullwidth?</a></li>
+								<li><a href="#vc-spacing">How to remove spacing beetwen sections</a></li>
+								<li><a href="#vc-class">How to change ClassName of sections</a></li>
+								<li><a href="#vc-seo">How to resolve issue on SEO description meta tag</a></li>
+							</ul>
+						</li>
+					</ul>
+		        </div><!--/.nav-collapse -->
+				</div>
+			</nav>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="big-title text-center">
+							<img src="images/logo-grey.jpg" width="250" alt="ArkaHost - Wordpress Hosting Theme" />
+							<p class="lead">Awesome theme for Hosting & Corporate website</p>
+							<p><a class="btn btn-primary" href="http://bit.ly/buyarka/">Buy ArkaHost Theme Now</a>  <a href="http://help.king-theme.com/" target="_blank" class="btn btn-info">Ask a Question</a></p>
+						</div><!-- end title -->
+					</div><!-- end 12 -->
+				</div><!-- end row -->
+
+				<hr>
+
+		        <div class="row">
+					<div class="col-md-8 drop-caps full">
+						<div class="intro1">
+						<ul>
+							<li><strong>Item Name : </strong> ArkaHost</li>
+							<li><strong>Item Version : </strong> Version 1.0</li>
+							<li><strong>Framework version : </strong> King Theme Framework 5.0</li>
+							<li><strong>Author by : </strong> <a href="http://themeforest.net/user/king-theme/portfolio">King Theme</a></li>
+							<li><strong>Support via Email : </strong> <a href="mailto:contact@king-theme.com">contact@king-theme.com</a></li>
+							<li><strong>Support via Forum : </strong> <a href="http://help.king-theme.com/">http://help.king-theme.com/</a></li>
+							<li><strong>Support via Skype : </strong> tuongpg.jz | movias | violetzs</li>
+						</ul>
+						</div>
+						<div class="drop-caps">
+						<p>ArkaHost is a Responsive Hosting & Corporate Wordpress (Desktop, tablet, mobile phone…) simple, clean and Professional theme. It comes with Unique Pages, Awesome Slideshows, Unique Color Variations. Easy-to-customize and fully featured design. This theme suitable for Hosting, Company, Business, Blog and Portfolio and much more. Create Outstanding Website or Blog in Minutes!</p>
+						<p>King Theme Framework provided more powerful features for building template on Wordpress Platform. You will be easy to use and start to build your own website with all our video tutorials, guide documents.</p>
+						<p>With sample content, It is easy to change with your ideas. We provide all features, the content sample for any website as the business, blog, hosting,... even e-commerce.</p>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<img width="100%" src="upload/bg.jpg" alt="" class="img-responsive img-thumbnail">
+					</div>
+		        </div>	
+			</div><!-- end container -->
+		</section><!-- end section -->
+
+
+		<section id="how-to-install-theme" class="section grey">
+			<div class="container">
+		        <div class="row">
+		            <div class="col-md-12 left-align">
+		                <h2 class="dark-text">How to Install Theme </h2>
+		            </div><!-- end col -->
+		        </div><!-- end row -->
+				<div class="clearfix divline3"></div>
+				<div class="row"  id="required-before-install">
+		            <div class="col-md-6 left-align">
+						<h4>Required before install</h4>
+						<div class="intro2 clearfix">
+						<p>To install this theme, you must have a working version of WordPress already installed. If you need help installing WordPress, follow the instructions in <a href="http://codex.wordpress.org/Installing_WordPress">WordPress Codex</a> or you can watch the <a href="http://vimeo.com/17147778">Instructional Video</a> created by Woo Themes. Below there are all the useful links for WordPress information.</p>
+						</div>
+						<br/>
+						<ul>
+						<li><a href="http://codex.wordpress.org/Installing_WordPress">WordPress Codex</a> – general info about WordPress and how to install on your server</li>
+						<li><a href="http://vimeo.com/17147778">Instructional Video</a> – awesome How-To video created by Woo Themes</li>
+						<li><a href="http://codex.wordpress.org/First_Steps_With_WordPress">First Steps With WordPress</a> – general information that covers a wide variety of topics</li>
+						<li><a href="http://codex.wordpress.org/FAQ_New_To_WordPress">FAQ New To WordPress</a> – the most popular FAQ’s regarding WordPress</li>
+						<li><a href="http://wp.tutsplus.com/sessions/wp101-basix-training/">WP101 Basix Training videos</a> – some great videos from WPTuts on WordPress</li>
+						</ul>
+					</div>
+					<div class="col-md-6">
+						<div class="media">
+							<iframe src="https://player.vimeo.com/video/17147778?color=D0D9E0&title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/17147778">How to install WordPress</a> from <a href="https://vimeo.com/woothemes">WooThemes</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+						</div>
+					</div><!-- end col -->
+				</div>
+				<div class="clearfix divline"></div>
+				<div class="row" id="install-theme-from-admin-panel">
+					<div class="col-md-12">
+						<h4>Install theme from Admin panel</h4>
+					</div>
+					<div class="col-md-6">
+						<p>Please follow video or steps with pictures bellow:</p>
+					</div>
+					<div class="col-md-6">
+						<div class="media">
+							<p><iframe width="560" height="315" src="https://www.youtube.com/embed/XpprW7FhPYs" frameborder="0" allowfullscreen></iframe></p>
+						</div>
+					</div>
+					
+					
+					<div class="clearfix divline2"></div>
+					<div class="col-md-6">
+						<p>Steps for installation:</p>
+						<p><strong>Step 1</strong> – Navigate to Appearance > Themes.</p>
+					</div>
+					<div class="col-md-6">
+						<img src="upload/install-admin-1.png" alt="" class="img-responsive img-thumbnail">
+					</div>
+					<div class="clearfix divline2"></div>
+					<div class="col-md-6">
+						<p><strong>Step 2</strong> – Click Add New Theme/ Add New button and hit the Upload Theme button.</p>
+					</div>
+					<div class="col-md-6">
+						<img src="upload/install-admin-2.png" alt="" class="img-responsive img-thumbnail"/>
+					</div>
+					<div class="clearfix divline2"></div>
+					<div class="col-md-6">
+						<p><strong>Step 3</strong> – Select the "arkahost.zip” ( your_download/Arkahost_Theme_Installation/arkahost.zip ) file on your computer and click "Install Now"</p>
+					</div>
+					<div class="col-md-6">
+						<img src="upload/install-admin-3.png" alt="" class="img-responsive img-thumbnail"/>
+					</div>
+					<div class="clearfix divline2"></div>
+					<div class="col-md-6">
+						<p><strong>Step 4</strong> – Wait for some seconds while the theme is uploaded and installed.</p>
+						<p><strong>Step 5</strong> – Activate the installed theme. Go to Appearance > Themes and activate it.</p>
+						<p><strong>Step 6</strong> – Then you will see a notification message to import sample data. We recommend you choose this so your website will same exactly our demo.</p>
+					</div>
+					<div class="col-md-6">
+						<img src="upload/install-admin-3.png" alt="" class="img-responsive img-thumbnail"/>
+					</div>
+					<div class="col-md-12">
+						<div class="text-center">
+						<br/>
+							<p><a href="http://king-theme.com/contact/" class="btn btn-primary" target="_blank">Get free Installation Service</a> <a href="http://help.king-theme.com/" target="_blank" class="btn btn-info">Ask a Question</a></p>
+						</div>
+					</div>
+				</div>	
+						
+				<div class="clearfix divline4"></div>
+				<div class="row"  id="upload-via-ftp-server">
+					<div class="col-md-6">
+						<h4>Upload via FTP Server</h4>
+
+						<p>Follow the steps below to install via FTP.</p>
+						<ul>
+						<li><strong>Step 1</strong> – Unzip the arkahost.zip file ( your_download/Arkahost_Theme_Installation/arkahost.zip ) and ONLY use the extracted Arkahost theme folder </li>
+						<li><strong>Step 2</strong> – Log into your hosting space via an FTP software - Filezilla/FTP Rush...</li>
+						<li><strong>Step 3</strong> – Upload the extracted Arkahost theme folder into wp-content/themes folder on hosting. Correct path after upload will be "wp-content/themes/arkahost" </li>
+						<li><strong>Step 4</strong> – Activate the installed theme. Login your admin panel and go to menu Appearance > Themes and activate it.</li>
+						<li><strong>Step 5</strong> – Then you will see a notification message to import sample data. We recommend you choose this so your website will same exactly our demo.</li>
+						</ul>
+						
+					</div><!-- end col -->
+
+					<div class="col-md-6">
+						<br/>
+						<br/>
+						<div class="media">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/yQnQyI5WlKs" frameborder="0" allowfullscreen></iframe>
+						</div>
+						<br/>
+						<br/>
+						<div class="text-center">
+							<a href="http://king-theme.com/contact/" class="btn btn-primary" target="_blank">Get free Installation Service</a> <a href="http://help.king-theme.com/" target="_blank" class="btn btn-info">Ask a Question</a>
+						</div>
+					</div><!-- end col -->
+				</div><!-- end row -->
+			</div><!-- end container -->
+		</section><!-- end section -->
+
+		<section class="section white">
+			<div class="container">
+		        <div class="row"  id="install-plugins">
+		            <div class="col-md-12 left-align">
+		                <h2 class="dark-text">Install plugin </h2>
+		            </div><!-- end col -->
+					<div class="clearfix divline3"></div>
+		            <div class="col-md-12 left-align">
+		                <div class="intro2 clearfix">
+						<p>We provide a list of plugins in ArkaHost packages. That plugins are purchased extend the license, you don't need to purchase them again. We will support update life for them also.</p>
+						
+						</div>
+						<br/>
+		            </div><!-- end col -->
+					<div class="col-md-4">
+						<img src="upload/vc.png" alt="" class="img-responsive img-thumbnail">
+						<h4>Visual Composer</h4>
+						<p>#1 drag & drop page builder plugin for wordpress.</p>
+					</div><!-- end col -->
+
+					<div class="col-md-4">
+						<img src="upload/rv.png" alt="" class="img-responsive img-thumbnail">
+						<h4>Slider Revolution</h4>
+						<p>Slider Revolution is an innovative, responsive WordPress Slider Plugin that displays your content the beautiful way.</p>
+					</div><!-- end col -->
+
+					<div class="col-md-4">
+						<img src="upload/contact7.jpg" alt="" class="img-responsive img-thumbnail">
+						<h4>Contact Form 7</h4>
+						<p>Just another contact form plugin. Simple but flexible.</p>
+					</div><!-- end col -->
+				</div><!-- end row -->
+				<div class="clearfix divline"></div>
+				<div class="row" id="plugins-admin">
+		            <div class="col-md-6 left-align">
+		                <h4 class="">Install via admin panel </h4>
+						<p>To install plugins integrated on theme packages, just go to Appearance > ArkaHost - Options  >  Import Demos <br/>
+                        Press Install Plugin Only button and wait for some minutes, theme framework will display success message for a while.<br/>
+                        In some case, Framework can not install plugins - may your hosting do not have right permission. Please try with manual way as bellow.<br/>
+
+						</p>						
+		            </div><!-- end col -->
+					<div class="col-md-6 center-align">
+						<a href="upload/install-plugins.png" data-rel="prettyPhoto" class="crop-thumb">
+						<img src="upload/install-plugins.png" alt="" class="img-responsive img-thumbnail">
+						</a>
+					</div>
+		        </div><!-- end row -->
+				<div class="clearfix divline"></div>
+				<div class="row" id="plugins-manual">
+		            <div class="col-md-6 left-align">
+		                <h4 id="" class="">Install Manual </h4>
+						<p>Firstly, you must unzip theme packages which downloaded from themeforest.net<br/>
+                        Then browse to folder /arkahost/core/sample/plugins<br/>
+                        All plugins are in there, unzip each of plugin then copy/upload them to folder /wp-content/plugins of your instance Wordpress.</p>
+                        <p>After that, go to Admin panel > Plugins you can see the list of plugins which you copy/uploaded. If you don't see one of plugins, you must copy/upload files again to make sure we don't miss any important plugin.</p>
+                        <p>Select plugins from the list and choose Active action then press Apply to Active plugins.<br/>
+                        You will see some menus of plugins active on the left of admin panel.
+						</p>
+						<br/>
+						
+		            </div><!-- end col -->
+					<div class="col-md-6 center-align">
+						<a href="upload/plugins-list.png" data-rel="prettyPhoto" class="crop-thumb">
+						<img src="upload/plugins-list.png" alt="" class="img-responsive img-thumbnail">
+						</a>
+					</div>
+					<div class="col-md-12 left-align">
+						<div class="intro2">
+						Important: Plugin Arkahost Helper must be activated. Some important features are integrated on plugin base on privacy of themeforest.net
+						</div>
+					</div>
+		        </div><!-- end row -->
+			</div><!-- end container -->
+		</section><!-- end section -->
+
+		<section class="section grey">
+			<div class="container">
+		        <div class="row"  id="import-data">
+		            <div class="col-md-12 left-align">
+		                <h2 class="dark-text">Import sample data </h2>
+		            </div><!-- end col -->
+					<div class="clearfix divline3"></div>
+		        </div><!-- end row -->
+				
+				<div class="row" id="import-from-admin">
+
+					<div class="col-md-6">
+						<h4>Import from Admin panel </h4>
+						<p>Follow the steps below to import sample data and plugins.</p>
+						<ul>
+						<li><strong>Step 1</strong> – Go to menu Appearance > ArkaHost - Options > Import Demos</li>
+
+						<li><strong>Step 2</strong> – Click button "Install Plugin Only" to install our plugin which we purchased license for you.</li>
+
+						<li><strong>Step 3</strong> – Click button "Install Data Sample" to import all media, post and page as our demo site. You can see progress bar running while importing.</li>
+						</ul>
+						<p>After import successful, panel will take you to home page for review.</p>
+
+					</div>
+					<div class="col-md-6">
+						<a href="upload/import-sample.png" data-rel="prettyPhoto" class="crop-thumb">
+						<img src="upload/import-sample.png" alt="" class="img-responsive img-thumbnail">
+						</a>
+					</div>
+				</div><!-- end row -->
+				<div class="clearfix divline"></div>
+				<div class="row"  id="import-manual">
+
+					<div class="col-md-12">
+						<h4>Import manual </h4>
+                        <p>For some reason, you connection error or slow and import from admin do not work. You can resolve that by using this way.</p>
+
+                        <p>We recommend you reset all WordPress data before doing this steps. By using Wordpress Reset plugin</p>
+
+                        <ul>
+                            <li><strong>Step 1</strong> – Download our demo media at <a href="http://cdn.devncommerce.com/arkahost/wp-content/uploads/package.zip" target="_blank">link here</a>.</li>
+                            <li><strong>Step 2</strong> – Unzip file package.zip then copy all files and folders inside package.zip to your "wp-content/uploads" as screenshot bellow. </li>
+						</ul>
+
+					</div>
+				</div>
+			</div><!-- end container -->
+		</section><!-- end section -->
+		<section class="section white">
+			<div class="container">
+				<div class="row" id="plugins-whmcs">
+					<div class="col-md-12 left-align">
+						<h2 class="dark-text">WHMCS </h2>
+					</div>
+					<div class="clearfix divline3"></div>
+					<div class="col-md-12 left-align">
+						<h4>How to install WHMCS </h4>
+					</div>
+		            <div class="col-md-6 left-align">
+						<p>In this video tutorial we show you how to download and install the WHMCS billing software.</p>
+					</div>
+		            <div class="col-md-6 left-align">
+						<div class="media">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/1ttA2C1b3_U" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix divline"></div>
+				<div class="row"  id="install-whmcs-bridge">
+					<div class="col-md-6">
+						<h4>Install WHMCS Bridge Plugin</h4>
+						<p>Follow the steps below to install WHMCS Bridge plugins.</p>
+						<ul>
+						<li><strong>Step 1</strong> – Go to menu <strong>Plugins > Add New</strong></li>
+
+						<li><strong>Step 2</strong> – Click input keyword and type <i style="color: #0099FF;">whmcs-bridge</i> press enter on keyboard start search</li>
+
+						<li><strong>Step 3</strong> – From Search Results click "Install Now" button in WHMCS Bridge plugin, then Active this plugin</li>
+						</ul>
+						<p>After install successful, You also need install "WHMCS Bridge Pro" version.</p>
+
+					</div>
+					<div class="col-md-6">
+						<a href="upload/install-whmcs-bridge.png" data-rel="prettyPhoto" class="crop-thumb">
+							<img src="upload/install-whmcs-bridge.png" alt="" class="img-responsive img-thumbnail">
+						</a>
+					</div>
+					<div class="clearfix divline"></div>
+					<div class="col-md-12">
+						<h4>Why need install WHMCS Bridge Pro:</h4>
+						<ul class="whmcs-bridge-feature">
+							<li><strong>Support for WHMCS 6’s “Six” Responsive Theme<br>
+							</strong>Use the responsive “six” theme with your WHMCS making your customer portal fully responsive to support mobile devices (you should have a responsive WordPress theme to take full advantage of mobile support)</li>
+							<li><strong>Single Sign On (SSO)<br>
+							</strong>Thanks to the single sign-on feature, your customers can sign in once on your site and comment on your blog postings, share information with their peers, order hosting plans and pay their bills.</li>
+							<li><strong>Multi-lingual WHMCS Support<br>
+							F</strong>ully integrated with qtranslate and WPML.</li>
+							<li><strong>IP Address Resolution Patch<br>
+							</strong>Shows your customer’s IP address instead of your server’s IP address during sign up.</li>
+							<li><strong>Choose your WHMCS Portal<br>
+							</strong>Fully compatible with the WHMCS v5 ‘default’ template</li>
+							<li><strong>Pretty Permalinks<br>
+							</strong>Display links like http://www.mysite.com/clientarea/ rather than http://www.mysite.com/?ccce=clientarea. Also supports knowledgebase, announcement and download links.</li>
+							<li><strong>Auto Redirect<br>
+							</strong>Automatically redirect customers visiting your WHMCS site to your WordPress site, works for support ticket linkgs, invoice links, etc.</li>
+							<li><strong>FAQ’s and Support</strong><br>
+							It is recommended that you read through our <a href="https://i-plugins.com/whmcs-bridge/knowledgebase/1021/WHMCS-Bridge/" target="_blank">Knowledge Base articles</a> for further information</li>
+						</ul>
+						
+						<p><i>You do not necessarily have to buy "WHMCS Bridge Pro" <br />
+						You have to use default name of template "five". This is not responsive theme but you can hire someone to help you.</i>
+						</p>
+					</div>
+					<div class="clearfix divline"></div>
+					<div class="col-md-6">
+						<h4>Install WHMCS Bridge Pro Plugin</h4>
+						
+						<p>The first go to <a href="http://www.i-plugins.com/whmcs-bridge/cart/?gid=25" target="_blank">http://www.i-plugins.com/whmcs-bridge/cart/?gid=25</a> and get a license. <br />
+						You can download plugin in in your services manage 
+						</p>
+					</div>
+					<div class="col-md-6">
+						<a href="http://i.imgur.com/BCU77Lh.jpg" data-rel="prettyPhoto" class="crop-thumb">
+							<img src="http://i.imgur.com/BCU77Lh.jpg" alt="" class="img-responsive img-thumbnail">
+						</a>
+					</div>
+					<div class="col-md-6">
+						<br/>
+						<p>Install WHMCS Bridge Pro Plugin like the installation of ordinary plugin <p>
+						<p>Menu <strong>Plugins > Add New > Upload Plugin > Activate </strong></p>
+					</div>
+					<div class="col-md-6">
+						<br/>
+						<div class="media">
+						<iframe id="install-whmcs-bridge-config"  width="560" height="315" src="https://www.youtube.com/embed/wBOg3IojK8E" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div><!-- end row -->
+				<div class="clearfix divline"></div>
+				<div class="row"  id="configuration-whmcs-bridge">
+					<div class="col-md-12">
+						<h4>Configuration custom WHMCS theme with WHMCS Bridge</h4>
+					</div>
+					<div class="col-md-6">
+						<p>Before go to WHMCS-Bridge configuration, please make sure your WHMCS installed. How to install WHMCS check this <a href="http://docs.whmcs.com/Installing_WHMCS" target="_blank">http://docs.whmcs.com/Installing_WHMCS</a> <br />
+							User your WHMCS url config for WHMCS-Bridge.
+						</p>
+						<p>
+							Your wordpress dashboard menu go to <strong>Settings > WHMCS Bridge </strong> <br />
+							<span style="color: #FF0000;">Please read carefully the description of each option!</span>
+						</p>
+
+					</div>
+					<div class="col-md-6">
+						<a href="upload/configuration-whmcs-bridge.png" data-rel="prettyPhoto" class="crop-thumb">
+							<img src="upload/configuration-whmcs-bridge.png" alt="" class="img-responsive img-thumbnail">
+						</a>
+					</div>
+					
+				</div>				
+				<div class="clearfix divline"></div>
+				<div class="row"  id="whmcs-issues">
+
+					<div class="col-md-12 breakwords">
+						<h4>Issues to note about hosting when install WHMCS Bridge plugin</h4>
+                        <p>- Godaddy hosting not working, this hosting disable port 43, for some reason will show error 500 on your whmcs-bridge page (Please contact to Host provide and WHMCS Brige for support)</p>
+
+                        <p>- Your hosting required install ionCube, because WHMCS Bridge Pro plugin encode by ionCube. <br >
+						
+						If you are using MediaTemple, you may read this article <a href="https://mediatemple.net/community/products/grid/204403934/how-can-i-install-ioncube-loader-libraries" target="_blank">https://mediatemple.net/community/products/grid/204403934/how-can-i-install-ioncube-loader-libraries</a></p>
+
+                        
+
+					</div>
+				</div>
+			</div><!-- end container -->
+		</section><!-- end section -->
+		
+		<section id="common-errors" class="section grey">
+			<div class="container">
+		        <div class="row">
+		            <div class="col-md-12 left-align">
+		                <h2 class="dark-text">Common Errors </h2>
+		            </div><!-- end col -->
+		        </div><!-- end row -->
+				<div class="clearfix divline3"></div>
+				<div class="row"  id="error-install">
+					<div class="col-md-12">
+						<h4>Error during installation</h4>
+						<h5>A) The error: "Are you sure you want to do this?"</h5>
+						<p> If you are installing your theme from the WordPress theme installer, but get a message that says “Are you sure you want to do this?”, most likely your web server is configured with PHP settings that are too low to allow the theme ZIP file to upload. 
+						<br>Specifically, PHP is configured to a maximum file upload size limit at 8 megabytes or less. The theme ZIP is about 9.5 megabytes in size. Thus, the web server is rejecting the upload. WordPress is giving you a rather ambiguous message in response. This is not a theme fault or bug.</p>
+						<p>
+						<strong>There two ways to solve this problem: </strong>
+                        <ol>
+                            <li>
+                                You can either get your web host to increase your PHP limits. Some hosting allows you change PHP values from htacess or PHP.ini Please check your help documents from provider.<br><br>
+<pre class="brush: html">Recommended PHP configuration limits are as follows:
+max_execution_time = 18000
+memory_limit = 128M
+post_max_size = 32M
+upload_max_filesize = 32M
+</pre>
+							</li>
+							<li>
+								You can upload your theme via an <a href="#upload-via-ftp-server">FTP client</a>.
+							</li>
+							
+						</ol>
+						</p>
+						
+						<h5 id="ftpUpload">B) Wordpress asks FTP infomations</h5>
+						<p>If WordPress asks for your FTP credentials when it can't access the files directly. This is usually caused by PHP running as the apache user (mod_php or CGI) rather than the user that owns your WordPress files. Or your hosting has wrong permission with wp-content folder.</p>
+						<p>How to solve issues?</p>
+						<p><strong>Solution 1:</strong></p>
+						<p>Put line bellow into your wp-config.php</p>
+<pre class="brush: html">define('FS_METHOD', 'direct');
+</pre>						
+						<p>above line</p>
+<pre class="brush: html">define('WP_DEBUG', false); 
+</pre>					
+<br/>
+<br/>
+						<p><strong>Solution 2:</strong></p>
+						<p>As a workaround, you can put your FTP credentials directly in wp-config.php</p>
+<pre class="brush: html">define( 'FTP_USER', 'username' );
+define( 'FTP_PASS', 'password' );
+define( 'FTP_HOST', 'ftp.example.org:21' );
+</pre>					
+						<p>above line</p>
+<pre class="brush: html">define('WP_DEBUG', false); 
+</pre>
+<br/>
+<br/>
+						<h5>C) Custom Permalinks Return 404 Errors</h5>
+                        <p>
+                            <b>Symptom:</b> I just setup my WordPress installation and my awesome new ArkaHost theme. I went into Admin -&gt; Settings -&gt; Permalinks and selected something other than the default option. But now when I try and navigate to a page, it just returns a generic “404 Error – Page not found” message. What gives?
+                        </p>
+                        <p>
+                            <b>Likely causes:</b> First, this is not a theme issue. The problem involves your core WordPress installation or your web server configuration.
+						</p>
+					</div>
+					
+
+				</div><!-- end row -->
+				
+				<div class="clearfix divline"></div>
+				<div class="row"  id="error-import">
+					<div class="col-md-12">
+						<h4>Error during import sample data</h4>
+						<h5>A) No Connection</h5>
+						<p>We provide a tool to help the user can use our data to form an overview, call <b>The Importer</b>. And to do that, this tool needs to be connected to our server to download plugins, xmls, images, configuration..etc.. So your computer MUST connect to internet while import sample data.</p>
+						<br/>
+						<h5>B) Missing images (imported successful pages, post, menu...)</h5>
+						<p>Could not see images after import data, Resolve: </p>
+						<ol>
+							<li> Make sure you <a href="#ftpUpload">did this action</a> </li>
+							<li> Install plugin "Wordpress Reset" after active -&gt; Tool -&gt; Reset ( Need to reset all before re-import )</li>
+							<li> Active ArkaHost theme and import data again.</li>
+						</ol>
+					</div>
+				</div>
+				
+			</div><!-- end container -->
+		</section><!-- end section -->
+
+		<section class="section white">
+			<div class="container">
+		        <div class="row" id="theme-options">
+		            <div class="col-md-12 left-align">
+		                <h2 class="dark-text">Theme Options </h2>
+						<div class="clearfix divline3"></div>
+						<p>ArkaHost has a Theme Options panel organized into logical tabbed sections, and each option/tab has a description of what it will do on the front end. We encourage you to please take some time and navigate through each tab to see what we offer. We provide many options for you can do many great things for the frontend. So, we cannot go over them here in this documentation.</p>
+						<p>Please go to Admin panel > Appearance > ArkaHost - Options to access the options. See below for screenshots and descriptions of our Appearance > ArkaHost - Options.</p>
+						<ul>
+						<li><span class="fa fa-angle-right"></span> <strong>General Settings</strong> - These options allow you to set logo, favicon, layout, breadcrumb, server API for import sample data.</li>
+						<li><span class="fa fa-angle-right"></span> <strong>Header Settings</strong> - You can select header layouts, add custom meta tags, hrefs and scripts to header with these options.</li>
+						<li><span class="fa fa-angle-right"></span> <strong>Footer Settings</strong> - You can select footer layouts, add Google Analytics code, Google Map url and some other footer links...</li>
+						<li><span class="fa fa-angle-right"></span> <strong>SEO</strong> - These options allow you to set content to meta tags, page title struct, Facebook meta tags,...</li>
+						<li><span class="fa fa-angle-right"></span> <strong>Blog</strong> - These options allow you to set the layout for the blog, number post per page ...</li>
+						<li><span class="fa fa-angle-right"></span> <strong>Article Settings</strong> - Setting for a single post page, with social icon, meta box, related post type, ...</li>
+						<li><span class="fa fa-angle-right"></span> <strong>Dynamic Sidebars</strong> - You can create unlimited sidebars and use it in any page you want without knowledge about Wordpress coding.</li>
+						
+						<li><span class="fa fa-angle-right"></span> <strong>Styling</strong> - These options allow you to set the primary color, background color of your site. You can add custom CSS on this tab.</li>
+						<li><span class="fa fa-angle-right"></span> <strong>Typography</strong> - These options allow you to set the color, font family, font size, font weight and font style.</li>
+						<li><span class="fa fa-angle-right"></span> <strong>Social Accounts</strong> - These options allow you to set your socials and will be displayed icons at header and footer, Leave blank to hide icons from front-end.</li>
+						<li><span class="fa fa-angle-right"></span> <strong>WooEcommerce</strong> - These options allow you to set global setting for WooEcommerce plugins, Layour for product page, layout for shop page,...</li>
+						<li><span class="fa fa-angle-right"></span> <strong>Compare Products</strong> - These options allow you to set setting compare product features.</li>
+						<li><span class="fa fa-angle-right"></span> <strong>Woo Magnifier</strong> - These options allow you to set Magnifier effect for images product in single product page.</li>
+						<li><span class="fa fa-angle-right"></span> <strong>Woo WishList</strong> - These options allow you to set Wishlist features.</li>
+						
+						</ul>
+		            </div><!-- end col -->
+					<div class="clearfix divline"></div>
+
+					<div class="col-md-3 center">
+						<a href="upload/general.png" data-rel="prettyPhoto" class="crop-thumb"><img src="upload/general.png" alt="" class="img-responsive img-thumbnail"></a>
+						<h4>General Settings</h4>
+					</div>
+					<div class="col-md-3 center">
+						<a href="upload/header.png" data-rel="prettyPhoto" class="crop-thumb"><img src="upload/header.png" alt="" class="img-responsive img-thumbnail"></a>
+						<h4>Header Settings</h4>
+					</div>
+					<div class="col-md-3 center">
+						<a href="upload/footer.png" data-rel="prettyPhoto" class="crop-thumb"><img src="upload/footer.png" alt="" class="img-responsive img-thumbnail"></a>
+						<h4>Footer Settings</h4>
+					</div>
+					<div class="col-md-3 center">
+						<a href="upload/seo.png" data-rel="prettyPhoto" class="crop-thumb"><img src="upload/seo.png" alt="" class="img-responsive img-thumbnail"></a>
+						<h4>SEO Settings</h4>
+					</div>
+
+					<div class="clearfix divline"></div>
+
+					<div class="col-md-3 center">
+						<a href="upload/blog.png" data-rel="prettyPhoto" class="crop-thumb"><img src="upload/blog.png" alt="" class="img-responsive img-thumbnail"></a>
+						<h4>Blog Settings</h4>
+					</div>
+					<div class="col-md-3 center">
+						<a href="upload/article.png" data-rel="prettyPhoto" class="crop-thumb"><img src="upload/article.png" alt="" class="img-responsive img-thumbnail"></a>
+						<h4>Article Settings</h4>
+					</div>
+					<div class="col-md-3 center">
+						<a href="upload/sidebar.png" data-rel="prettyPhoto" class="crop-thumb"><img src="upload/sidebar.png" alt="" class="img-responsive img-thumbnail"></a>
+						<h4>Dynamic Settings</h4>
+					</div>
+					<div class="col-md-3 center">
+						<a href="upload/styling.png" data-rel="prettyPhoto" class="crop-thumb"><img src="upload/styling.png" alt="" class="img-responsive img-thumbnail"></a>
+						<h4>Styling Settings</h4>
+					</div>
+
+					<div class="clearfix divline"></div>
+
+					<div class="col-md-3 center">
+						<a href="upload/typography.png" data-rel="prettyPhoto" class="crop-thumb"><img src="upload/typography.png" alt="" class="img-responsive img-thumbnail"></a>
+						<h4>Typography Settings</h4>
+					</div>
+					<div class="col-md-3 center">
+						<a href="upload/social.png" data-rel="prettyPhoto" class="crop-thumb"><img src="upload/social.png" alt="" class="img-responsive img-thumbnail"></a>
+						<h4>Social Accounts</h4>
+					</div>
+					<div class="col-md-3 center">
+						<a href="upload/woo.png" data-rel="prettyPhoto" class="crop-thumb"><img src="upload/woo.png" alt="" class="img-responsive img-thumbnail"></a>
+						<h4>WooEcommerce</h4>
+					</div>
+					<div class="col-md-3 center">
+						<a href="upload/compare.png" data-rel="prettyPhoto" class="crop-thumb"><img src="upload/compare.png" alt="" class="img-responsive img-thumbnail"></a>
+						<h4>Woo Compare Products</h4>
+					</div>
+					
+				
+					<div class="clearfix divline"></div>
+
+					<div class="col-md-3 center">
+						<a href="upload/magnifier.png" data-rel="prettyPhoto" class="crop-thumb"><img src="upload/magnifier.png" alt="" class="img-responsive img-thumbnail"></a>
+						<h4>Woo Magnifier</h4>
+					</div>
+					<div class="col-md-3 center">
+						<a href="upload/wishlist.png" data-rel="prettyPhoto" class="crop-thumb"><img src="upload/wishlist.png" alt="" class="img-responsive img-thumbnail"></a>
+						<h4>Woo WishList</h4>
+					</div>
+					
+				</div>
+			</div><!-- end container -->
+		</section><!-- end section -->
+		<section class="section grey">
+			<div class="container">
+				<div class="row" id="page-settings">
+		            <div class="col-md-12 left-align">
+		                <h2 class="dark-text">ArkaHost Theme - Page Settings </h2>
+						<div class="clearfix divline3"></div>
+					</div>
+		            <div class="col-md-6 left-align">
+						<p>In each page, There are some options for frontend which overwrite setting from Appearance > ArkaHost - Options and just apply for that page.</p>
+						<p>Go to edit page from admin panel > ArkaHost Theme - Page Settings.</p>
+						<p>These options allow you to set other header, footer, logo, breadcrumb, sidebar, ... </p>
+					</div>
+					<div class="col-md-6 left-align">
+						<a href="upload/page-settings.png" data-rel="prettyPhoto" class="crop-thumb"><img src="upload/page-settings.png" alt="" class="img-responsive img-thumbnail"></a>
+					</div>
+				</div>
+						
+			</div><!-- end container -->
+		</section><!-- end section -->
+		<section class="section white">
+			<div class="container">
+				<div class="row" id="common-layout">
+		            <div class="col-md-12 left-align">
+						<h2 class="dark-text">Page layouts </h2>
+						<div class="clearfix divline3"></div>
+					</div>
+					<div class="col-md-6 left-align">
+						<p>Arkhost provide 4 layout for page:<br/>
+						<ul>
+						<li>Default Layout (widthout sidebar)</li>
+						<li>Page Full Layout</li>
+						<li>Page Left Sidebar</li>
+						<li>Page Right Sidebar</li>
+						</ul>
+						</p>
+					</div>
+		            <div class="col-md-6 left-align">
+						<a href="upload/page-layout.png" data-rel="prettyPhoto" class="crop-thumb">
+						<img class="img-responsive img-thumbnail" src="upload/page-layout.png">
+						</a>
+		            </div><!-- end col -->
+		        </div><!-- end row -->
+			</div><!-- end container -->
+		</section><!-- end section -->
+		<section class="section grey">
+			<div class="container">
+		        <div class="row" id="custom-css">
+		            <div class="col-md-12 left-align">
+		                <h2 class="dark-text">Custom CSS</h2>
+						<div class="clearfix divline3"></div>
+					</div>
+					<div class="col-md-6 left-align">
+						<p>ArkaHost theme provides a way for you can add custom CSS. Which you can apply your change without edit CSS files <br/>
+                        To add CSS, go to Appearance > ArkaHost - Options > Styling<br/>
+                        Scroll down, You will get some fields as picture.<br/><br/>
+						</p>						
+						<p>We provide 3 options:<br/>
+						<strong>Global CSS</strong> - Snippet CSS will be apply for all screen<br/>
+						<strong>Tablets CSS</strong> - Snippet CSS will be apply for just screen from 768px to 985px<br/>
+						<strong>Wide Phones CSS</strong> - Snippet CSS will be apply for just screen from 480px to 767px<br/><br/>
+					</div>
+					<div class="col-md-6 left-align">
+						<a href="upload/custom-css.png" data-rel="prettyPhoto" class="crop-thumb">
+						<img class="img-responsive img-thumbnail" src="upload/custom-css.png"><br/>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section white">
+			<div class="container">
+		        <div class="row"  id="vc">
+		            <div class="col-md-12 left-align">
+		                <h2 class="dark-text">Visual Composer </h2>
+						<div class="clearfix divline3"></div>
+						<p>Build complex, content rich pages in just minutes. No programming knowledge required! Forget about fighting with [shortcodes].</p>
+						<p><strong>We strongly recommend you read document:</strong> <a href="http://vc.wpbakery.com/" target="_blank">vc.wpbakery.com/</a>
+						</p>
+		            </div><!-- end col -->
+					<div class="clearfix divline" id="vc-start"></div>
+
+					<div class="col-md-6 left-align">
+		                <h4>Getting started </h4>
+						<p>
+						To edit with Visual Composer: from edit page, click on button "Backend Editor"
+						</p>
+		            </div><!-- end col -->
+					<div class="col-md-6 left-align">
+						<a href="upload/sc_start.png" data-rel="prettyPhoto" class="crop-thumb">
+						<img class="img-responsive img-thumbnail" src="upload/sc_start.png"><br/>
+						</a>
+					</div>
+		         </div><!-- end row -->
+			</div><!-- end container -->
+		</section><!-- end section -->
+		<section class="section grey">
+			<div class="container">
+				<div class="row" id="king-elements">
+		            <div class="col-md-12 left-align">
+		                <h2 class="dark-text">King Elements </h2>
+						<div class="clearfix divline3"></div>
+					</div>
+					<div class="col-md-6 left-align">
+						<p>Many extend elements are included on ArkaHost theme. They are created base on Visual Composer elements. Bellow that are some important elements.
+						</p>
+					</div>
+					<div class="col-md-6 left-align">
+						<a href="upload/king-elements.png" data-rel="prettyPhoto" class="crop-thumb">
+						<img class="img-responsive img-thumbnail" src="upload/king-elements.png"><br/>
+						</a>
+					</div>
+				</div>
+				<div class="clearfix divline"></div>
+				<div class="row" id="king-elements">
+		            <div class="col-md-6 left-align">
+						<h4>Tabs-Sliders</h4>
+						<p><h5>Setting:</h5></p>
+						<p><strong>Display as - Select type display</strong><br/>
+							<em>Display as Tabs</em><br/>
+							<em>Vertical Style</em><br/>
+							<em>Display as Owl Carousel</em><br/>
+							<em>Display as Outline Sliders</em><br/>
+						</p>
+						<p><strong>Auto rotate tabs - Auto rotate tabs each X seconds.</strong></p>
+						<p><strong>Extra class name - Extra class for tabs.</strong></p>
+					</div>
+					<div class="col-md-6">
+						<div class="col-md-6 center-align">
+						Frontend View as slider<br/>
+						<a href="upload/king-tab-f.png" data-rel="prettyPhoto" class="crop-thumb"><img class="img-responsive img-thumbnail" src="upload/king-tab-f.png"></a><br/><br/>
+						</div>
+						<div class="col-md-6 center-align">
+						Frontend View as Tab
+						<a href="upload/king-tab-f-t.png" data-rel="prettyPhoto" class="crop-thumb"><img class="img-responsive img-thumbnail" src="upload/king-tab-f-t.png"></a>
+						</div>
+						<div class="col-md-12 center-align">
+						<a href="upload/king-tab.png" data-rel="prettyPhoto" class="crop-thumb"><img class="img-responsive img-thumbnail" src="upload/king-tab.png"></a>
+						</div>
+					</div>
+					<div class="clearfix divline"></div>
+					<div class="col-md-6 left-align">
+						<h5>Tab Item Setting</h5>
+						<p><strong>Title - Tab title.</strong><br/>
+						</p>
+						<p><strong>Tab icon.</strong>
+						<em>Display as Tabs</em><br/>
+						<em>Awesome Icon</em><br/>
+						<em>Simple-line Icon</em><br/>
+						<em>Etline Icon</em><br/>
+						</p>
+						<p><strong>Extra class name - Extra class for tabs.</strong></p>
+					</div>
+					<div class="col-md-6">
+						Tab Item settings<br/>
+						<a href="upload/king-tab-item.png" data-rel="prettyPhoto" class="crop-thumb"><img class="img-responsive img-thumbnail" src="upload/king-tab-item.png"></a>
+					</div>
+				</div>
+				<div class="clearfix divline"></div>
+				<div class="row" id="king-elements">
+		            <div class="col-md-6 left-align">
+						<h4>X-Code Editor</h4>
+						<p>Allow you add PHP, HTML, Javascript, CSS, ShortCodes. Similar X-code widget of Wordpress</p>
+					</div>
+					<div class="col-md-6">
+						<img class="img-responsive img-thumbnail" src="upload/x-code.png">
+					</div>
+				</div>
+				<div class="clearfix divline"></div>
+				<div class="row" id="king-elements">
+		            <div class="col-md-6 left-align">
+						<h4>FAQs Elements</h4>
+						<p>Display list accordion items from faqs post type</p>
+					</div>
+					<div class="col-md-6">
+						Backend Setting<br/>
+						<a href="upload/faq-elm.png" data-rel="prettyPhoto" class="crop-thumb"><img class="img-responsive img-thumbnail" src="upload/faq-elm.png"></a>
+					</div>
+				</div>
+				<div class="clearfix divline"></div>
+				<div class="row" id="king-elements">
+		            <div class="col-md-6 left-align">
+						<h4>Margin Spacing</h4>
+						<p>Create new div for separate line. You can adjust margin-top and margin-bottom for div.</p>
+					</div>
+					<div class="col-md-6">
+						<img class="img-responsive img-thumbnail" src="upload/margin.png">
+					</div>
+				</div>
+				<div class="clearfix divline"></div>
+				<div class="row" id="king-elements">
+		            <div class="col-md-6 left-align">
+						<h4>Our Team</h4>
+						<p>Display list of members from Our Team management.</p>
+						<p>We support many layout for displaying - <a href="http://arkahost.com/our-team/" target="_blank">See more layouts</a>.</p>
+					</div>
+					<div class="col-md-6">
+						<img class="img-responsive img-thumbnail" src="upload/our-team.png">
+					</div>
+				</div>
+				<div class="clearfix divline"></div>
+				<div class="row" id="king-elements">
+		            <div class="col-md-6 left-align">
+						<h4>Our Work</h4>
+						<p>Display list of project from Our Work management.</p>
+						<p>We support many layout for displaying - <a href="http://arkahost.com/portfolio-2-columns/" target="_blank">See more layouts</a>.</p>
+					</div>
+					<div class="col-md-6">
+						<img class="img-responsive img-thumbnail" src="upload/our-work-b.png">
+					</div>
+				</div>
+				<div class="clearfix divline"></div>
+				<div class="row" id="king-elements">
+		            <div class="col-md-6 left-align">
+						<h4>Testimonials</h4>
+						<p>Display list of testimonial from Testimonials management.</p>
+						<p>We support many layout for displaying</p>
+					</div>
+					<div class="col-md-6">
+						<img class="img-responsive img-thumbnail" src="upload/testimonial-elm.png">
+					</div>
+				</div>
+				<div class="clearfix divline"></div>
+				<div class="row" id="king-elements">
+		            <div class="col-md-6 left-align">
+						<h4>Pricing Tables</h4>
+						<p>Display list of pricinge from Pricing Tables management.</p>
+						<p>We support many layout for displaying - <a href="http://arkahost.com/features/pricing-tables/" target="_blank">See more layouts</a>.</p>
+					</div>
+					<div class="col-md-6">
+						<img class="img-responsive img-thumbnail" src="upload/pricing-elm.png">
+					</div>
+				</div>
+				<div class="clearfix divline"></div>
+				<div class="row" id="king-elements">
+		            <div class="col-md-6 left-align">
+						<h4>King Loop</h4>
+						<p>Element for can create your own layout. We recommend for developer to use this.</p>
+						<p>You can use html tag with some params intergated in.</p>
+						<p>We support this element for 3 post type: Post, Our Team, Pricing Tables</p>
+						<p>Available params: {title}, {position}, {img}, {des}, {link}, {social}, {date}, {category}, {author}, {comment}, {price}, {per}, {submit-link}, {submit-text}, {des-li}, {des-br}, {day}, {month}</p>
+					</div>
+					<div class="col-md-6">
+						<img class="img-responsive img-thumbnail" src="upload/king-loop-elm.png">
+					</div>
+				</div>
+				<div class="clearfix divline"></div>
+				<div class="row" id="king-elements">
+		            <div class="col-md-6 left-align">
+						<h4>Pie Chart</h4>
+						<p>Element for display a circle chart on frontend.</p>
+						<p><a href="http://arkahost.com/features/pie-charts/" target="_blank">See more demos</a>.</p>
+					</div>
+					<div class="col-md-6">
+						<div class="col-md-6">
+						Frontend View<br/>
+						<a href="upload/pie-chart-f.png" data-rel="prettyPhoto"><img class="img-responsive img-thumbnail" src="upload/pie-chart-f.png"></a>
+						</div>
+						<div class="col-md-6">
+						Backend Setting<br/>
+						<a href="upload/pie-chart.png" data-rel="prettyPhoto"><img class="img-responsive img-thumbnail" src="upload/pie-chart.png"></a>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix divline"></div>
+				<div class="row" id="king-elements">
+		            <div class="col-md-6 left-align">
+						<h4>Progress Bars</h4>
+						<p>Element display a progressbar on frontend.</p>
+						<p><a href="http://arkahost.com/features/progress-bars/" target="_blank">See more demos</a>.</p>
+					</div>
+					<div class="col-md-6">
+						<div class="col-md-12">
+						Frontend View<br/>
+						<a href="upload/processbar-f.png" data-rel="prettyPhoto"><img class="img-responsive img-thumbnail" src="upload/processbar-f.png"></a>
+						<br/>
+						<br/>
+						</div>
+						<div class="col-md-12">
+						Backend Setting<br/>
+						<a href="upload/processbar-elm.png" data-rel="prettyPhoto"><img class="img-responsive img-thumbnail" src="upload/processbar-elm.png"></a>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix divline"></div>
+				<div class="row" id="king-elements">
+		            <div class="col-md-6 left-align">
+						<h4>Divider</h4>
+						<p>Display a separate div with some background image.</p>
+						<p>We support many background for displaying - <a href="http://arkahost.com/features/list-of-dividers/" target="_blank">See more demos</a>.</p>
+					</div>
+					<div class="col-md-6">
+						<img class="img-responsive img-thumbnail" src="upload/divider-elm.png">
+					</div>
+				</div>
+				<div class="clearfix divline"></div>
+				<div class="row" id="king-elements">
+		            <div class="col-md-6 left-align">
+						<h4>Title Styles</h4>
+						<p>Create normail H1,H2,..H6 HTML tag with some params.</p>
+						<p>We support for HTML tag on title of element.</p>
+					</div>
+					<div class="col-md-6">
+						<img class="img-responsive img-thumbnail" src="upload/title-style.png">
+					</div>
+				</div>
+				<div class="clearfix divline"></div>
+				<div class="row" id="king-elements">
+		            <div class="col-md-6 left-align">
+						<h4>Video Background</h4>
+						<p>A way for you can put a Youtube video as a background of a box. Just enter ID of video then put content to the element.</p>
+					</div>
+					<div class="col-md-6">
+						<img class="img-responsive img-thumbnail" src="upload/video-bg.png">
+						<img class="img-responsive img-thumbnail" src="upload/video-bg-content.png">
+					</div>
+				</div>				
+			</div>
+		</section>
+		<section class="section white">
+			<div class="container">
+		        <div class="row" id="page-columns">
+		            <div class="col-md-12 left-align">
+		                <h2 class="dark-text">Columns Classes </h2>
+						<div class="clearfix divline3"></div>
+		            </div><!-- end col -->
+					<div class="col-md-6">
+						<p>Arkahost provides a list of classes for columns which you can use with Visual Composer columns.
+						</p>
+						<div class="intro2">
+						Please use class 'last' for last column If that column auto break to new line.
+						For example: 'one_fourth last'
+						</div>
+        			</div>
+					<div class="col-md-6">
+						
+						<img class="img-responsive img-thumbnail" src="upload/page-columns-setting.png">
+					</div>
+					<div class="clearfix divline"></div>
+		        	<div class="col-md-6">
+		                <h4>one_half</h4>
+		        	</div>
+		        	<div class="col-md-6">
+						<a href="upload/one_half.png" data-rel="prettyPhoto">
+		                <img class="img-responsive img-thumbnail" src="upload/one_half.png">
+						</a>
+		        	</div>
+					<div class="clearfix divline"></div>
+		        	<div class="col-md-6">
+		                <h4>one_third</h4>
+		        	</div>
+		        	<div class="col-md-6">
+						<a href="upload/one_third.png" data-rel="prettyPhoto">
+		                <img class="img-responsive img-thumbnail" src="upload/one_third.png">
+						</a>
+		        	</div>
+					<div class="clearfix divline"></div>
+		        	<div class="col-md-6">
+		                <h4>one_fourth</h4>
+		        	</div>
+		        	<div class="col-md-6">
+						<a href="upload/one_fourth.png" data-rel="prettyPhoto">
+		                <img class="img-responsive img-thumbnail" src="upload/one_fourth.png">
+						</a>
+		        	</div>
+					<div class="clearfix divline"></div>
+		        	<div class="col-md-6">
+		                <h4>one_fifth</h4>
+		        	</div>
+		        	<div class="col-md-6">
+						<a href="upload/one_fifth.png" data-rel="prettyPhoto">
+		                <img class="img-responsive img-thumbnail" src="upload/one_fifth.png">
+						</a>
+		        	</div>
+					<div class="clearfix divline"></div>
+		        	<div class="col-md-6">
+		                <h4>one_third, two_third</h4>
+		        	</div>
+		        	<div class="col-md-6">
+						<a href="upload/one_3_23.png" data-rel="prettyPhoto">
+		                <img class="img-responsive img-thumbnail" src="upload/one_3_23.png">
+						</a>
+		        	</div>
+					<div class="clearfix divline"></div>
+		        	<div class="col-md-6">
+		                <h4>three_fourth, one_fourth</h4>
+		        	</div>
+		        	<div class="col-md-6">
+						<a href="upload/one_34_4.png" data-rel="prettyPhoto">
+		                <img class="img-responsive img-thumbnail" src="upload/one_34_4.png">
+						</a>
+		        	</div>
+					<div class="clearfix divline"></div>
+		        	<div class="col-md-6">
+		                <h4>onecol_forty , onecol_sixty </h4>
+		        	</div>
+		        	<div class="col-md-6">
+						<a href="upload/one_4_6.png" data-rel="prettyPhoto">
+		                <img class="img-responsive img-thumbnail" src="upload/one_4_6.png">
+						</a>
+		        	</div>
+					<div class="clearfix divline"></div>
+		        	<div class="col-md-6">
+		                <h4>onecol_thirtyfive , one_third, onecol_thirtyfive </h4>
+		        	</div>
+		        	<div class="col-md-6">
+						<a href="upload/one_35_3_35.png" data-rel="prettyPhoto">
+		                <img class="img-responsive img-thumbnail" src="upload/one_35_3_35.png">
+						</a>
+		        	</div>
+		        </div><!-- end row -->
+				
+				
+			</div><!-- end container -->
+		</section><!-- end section -->
+		<section class="section grey">
+			<div class="container">
+		        <div class="row" id="blog">
+		            <div class="col-md-12 left-align">
+		                <h2 class="dark-text">Blog </h2>
+						<div class="clearfix divline3"></div>
+		            </div><!-- end col -->
+		        	<div class="col-md-6">
+		                <p>We provide 5 layouts for blog posts page. you can select one of them to apply for your posts.</p>		                
+		        	</div>
+
+		        	<div class="col-md-6">
+		                <img class="img-responsive img-thumbnail" src="upload/blog-layouts.png">
+		        	</div>
+					<div class="clearfix divline"></div>
+		        	<div class="col-md-6 center">
+						<a href="upload/blog-general.png" data-rel="prettyPhoto" class="crop-thumb">
+		                <img class="img-responsive img-thumbnail" src="upload/blog-general.png">
+						</a>
+						<h4>General Layout</h4>
+		        	</div>
+		        	<div class="col-md-6 center">
+						<a href="upload/blog-large.png" data-rel="prettyPhoto" class="crop-thumb">
+		                <img class="img-responsive img-thumbnail" src="upload/blog-large.png">
+						</a>
+						<h4>Large Images Layout</h4>
+		        	</div>
+				
+					<div class="clearfix divline"></div>
+		        	<div class="col-md-4 center">
+						<a href="upload/blog-2columns.png" data-rel="prettyPhoto" class="crop-thumb">
+		                <img class="img-responsive img-thumbnail" src="upload/blog-2columns.png">
+						</a>
+						<h4>2 Columns Layout</h4>
+		        	</div>
+		        	<div class="col-md-4 center">
+						<a href="upload/blog-masonry.png" data-rel="prettyPhoto" class="crop-thumb">
+		                <img class="img-responsive img-thumbnail" src="upload/blog-masonry.png">
+						</a>
+						<h4>Masonry Layout</h4>	
+		        	</div>
+		        	<div class="col-md-4 center">
+						<a href="upload/blog-timeline.png" data-rel="prettyPhoto" class="crop-thumb">
+		                <img class="img-responsive img-thumbnail" src="upload/blog-timeline.png">
+						</a>
+						<h4>Timeline Layout</h4>
+		        	</div>
+		        </div><!-- end row -->
+				
+				<div class="clearfix divline"></div>
+				<div class="row" id="blog-switch">
+		        	<div class="col-md-6">
+		                <h4>How to switch layout?</h4>
+						<p>To switch between layouts. Go to Appearance > ArkaHost - Options, switch to Blog tab, then select the layout from dropdown Blog Layout.
+						</p>
+		        	</div>
+
+		        	<div class="col-md-6">
+						<a href="upload/blog-switch.png" data-rel="prettyPhoto" class="">
+		                <img class="img-responsive img-thumbnail" src="upload/blog-switch.png">
+						</a>
+		        	</div>
+		        </div><!-- end row -->
+				
+				
+			</div><!-- end container -->
+		</section><!-- end section -->
+		
+		<section class="section white">
+			<div class="container">
+		        <div class="row" id="mega">
+					<div class="col-md-12 left-align">
+		                <h2 class="dark-text">Mega Menu </h2>
+					</div>
+					<div class="clearfix divline3"></div>
+		            <div class="col-md-6 left-align">
+						<p>With Mega Menu, you can add image, text as a short description to a menu. Moreover, you can add single menus from WordPress menu default to mega menu. This is showing how mega menu will display front-end.</p>
+						<div class="intro2">
+						<strong>Notice, you just can use Megamenu from the second level menu. They must be submenu.</strong>
+						</div>
+					</div>
+					<div class="col-md-6 left-align">
+						<br/>
+						<a href="upload/megamenu.png" data-rel="prettyPhoto" class="crop-thumb">
+						<img class="img-responsive img-thumbnail" src="upload/megamenu.jpg">
+						</a>
+					</div>
+					<div class="clearfix divline"></div>
+		            <div class="col-md-6 left-align">
+						<h4>How you can manage Mega menu ? </h4>
+						<p>
+						Go to Admin -&gt; Mega Menu ( This area manage all mega menu and you can how many menu you want )
+						</p>
+					</div>
+					<div class="col-md-6 left-align">
+						<br>
+						<a href="upload/mega-admin.png" data-rel="prettyPhoto" class="">
+						<img class="img-responsive img-thumbnail" src="upload/mega-admin.png">
+						</a>
+					</div>
+					<div class="col-md-6 left-align">
+						<br>
+						<p>- Create New then add content, single menu ( Menu you create in Appearance -&gt; Menus ) as picture below
+						<br>
+					</div>
+					<div class="col-md-6 left-align">
+						<br>
+						<a href="upload/megamenu-item.png" data-rel="prettyPhoto" class="">
+						<img class="img-responsive img-thumbnail" src="upload/megamenu-item.png">
+						</a>
+						<br>
+					</div>
+					<div class="clearfix divline"></div>
+					<div class="col-md-6 left-align">
+						<p>
+						- How can call Mega menu to front-end? - Go to Appearance -&gt; Menus insert as default Menu.
+						</p>
+					</div>
+					<div class="col-md-6 left-align">
+						<a href="upload/mg3.png" data-rel="prettyPhoto" class="">
+						<img class="img-responsive img-thumbnail" src="upload/mg3.png">
+						</a>
+		            </div><!-- end col -->
+		        </div><!-- end row -->
+			</div>
+		</section>
+		<section class="section grey">
+			<div class="container">
+		        <div class="row"  id="sections">
+		            <div class="col-md-12 left-align">
+		                <h2 class="dark-text">Package Sections</h2>
+					</div>
+				</div>
+				<div class="clearfix divline3"></div>
+				<div class="row" id="what-is-package-sections">
+		            <div class="col-md-12 left-align">
+		                <h4>What is Package Sections?</h4>
+                        <p>It's really hard to create boxes or sections on a page if you do not know about HTML/CSS. You want to use some sections from page A for page B, but it is hard to copy between pages by editor on admin panel.</p>
+                        <p>For that reason, we created many packages of sections for you can use. You can insert any section to any page with just one click. Remain works just modify content and media fit with your ideas.</p>
+                        <p>You can use new sections when we release theme perfectly without update theme.</p>
+					</div>
+				</div>
+				<div class="clearfix divline"></div>
+				<div class="row" id="how-to-add-sections-to-page">
+		            <div class="col-md-12 left-align">					
+						<h4>How to add sections to page </h4>
+					</div>
+		            <div class="col-md-6 left-align">
+						<p>You can see a new button on Visual Compose at the bottom. See screenshot bellow</p>
+					</div>
+					 <div class="col-md-6 left-align">
+						<a href="upload/king-theme-button.png" data-rel="prettyPhoto">
+		                <img class="img-responsive img-thumbnail" src="upload/king-theme-button.png">
+						</a>
+					</div>
+		            <div class="col-md-6 left-align">
+						<p>Click that button you can see many sections available for the theme. Current we provide 100 sections smooth, easy modify, responsive strongly,...</p>
+						<p>Once get your element you want, just click Install button and wait for system put content and media to the editor.</p>
+					</div>
+					 <div class="col-md-6 left-align">
+						<a href="upload/king-theme-arkahost.png" data-rel="prettyPhoto">
+		                <img class="img-responsive img-thumbnail" src="upload/king-theme-arkahost.png">
+						</a>
+					</div>
+		            <div class="col-md-6 left-align">
+						<p>A new row, elements &amp; content will be added into the editor as bellow.</p>
+					</div>
+					 <div class="col-md-6 left-align">
+						<a href="upload/king-theme-added.png" data-rel="prettyPhoto">
+		                <img class="img-responsive img-thumbnail" src="upload/king-theme-added.png">
+						</a>
+					</div>
+		            <div class="col-md-6 left-align">
+						<p>Now you will have result bellow on frontend after Save. Enjoy our elements!</p>
+					</div>
+					 <div class="col-md-6 left-align">
+						<a href="upload/king-theme-frontend.png" data-rel="prettyPhoto">
+		                <img class="img-responsive img-thumbnail" src="upload/king-theme-frontend.png">
+						</a>
+					</div>
+				</div>
+				
+			</div>
+		</section>		
+		
+		<section class="section white">
+			<div class="container">
+				<div class="row" id="custom-posts">
+		            <div class="col-md-12 left-align">
+		                <h2 class="dark-text">Custom Post Types </h2>
+					</div>
+				</div>
+				<div class="clearfix divline3"></div>
+				<div class="row" id="member-item">
+		            <div class="col-md-6 left-align">
+		                <h4>Team/Member Post Type </h4>
+						<p>The theme provides team/member post type. We provide some attributes for a member, which you can see on the picture beside.</p>
+						<p>To create new member, go to <strong>Our Team > Add new Staff</strong></p>
+						<p>See more on beside picture.</p>
+					</div>
+					<div class="col-md-6 left-align">
+						<a href="upload/memeber-item.png" data-rel="prettyPhoto" class="">
+		                <img class="img-responsive img-thumbnail" src="upload/memeber-item.png">
+						</a>
+					</div>
+				</div>
+				<div class="clearfix divline"></div>
+				<div class="row" id="project-item">
+		            <div class="col-md-6 left-align">
+		                <h4>Projects/Our Works Post Type </h4>
+						<p>The theme provides Project/Our Work post type. We provide some attributes for a project.items, which you can see on the picture beside.<br/>
+                        We support gallery image on the details page of the project, just put your image into description on the content of the post.</p>
+						<p>To create new project, go to <strong>Our Works > Add new Project</strong></p>
+						<p>See more on beside picture.</p>
+					</div>
+					<div class="col-md-6 left-align">
+						<a href="upload/our-work.png" data-rel="prettyPhoto" class="">
+		                <img class="img-responsive img-thumbnail" src="upload/our-work.png">
+						</a>
+					</div>
+				</div>
+				<div class="clearfix divline"></div>
+				<div class="row" id="testimonial-item">
+		            <div class="col-md-6 left-align">
+		                <h4>Testimonial Post Type </h4>
+						<p>Theme provides Testimonials post type. You can add/remove items easy. See more at screenshot beside</p>
+						<p>To create new testimonial, go to <strong>Testimonials > Add new Testimonial</strong></p>
+						<p>See more on beside picture.</p>
+					</div>
+					<div class="col-md-6 left-align">
+						<a href="upload/testimonial.png" data-rel="prettyPhoto" class="">
+		                <img class="img-responsive img-thumbnail" src="upload/testimonial.png">
+						</a>
+					</div>
+				</div>
+				<div class="clearfix divline"></div>
+				<div class="row" id="pricing-item">
+		            <div class="col-md-6 left-align">
+		                <h4>Pricing Tables Post Type </h4>
+						<p>Theme provides some style of pricing tables. That we create management for the theme. Each item will have values and attribute as the picture.</p> 
+						<p>To create new pricing, go to <strong>Pricing Tables > Add new Pricing</strong></p>
+						<p>See more on beside picture.</p>
+					</div>
+					<div class="col-md-6 left-align">
+						<a href="upload/pricing-item.png" data-rel="prettyPhoto" class="">
+		                <img class="img-responsive img-thumbnail" src="upload/pricing-item.png">
+						</a>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		<section class="section grey">
+			<div class="container">
+				<div class="row" id="translate-theme">
+		            <div class="col-md-12 left-align">
+		                <h2 class="dark-text">Translate ArkaHost Theme </h2>
+						<div class="clearfix divline3"></div>
+						<p>
+						ArkaHost provide king.po file on in /languages folder. You can use for translation for any languages.
+						</p>
+					</div>
+		            <div class="col-md-6 left-align">
+						<h4>Translate Themes using the Poedit Program</h4>
+		                <p>Poedit is a common program which you can use to translate the theme. It’s available for free on <a href="http://poedit.net" target="_blank">poedit.net.</a></p>
+						<p>After you have installed Poedit, you can open it and select File > Open. Then select the king.po file from the theme you wish to translate which you can find in the /languages/ folder of ArkarHost theme.</p>
+						<p>Then go through every line of text and translate it to your native language. Afterwards you can save as the catalog with your language code (for example es_ES.po) File > Save as . Normally Poedit automatically creates the .mo file and saves it, too.</p>
+
+						<p>The last step you have to do is to upload your created language files to /languages folder of ArkarHost theme using FTP.</p></p>
+					</div>
+					<div class="col-md-6 left-align">
+					Step 1<br/>
+					<img class="img-responsive img-thumbnail" src="upload/language-1.png">
+					<br/>
+					<br/>
+					Step 2<br/>
+					<img class="img-responsive img-thumbnail" src="upload/language-2.png">
+					<br/>
+					<br/>
+					Step 2<br/>
+					<img class="img-responsive img-thumbnail" src="upload/language-3.png">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="customization" class="section white">
+			<div class="container">
+				<div class="row">
+		            <div class="col-md-12 left-align">
+		                <h2 class="dark-text">Customization </h2>
+					</div>
+				</div>
+				<div class="clearfix divline3"></div>
+				<div class="row" id="show-hide-user-menu">
+		            <div class="col-md-6 left-align">
+						<h4>How to show/hide user link login/register</h4>
+						<p>
+						Just go to Appearance > ArkaHost - Options > General Setting<br/>
+                        Scroll down to "Login Link" field then select Hide to disable links.
+						
+						</p>
+					</div>
+					<div class="col-md-6 left-align">
+						<img class="img-responsive img-thumbnail" src="upload/user-link.png">
+					</div>
+				</div>
+				<div class="clearfix divline"></div>
+				<div class="row" id="show-hide-cart-icon">
+		            <div class="col-md-6 left-align">
+						<h4>How to show/hide cart icon - WooEcommerce</h4>
+						<p>
+						Just go to Appearance > ArkaHost - Options > General Setting<br/>
+                        Scroll down to "Mini Cart" field then choose Hide to disable cart icon.
+						
+						</p>
+					</div>
+					<div class="col-md-6 left-align">
+						<img class="img-responsive img-thumbnail" src="upload/mini-cart.png">
+					</div>
+				</div>
+				<div class="clearfix divline"></div>
+				<div class="row" id="hide-search-icon">
+		            <div class="col-md-6 left-align">
+						<h4>How to hide search icon on menu</h4>
+						<p>
+						Just go to Appearance > ArkaHost - Options > General Setting<br/>
+                        Scroll down to "Search box in Menu" field then select Hide to disable cart icon.        				
+						</p>
+					</div>
+					<div class="col-md-6 left-align">
+						<img class="img-responsive img-thumbnail" src="upload/search-icon.png">
+					</div>
+				</div>
+				<div class="clearfix divline"></div>
+				<div class="row" id="change-topinfo">
+		            <div class="col-md-6 left-align">
+						<h4>How to change top info: email/phone</h4>
+						<p>
+						Just go to Appearance > ArkaHost - Options > General Setting<br/>
+                        Scroll down to "Your Email" or "Your Phone" field then insert your values.						
+						</p>
+					</div>
+					<div class="col-md-6 left-align">
+						<img class="img-responsive img-thumbnail" src="upload/top-info.png">
+					</div>
+				</div>
+				<div class="clearfix divline"></div>
+				<div class="row" id="add-icon-menu">
+		            <div class="col-md-6 left-align">
+						<h4>How to add icon for menu item</h4>
+						<p>To enable icon for menu item. We use description field for customize.<br/>
+                        Firstly, you must enable description of menu from Screen Options on top right<br/>
+						Then put into description with struct bellow:<br/>
+						icon:[name_of_icon]<br/>
+						Example:<br/>
+						icon:home<br/>
+						icon:plus-square<br/>
+						icon:leaf<br/>
+						<strong>Notice:</strong> We just use Awesome Font icon for menu.
+						
+						</p>
+					</div>
+					<div class="col-md-6 left-align">
+						<img class="img-responsive img-thumbnail" src="upload/menu-icon-f.png">
+						<a href="upload/menu-icon-b.png" data-rel="prettyPhoto" class="">
+						<img class="img-responsive img-thumbnail" src="upload/menu-icon-b.png">
+						</a>
+					</div>
+				</div>
+				<div class="clearfix divline"></div>
+				<div class="row" id="change-social">
+		            <div class="col-md-6 left-align">
+						<h4>How to change social links</h4>
+						<p>In Appearance > ArkaHost - Options, we provide setting for the social account. Which you can put account links.</p>
+						<p>Go to Appearance > ArkaHost - Options > Social tab<br/>Just put full links of your accounts to input field then press Save Changes</p>
+						<p>Exp: For twitter icon, We put https://twitter.com/KingTheme </p>
+					</div>
+					<div class="col-md-6 left-align">
+						<a href="upload/social-links.png" data-rel="prettyPhoto" class="">
+						<img class="img-responsive img-thumbnail" src="upload/social-links.png">
+						</a>
+					</div>
+				</div>
+				<div class="clearfix divline"></div>
+				<div class="row" id="change-copyright">
+		            <div class="col-md-6 left-align">
+						<h4>How to change copyright info?</h4>
+						<p>In Appearance > ArkaHost - Options, go to Footer Setting tab<br/>
+						Scroll down to "Footer Text Copyrights" field then put your info here, in frontend it will show as the same picture</p>
+					</div>
+					<div class="col-md-6 left-align">
+						<img class="img-responsive img-thumbnail" src="upload/copy-right.png">
+						<img class="img-responsive img-thumbnail" src="upload/copy-right-f.png">
+					</div>
+				</div>
+				<div class="clearfix divline"></div>
+				<div class="row" id="remove-footer-links">
+		            <div class="col-md-6 left-align">
+						<h4>How to remove footer links: Terms of Service	| Privacy Policy</h4>
+						<p>First you must know which footer template you are using. Go to Footer Settings tab, check which footer your are using. Then open folder /arkarhost/templates/footer <br/>In that folder, you can file template of the current footer. Open it with any text editor. Then find line as screenshot then remove it</p>
+					</div>
+					<div class="col-md-6 left-align">
+						<a href="upload/footer-link-remove.png" data-rel="prettyPhoto" class="crop-thumb">
+						<img class="img-responsive img-thumbnail" src="upload/footer-link-remove.png">
+						</a>
+					</div>
+				</div>
+				<div class="clearfix divline"></div>
+				<div class="row" id="change-background">
+		            <div class="col-md-6 left-align">
+						<h4>How to change background of sections</h4>
+						<p>You want to have a highlight or impress background. Bellow instruction will help you solve that.</p>
+						<p><strong>Notice: We just can change the background image for a row, not background color. And background image just for row on top level</strong></p>
+						<p>Firstly, switch to Visual Composer editor mode on the editor. Then click on setting of row. Then select the background image for your row.</p>
+					</div>
+					<div class="col-md-6 left-align">
+						<a href="upload/row-settings.png" data-rel="prettyPhoto" class="crop-thumb">
+						<img class="img-responsive img-thumbnail" src="upload/row-settings.png">
+						</a>
+						<br>
+						<br>
+						Before
+						<img class="img-responsive img-thumbnail" src="upload/before.png">
+						
+						<br>
+						<br>
+						After
+						<img class="img-responsive img-thumbnail" src="upload/change-bg-result.png">
+					</div>
+				</div>
+				<div class="clearfix divline"></div>
+				<div class="row" id="disable-effect">
+		            <div class="col-md-6 left-align">
+						<h4>How to disable Effects elements</h4>
+						<p>For some reason, you do not need effects display for elements. You can turn off it as guide bellow</p>
+						<p>Goto Appearance > ArkaHost - Options &gt; General Settings. Scroll down and find field Effects Lazy Load</p>
+						<p>In that field, make sure you chose Disable state - Disable text with the green background.</p>
+			
+					</div>
+					<div class="col-md-6 left-align">
+						<img class="img-responsive img-thumbnail" src="upload/turnoff-effect.png">	
+					</div>
+				</div>
+				<div class="clearfix divline"></div>
+				<div class="row" id="fullwidth">
+					<div class="col-md-6 left-align">
+		                <h4>How to create section fullwidth?</h4>
+						<p>
+							If you want to make sections fullwidth + full content. From edit page, select template Fullwidth on Page Attributes box.
+						</p>
+		            </div><!-- end col -->
+					<div class="col-md-6 left-align">
+						<br>
+						<br>
+						<a href="upload/vc_fullwidthall.png" data-rel="prettyPhoto" class="crop-thumb">
+						<img  class="img-responsive img-thumbnail" src="upload/vc_fullwidthall.png">
+						</a>
+					</div>
+		        </div><!-- end row -->
+				<div class="clearfix divline"></div>
+				<div class="row" id="vc-spacing">
+					<div class="col-md-6 left-align">
+						<h4>How to remove Spacing beetwen sections?</h4>
+						<p>
+							The default margin bottom of all section is 35 pixels, If you dont want the spacing you also able to remove it.
+						</p>
+					</div>
+					<div class="col-md-6 left-align">
+						<br>
+							<a href="upload/vc_removespacing.png" data-rel="prettyPhoto" class="crop-thumb">
+							<img class="img-responsive img-thumbnail" src="upload/vc_removespacing.png">
+							</a>
+							<br>
+							<br>
+							<a href="upload/vc_removespacing2.png" data-rel="prettyPhoto" class="crop-thumb">
+							<img class="img-responsive img-thumbnail" src="upload/vc_removespacing2.png">
+							</a>
+					</div><!-- end col -->
+				</div><!-- end row -->
+				<div class="clearfix divline"></div>
+				<div class="row" id="vc-class">
+					<div class="col-md-6 left-align">
+						<h4>How to change ClassName of Sections</h4>
+						<p>
+							All sections has been designed under sections name. Example features_sec1, features_sec2, features_sec54, features_sec92..etc.
+							<br>
+							To change that class name, Click edit row on Visual Composer and scroll down to the bottom of settings.
+						</p>
+					</div>
+					<div class="col-md-6 left-align">
+							<br>
+							<a href="upload/vc_change_class.png" data-rel="prettyPhoto" class="crop-thumb">
+							<img class="img-responsive img-thumbnail" src="upload/vc_change_class.png">
+							</a>
+					</div><!-- end col -->
+				</div><!-- end row -->
+				<div class="clearfix divline"></div>
+				<div class="row" id="vc-seo">
+					<div class="col-md-6 left-align">
+						<h4>How to resolve issue on SEO description meta tag?</h4>
+						<p>
+							When you build a page with the Visual Composer, the meta tag description for SEO is looking very bad.
+							<br>
+						</p>
+					</div>
+					<div class="col-md-6 left-align">
+							<br>
+							<a href="upload/vc_seo_des.png" data-rel="prettyPhoto" class="crop-thumb">
+							<img class="img-responsive img-thumbnail" src="upload/vc_seo_des.png">
+							</a>
+					</div>
+					<div class="col-md-6 left-align">
+						<p>
+						<br>
+							To resolve it, go to page edit and scroll down to ArkaHost Page Setting. then put your content to Description field.
+							<br>
+						</p>
+					</div>
+					<div class="col-md-6 left-align">
+							<br>
+							<a href="upload/remove-seo.png" data-rel="prettyPhoto" class="crop-thumb">		<img class="img-responsive img-thumbnail" src="upload/remove-seo.png"/>
+							</a>
+					</div><!-- end col -->
+				</div><!-- end row -->
+			</div>
+		</section>
+		<section class="section grey">
+			<div class="container">
+				<div class="row" id="onepage">
+		            <div class="col-md-12 left-align">
+		                <h2 class="dark-text">How to create Onepage website </h2>
+						<div class="intro2">
+						ArkaHost provide the way for customer create onepage website easy.						
+						</div>
+					</div>
+
+		            <div class="col-md-6 left-align">
+						<h4>Create Menu for Onepage</h4>
+						<p>Use menu normal to create Menu One page</p>
+						<p>Notice, we just need to use Custome Link type item for each menu which point to the inline content of page.</p>
+						<p>With menu item point to other page, you use as normal way.</p>
+					</div>
+					<div class="col-md-6 left-align">
+						<a href="upload/onepage-menu.png" data-rel="prettyPhoto" class="">
+						<img class="img-responsive img-thumbnail" src="upload/onepage-menu.png">
+						</a>
+					</div>
+					<div class="clearfix divline"></div>
+
+		            <div class="col-md-6 left-align">
+						<h4>Assign Section to Menu Items</h4>
+						<p>To create a section for Menu Item, just add your rows from Visual Composer then assign ID of the row as URL anchor of Menu Item.</p>
+					</div>
+					<div class="col-md-6 left-align">
+						<a href="upload/onepage-row.png" data-rel="prettyPhoto" class="">
+						<img class="img-responsive img-thumbnail" src="upload/onepage-row.png">
+						</a>
+					</div>
+				</div>
+			</div>	
+		</section>
+		<section class="section white">
+			<div class="container">
+				<div class="row" id="update-theme">
+		            <div class="col-md-12 left-align">
+		                <h2 class="dark-text">Update Theme </h2>
+					</div>
+
+		            <div class="col-md-6 left-align">
+		                <p><strong>Step 1</strong>: Go to themeforest.net and login<br>
+						<br>
+						Go to tab "Settings" (1)  <br>
+						Go API Keys (2) <br>
+						Put the name for API (3) and Click Generate API Key (4)<br>
+						After generate key, Copy that key (5)<br>
+						</p>
+					</div>
+					<div class="col-md-6 left-align">
+						<a href="upload/themeforest-setting.png" data-rel="prettyPhoto" class="">
+						<img class="img-responsive img-thumbnail" src="upload/themeforest-setting.png">
+						</a>
+					</div>
+					<div class="clearfix divline"></div>
+		            <div class="col-md-6 left-align">
+						<p><strong>Step 2</strong>: Download <a href="https://github.com/envato/envato-wordpress-toolkit" target="_blank">Envato Toolkit Plugin</a> and install into your site <br>
+						<br>
+						</p><p>Login your wp-admin and go to plugin Envato Toolkit (1)<br>
+                        On tab Settings, Enter your Envato Username (4) and the API key (5) what you copied from step 1<br>
+                        Tick (6) to keep old data theme when you update newer version<br>
+                        Click Save Setting to verify and get an update.</p>
+					</div>
+					<div class="col-md-6 left-align">
+						<a href="upload/toolkit.png" data-rel="prettyPhoto" class="">
+						<img class="img-responsive img-thumbnail" src="upload/toolkit.png">
+						</a>
+					</div>
+					<div class="clearfix divline"></div>
+
+		            <div class="col-md-6 left-align">
+						<p><strong>Step 3</strong>: Do update new version <br>
+						<br>
+						</p><p>After do step 2 successful, Click on tab "Theme" (2), If there are a new version available, then you will see as image bellow. Click Update Automatically (3) to do an update.</p>
+					</div>
+					<div class="col-md-6 left-align">
+						<a href="upload/update-new-version.png" data-rel="prettyPhoto" class="">
+						<img class="img-responsive img-thumbnail" src="upload/update-new-version.png">
+						</a>
+					</div>
+				</div>				
+			</div>
+		</section>
+		
+
+		<section id="footerdocs">
+			<div class="container">
+				<div class="row">
+		            <div class="col-md-12 left-align content-footer">
+					Copyright &copy; King-Theme 2015. All rights reserved.
+					</div>
+					<div class="col-md-12 left-align content-footer">
+					<a href="http://king-theme.com" target="_blank">King-Theme.com</a> | <a href="http://themeforest.net/user/king-theme/portfolio" target="_blank">Portfolio</a> | <a href="http://help.king-theme.com/" target="_blank">HelpDesk</a> 
+					</div>
+				</div>
+			</div>
+		</section>
+		
+	</div><!-- end wrapper -->
+	<a href="#top" class="scrollup" id="scrollup" style="display: inline;">Scroll</a>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.fitvids.js"></script>
+	<script src="js/wow.js"></script>
+	<script src="js/jquery.prettyPhoto.js"></script>
+
+	
+
+    <!-- CUSTOM PLUGINS -->
+	<script src="js/custom.js"></script>
+	<script src="js/main.js"></script>
+
+
+
+
+	<script src="syntax-highlighter/scripts/shCore.js"></script>
+	<script src="syntax-highlighter/scripts/shBrushXml.js"></script>
+	<script src="syntax-highlighter/scripts/shBrushCss.js"></script>
+	<script src="syntax-highlighter/scripts/shBrushJScript.js"></script>
+
+</body>
+</html>

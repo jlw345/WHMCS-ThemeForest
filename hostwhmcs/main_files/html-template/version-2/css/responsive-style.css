@@ -1,0 +1,448 @@
+/*
+
+[Responsive Stylesheet]
+
+Project: HostWHMCS - Responsive Web Hosting and WHMCS Template
+Version: 1.0
+Author : themelooks.com
+
+[Table of contents]
+
+1. MEDIA QUERIES
+    1.1. LARGE DEVICES, WIDE SCREENS
+    1.2. MEDIUM DEVICES, DESKTOPS
+    1.3. SMALL DEVICES, TABLETS
+    1.4. SMALL DEVICES, SMARTPHONES
+    1.5. CUSTOM, IPHONE RETINA
+
+*/
+
+/*------------------------------------*\
+    1. MEDIA QUERIES
+\*------------------------------------*/
+/* 1.1. LARGE DEVICES, WIDE SCREENS */
+@media screen and (max-width: 1200px) {
+    /* DOMAIN SEARCH AREA */
+    #domainSearch:before {
+        width: 970px;
+    }
+
+    /* SUBSCRIBE AREA */
+    #subscribe .section--title {
+        margin-right: -15px;
+    }
+
+    .subscribe--form {
+        margin-left: 15px;
+    }
+}
+@media screen and (max-width: 1199px) {
+    /* BANNER */
+    #banner .bx-controls {
+        width: 970px;
+    }
+}
+
+/* 1.2. MEDIUM DEVICES, DESKTOPS */
+@media screen and (max-width: 991px) {
+    /* BANNER */
+    .banner--bg-animate {
+        display: none;
+    }
+    #banner {
+        background-image: none !important;
+    }
+
+    .banner--content {
+        padding-right: 60px;
+    }
+
+    #banner .bx-controls {
+        width: 750px;
+    }
+
+    /* SECTION TITLE */
+    .section--title {
+        text-align: center;
+    }
+
+    .section--title > .row {
+        display: block;
+        width: auto;
+    }
+    .section--title > .row > .col-md-6 {
+        display: block;
+    }
+
+    .section--title h2 {
+        padding: 20px 0 25px;
+        border-bottom: 1px solid #e9e9e9;
+    }
+
+    .section--title p {
+        padding: 20px 0;
+        border-left: 0;
+    }
+
+    /* PAGE HEADER */
+    .page-header--breadcrumb {
+        padding: 20px 0;
+        border-left: none;
+    }
+
+    /* DOMAIN SEARCH AREA */
+    #domainSearch:before {
+        display: none;
+    }
+
+    #domainSearch .section--title {
+        text-align: left;
+    }
+    #domainSearch .section--title h2 {
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+    
+    /* SERVICE AREA */
+    .service--item-h {
+        margin-bottom: 30px;
+    }
+    .service--item-h:last-child {
+        margin-bottom: 0;
+    }
+
+    .service--img {
+        margin-bottom: 60px;
+    }
+    
+    /* FEATURES AREA */
+    .feature--item-h {
+        margin-bottom: 80px;
+    }
+    .feature--item-h:last-child {
+        margin-bottom: 0;
+    }
+
+    /* ABOUT DESCRIPTION AREA */
+    #aboutDesc > .container > .row > div {
+        display: block;
+    }
+
+    .about-desc--content {
+        margin-bottom: 50px;
+    }
+
+    /* PRICING AREA */
+    .pricing--item-h {
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+    .pricing--item-h:last-child {
+        margin-bottom: 0;
+    }
+
+    .pricing--item {
+        margin-top: 50px;
+    }
+
+    /* PRICING 2 AREA */
+    .pricing-2--item {
+        margin-bottom: 30px;
+    }
+    .pricing-2--item:last-child {
+        margin-bottom: 0;
+    }
+
+    /* PRICE DETAILS AREA */
+    .price-details--item.head {
+        display: none;
+    }
+    .price-details--item.body {
+        margin-bottom: 30px;
+    }
+    .price-details--item.body:last-child {
+        margin-bottom: 0;
+    }
+    .price-details--item .heading h3 {
+        padding-right: 20px;
+        border-left-width: 1px;
+        color: #222;
+        background-color: #fff;
+        font-size: 18px;
+        text-align: right;
+    }
+    .price-details--item.body .content li {
+        border-left: 1px solid #e9e9e9;
+        text-align: right;
+    }
+    .price-details--item.body .content li .labelText {
+        float: left;
+    }
+    .price-details--item.body .content .action-btn {
+        border-left: 1px solid #e9e9e9;
+    }
+    
+    /* PRICE DETAILS 2 AREA */
+    .price-details-2--content table {
+        border: 0;
+    }
+    .price-details-2--content table thead {
+        display: none;
+    }
+    .price-details-2--content table tr {
+        margin-bottom: 30px;
+        display: block;
+        border-bottom: 2px solid #ddd;
+        background-color: #fff;
+    }
+    .price-details-2--content table tr:last-child {
+        margin-bottom: 0;
+    }
+    .price-details-2--content table tbody tr:nth-child(even) td {
+        background-color: #fff;
+    }
+    .price-details-2--content table td {
+        display: block;
+        text-align: right;
+        font-size: 13px;
+        border-bottom: 1px dotted #ccc;
+    }
+    .price-details-2--content table td:last-child {
+        border-bottom: 0;
+    }
+    .price-details-2--content table td span.labelText {
+        float: left;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    /* FAQ AREA */
+    .faq--categories {
+        margin-bottom: 40px;
+    }
+    .faq--categories .nav {
+        overflow: hidden;
+    }
+    .faq--categories .nav > li {
+        float: left;
+    }
+    .faq--categories ul li a {
+        margin-right: 6px;
+    }
+
+    /* BLOG AREA */
+    .blog--content + .blog--sidebar,
+    .blog--sidebar + .blog--content {
+        margin-top: 80px;
+    }
+
+    .blog--post-footer .share {
+        margin-top: 38px;
+        text-align: left;
+    }
+    .blog--post-footer .share li:first-child {
+        margin-left: 0;
+    }
+
+    /* CONTACT AREA */
+    .contact--address {
+        margin-bottom: 50px;
+    }
+
+    .contact--form {
+        padding-left: 15px;
+    }
+    
+    .contact-social-links {
+        margin-bottom: 40px;
+    }
+
+    /* SUBSCRIBE AREA */
+    #subscribe .section--title {
+        margin-right: 0;
+        text-align: left;
+    }
+    #subscribe .section--title h2 {
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+
+    .subscribe--form {
+        margin-left: 0;
+    }
+
+    /* FOOTER AREA */
+    #footer {
+        padding: 180px 0 50px;
+    }
+
+    .footer--bg {
+        display: none;
+    }
+
+    .footer--widget {
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /* HEADER */
+    .header--logo {
+        padding-right: 0;
+    }
+
+    .header--login-btn {
+        margin-left: 20px;
+    }
+
+    #headerNav .nav > li > a {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
+
+/* 1.3. SMALL DEVICES, TABLETS */
+@media screen and (max-width: 767px) {
+    /* HEADER */
+    .header--navbar {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .header--navbar .navbar-toggle {
+        margin-top: 13px;
+    }
+    #header .navbar-toggle .icon-bar {
+        background-color: #ff4719;
+    }
+    #header .navbar-toggle.collapsed .icon-bar {
+        background-color: #fff;
+    }
+    #header.sticky .navbar-toggle.collapsed .icon-bar {
+        background-color: #232c3b;
+    }
+    .header--navbar .navbar-header {
+        padding: 15px 0;
+        -webkit-transition: padding .25s ease-in-out;
+                transition: padding .25s ease-in-out;
+    }
+    #header.sticky .navbar-header {
+        padding: 0;
+    }
+
+    .header--login-btn {
+        display: none;
+    }
+
+    #headerNav {
+        background-color: #232c3b;
+        border-top-color: rgba(34, 34, 34, 0.2);
+        -webkit-transition: background-color .25s ease-in-out;
+                transition: background-color .25s ease-in-out;
+    }
+    #header.sticky #headerNav {
+        background-color: #fff;
+    }
+
+    #headerNav .nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #headerNav .nav > .dropdown > .dropdown-menu > li > a {
+        color: #fff;
+    }
+    #header.sticky .nav > .dropdown > .dropdown-menu > li > a {
+        color: #232c3b;
+    }
+    #header.sticky .nav > .dropdown > .dropdown-menu > li > a:hover,
+    #header.sticky .nav > .dropdown > .dropdown-menu > li > a:focus,
+    #header.sticky .nav > .dropdown > .dropdown-menu > li.active > a {
+        color: #fff;
+    }
+
+    #headerNav .nav > .dropdown > .dropdown-menu {
+        background-color: rgba(34, 34, 34, 0.2);
+        border-radius: 0;
+    }
+
+    /* BANNER */
+    .banner--content ul li, .banner--content ol li {
+        float: none;
+        width: 100%;
+    }
+
+    #banner .bx-controls {
+        width: 100%;
+    }
+
+    /* ABOUT DESCRIPTION */
+    #aboutDesc .row {
+        display: block;
+    }
+    #aboutDesc > .container > .row > div {
+        display: block;
+    }
+    .about-desc--img {
+        margin-bottom: 35px;
+    }
+
+    /* TEAM AREA */
+    .team--social-links ul {
+        overflow: hidden;
+    }
+    .team--social-links ul li {
+        float: left;
+    }
+
+    /* SUBSCRIBE AREA */
+    #subscribe {
+        text-align: center;
+    }
+
+    #subscribe .section--title {
+        text-align: center;
+    }
+
+    .subscribe--content {
+        padding: 30px 30px 35px;
+    }
+    .subscribe--form .input--text {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .subscribe--form .input--text input {
+        text-align: center;
+    }
+    .subscribe--form .btn--primary {
+        float: none;
+        margin: 0 auto;
+    }
+
+    /* FOOTER AREA */
+    .footer--contact-social .nav {
+        margin-left: 0;
+        margin-right: 0;
+        overflow: hidden;
+    }
+    .footer--contact-social .nav > li {
+        float: left;
+    }
+}
+
+/* 1.4. SMALL DEVICES, SMARTPHONES */
+@media screen and (max-width: 480px) {
+    /* DOMAIN SEARCH AREA */
+    .domain-search--form .input--radio {
+        overflow: hidden;
+    }
+
+    .domain-search--form .input--radio .radio-inline {
+        display: block;
+        float: left;
+        width: 25%;
+    }
+}
+
+/* 1.5. CUSTOM, IPHONE RETINA */
+@media screen and (max-width: 380px) {
+}

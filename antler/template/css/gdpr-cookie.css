@@ -1,0 +1,55 @@
+/* GDPR Cookie dialog */
+.gdprcookie { width: 90%; max-width: 1110px; border-radius: 15px; left: 50%; transform: translateX(-50%); position: fixed; color: #212122; font-size: 14px; bottom: 1.5rem; padding: 40px 50px; z-index: 99; background: #fff; border: solid 1px #efefef; box-shadow: 0 5px 15px 0 rgba(110, 110, 110, .1); }
+.gdprcookie-intro { float: left; }
+.gdprcookie h1, .gdprcookie h2 { font-size: 1.2em; margin-bottom: .5rem; }
+.gdprcookie h2 { font-size: 1.2em; }
+.gdprcookie a { color: inherit; }
+
+/* GDPR Cookie buttons */
+.gdprcookie-buttons { text-align: right; }
+.gdprcookie-buttons button { border-radius: 50px; font-family: "Open Sans Semibold"; padding: 10px 15px; font-size: 13px; margin-right: 15px !important; background-color: #fed800 !important; color: #000 !important; border: none; cursor: pointer; box-shadow: 0 2px 8px 0 rgba(62, 62, 79, .23); -webkit-transition: all 300ms linear 0ms; -moz-transition: all 300ms linear 0ms; -ms-transition: all 300ms linear 0ms; transition: all 300ms linear 0ms; }
+.gdprcookie-buttons button:hover { box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .30); -webkit-transform: translateY(-5px); transform: translateY(-5px); background-color: #808080 !important; color: #fff !important; border: none; }
+.gdprcookie-buttons button:last-child { margin-right: 0px !important; background-color: #808080 !important; color: #fff !important; border: none; }
+.gdprcookie-buttons button:last-child:hover { background-color: #fed800 !important; color: #000 !important; border: none; }
+.gdprcookie-buttons button:disabled { color: rgba(255, 255, 255, .5); }
+
+/* GDPR Cookie types */
+.gdprcookie-types { float: left; border-top: solid 1px #efefef; width: 100%; margin-top: 30px; padding-top: 20px; }
+.gdprcookie-types ul { overflow: hidden; padding: 0; margin: 0 0 1rem; }
+.gdprcookie-types li { display: block; list-style: none; float: left; padding: 0; margin: 0; }
+
+/* Custom Checkbox */
+.gdprcookie-types ul li { display: block; cursor: pointer; font-size: 14px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+
+/* Hide the browser's default checkbox */
+.gdprcookie-types ul li input { position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0; }
+.gdprcookie-types ul li input:before { margin-right: 30px; }
+
+/* Create a custom checkbox */
+.gdprcookie-types ul li label { border: solid 1px #212122; border-radius: 0px; position: relative; top: 0; left: 0; margin: 0px; margin-right: 15px; padding: 6px 30px 6px 30px; }
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.gdprcookie-types ul li label:after { content: ""; position: absolute; display: none; }
+label:before { margin-right: 20px; }
+
+/* When the checkbox is checked, add a pink background */
+.gdprcookie-types ul li input:checked ~ label { background-color: #ee5586; border: solid 1px #ee5586; color: #fff; }
+
+/* When the checkbox is checked, add a desable background */
+.gdprcookie-types ul li input:disabled ~ label { background-color: #808080; border: solid 1px #808080; }
+
+/* Show the checkmark when checked */
+.gdprcookie-types ul li input:checked ~ label:after { display: block; }
+
+/* Style the checkmark/indicator */
+.gdprcookie-types ul li label:after { left: 15px; top: 10px; width: 6px; height: 9px; border: solid white; border-width: 0 2px 2px 0; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); }
+@media (max-width:1050px) {
+    .gdprcookie-intro { width: 100%; }
+    .gdprcookie-buttons { text-align: left; margin-top: 10px; display: inline-block; }
+    .gdprcookie-buttons button { margin: 10px 10px 0 0 !important; }
+}
+@media (max-width:767px) {
+    .gdprcookie-buttons { text-align: left; margin-top: 20px; display: inline-block; }
+    .gdprcookie-buttons button { margin-right: 10px !important; }
+    .gdprcookie-types ul li { margin-top: 10px; }
+}

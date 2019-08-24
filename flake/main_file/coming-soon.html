@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- BASIC META-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flake best web hosting templete</title>
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" href="asset/img/favicon/apple-touch-icon.png">
+    <link rel="icon" href="asset/img/favicon/favicon.ico">
+    <!-- WEB FONTS  -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <!-- BOOTSTRAP MIN CSS -->
+    <link href="asset/css/bootstrap.min.css" rel="stylesheet">
+    <!-- ALL PLUGINS CSS -->
+    <link href="asset/css/elements.css" rel="stylesheet">
+    <!-- THEME STYLE CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- RESPONSIVE CSS -->
+    <link href="responsive.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+    <!-- HEADER TOP -->
+    <section class="coming-soon wow ">
+        <div class="coming-soon-table-cell">
+            <a href=""><img src="asset/img/icons/coming-soon-page-icon.png" alt="coming-soon-page-icon"></a>
+            <h1>WE ARE COMING SOON</h1>
+            <div id="clockdiv" data-coming-soon-date="8 July 2018">
+                <div>
+                    <span class="days"></span>
+                    <div class="smalltext">Days</div>
+                </div>
+                <div>
+                    <span class="hours"></span>
+                    <div class="smalltext">Hours</div>
+                </div>
+                <div>
+                    <span class="minutes"></span>
+                    <div class="smalltext">Minutes</div>
+                </div>
+                <div>
+                    <span class="seconds"></span>
+                    <div class="smalltext">Seconds</div>
+                </div>
+            </div>
+            <form id="digita-contact-form" action="asset/php/contact-mail.php" method="POST">
+                <h2>Sign up for early eccess</h2>
+                <input type="email" placeholder="your@email address">
+                <button class="notify">NOTIFY ME</button>
+            </form>
+            <div class="social-links">
+                <a href="" target="_blank"><span class="ti-facebook"></span></a>
+                <a href="" target="_blank"><span class="ti-twitter-alt"></span></a>
+                <a href="" target="_blank"><span class="ti-vimeo-alt"></span></a>
+                <a href="" target="_blank"><span class="ti-pinterest"></span></a>
+                <a href="" target="_blank"><span class="ti-google"></span></a>
+            </div>
+            <p class="copy-right">Copyright @ 2017 <a href="http://marveltheme.com/">marveltheme</a> all right resurved.</p>
+        </div>
+    </section>
+
+
+    <!--FOOTER-BOTTOM-AREA END -->
+    <script src="asset/js/jquery.min.js"></script>
+    <script src="asset/js/bootstrap.min.js"></script>
+    <script src="asset/js/plugins.js"></script>
+    <script src="asset/js/main.js"></script>
+
+    <script>
+        function getTimeRemaining(endtime) {
+            var t = Date.parse(endtime) - Date.parse(new Date());
+            var seconds = Math.floor((t / 1000) % 60);
+            var minutes = Math.floor((t / 1000 / 60) % 60);
+            var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+            var days = Math.floor(t / (1000 * 60 * 60 * 24));
+            return {
+                'total': t,
+                'days': days,
+                'hours': hours,
+                'minutes': minutes,
+                'seconds': seconds
+            };
+        }
+
+        function initializeClock(id, endtime) {
+            var clock = document.getElementById(id);
+            var daysSpan = clock.querySelector('.days');
+            var hoursSpan = clock.querySelector('.hours');
+            var minutesSpan = clock.querySelector('.minutes');
+            var secondsSpan = clock.querySelector('.seconds');
+
+            function updateClock() {
+                var t = getTimeRemaining(endtime);
+
+                daysSpan.innerHTML = t.days;
+                hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+                minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+                secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+                if (t.total <= 0) {
+                    clearInterval(timeinterval);
+                }
+            }
+
+            updateClock();
+            var timeinterval = setInterval(updateClock, 1000);
+        }
+
+        var deadline = $('#clockdiv').data('coming-soon-date');
+        console.log(deadline);
+        initializeClock('clockdiv', deadline);
+    </script>
+
+</body>
+
+</html>

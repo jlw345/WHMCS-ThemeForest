@@ -1,0 +1,15 @@
+============================
+08 July, 2018 - Version 2.5
+============================
+
+-------------------------------------------------------------------------------------------
+Backup your theme/style folder and files before applying these updates.
+-------------------------------------------------------------------------------------------
+
+[*] Implemented ThemeForest New Requirement
+[*] Fixed Theme Check Error
+[*] Fixed Post Single Page Share Button CSS Issue
+[*] Fixed Some Other Minor Issues
+
+
+***(need to update the 'ecohosting' Theme & 'ecohosting-core' plugin to get the above changes)***

@@ -1,0 +1,37 @@
+/*------------------------------------*\
+    SUMMERNOTE OVERRIDES
+\*------------------------------------*/
+.note-editor.note-frame {
+    border-color: #ebebea;
+}
+
+.note-editor.note-frame .note-toolbar {
+    padding-bottom: 0;
+    border-bottom: 1px solid #ebebea;
+}
+
+.note-editor.note-frame .note-toolbar > .note-btn-group {
+    margin-top: 0;
+}
+
+.note-editor.note-frame .note-toolbar > .note-btn-group .note-btn {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color: transparent;
+    border-radius: 0;
+    text-transform: none;
+}
+
+.note-editor.note-frame .note-toolbar > .note-btn-group .note-btn:hover,
+.note-editor.note-frame .note-toolbar > .note-btn-group .note-btn.active,
+.note-editor.note-frame .note-toolbar > .note-btn-group .show > .note-btn {
+    background-color: #ebebea;
+}
+
+.note-editor.note-frame > .note-editing-area > .note-editable {
+    padding: 18px 20px;
+}
+
+.note-editor.note-frame > .note-statusbar {
+    border-color: #eee;
+}

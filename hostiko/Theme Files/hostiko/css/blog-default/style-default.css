@@ -1,0 +1,25 @@
+h3.widget-title:after {
+	background-color: #00b2f2
+}
+h3.widget-title,
+h2.entry-title a {
+	color: #333333
+}
+h2.entry-title a:hover {
+	text-decoration: none;
+	color: #00b2f2
+}
+footer.entry-footer a {
+	color: #00b2f2
+}
+footer.entry-footer a:hover {
+	color: #999
+}
+#blog-nav .navigation li a:hover,
+#blog-nav .navigation li.active a {
+	background-color: #00b2f2;
+	color: #ffffff
+}
+.widget {
+	color: #999999
+}

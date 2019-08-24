@@ -1,0 +1,37 @@
+.light_section .block > h3{
+    text-align:right!important;
+}
+#events{
+    text-align:right!important;
+}
+ul.list1 li:before{
+    content: '';
+    display: block;
+    position: absolute;
+    border: 2px solid #30a79b;
+    right: -19px!important;
+    top: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.related .pull-left{
+    float:right!important;
+}
+.related .media-body{
+    float:right!important;
+    text-align: right;
+}
+#footer.dark_section{
+    text-align: right!important;
+}
+.widget_news ul li.item .news_introimg{
+    float:right!important;
+}
+.widget_news ul li.item .news_right{
+    margin-left: 0!important;
+    margin-right:90px!important;
+}
+.widget_text input.form-control{
+    text-align:right;
+}

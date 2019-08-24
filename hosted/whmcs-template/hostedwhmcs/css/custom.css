@@ -1,0 +1,319 @@
+/* *****************************************************
+
+    ** Custom Stylesheet **
+
+    Any custom styling you want to apply should be
+    defined here.
+
+***************************************************** */
+
+/* IMPORT GOOGLE WEB FONTS */
+
+.home-shortcuts h2{
+  position: relative;
+  padding-top: 35px;
+}
+.home-shortcuts h2:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 1px;
+  height: 1px;
+  width: 250px;
+  background: #e5e5e5;
+}
+.home-shortcuts h2:after{
+  content: "\f111";
+  font-size: 12px;
+  font-family: FontAwesome;
+  position: absolute;
+  top: -5px;
+  left: 0;
+  padding-left: 1px;
+  color: #259b24;
+}
+.home-shortcuts h2.text-center:after{
+  left: 50%;
+  top: -15px;
+  padding-left: 0;
+  margin-left: -15px;
+  border: 10px solid transparent;
+  border-radius: 50%;
+}
+.home-shortcuts h2.text-center:before{
+  left: 50%;
+  width: 270px;
+  margin-left: -135px;
+}
+
+/* GLOBAL */
+
+.row.no-gutter { margin:0 auto;}
+.row.no-gutter [class*='col-']:not(:first-child), .row.no-gutter [class*='col-']:not(:last-child) { padding-left: 0; padding-right: 0; }
+.clientalert .btn-xs, .admin-masquerade-notice, input,button,select,textarea, .navbar-main, #top-nav a.quick-nav { font-family: 'Nunito', sans-serif; border-radius: 0;}
+h1,h2,h3,h4,h5,h6 {font-family: 'Nunito', sans-serif;}
+hr { border: solid #dedede; border-width: 1px 0 0; clear: both; height: 0; margin:0 auto; margin-top:12px; margin-bottom:12px; width:100%; }
+img {  max-width: 100%;  height: auto; -ms-interpolation-mode: bicubic; display: inline-block;  vertical-align: middle;}
+a { color: #259b24; outline: 0; text-decoration: none; }
+a:hover, a:active, a:focus { outline: 0; text-decoration: none; color:#6E6E6E; }
+.spacing-20 {padding-top:20px;}
+.spacing-10 {padding-top:10px;}
+.center-block{float:none!important;}
+.page-subheader {border:none!important; margin-top:35px;}
+.page-subheader h2 {font-size:22px; font-weight:700; color:#fff; margin:0 0 35px; padding:15px 0; background:#9A9DAC; letter-spacing: -.07; text-transform: uppercase; position: relative; text-align: center; border:0!important;}
+.page-subheader h2:after { top: 100%; left: 50%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; border-color: rgba(222, 98, 98, 0); border-top-color: #9A9DAC; border-width: 10px; margin-left: -10px; }
+.main-content > span{font-size: 15px;}
+.main-content h2 { font-weight:700; margin:20px 0; position: relative; border:0!important; font-size: 24px;}
+
+
+/* BUTTONS */
+.btn {text-shadow:none; border:0; background:#A66BBE; color:#fff; padding: 8px 25px; font-weight: 600; border-radius: 0;}
+.btn.btn-default {background:#A66BBE; color:#fff!important;}
+.btn.btn-primary {background:#259b24;}
+.btn.btn-primary:hover {background:#212121;}
+.btn.btn-info {background:#6E6E6E!important;}
+.btn.btn-success {background:#72AC94!important;}
+.btn.btn-warning {background:#F7CA18;}
+.btn.btn-danger {background:#259b24;}
+.btn:hover {color:#fff!important;}
+span.input-group-btn .btn{padding-top: 6px; padding-bottom: 6px;}
+
+/* PANELS */
+.panel {font-size: 15px!important;}
+.panel.panel-info {border-color: #e8e8e8!important;}
+.panel.panel-info .panel-heading { background: #72AC94!important; color:#fff!important;}
+
+/* ALERTS */
+.alert {border-radius: 5px!important}
+.alert.alert-info a { color:#ccc!important;}
+.alert.alert-danger {border:0; background:#259b24; color:#fff; border-radius: 0}
+.alert.alert-success {border:0; background:#73AE95; color:#fff; border-radius: 0}
+.alert.alert-info {border:0; background:#608EC2; color:#fff; border-radius: 0}
+#thetopbar .alert{display: none;}
+
+/* TOP BAR */
+#thetopbar {padding: 10px 0; top: 0; width: 100%; right: 0;}
+.page-template-template-whmcs #thetopbar{ position: absolute; }
+.admin-masquerade-notice { margin: 0!important; max-width:100%!important;text-align: left!important; color:#fff!important; font-size: 13px!important;}
+.admin-masquerade-notice a { color:#ccc!important;}
+.badge {background: #259b24;}
+.list-group-item.active .badge {color:#5a5a5a!important; background: #FFFFF5!important;}
+#thetopbar .badge {background: #259b24; margin-left:4px;}
+
+/* INPUT */
+.input-group-lg>.form-control, .input-group-lg>.input-group-addon, .input-group-lg>.input-group-btn>.btn{border-radius: 0;}
+
+/*** SKIN ***/
+
+.navbar-main {background: #fff;}
+.navbar-main .navbar-collapse{border-bottom: 1px solid #f5f5f5;}
+ul.navbar-nav li a,
+.navbar-main .navbar-nav>li>a {padding: 20px 30px 20px 0; font-weight:bold; font-size:14px; color: #212121;}
+ul.navbar-nav li a.dropdown-toggle{padding-right: 0;}
+.navbar-main ul.navbar-nav li a:hover, 
+.navbar-main ul.navbar-nav li a:focus, 
+.navbar-main .navbar-nav>.open>a,
+.navbar-main .navbar-nav>li.open>a {background: none!important; color:#555;}
+.navbar-nav>li>.dropdown-menu{padding: 0;}
+ul.navbar-nav li ul li a {padding: 8px 10px; font-size:14px; font-weight: 600; color: #555;}
+
+/* HOME */
+section#home-banner {padding:75px 0;  background-color: #fff;  color: #5a5a5a!important;}
+section#home-banner h2 {margin-bottom:40px;}
+section#home-banner input[type="submit"].btn.btn-warning {background: #259b24; margin: 0 20px; padding: 0 50px; font-weight: bold; font-size: 14px; text-transform: uppercase;}
+section#home-banner input[type="submit"].btn.btn-info { margin: 0; padding: 0 50px; font-size: 14px; text-transform: uppercase; font-weight: bold;}
+section#home-banner .input-group input[type="submit"].btn:hover{background: #212121!important;}
+
+.form-horizontal .form-group{margin-left: 0; margin-right: 0;}
+.domain-bulk-options-box .btn {margin-top:12px;}
+
+.home-shortcuts {background: none; padding:20px 0 0; position: relative;}
+.home-shortcuts h2 {margin-bottom:45px; color: #212121;}
+.home-shortcuts ul {padding:25px 0 30px; overflow:hidden; margin: 0 -15px;}
+.home-shortcuts li {border:0!important; padding-left: 15px; padding-right: 15px; width: 25%;}
+.home-shortcuts li a{color: #212121; font-weight: bold; font-size: 14px; background: #f5f5f5; padding-top: 25px; padding-bottom: 25px;}
+.home-shortcuts li a:hover{background: #eee;}
+.home-shortcuts.nodomains li {width:33%;}
+.home-shortcuts li i { float: none; color: #259b24; font-size: 30px; padding: 18px 0 0 0; text-align: center; transition: all 0.4s ease; width: 70px; margin-bottom:15px;}
+.home-shortcuts li p {font-size:15px; text-transform: none;}
+
+/* ANNOUNCEMENTS */
+.announcement-single {padding-bottom:20px!important;}
+.announcement-single h3 {font-size:18px; border-bottom:1px solid #e8e8e8; padding-bottom:8px;}
+.announcement-single h3 a {color:#5a5a5a;}
+.announcement-single h3 a:hover {color:#259b24; text-decoration: none}
+.announcement-single h3 span { margin:0 10px 0 0!important;}
+.announcement-single blockquote {border:0; padding:0; marbgin:0; font-size:15px; color:#5a5a5a; background: none;}
+.announcement-single blockquote p{font-size: 14px; font-family: "Nunito";}
+.announcement-single blockquote p a {font-size:15px; color:#259b24;}
+.announcement-single a.label.label-warning {font-size:11px; color:#5a5a5a; border-radius:3px; background:#e8e8e8; padding-top:2px;}
+.announcement-single a.label.label-warning:hover {color:#fff; background:#259b24;}
+.announcement-single h3 span.label.label-default {font-size:12px; color:#fff; border-radius:0!important; background:#259b24;}
+.main-content .announcement-single h2 {font-size:17px; font-weight:700; margin:15px 0 0; padding:0 0 18px; background:#fff; letter-spacing: -.07; text-align: left; border-bottom:1px solid #e8e8e8!important;}
+.main-content .announcement-single h2:after { border-width: 0px; }
+
+
+/* TWEETS */
+.tweet {padding:0!important; border-bottom: 1px solid #e8e8e8}
+.tweet i {display: none}
+#twitterFeedOutput p {font-size:15px; text-align: center; padding-top:20px;}
+#twitterFeedOutput .tweet p {font-size:15px; text-align: left;}
+.tweet p span {color:#ccc;}
+.tweet a, #twitterFeedOutput a {color:#259b24;}
+
+
+
+/* MailChip Newsletter Form Styling  ----------------------- */
+#mc_embed_signup { text-align: right; padding-top:11px; }
+#mc_embed_signup input[type="email"].form-control { border-radius: 0; font-size: 18px; height: 50px; padding: 5px 15px; width: 100%; line-height:50px; }
+#mc_embed_signup input[type="submit"] { background: #49716C; border: 0; border-radius: 0; color: #fff; cursor: pointer; font-size: 16px; font-weight: 900; height: 50px; padding: 8px 6px 6px; text-transform: uppercase; width: 100%; float:right; position: relative;}
+#mc_embed_signup input[type="submit"]:hover { background: #4F6366; }
+#mc_embed_signup input[type="email"]:focus, .domainsearch select:focus { border: 0; box-shadow: 0 8px 6px -6px #000; }
+
+
+/* HEADLINE & BREADCRUMBS */
+.header-lined {margin:0 0 35px!important; padding:0; text-align: center; }
+.header-lined h1 {  margin: 0 0 15px!important;  padding: 0!important;  border-bottom: 0!important;  font-weight: 700!important; color:#212121!important; }
+.header-lined h1 small {display:block; width:100%; font-weight:400; padding:10px 0 0; color: #ccc; text-transform: uppercase; margin-top: 10px; font-size: 14px;}
+.header-lined ol.breadcrumb {
+  position: relative; 
+  margin-top:12px!important; 
+  float: none;
+  padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+.header-lined ol.breadcrumb:after {    top: 100%;    left: 50%;    border: solid transparent;    content: " ";    height: 0;    width: 0;    position: absolute;    pointer-events: none;    border-color: rgba(245, 245, 245, 0);    border-top-color: #F5F5F5;    border-width: 8px;    margin-left: -8px;}
+.header-lined ol.breadcrumb li {font-size:14px!important;}
+.header-lined ol.breadcrumb li a{color: #259b24;}
+.header-lined ol.breadcrumb li.active{color:#777; font-weight: normal;}
+.header-lined ol.breadcrumb > li + li:before{color: #555;}
+
+/* SIDEBARS */
+.sidebar .panel-heading  {font-size:18px; font-weight:700; color:#fff; padding:15px; background:#333; text-transform: uppercase; position: relative; text-align: left; border:0!important; border-radius: 0;}
+.sidebar .list-group a {font-size:14px!important; color: #333;}
+.sidebar .list-group a.list-group-item.active {background: #259b24; border-color: #259b24; color: #fff;}
+
+/* KNOWLEDGE BASE */
+.kbcategories a, .kbarticles a {font-size:17px; font-weight:600; padding:0 0 2px 0; text-align: left; color:#555;}
+.kbcategories p, .kbarticles p {font-size:14px; text-align: left;  margin-bottom:22px;}
+.navbar-default .navbar-toggle{border-color: #fff;}
+.navbar-default .navbar-toggle .icon-bar{background: #fff;}
+
+/* LOGIN PAGE AND FORMS */
+.logincontainer {max-width:100%!important; text-align: center;}
+.logincontainer form{ text-align: left; max-width: 535px; margin: auto; padding: 30px; background: #f5f5f5;}
+.logincontainer form input[type="password"],
+.logincontainer form input[type="email"]{height: 40px; margin-bottom: 25px; font-size: 10px; text-transform: uppercase;}
+.logincontainer form input[type="submit"],
+.logincontainer form button{padding: 10px; height: auto; min-width: 100px; margin-bottom: 15px;}
+.logincontainer form button:last-child,
+.logincontainer form .form-group:last-child{margin-bottom: 0;}
+.logincontainer form .btn{padding-top: 11px; padding-bottom: 11px; width: 100%; }
+.logincontainer .checkbox{margin-bottom: 25px;}
+.login-form-panel {background:#F0F1F5; border:0; padding:15px; border-radius: 5px;}
+.login-form-panel h3.badge {border-radius:3px; padding:11px 24px; display:table; margin:0 auto; margin-top:-30px; font-size:18px; background: #259b24}
+.login-form {margin:50px 0; text-align: center; background:#fff; border:0;    border-radius:8px; overflow:hidden; padding:30px;}
+.login-form input[type="email"], .login-form input[type="text"],  .login-form input[type="subject"], .login-form input[type="password"] { font-size:16px; padding: 10px; height:50px; width:100%; border: 0;    -webkit-font-smoothing: antialiased;    -moz-osx-font-smoothing: grayscale;  background:#fff;  border-radius: 5px; margin:8px 0 18px; border:1px solid #e0e1e3; line-height: 50px}
+.login-form select { font-size:16px; padding: 10px; height:50px; width:100%; border: 0;    -webkit-font-smoothing: antialiased;    -moz-osx-font-smoothing: grayscale;  background:#fff;  border-radius: 5px; margin:4px 0 18px; border:1px solid #e0e1e3;}
+.login-form input[type="submit"] { margin-top:25px; width:100%; float: left; font-size:16px; background: #259b24; height:50px; color:#fff; font-weight:900; padding:6px; text-transform: uppercase;  width: 100%; border-radius: 4px; border:0; cursor: pointer;  -ms-box-sizing: border-box;     -khtml-box-sizing: border-box;     -webkit-box-sizing: border-box;     -moz-box-sizing: border-box;    box-sizing: border-box;    box-sizing: border-box; }
+.login-form input[type="submit"]  { margin-top:25px; width:100%; float: left; font-size:16px; background: #72AC94; height:50px; color:#fff; padding:6px; text-transform: uppercase; border-radius: 4px; border:0; cursor: pointer;  -ms-box-sizing: border-box;     -khtml-box-sizing: border-box;     -webkit-box-sizing: border-box;     -moz-box-sizing: border-box;    box-sizing: border-box;    box-sizing: border-box; }
+.login-form .btn  { margin-top:5px; width:100%; float: left; font-size:16px; background:#2A8DE7; height:50px; color:#fff; padding:15px 6px!important; font-weight:900; text-transform: uppercase;  border-radius: 4px; border:0; cursor: pointer;  -ms-box-sizing: border-box;     -khtml-box-sizing: border-box;     -webkit-box-sizing: border-box;     -moz-box-sizing: border-box;    box-sizing: border-box;    box-sizing: border-box; }
+.login-form textarea { font-size:16px; padding: 10px; min-height:50px; width:100%; border: 0;    -webkit-font-smoothing: antialiased;    -moz-osx-font-smoothing: grayscale;  background:#fff;  border-radius: 5px; margin:8px 0 18px; border:1px solid #e0e1e3;}
+.login-form input[type="submit"]:hover, .login-form .btn:hover { background: #6E6E6E; }
+.login-form p a {font-size:14px; color:#6E6E6E;}
+.login-form p a:hover {color:#259b24;}
+.login-form .captchaimage { padding-top:11px;}
+.login-form input[type="text"]#inputCaptcha { font-size: 15px; height: 30px; padding: 5px!important; width: auto!important; max-width:45%; line-height:30px;}
+
+.popover-content input[type="email"].form-control, .popover-content input[type="password"].form-control { font-size:14px; padding: 7px; height:45px; width:100%; border: 0;    -webkit-font-smoothing: antialiased;    -moz-osx-font-smoothing: grayscale;  background:#fff;  border-radius: 5px; margin:8px 0; border:1px solid #e0e1e3; line-height: 45px}
+
+.popover-content input[type="submit"].btn  { margin:0 0 10px; width:100%; float: left; font-size:14px; background: #72AC94; height:45px; color:#fff; padding:6px; text-transform: uppercase; border-radius: 5px!important; border:0; cursor: pointer;}+
+
+/* CLIENT AREA */
+.statistics { background: #fff; overflow: hidden; padding: 0px 0 20px; }
+.statistics h2 { font-weight: 900; margin-bottom: 12px; text-align: center; }
+.statistics h2 i { color: #6cd0c3; }
+.statistics p { font-size: 17px; font-weight: 300; margin: 0 auto; text-align: center; }
+.statistics span { display: block; font-size: 18px; font-weight: 300; text-align: center; }
+.statistics .circle-text { color: #807e7e; font-weight: 900; }
+
+.client-home-panels {margin-top: 45px}
+.client-home-panels .panel-heading  {font-size:18px; font-weight:700; color:#5a5a5a; margin:0 0 12px; padding:22px 8px; background:#F5F5F5!important; letter-spacing: -.07; text-transform: uppercase; position: relative; text-align: left; border:0!important; border-radius: 0!important;}
+.client-home-panels .panel-heading:after { top: 100%; left: 50%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; border-color: rgba(222, 98, 98, 0); border-top-color: #F5F5F5; border-width: 10px; margin-left: -10px; }
+.client-home-panels .panel-body {font-size: 15px;}
+.client-home-panels .list-group {font-size:15px!important; border:0!important;}
+.client-home-panels .list-group a {padding:7px!important; border-bottom:1px solid #e8e8e8!important;}
+.client-home-panels .list-group a span {font-size:15px!important; color:#259b24;}
+.client-home-panels input[type="text"] { font-size: 15px; height: 38px; padding: 5px 15px!important; width: 100%; line-height:38px;}
+.client-home-panels .input-group-btn .btn {padding:9px 12px!important;}
+
+select#inputContactID { font-size: 15px; height: 38px; padding: 5px 15px!important; width: 100%; line-height:38px;}
+button[type="submit"].gocontact {width:auto!important; display:table; margin:0 auto; float:none!important; margin-top:6px; font-size:13px; font-weight:300; padding:4px; height:auto!important;}
+
+.tab-content select {font-size: 14px; padding: 0 8px!important; width: 100%; height:auto!important; line-height:15px!important; margin-bottom:10px;}
+.tab-content button[type="submit"] {width:auto!important; display:table; margin:0 auto; float:none!important; margin-top:6px; font-size:13px; font-weight:300; padding:4px; height:auto!important;}
+
+button[type="button"].dropdown-toggle:focus {background:#A66BBE; color:#fff;}
+
+.btn.btn-primary.registerns { border-radius: 5px; cursor: default; height: 55px; background:#71AC94!important; line-height:40px; }
+
+ul.bulkdomlist {padding:0; margin:0; list-style: none}
+ul.bulkdomlist li {padding:8px 12px; margin:0 0 1px; background:#F5F5F5;}
+
+.bg-info {background: #72AC94; color:#fff; font-weight: 300!important;}
+button[type="submit"].gocontact {width:auto!important; display:table; margin:0 auto; float:none!important; margin-top:6px; font-size:13px; font-weight:300; padding:4px 10px; height:auto!important;}
+/* DATATABLES */
+.dataTables_wrapper .dataTables_filter label .form-control {line-height:25px;}
+.table-container table td, .dataTables_paginate   {font-size:14px!important;}
+span.label {border-radius: 5px!important; font-weight: 300}
+.dataTables_length select {font-size: 14px; padding: 0 8px!important; width: 100%; height:auto!important; line-height:15px!important;}
+.dataTables_wrapper .dataTables_info {background: #72AC94;}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus { background-color: #72AC94;  border-color:#72AC94;}
+td button[type="submit"] {width:auto!important; display:table; margin:0 auto; float:none!important; font-size:13px; font-weight:300; padding:4px; height:auto!important;}
+
+/* DOMAINS */
+.domain-checker-container {padding:50px 0!important; background: #9A9DAC!important;}
+.domain-checker-bg { padding:15px 0 35px!important;  background: #9A9DAC!important;  color: #5a5a5a!important;}
+.domain-bulk-options-box {top:9px;}
+.domain-bulk-options-box .btn.btn-warning.btn-sm {background:#2D2D2D!important;}
+.domain-checker-container #default-captcha-domainchecker {background:transparent!important;}
+.domain-checker-container #default-captcha-domainchecker p {color:#fff!important;}
+
+/* AFFILIATES  */
+.affiliate-stat {border-radius: 5px; border:1px solid #e8e8e8;padding:18px 8px;}
+
+
+/* MEDIA QUERIES  */
+@media only screen and (max-width: 991px) {
+  .navbar-nav{margin: 0;}
+  .navbar-collapse.in{overflow: inherit;}
+  .navbar-nav > li > .dropdown-menu{
+    background: #5D8B77;
+    padding: 10px ;
+    position: static;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+  }
+  ul.navbar-nav li ul li a{
+    color: #eee;
+    padding: 10px 8px!important;
+  }
+}
+@media only screen and (max-width: 659px) {
+#navigation {    display:none;  }
+.main-content {min-height: 10px}
+button.navbar-toggle {display:table; margin:0 auto; text-align: center; float:none!important; margin-top:10px; margin-bottom:10px;}
+.announcement-single h3 span {padding:10px 5px; border-radius:6px; font-size:12px; margin:0 5px 12px 0!important; display:block; width:100%; text-align: center}
+.captchaimage {  text-align: center;}
+}
+
+@media only screen and (min-width: 660px) and (max-width: 991px) {
+.sf-menu li a { letter-spacing: 0; padding: 32px 10px; }
+#mc_embed_signup input[type="email"].form-control { font-size: 15px;}
+#mc_embed_signup input[type="submit"] { font-size: 14px;}
+button.navbar-toggle {display:table; margin:0 auto; text-align: center; float:none!important; margin-top:10px; margin-bottom:10px;}
+}

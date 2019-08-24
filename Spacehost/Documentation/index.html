@@ -1,0 +1,306 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+<title>Spacehost - Documentation</title>
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/prettify.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+<div id="header" class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="doc-title"><div class="glyph-icon flaticon-document-1"></div>Spacehost - Documentation</div>
+        </div>
+    </div>
+</div>
+<div id="content" class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12 col-md-3" style="padding:0;">
+            <div class="menu-holder">
+                <ul class="main-menu">
+                    <li><a href="#html" class="active"><i class="fa fa-angle-right" aria-hidden="true"></i>HTML Structure</a></li>
+                    <li><a href="#css"><i class="fa fa-angle-right" aria-hidden="true"></i>CSS & JavaScript</a></li>
+                    <li><a href="#logo"><i class="fa fa-angle-right" aria-hidden="true"></i>Logo & Menu</a></li>
+                    <li><a href="#icons"><i class="fa fa-angle-right" aria-hidden="true"></i>Icons & text</a></li>
+                    <li><a href="#partners"><i class="fa fa-angle-right" aria-hidden="true"></i>Partners Images</a></li>
+                    <li><a href="#pricing"><i class="fa fa-angle-right" aria-hidden="true"></i>Pricing tables</a></li>
+                    <li><a href="#domain"><i class="fa fa-angle-right" aria-hidden="true"></i>Domain Pricing</a></li>
+                    <li><a href="#testimonials"><i class="fa fa-angle-right" aria-hidden="true"></i>Testimonials</a></li>
+                    <li><a href="#footer"><i class="fa fa-angle-right" aria-hidden="true"></i>Footer Details</a></li>
+                    <li><a href="#form"><i class="fa fa-angle-right" aria-hidden="true"></i>Form Setup</a></li>
+                    <li><a href="#whmcs"><i class="fa fa-angle-right" aria-hidden="true"></i>WHMCS Theme Installation</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-9 content">
+            <h3 id="html">HTML Structure</h3>
+            <p>The template is based on bootstrap library, please read more about bootstrap here: <a href="http://getbootstrap.com/getting-started/" target="_blank">http://getbootstrap.com/getting-started/</a>
+
+                To edit the template, a very basic knowledge in dealing with bootstrap is required.
+            </p>
+            
+            <p>The Html file can be edited in any text editor, best example is Adobe Dreamweaver.
+            </p>
+            
+            <p>Hostio template structure is based on bootstrap layout, the page is separated in rows, every row created like the following figure:
+            </p>
+            
+            <img src="assets/images/doc.jpg">
+            <br>
+            <p>The template is arranged in sections, each section(div) has an id, Ex: "mainNav", "top-content", "pricing", ...etc</p>
+            <p><b>Note:</b> for the WHMCS, the same layout can be found in "header.tpl".</p>
+            <pre class="prettyprint">
+&lt;div id="top-content" class="container-fluid"&gt;
+...
+&lt;div id="info" class="container-fluid"&gt;
+...
+&lt;div id="features" class="container-fluid"&gt;
+...
+&lt;div id="partners" class="container-fluid"&gt;
+...
+&lt;div id="pricing" class="container-fluid"&gt;
+...
+&lt;div id="testimonials" class="container-fluid"&gt;
+...
+&lt;div id="contact" class="container-fluid"&gt;
+...</pre>
+            <h3 id="css">CSS</h3>
+            <p>There are four CSS files in the template. First is "bootstrap.min.css", used for layout — originally in bootstrap, the other files are "font-awesome.min.css", "slick.css" and "style.css" is used for style customisation, where the texts, colors, backgrounds and font styles can be changed.</p>
+            
+            <p>
+                We arrange the styles according to the order of the tags in the html.
+            </p>
+            <pre class="prettyprint">/*------------------------------------------------------------------
+[Table of contents]
+
+1. General Styles.
+2. Header Styles.
+3. Top Content Styles.
+4. Features Section Styles
+5. Partners Section Styles.
+6. More Features Section Styles.
+7. Pricing Section Styles.
+8. Search-box Section Styles.
+9. Domain Pricing Section Styles.
+10. Testimonials Section Styles.
+11. Message Section Styles.
+12. Contact Section Styles.
+13. Responsive Styles.
+-------------------------------------------------------------------*/</pre>
+           
+            <h3 id="javascript">JavaScript</h3>
+            <p>This template imports four Javascript files.</p>
+
+            <ul>
+                <li>"jquery.min.js": jQuery is a Javascript library that greatly reduces the amount of code that you must write.</li>
+                <li>"bootstrap.min.js": Bootstrap is the most popular Javascript framework for developing responsive, mobile first projects on the web.</li>
+                <li>"slick.min.js": slick is a responsive carousel jQuery plugin that supports multiple 
+                <li>"main.js": Our custom javascript code.</li>
+            </ul>
+            
+            <h3 id="logo">Logo</h3>
+            <p>To change the logo, replace the img src="" with the logo url, consider that the dimentions of the logo must be width: 306px ×  height: 92px.</p>
+            <pre class="prettyprint">&lt;img class="logo" src="images/logo.svg" alt="Spacehost"&gt;</pre>
+            
+            <h3 id="menu">Menu</h3>
+            <p>To change the menu links, simply edit this code.</p>
+            <pre class="prettyprint">
+&lt;ul class=&quot;nav navbar-nav navbar-right&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;#features&quot;&gt;&lt;span&gt;Features&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#pricing&quot;&gt;&lt;span&gt;Purchase&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#contact&quot;&gt;&lt;span&gt;Support&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a class=&quot;chat-button&quot; href=&quot;#&quot;&gt;Chat now&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</pre>
+            <br>
+            <p>Add a link to "Chat now" button, by replacing the # in href="#" </p>
+            <pre class="prettyprint">&lt;li&gt;&lt;a class=&quot;chat-button&quot; href=&quot;#&quot;&gt;Chat now&lt;/a&gt;&lt;/li&gt;</pre>
+            
+            
+            <h3 id="icons-text">Icons & text</h3>
+            <p>The content in features section can be edited easily as follow:</p>
+            <p>You can change the icon, title and details text by editing this code for each one.</p>
+            <pre class="prettyprint">
+&lt;div class=&quot;feature-box&quot;&gt;
+    &lt;div class=&quot;feature-icon&quot;&gt;
+        &lt;img src=&quot;images/feature1.svg&quot; alt=&quot;&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;feature-title&quot;&gt;Site Bulilder&lt;/div&gt;
+    &lt;div class=&quot;feature-details&quot;&gt;
+        &lt;p&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.&lt;/p&gt;
+        &lt;h4&gt;Site Bulilder&lt;/h4&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+            <p>You can use FontAwesome icons. Assume you needed twitter icon. To do that, replace the following code</p>
+            <pre class="prettyprint">
+&lt;img src=&quot;images/feature1.svg&quot; alt=&quot;&quot;&gt;</pre>
+            <p>With this</p>
+            <pre class="prettyprint">
+&lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt;</pre>
+            
+            <p>To relplace the icon with an image, replace the img src="" with the image url, consider that the dimentions of the icon must be width: 146px ×  height: 146px.</p>
+
+            <p>Make sure to repeat the same modifications in this code as well.</p>
+            
+            <h3 id="partners">Partners Images</h3>
+            <p>You can add any number of images in the slider by editing the following code:</p>
+            <pre class="prettyprint">
+&lt;div class=&quot;partners-slider&quot;&gt;
+    &lt;div&gt;&lt;img src=&quot;images/partner1.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;img src=&quot;images/partner2.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;img src=&quot;images/partner3.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;img src=&quot;images/partner4.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;img src=&quot;images/partner5.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;img src=&quot;images/partner6.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;img src=&quot;images/partner7.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;</pre>
+            <p>To add more images, simply dublicate the following line:</p>
+            <pre class="prettyprint">
+&lt;div&gt;&lt;img src="images/partner1.png" alt=""&gt;&lt;/div&gt;</pre>
+            <p>To change the image, replace the src="" url of the img tag with your url.</p>
+            
+            <h3 id="pricing">Pricing tables</h3>
+            <p>Every Pricing table start with the following line of code.</p>
+            <pre class="prettyprint">&lt;div class=&quot;pricing-box&quot;&gt;</pre>
+            <p>You can add "Best Choise" icon at the top of the table by adding "best-choise" class next to other class as follow.</p>
+            <pre class="prettyprint">&lt;div class=&quot;pricing-box best-choise&quot;&gt;</pre>
+            <p>The following code is for the pricing table. The title, price and the details can be changed easily</p>
+            <pre class="prettyprint">
+&lt;div class=&quot;pricing-box&quot;&gt;
+    &lt;div class=&quot;pricing-content&quot;&gt;
+        &lt;div class=&quot;pricing-title&quot;&gt;Starter&lt;/div&gt;
+        &lt;div class=&quot;pricing-price&quot;&gt;$4.6&lt;/div&gt;
+        &lt;div class=&quot;pricing-info&quot;&gt;Sed ut perspiciatis unde omnis iste natus error sit.&lt;/div&gt;
+        &lt;div class=&quot;pricing-details&quot;&gt;
+            &lt;ul&gt;
+                &lt;li&gt;Sed ut perspiciatis unde&lt;/li&gt;
+                &lt;li&gt;Sed ut perspiciatis unde&lt;/li&gt;
+                &lt;li&gt;Sed ut perspiciatis unde&lt;/li&gt;
+                &lt;li&gt;Sed ut perspiciatis unde&lt;/li&gt;
+                &lt;li&gt;Sed ut perspiciatis unde&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;pricing-link&quot;&gt;
+        &lt;a class=&quot;order-link&quot; href=&quot;#&quot;&gt;Order now &lt;i class=&quot;sphst sphst-arrow-down&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+
+            <p>In WHMCS template, you will be using this list code when you add the ordering list, to be looks like the Html template exactly.</p>
+            <pre class="prettyprint">
+&lt;ul&gt;
+    &lt;li&gt;Sed ut perspiciatis unde&lt;/li&gt;
+    &lt;li&gt;Sed ut perspiciatis unde&lt;/li&gt;
+    &lt;li&gt;Sed ut perspiciatis unde&lt;/li&gt;
+    &lt;li&gt;Sed ut perspiciatis unde&lt;/li&gt;
+    &lt;li&gt;Sed ut perspiciatis unde&lt;/li&gt;
+&lt;/ul&gt;</pre>
+            
+            <h3 id="domain">Domain Pricing</h3>
+            <p>To edit the pricing domain details, simply edit the following code</p>
+            <pre class="prettyprint">
+&lt;ul class=&quot;domain-list&quot;&gt;
+    &lt;li&gt;
+        &lt;div class=&quot;col-xs-6&quot;&gt;.com&lt;/div&gt;
+        &lt;div class=&quot;col-xs-6&quot;&gt;$12.95/yr*&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;div class=&quot;col-xs-6&quot;&gt;.club&lt;/div&gt;
+        &lt;div class=&quot;col-xs-6&quot;&gt;$9.95/yr*&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;div class=&quot;col-xs-6&quot;&gt;.co&lt;/div&gt;
+        &lt;div class=&quot;col-xs-6&quot;&gt;$12.95/yr*&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;div class=&quot;col-xs-6&quot;&gt;.space&lt;/div&gt;
+        &lt;div class=&quot;col-xs-6&quot;&gt;$9.95/yr*&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;div class=&quot;col-xs-6&quot;&gt;.us&lt;/div&gt;
+        &lt;div class=&quot;col-xs-6&quot;&gt;$5.95/yr*&lt;/div&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;</pre>
+
+            <p>Make sure to repeat the same modifications in this code as well.</p>
+            <p>And for the WHMCS template, it will come dynamically when you added the domain pricing from the WHMCS admin located in "Setup > Products/Services > Domain Pricing".</p>
+            
+            <h3 id="testimonials">Testimonials</h3>
+            <p>To edit the testimonial, simply edit the following code</p>
+            <p>You can change the image direction either left "left-img" or right "right-img"</p>
+            <pre class="prettyprint">
+&lt;div class=&quot;testimonial-box right-img&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-xs-3 img-holder dot-color1&quot;&gt;&lt;img src=&quot;images/person1.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-xs-9&quot;&gt;
+            &lt;p&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+            <p>Make sure to repeat the same modifications in this code as well.</p>
+            
+            <h3 id="footer">Footer Details</h3>
+            <p>To edit the footer information, simply change the text in this code.</p>
+            <pre class="prettyprint">
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;div class=&quot;contact-box&quot;&gt;
+        &lt;h4&gt;Get the right support&lt;/h4&gt;
+        &lt;p&gt;Sed ut perspiciatis unde omnis iste natus&lt;br&gt;
+        error sit voluptatem accusantium&lt;br&gt;
+        Lorem ipsusm set amir&lt;/p&gt;
+        &lt;a href=&quot;#&quot;&gt;Visit our support portal&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;div class=&quot;contact-box&quot;&gt;
+        &lt;h4&gt;Talk to customer service&lt;/h4&gt;
+        &lt;p&gt;Olim ut perspiciatis unde omnis iste natus&lt;br&gt;
+        error sit voluptatem accusantium&lt;br&gt;
+        Lorem ipsusm set amir&lt;/p&gt;
+        &lt;a href=&quot;#&quot;&gt;Call us on 38-244-64-23&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+            
+            <h3 id="form">Form Setup</h3>
+            <p>Set your email in the form:</p> 
+            <p>Open "mailer.php" file in any text editor and replace this email "you@yourdomain.com" with your email, it's in the line 20 of the file.</p>
+            
+            <h3 id="whmcs">WHMCS Theme Installation</h3>
+            <ul>
+                <li>Copy "spacehost" folder to WHMCS templates folder.</li>
+                <li>Copy "spacehost_cart" and "standard_cart" folders to WHMCS templates/orderforms folder.</li>
+                <li>On your WHMCS admin panel go to Setup > General Settings, choose the template "Spacehost" and save changes.</li>
+                <li>Go to Setup > General Settings then Ordering Tab, choose "Spacehost Cart" and save changes.</li>
+            </ul>
+            
+
+            <hr>
+            <p>Once again, thank you so much for purchasing this template. We'd be glad to help you if you have any questions relating to this template. No guarantees, but We'll do our best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+        </div>
+    </div>
+</div>
+<div id="footer" class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="brandio-logo-holder">
+                <img src="assets/images/brandio.png" alt="Brandio">
+            </div>
+            <div class="doc-info">
+                <div><b>Created:</b> 16/4/2017</div>
+                <div><b>By:</b> Brandio</div>
+                <div><b>Support:</b> faisal@brandio.io</div>
+            </div>
+        </div>
+    </div>
+</div>
+<a id="back-to-top" href="#header"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+<script src="assets/js/jquery.min.js"></script> 
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/prettify.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,215 @@
+/*
+
+[Theme Overrides Stylesheet]
+
+Project: CloudServer - Responsive HTML5 Technology, Web Hosting and WHMCS Template
+Version: 1.3
+Author : themelooks.com
+
+
+NOTE:
+------
+PLEASE DO NOT EDIT THIS CSS, YOU MAY NEED TO USE "custom.css" FILE FOR WRITING YOUR CUSTOM CSS.
+WE MAY RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE. IT'S BETTER AND SAFER TO USE "custom.css".
+
+
+[TABLE OF CONTENTS]
+
+1. GENERAL STYLES
+
+2. HEADER AREA
+
+3. HOME BANNER AREA
+
+4. HOME SHORTCUTS AREA
+
+5. MAIN BODY AREA
+
+6. LOGIN AREA
+
+7. MEDIA QUERIES
+
+*/
+
+/*------------------------------------*\
+    1. GENERAL STYLES
+\*------------------------------------*/
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: inherit;
+}
+
+a.label {
+    color: #fff; /* Reset the anchor label color */
+}
+
+a.btn {
+    color: #fff; /* Reset the anchor button color */
+}
+
+a.btn-default {
+    color: #333; /* Set the anchor default button color */
+}
+
+input[type=checkbox],
+input[type=radio] {
+    margin-top: 2px;
+}
+
+.listtable {
+    overflow: auto;
+}
+
+/*------------------------------------*\
+    2. HEADER AREA
+\*------------------------------------*/
+#header {
+    border-top: 1px solid #e9e9e9;
+}
+
+.navbar-main .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-main .navbar-toggle:focus,
+.navbar-main .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-main .navbar-nav > li > a {
+    -webkit-transition: color .25s, background-color .25s ease-in-out, border-color .25s;
+            transition: color .25s, background-color .25s ease-in-out, border-color .25s;
+}
+
+.navbar-main .navbar-nav > li > a:hover,
+.navbar-main .navbar-nav > li > a:focus,
+.navbar-main .navbar-nav > .active > a,
+.navbar-main .navbar-nav > .active > a:hover,
+.navbar-main .navbar-nav > .active > a:focus,
+.navbar-main .navbar-nav > .open > a,
+.navbar-main .navbar-nav > .open > a:hover,
+.navbar-main .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #202736;
+}
+
+.navbar-main .dropdown-menu a {
+    -webkit-transition: color .25s, background-color .25s ease-in-out, border-color .25s;
+            transition: color .25s, background-color .25s ease-in-out, border-color .25s;
+}
+
+/*------------------------------------*\
+    3. HOME BANNER AREA
+\*------------------------------------*/
+section#home-banner {
+    padding: 100px 0;
+    background-color: #202736;
+    background-size: auto;
+    background-repeat: repeat;
+}
+
+section#home-banner h2 {
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+#home-banner input.form-control,
+#home-banner input[type="submit"] {
+    margin: 0;
+    border: none;
+    box-shadow: none;
+    outline: 0;
+}
+
+/*------------------------------------*\
+    4. HOME SHORTCUTS AREA
+\*------------------------------------*/
+.home-shortcuts li,
+.home-shortcuts li:first-child {
+    border-color: #fff;
+}
+
+.home-shortcuts li {
+    padding: 20px 0;
+}
+
+.home-shortcuts .lead {
+    margin-top: 17px;
+}
+
+/*------------------------------------*\
+    5. MAIN BODY AREA
+\*------------------------------------*/
+#main-body a {
+    -webkit-transition: color .25s, background-color .25s ease-in-out, border-color .25s;
+            transition: color .25s, background-color .25s ease-in-out, border-color .25s;
+}
+
+#main-body a:hover {
+    color: #288feb; /* Set the anchor hover color */
+}
+
+#main-body a.label:hover {
+    color: #fff; /* Reset the anchor label color */
+}
+
+#main-body a.btn:hover {
+    color: #fff; /* Reset the anchor button color */
+}
+
+#main-body a.btn-default:hover {
+    color: #333; /* Set the anchor default button color */
+}
+
+#main-body a.list-group-item:focus,
+#main-body a.list-group-item:hover {
+    color: #555; /* Reset the anchor list group item color */
+}
+
+#main-body .list-group-item.active,
+#main-body .list-group-item.active:focus,
+#main-body .list-group-item.active:hover {
+    color: #fff; /* Reset the anchor active list group item color */
+}
+
+div.header-lined h1 {
+    color: #202736; /* Set the header lined color */
+}
+
+div.header-lined small {
+    color: #777; /* Reset the header lined small tag color */
+}
+
+/*------------------------------------*\
+    6. LOGIN AREA
+\*------------------------------------*/
+#login.btn {
+    padding: 6px 12px; /* Reset the login button padding */
+}
+
+/*------------------------------------*\
+    7. MEDIA QUERIES
+\*------------------------------------*/
+@media screen and (max-width: 991px) {
+    .primary-menu-links{
+        float: left !important;
+        margin-top: 0;
+    }
+    
+    .primary-social-menu-links {
+        float: right !important;
+        margin-top: 0;
+    }
+    
+    .primary-menu-links > li,
+    .primary-social-menu-links > li {
+        float: left;
+    }
+    
+    #secondaryMenu .navbar-header {
+        float: left;
+    }
+}

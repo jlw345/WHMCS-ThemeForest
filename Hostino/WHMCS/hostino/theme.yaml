@@ -1,0 +1,7 @@
+# Hostino Theme for WHMCS Configuration File
+
+name: "Hostino Theme for WHMCS"
+description: "Hostino - Html5 WHMCS Theme"
+author: "Brandio"
+properties:
+  serverSidePagination: false # Defines client side will handle pagination

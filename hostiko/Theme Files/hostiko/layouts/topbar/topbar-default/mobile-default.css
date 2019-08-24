@@ -1,0 +1,14 @@
+@media screen and (max-width : 991px ){
+.dmedia_top_bar .dmedia_rightbar li {
+    margin: 0 5px;
+}
+}
+@media screen and (max-width : 767px ){
+.dmedia_top_bar .dmedia_rightbar{
+	display:none;	
+	}
+}
+@media screen and (max-width : 415px ){
+.dmedia_top_bar .dmedia_left li:first-child{
+	margin-bottom:10px;
+}

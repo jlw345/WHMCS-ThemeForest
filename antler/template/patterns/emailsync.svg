@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 437.8 437.6" style="enable-background:new 0 0 437.8 437.6;" xml:space="preserve">
+<style type="text/css">
+	.emails0{fill:#FFFFFF;}
+	.emails1{fill:none;stroke:#ee5586;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.emails2{fill:#FFFFFF;stroke:#808080;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.emails3{fill:none;stroke:#808080;stroke-miterlimit:10;}
+	.emails4{fill:#FFFFFF;stroke:#ee5586;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.emails5{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#808080;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.emails6{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#ee5586;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.emails7{fill:none;stroke:#808080;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<circle class="emails0" cx="218.4" cy="217.8" r="215.1"/>
+
+
+<g>
+<path id="svg-concept" class="emails1" d="M219.1,3.4C124.1,3.1,37,66.5,11.3,162.7c-30.6,114.5,37.4,232.2,151.9,262.9
+	c114.5,30.6,232.2-37.4,262.9-151.9"/>
+	<animateTransform  
+		attributeName="transform" 
+		type="rotate"
+		dur="5s" 
+		from="0 218 220" 
+		to="-360 220 218" 
+		repeatCount="indefinite" />
+</g>
+
+
+<g>
+	<path class="emails2" d="M53.2,284.1c0-1,0.8-1.9,1.8-1.9h282.2c1,0,1.8,0.8,1.8,1.9v5.7c0,0-0.2,6.9-14.5,6.9H201.7h-134
+		c-14.3,0-14.5-6.9-14.5-6.9L53.2,284.1z"/>
+	<path class="emails2" d="M307.7,282.2V135.1c0-4.2-3.3-7.6-7.4-7.6H93.6c-4.1,0-7.4,3.4-7.4,7.6v147.1H307.7z"/>
+	<polyline class="emails2" points="339.1,289.8 201.7,289.8 53.2,289.8 	"/>
+	<path class="emails3" d="M196.1,282.3h-21.8c0,0,0.3,3.1,3.7,3.1c3.4,0,18.1,0,18.1,0s14.7,0,18.1,0c3.4,0,3.7-3.1,3.7-3.1H196.1z"/>
+	<rect x="96.1" y="143.6" id="svg-concept" class="emails4" width="200.5" height="129.6"/>
+	<path id="svg-concept" class="emails4" d="M117,151.9c0,0.9-0.7,1.6-1.6,1.6c-0.9,0-1.5-0.7-1.5-1.6c0-0.9,0.7-1.5,1.5-1.5
+		C116.3,150.4,117,151.1,117,151.9z"/>
+	<path class="emails2" d="M124.4,151.9c0,0.9-0.7,1.6-1.6,1.6c-0.9,0-1.5-0.7-1.5-1.6c0-0.9,0.7-1.5,1.5-1.5
+		C123.7,150.4,124.4,151.1,124.4,151.9z"/>
+	<path class="emails2" d="M131.7,151.9c0,0.9-0.7,1.6-1.6,1.6c-0.9,0-1.5-0.7-1.5-1.6c0-0.9,0.7-1.5,1.5-1.5
+		C131,150.4,131.7,151.1,131.7,151.9z"/>
+	<path class="emails2" d="M96.1,159.2h200.5"/>
+	<g>
+		<path class="emails2" d="M355.5,318.1v-99.3c0-5.5-4.4-9.9-9.9-9.9H189.8c-5.5,0-9.9,4.4-9.9,9.9l0,99.3c0,5.5,4.4,9.9,9.9,9.9h155.8
+			C351.1,328,355.5,323.6,355.5,318.1z"/>
+		<rect x="206.9" y="221.9" id="svg-concept" class="emails4" width="135.4" height="93.1"/>
+	</g>
+	<g>
+		<path class="emails5" d="M208.1,254.3h-45.7c-2.7,0-4.9,2.2-4.9,4.9v84.9c0,2.7,2.2,4.9,4.9,4.9h45.7c2.7,0,4.9-2.2,4.9-4.9v-84.9
+			C213,256.5,210.8,254.3,208.1,254.3z"/>
+		<rect x="165.1" y="264.1" id="svg-concept" class="emails6" width="40.2" height="68.6"/>
+		<line class="emails7" x1="178.3" y1="274.1" x2="175.4" y2="277.1"/>
+		<line class="emails7" x1="190.2" y1="274.1" x2="173.9" y2="290.4"/>
+	</g>
+</g>
+<g>
+<path class="emails7" d="M218.7,411.1c85.2,0.1,163.3-56.8,186.3-143.1c27.5-102.9-33.6-208.6-136.5-236.2
+	C165.6,4.3,59.9,65.4,32.3,168.3"/>
+	<animateTransform  
+		attributeName="transform" 
+		type="rotate"
+		dur="5s" 
+		from="0 218 220" 
+		to="360 220 218" 
+		repeatCount="indefinite" />
+</g>
+</svg>

@@ -1,0 +1,3 @@
+   // prettyPhoto
+
+        $(".mfp-iframe").prettyPhoto();

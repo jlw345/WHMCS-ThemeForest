@@ -1,0 +1,14 @@
+2017 January 30 – Version 1.3
+
+// # List of updates
+// ------------------------------
+
+[+] Added Retina Logo upload option
+[+] Added Slider background color change option
+[+] Added Logo Height/ width change option
+[+] Added Header Top link color change option
+[+] Added History, FAQ content HTML support span, strong, br, a, tags
+[+] Added SVG image/icon upload support
+[+] Added slider and banner overlay, overlay background color, opacity options
+
+

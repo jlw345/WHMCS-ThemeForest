@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<!--[if IE 6 ]>
+<html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>
+<html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>
+<html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html class="cufon-active cufon-ready" lang="en-us"><!--<![endif]-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>WHMCS Template for Zionhost</title>
+    <link rel="stylesheet" href="css/documenter_style.css" media="all">
+    <link rel="stylesheet" href="css/prettify.css" media="screen">
+    <script src="js/prettify.js"></script>
+    <link rel="stylesheet" href="css/custom.css" media="screen">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <script src="js/jquery_002.js"></script>
+    <script src="js/font.js"></script>
+    <script src="js/jquery_003.js"></script>
+    <script src="js/jquery.js"></script>
+    <script>document.createElement('section');
+    var duration = '450', easing = 'easeInQuad';</script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+<div id="documenter_sidebar">
+    <a href="#documenter_cover" id="documenter_logo"></a>
+
+    <div id="documenter_version">Version - 1.1</div>
+    <ul id="documenter_nav">
+        <li><a class="current" href="#documenter_cover">Start</a></li>
+        <li><a class="" href="#whmcs_guideline" title="Theme-Options">Steps - Zionhost Template</a>
+			<ul>
+				<li><a href="#upload_template" title="Upload Template">Upload Template &#8592;</a></li>
+				<li><a href="#enable_php" title="Enable PHP tags">Enable PHP tags &#8592;</a></li>
+				<li><a href="#activate_template" title="Activate Template">Activate Template &#8592;</a></li>
+				<li><a href="#edite_header" title="Edit header.tpl">Edit header.tpl &#8592;</a></li>	
+				<li><a href="#order_form" title="Order Form">Order Form &#8592;</a></li>
+				<li><a href="#add_to_menu" title="Add to Menu">Add to Menu &#8592;</a></li>
+				<li><a href="#note" title="Notes">Notes &#8592;</a></li>
+			</ul>
+		</li>
+		<li><a class="" href="#whmcs_guideline_alt" title="Theme-Options">Steps - Zionhost-alt Template</a>
+			<ul>
+				<li><a href="#upload_template_alt" title="Upload Template">Upload Template &#8592;</a></li>
+				<li><a href="#activate_template_alt" title="Activate Template">Activate Template &#8592;</a></li>
+				<li><a href="#edite_header_alt" title="Edit header.tpl">Edit Header & Footer &#8592;</a></li>	
+				<li><a href="#order_form_alt" title="Order Form">Order Form &#8592;</a></li>
+				<li><a href="#add_to_menu_alt" title="Add to Menu">Add to Menu &#8592;</a></li>
+			</ul>
+		</li>
+		<li><a class="" href="#faqs" title="Support">FAQs</a></li>
+        <li><a class="" href="#support" title="Support">Support</a></li>
+    </ul>
+</div>
+<div id="documenter_content">
+    <section id="documenter_cover">
+        <img src="img/preview-image.jpg" id="item-image" alt=""/>
+
+        <h1>WHMCS Template for Zionhost</h1>
+		<div class="page-header" style="margin-top:50px;">
+            <h2>Steps for WHMCS Zionhost Template Setup</h2>
+			<p>There are two ways to setup our custom WHMCS Template:<br>
+			<ol>
+			<li>Upload zionhost template <strong>[Or zionhost-v7 template for whmcs version 7 or later]</strong> (This template does not work on some servers).</li>
+			<li>Upload zionhost-alt template <strong>[Or zionhost-alt-v7 template for whmcs version 7 or later]</strong> (This template works on every servers).</li>
+			</ol>
+            <hr class="notop">
+        </div>
+    </section>
+	
+    <section id="whmcs_guideline">
+		
+		<div id="upload_template">
+		<h3>## Upload Zionhost Template</h3>
+        <p>After purchasing license from WHMCS you need to install WHMCS to your server. After that Upload <strong>zionhost</strong> folder into the <strong>/templates</strong> folder of your WHMCS.</p>
+		</div>
+		
+		
+		<div id="enable_php">
+		<div class="empty_space"></div>
+		<h3>Enable PHP tags</h3>
+		<p>Enable Smarty PHP Tags from WHMCS Admin Panel Setup/General Settings/Security tab.</p>
+		<p><img src="img/allow-php.png" alt="" width="100%" height="auto" /></p>
+		</div>
+		
+		<div id="activate_template">
+		<div class="empty_space"></div>
+		<h3>Activate Template</h3>
+		<p>Activate <strong>Zionhost</strong> Template from WHMCS Admin Panel Setup/General Settings/General tab.</p>
+		<p><img src="img/activate.png" alt="" width="100%" height="auto" /></p>
+		</div>
+		
+		<div id="edite_header">
+		<div class="empty_space"></div>
+		<h3>Edit header.tpl File</h3>
+		<p>If your WordPress is installed into the root directory (/home/username/public_html/) of your server, you do not need to edit the header.tpl file. But if
+		your WordPress is installed in any other folder than root directory, then you need to edit one line from <strong>header.tpl</strong> file of <strong>zionhost</strong>
+		template. Open header.tpl file in code editor such as <a href="https://notepad-plus-plus.org/">notepad++</a> and edit the 12th line of the file.
+		In the 12th line you can see the default line is:<br>
+		$path .= "/wp-load.php";<br>
+		That default line is written assuming that your WordPress is installed in the root directory (/home/username/public_html/). If not, then the line should be edited like below:<br>
+		For example your WordPress is installed into /home/username/public_html/wp/zionhost/ folder. In this case the 12th line should be:<br>
+		$path .= "wp/zionhost/wp-load.php";
+		</p>
+		<p><img src="img/header-tpl.png" alt="" width="100%" height="auto" /></p>
+		</div>
+		
+		<div id="order_form">
+		<div class="empty_space"></div>
+		<h3>Choose Correct Order Form</h3>
+		<p>Zionhost template for WHMCS is built for using the 'Modern' Order Form template. So, you need to make sure that you have login to
+		your whmcs admin panel and then go to Setup --> General Settings --> Ordering tab and choose 'Modern' as your default order form template.<br>
+		If you are using older versions of whmcs like version:6.3, it is better to use our given 'modern' template instead of the existing 'modern' template in the 'orderforms' folder of your whmcs. But it is not important.
+		</p>
+		<p><img src="img/order-form.png" alt="" width="100%" height="auto" /></p>
+		</div>
+		
+		<div id="add_to_menu">
+		<div class="empty_space"></div>
+		<h3>Add WHMCS page to your Website Menu</h3>
+		<p>After following the above steps you should add your WHMCS page as a Custom link of your WordPress Menu.</p>
+		<p><img src="img/add-to-menu.png" alt="" width="auto" height="auto" /></p>
+		</div>
+		
+		<div id="note">
+		<div class="empty_space"></div>
+		<h3>Notes</h3>
+		<p><ul>
+				<li>If you disregard any of the above steps, the template will not work and you may see a blank white page.</li>
+				<li>If you are pretty sure that you have followed every instructions perfectly and still see a blank white page, it means
+				your server does not allow smarty php tags, that is why it will not work in your server. Please use Zionhost-alt template [Or zionhost-alt-v7 template for whmcs version 7 or later],
+				since Zionhost-alt template does not need smarty php tags and it works with every server.<br>
+				Below we have described how to setup Zionhost-alt template.</li>
+			
+			</ul>
+		</p>
+		</div>
+	</section>
+	<section id="whmcs_guideline_alt">	
+		<div id="upload_template_alt" style="margin-top: 50px;">
+		<h3>## Upload Zionhost-alt Template [Or zionhost-alt-v7 template for whmcs version 7 or later] (If Zionhost template [Or zionhost-v7 template for whmcs version 7 or later] did not work for you)</h3>
+        <p>After purchasing license from WHMCS you need to install WHMCS to your server. After that Upload <strong>zionhost-alt</strong> folder into the <strong>/templates</strong> folder of your WHMCS.</p>
+		</div>
+		
+		<div id="activate_template_alt">
+		<div class="empty_space"></div>
+		<h3>Activate Template</h3>
+		<p>Activate <strong>Zionhost-alt</strong> Template from WHMCS Admin Panel Setup/General Settings/General tab. Now you can see at the front-end
+		the template is ready with dummy header and footer content.</p>
+		</div>
+		
+		<div id="edite_header_alt">
+		<div class="empty_space"></div>
+		<h3>Edit Header and Footer Content of the template</h3>
+		<h4>Header</h4>
+		<p> 1. First of all make sure your main website's header customization including menu creations are done. <br>
+		 2. Once you are satisfied then open your main website in a browser and press <strong>ctrl+u</strong>. You will see a new tab is opened with the html of your site. <br>
+		 3. Start copying html lines from where it says <strong>'COPY START FROM THIS LINE TO PLACE THIS INTO THE HEADER.TPL OF WHMCS Zionhost-alt TEMPLATE'</strong> <br>
+		 and Stop copying when it says <strong>COPY END TILL THIS LINE TO PLACE THIS INTO THE HEADER.TPL OF WHMCS Zionhost-alt TEMPLATE</strong>.
+		 4. Now paste the copied html into the header.tpl file of zionhost-alt template [Or zionhost-alt-v7 template for whmcs version 7 or later]. (header.tpl file is located in zionhost-alt folder). In the header.tpl file
+		 you will see a line says <strong>'CODES FROM ZIONHOST THEME HEADER GOES BELOW (DO not touch the codes above this line)'</strong> and another line says <strong>'END CODES FROM ZIONHOST THEME HEADER (DO not touch the codes below this line)'</strong>. You should
+		 remove all the codes between these two lines and paste your copied html here.
+		 <p><img src="img/header-html.png" alt="" width="100%" height="auto" /></p>
+		</p>
+		<h4>Footer</h4>
+		<p> 1. First of all make sure your main website's footer customization are done. <br>
+		 2. Once you are satisfied then open your main website in a browser and press <strong>ctrl+u</strong>. You will see a new tab is opened with the html of your site. <br>
+		 3. Start copying html lines from where it says <strong>'COPY START FROM THIS LINE TO PLACE THIS INTO THE FOOTER.TPL OF WHMCS Zionhost-alt TEMPLATE'</strong> and Stop when it says <br>
+		 <strong>'COPY END TILL THIS LINE TO PLACE THIS INTO THE FOOTER.TPL OF WHMCS Zionhost-alt TEMPLATE'</strong>.
+		 4. Now paste the copied html into the footer.tpl file of zionhost-alt template [Or zionhost-alt-v7 template for whmcs version 7 or later]. (footer.tpl file is located in zionhost-alt folder). In the footer.tpl file
+		 you will see a line says <strong>'CODES FROM ZIONHOST THEME FOOTER GOES BELOW (DO not touch the codes above this line)'</strong> and another line says <strong>'CODES FROM ZIONHOST THEME FOOTER GOES ABOVE (DO not touch the codes below this line)'</strong>. 
+		 You should remove all the codes between these two lines and paste your copied html here.
+		 <p><img src="img/footer-html.png" alt="" width="100%" height="auto" /></p>
+		</p>
+		</div>
+		
+		<div id="order_form_alt">
+		<div class="empty_space"></div>
+		<h3>Choose Correct Order Form</h3>
+		<p>Zionhost template for WHMCS is built for using the 'Modern' Order Form template. So, you need to make sure that you have login to
+		your whmcs admin panel and then go to Setup --> General Settings --> Ordering tab and choose 'Modern' as your default order form template.
+		</p>
+		<p><img src="img/order-form.png" alt="" width="100%" height="auto" /></p>
+		</div>
+		
+		<div id="add_to_menu_alt">
+		<div class="empty_space"></div>
+		<h3>Add WHMCS page to your Website Menu</h3>
+		<p>After following the above steps you should add your WHMCS page as a Custom link of your WordPress Menu.</p>
+		<p><img src="img/add-to-menu.png" alt="" width="auto" height="auto" /></p>
+		</div>
+			
+    </section>
+
+    <section id="faqs">
+        <div class="page-header">
+            <h2>FAQs</h2>
+            <hr class="notop">
+        </div>
+        <p>Q: My whmcs template color is not changed, default green colour scheme remains. Whow to fix?</p>
+		<p>A: To change the color of whmcs template, please open header.tpl file and find the following section of codes between around 20 to 40 no. lines:
+		<p><img src="img/color-css.png" alt="" width="auto" height="auto" /></p>
+		<p>From the above code uncomment any of the color css line which you want to use. For example if you want to use the red color, the above section of code should be like this:</p>
+		<p><img src="img/color-css-2.png" alt="" width="auto" height="auto" /></p>
+	</section>
+	
+	<section id="support">
+        <div class="page-header">
+            <h2>Support</h2>
+            <hr class="notop">
+        </div>
+        <p>As we mentioned in Zionhost Theme Details page of ThemeForest, we do NOT give support for any WHMCS issues. WHMCS is not related to WordPress. 
+		You will be able to install
+		WHMCS once you purchase WHMCS License from <a href="http://www.whmcs.com/order/">whmcs.com</a>, and you should get support for your WHMCS
+from WHMCS support team once you got the WHMCS License.</p>
+    </section>
+</div>
+</body>
+</html>

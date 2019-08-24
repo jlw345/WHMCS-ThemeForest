@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/*
+ * Author: Brandio
+ * Author URI: http://www.brandio.io/
+ * Copyright 2017 Brandio.
+ */
+
+
+@font-face {
+  font-family: "spacehost";
+  src:url("spacehost.eot");
+  src:url("spacehost.eot?#iefix") format("embedded-opentype"),
+    url("spacehost.woff") format("woff"),
+    url("spacehost.ttf") format("truetype"),
+    url("spacehost.svg#spacehost") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "spacehost" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="sphst-"]:before,
+[class*=" sphst-"]:before {
+  font-family: "spacehost" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sphst{
+    display: inline-block;
+    font-family: "spacehost" !important;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-feature-settings: normal;
+    font-language-override: normal;
+    font-kerning: auto;
+    font-synthesis: weight style;
+    font-variant: normal;
+    font-size: inherit;
+    text-rendering: auto;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.sphst-arrow-curve:before {
+  content: "\61";
+}
+.sphst-arrow-down:before {
+  content: "\62";
+}
+.sphst-tick:before {
+  content: "\63";
+}

@@ -1,0 +1,7 @@
+# WHMCS Zionhost Theme Configuration File
+
+name: "WHMCS Zionhost Theme"
+description: "The Custom Zionhost Theme for WHMCS Version 6.0"
+author: "Fluent-Themes"
+properties:
+  serverSidePagination: false # Defines client side will handle pagination

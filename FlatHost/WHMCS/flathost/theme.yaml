@@ -1,0 +1,7 @@
+# WHMCS Six Theme Configuration File
+
+name: "Flathost Theme"
+description: "Matching WHMCS Theme for Flathost Website Template"
+author: "Surjith S M"
+properties:
+  serverSidePagination: false # Defines client side will handle pagination

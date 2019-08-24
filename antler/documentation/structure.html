@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Antler</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/jquery.tocify.css" rel="stylesheet">
+    <link href="assets/img/favicon.ico" rel="shortcut icon">
+    <link href="assets/css/prettify.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+  </head>
+  <body>
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+          <div class="container">
+              <div class="navbar-header col-md-3">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="index.html">
+                      <img src="assets/img/logo.svg" alt="logo" width="120" height="40">
+                  </a>
+              </div>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav pull-right">
+                      <li><a href="index.html">Overview</a></li>
+                      <li class="active"><a href="structure.html">Structure</a></li>
+                      <li><a href="faq.html">FAQ</a></li>
+                      <li><a href="policy.html">Support Policy</a></li>
+                      <li><a href="contact.html">Contacts</a></li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+
+      <div class="container">
+        <div class="row">
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                <div class="b-solid" id="toc">
+                    
+                </div>
+            </div>
+            <div class="col-sm-9 col-md-9 col-lg-9">
+                <div class="content b-solid m-0">
+                    <h6 class="byinebur">Hybrid Design With ♥ by <a href="http://inebur.com" target="_blank">inebur</a></h6>
+                    <h1>General Structure</h1>
+                    <h4 class="m-0">Nav Menu:<h4>
+                    <p>Lets begin. Open header.html file and follow the steps. Remember! The header is loaded once from a single file (header.html) into several HTML pages ;) This presentation includes the i18next language translation.</p><br>
+<pre class="prettyprint linenums">
+
+&lt;nav id="menu"&gt;
+  &lt;div class="navigation&gt;
+    &lt;button class="menu-toggle"&gt;
+    &lt;span class="icon"&gt;&lt;/span&gt;
+    &lt;span class="icon"&gt;&lt;/span&gt;
+    &lt;span class="icon"&gt;&lt;/span&gt;
+    &lt;/button&gt;
+    &lt;ul class="main-menu"&gt;
+      &lt;li class="menu-item"&gt;
+        &lt;a class="h-stroke" href="index" data-i18n="[html]header.home"&gt; &lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li class="menu-item menu-item-has-children"&gt;
+        &lt;a class="m-0 pr-1 v-stroke" href="#" data-i18n="[html]header.services"&gt; &lt;/a&gt;
+        &lt;div class="badge badge-pill bg-purple mr-4"&gt;PRO&lt;/div&gt;
+        &lt;div class="sub-menu menu-large"&gt;
+          &lt;div class="service-list"&gt;
+            &lt;div class="service"&gt;
+              &lt;img class="svg" src="fonts/svg/cloudfiber.svg" alt="Shared Hosting"&gt;
+              &lt;div class="media-body"&gt;
+                &lt;a class="menu-item" href="hosting" data-i18n="[html]submenu.hosting"&gt; &lt;/a&gt;
+                &lt;p&gt;Sed ut perspiciatis unde omnis iste natus&lt;/p&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="service"&gt;
+              &lt;img class="svg" src="fonts/svg/reseller.svg" alt="Cloud Reseller"&gt;
+              &lt;div class="media-body"&gt;
+                &lt;a class="menu-item" href="reseller" data-i18n="[html]submenu.reseller"&gt; &lt;/a&gt;
+                &lt;p&gt;Lorem ipsum dolor sit amet, consectetur&lt;/p&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="service"&gt;
+              &lt;img class="svg" src="fonts/svg/dedicated.svg" alt="Dedicated Server"&gt;
+              &lt;div class="media-body"&gt;
+                &lt;a class="menu-item" href="dedicated" data-i18n="[html]submenu.dedicated"&gt; &lt;/a&gt;
+                &lt;div class="menu badge feat bg-pink"&gt;FILTER&lt;/div&gt;
+                &lt;p&gt;But I must explain to you how all this&lt;/p&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="service"&gt;
+              &lt;img class="svg" src="fonts/svg/vps.svg" alt="Cloud VPS"&gt;
+              &lt;div class="media-body"&gt;
+                &lt;a class="menu-item" href="vps" data-i18n="[html]submenu.vps"&gt; &lt;/a&gt;
+                &lt;div class="menu badge feat bg-grey"&gt;SSD&lt;/div&gt;
+                &lt;p&gt;At vero eos et accusamus et iusto odio&lt;/p&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="service"&gt;
+              &lt;img class="svg" src="fonts/svg/wordpress.svg" alt="WordPress Hosting"&gt;
+              &lt;div class="media-body"&gt;
+                &lt;a class="menu-item" href="wordpress" data-i18n="[html]submenu.wordpress"&gt; &lt;/a&gt;
+                &lt;p&gt;On the other hand, we denounce with&lt;/p&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="service"&gt;
+              &lt;img class="svg" src="fonts/svg/domains.svg" alt="Domains"&gt;
+              &lt;div class="media-body"&gt;
+                &lt;a class="menu-item" href="domains" data-i18n="[html]submenu.domains"&gt; &lt;/a&gt;
+                &lt;p&gt;Lorem ipsum dolor sit amet, consectetur&lt;/p&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="service"&gt;
+              &lt;img class="svg" src="fonts/svg/code.svg" alt="Developer Hosting"&gt;
+              &lt;div class="media-body"&gt;
+                &lt;a class="menu-item" href="developer" data-i18n="[html]submenu.developer"&gt; <&lt;/a&gt;
+                &lt;p&gt;ed ut perspiciatis unde omnis iste natus&lt;/p&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li class="menu-item menu-item-has-children"&gt;
+        &lt;a class="v-stroke" href="#" data-i18n="[html]header.pages"&gt; &lt;/a&gt;
+        &lt;ul class="sub-menu"&gt;
+          &lt;li class="menu-item"&gt;&lt;a href="ssl" data-i18n="[html]submenu.ssl"&gt; &lt;/a&gt;&lt;/li&gt;
+          &lt;li class="menu-item"&gt;&lt;a href="email" data-i18n="[html]submenu.email"&gt; &lt;/a&gt;&lt;/li&gt;
+          &lt;li class="menu-item"&gt;&lt;a href="magento" data-i18n="[html]submenu.magento"&gt; &lt;/a&gt; &lt;div class="menu badge feat bg-pink"&gt;NEW&lt;/div&gt;&lt;/li&gt;
+          &lt;li class="menu-item"&gt;&lt;a href="database" data-i18n="[html]submenu.database"&gt; &lt;/a&gt;&lt;/li&gt;
+          &lt;li class="menu-item"&gt;&lt;a href="ddos" data-i18n="[html]submenu.ddos"&gt; &lt;/a&gt;&lt;/li&gt;
+          &lt;li class="menu-item"&gt;&lt;a href="datacenter" data-i18n="[html]submenu.datacenter"&gt; &lt;/a&gt;&lt;/li&gt;
+          &lt;li class="menu-item"&gt;&lt;a href="about" data-i18n="[html]submenu.about"&gt; &lt;/a&gt;&lt;/li&gt;
+          &lt;li class="menu-item"&gt;&lt;a href="soon" data-i18n="[html]submenu.soon"&gt; &lt;/a&gt;&lt;/li&gt;
+          &lt;li class="menu-item"&gt;&lt;a href="checkout" data-i18n="[html]submenu.checkout"&gt; &lt;/a&gt;&lt;/li&gt;
+          &lt;li class="menu-item"&gt;&lt;a href="cart" data-i18n="[html]submenu.cart"&gt; &lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li class="menu-item menu-item-has-children"&gt;
+        &lt;a class="v-stroke" href="#" data-i18n="[html]header.features"&gt;&lt;/a&gt;
+        &lt;ul class="sub-menu"&gt;
+          &lt;li class="menu-item"&gt;&lta href="pricing" data-i18n="[html]submenu.pricing"&gt; &lt;/a&gt;&lt;/li&gt;
+          &lt;li class="menu-item"&gt;&lta href="sliders" data-i18n="[html]submenu.sliders"&gt; &lt;/a&gt;&lt;/li&gt;
+          &lt;li class="menu-item"&gt;&lta href="configurator" data-i18n="[html]submenu.config"&gt; &lt;/a&gt; &lt;div class="menu badge feat bg-pink"&gt;NEW&lt;/div&gt;&lt;/li&gt;
+          &lt;li class="menu-item"&gt;&lta href="404" data-i18n="[html]submenu.error"&gt; &lt;/a&gt;&lt;/li&gt;
+          &lt;li class="menu-item"&gt;&lta href="login" data-i18n="[html]submenu.register"&gt; &lt;/a&gt;&lt;/li&gt;
+          &lt;li class="menu-item"&gt;&lta href="login" data-i18n="[html]header.login"&gt; &lt;/a&gt;&lt;/li&gt;
+          &lt;li class="menu-item"&gt;&lta href="elements" data-i18n="[html]submenu.elements"&gt; &lt;/a&gt;&lt;/li&gt;
+          &lt;li class="menu-item"&gt;&lt;a href="sections" data-i18n="[html]submenu.sections"&gt; &lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li class="menu-item menu-item-has-children menu-last"&gt;
+        &lt;a class="v-stroke" href="#" data-i18n="[html]header.support"&gt;&lt;/a&gt;
+        &lt;ul class="sub-menu"&gt;
+          &lt;li class="menu-item"&gt;&lt;a href="knowledgebase-list" data-i18n="[html]submenu.knowlist"&gt; &lt;/a&gt;&lt;/li&gt;
+          &lt;li class="menu-item"&gt;&lt;a href="knowledgebase-article" data-i18n="[html]submenu.knowarticle"&gt; &lt;/a&gt;&lt;/li&gt;
+          &lt;li class="menu-item"&gt;&lt;a href="contact" data-i18n="[html]submenu.contact"&gt; &lt;/a&gt;&lt;/li&gt;
+          &lt;li class="menu-item"&gt;&lt;a href="legal" data-i18n="[html]submenu.legal"&gt; &lt;/a&gt;&lt;/li&gt;
+          &lt;li class="menu-item"&gt;&lt;a href="blog" data-i18n="[html]submenu.blog"&gt; &lt;/a&gt;&lt;/li&gt;
+          &lt;li class="menu-item"&gt;&lt;a href="faq" data-i18n="[html]submenu.faq"&gt; &lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li class="menu-item"&gt;
+        &lt;a class="pr-0 mr-0" href="login"&gt; &lt;div class="btn btn-default-yellow-fill question" data-i18n="[html]header.login"&gt;&lt;i class="fas fa-lock pr-1"&gt;&lt;/i&gt; &lt;/div&gt;&lt;/a&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/nav&gt;
+
+</pre>
+                </div>
+                
+                <div class="content b-solid">
+                  <h4 class="m-0">Nav Menu Mobile:</h4>
+                  <p>Lets begin. Open header.html file and follow the steps. Note! The header nav mobile is loaded once from a single file (header.html) into several HTML pages ;) This presentation not includes the i18next language translation.</p><br>
+<pre class="prettyprint linenums">
+&lt;nav class="nav-menu"&gt;
+  &lt;button id="nav-toggle" class="menu-toggle"&gt;
+  &lt;span class="icon"&gt;&lt;/span&gt;
+  &lt;span class="icon"&gt;&lt;/span&gt;
+  &lt;span class="icon"&gt;&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;ul class="main-menu"&gt;
+    &lt;li class="menu-item"&gt;
+      &lt;a href="index"&gt;Home&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class="menu-item menu-item-has-children"&gt;
+      &lt;a&gt;Hosting &lt;div class="badge badge-pill bg-purple"&gt;PRO&lt;/div&gt;&lt;/a&gt;
+      &lt;ul class="sub-menu"&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="hosting"&gt;Shared Hosting&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="reseller"&gt;Cloud Reseller&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="dedicated"&gt;Dedicated Server&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="vps"&gt;Cloud VPS&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="wordpress"&gt;WordPress Hosting&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="domains"&gt;Domain Names&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="developer"&gt;Developer Hosting&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li class="menu-item menu-item-has-children"&gt;
+      &lt;a&gt;Pages&lt;/a&gt;
+      &lt;ul class="sub-menu"&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="ssl"&gt;SSL Certificates&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="email"&gt;Enterprise Email&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="magento"&gt;Magento Pro&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="database"&gt;Database-as-a-Service&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="ddos"&gt;DDoS Protection&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="datacenter"&gt;Datacenter&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="about"&gt;About Us&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="soon"&gt;Coming Soon&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="checkout"&gt;Checkout&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="cart"&gt;Cart&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li class="menu-item menu-item-has-children"&gt;
+      &lt;a&gt;Features&lt;/a&gt;
+      &lt;ul class="sub-menu"&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="pricing"&gt;Pricing Options&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="sliders"&gt;Content Sliders&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="configurator"&gt;Configurator&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="404"&gt;404 Error&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="login"&gt;Register&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="login"&gt;Client Area&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="elements"&gt;Elements&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="sections"&gt;Sections&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li class="menu-item menu-item-has-children menu-last"&gt;
+      &lt;a&gt;Support&lt;/a&gt;
+      &lt;ul class="sub-menu"&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="knowledgebase-list"&gt;Knowlegebase List&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="knowledgebase-article"&gt;Knowlegebase Article&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="contact"&gt;Contact Us&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="legal"&gt;Legal&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="blog"&gt;Blog&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="faq"&gt;Faq&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li class="mt-4"&gt;
+      &lt;a href="tel:+0000000000"&gt;&lt;p class="c-grey"&gt;Phone: + (123) 1300-656-1046&lt;/p&gt;&lt;/a&gt;
+      &lt;a href="mailto:antler@mail.com"&gt;&lt;p class="c-grey"&gt;Email: antler@mail.com&lt;/p&gt;&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href="login"&gt;&lt;div class="btn btn-default-yellow-fill mt-3"&gt;CLIENT AREA&lt;/div&gt;&lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+</pre>
+                </div>
+
+                <div class="content b-solid">
+                  <h1>HTML Structure</h1>
+                  <h5 class="m-0">Grid System:</h5>
+                  <p>This Template has a Responsive layout and is based on the Bootstrap Framework. For more info visit 
+                    <a class="link" href="http://getbootstrap.com/" target="_blank">Bootstrap.</a><br>Bootstrap’s grid includes five tiers of predefined classes for building complex responsive layouts. Customize the size of your columns on extra small, small, medium, large, or extra large devices however you see fit.
+                  </p><br>
+<pre class="prettyprint linenums">
+&lt;div class="container"&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="col-sm"&gt;
+      One of three columns
+    &lt;/div&gt;
+    &lt;div class="col-sm"&gt;
+      One of three columns
+    &lt;/div&gt;
+    &lt;div class="col-sm"&gt;
+      One of three columns
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+
+                </div>
+
+                <div class="content b-solid">
+                  <h5 class="m-0">Nesting Columns</h5>
+                  <p>To nest your content with the default grid, add a new .row and set of .col-sm-* columns within an existing .col-sm-* column. Nested rows should include a set of columns that add up to 12 or fewer (it is not required that you use all 12 available columns).</p><br>
+<pre class="prettyprint linenums">
+&lt;div class="row"&gt;
+  &lt;div class="col-sm-9"&gt;
+    Level 1: .col-sm-9
+    &lt;div class="row"&gt;
+      &lt;div class="col-8 col-sm-6"&gt;
+      Level 2: .col-8 .col-sm-6
+      &lt;/div&gt;
+      &lt;div class="col-4 col-sm-6"&gt;
+      Level 2: .col-4 .col-sm-6
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+                </div>
+
+                <div class="content b-solid">
+                  <h1>CSS Structure</h1>
+                  <p>These are the css files that are loaded into templates in Head Section.</p>
+<pre class="prettyprint linenums">
+&lt;link href="css/bootstrap.min.css" rel="stylesheet"&gt;
+&lt;link href="fonts/cloudicon/cloudicon.css" rel="stylesheet"&gt;
+&lt;link href="fonts/fontawesome/css/all.css" rel="stylesheet"&gt;
+&lt;link href="fonts/opensans/opensans.css" rel="stylesheet"&gt;
+&lt;link href="css/owl.carousel.css" rel="stylesheet"&gt;
+&lt;link href="css/idangerous.swiper.css" rel="stylesheet"&gt;
+&lt;link href="css/magnific-popup.css" rel="stylesheet"&gt;
+&lt;link href="img/favicon.ico" rel="shortcut icon"&gt;
+&lt;link href="css/animate.min.css" rel="stylesheet"&gt;
+&lt;link href="css/style.css" rel="stylesheet"&gt;
+&lt;link href="css/slick.css" rel="stylesheet"&gt;
+
+Custom color styles:
+&lt;link href="css/colors/pink.css" rel="stylesheet" title="pink"/&gt;
+&lt;link href="css/colors/blue.css" rel="stylesheet" title="blue"/&gt;
+&lt;link href="css/colors/green.css" rel="stylesheet" title="green"/&gt;
+</pre>
+                  <div>Dont change anything in bootstrap.min.css file. It may affect the whole template.<br> By default, the template loads this font from css file, but you can change the font.</div>
+                </div>
+
+
+                <div class="content b-solid">
+                  <h1>JavaScript Structure</h1>
+                  <p>These are the JS files that are loaded into templates in end of the body section.</p>
+<pre class="prettyprint linenums">
+&lt;script src="js/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/typed.js"&gt;&lt;/script&gt;
+&lt;script src="js/popper.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/bootstrap.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/idangerous.swiper.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/jquery.viewportchecker.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/jquery.circliful.min.js"&gt;&lt;/script&lt;
+&lt;script src="js/jquery.countdown.js"&gt;&lt;/script&gt;
+&lt;script src="js/jquery.magnific-popup.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/slick.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/owl.carousel.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/isotope.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/wow.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;new WOW().init();&lt;/script&gt;
+&lt;script src="js/scripts.js"&gt;&lt;/script&gt;
+
+</pre>
+                </div>
+
+                <div class="content b-solid">
+                  <h1>Integration WHMCS</h1>
+                  <p>Believe, Antler Template it is one of the few templates in the Themeforest section that already comes with integration of login, domain search and hosting & VPS plans as example.</p><br>
+                  <h5>Login Integration</h5>
+                  <p>Please, check login.html file in 65 line as example</p>
+
+<pre class="prettyprint linenums">
+&lt;form action="http://inebur.com/whmcs/dologin.php?goto=clientarea.php/?systpl=antler" method="post" class="comments-form"&gt;
+</pre>
+                    
+                  <p>Here, in the "action" tag, put your redirect link to the WHMCS login page. We show a practical example below</p>
+
+<pre class="prettyprint linenums">
+&lt;form action="http://yourdomain.com/whmcs/dologin.php?goto=clientarea.php"&gt;
+</pre>
+    
+                  <p>Now, go to login page, put your access data and click the login button. You will be redirected to the home page in your WHMCS template. That's it!</p><br>
+                  <h5>Domains Search Integration</h5>
+                  <p>Please, check domains.html file in 53 line as example</p>
+
+<pre class="prettyprint linenums">
+&lt;form class="mb-5" action="http://inebur.com/whmcs/domainchecker.php?systpl=antler" method="post"&gt;
+</pre>
+                
+                  <p>Here, in the "action" tag, put your redirect link to the WHMCS domain search page. We show a practical example below</p>
+
+<pre class="prettyprint linenums">
+&lt;form action="http://yourdomain.com/whmcs/domainchecker.php"&gt;
+</pre>
+  
+                  <p>Now, go to domain page, search for your perfect domain and click the search button. You will be redirected to the domain page in your WHMCS template. That's it!</p><br>
+
+                  <h5>Hosting Plans Integration</h5>
+                  <p>Please, check hosting.html file in 111 line as example</p>
+
+<pre class="prettyprint linenums">
+&lt;a href="http://inebur.com/whmcs/cart.php?a=add&pid=1" class="btn btn-default-yellow-fill"&gt;Order now&lt;/a&gt;
+</pre>
+
+                  <p>Here, in the "a" tag, put the direct link from your WHMCS hosting page. We show a practical example below</p>
+
+<pre class="prettyprint linenums">
+&lt;a href="http://yourdomain.com/whmcs/cart.php?a=add&pid=1"&gt;&lt;/a&gt;
+</pre>                 
+
+                  <p>Now, go to hosting page and click the order now button. You will be redirected to the hosting page in your WHMCS template. That's it!</p><br>
+   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/jquery.tocify.min.js"></script>
+    <script src="assets/js/prettify.js"></script>
+    <script>
+    $(function() {
+      var toc = $("#toc").tocify({
+      selectors: "h1, h2"
+      }).data("toc-tocify");
+      prettyPrint();
+    });
+    </script>
+  </body>
+</html>

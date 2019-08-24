@@ -1,0 +1,2 @@
+config:
+    parent: xdata-standard

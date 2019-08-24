@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+/*
+ * Author: Brandio
+ * Author URI: http://www.brandio.io/
+ * Copyright 2016 Brandio.
+ */
+
+@font-face {
+  font-family: "hostio";
+  src:url("hostio.eot");
+  src:url("hostio.eot?#iefix") format("embedded-opentype"),
+    url("hostio.woff") format("woff"),
+    url("hostio.ttf") format("truetype"),
+    url("hostio.svg#hostio") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "hostio" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="hsto-"]:before,
+[class*=" hsto-"]:before {
+  font-family: "hostio" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hsto{
+    display: inline-block;
+    font-family: "hostio" !important;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-feature-settings: normal;
+    font-language-override: normal;
+    font-kerning: auto;
+    font-synthesis: weight style;
+    font-variant: normal;
+    font-size: inherit;
+    text-rendering: auto;
+-moz-osx-font-smoothing: grayscale;
+}
+
+.hsto-hours-support:before {
+  content: "\61";
+}
+.hsto-cloud:before {
+  content: "\62";
+}
+.hsto-computer:before {
+  content: "\63";
+}
+.hsto-medal:before {
+  content: "\64";
+}
+.hsto-money:before {
+  content: "\65";
+}
+.hsto-technology:before {
+  content: "\66";
+}
+.hsto-cloud-computing:before {
+  content: "\67";
+}
+.hsto-mouse:before {
+  content: "\68";
+}
+.hsto-worldwide:before {
+  content: "\69";
+}

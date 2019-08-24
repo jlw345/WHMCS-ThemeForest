@@ -1,0 +1,7 @@
+2017 January 24 – Version 1.2
+
+// # List of updates
+// ------------------------------
+
+[*] Fixed VPS slider bug
+

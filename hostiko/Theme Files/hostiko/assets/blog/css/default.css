@@ -1,0 +1,93 @@
+/* Google Font */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300italic,400italic,700italic,400,300,700);
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+/* Links */
+a {
+	color: #00aeef;
+}
+
+a:hover {
+	color: #009bd5;
+}
+
+a:focus {
+	color: #009bd5;
+}
+
+p {
+	color: #474747;
+	line-height: 1.5em;
+}
+
+.otw_portfolio_manager-portfolio-continue-reading {
+	color: #333;
+}
+
+/* Sidebar - Widgets */
+.otw_portfolio_manager-sidebar .widget-title {
+	color: #333;
+}
+
+.otw_portfolio_manager-widget-portfolio-latest li > a:hover:after {
+	background-color: rgb(0, 174, 239);
+	background-color: rgba(0, 174, 239, 0.5);
+}
+
+.otw_portfolio_manager-widget-portfolio-latest li > h3,
+.otw_portfolio_manager-widget-portfolio-latest li > h3 a {
+	color: #333;
+}
+
+.otw_portfolio_manager-widget-portfolio-latest li > h3 a:hover {
+	color: #009bd5;
+}
+
+.otw_portfolio_manager-widget-portfolio-latest li > p {
+	color: #474747;
+}
+
+/* Pagigantion */
+.otw_portfolio_manager-pagination a.previouspostslink:hover {
+	color: #00aeef;
+}
+
+.otw_portfolio_manager-pagination a.nextpostslink:hover {
+	color: #00aeef;
+}
+
+.otw_portfolio_manager-pagination a.page, .otw_portfolio_manager-pagination span {
+	border-color: #eee;
+}
+
+.otw_portfolio_manager-pagination a.page:hover {
+	border-color: #00aeef;
+	color: #00aeef;
+}
+
+.otw_portfolio_manager-pagination span.current {
+	border-color: #00aeef;
+	background: #00aeef;
+	color: white;
+}
+
+/* Portfolio Type */
+.otw_portfolio_manager-portfolio-type {
+	background: #333;
+	color: #fff;
+}
+
+.otw_portfolio_manager-portfolio-type:hover {
+	background: #00aeef;
+	color: #fff;
+}
+
+.otw_portfolio_manager-social-item:hover {
+	background-color: #00aeef;
+	color: #fff;
+}

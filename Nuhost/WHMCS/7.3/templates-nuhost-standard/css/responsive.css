@@ -1,0 +1,580 @@
+/*------------------------------------------------------------------
+ * template Name: Nuhost - Multipurpose Hosting HTML & WHMCS Template
+ * Author: coodiv (nedjai mohamed)
+ * Author URI: https://coodiv.net/
+ * Author URI: https://themeforest.net/user/coodiv
+ * Description: A Bootstrap Responsive Domain & Web Hosting Template + WHMCS template
+ * Version: 1.0.0
+ * Bootstrap v4.1.1 (http://getbootstrap.com)
+ * Copyright 2018 coodiv.
+ -------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+
+ responsive style
+
+-------------------------------------------------------------------*/
+
+@media (min-width: 768px){
+
+.navbar-toggle{
+	display: none;
+}
+
+.show-more-tabs-home{
+	display: none;
+}	
+
+.ltd-name-small-phone {
+    display: none;
+}
+	
+}
+
+@media (max-width: 768px){
+
+.box-slider-serveis {
+    width: 100px;
+    height: 140px;
+    margin-left: 5px;
+    margin-right: 5px;
+}	
+
+.box-slider-serveis img {
+    width: 30px !important;
+}
+
+.price-mega-menu-home .row{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.plans-hosting-menu {
+    padding: 40px 10px 0;
+}
+
+.megamenu-plans {
+    border-right: 0;
+    margin-bottom: 33px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #e8ebec;
+}
+
+.banner-hosting-menu p {
+    position: relative;
+    z-index: 1;
+}
+
+.plan-contact-support-button a {
+    display: none;
+}
+
+#monthly-yearly-chenge {
+    padding: 0 0 25px;
+    width: 100%;
+    flex-basis: auto;
+    text-align: center;
+    display: block;
+}
+
+.tree-steps-hosting-plans {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 75px;
+}
+
+.padding60-100-100 {
+    padding: 60px 10px 100px !important;
+}
+
+.form-domain-home-stwo .input-group {
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.form-domain-home-stwo .input-search-text {
+    border-right: 0;
+}
+
+.form-domain-home-stwo .col-md-2{
+    width: 40%;
+}
+
+
+.form-domain-home-stwo .col-md-3{
+    width: 60%;
+    padding-right: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+
+.domain-price-homepage a img {
+    margin: 5px -10px;
+}
+
+.domain-homepage-anouncement-box {
+    margin-top: 30px !important;
+}
+
+.footer-social-links {
+    text-align: center;
+}
+
+.copyright-footer-p {
+    text-align: center;
+}
+
+.banner-hosting-menu:after {
+    display: none;
+}
+
+.container-features-about-us {
+    margin-bottom: 20px;
+}
+
+.question-area-answer-banner {
+    padding: 50px 10px;
+}
+
+.img-bg-breadcrumb-header {
+    display: none;
+}
+
+.screen-message-error-absolute img {
+    max-width: 60px;
+}
+
+.screen-message-error-absolute {
+    top: 30px;
+}
+
+.ddos-attaks-plans {
+    margin-bottom: 20px;
+}
+
+.no-phone-display{
+	display:none;
+}
+
+.domain-suggested-conainer .add-to-cart-domain {
+    padding: 8px 12px;
+    font-size: 12px;
+}
+
+.domain-suggested-conainer .list-group-item {
+    padding: 1.2rem 0.8rem;
+}
+
+.domain-filter-tab-title span {
+    font-size: 12px;
+}
+
+.domain-search-page-table-header {
+    display:none;
+}
+
+.domain-search-page-table-body {
+    padding: 15px 10px;
+    margin-bottom: 15px !important;
+    width: 48%;
+    margin: 0 3px;
+    float: left;
+}
+
+.domain-search-page-table-body .ltd-name {
+    display: block;
+    border-bottom: 1px solid #e2e8ea;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+
+.ltd-name-small-phone-styles {
+    display: block;
+    border-bottom: 1px solid #e2e8ea;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+
+.ltd-name-small-phone {
+    font-size: 14px;
+    font-weight: bold;
+    color: #9da8ad;
+    display: block;
+}
+
+
+.our-help-center-tabs-nav a {
+    padding: 25px 5px;
+    margin: 0 4px;
+    margin-bottom: 17px;
+}
+.our-help-center-tabs-nav h5 {
+    max-width: 140px;
+    margin: auto;
+    margin-top: 13px;
+    margin-bottom: 9px;
+}
+
+.our-help-center-tabs-nav p {
+    max-width: 160px;
+}
+
+.resslers-tabs-content-with-image{
+	display: none;
+}
+
+.reseller-hosting-plan-pack {
+    margin-bottom: 30px;
+}
+
+.host-wp-bg-area {
+    display: none;
+}
+
+.wp-plan-features-box.second-left {
+    margin-right: 0;
+}
+
+.wp-plan-features-box.left-side-box {
+    direction: ltr;
+    text-align: left;
+}
+
+.wp-plan-features-box.left-side-box .wp-plan-features-number {
+    margin-right: 15px;
+    margin-left: 0;
+}
+
+.wp-plan-features-box.second-right {
+    margin-left: 0;
+}
+
+.transfer-wp-box {
+    margin-bottom: 30px;
+}
+
+.transfer-wp-box:after {
+    display: none;
+}
+
+
+}
+
+@media (max-width: 1200px){
+.carousel-main-services .flickity-button.flickity-prev-next-button.previous {
+    top: -100px;
+    left: 5px;
+    }
+	
+	.carousel-main-services .flickity-button.flickity-prev-next-button.next {
+    top: -100px;
+    right: 5px;
+    }
+	
+}
+
+@media (max-width: 767px){
+#header .navbar .search-headr {
+	display: none;
+}
+
+.login-drop-down-header {
+    min-width: 280px;
+}
+
+.navbar-offcanvas {
+    display: block;
+    background: #151621;
+    padding-top: 15px;
+}
+
+#header .navbar .nav-link {
+    padding: 1rem 1rem;
+    border-bottom: 1px solid rgba(29, 31, 45, 0.62);
+}
+
+
+.header-top-menu {
+    margin-bottom: 10px;
+}
+
+.phone-no-display{
+	display: none;
+}
+
+.header-heeadline h5 {
+    font-size: 1.4rem;
+}
+
+.blok-on-phon{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.header-heeadline p {
+    font-size: 12px;
+    padding: 0 25px;
+}
+
+#header #domain-search .space-men {
+    display: none;
+}
+
+#header #domain-search {
+    margin: 8px 20px 0;
+}
+
+#header .domain-price-header {
+    display: none;
+}
+#header .header-animation .support-header-ring {
+    display: none;
+}
+
+.header-top-menu ul li a, .header-top-menu ul li a:not([href]):not([tabindex]) {
+    font-size: 11px;
+}
+.header-top-menu ul li {
+    margin: 0 6px;
+}
+
+.first-items-home .item-icons {
+    border: 1px solid #edf4fb;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
+.pricing-plan-one {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.video-section-play-place {
+    margin-top: 80px;
+}
+
+.video-section-play-place a {
+    left: 0;
+    right: 0;
+}
+
+
+/*------ Reponsive tabs our services ------*/
+
+
+    .carousel-main-services .flickity-button.flickity-prev-next-button.previous {
+    top: -55px;
+    left: 5px;
+    }
+	
+	.carousel-main-services .flickity-button.flickity-prev-next-button.next {
+    top: -55px;
+    right: 5px;
+    }
+	
+	.carousel-nav-services .carousel-cell {
+    width: 130px;
+    }
+	
+	
+	#oursevices li:nth-child(3) a,#oursevices li:nth-child(6) a,#oursevices li:nth-child(5) a {
+    border-right: 0;
+    }
+
+	
+	.text-tab-content-algo .text-absoo h5 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 22px;
+    line-height: 38px;
+    margin-bottom: 20px;
+    color: #384044;
+    text-align: center;
+	}
+	
+	.text-tab-content-algo .text-absoo {
+    left: 20px;
+    right: 20px;
+    }
+	
+	.text-tab-content-algo .text-absoo p {
+    text-align: center;
+	font-size: 14px;
+    }
+
+	.text-tab-content-algo .text-absoo a {
+    display: block;
+	text-align: center;
+    }
+	
+	.counter-number-tibo {
+    width: 50%;
+    float: left;
+    padding-top: 0 !important;
+    margin-top: 50px;
+    }
+
+   .home-blog-te {
+    margin-bottom: 35px;
+    }
+	
+	.form-contact-home-section {
+    padding: 0 0 0;
+    }
+
+
+	
+	.show-more-tabs-home{
+	display: block;
+    width: 100%;
+	position: relative;
+    height: 65px;
+    margin-bottom: 20px;
+	}	
+	
+	.show-more-tabs-home a,.show-more-tabs-home a:not([href]):not([tabindex]){
+	background: #ff5c72;
+    color: #fff;
+    width: 40px;
+    height: 40PX;
+    line-height: 44px;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+	}
+	
+	.show-more-tabs-home #loadMore{
+    position: absolute;
+    left: 0px;
+    right: -50px;
+    bottom: 0px;
+    top: 0px;
+	}
+	
+	.show-more-tabs-home #showLess{
+    position: absolute;
+    right: 0px;
+    left: -50px;
+    bottom: 0px;
+    top: 0px;
+	}
+	
+	#oursevices li a .title-tabs-of {
+    padding: 2px 4px;
+    font-size: 11px;
+	}
+
+	#oursevices li a i:before {
+    font-size: 26px;
+    }
+	
+	#oursevices li a i:after {
+    width: 40px;
+    height: 40px;
+	}
+	
+	#oursevices li a {
+    padding: 10px;
+    height: auto;
+    min-width: auto;
+    }
+	
+	.form-contain-home {
+    padding: 49px 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+   }
+   
+   .quiq-links-footer-mb-st{
+    margin-top: 50px;
+    width: 50%;
+    float: left;
+   }
+   
+   .stay-in-tch-footer-mb-st{
+    margin-top: 50px;
+
+   }
+   
+   .caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid\9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    }
+
+	
+	
+.our-services-mega-menu-header-items a {
+    padding: 30px 5px 30px;
+    margin: 0 15px;
+    border-right: 0;
+    border-bottom: 1px solid #f3f5f7;
+}
+
+.our-services-mega-menu-header-items a:after {
+    top: 3px;
+}
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+   #header .navbar .search-headr {
+    display: none;
+   }
+   
+   #header .navbar .nav-link {
+    font-size: 12px;
+   }
+   
+   #header .navbar-nav .nav-link {
+    padding-right: .1rem;
+    padding-left: .1rem;
+    margin-right: .4rem;
+    margin-left: .4rem;
+}
+
+#header .domain-price-header {
+    display: none;
+}
+
+.header-heeadline h5 {
+    font-size: 1.6rem;
+}
+
+.header-heeadline p {
+    font-size: 13px;
+}
+
+
+.video-section-text-place {
+    padding: 27px 35px;
+}
+
+.video-section-play-place a {
+    left: 59px;
+    right: 0px;
+}
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+
+#header {
+    min-height: 600px;
+}
+
+}
+

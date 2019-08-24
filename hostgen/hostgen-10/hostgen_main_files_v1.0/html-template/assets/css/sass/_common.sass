@@ -1,0 +1,314 @@
+/*
+	***********************
+	02. Common CSS
+	***********************/
+/* 2.1: Page Welcome */
+.page-welcome-content
+	h1,h3
+		text-transform: capitalize
+	h1 
+		font-weight: 700
+		margin-bottom: 25px
+		+max991
+			font-size: 36px
+		span
+			@extend .c1
+		strong 
+			font-weight: 900
+	h3 
+		font-weight: 400
+		margin-top: -8px
+		+max991 
+			font-size: 20px
+	p 
+		margin-bottom: 30px
+	 
+/* 2.2: Section Title */
+.section-title
+	margin-top: -9px
+	margin-bottom: 70px
+	span
+		display: inline-block
+	h2
+		font-weight: 900
+		text-transform: uppercase
+		margin-bottom: -13px
+		+mobile 
+			font-size: 25px
+	p
+		margin-top: 22px
+		margin-bottom: -6px
+
+.title-white
+	*,
+	p,
+	h2
+		color: $white
+
+/* 2.3: Page Title */
+.breadcrumb-area
+	position: relative
+	margin-top: 10px
+	z-index: 1
+	&:after
+		position: absolute
+		left: 0
+		top: 0
+		width: 40%
+		height: 100%
+		content: ""
+		z-index: -1
+		border-radius: 0 60px 60px 0
+		z-index: -1
+		@extend .gradient-bg
+		+mobile 
+			width: 60%
+	.page-title
+		padding: 20px 0
+		h4
+			text-transform: uppercase
+		.custom-breadcrumb
+			.breadcrumb-item
+				display: inline-block
+				a
+					color: #ffffff
+				&:last-child a
+					font-weight: 700
+				&:before
+					color: #ffffff
+				i.fa 
+					margin-right: 10px
+				&:not(:last-child):hover a
+					opacity: .8
+
+/* 2.4: Page Hero Feature/Image */
+.hero-image
+	position: relative
+	float: right
+	min-height: 550px
+	z-index: 1
+	+max991
+		display: none
+	.img-absolute
+		position: absolute
+		left: -60px
+		top: 50%
+		transform: translateY(-50%)
+		&:last-child
+			top: 85%
+			left: 50px
+	.hero-img-1
+		height: 445px
+		width: 445px
+	.hero-img-2
+		height: 120px
+		width: 120px
+	.hero-img-3
+		height: 160px
+		width: 160px
+
+.hero-feature
+	float: right
+	position: relative
+	top: -102px
+	.feature-absulate
+		position: absolute
+		bottom: -15px
+		left: -142px
+		.hero-feature-text
+			padding-left: 40px
+		&.feature-absulate-2
+			bottom: -207px
+			left: -55px
+			.hero-feature-text
+				padding-left: 80px
+
+/* 2.5: Section Rounded Image */
+.section-bg
+	position: absolute
+	left: 0
+	top: 0
+	height: 100%
+	width: 40%
+	+max991 
+		display: none
+	.section-bg-img	
+		width: calc(100% - 10px) 
+		height: calc(100% - 10px) 
+		border-radius: 0 100% 100% 0
+		position: relative
+		&:after
+			position: absolute
+			left: 0
+			top: 10px
+			width: calc(100% + 10px)
+			height: 100%
+			content: ''
+			z-index: -1
+			border-radius: 0 100% 100% 0
+			@extend .gradient-bg
+	&.img-right
+		left: auto
+		right: 0
+		.section-bg-img	
+			border-radius: 100% 0 0 100%
+			&:after
+				left: auto
+				right: 0
+				border-radius: 100% 0 0 100%
+
+/* 2.6: Magnific PopUp Zoom Effect */
+.mfp-zoom-in 
+    .mfp-with-anim 
+        opacity: 0
+        transition: all 0.2s ease-in-out 
+        transform: scale(0.8) 
+    &.mfp-bg 
+        opacity: 0
+        transition: all 0.3s ease-out
+    &.mfp-ready 
+        .mfp-with-anim 
+            opacity: 1
+            transform: scale(1)
+        &.mfp-bg
+            opacity: 0.8
+/* 2.8: Content animation */
+[data-animate] 
+    visibility: hidden
+    -webkit-animation-duration: 0.6s
+    animation-duration: 0.6s
+    &.animated 
+        visibility: visible
+	
+/* 2.9: Others */
+/* Transition */
+.trans4
+    +transition-duration(.4s)
+
+.trans2
+    +transition-duration(.2s)
+
+/* Border Radius */
+.top-radius
+	border-top-left-radius: 10px
+	border-top-right-radius: 10px
+
+.bottom-radius
+	border-bottom-left-radius: 10px
+	border-bottom-right-radius: 10px
+
+.border-radius
+	border-radius: 10px
+	overflow: hidden
+
+/* Background Image */
+.bg-img
+	background-size: cover
+	background-position: center center
+
+.bg-overlay
+    position: relative
+    z-index: 1
+    &:after
+        position: absolute
+        left: 0
+        top: 0
+        width: 100%
+        height: 100%
+        content: ""
+        opacity: .9
+        z-index: -1
+        @extend .gradient-bg
+
+/* SVG Color */
+svg
+	.cls-1, 
+	.cls-2,
+	.cls-3
+		fill: $c1
+		filter: inherit
+
+/* Form Validator */
+.parsley-validate
+	position: relative
+	.parsley-errors-list
+		font-size: 12px
+		padding: 0 5px
+		position: absolute
+		color: $white
+		top: 80%
+		left: 0 
+		background-color: red
+	input.parsley-error,
+	textarea.parsley-error,
+	select.parsley-error 
+		border: 1px solid red !important
+
+/* Input Style */
+.input-wrap 
+    position: relative
+    z-index: 1
+    .highlight
+        position: absolute
+        bottom: 0
+        right: 0
+        width: 0
+        height: 2px
+        transition: .3s
+        @extend .c1-bg
+    .form-control
+        border: none
+        background-color: transparent
+        border-bottom: 1px solid
+        border-color: #e8e8e8
+        border-radius: 0
+        margin-bottom: 50px
+        &:focus
+            box-shadow: none
+            + .highlight
+                left: 0
+                width: 100%
+
+/* Rounded Shape */
+.rounded  
+	border-radius:  100% !important 
+	box-shadow:  0 10px 20px rgba(0,0,0,.15) 
+	background-size: cover
+	position: relative
+	&:after
+        position: absolute
+        left: -4px
+        bottom: -4px
+        width: 100%
+        height: 100%
+        content: ""
+        border-radius: 100%
+        z-index: -1
+        @extend .gradient-bg
+
+/* Extra */
+.pos-relative
+	position: relative
+
+.bg-light
+	background-color: #fcfcfc !important
+
+.date 
+	font-size: 80%
+	i.fa
+		margin-right: 10px
+
+.list-inline li 
+	display: inline-block
+
+.ColorSwitcher__control
+	@extend .c1
+
+.form-response 
+    @extend .c1-bg
+
+.form-response span 
+    color: #fff
+    display: block
+    margin-bottom: 30px
+    padding: 10px 15px

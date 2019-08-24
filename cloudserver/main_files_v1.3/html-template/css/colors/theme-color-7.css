@@ -1,0 +1,160 @@
+/*
+
+[Theme Color Stylesheet]
+
+Project: CloudServer - Responsive HTML5 Technology, Web Hosting and WHMCS Template
+Version: 1.3
+Author : themelooks.com
+
+*/
+
+/*------------------------------------*\
+    COLOR
+\*------------------------------------*/
+#promo a.btn,
+#primaryMenu .nav > li > a:hover,
+#primaryMenu .nav > li > a:focus,
+.off-canvas-menu .nav > li.active > a,
+.off-canvas-menu .nav > li.active > a:hover,
+.off-canvas-menu .nav > li.active > a:focus,
+.service-item-content h2,
+.service-item-content ul li .fa,
+.counter-icon i.fa,
+.features-tab--content ul li .fa,
+.features-tab--content a:hover,
+.section-title span,
+#copyright p a,
+a.login-button.btn.btn-default,
+.accordion .panel-heading a.collapsed h4 i.fa-minus,
+.about-desc-content a:hover,
+#loginForm p.help-block a:hover,
+.widget.recent-items a.footer-thumb-link:hover,
+.widget.categories li:hover a,
+.widget.tags li:hover a,
+.widget.archives li:hover a,
+.blog-item-content a:hover,
+.blog-item:hover .blog-item-content h2 a,
+.blog-item.full-post:hover a.btn-custom:hover,
+.blog-item.full-post .post-author-metadata a:hover,
+.comment-thumb a,
+.ca-icon i.fa,
+.ca-holder a.btn:hover,
+.ca-holder a.btn:focus {
+    color: #00BCD4;
+}
+
+/*------------------------------------*\
+    BACKGROUND COLOR
+\*------------------------------------*/
+.pagination > li > a:hover,
+.pagination > li > a:focus,
+.pagination > li.active > a,
+.pagination > li.active > a:hover,
+.pagination > li.active > a:hover,
+.pagination > li > span:hover,
+.pagination > li > span:focus,
+.pagination > li.active > span,
+.pagination > li.active > span:hover,
+.pagination > li.active > span:hover,
+#promo,
+.off-canvas-menu,
+.off-canvas-menu .nav li .dropdown-menu li a:hover,
+.off-canvas-menu .nav li .dropdown-menu li a:focus,
+.off-canvas-menu .nav li .dropdown-menu li.active a,
+.bg--overlay:before,
+.banner--slider-nav ul li:hover p,
+.banner--slider-nav ul li.active p,
+#domainSearchForm button[type="submit"],
+.section-title h2:before,
+a.btn-custom:hover,
+a.btn-custom:focus,
+.pt-head,
+.pricing--slider .owl-page.active,
+.features-tab--nav ul li.active a,
+.testimonial-slider .owl-page.active,
+.contact-info--item a,
+.footer-widget h4:before,
+.footer--subscribe-widget .btn,
+.footer--social-widget ul li a:hover,
+.accordion .panel-heading a,
+#vpsSlider .ui-slider-range,
+#vpsSlider .ui-slider-handle em,
+#vpsSlider .ui-slider-handle:after,
+#dedicatedPricing table thead,
+#domainPricing table thead,
+.team-social-links ul li a:hover,
+.timeline-footer,
+.gallery--filter-menu ul li.active a,
+.faq-categories ul li a:hover,
+.faq-categories ul li.active a,
+#loginForm .submit-button,
+.widget.search .input-group-addon:hover,
+.widget-title:before,
+.post-social-links li a:hover,
+a.comment-reply,
+.post-comment-form-group .form-control.submit-btn,
+.contact-address h2:before,
+.contact-social-links li a:hover,
+#contactForm .submit-button,
+.ca-holder a.btn,
+#backToTop a {
+    background-color: #00BCD4;
+}
+
+/*------------------------------------*\
+    BACKGROUND COLOR 'important'
+\*------------------------------------*/
+#fakeLoader {
+    background-color: #00BCD4 !important;
+}
+
+/*------------------------------------*\
+    BORDER COLOR
+\*------------------------------------*/
+.pagination > li > a:hover,
+.pagination > li > a:focus,
+.pagination > li.active > a,
+.pagination > li.active > a:hover,
+.pagination > li.active > a:hover,
+.pagination > li > span:hover,
+.pagination > li > span:focus,
+.pagination > li.active > span,
+.pagination > li.active > span:hover,
+.pagination > li.active > span:hover,
+.secondary-menu-links li a:hover,
+.secondary-menu-links li a:focus,
+.secondary-menu-links .open > a,
+.secondary-menu-links .open > a:hover,
+.secondary-menu-links .open > a:focus,
+.secondary-menu-links li.active > a,
+.secondary-menu-links li.active > a:hover,
+.footer--social-widget ul li a:hover,
+.team-social-links ul li a:hover,
+.post-social-links li a:hover,
+.post-comment-form-group .form-control.submit-btn,
+.contact-social-links li a:hover {
+    border-color: #00BCD4;
+}
+
+/*------------------------------------*\
+    BORDER TOP COLOR
+\*------------------------------------*/
+.features-tab--nav ul li.active:before,
+#vpsSlider .ui-slider-handle em:after {
+    border-top-color: #00BCD4;
+}
+
+/*------------------------------------*\
+    BORDER BOTTOM COLOR
+\*------------------------------------*/
+.banner--slider-nav ul li:hover:before,
+.banner--slider-nav ul li.active:before {
+    border-bottom-color: #00BCD4;
+}
+
+/*------------------------------------*\
+    BORDER LEFT COLOR
+\*------------------------------------*/
+.faq-categories ul li a:before {
+    border-left-color: #00BCD4;
+}

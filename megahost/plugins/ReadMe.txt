@@ -1,0 +1,1 @@
+You can use copy of plugins from this folder ONLY to update them WITHIN Megahost WordPress theme.

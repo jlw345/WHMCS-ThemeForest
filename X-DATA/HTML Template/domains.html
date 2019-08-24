@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Domains</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/ico" href="img/favicon.ico">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <!-- Custom Style -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/default_theme.css" rel="stylesheet">
+    <!-- Responsive Style -->
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- Layout cog -->
+    <div class="layout-options">
+        <div class="box-layout">
+            <!-- Color Box -->
+            <div class="colors-o">
+                <h3><span class="fa fa-paint-brush lay-title"></span>Colors Scheme</h3>
+                <button class="green-o" value="default_theme"></button>
+                <button class="sky-o" value="sky_theme"></button>
+                <button class="yellow-o" value="yellow_theme"></button>
+                <button class="violet-o" value="violet_theme"></button>
+            </div>
+        </div>
+        <div class="icon-cog">
+            <i class="fa fa-cog lay fa-spin"></i>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <!-- Logo & Menu -->
+            <div class="l-area">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed custom-btn-res" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- Logo -->
+                    <a href="index.html"><img class="logo" src="img/logo.png" alt="X-DATA"></a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse custo-drp-res" id="bs-example-navbar-collapse-1">
+                    <!-- Menu -->
+                    <ul class="menu">
+                        <!-- Home -->
+                        <li><a class="active-link" href="index.html">home</a></li>
+                        <!-- Services -->
+                        <li class="dropdown">
+                            <a id="dLabel-services" data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">services</a>
+                            <ul class="dropdown-menu custom" aria-labelledby="dLabel-services">
+                                <li><a href="shared-hosting.html"><span class="fa fa-group menu-ser"></span>Shared Hosting</a></li>
+                                <li><a href="cloud-hosting.html"><span class="fa fa-cloud menu-ser"></span>Cloud Hosting</a></li>
+                                <li><a href="vps-hosting.html"><span class="fa fa-download menu-ser"></span>Vps Hosting</a></li>
+                                <li><a href="wordpress-hosting.html"><span class="fa fa-wordpress menu-ser"></span>Wordpress Hosting</a></li>
+                                <li><a href="ecommerce-hosting.html"><span class="fa fa-shopping-bag menu-ser"></span>E-Commerce Hosting</a></li>
+                                <li><a href="dedicated-hosting.html"><span class="fa fa-server menu-ser"></span>Dedicated Hosting</a></li>
+                                <li><a href="domains.html"><span class="fa fa-globe menu-ser"></span>Domains</a></li>
+                            </ul>
+                        </li>
+                        <!-- Pages -->
+                        <li class="dropdown">
+                            <a id="dLabel-pages" data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">pages</a>
+                            <ul class="dropdown-menu custom" aria-labelledby="dLabel-pages">
+                                <li><a href="about.html"><span class="fa fa-group menu-ser"></span>About</a></li>
+                                <li><a href="faq.html"><span class="fa fa-book menu-ser"></span>Faq</a></li>
+                                <li><a href="plans.html"><span class="fa fa-columns menu-ser"></span>Pricing Tables</a></li>
+                                <li><a href="shortcodes.html"><span class="fa fa-text-height menu-ser"></span>Shortcode</a></li>
+                                <li><a href="comingsoon.html"><span class="fa fa-bullhorn menu-ser"></span>Coming soon</a></li>
+                                <li><a href="terms.html"><span class="fa fa-balance-scale menu-ser"></span>Terms</a></li>
+                                <li><a href="404.html"><span class="fa fa-warning menu-ser"></span>404</a></li>
+                                <li><a href="login.html"><span class="fa fa-user menu-ser"></span>Login</a></li>
+                                <li><a href="register.html"><span class="fa fa-user-plus menu-ser"></span>Register</a></li>
+                            </ul>
+                        </li>
+                        <!-- About -->
+                        <li><a href="contact.html">Contact</a></li>
+                        <!-- ClientArea -->
+                        <li class="dropdown">
+                            <a id="dLabel-clientarea" data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">clientarea</a>
+                            <form class="dropdown-menu clientz" aria-labelledby="dLabel-clientarea">
+                                <!-- Username -->
+                                <input type="text" placeholder="Username" class="user-drpd">
+                                <!-- Password -->
+                                <input type="password" placeholder="Password" class="user-drpd">
+                                <!-- Remember -->
+                                <div class="remember-form">
+                                    <input type="checkbox" class="remi-drpd"><span class="remmber-ch">Remember</span>
+                                </div>
+                                <!-- Login & Register -->
+                                <input type="submit" class="sub-drpd" value="Login">
+                                <a class="reg-drpd" href="#">Register</a>
+                            </form>
+                        </li>
+                        <!-- Languages -->
+                        <li class="dropdown">
+                            <a class="fa fa-language menuz" id="dLabel-lang" data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></a>
+                            <ul class="dropdown-menu custom" aria-labelledby="dLabel-lang">
+                                <li><a href="#">Arabic</a></li>
+                                <li><a href="#">English</a></li>
+                                <li><a href="#">Francais</a></li>
+                            </ul>
+                        </li>
+                        <!-- Cart -->
+                        <li class="dropdown">
+                            <a class="fa fa-shopping-cart menuz" id="dLabel-cart" data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></a>
+                            <ul class="dropdown-menu carti" aria-labelledby="dLabel-cart">
+                                <!-- Item -->
+                                <li>
+                                    <a href="#"><span class="fa fa-server menu-ser customz"></span>Intel Xeon W3520</a>
+                                    <div class="count">$165.00 x 1</div>
+                                </li>
+                                <!-- Item -->
+                                <li>
+                                    <a href="#"><span class="fa fa-server menu-ser customz"></span>E3-1225v2</a>
+                                    <div class="count">$195.00 x 1</div>
+                                </li>
+                                <!-- Item -->
+                                <li>
+                                    <a href="#"><span class="fa fa-server menu-ser customz"></span>E3-1245v2</a>
+                                    <div class="count">$100.00 x 2</div>
+                                </li>
+                                <!-- Price -->
+                                <li class="price-cart">
+                                    <span class="l-p">Subtotal:</span>
+                                    <span class="r-p">560.00 $</span>
+                                </li>
+                                <li><a class="check-p" href="#">Checkout</a></li>
+                            </ul>
+                        </li>
+                        <!-- Notifications -->
+                        <li class="dropdown">
+                            <a class="fa fa-bell-o menuz" id="dLabel-noti" data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></a>
+                            <ul class="dropdown-menu custom" aria-labelledby="dLabel-noti">
+                                <li><a href="#"><span class="fa fa-bullhorn menu-ser"></span>New Update on ...</a></li>
+                                <li><a href="#"><span class="fa fa-bullhorn menu-ser"></span>New Update on ...</a></li>
+                                <li><a href="#"><span class="fa fa-bullhorn menu-ser"></span>New Update on ...</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- SocialMedia -->
+            <div class="s-area">
+                <span>Find us</span>
+                <ul class="social">
+                    <li>
+                        <a class="fa fa-facebook social-m" href="#"></a>
+                    </li>
+                    <li>
+                        <a class="fa fa-twitter social-m" href="#"></a>
+                    </li>
+                    <li>
+                        <a class="fa fa-google-plus social-m" href="#"></a>
+                    </li>
+                    <li>
+                        <a class="fa fa-youtube-play social-m" href="#"></a>
+                    </li>
+                    <li>
+                        <a class="fa fa-instagram social-m" href="#"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb dom-p">
+        <div class="container">
+            <!-- Page Title -->
+            <div class="bread-title">
+                <h2>Hot ! <br /> Domains .</h2>
+            </div>
+            <div class="b-brd"></div>
+            <!-- Page Description -->
+            <p>When building a website, start here. Our shared service delivers a powerful, proven platform that's perfect for hosting your websites.</p>
+        </div>
+    </div>
+
+    <!-- Domains Area -->
+    <section class="h-plans page domain">
+        <div class="container">
+            <!-- Title -->
+            <div class="sec-title cuspage">
+                <h2>Get the domain of your dreams</h2>
+                <p>Find a domain, create a site, and get custom email</p>
+            </div>
+            <!-- Domain Register -->
+            <form class="dom-area custompage">
+                <div class="row">
+                    <!-- Domain Search -->
+                    <div class="col-lg-4 col-sm-9">
+                        <input class="sea-dom" type="search" placeholder="Enter your domain">
+                    </div>
+                    <!-- Extentions -->
+                    <div class="col-lg-2 col-sm-3">
+                        <select class="ext-d" name="extintions" id="ext">
+                            <option value=".COM">.COM</option>
+                            <option value=".NET">.NET</option>
+                            <option value=".ORG">.ORG</option>
+                            <option value=".INFO">.INFO</option>
+                            <option value=".CLUB">.CLUB</option>
+                        </select>
+                    </div>
+                    <!-- Btns -->
+                    <div class="col-lg-2 col-xs-4">
+                        <input class="reg-dom" type="submit" value="Register">
+                    </div>
+                    <div class="col-lg-2 col-xs-4">
+                        <input class="tra-dom" type="submit" value="Transfer">
+                    </div>
+                    <div class="col-lg-2 col-xs-4">
+                        <input class="mna-dom" type="submit" value="Manage">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!-- Extionsions -->
+        <div class="extenstions">
+            <!-- COM -->
+            <div class="ext-dom">
+                <span class="ext">.COM</span>
+                <span class="ext-p">12.99$</span>
+            </div>
+            <!-- NET -->
+            <div class="ext-dom grad1">
+                <span class="ext">.NET</span>
+                <span class="ext-p">12.99$</span>
+            </div>
+            <!-- ORG -->
+            <div class="ext-dom grad2">
+                <span class="ext">.ORG</span>
+                <span class="ext-p">19.99$</span>
+            </div>
+            <!-- INFO -->
+            <div class="ext-dom grad3">
+                <span class="ext">.INFO</span>
+                <span class="ext-p">8.99$</span>
+            </div>
+            <!-- TV -->
+            <div class="ext-dom grad4">
+                <span class="ext">.TV</span>
+                <span class="ext-p">50.99$</span>
+            </div>
+        </div>
+    </section>
+    <div class="clearfix"></div>
+    <div class="container">
+        <!-- Features -->
+        <section class="features c-page domi">
+            <!-- Title -->
+            <div class="sec-title">
+                <h2>Features</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <!-- Nav tabs -->
+            <div class="row">
+                <ul class="nav nav-tabs custom" role="tablist">
+                    <li role="presentation" class="col-lg-4 col-xs-12 col-sm-3 active">
+                        <a class="cusz" href="#shared" aria-controls="shared" role="tab" data-toggle="tab">Basic</a>
+                    </li>
+                    <li class="col-lg-4 col-xs-12 col-sm-3" role="presentation">
+                        <a class="cusz" href="#vps" aria-controls="vps" role="tab" data-toggle="tab">Advanced</a>
+                    </li>
+                    <li class="col-lg-4 col-xs-12 col-sm-3" role="presentation">
+                        <a class="cusz" href="#dedicated" aria-controls="dedicated" role="tab" data-toggle="tab">Optional</a>
+                    </li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content custom">
+                    <!-- Shared Hosting -->
+                    <div role="tabpanel" class="tab-pane fade in active" id="shared">
+                        <!-- Feature Block -->
+                        <div class="col-lg-4 col-sm-4">
+                            <div class="block-fea">
+                                <h3><span class="fa fa-rocket feat"></span>Extreme Performance</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Feature Block -->
+                        <div class="col-lg-4 col-sm-4">
+                            <div class="block-fea">
+                                <h3><span class="fa fa-server feat"></span>Instant Provisioning</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Feature Block -->
+                        <div class="col-lg-4 col-sm-4">
+                            <div class="block-fea">
+                                <h3><span class="fa fa-sliders feat"></span>Enhanced Cpanel</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Vps Hosting -->
+                    <div role="tabpanel" class="tab-pane fade" id="vps">
+                        <!-- Feature Block -->
+                        <div class="col-lg-4 col-sm-4">
+                            <div class="block-fea">
+                                <h3><span class="fa fa-commenting feat"></span>24/7 Support</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Feature Block -->
+                        <div class="col-lg-4 col-sm-4">
+                            <div class="block-fea">
+                                <h3><span class="fa fa-money feat"></span>Best Prices</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Feature Block -->
+                        <div class="col-lg-4 col-sm-4">
+                            <div class="block-fea">
+                                <h3><span class="fa fa-cloud-download feat"></span>Backup &amp; Storage</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dedicated Hosting -->
+                    <div role="tabpanel" class="tab-pane fade" id="dedicated">
+                        <!-- Feature Block -->
+                        <div class="col-lg-4 col-sm-4">
+                            <div class="block-fea">
+                                <h3><span class="fa fa-lock feat"></span>Security</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Feature Block -->
+                        <div class="col-lg-4 col-sm-4">
+                            <div class="block-fea">
+                                <h3><span class="fa fa-dashboard feat"></span>99% UPTIME</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Feature Block -->
+                        <div class="col-lg-4 col-sm-4">
+                            <div class="block-fea">
+                                <h3><span class="fa fa-chain-broken feat"></span>Unlimited Bandwith</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Integration -->
+        <section class="integrations">
+            <!-- Title -->
+            <div class="sec-title">
+                <h2>Looking For</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="row">
+                <!-- Service -->
+                <div class="col-lg-3 col-sm-3">
+                    <div class="block-inte">
+                        <!-- Icon -->
+                        <i class="fa fa-wordpress serv"></i>
+                        <!-- Title -->
+                        <h3>WordPress Hosting</h3>
+                        <!-- Order -->
+                        <a href="#">Order</a>
+                    </div>
+                </div>
+                <!-- Service -->
+                <div class="col-lg-3 col-sm-3">
+                    <div class="block-inte">
+                        <!-- Icon -->
+                        <i class="fa fa-shopping-cart serv"></i>
+                        <!-- Title -->
+                        <h3>E-commerce Hosting</h3>
+                        <!-- Order -->
+                        <a href="#">Order</a>
+                    </div>
+                </div>
+                <!-- Service -->
+                <div class="col-lg-3 col-sm-3">
+                    <div class="block-inte">
+                        <!-- Icon -->
+                        <i class="fa fa-rocket serv"></i>
+                        <!-- Title -->
+                        <h3>Cloud Hosting</h3>
+                        <!-- Order -->
+                        <a href="#">Order</a>
+                    </div>
+                </div>
+                <!-- Service -->
+                <div class="col-lg-3 col-sm-3">
+                    <div class="block-inte">
+                        <!-- Icon -->
+                        <i class="fa fa-server serv"></i>
+                        <!-- Title -->
+                        <h3>Dedicated Hosting</h3>
+                        <!-- Order -->
+                        <a href="#">Order</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Faq & Testimonial -->
+        <section class="faq-testi">
+            <h2 class="valid">Validation Purposes</h2>
+            <div class="row">
+                <!-- Faq -->
+                <div class="panel-group custom pag" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="col-lg-6 col-sm-6">
+
+                        <!-- Faq #1 -->
+                        <div class="panel custom">
+                            <div class="panel-heading custom" role="tab" id="headingOne">
+                                <h4 class="panel-title custom">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        How do I cancel and delete my account?
+                                        <span class="fa fa-plus-circle coll-a"></span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in custom" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body custom">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Faq #2 -->
+                        <div class="panel custom">
+                            <div class="panel-heading custom" role="tab" id="headingTwo">
+                                <h4 class="panel-title custom">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                        Can I get my website listed in Google?
+                                        <span class="fa fa-plus-circle coll-a"></span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse custom" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body custom">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Faq #3 -->
+                        <div class="panel custom">
+                            <div class="panel-heading custom" role="tab" id="headingThree">
+                                <h4 class="panel-title custom">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                        Can I run a business?
+                                        <span class="fa fa-plus-circle coll-a"></span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse custom" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body custom">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-sm-6">
+                        <!-- Faq #1 -->
+                        <div class="panel custom">
+                            <div class="panel-heading custom" role="tab" id="headingFour">
+                                <h4 class="panel-title custom">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                        Can I create new pages?
+                                        <span class="fa fa-plus-circle coll-a"></span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseFour" class="panel-collapse collapse custom" role="tabpanel" aria-labelledby="headingFour">
+                                <div class="panel-body custom">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Faq #2 -->
+                        <div class="panel custom">
+                            <div class="panel-heading custom" role="tab" id="headingFive">
+                                <h4 class="panel-title custom">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                        Can I create new pages?
+                                        <span class="fa fa-plus-circle coll-a"></span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseFive" class="panel-collapse collapse custom" role="tabpanel" aria-labelledby="headingFive">
+                                <div class="panel-body custom">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- /Container -->
+
+    <footer class="footer">
+        <!-- Contact -->
+        <div class="contact">
+            <!-- Map -->
+            <div class="map">
+                <span class="fa fa-map-marker cont"></span>
+                <span>One Brookings Drive St. Louis, Missouri 63130-4899</span>
+            </div>
+            <!-- Phone -->
+            <div class="phone">
+                <span class="fa fa-phone cont"></span>
+                <span>+20 111 235 7755</span>
+            </div>
+            <!-- Mail -->
+            <div class="mail">
+                <span class="fa fa-envelope cont"></span>
+                <a href="mailto:info@whmcsdes.com" target="_top">Info@whmcsdes.com</a>
+            </div>
+            <!-- Live Chat -->
+            <div class="l-chat">
+                <span class="fa fa-headphones cont"></span>
+                <a href="#">Live Chat</a>
+            </div>
+        </div>
+        <!-- Footer Lv2 -->
+        <div class="f-lv2">
+            <div class="container">
+                <div class="row">
+                    <!-- About -->
+                    <div class="col-lg-3 col-sm-3">
+                        <div class="about">
+                            <!-- Brand -->
+                            <img src="img/logo-b.png" alt="X-Data">
+                            <!-- iNFO -->
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s .
+                            </p>
+                            <!-- Links -->
+                            <a href="terms.html">Terms |</a>
+                            <a href="terms.html">Policy |</a>
+                            <a href="contact.html">Careers</a>
+                            <!-- CopyRights -->
+                            <h4>© 2016 WHMCSdes Inc. All rights reserved.</h4>
+                        </div>
+                    </div>
+                    <!-- Products -->
+                    <div class="col-lg-2 col-sm-3">
+                        <div class="links-foot">
+                            <h2>Products</h2>
+                            <ul>
+                                <li><a href="shared-hosting.html">Shared Hosting</a></li>
+                                <li><a href="vps-hosting.html">Vps Hosting</a></li>
+                                <li><a href="dedicated-hosting.html">Dedicated Hosting</a></li>
+                                <li><a href="cloud-hosting.html">Cloud Hosting</a></li>
+                                <li><a href="wordpress-hosting.html">Wordpress Hosting</a></li>
+                                <li><a href="ecommerce-hosting.html">E-commerce Hosting</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Help -->
+                    <div class="col-lg-2 col-sm-3">
+                        <div class="links-foot">
+                            <h2>Help</h2>
+                            <ul>
+                                <li><a href="#">Live Chat</a></li>
+                                <li><a href="#">Tickets</a></li>
+                                <li><a href="comingsoon.html">Coming Soon</a></li>
+                                <li><a href="faq.html">Faq</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- NewsLetter -->
+                    <div class="col-lg-4 col-sm-3">
+                        <div class="links-foot">
+                            <h2>NewsLetter</h2>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </p>
+                            <input class="email-news" type="email" placeholder="email">
+                            <input class="sub-news" type="submit" value="Subscribe">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Owl Carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Nice Scroll -->
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <!-- Plugins -->
+    <script src="js/plugins.js"></script>
+
+</body>
+
+</html>

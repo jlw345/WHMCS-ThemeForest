@@ -1,0 +1,126 @@
+/* *****************************************************
+
+    ** Custom Stylesheet **
+
+    Any custom styling you want to apply should be
+    defined here.
+
+***************************************************** */
+section#header{ padding: 0; }
+#top-nav a.quick-nav{ color: #fff; color: rgba(255,255,255,0.9);}
+#top-nav .nav{ line-height: 0; }
+#top-nav a.quick-nav.login{ padding: 10px 20px; border-radius: 19px;}
+.menu li a.quick-nav.login::after{ width: 0 !important; }
+.popover-content { padding: 24px 17px 17px 18px; }
+.form-whmcs .checkbox-inline{ margin: 10px 0 5px 0; }
+.form-whmcs input[type="password"]{ margin-top: 5px; }
+.login-popover hr { margin: 7px 0 10px 0; }
+.form-whmcs input[type=submit]{ margin-top: 5px;
+    padding: 8px 20px !important;
+    line-height: 15px !important;
+}
+.form-whmcs .checkbox-inline a{ display: block; }
+.navbar-main{ 
+    padding: 15px 41px 11px 33px;
+    font-family: 'Droid', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    font-weight: 500; 
+    border-top: 1px solid #E9E9E9;
+    border-bottom: 1px solid #E9E9E9
+}
+.navbar-main .navbar-nav > li > a{ color: #676565; }
+.navbar-main .navbar-nav li a::after{ 
+	background: rgba(103, 101, 101, 0.5) none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    margin: auto;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 70%;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
+    width: 35px;
+}
+.navbar-main .navbar-nav li:hover a::after{
+	opacity: 1;
+    transform: translateY(7px);
+}
+.navbar-main .navbar-nav > li > a:hover{ background-color: transparent; color: #363537; }
+.dropdown-menu>li>a{ font-size: 11px; }
+.navbar-nav>li>.dropdown-menu{ padding: 15px 0 10px 0; }
+.navbar-main .navbar-nav li .dropdown-menu a::after,
+.navbar-main .navbar-nav.navbar-right li a::after{ width: 0; }
+.navbar-main .dropdown-menu > li > a{ padding: 8px 20px; }
+section#home-banner h2,
+.home-shortcuts h2{     
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+.domaincheckerclass .input-group .form-control:first-child{ font-size: 15px; }
+.domaincheckerclass input[type=submit]{ 
+    text-transform: uppercase;
+    font-size: 12px !important;
+    letter-spacing: 2px  !important;
+    font-weight: 300;
+}
+.home-shortcuts{
+    border-top: 1px solid #E9E9E9;
+    border-bottom: 1px solid #E9E9E9;
+    padding: 15px 41px 11px 33px;
+    font-family: 'Droid', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
+.home-shortcuts h2{ color: #363537; }
+.home-shortcuts .lead{ line-height: 65px; }
+.home-shortcuts li{ width: 25%; }
+.home-shortcuts li i { font-size: 27px; }
+#twitterFeedOutput .tweet { 
+    width: 49%; 
+    float: right; 
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+#twitterFeedOutput .tweet p{ 
+    background-color: #fbfbfb; 
+    border: 1px solid #E9E9E9;
+    border-radius: 20px;
+}
+div.tweet > i{ padding: 25px 0 25px 25px; }
+#twitterFeedOutput .tweet p{ padding: 25px; }
+#twitterFeedOutput{ margin-top: 30px; }
+#twitterFeedOutput > p{ 
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: lighter;
+    color: #000;
+    font-style: italic;
+    text-align: center;
+}
+.admin-masquerade-notice{ position: absolute; width: 100%; text-align: right; line-height: 19px;}
+.admin-masquerade-notice .alert-link{ padding: 0; }
+section#main-body{ margin-top: 70px; margin-bottom: 50px; }
+.breadcrumb{ background-color: #fbfbfb; border: 1px solid #E9E9E9; }
+.btn-primary,
+.btn.domain-check-availability{ 
+    text-transform: uppercase;
+    padding: 10px 20px !important;
+    border-radius: 19px !important;
+    letter-spacing: 2px;
+    font-size: 12px !important;
+    color: #fff;
+}
+#order-modern .signupfields{ margin-bottom: 21px !important; padding: 19px !important;}
+.dataTables_wrapper .dataTables_paginate{ padding: 20px 0 10px 0; }
+.dataTables_wrapper .dataTables_length label { padding: 20px 10px 0 0; }
+#order-modern .product:hover{ background-color: #fbfbfb !important; }
+.affiliate-stat span{ margin-top: 20px; line-height: 50px;}
+.affiliate-stat{ height: 200px; padding: 40px 15px 15px 25px; }

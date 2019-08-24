@@ -1,0 +1,363 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+<title>Hustbee - Documentation</title>
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/prettify.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+<div id="header" class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="doc-title"><div class="glyph-icon flaticon-document-1"></div>Hustbee - Documentation</div>
+        </div>
+    </div>
+</div>
+<div id="content" class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12 col-md-3" style="padding:0;">
+            <div class="menu-holder">
+                <ul class="main-menu">
+                    <li><a href="#html" class="active"><i class="fa fa-angle-right" aria-hidden="true"></i>HTML Structure</a></li>
+                    <li><a href="#css"><i class="fa fa-angle-right" aria-hidden="true"></i>CSS & JavaScript</a></li>
+                    <li><a href="#logo"><i class="fa fa-angle-right" aria-hidden="true"></i>Logo & Menu</a></li>
+                    <li><a href="#top-content"><i class="fa fa-angle-right" aria-hidden="true"></i>Top Content</a></li>
+                    <li><a href="#features"><i class="fa fa-angle-right" aria-hidden="true"></i>Features Icons & text</a></li>
+                    <li><a href="#pricing"><i class="fa fa-angle-right" aria-hidden="true"></i>Pricing tables</a></li>
+                    <li><a href="#latestnews"><i class="fa fa-angle-right" aria-hidden="true"></i>Simple Latest News</a></li>
+                    <li><a href="#icons"><i class="fa fa-angle-right" aria-hidden="true"></i>Icons & text</a></li>
+                    <li><a href="#social"><i class="fa fa-angle-right" aria-hidden="true"></i>Footer - social media</a></li>
+                    <li><a href="#whmcs"><i class="fa fa-angle-right" aria-hidden="true"></i>WHMCS Theme Installation</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-9 content">
+            <h3 id="html">HTML Structure</h3>
+            <p>The template is based on bootstrap library, please read more about bootstrap here: <a href="http://getbootstrap.com/getting-started/" target="_blank">http://getbootstrap.com/getting-started/</a>
+
+                To edit the template, a very basic knowledge in dealing with bootstrap is required.
+            </p>
+            
+            <p>The Html file can be edited in any text editor, best example is Adobe Dreamweaver.
+            </p>
+            
+            <p>The template structure is based on bootstrap layout, the page is separated in rows, every row created like the following figure:
+            </p>
+            
+            <img src="assets/images/doc.jpg">
+            <br>
+            <p>The template is arranged in sections, each section(div) has an id or class, Ex: "nav", "top-content", "pricing", ...etc</p>
+            <p><b>Note:</b> for the WHMCS, the same layout can be found in "header.tpl".</p>
+            <pre class="prettyprint">
+&lt;div id="top-content" class="container-fluid"&gt;
+...
+&lt;div class="features container-fluid"&gt;
+...
+&lt;div class="pricing container-fluid"&gt;
+...
+&lt;div class="latest-news container-fluid"&gt;
+...
+&lt;div class="domain-search-holder container-fluid"&gt;
+...
+&lt;div class="support-links container-fluid"&gt;
+...
+&lt;div class="footer container-fluid"&gt;
+...</pre>
+            <h3 id="css">CSS</h3>
+            <p>There are five CSS files in the template. First is "bootstrap.min.css", used for layout — originally in bootstrap, the other files are "font-awesome.min.css", "slick.css", "styles-modified.css" and "style.css" is used for style customisation, where the texts, colors, backgrounds and font styles can be changed.</p>
+            
+            <p>
+                We arrange the styles according to the order of the tags in the html.
+            </p>
+            <pre class="prettyprint">/*------------------------------------------------------------------
+[Table of contents]
+
+1 - General Styles
+2 - Header Styles
+3 - Top Content Styles
+4 - Features Section Styles
+5 - Pricing Section Styles
+6 - Latest News Section Styles
+7 - Domain Search Section Styles
+8 - Support Links Section Styles
+9 - Services Section Styles
+10- Blog Section Styles
+11 - Support Details Section Styles
+12 - Questions Section Styles
+13 - Contact Section Styles
+14 - Domain Pricing Section Styles
+15 - Domain Features Section Styles
+16 - Plain Content Section Styles
+17 - Other Sections Styles
+18 - Footer Styles
+19 - Responsive Styles
+-------------------------------------------------------------------*/</pre>
+           
+            <h3 id="javascript">JavaScript</h3>
+            <p>This template imports four Javascript files.</p>
+
+            <ul>
+                <li>"jquery.min.js": jQuery is a Javascript library that greatly reduces the amount of code that you must write.</li>
+                <li>"bootstrap.min.js": Bootstrap is the most popular Javascript framework for developing responsive, mobile first projects on the web.</li>
+                <li>"slick.min.js": slick is a responsive carousel jQuery plugin that supports multiple breakpoints, CSS3 transitions, touch events/swiping & much more!</li>
+                <li>"main.js": Our custom javascript code.</li>
+            </ul>
+            <h3 id="logo">Logo</h3>
+            <p>To change logo simply replace the url in the following code with your logo url or replace "logo.svg" file.</p>
+            <pre class="prettyprint">
+&#x3C;a class=&#x22;navbar-brand&#x22; href=&#x22;index.html&#x22;&#x3E;&#x3C;img src=&#x22;images/logo.svg&#x22; alt=&#x22;Hustbee&#x22;&#x3E;&#x3C;/a&#x3E;</pre>
+            <h3 id="menu">Menu</h3>
+            <p>To change the menu links, simply edit this code.</p>
+            <pre class="prettyprint">
+&#x3C;ul class=&#x22;nav navbar-nav navbar-nav-centered&#x22;&#x3E;
+&#x3C;li class=&#x22;nav-item active&#x22;&#x3E;&#x3C;a class=&#x22;nav-link&#x22; href=&#x22;index.html&#x22;&#x3E;Home&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+&#x3C;li class=&#x22;nav-item dropdown&#x22;&#x3E;
+    &#x3C;a class=&#x22;nav-link dropdown-toggle&#x22; href=&#x22;#&#x22; data-toggle=&#x22;dropdown&#x22;&#x3E;Hosting Services&#x3C;/a&#x3E;
+    &#x3C;div class=&#x22;dropdown-menu custom-dropdown-menu&#x22; aria-labelledby=&#x22;navbarDropdown&#x22;&#x3E;
+        &#x3C;div class=&#x22;dropdown-items-holder&#x22;&#x3E;
+            &#x3C;div class=&#x22;items-with-icon&#x22;&#x3E;
+                &#x3C;div class=&#x22;row&#x22;&#x3E;
+                    &#x3C;div class=&#x22;col-xs-6&#x22;&#x3E;
+                        &#x3C;a href=&#x22;webhosting.html&#x22; class=&#x22;link-with-icon&#x22;&#x3E;
+                            &#x3C;span class=&#x22;icon&#x22;&#x3E;&#x3C;img src=&#x22;images/server1.svg&#x22; alt=&#x22;&#x22;&#x3E;&#x3C;/span&#x3E;
+                            &#x3C;span class=&#x22;text&#x22;&#x3E;Web Hosting&#x3C;/span&#x3E;
+                        &#x3C;/a&#x3E;
+                        &#x3C;a href=&#x22;cloudhosting.html&#x22; class=&#x22;link-with-icon&#x22;&#x3E;
+                            &#x3C;span class=&#x22;icon&#x22;&#x3E;&#x3C;img src=&#x22;images/server2.svg&#x22; alt=&#x22;&#x22;&#x3E;&#x3C;/span&#x3E;
+                            &#x3C;span class=&#x22;text&#x22;&#x3E;Cloud Hosting&#x3C;/span&#x3E;
+                        &#x3C;/a&#x3E;
+                        &#x3C;a href=&#x22;vpshosting.html&#x22; class=&#x22;link-with-icon&#x22;&#x3E;
+                            &#x3C;span class=&#x22;icon&#x22;&#x3E;&#x3C;img src=&#x22;images/server3.svg&#x22; alt=&#x22;&#x22;&#x3E;&#x3C;/span&#x3E;
+                            &#x3C;span class=&#x22;text&#x22;&#x3E;VPS Hosting&#x3C;/span&#x3E;
+                        &#x3C;/a&#x3E;
+                    &#x3C;/div&#x3E;
+                    &#x3C;div class=&#x22;col-xs-6&#x22;&#x3E;
+                        &#x3C;a href=&#x22;wordpresshosting.html&#x22; class=&#x22;link-with-icon&#x22;&#x3E;
+                            &#x3C;span class=&#x22;icon&#x22;&#x3E;&#x3C;img src=&#x22;images/server4.svg&#x22; alt=&#x22;&#x22;&#x3E;&#x3C;/span&#x3E;
+                            &#x3C;span class=&#x22;text&#x22;&#x3E;Wordpress Hosting&#x3C;/span&#x3E;
+                        &#x3C;/a&#x3E;
+                        &#x3C;a href=&#x22;dedicatedhosting.html&#x22; class=&#x22;link-with-icon&#x22;&#x3E;
+                            &#x3C;span class=&#x22;icon&#x22;&#x3E;&#x3C;img src=&#x22;images/server5.svg&#x22; alt=&#x22;&#x22;&#x3E;&#x3C;/span&#x3E;
+                            &#x3C;span class=&#x22;text&#x22;&#x3E;Dedicated Hosting&#x3C;/span&#x3E;
+                        &#x3C;/a&#x3E;
+                        &#x3C;a href=&#x22;domains.html&#x22; class=&#x22;link-with-icon&#x22;&#x3E;
+                            &#x3C;span class=&#x22;icon&#x22;&#x3E;&#x3C;img src=&#x22;images/server6.svg&#x22; alt=&#x22;&#x22;&#x3E;&#x3C;/span&#x3E;
+                            &#x3C;span class=&#x22;text&#x22;&#x3E;Domain Names&#x3C;/span&#x3E;
+                        &#x3C;/a&#x3E;
+                    &#x3C;/div&#x3E;
+                &#x3C;/div&#x3E;
+            &#x3C;/div&#x3E;
+            &#x3C;div class=&#x22;items&#x22;&#x3E;
+                &#x3C;div class=&#x22;row&#x22;&#x3E;
+                    &#x3C;div class=&#x22;col-xs-6&#x22;&#x3E;
+                        &#x3C;a href=&#x22;#&#x22; class=&#x22;link&#x22;&#x3E;Hustbee Features&#x3C;/a&#x3E;
+                    &#x3C;/div&#x3E;
+                    &#x3C;div class=&#x22;col-xs-6&#x22;&#x3E;
+                        &#x3C;a href=&#x22;#&#x22; class=&#x22;link&#x22;&#x3E;Website builder&#x3C;/a&#x3E;
+                    &#x3C;/div&#x3E;
+                &#x3C;/div&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/li&#x3E;
+&#x3C;li class=&#x22;nav-item&#x22;&#x3E;
+    &#x3C;a class=&#x22;nav-link&#x22; href=&#x22;domains.html&#x22;&#x3E;Domains&#x3C;/a&#x3E;
+&#x3C;/li&#x3E;
+&#x3C;li class=&#x22;nav-item&#x22;&#x3E;
+    &#x3C;a class=&#x22;nav-link&#x22; href=&#x22;contact.html&#x22;&#x3E;Support&#x3C;/a&#x3E;
+&#x3C;/li&#x3E;
+&#x3C;li class=&#x22;nav-item dropdown&#x22;&#x3E;
+    &#x3C;a class=&#x22;nav-link dropdown-toggle&#x22; href=&#x22;#&#x22; data-toggle=&#x22;dropdown&#x22; aria-haspopup=&#x22;true&#x22; aria-expanded=&#x22;false&#x22;&#x3E;Pages&#x3C;/a&#x3E;
+    &#x3C;ul class=&#x22;dropdown-menu&#x22;&#x3E;
+        &#x3C;li&#x3E;&#x3C;a class=&#x22;dropdown-item&#x22; href=&#x22;about.html&#x22;&#x3E;About&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+        &#x3C;li&#x3E;&#x3C;a class=&#x22;dropdown-item&#x22; href=&#x22;blog.html&#x22;&#x3E;Blog&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+    &#x3C;/ul&#x3E;
+&#x3C;/li&#x3E;
+&#x3C;/ul&#x3E;</pre>
+            <br>
+            <h3 id="top-content">Top Content</h3>
+            <p>There are four slides in the top of the home page, to modify it simply edit the following code:</p>
+            <pre class="prettyprint">
+&lt;div id=&quot;main-slider&quot;&gt;
+    &lt;div class=&quot;slide&quot;&gt;
+        ... Your Content Here
+    &lt;/div&gt;
+    &lt;div class=&quot;slide&quot;&gt;
+        ... Your Content Here
+    &lt;/div&gt;
+    &lt;div class=&quot;slide&quot;&gt;
+        ... Your Content Here
+    &lt;/div&gt;
+    &lt;div class=&quot;slide&quot;&gt;
+        ... Your Content Here
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+            <p>Each slide has simple content, the last one has domain search input with some text, the text can be edited by modifying the following code:</p>
+            <pre class="prettyprint">
+&#x3C;div class=&#x22;b-text&#x22;&#x3E;Simple, affordable&#x3C;br&#x3E;Web Hosting&#x3C;/div&#x3E;</pre>
+            <p>And the other slides has image, text and button. You can edit it easily as follow:</p>
+            <pre class="prettyprint">
+&#x3C;div class=&#x22;row rtl-row&#x22;&#x3E;
+    &#x3C;div class=&#x22;col-sm-5&#x22;&#x3E;
+        &#x3C;div class=&#x22;img-holder&#x22;&#x3E;
+            &#x3C;img src=&#x22;images/slide-img3.png&#x22; alt=&#x22;&#x22;&#x3E;
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;col-sm-7&#x22;&#x3E;
+        &#x3C;div class=&#x22;b-text&#x22;&#x3E;Build your site&#x3C;br&#x3E;with page builder&#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;m-text&#x22;&#x3E;Starting at only &#x3C;span class=&#x22;bold&#x22;&#x3E;$2.38/mo*&#x3C;/span&#x3E;&#x3C;/div&#x3E;
+        &#x3C;a href=&#x22;#&#x22; class=&#x22;hbtn hbtn-primary hbtn-lg&#x22;&#x3E;Learn more&#x3C;/a&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</pre>
+            
+            <h3 id="features">Features Images & text</h3>
+            <p>You can change the image, title and details text by editing this code for each one.</p>
+            <pre class="prettyprint">
+&#x3C;div class=&#x22;row rtl-row&#x22;&#x3E;
+    &#x3C;div class=&#x22;col-sm-5&#x22;&#x3E;
+        &#x3C;div class=&#x22;img-holder&#x22;&#x3E;
+            &#x3C;img src=&#x22;images/feature1.png&#x22; alt=&#x22;&#x22;&#x3E;
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;col-sm-7&#x22;&#x3E;
+        &#x3C;div class=&#x22;feature-info&#x22;&#x3E;
+            &#x3C;div class=&#x22;feature-title&#x22;&#x3E;Hosting For Every Website&#x3C;/div&#x3E;
+            &#x3C;div class=&#x22;feature-text&#x22;&#x3E;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas posuere euismod dui eget ultrices. Cras condimentum dui eget erat commodo, in venenatis eros blandit.&#x3C;/div&#x3E;
+            &#x3C;div class=&#x22;feature-link&#x22;&#x3E;&#x3C;a href=&#x22;#&#x22; class=&#x22;hbtn hbtn-default&#x22;&#x3E;Get Started!&#x3C;/a&#x3E;&#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</pre>
+            <p>Make sure to repeat the same modifications for the other codes as well.</p>
+            
+            <h3 id="pricing">Pricing tables</h3>
+            <p>There are two different pricing table styles, the first one available in the homepage "index.html", you can modify it by editing the following code:</p>
+            <pre class="prettyprint">
+&#x3C;div class=&#x22;pricing-box&#x22;&#x3E;
+    &#x3C;div class=&#x22;pricing-title&#x22;&#x3E;Web Hosting&#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;pricing-icon&#x22;&#x3E;
+        &#x3C;div class=&#x22;icon&#x22;&#x3E;&#x3C;img src=&#x22;images/server1.svg&#x22; alt=&#x22;&#x22;&#x3E;&#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;pricing-details&#x22;&#x3E;
+        &#x3C;ul&#x3E;
+            &#x3C;li&#x3E;User-friendly building tools&#x3C;/li&#x3E;
+            &#x3C;li&#x3E;Host unlimited domains&#x3C;/li&#x3E;
+            &#x3C;li&#x3E;Perfect for small sites/blogs&#x3C;/li&#x3E;
+        &#x3C;/ul&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;pricing-price&#x22;&#x3E;
+        &#x3C;div class=&#x22;price-info&#x22;&#x3E;Starting at only&#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;price&#x22;&#x3E;
+            &#x3C;span class=&#x22;currency&#x22;&#x3E;$&#x3C;/span&#x3E;&#x3C;span class=&#x22;num&#x22;&#x3E;2.75&#x3C;/span&#x3E;&#x3C;span class=&#x22;duration&#x22;&#x3E;/mo&#x3C;/span&#x3E;
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;pricing-button&#x22;&#x3E;
+        &#x3C;a href=&#x22;#&#x22;&#x3E;Get Started!&#x3C;/a&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</pre>
+
+            <p>And the other one is available in the inner pages like "webhosting.html" and it will be in the WHMCS version,  you can modify it by editing the following code:</p>
+            <pre class="prettyprint">
+&#x3C;div class=&#x22;pricing-box inner&#x22;&#x3E;
+    &#x3C;div class=&#x22;pricing-title&#x22;&#x3E;Starter plan&#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;pricing-price&#x22;&#x3E;
+        &#x3C;div class=&#x22;price&#x22;&#x3E;
+            &#x3C;span class=&#x22;currency&#x22;&#x3E;$&#x3C;/span&#x3E;&#x3C;span class=&#x22;num&#x22;&#x3E;2.75&#x3C;/span&#x3E;&#x3C;span class=&#x22;duration&#x22;&#x3E;/mo&#x3C;/span&#x3E;
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;pricing-button&#x22;&#x3E;
+        &#x3C;a href=&#x22;#&#x22;&#x3E;Buy now&#x3C;/a&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;pricing-details&#x22;&#x3E;
+        &#x3C;ul&#x3E;
+            &#x3C;li&#x3E;10GB Storage&#x3C;/li&#x3E;
+            &#x3C;li&#x3E;1 Domain name&#x3C;/li&#x3E;
+            &#x3C;li&#x3E;512Mb Ram&#x3C;/li&#x3E;
+            &#x3C;li&#x3E;5GB Bandwidth&#x3C;/li&#x3E;
+            &#x3C;li&#x3E;10 Emails&#x3C;/li&#x3E;
+        &#x3C;/ul&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</pre>
+
+            <p>In WHMCS template, you will be using this list code when you add the ordering list, to be looks like the Html template exactly.</p>
+            <pre class="prettyprint">
+&#x3C;ul&#x3E;
+    &#x3C;li&#x3E;10GB Storage&#x3C;/li&#x3E;
+    &#x3C;li&#x3E;1 Domain name&#x3C;/li&#x3E;
+    &#x3C;li&#x3E;512Mb Ram&#x3C;/li&#x3E;
+    &#x3C;li&#x3E;5GB Bandwidth&#x3C;/li&#x3E;
+    &#x3C;li&#x3E;10 Emails&#x3C;/li&#x3E;
+&#x3C;/ul&#x3E;</pre>
+            
+            <h3 id="latestnews">Simple latest news</h3>
+            <p>The latest news box has three bg colors, you can choose between them by changing the class to any of the three colors ("blue-bg", "grey-bg", "yellow-bg")</p>
+            <p>The details can be changed by editing the following code:</p>
+            <pre class="prettyprint">
+&#x3C;div class=&#x22;post-box blue-bg&#x22;&#x3E;
+    &#x3C;div class=&#x22;post-img&#x22; style=&#x22;background-image: url(&#x27;images/post-img1.png&#x27;)&#x22;&#x3E;&#x3C;/div&#x3E;
+    &#x3C;span class=&#x22;badge badge-danger&#x22;&#x3E;Hot&#x3C;/span&#x3E;
+    &#x3C;div class=&#x22;post-title&#x22;&#x3E;Discover our new website builder&#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;post-link&#x22;&#x3E;&#x3C;a href=&#x22;#&#x22;&#x3E;Learn more&#x3C;/a&#x3E;&#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</pre>
+            <p>To change the background image simply change the url "background-image: url(&#x27;images/post-img1.png&#x27;)".</p>
+
+            <h3 id="icons-text">Icons & text</h3>
+            <p>This way of the layout is repeated in many different places in the template and can be edited easily as follow:</p>
+            <p>This example available at the end of "domains.html" page.</p>
+            <p>You can change the icon, title and details text by editing this code for each one.</p>
+            <p>You can use FontAwesome icons. Assume you needed twitter icon. To do that, replace this "hstb hstb-settings" with this "fab fa-twitter".</p>
+            <p>To relplace the icon with an image, replace this code &lt;i class=&quot;hstb hstb-settings&quot;&gt;&lt;/i&gt; with this &lt;img src="image/image.png" width"50" height="50" /&gt;, modify the dimensions and the src="" with the image url.</p>
+            <pre class="prettyprint">
+&#x3C;div class=&#x22;dfeature-box&#x22;&#x3E;
+    &#x3C;div class=&#x22;icon&#x22;&#x3E;&#x3C;i class=&#x22;hstb hstb-settings&#x22;&#x3E;&#x3C;/i&#x3E;&#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;title&#x22;&#x3E;Easy Control Panel&#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;details&#x22;&#x3E;Sed ut perspiciatis unde omnis iste natus error sit voluptatem ccusantium doloremque laudantium. aperiam inventore&#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</pre>
+            <p>Make sure to repeat the same modifications in this code as well.</p>
+            
+            <h3 id="social">Footer - social media</h3>
+            <p>To put a url to the social media icons, replace the # with your url.</p>
+            <pre class="prettyprint">
+&#x3C;ul class=&#x22;social&#x22;&#x3E;
+    &#x3C;li&#x3E;&#x3C;a href=&#x22;#&#x22;&#x3E;&#x3C;i class=&#x22;fab fa-facebook-f&#x22;&#x3E;&#x3C;/i&#x3E;&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+    &#x3C;li&#x3E;&#x3C;a href=&#x22;#&#x22;&#x3E;&#x3C;i class=&#x22;fab fa-youtube&#x22;&#x3E;&#x3C;/i&#x3E;&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+    &#x3C;li&#x3E;&#x3C;a href=&#x22;#&#x22;&#x3E;&#x3C;i class=&#x22;fab fa-twitter&#x22;&#x3E;&#x3C;/i&#x3E;&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+    &#x3C;li&#x3E;&#x3C;a href=&#x22;#&#x22;&#x3E;&#x3C;i class=&#x22;fab fa-instagram&#x22;&#x3E;&#x3C;/i&#x3E;&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+&#x3C;/ul&#x3E;</pre>
+            
+            <h3 id="whmcs">WHMCS Theme Installation</h3>
+            <ul>
+                <li>Copy "hustbee" folder to WHMCS templates folder.</li>
+                <li>Copy "hustbee_cart" and "standard_cart" folders to WHMCS templates/orderforms folder.</li>
+                <li>On your WHMCS admin panel go to Setup > General Settings, choose the template "Hustbee" and save changes.</li>
+                <li>Go to Setup > General Settings then Ordering Tab, choose "Hustbee Cart" and save changes.</li>
+            </ul>
+            
+
+            <hr>
+            <p>Once again, thank you so much for purchasing this template. We'd be glad to help you if you have any questions relating to this template. No guarantees, but We'll do our best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+        </div>
+    </div>
+</div>
+<div id="footer" class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="doc-info">
+                <div><b>Created:</b> 7 Jul 2018</div>
+                <div><b>By:</b> Brandio</div>
+                <div><b>Support:</b> faisal@brandio.io</div>
+            </div>
+        </div>
+    </div>
+</div>
+<a id="back-to-top" href="#header"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+<script src="assets/js/jquery.min.js"></script> 
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/prettify.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

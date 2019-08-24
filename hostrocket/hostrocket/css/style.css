@@ -1,0 +1,1073 @@
+/*------------------------------------------------------------------
+ * Theme Name: HostRocket v2 Responsive HTML5 Landing page
+ * Theme URI: http://www.brandio.io/envato/hostrocket-v2
+ * Author: Brandio
+ * Author URI: http://www.brandio.io/
+ * Description: A Bootstrap Responsive HTML5 Landing page
+ * Version: 1.0
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Bootstrap v3.3.6 (http://getbootstrap.com)
+ * Copyright 2016 Brandio.
+ -------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. General Styles.
+2. Header Styles.
+3. Top Content Styles.
+4. Info Styles.
+5. Features Styles.
+6. Starting Styles.
+7. Pricing Styles.
+8. Reasons Styles.
+9. Testimonials Styles.
+10. Footer Styles.
+11. Responsive Styles.
+-------------------------------------------------------------------*/
+
+@charset "UTF-8";
+@import url("../fonts/montserrat/font.css");
+@import url("../fonts/roboto/font.css");
+@import url("../fonts/hostrocket.css");
+/*------------------------------------------------------------------
+	1. General Styles
+-------------------------------------------------------------------*/
+*,body{
+    font-family: 'Montserrat-Regular', sans-serif;
+    transition: all 0.3s ease 0.0s;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.color-bg1{
+    background-color: #374b63;
+}
+.color-bg2{
+    background-color: #3a9dc2;
+}
+.color-bg3{
+    background-color: #79d156;
+}
+.color-bg4{
+    background-color: #fba206;
+}
+
+
+/*------------------------------------------------------------------
+	2. Header Styles
+-------------------------------------------------------------------*/
+#mainNav{
+    background-color: #3a9dc2;
+}
+
+.navbar{
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+    opacity: 0.5;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'Montserrat-Regular', sans-serif;
+    position: relative;
+}
+
+.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:focus {
+    color: #ffffff;
+    opacity: 1;
+}
+
+.navbar-default .navbar-nav>li>a.chat-button{
+    padding: 7px 18px;
+    background-color: #79d156;
+    border-radius: 4px;
+    color: #469d24;
+    opacity: 1;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    margin-left: 15px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#79d156+0,79d156+50,ffffff+50,ffffff+100 */
+    background: #79d156; /* Old browsers */
+    background: -moz-linear-gradient(top,  #79d156 0%, #79d156 50%, #ffffff 50%, #ffffff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #79d156 0%,#79d156 50%,#ffffff 50%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #79d156 0%,#79d156 50%,#ffffff 50%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#79d156', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+    
+    transition: all 0.3s cubic-bezier(1, .02, 0, .99) 0.0s;
+
+}
+
+.navbar-default .navbar-nav>li>a.chat-button:hover,.navbar-default .navbar-nav>li>a.chat-button:focus{
+    background-position: 0% 100%;
+    color: #075b7a;
+}
+@media (min-width: 768px){
+    .navbar-nav>li>a {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+.navbar-brand {
+    height: 65px;
+    padding: 20px 15px;
+}
+
+.navbar-default .navbar-toggle{
+    border: 0px;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #ffffff;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background-color: transparent;
+    opacity: 0.7;
+}
+
+.navbar-toggle{
+    margin-top: 12px;
+}
+
+
+/*------------------------------------------------------------------
+	3. Top Content Styles
+-------------------------------------------------------------------*/
+#top-content{
+    background-color: #3a9dc2;
+    overflow: hidden;
+}
+
+#top-content h1{
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    font-size: 52px;
+    color: #ffffff;
+    margin-top: 110px;
+    margin-bottom: 20px;
+}
+
+#top-content h4{
+    font-size: 20px;
+    color: #075b7a;
+    position: relative;
+}
+
+.domain-form-holder{
+    display: inline-block;
+    max-width: 500px;
+    width: 50%;
+    margin-top: 105px;
+    margin-bottom: 190px;
+}
+
+.domain-form-holder div[class^="col-"]{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.domain-text-holder{
+    position: relative;
+    padding-right: 10px !important;
+}
+
+.domain-text{
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    border: 0;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #3a9dc2;
+    font-size: 23px;
+    width: 100%;
+    padding: 8px 20px 8px 46px;
+    outline: 0;
+    text-align: center;
+}
+
+.domain-text-holder .hroc{
+    position: absolute;
+    color: #79d156;
+    left: 12px;
+    top: 11px;
+    font-size: 25px;
+}
+
+.btn-go{
+    display: inline-block;
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    border: 0;
+    border-radius: 8px;
+    background-color: #79d156;
+    font-size: 23px;
+    color: #fff;
+    width: 100%;
+    padding: 8px 20px;
+    outline: 0;
+    text-transform: capitalize;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#79d156+0,79d156+50,075b7a+50,075b7a+100 */
+    background: #79d156; /* Old browsers */
+    background: -moz-linear-gradient(top,  #79d156 0%, #79d156 50%, #075b7a 50%, #075b7a 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #79d156 0%,#79d156 50%,#075b7a 50%,#075b7a 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #79d156 0%,#79d156 50%,#075b7a 50%,#075b7a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#79d156', endColorstr='#075b7a',GradientType=0 ); /* IE6-9 */
+
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+    
+    transition: all 0.3s cubic-bezier(1, .02, 0, .99) 0.0s;
+}
+.btn-go:hover,.btn-go:focus{
+    background-position: 0% 100%;
+    color: #fff;
+    text-decoration: none;
+}
+.rocket-animation-holder{
+    position: relative;
+}
+.rocket-animation{
+    position: absolute;
+    left: 73%;
+    bottom: 360px;
+}
+.rocket-animation-svg{
+    position: absolute;
+    left: 22%;
+    bottom: -312px;
+}
+.rocket-animation .rocket{
+    position: absolute;
+    transform: rotate(45deg);
+    animation-name: rocket-animation;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+/*@keyframes rocket-animation {
+    0%   {transform: rotate(45deg) translate(0,0);}
+    50%  {transform: rotate(45deg) translate(8px,8px);}
+    100% {transform: rotate(45deg) translate(0,0);}
+}*/
+@keyframes rocket-animation {
+    0%   {transform: rotate(45deg) translate(0px,0px);}
+    10%   {transform: rotate(45deg) translate(2px,6px);}
+    20%   {transform: rotate(45deg) translate(-2px,-6px);}
+    30%   {transform: rotate(45deg) translate(4px,2px);}
+    40%   {transform: rotate(45deg) translate(-4px,-2px);}
+    50%  {transform: rotate(45deg) translate(2px,6px);}
+    60%   {transform: rotate(45deg) translate(-6px,-4px);}
+    70%   {transform: rotate(45deg) translate(1px,5px);}
+    80%   {transform: rotate(45deg) translate(-5px,-3px);}
+    90%   {transform: rotate(45deg) translate(5px,3px);}
+    100% {transform: rotate(45deg) translate(0px,0px);}
+}
+.rocket-animation .rocket-line{
+    border-radius: 50px;
+    width: 10px;
+    background-color: #ffffff;
+    position: absolute;
+    display: inline-block;
+    animation-name: rline-animation;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes rline-animation {
+    0%   {transform: scale(1,1);}
+    50%  {transform: scale(1,0.97);}
+    100% {transform: scale(1,1);}
+}
+.rocket-animation .rocket-line.rline1{
+    height: 120px;
+    left: 25px;
+    top: 240px;
+}
+.rocket-animation .rocket-line.rline2{
+    height: 250px;
+    left:62px;
+    top: 220px;
+}
+.rocket-animation .rocket-line.rline3{
+    height: 120px;
+    left: 100px;
+    top: 260px;
+}
+.rocket-animation .cloud{
+    position: absolute;
+    transform: rotate(45deg);
+    animation-name: cloud-animation;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes cloud-animation {
+    0%   {transform: rotate(45deg) translate(0,0);opacity: 0;}
+    25%  {transform: rotate(45deg) translate(0,100px);opacity: 1;}
+    50%  {transform: rotate(45deg) translate(0,200px);opacity: 1;}
+    75%  {transform: rotate(45deg) translate(0,300px);opacity: 1;}
+    100% {transform: rotate(45deg) translate(0,400px);opacity: 0;}
+}
+.rocket-animation .cloud img{
+    transform: rotate(-45deg);
+    opacity: 0.2;
+}
+
+.rocket-animation .cloud.cloud1{
+    left: -130px;
+    animation-duration: 10s;
+}
+.rocket-animation .cloud.cloud2{
+    left: 250px;
+    animation-duration: 17s;
+}
+.rocket-animation .cloud.cloud2 img{
+    width: 30px;
+    height: auto;
+}
+.rocket-animation .cloud.cloud3{
+    left: 400px;
+    animation-duration: 13s;
+}
+.rocket-animation .cloud.cloud3 img{
+    width: 45px;
+    height: auto;
+}
+
+
+/*------------------------------------------------------------------
+	4. Info Styles
+-------------------------------------------------------------------*/
+#info{
+    background-color: #374b63;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+#info .row-title h4{
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+#info .info-box{
+    cursor: pointer;
+}
+#info .info-box .hroc{
+    font-size: 90px;
+    color: #5a7392;
+}
+#info .info-box.opened-info .hroc,
+#info .info-box:hover .hroc,
+#info .info-box:focus .hroc{
+    color: #79d156;
+}
+#info .info-box [class*="fa"]{
+    font-size: 90px;
+    color: #5a7392;
+}
+#info .info-box.opened-info [class*="fa"],
+#info .info-box:hover [class*="fa"],
+#info .info-box:focus [class*="fa"]{
+    color: #79d156;
+}
+#info .info-box img{
+    width: 100%;
+    max-width: 90px;
+}
+#info .info-box .info-title{
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    font-size: 15px;
+    color: #879ab0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#info .info-box.opened-info .info-title,
+#info .info-box:hover .info-title,
+#info .info-box:focus .info-title{
+    color: #cfddee;
+}
+#info .info-box .info-circle{
+    position: relative;
+}
+#info .info-box .info-circle .circle-icon{
+    position: absolute;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #79d156;
+    border-radius: 50px;
+    top: 50%;
+    left: 50%;
+    margin-left: -4px;
+    margin-top: -12px;
+    opacity: 0;
+}
+#info .info-box.opened-info .info-circle .circle-icon{
+    width: 16px;
+    height: 16px;
+    opacity: 1;
+    margin-left: -8px;
+    margin-top: 0px;
+    
+}
+
+.info-text-holder{
+    overflow: hidden;
+    background-color: #79d156;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-height: 200px;
+    /*transition: all 0.3s cubic-bezier(1, .02, 0, .99) 0.0s;*/
+}
+.info-text-holder.info-closed{
+    max-height: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.info-text-holder .info-title-icon{
+    background-color: #374b63;
+    padding-bottom: 20px;
+    text-align: center;
+    display: none;
+    margin-right: -20%;
+    margin-left: -20%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+.info-text-holder .info-title-icon div{
+    font-size: 18px;
+    color: #879ab0;
+    font-family: 'Montserrat-SemiBold', sans-serif;
+}
+.info-text-holder .info-title-icon .hroc{
+    vertical-align: middle;
+    font-size: 70px;
+    color: #79d156;
+    margin-bottom: 10px;
+}
+.info-text-holder .info-text{
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    color: #ffffff;
+    font-size: 23px;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+/*------------------------------------------------------------------
+	5. Features Styles
+-------------------------------------------------------------------*/
+#features{
+    background-color: #ffffff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#features .rtl-row div[class^="col-"]{
+    float: right;
+}
+#features .feature-row{
+    padding-bottom: 30px;
+}
+#features .row-title{
+    text-align: center;
+}
+#features .row-title h4{
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    color: #697b91;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#features .row-title h5{
+    font-size: 15px;
+    color: #aec0c7;
+    margin-bottom: 120px;
+}
+#features .feature-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 38px;
+    color: #3a9dc2;
+    margin-bottom: 15px;
+    opacity: 0.99;
+}
+#features .feature-subtitle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    color: #1a232d;
+    margin-bottom: 20px;
+}
+#features .feature-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #7d8085;
+}
+#features .feature-text p{
+    margin-bottom: 20px;
+}
+#features .feature-button{
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    max-width: 230px;
+    background-color: #79d156;
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#79d156+0,79d156+50,075b7a+50,075b7a+100 */
+    background: #79d156; /* Old browsers */
+    background: -moz-linear-gradient(top,  #79d156 0%, #79d156 50%, #075b7a 50%, #075b7a 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #79d156 0%,#79d156 50%,#075b7a 50%,#075b7a 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #79d156 0%,#79d156 50%,#075b7a 50%,#075b7a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#79d156', endColorstr='#075b7a',GradientType=0 ); /* IE6-9 */
+
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+    
+    transition: all 0.3s cubic-bezier(1, .02, 0, .99) 0.0s;
+}
+#features .feature-button:hover,#features .feature-button:focus{
+    background-position: 0% 100%;
+}
+#features .feature-image{
+    width: 100%;
+    max-width: 518px;
+}
+
+
+/*------------------------------------------------------------------
+	6. Starting Styles
+-------------------------------------------------------------------*/
+#starting{
+    background-color: #79d156;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#starting h4{
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 23px;
+}
+#starting .price-holder{
+    position: relative;
+}
+#starting .price-holder .currency{
+    position: absolute;
+    font-family: 'Montserrat-Light', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    left: -20px;
+}
+#starting .price-holder .number{
+    display: inline-block;
+}
+#starting .price-holder .number .num-big{
+    display: inline-block;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+}
+#starting .price-holder .num-small-holder{
+    display: inline-block;
+    margin-left: -5px;
+}
+#starting .price-holder .number .num-small{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 22px;
+    color: #ffffff;
+}
+#starting .price-holder .number .plan-info{
+    color: #50a22f;
+    opacity: 0.5;
+    margin-left: 5px;
+    margin-bottom: -5px;
+}
+#starting .price-holder .number .duration{
+    display: inline-block;
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 15px;
+    opacity: 0.5;
+    color: #ffffff;
+}
+
+#starting .plan-button{
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    max-width: 230px;
+    background-color: #79d156;
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 13px;
+    font-size: 17px;
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3a9dc2+0,3a9dc2+50,ffffff+50,ffffff+100 */
+    background: #3a9dc2; /* Old browsers */
+    background: -moz-linear-gradient(top,  #3a9dc2 0%, #3a9dc2 50%, #ffffff 50%, #ffffff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #3a9dc2 0%,#3a9dc2 50%,#ffffff 50%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #3a9dc2 0%,#3a9dc2 50%,#ffffff 50%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a9dc2', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+    
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+    
+    transition: all 0.3s cubic-bezier(1, .02, 0, .99) 0.0s;
+    margin-top: 10px;
+}
+#starting .plan-button:hover,#starting .plan-button:focus{
+    background-position: 0% 100%;
+    color: #3a9dc2;
+}
+
+
+/*------------------------------------------------------------------
+	7. Pricing Styles
+-------------------------------------------------------------------*/
+#pricing{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f1f6fc;
+}
+
+#pricing .row-title {
+    text-align: center;
+}
+#pricing .row-title h4{
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    color: #697b91;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#pricing .row-title h5{
+    font-size: 15px;
+    color: #aec0c7;
+    margin-bottom: 90px;
+}
+#pricing .plan-box{
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transform: scale(1);
+}
+#pricing .plan-box:hover{
+    transform: scale(1.02);
+}
+#pricing .plan-box .plan-box-header{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#pricing .plan-box .plan-box-header:hover{
+    opacity: 0.9;
+}
+#pricing .plan-box .plan-box-header .plan-title{
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #ffffff;
+    opacity: 0.5;
+}
+#pricing .plan-box.best-seller .plan-box-header .plan-title{
+    margin-bottom: 20px;
+}
+#pricing .plan-box.best-seller{
+    margin-top: -20px;
+}
+#pricing .plan-box.best-seller .plan-box-header:after{
+    content: 'Best Seller';
+    position: absolute;
+    background-color: #79d156;
+    color: #ffffff;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    font-size: 9px;
+    text-transform: uppercase;
+    padding-left: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 3px;
+    right: -1px;
+    top: 48px;
+}
+
+#pricing .price-holder{
+    position: relative;
+    display: inline-block;
+}
+#pricing .price-holder .currency{
+    position: absolute;
+    font-family: 'Montserrat-Light', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    left: -16px;
+    top: 8px;
+}
+#pricing .price-holder .number{
+    display: inline-block;
+}
+#pricing .price-holder .number .num-big{
+    display: inline-block;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 65px;
+    color: #ffffff;
+}
+#pricing .price-holder .num-small-holder{
+    display: inline-block;
+    margin-left: -5px;
+}
+#pricing .price-holder .number .num-small{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 22px;
+    color: #ffffff;
+}
+#pricing .price-holder .number .duration{
+    display: inline-block;
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 15px;
+    opacity: 0.5;
+    color: #ffffff;
+}
+
+#pricing .plan-box .plan-box-content{
+    padding: 22px 20px;
+}
+#pricing .plan-box .plan-box-content ul.c-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+#pricing .plan-box .plan-box-content ul.c-list li.c-item{
+    color: #8da3b9;
+    font-size: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+#pricing .plan-box .plan-box-content ul.c-list li.c-item [class*="fa"]{
+    color: #3a9dc2;
+    margin-right: 8px;
+}
+#pricing .plan-box .plan-box-content ul.c-list li.c-item:hover [class*="fa"]{
+    margin-right: 11px;
+}
+#pricing .plan-box .plan-box-content ul.c-list li.not-inc [class*="fa"]{
+    color: #c6ddf8;
+}
+#pricing .plan-box .plan-box-button a{
+    display: inline-block;
+    width: 100%;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#pricing .plan-box .plan-box-button a:hover{
+    opacity: 0.7;
+}
+
+
+/*------------------------------------------------------------------
+	8. Reasons Styles
+-------------------------------------------------------------------*/
+#reasons{
+    background-color: #697b91;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#reasons .row-title {
+    text-align: center;
+}
+#reasons .row-title h4{
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+#reasons h5{
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+}
+#reasons .reason-box:hover h5{
+    color: #79d156;
+}
+#reasons p{
+    color: #ffffff;
+    font-size: 15px;
+    opacity: 0.5;
+    padding-bottom: 20px;
+}
+
+
+/*------------------------------------------------------------------
+	9. Testimonials Styles
+-------------------------------------------------------------------*/
+#testimonials{
+    background-color: #dde4ed;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#testimonials .testimonials-slider{
+    position: relative;
+}
+#testimonials .testimonials-slider .slick-arrow{
+    font-size: 38px;
+    opacity: 1;
+    color: #c7cfda;
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+}
+#testimonials .testimonials-slider .slick-arrow:hover{
+    opacity: 0.7;
+}
+#testimonials .testimonials-slider .prev-arrow{
+    left:0;
+    z-index: 10;
+}
+#testimonials .testimonials-slider .next-arrow{
+    right: 0;
+}
+#testimonials .testimonials-slider .slick-dots{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 60px;
+}
+#testimonials .testimonials-slider .slick-dots li{
+    display: inline-block;
+    text-indent: -9999px;
+    white-space: nowrap;
+    border: 0;
+    width: 11px;
+    height: 11px;
+    border-radius: 11px;
+    background-color: #ffffff;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#testimonials .testimonials-slider .slick-dots li.slick-active {
+    background-color: #c7cfda;
+}
+
+#testimonials .testimonial-slide{
+    outline: none;
+}
+#testimonials .testimonial-slide .slide-content{
+    padding-left: 110px;
+    padding-right: 110px;
+}
+#testimonials .testimonial-slide img{
+    display: inline-block;
+    width: 100%;
+    max-width: 145px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+#testimonials .testimonial-slide p{
+    color: #697b91;
+    font-size: 20px;
+    font-family: 'Montserrat-SemiBold', sans-serif;
+}
+
+
+/*------------------------------------------------------------------
+	10. Footer Styles
+-------------------------------------------------------------------*/
+#footer{
+    background-color: #ffffff;
+    padding-top: 70px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+#footer .row-title {
+    text-align: center;
+}
+
+#footer .row-title h4{
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    color: #697b91;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#footer .row-title h5{
+    font-size: 15px;
+    color: #aec0c7;
+    margin-bottom: 40px;
+}
+
+#footer .main-footer-content{
+    padding-bottom: 40px;
+}
+
+#footer p{
+    font-family: 'Montserrat-Light', sans-serif;
+    color: #697b91;
+    font-size: 17px;
+}
+#footer .contact-box{
+    font-size: 22px;
+    color: #697b91;
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    padding: 15px;
+    
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+50,79d156+50,79d156+100 */
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #ffffff 50%, #79d156 50%, #79d156 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#ffffff 50%,#79d156 50%,#79d156 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #ffffff 0%,#ffffff 50%,#79d156 50%,#79d156 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#79d156',GradientType=0 ); /* IE6-9 */
+
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+    
+    transition: all 0.3s cubic-bezier(1, .02, 0, .99) 0.0s;
+}
+
+#footer .contact-box .hroc{
+    color: #3a9dc2;
+    margin-right: 10px;
+    font-size: 35px;
+    vertical-align: middle;
+}
+#footer .contact-box [class*="fa"]{
+    color: #3a9dc2;
+    margin-right: 10px;
+    font-size: 35px;
+    vertical-align: middle;
+}
+
+#footer .contact-box .hroc-instagram{
+    font-size: 30px;
+}
+
+#footer .contact-box:hover{
+    color: #ffffff;
+    background-position: 0% 100%;
+}
+#footer .contact-box:hover .hroc{
+    color: #ffffff;
+}
+#footer .contact-box:hover [class*="fa"]{
+    color: #ffffff;
+}
+
+
+/*------------------------------------------------------------------
+	11. Responsive Styles
+-------------------------------------------------------------------*/
+
+/* Other screens styles modifications */
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+    .domain-text-holder {
+        padding-right: 0px !important;
+        padding-bottom: 15px;
+    }
+    .domain-form-holder{
+        width: 100%;
+    }
+    .rocket-animation {
+        bottom: 450px;
+    }
+    .rocket-animation-svg{
+        left: 5%;
+    }
+    .rocket-animation-svg .rocket-svg{
+        width: 760px;
+    }
+    #info{
+        display: none;
+    }
+    .info-text-holder,.info-text-holder.info-closed{
+        max-height: inherit;
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+    .info-text-holder .info-title-icon{
+        display: inherit;
+    }
+    .info-text-holder .info-text{
+        font-size: 19px;
+        line-height: 22px;
+        font-family: 'Montserrat-Regular', sans-serif;
+    }
+    #testimonials .testimonial-slide .slide-content{
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    #starting{
+        text-align: center;
+    }
+    #starting .price-holder {
+        text-align: left;
+        display: inline-block;
+    }
+}
+@media (max-width: 768px) {
+    .rocket-animation-svg {
+        left: 40%;
+        margin-left: -390px;
+        bottom: -82px;
+    }
+    .rocket-animation-svg .rocket-svg{
+        width: 680px;
+    }
+    .navbar-default .navbar-nav>li>a{
+        text-align: center;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+        border: 0;
+    }
+    .navbar-default .navbar-nav>li>a.chat-button{
+        margin-right: 15px;
+    }
+    #testimonials .testimonial-slide .slide-content{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    #pricing .plan-box.best-seller{
+        margin-top: 0;
+    }
+}
+@media (max-width: 480px) {
+    
+    #testimonials .testimonial-slide .slide-content{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    #pricing .plan-box.best-seller{
+        margin-top: 0;
+    }
+}

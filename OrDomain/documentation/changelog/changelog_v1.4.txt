@@ -1,0 +1,7 @@
+// # List of updates
+// ------------------------------
+
+[*] Fixed Domain pricing table responsive issue
+[*] Fixed Dedicated Server pricing table responsive issue
+
+

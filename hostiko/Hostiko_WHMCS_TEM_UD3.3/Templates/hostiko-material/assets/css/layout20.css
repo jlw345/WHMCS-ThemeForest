@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700');
+body{font-family: 'Rubik', sans-serif!important;background-color:#f3f3f3!important;}
+button,input,select,textarea{font-family: 'Rubik', sans-serif!important;}
+h1,h2,h3,h4,h5,h6{font-family: 'Rubik', sans-serif!important;}
+#sidebar-wrapper .collapse ul li.dropdown .dropdown-menu li a{font-size:14px;line-height:16px;}
+.color_ffffff,.sidebar-nav li a:hover,.sidebar-nav > .sidebar-brand a:hover,.navbar-default .logo,.header_content_right .top-nav #Secondary_Navbar-Account > a,.header_content_right .top-nav > li > a,.header_content_right .top-nav > li > a#languageChooser,section#footer .back-to-top i,#sidebar-wrapper .collapse ul > li > a:hover,#sidebar-wrapper .collapse ul > li > a:active,#sidebar-wrapper .collapse ul > li > a:focus,#sidebar-wrapper .nav .open>a,#sidebar-wrapper .nav .open>a:focus,#sidebar-wrapper .nav .open>a:hover,.tile .icon i:before,.tiles .tile,.panel-sidebar .panel-title,.panel-title a .fas,.sidebar .panel-title .fas,.sidebar .panel-title .far,.client-home-panels .btn,.btn-warning,.status,.status.status-pending,.status.status-unpaid,.status.status-closed,.status.status-customer-reply,.sidebar .list-group-item .badge,   #order-standard_cart .panel-sidebar a.list-group-item.active i,.panel-sidebar a.list-group-item.active:focus i,.panel-sidebar a.list-group-item.active:hover i,.domain-pricing-custom .col-sm-4.no-bg,.panel-sidebar a.list-group-item.active,.panel-sidebar a.list-group-item.active:focus,.panel-sidebar a.list-group-item.active:hover,.domain-pricing .tld-pricing-header div,.panel-default>.panel-heading,section#home-banner h2,.home-shortcuts li a i,.logincontainer .btn,#order-standard_cart .panel-addon .panel-price,#order-standard_cart .domain-selection-options .option .form-control-static,#order-standard_cart .domain-selection-options .option-selected label,.view-cart-tabs .btn.btn-block,#order-standard_cart .btn-remove-from-cart:hover,.suggested-domains .panel-heading,#order-standard_cart .products .product header span,#order-standard_cart .products .product .btn-success:hover,.client-home-panels .btn.btn-success,.client-home-panels .btn.btn-default,.btn-success,.label, #order-standard_cart .order-summary h2,.btn-primary,.dataTables_wrapper .dataTables_info,section#home-banner .btn,
+.featured-tld .price.com,.featured-tld .price.net,.tld-sale-group,.client-home-panels .btn.bg-color-red:hover,.client-home-panels .btn.bg-color-red:hover i,.client-home-panels .btn:hover i,.client-home-panels .btn:focus i,.client-home-panels .btn:active i,.btn.btn-success:hover,.btn.btn-success:focus,.btn.btn-success:active,.pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover, .alert-warning, .client-home-panels .btn:hover,.panel-title .fas,.panel-title .far
+{color:#ffffff!important}
+.color_3f51b5,.btn-link,.btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-info:hover,.btn-info:focus,.btn-info:active,.color_151f3a,div.announcement-single h3 a,.logincontainer .form-group label,.tile .stat,div.header-lined h1,.color_3598db,.header_content_right .top-nav #Secondary_Navbar-Account .dropdown-menu li a:hover,.header_content_right .top-nav #Secondary_Navbar-Account .dropdown-menu li a:active,.header_content_right .top-nav #Secondary_Navbar-Account .dropdown-menu li a:focus,div.header-lined .breadcrumb>.active,.tld_custom_box small,div.announcement-single .label.label-warning,.logincontainer .btn.btn-primary:focus,.logincontainer .btn.btn-primary:active,.logincontainer.with-social div.checkbox input[type=checkbox]:checked:before,.suggested-domains .btn:not(.domain-contact-support):hover,.logincontainer .btn.btn-primary:hover,.client-home-panels .btn:hover{color:#080245 !important}
+.color_95a7b7,.sidebar-nav li a,#sidebar-wrapper .collapse ul li.dropdown .dropdown-menu li a,.home-kb-search .fas,.logincontainer .btn.btn-default:hover,.logincontainer .btn.btn-default:focus,.logincontainer .btn.btn-default:active,#sidebar-wrapper .collapse > ul > li > a,.panel-sidebar .list-group-item i:not(.fa-circle):not(.fa-dot-circle),.catagory_box a i,.catagory_box a span.glyphicon,.sidebar-nav > .sidebar-brand a,.tile .title,.home-shortcuts li a p,.client-home-panels .btn,
+div.header-lined .breadcrumb li a,.dataTables_wrapper .dataTables_length{color:#080245 !important}
+body,a.list-group-item,button.list-group-item,section#footer,
+.table>tbody>tr>td,.table>tbody>tr>th,.table>tfoot>tr>td,.table>tfoot>tr>th,.table>thead>tr>td,.table>thead>tr>th,h1, h2, h3, h4, h5, h6,
+#order-standard_cart .products .product .price,
+.home-kb-search .form-control,
+.domain-pricing .two-row-center strong,
+.h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, .h4 .small, .h4 small, .h5 .small, .h5 small, .h6 .small, .h6 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small, h4 .small, h4 small, h5 .small, h5 small,h6 .small, h6 small,#order-standard_cart label,.domain-promo-box,.domain-promo-box .small
+{color:#666}
+#sidebar-wrapper .collapse ul li.dropdown .dropdown-menu li:hover a,#sidebar-wrapper .collapse ul > li > .dropdown-menu a:active,#sidebar-wrapper .collapse ul > li .dropdown-menu > a:focus{color:#1699e5 !important}
+.client-home-panels .btn.bg-color-red:focus,.client-home-panels .btn.bg-color-red:active,.client-home-panels .btn.bg-color-red:focus i,.client-home-panels .btn.bg-color-red:active i,.btn-warning:hover,.btn-warning:focus,.btn-warning:active,#order-standard_cart .btn-remove-from-cart{color:#fc4b6c !important}
+
+.background_ffffff,#sidebar-wrapper,.navbar-default .navbar-toggle .icon-bar,section#footer,#sidebar-wrapper .collapse ul li.dropdown .dropdown-menu,.tiles .tile,div.header-lined,.home-kb-search > .form-control,.client-home-panels .panel.panel-default,.tld-filters,.featured-tld,.domain-pricing-custom,.home-shortcuts li a,.announcement-single,.logincontainer,#frmConfigureDomains,#frmCheckout,#order-standard_cart .domain-selection-options .option,#order-standard_cart .summary-container,#order-standard_cart .view-cart-tabs .tab-content,#order-standard_cart .view-cart-tabs .nav-tabs>li.active>a,.default-box,#order-standard_cart .view-cart-empty,div.product-details div.product-icon,div.product-details-tab-container,.hostiko-product-detail,.bg-color-gold:hover,.list-group-item,.panel,#order-standard_cart .products .product,.form-control,.table-list>tbody>tr>td,
+table.table-list thead th,
+.pagination>.disabled>a,
+.pagination>.disabled>a:focus,
+.pagination>.disabled>a:hover,
+.pagination>.disabled>span,
+.pagination>.disabled>span:focus,
+.pagination>.disabled>span:hover,
+.pagination>li>a, .pagination>li>span,
+.domain-checker-container .input-group-box,
+.md-editor>.btn-toolbar,
+.client-home-panels .btn:hover
+.btn-default:hover,.dropdown-menu{background-color:#fff!important;}
+
+
+.table-list>tbody>tr:hover>td,.domain-pricing .tld-row:hover,a.list-group-item:focus,a.list-group-item:hover,button.list-group-item:focus,button.list-group-item:hover,.catagory_box,#frmConfigureDomains .form-group,.header_content_right .top-nav #Se-Account .dropdown-menu li a:hover,.table-list>tbody>tr:nth-child(even)>td,.domain-pricing .tld-row.highlighted,#order-standard_cart .view-cart-items .item:nth-child(even),.bg-info,
+.domain-renewals,.domain-promo-box,div.credit-card,
+.md-editor .md-footer, .md-editor>.md-header
+{background-color:#f8fcfd}
+section#footer .back-to-top i,.sidebar .list-group-item .badge,#Primary_Sidebar-My_Services_Status_Filter-Suspended .badge,.label-default,.logincontainer .btn.btn-default,#order-standard_cart .panel-addon .panel-price,#order-standard_cart .domain-selection-options .option-selected,.navbar-toggle .icon-bar,.pagination>.disabled>a,.pagination>.disabled>a:focus,.pagination>.disabled>a:hover,.pagination>.disabled>span,.pagination>.disabled>span:focus,.pagination>.disabled>span:hover,.alert-warning
+{background-color:#0b2c35!important;}
+.domain-pricing-custom .col-sm-4.no-bg,.domain-pricing .tld-pricing-header div,#order-standard_cart .view-cart-items-header,.suggested-domains .panel-heading,.navbar-default,.hostiko-panel .panel-default .panel-heading,.btn-primary,.btn-info,.dataTables_wrapper .dataTables_info,section#home-banner,#order-standard_cart .order-summary,#order-standard_cart .products .product header,#order-standard_cart .products .product .btn-success,#order-standard_cart .products .product .btn-success:hover,.pagination>.active>a,.pagination>.active>a:focus,.pagination>.active>a:hover,.pagination>.active>span,.pagination>.active>span:focus,.pagination>.active>span:hover,.bg-color-blue,#Primary_Sidebar-My_Services_Status_Filter-Cancelled .badge,#Primary_Sidebar-My_Invoices_Status_Filter-Cancelled .badge,.label-default[href]:focus,.label-default[href]:hover,#order-standard_cart .panel-addon .panel-add,.view-cart-tabs .btn.btn-block,.suggested-domains .btn:not(.domain-contact-support),.bg-color-asbestos,.status.status-customer-reply,#Primary_Sidebar-My_Services_Status_Filter-Pending .badge,#Primary_Sidebar-My_Domains_Status_Filter-clientareapending .badge,#Primary_Sidebar-My_Invoices_Status_Filter-Refunded .badge,.tile .icon,.home-shortcuts li a i,.panel-default>.panel-heading,.panel-sidebar a.list-group-item.active,.panel-sidebar a.list-group-item.active:focus,.panel-sidebar a.list-group-item.active:hover,
+.featured-tld .price.com,.bg-color-red
+{background-color:#1699e5 !important}
+.header_content_right .top-nav > li > a#accountNotifications .label-info,.btn.btn-success,.status,#Primary_Sidebar-My_Domains_Status_Filter-clientareaactive .badge,#Primary_Sidebar-My_Services_Status_Filter-Active .badge,#Primary_Sidebar-My_Invoices_Status_Filter-Paid .badge,.spotlight-tld .btn:not(.domain-contact-support),.label-success,div.announcement-single .label,#sidebar-wrapper .collapse ul > li > a:hover,#sidebar-wrapper .collapse ul > li > a:active,#sidebar-wrapper .collapse ul > li > a:focus,#sidebar-wrapper .nav .open>a,#sidebar-wrapper .nav .open>a:focus,#sidebar-wrapper .nav .open>a:hover,section#home-banner .btn.search,.logincontainer .btn.btn-primary:hover{background-color:#0b2c35}
+.label-success[href]:focus,.label-success[href]:hover{background-color:#ffb401}
+.tiles .tile.domains-box .icon,.tiles .tile.quotes-box,.home-shortcuts li:nth-child(2) a i,.product-status-pending,.bg-color-gold,.domain-checker-container,.featured-tld .price.net{background-color:#0b2c35 !important}
+.panel-sidebar>.panel-heading{background-color:#0b2c35
+}
+.btn-warning,.status.status-unpaid,.status.status-closed,#Primary_Sidebar-My_Services_Status_Filter-Terminated .badge,#Primary_Sidebar-My_Domains_Status_Filter-clientareaexpired .badge,#Primary_Sidebar-My_Invoices_Status_Filter-Unpaid .badge,.tld-sale-group-hot,#order-standard_cart .empty-cart .btn,#order-standard_cart .btn-remove-from-cart:hover,.status.status-pending,.home-shortcuts li:nth-child(4) a i,section#home-banner .btn.transfer,
+.client-home-panels .btn.bg-color-red:hover
+{background-color:#fc4b6c !important}
+.tiles .tile.tickets-box .icon,.home-shortcuts li:nth-child(3) a i{background-color:#7460ee!important}
+
+
+/*Border Color*/
+
+.border_607d8b,#sidebar-wrapper .collapse > ul > li > a .caret{border-color:#607d8b}
+
+#sidebar-wrapper .collapse > ul > li.open > a .caret,#sidebar-wrapper .collapse > ul > li > a:hover .caret{border-color:#fff}
+
+
+.tiles .tile,div.header-lined,.home-kb-search > .form-control,.panel-sidebar,#order-standard_cart .products .product,.domain-checker-bg,.tld-filters,.featured-tld,.panel,.home-shortcuts li a,.announcement-single,.logincontainer,.logincontainer .header-lined h1,.default-box,.product-status,.hostiko-product-detail,.dataTables_wrapper .listtable,.domain-pricing-custom{border-color:#d7dfe3!important}
+
+
+.logincontainer .form-control,.logincontainer.with-social .login-form,
+.table>tbody>tr>td,.table>tbody>tr>th,.table>tfoot>tr>td,.table>tfoot>tr>th,.table>thead>tr>td,.table>thead>tr>th,#order-standard_cart .view-cart-items .item:nth-child(even),
+.home-shortcuts li a,.list-group-item
+{border:#e5e5e5!important}
+
+.logincontainer .btn.btn-default{border-color:#0b2c35 !important}
+.logincontainer .btn.btn-default:hover{background-color:transparent!important;}
+
+.client-home-panels .btn.bg-color-red,.client-home-panels .btn.bg-color-red:focus,.client-home-panels .btn.bg-color-red:active,.btn-warning,.status.status-unpaid,.status.status-closed,#order-standard_cart .view-cart-items,#order-standard_cart .btn-remove-from-cart{border-color: #fc4b6c !important}
+
+.client-home-panels .btn,.btn.btn-success,.btn.btn-success:hover,.btn.btn-success:focus,.btn.btn-success:active,.dataTables_wrapper table.table-list thead th,.status,.spotlight-tld .btn:not(.domain-contact-support){border-color:#0b2c35 !important}
+
+.btn-primary,.btn-info,.btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-info:hover,.btn-info:focus,.btn-info:active,.panel-sidebar a.list-group-item.active,.panel-sidebar a.list-group-item.active:focus,.panel-default>.panel-heading,#order-standard_cart .order-summary,#order-standard_cart .products .product .btn-success,#order-standard_cart .products .product .btn-success:hover,.pagination>.active>a,.pagination>.active>a:focus,.pagination>.active>a:hover,.pagination>.active>span,.pagination>.active>span:focus,.pagination>.active>span:hover,.status.status-customer-reply{border-color:#1699e5 !important}
+
+.logincontainer.with-social div.checkbox input[type=checkbox],.view-cart-tabs .btn.btn-block,.suggested-domains .btn:not(.domain-contact-support){border-color:#3598db!important}
+
+.dataTables_wrapper table.table-list thead th:nth-child(even){border:#048067}
+
+.status.status-pending{border-color:#fc4b6c !important}
+
+.suggested-domains .panel-heading{border-color:#151f3a!important}
+
+@media screen and (max-width: 1199px) {
+    .header_content_right{background:#0b2c35}
+    .navbar-default .navbar-header{background:#1699e5}
+}
+
+.client-home-panels .btn.bg-color-red:hover, .client-home-panels .btn.bg-color-red:focus, .client-home-panels .btn.bg-color-red:active, .client-home-panels .btn.bg-color-red:hover i, .client-home-panels .btn.bg-color-red:focus i, .client-home-panels .btn.bg-color-red:active i,
+.client-home-panels .btn.bg-color-blue:hover,.client-home-panels .btn:hover i,
+.client-home-panels .bg-color-asbestos:hover,
+.bg-color-gold:hover
+{color:#ffffff!important;border-color:#0b2c35 !important;background-color:#0b2c35!important;}
+.client-home-panels .btn.bg-color-gold:hover{color:#ffffff!important;}
+.client-home-panels .btn.bg-color-red{border-color:#0b2c35!important;}
+
+
+/*Whmcs Slider color*/
+
+.range_slider4_input .irs-single,
+.range_slider4_input .irs--flat .irs-bar,
+.slider_container_outer4 .btn-default
+{background-color:#1699e5 !important;}
+
+.range_slider4_input .irs--flat .irs-handle{border:solid 3px #1699e5!important;}
+
+.slider_container_outer4 .price-box-section{background-color:#ffffff!important;}
+#slider_container_outer4.slider_container_outer4 .btn-default:hover{background-color:#0b2c35!important;}
+
+#slider_container_outer4 .range_slider4_input .irs-single:before{border-top-color:#1699e5!important;}
+.range_slider4_input .irs--flat .irs-line{border-color:#d7dfe3!important;}
+.range_slider4_input .irs-grid-text,
+.slider_container_outer4 ul li,
+.slider_container_outer4 .price-setupfee .price_val,
+.slider_container_outer4 .price-box-section .smallbox .value_text
+{color:#333;}
+
+.slider_container_outer4 .smallbox .price_val
+{color:#1699e5!important;}
+
+.range_slider4_input .irs-grid-text:hover{color:#1699e5!important;}
+
+.slider_container_outer4 .btn-default{border-color:#1699e5!important;}
+.slider_container_outer4 .btn-default:hover{border-color:#0b2c35!important;}
+.slider_container_outer4 ul li{border-color:#0b2c35}
+.slider_container_outer4 .price-box-section{border-color:#1699e5!important;}
+
+.slider_container_outer4 .price-box-section .smallbox{border-color:#1699e5!important;}
+
+

@@ -1,0 +1,29 @@
+/*----------------------*/ 
+/*      VARIABLES       */ 
+/*----------------------*/
+
+$default-color1: #1f2532;
+$default-color2: #ffe13e;
+
+
+/*----------------------*/ 
+/*        MIXINS        */ 
+/*----------------------*/
+
+@mixin transition($x) {
+	-webkit-transition: $x;
+	-moz-transition: $x;
+	-ms-transition: $x;
+	-o-transition: $x;
+	transition: $x;	
+}
+
+
+@mixin transform($x, $y, $z) {
+	-webkit-transform: translate3d($x, $y, $z);
+	-moz-transform: translate3d($x, $y, $z);
+	-ms-transform: translate3d($x, $y, $z);
+	-o-transform: translate3d($x, $y, $z);
+	transform: translate3d($x, $y, $z);	
+}
+

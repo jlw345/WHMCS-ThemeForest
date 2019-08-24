@@ -1,0 +1,269 @@
+body {
+	font-family: Arial,	sans-serif;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+/* Links */
+a {
+	color: #00aeef;
+}
+
+a:hover {
+	color: #009bd5;
+}
+
+a:focus {
+	color: #009bd5;
+}
+
+p {
+	color: #474747;
+	line-height: 1.5em;
+}
+
+/* Header */
+#header {
+	position: fixed;
+	width: 100%;
+	background-color: #fff;
+	z-index: 999;
+	-webkit-box-shadow: 0 0 7px #000;
+	-moz-box-shadow: 0 0 7px #000;
+	box-shadow: 0 0 7px #000;
+}
+
+/* Promo */
+#promo {
+	padding: 20px 10px;
+	overflow: hidden;
+}
+
+#promo .promo-text h1 {
+	padding: 0;
+	margin: 0;
+	font-size: 26px;
+	line-height: 46px;
+}
+
+#promo .promo-button {
+	text-align: right;
+}
+
+#promo .promo-button a {
+  border: none;
+  color: #fff;
+  padding: 0 20px;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, .3);
+  cursor: pointer;
+  font-size: 15px;
+  height: 46px;
+  line-height: 46px;
+  text-decoration: none;
+  background-color: #00aeef; 
+}
+
+#promo .promo-button a:hover {
+	opacity: 0.7;
+	filter: alpha(70);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+
+/* Navigation */
+.selectnav {
+	display: none;
+	cursor: pointer;
+	width: 100%;
+	height: 37px;
+	float: left;
+	font-size: 14px;
+	margin: 0;
+	padding: 8px;
+	outline: none;
+}
+
+#navigation {
+	background: #303030;
+	display: block;
+	width: 100%;
+	float: left;
+	max-height: 52px;
+	margin: 0;
+}
+
+#navigation ul,
+#navigation li {
+	list-style: none;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li {
+	float: left;
+	position: relative;
+}
+
+#navigation ul li a {
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: 700;
+	background: url(../images/navigation-divider.png) no-repeat right 50%;
+	padding: 17px 25px;
+}
+
+#navigation ul li a:hover {
+	background: #00aeef;
+	color: #fff;
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
+}
+
+.current {
+	background: #00aeef !important;
+	color: #fff !important;
+}
+
+#navigation ul ul {
+	position: absolute;
+	display: none;
+	top: 49px;
+	left: 0;
+	background: #303030;
+	z-index: 999;
+}
+
+#navigation ul ul li a {
+	color: #aaa;
+	display: block;
+	width: 160px;
+	font-family: Arial,	sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	border-bottom: 1px solid #404040;
+	background: 0;
+	margin: 0;
+	padding: 9px 18px;
+}
+
+#navigation ul ul ul {
+	position: absolute;
+	top: 0;
+	left: 100%;
+	z-index: 999;
+}
+
+#navigation ul ul ul li a {
+	border-bottom: 1px solid #404040 !important;
+	border-top: 1px solid transparent;
+	background: 0;
+}
+
+#navigation ul ul li:last-child a,
+#navigation ul ul li:last-child a:hover {
+	border-bottom: 1px solid transparent;
+}
+
+#navigation ul ul ul li:last-child a {
+	border-bottom: 1px solid transparent !important;
+}
+
+#navigation ul li:hover > ul {
+	opacity: 1;
+	position: absolute;
+	top: 99%;
+	left: 0;
+}
+
+#navigation ul ul li:hover > ul {
+	position: absolute;
+	top: 0;
+	left: 100%;
+	opacity: 1;
+	z-index: 497;
+}
+
+@media only screen and (max-width: 767px) {
+	#navigation {
+		float: none;
+	}
+
+	#navigation #nav {
+		display: none;
+	}
+
+	.selectnav {
+		display: block;
+	}
+
+	#promo .promo-text {
+		margin-bottom: 15px;
+		text-align: center;
+	}
+
+	#promo .promo-button {
+		text-align: center;
+	}
+}
+
+/* Content */
+#content {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: auto;
+	bottom: 46px;
+}
+
+#loading {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	margin-left: -24px;
+	margin-top: -24px;
+	top: 50%;
+	left: 50%;
+	display: none;
+}
+
+#window_frame {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border: 0;
+	outline: 0;
+	display: none;
+}
+
+/* Footer */
+#footer {
+	position: fixed;
+	padding: 15px 10px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #303030;
+	color: #fff;
+	z-index: 999;
+	-webkit-box-shadow: 0 0 7px #000;
+	-moz-box-shadow: 0 0 7px #000;
+	box-shadow: 0 0 7px #000;
+}
+
+#footer h5 {
+	margin: 0;
+	padding: 0;
+}
+
+#footer .copyright {
+	font-size: 13px;
+	text-align: right;
+}

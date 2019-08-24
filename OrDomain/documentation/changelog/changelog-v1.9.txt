@@ -1,0 +1,140 @@
+===============================
+28 November, 2017 - Version 1.9
+===============================
+
+-----------------------------------------------------------------------
+Backup your theme/style folder and files before applying these updates.
+-----------------------------------------------------------------------
+
+[+] Added WooCommerce Support
+[+] Added More Flat Content Section
+[+] Added Slider Loop Active Option
+[+] Added WordPress 4.9 Support
+[+] Added PHP 7.1x Support
+[*] Improved Demo Importer
+[*] Fixed Mailchimp Error Issue
+[*] Fixed CMB2 Update Error Issue
+
+[+] WHMCS template updated to be compatible with latest "WHMCS Version 7.4.1"
+----------------------------------------------------------------------------
+
+	*. Simply Add The Following Files:
+	----------------------------------
+		-> css/index.php
+		-> error/index.php
+		-> fonts/index.php
+		-> img/flags.png
+		-> img/flags@2x.png
+		-> img/index.php
+		-> includes/index.php
+		-> js/index.php
+		-> oauth/index.php
+		-> store/index.php
+		-> index.php
+
+	*. Simply Replace The Following Files:
+	--------------------------------------
+		-> css/all.css
+		-> css/all.min.css
+		-> css/help.md
+		-> css/main-color-1.css
+		-> css/main-color-2.css
+		-> css/main-color-3.css
+		-> css/main-color-4.css
+		-> css/main-color-5.css
+		-> css/main-color-6.css
+		-> css/main-color-7.css
+		-> css/main-color-8.css
+		-> css/main-color-9.css
+		-> css/main-color-10.css
+		-> css/responsive-style.css
+		-> css/style_ordomain.css
+		-> css/styles.css
+		-> js/main.js
+		-> js/scripts.js
+		-> js/scripts.min.js
+		-> store/spamexperts/index.tpl
+		-> store/spamexperts/master.js
+		-> store/weebly/upgrade.tpl
+		-> creditcard.tpl
+		-> knowledgebase.tpl
+
+	*. Simply Replace The Following Codes:
+	--------------------------------------
+		-> header.tpl
+			=> Deleted:
+			-----------
+			Line 14: <body>
+			
+			=> Added:
+			---------
+			Line 14: <body data-phone-cc-input="{$phoneNumberInputStyle}">
+		
+		-> header.tpl
+			=> Deleted:
+			-----------
+			Line 235: <span class="input-group-btn">
+			Line 236:     {if $registerdomainenabled}
+			Line 237:         <input type="submit" class="btn btn-warning" value="{$LANG.search}" />
+			Line 238:     {/if}
+			Line 239:     {if $transferdomainenabled}
+			Line 240:         <input type="submit" name="transfer" class="btn btn-info" value="{$LANG.domainstransfer}" />
+			Line 241:     {/if}
+			Line 242: </span>
+			
+			=> Added:
+			---------
+			Line 235: <span class="input-group-btn">
+			Line 236:     {if $registerdomainenabled}
+			Line 237:         <input type="submit" class="btn search" value="{$LANG.search}" />
+			Line 238:     {/if}
+			Line 239:     {if $transferdomainenabled}
+			Line 240:         <input type="submit" name="transfer" class="btn transfer" value="{$LANG.domainstransfer}" />
+			Line 241:     {/if}
+			Line 242: </span>
+		
+		-> header.tpl
+			=> Deleted:
+			-----------
+			Line 307: <section id="main-body">
+			Line 308:     <div class="container{if $skipMainBodyContainer}-fluid without-padding{/if}">
+			Line 309:         <div class="row">
+			Line 310:             {if !$inShoppingCart && ($primarySidebar->hasChildren() || $secondarySidebar->hasChildren())}
+			Line 311:                 {if $primarySidebar->hasChildren() && !$skipMainBodyContainer}
+			Line 312:                     <div class="col-md-9 pull-md-right">
+			Line 313:                         {include file="$template/includes/pageheader.tpl" title=$displayTitle desc=$tagline showbreadcrumb=true}
+			Line 314:                     </div>
+			Line 315:                 {/if}
+			Line 316:                 <div class="col-md-3 pull-md-left sidebar">
+			Line 317:                     {include file="$template/includes/sidebar.tpl" sidebar=$primarySidebar}
+			Line 318:                 </div>
+			Line 319:             {/if}
+			Line 320:             <!-- Container for main page display content -->
+			Line 321:             <div class="{if !$inShoppingCart && ($primarySidebar->hasChildren() || $secondarySidebar->hasChildren())}col-md-9 pull-md-right{else}col-xs-12{/if} main-content">
+			Line 322:                 {if !$primarySidebar->hasChildren() && !$showingLoginPage && !$inShoppingCart && $templatefile != 'homepage' && !$skipMainBodyContainer}
+			Line 323:                     {include file="$template/includes/pageheader.tpl" title=$displayTitle desc=$tagline showbreadcrumb=true}
+			Line 324:                 {/if}
+			Line 325: 
+			
+			=> Added:
+			---------
+			Line 307: <section id="main-body">
+			Line 308:     <div class="container{if $skipMainBodyContainer}-fluid without-padding{/if}">
+			Line 309:         <div class="row">
+			Line 310: 
+			Line 311:         {if !$inShoppingCart && ($primarySidebar->hasChildren() || $secondarySidebar->hasChildren())}
+			Line 312:             {if $primarySidebar->hasChildren() && !$skipMainBodyContainer}
+			Line 313:                 <div class="col-md-9 pull-md-right">
+			Line 314:                     {include file="$template/includes/pageheader.tpl" title=$displayTitle desc=$tagline showbreadcrumb=true}
+			Line 315:                 </div>
+			Line 316:             {/if}
+			Line 317:             <div class="col-md-3 pull-md-left sidebar">
+			Line 318:                 {include file="$template/includes/sidebar.tpl" sidebar=$primarySidebar}
+			Line 319:             </div>
+			Line 320:         {/if}
+			Line 321:         <!-- Container for main page display content -->
+			Line 322:         <div class="{if !$inShoppingCart && ($primarySidebar->hasChildren() || $secondarySidebar->hasChildren())}col-md-9 pull-md-right{else}col-xs-12{/if} main-content">
+			Line 323:             {if !$primarySidebar->hasChildren() && !$showingLoginPage && !$inShoppingCart && $templatefile != 'homepage' && !$skipMainBodyContainer}
+			Line 324:                 {include file="$template/includes/pageheader.tpl" title=$displayTitle desc=$tagline showbreadcrumb=true}
+			Line 325:             {/if}
+			Line 326: 

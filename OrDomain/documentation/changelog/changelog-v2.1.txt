@@ -1,0 +1,79 @@
+============================
+05 April, 2018 - Version 2.1
+============================
+
+-------------------------------------------------------------------------------------------
+Backup your theme/style folder and files before applying these updates.
+-------------------------------------------------------------------------------------------
+The best way is to use a compare tool, like: https://sourceforge.net/projects/kdiff3/files/
+and use it to compare the 'folders' (the version you're using with the new version)
+-------------------------------------------------------------------------------------------
+Updating HTML Templates Requires Manual Work.
+-------------------------------------------------------------------------------------------
+
+
+*. WHMCS template updated to be compatible with latest "WHMCS Version 7.5.0":
+-----------------------------------------------------------------------------
+
+	*. New Files Added:
+	-------------------
+		-> OrDomainCV1/store/login/sitelock.tpl
+		-> OrDomainCV1/store/ssl/competitive-upgrade.tpl
+		-> OrDomainCV1/store/sitelock/index.tpl
+		-> OrDomainCV1/domain-pricing.tpl
+		-> OrDomainCV1/subscription-manage.tpl
+		-> OrDomainCV1/upgrade-configure.tpl
+	
+	*. Files Affected:
+	------------------
+		-> OrDomainCV1/css/all.css
+		-> OrDomainCV1/css/all.min.css
+		-> OrDomainCV1/css/help.md
+		-> OrDomainCV1/css/styles.css
+		-> OrDomainCV1/includes/tablelist.tpl
+		-> OrDomainCV1/js/scripts.js
+		-> OrDomainCV1/js/scripts.min.js
+		-> OrDomainCV1/js/whmcs.js
+		-> OrDomainCV1/store/css/style.css
+		-> OrDomainCV1/store/login/spamexperts.tpl
+		-> OrDomainCV1/store/login/weebly.tpl
+		-> OrDomainCV1/store/promos/cart.tpl
+		-> OrDomainCV1/store/promos/slimupsell.tpl
+		-> OrDomainCV1/store/promos/upsell.tpl
+		-> OrDomainCV1/store/spamexperts/index.tpl
+		-> OrDomainCV1/store/spamexperts/master.js
+		-> OrDomainCV1/store/ssl/shared/certificate-pricing.tpl
+		-> OrDomainCV1/store/ssl/shared/currency-chooser.tpl
+		-> OrDomainCV1/store/ssl/shared/features.tpl
+		-> OrDomainCV1/store/ssl/shared/logos.tpl
+		-> OrDomainCV1/store/ssl/shared/nav.tpl
+		-> OrDomainCV1/store/ssl/dv.tpl
+		-> OrDomainCV1/store/ssl/ev.tpl
+		-> OrDomainCV1/store/ssl/index.tpl
+		-> OrDomainCV1/store/ssl/ov.tpl
+		-> OrDomainCV1/store/ssl/wildcard.tpl
+		-> OrDomainCV1/store/weebly/index.tpl
+		-> OrDomainCV1/store/weebly/master.js
+		-> OrDomainCV1/store/order.tpl
+		-> OrDomainCV1/announcements.tpl
+		-> OrDomainCV1/clientareadetails.tpl
+		-> OrDomainCV1/clientareadomaindetails.tpl
+		-> OrDomainCV1/clientareadomains.tpl
+		-> OrDomainCV1/clientregister.tpl
+		-> OrDomainCV1/homepage.tpl
+		-> OrDomainCV1/knowledgebase.tpl
+		-> OrDomainCV1/knowledgebasearticle.tpl
+		-> OrDomainCV1/knowledgebasecat.tpl
+		-> OrDomainCV1/viewannouncement.tpl
+	
+	*. File Changes:
+	--------------------------
+		-> OrDomainCV1/includes/head.tpl
+			=> Deleted:
+			-----------
+			Line 36: saving = '{lang key="markdown.saving"}';
+			
+			=> Added:
+			---------
+			Line 36: saving = '{lang key="markdown.saving"}',
+			Line 37: whmcsBaseUrl = "{\WHMCS\Utility\Environment\WebHelper::getBaseUrl()}";

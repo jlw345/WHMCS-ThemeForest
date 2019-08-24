@@ -1,0 +1,11 @@
+2017 March 09 – Version 1.6
+
+// # List of updates
+// ------------------------------
+
+[*] Fixed Header Overlay problem
+[*] Added h1 tag in header and slider for SEO purpose
+[*] Added column change option in hosting pricing table
+[*] Added new section for custom content
+[*] Added 3rd label menu
+[*] Fixed some bug

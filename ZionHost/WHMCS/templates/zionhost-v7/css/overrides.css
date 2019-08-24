@@ -1,0 +1,564 @@
+/**
+ * WHMCS Bootstrap Override Sheet
+ *
+ * These styles override Bootstrap's defaults.
+ *
+ * @project   WHMCS
+ * @cssdoc    version 1.0-pre
+ * @package   WHMCS
+ * @author    WHMCS Limited <development@whmcs.com>
+ * @copyright Copyright (c) WHMCS Limited 2005-2016
+ * @license   http://www.whmcs.com/license/
+ * @link      http://www.whmcs.com/
+*/
+
+body,
+input,
+button,
+select,
+textarea {
+  font-family: "Open Sans", Verdana, Tahoma, serif;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #333333;
+}
+body{
+	color: #454545 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+	margin-bottom: 20px !important;
+}
+
+a, a:hover, a:active, a:focus {
+	outline: 0 !important;
+}
+
+.navbar-default.navbar-main {
+    margin-bottom: 0;
+    background-color: #222222;
+    border: 0;
+    min-height: 38px;
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.navbar-main .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-main .navbar-nav > li > a {
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.navbar-main .navbar-nav > li > a:hover,
+.navbar-main .navbar-nav > li > a:focus,
+.navbar-main .navbar-nav > .active > a,
+.navbar-main .navbar-nav > .active > a:hover,
+.navbar-main .navbar-nav > .active > a:focus,
+.navbar-main .navbar-nav > .open > a,
+.navbar-main .navbar-nav > .open > a:hover,
+.navbar-main .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+ul.nav > li > a:hover{
+	color: #fff;
+}
+
+#main-menu .navbar-nav {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#main-menu .navbar-default {
+    margin-right: 0;
+}
+
+@media (max-width: 768px) {
+    .navbar-main .navbar-nav .open .dropdown-menu > li > a {
+        color: #ddd;
+    }
+    .navbar-main .navbar-nav .open .dropdown-menu > li > a:hover {
+        color: #fff;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+
+.panel {
+  font-size: 0.9em;
+}
+
+.list-group {
+  font-size: 0.9em;
+}
+
+a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
+    background-color: #006687;
+}
+
+.pagination {
+    font-size: 0.8em;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    color: white;
+    background-color: #006687;
+    border-color: #006687;
+}
+
+.navbar-main .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    text-decoration: none;
+    color: #fff;
+    background-color: #006687;
+}
+
+.label {
+    border-radius: 0;
+}
+
+input[type='file'].form-control {
+    height: inherit;
+    margin-bottom: 5px;
+}
+
+.list-group-item {
+    padding: 7px 15px;
+}
+.panel-body {
+    padding: 10px 15px !important;
+}
+
+/* 
+ * We use a larger font-size than the bootstrap default, which requires an increase 
+ * in the top offset to maintain correct alignment in form control feedback. 
+ */
+.has-feedback label ~ .form-control-feedback {
+    top: 27px !important;
+}
+
+.list-group-item > i.fa.fa-circle-o {
+    color: #808080;
+}
+
+/*Css created by Fluent-Themes*/
+.navbar-right:hover .dropdown-menu {
+	display: block !important;
+}
+.nav-divider{
+	display: none !important;
+}
+#bs-example-navbar-collapse-1, #bs-example-navbar-collapse-1 .navbar-nav {
+    float: left;
+}
+.navbar-default{
+	background-color: transparent;
+}
+#languageChooser{
+	display: none;
+}
+#bs-example-navbar-collapse-1 {
+    width: auto !important;
+}
+.yamm-content{
+	border-color: #fff;
+}
+@media (max-width: 991px) {
+.nav.navbar-nav{
+	background-color: #1E1E1E;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.nav.navbar-nav.navbar-right{
+	margin-top: 0;
+}
+.container > .navbar-header, .container > #bs-example-navbar-collapse-1{
+	margin-left: 0 !important;
+}
+}
+.home-shortcuts {
+    background: #119EE7 none repeat scroll 0 0;
+    padding-top: 10px;
+}
+section#main-body {
+    margin-top: 70px !important;
+}
+section#footer {
+    display: none;
+}
+footer .footer{
+	margin-top: 0 !important;
+}
+.newgroup input[type="text"] {
+    border-color: #d9d9d9;
+    border-style: solid;
+    border-width: 1px 0 1px 1px;
+    color: #161616;
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+    height: 40px;
+    line-height: 39px;
+    padding: 0 7px;
+    width: 100%;
+}
+.newgroup{
+	margin-bottom: 20px;
+}
+.newgroup-btn .btn {
+	padding: 9px 20px !important;
+}
+div.header-lined .breadcrumb {
+    margin-top: -20px !important;
+}
+h2{
+	font-size: 22px !important;
+	font-weight: 700 !important;
+	margin-bottom: 30px !important;
+}
+.header-lined h1{
+	font-size: 24px !important;
+	font-weight: 700 !important;
+	text-transform: none !important;
+}
+h1 small{
+	color: #058 !important;
+}
+ol.breadcrumb li a{
+	color: #119ee7 !important;
+}
+ol.breadcrumb li{
+	font-size: 11px !important;
+}
+#order-comparison .stepscontainer, #order-comparison .cartcontainer {
+	width: 100% !important;
+}
+#order-comparison h2 {
+    margin: 0 0 15px;
+}
+.checkoutbuttonsleft .cartbutton::after, .checkoutbuttonsleft .cartbutton:hover {
+    background-color: #161616;
+}
+.checkoutbuttonsleft .cartbutton {
+    border: 1px solid #dedede;
+    border-radius: 0;
+    color: #222;
+    padding: 13px 20px;
+}
+.checkoutbuttonsleft .cartbutton {
+    background-color: #fff;
+	font-family: Open Sans,sans-serif;
+    font-size: 14px;
+	text-transform: uppercase;
+}
+.checkoutbuttonsleft .cartbutton:hover {
+    border-color: #161616;
+	color: #fff;
+}
+.cartbutton::after {
+    content: "";
+    height: 100%;
+    left: 50%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    transition: all 0.3s ease 0s;
+    width: 0;
+    z-index: -1;
+}
+#order-comparison .promo input {
+    font-size: 13px;
+}
+#order-comparison .promo input[type="submit"] {
+    padding: 1px 10px;
+}
+.promo{
+	margin-top: 10px;
+}
+#signupfrm table input, #domaincontactfields table input{
+	margin-bottom: 15px;
+	width: 80% !important;
+}
+#signupfrm table select, #domaincontactfields table select{
+	margin-bottom: 15px;
+}
+.select-inline {
+    width: auto !important;
+}
+.viewcartcol2 textarea{
+	width: 99% !important;
+	margin-top: 5px;
+}
+.viewcartcol2 .cartbutton::after, .viewcartcol2 .cartbutton:hover {
+    background-color: #161616;
+}
+.viewcartcol2 .cartbutton {
+    border: 1px solid #dedede;
+    border-radius: 0;
+    color: #222;
+    padding: 13px 20px;
+}
+.viewcartcol2 .cartbutton {
+    background-color: #fff;
+	font-family: Open Sans,sans-serif;
+    font-size: 14px;
+	text-transform: uppercase;
+}
+.viewcartcol2 .cartbutton:hover {
+    border-color: #161616;
+	color: #fff;
+}
+@media (max-width: 767px) {
+#order-comparison .viewcartcol1, #order-comparison .viewcartcol2 {
+    float: none !important;
+    width: 100% !important;
+	margin-top: 30px !important
+}
+section#home-banner h2 {
+    font-size: 20px;
+    line-height: 20px;
+}
+}
+section#home-banner {
+    padding: 60px 0 70px !important;
+}
+.domain-checker-container {
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #010101, #010101) repeat scroll 0 0 !important;
+}
+.panel-group {
+    width: 100% !important;
+}
+#order-comparison .domainreginput select, .domainregperiod select {
+    padding: 4.5px !important;
+}
+section#home-banner h2 {
+    font-size: 45px !important;
+    font-weight: 300 !important;
+    line-height: 50px;
+    margin: 0 0 25px !important;
+	text-transform: none;
+	color: #fff;
+}
+.btn-warning, .btn-info{
+	text-transform: none !important;
+}
+.domain-checker-result-headline{
+	font-size: 14px !important;
+}
+div.domainresults table tr td {
+    line-height: 40px;
+    padding: 5px 30px;
+	color: #33333E;
+	font-size: 14px;
+}
+.btn{
+	text-transform: none !important;
+}
+#stepResults .label {
+    font-size: 14px !important;
+}
+.totalrecurring{
+	margin-top: 10px !important;
+}
+.announcement-single .label-default{
+	display: none !important;
+}
+.announcement-single h2{
+	text-align: center !important;
+	line-height: 32px !important;
+	font-size: 20px !important;
+	font-weight: 700 !important;
+	margin-bottom: -20px !important;
+	text-transform: none !important;
+}
+.announcement-single h2 a{
+	color: #87c924 !important;
+	text-decoration: none !important;
+}
+.announcement-single h3{
+	text-transform: none !important;
+}
+.kbcategories{
+	margin-top: 0 !important;
+}
+.kbcategories a{
+	font-size: 14px !important;
+	color: #119EE7 !important;
+}
+.kbcategories a .glyphicon{
+	color: #119EE7 !important;
+}
+.badge {
+    background-color: #119EE7 !important;
+}
+.kbcategories p{
+	font-size: 11px !important;
+	margin-bottom: 20px !important;
+}
+.kbarticles a {
+    font-size: 15px !important;
+    color: #119EE7 !important;
+}
+.kbarticles a .glyphicon {
+    color: #119EE7 !important;
+}
+.kbarticles p{
+	font-size: 12px !important;
+}
+blockquote p{
+    font-style: italic !important;
+	color: #454545 !important;
+	font-family: "Open Sans" !important;
+	font-size: 14px !important;
+}
+blockquote p{
+	color: #454545 !important;
+	font-family: "Open Sans" !important;
+	font-size: 14px !important;
+}
+.kbcategories{
+	margin-bottom: 30px;
+}
+.admin-masquerade-notice{
+	display: none !important;
+}
+h2.pagetitle {
+    font-size: 60px !important;
+    line-height: normal !important;
+    margin: 0 0 20px !important;
+    text-align: center !important;
+	font-weight: 400 !important;
+}
+.sidebar{
+	margin-top: 15px !important;
+}
+div.domainresults div:not(.btn-group){
+	background-color: #222222 !important;
+    border-radius: 0 !important;
+	padding: 14px 25px !important;
+}
+div.domainresults div.domain-checkout-area {
+    padding: 6px !important;
+}
+.breadcrumb {
+    background-color: #222222 !important;
+    border-radius: 0 !important;
+}
+.poweredby_none{
+	display: none;
+}
+.logincontainer {
+    margin: 40px auto !important;
+}
+.input-group.margin-10 .form-control, .popover-content .form-control, #inputPromoCode{
+	height: 38px !important;
+}
+.dataTables_wrapper .dataTables_filter label .form-control{
+	display: none;
+}
+section#main-body {
+    min-height: 150px !important;
+}
+.main-content {
+    margin-bottom: 0 !important;
+}
+#tabOverview .row h4{
+	margin-bottom: 5px !important;
+    margin-top: 15px !important;
+}
+#promoInput .form-control{
+height: 38px !important;
+}
+#order-standard_cart .sidebar{
+margin-top: -25px !important;
+margin-left: -30px !important;
+}
+#order-standard_cart .view-cart-items-header, #order-standard_cart #scrollingPanelContainer{
+margin-top: 15px !important;
+}
+#order-standard_cart .view-cart-gateway-checkout {
+    margin: 10px 0 20px !important;
+}
+#inputDomainContact{
+	margin-top: 10px !important;
+}
+#order-modern h1{
+	font-size: 42px !important;
+}
+#main-menu .nav a{
+	color: #919191;
+}
+#main-menu .nav a:hover{
+	color: #fff;
+}
+#order-modern .domain-checker-fieldcontainer {
+    background-color: transparent !important;
+}
+#order-modern .domain-checker-fieldcontainer input, #order-modern .domain-checker-fieldcontainer select, #order-modern .domain-checker-fieldcontainer button {
+    border-radius: 0 !important;
+}
+#order-modern .choosecat .dropdown-menu {
+    min-width: 220px !important;
+}
+@media (max-width: 500px) {
+#order-modern .choosecat{
+	display: none !important;
+}
+}
+#order-modern .signupfields{
+padding: 30px !important;
+}
+@media (min-width: 998px) {
+.pull-md-right {
+    float: right !important;
+}
+.col-md-9.pull-md-right.main-content .alert{
+padding: 50px;
+}
+}

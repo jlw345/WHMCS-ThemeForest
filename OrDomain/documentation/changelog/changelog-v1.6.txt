@@ -1,0 +1,185 @@
+==========================
+29 May, 2017 - Version 1.6
+==========================
+
+-----------------------------------------------------------------------
+Backup your theme/style folder and files before applying these updates.
+-----------------------------------------------------------------------
+
+#. WHMCS template updated to be compatible with latest "WHMCS Version 7.2"
+
+    #. "Add" the following Files:
+
+        *. managessl.tpl
+
+    #. "Add" the following Folders:
+
+        *. /error
+        *. /store
+
+    #. "Replace" the following Files:
+
+        *. /css/style_ordomain.css
+		
+        *. /css/overrides.css
+        *. /css/styles.css
+
+        *. /includes/navbar.tpl
+        *. /includes/sidebar.tpl
+        *. /includes/tablelist.tpl
+		
+        *. /js/main.js
+        *. /js/scripts.js
+        *. /js/scripts.min.js
+        *. /js/twitter.js
+        *. /js/whmcs.js
+		
+        *. announcements.tpl
+        *. clientareachangepw.tpl
+        *. clientareacontacts.tpl
+        *. clientareaproductdetails.tpl
+        *. downloads.tpl
+        *. downloadscat.tpl
+        *. homepage.tpl
+        *. knowledgebase.tpl
+        *. knowledgebasearticle.tpl
+        *. knowledgebasecat.tpl
+        *. login.tpl
+        *. managessl.tpl
+        *. supportticketslist.tpl
+        *. viewannouncement.tpl
+        *. viewinvoice.tpl
+
+    #. "Change" the following Files:
+
+        *. /OrDomainWHMCS/includes/head.tpl
+		
+			"line 2":
+				"Deleted":
+				<link href="//fonts.googleapis.com/css?family=Open+Sans:400,600|Raleway:400,700|Roboto:100,300,400,500,700,900" rel="stylesheet">
+					
+				"Added":
+				<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600|Raleway:400,700|Roboto:100,300,400,500,700,900" rel="stylesheet">
+		
+        *. /OrDomainWHMCS/header.tpl
+		
+			"line 190":
+				"Deleted":
+				<nav id="nav" class="navbar navbar-default navbar-main">
+				
+				"Added":
+				<nav id="nav" class="navbar navbar-default navbar-main" role="navigation">
+		
+			"line 194":
+				"Deleted":
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				
+				"Added":
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary-nav">
+		
+			"line 203":
+				"Deleted":
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				
+				"Added":
+				<div class="collapse navbar-collapse" id="primary-nav">
+		
+			"line 305":
+				"Deleted":
+				<section id="main-body" class="container">
+				
+				"Added":
+				<section id="main-body">
+					<div class="container{if $skipMainBodyContainer}-fluid without-padding{/if}">
+		
+			"line 309":
+				"Deleted":
+				{if $primarySidebar->hasChildren()}
+				
+				"Added":
+				{if $primarySidebar->hasChildren() && !$skipMainBodyContainer}
+		
+			"line 320":
+				"Deleted":
+				{if !$primarySidebar->hasChildren() && !$showingLoginPage && !$inShoppingCart && $templatefile != 'homepage'}
+				
+				"Added":
+				{if !$primarySidebar->hasChildren() && !$showingLoginPage && !$inShoppingCart && $templatefile != 'homepage' && !$skipMainBodyContainer}
+				
+        *. /OrDomainWHMCS/footer.tpl
+		
+			"line 8":
+				"Deleted":
+					<div class="clearfix"></div>
+				</section>
+				
+				"Added":
+						<div class="clearfix"></div>
+					</div>
+				</section>
+
+        *. /OrDomainBridge/includes/head.tpl
+		
+			"line 2":
+				"Deleted":
+				<link href="//fonts.googleapis.com/css?family=Open+Sans:400,600|Raleway:400,700|Roboto:100,300,400,500,700,900" rel="stylesheet">
+					
+				"Added":
+				<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600|Raleway:400,700|Roboto:100,300,400,500,700,900" rel="stylesheet">
+		
+        *. /OrDomainBridge/header.tpl
+		
+			"line 21":
+				"Deleted":
+				<nav id="nav" class="navbar navbar-default navbar-main">
+				
+				"Added":
+				<nav id="nav" class="navbar navbar-default navbar-main" role="navigation">
+		
+			"line 25":
+				"Deleted":
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				
+				"Added":
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary-nav">
+		
+			"line 34":
+				"Deleted":
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				
+				"Added":
+				<div class="collapse navbar-collapse" id="primary-nav">
+		
+			"line 136":
+				"Deleted":
+				<section id="main-body" class="container">
+				
+				"Added":
+				<section id="main-body">
+					<div class="container{if $skipMainBodyContainer}-fluid without-padding{/if}">
+		
+			"line 140":
+				"Deleted":
+				{if $primarySidebar->hasChildren()}
+				
+				"Added":
+				{if $primarySidebar->hasChildren() && !$skipMainBodyContainer}
+		
+			"line 151":
+				"Deleted":
+				{if !$primarySidebar->hasChildren() && !$showingLoginPage && !$inShoppingCart && $templatefile != 'homepage'}
+				
+				"Added":
+				{if !$primarySidebar->hasChildren() && !$showingLoginPage && !$inShoppingCart && $templatefile != 'homepage' && !$skipMainBodyContainer}
+				
+        *. /OrDomainBridge/footer.tpl
+		
+			"line 8":
+				"Deleted":
+					<div class="clearfix"></div>
+				</section>
+				
+				"Added":
+						<div class="clearfix"></div>
+					</div>
+				</section>

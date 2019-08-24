@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Onehost - Onepage Responsive Hosting Wordpress Theme</title>
+	<style type="text/css" media="screen">
+		#toc {
+			position: fixed;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			width: 300px;
+			padding: 30px 15px;
+			overflow: auto;
+			background: #333;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+		#toc ul {
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+		}
+
+		#toc li {
+			line-height: 1.7;
+		}
+
+		.toc-h1 {
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+
+		.toc-h1 a {
+			color: #fff;
+		}
+
+		.toc-h2 {
+			font-size: 13px;
+			padding-left: 15px;
+		}
+
+		.toc-h3 {
+			font-size: 13px;
+			padding-left: 30px;
+		}
+
+		.toc-active {
+			font-style: italic;
+			font-weight: bold;
+			text-decoration: underline;
+		}
+
+		#content {
+			width: 100%;
+			padding: 0 0 0 330px;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+		.navbar {
+			display: none;
+		}
+
+		#content h1,
+		#content h2,
+		#content h3 {
+			margin: 30px 0;
+		}
+
+		@media (max-width: 768px) {
+			#toc {
+				display: none;
+			}
+			#content {
+				padding: 0 30px;
+			}
+		}
+	</style>
+</head>
+<body>
+
+<xmp theme="simplex" style="display:none;">
+
+
+Introduction
+==========
+
+Welcome! First of all we want to thank you for purchasing our product, Onehost - One Page Responsive Hosting Wordpress Theme.
+
+Onehost is a Modern Multipurpose and OnePage Wordpress Theme. This theme is suited for any type of website, hosting or personal or business use. The Landing Page is designed with modern look and feel while keeping in mind to make it user friendly and eye catching so that people using it can get the best out of their website.
+
+In the following sections we will explain how to set up and use Onehost theme the easiest way possible. If you cannot locate your answer here, sign up for our support forum and our supporters will help you.
+
+
+-----------------------------
+
+
+Files included in package
+=========================
+
+The download package (.zip) that you get from ThemeForest contains the following files and folder:
+
+- `onehost.zip`: main theme file that need to be uploaded to host to install Onehost theme.
+- `onehost-child.zip`: basic child theme of Onehost theme. It is created for people who want to customize code of Onehost theme.
+- `demo-content.xml`: this file contains all sample content which will help you to have a first look of how we use Onehost theme.
+- `theme-options.txt`: theme option backup file. You'll need this to restore the default theme options that setup for demo website.
+- `Whmcs`: this folder contains template of WHMCS.
+- `Documentation`: documetation folder that contains documentation files.
+- `Slider`: this folder contains all demo slider files that exported from our demo.
+- `Plugins`: this folder contains plugins that Onehost theme recommends.
+	- `js_composer.zip`: plugin file for WPBakery Visual Composer
+	- `revslider.zip`: plugin file for Revolution Slider
+	- `ta-team.zip`: plugin file for team member management.
+	- `ta-portfolio.zip`: plugin file for portfolio projects management.
+	- `ta-testimonial.zip`: plugin file for portfolio projects management.
+
+
+------------------------------
+
+Installation
+=========
+
+
+Install theme
+-------------
+
+After you download the package from ThemeForest, unzip it. You'll see a file `onehost.zip`, which is the main file that needed to upload and install.
+
+You can either choose to upload and installl the theme using **WordPress theme install** or use **FTP** function.
+
+**Install theme using WordPress install function**
+
+- Go to `Appearance > Themes` and click **Add New**
+- Select **Upload**
+- Click **Browse** and select the `onehost.zip` file
+- Click **Install Now**
+- When upload and installation progresses are completed, click **Activate**, or go to `Appearance > Themes` and activate **Onehost** theme
+
+**Upload and install using FTP**
+
+If you get any fail when install theme by Wordpress install function, we recommend to use FTP:
+
+- Unzip `onehost.zip`, you'll get a folder `onehost`
+- Use a FTP client like [FileZilla](http://filezilla-project.org/) and upload that folder to `wp-content/themes` folder on your host
+- Go to `Appearance > Themes` and activate **Onehost** theme
+
+
+
+Install plugins
+----------------
+
+After installing Onehost, you'll see a notification in the top of the page that says the theme needs some plugins to function properly.
+
+Onehost theme **requires** following plugins:
+
+- [Meta Box](http://wordpress.org/plugins/meta-box/): plugin for creating meta boxes for posts, pages,... It is free and available on WordPress.org
+- WPBakery Visual Composer: premium plugin for page builder. It is the most popular plugin on Codecanyon.
+
+Onehost theme **recommends** following plugins:
+
+- Revolution Slider: premium plugin for creating sliders.
+- TA Portfolio Management: this plugin is used to manage portfolios.
+- TA Team Management: this plugin is used to manage team members.
+- TA Testimonial: this plugin is used to manage testimonials.
+- [Contact Form 7](https://wordpress.org/plugins/contact-form-7/): plugin for creating contact forms. It is free and available on WordPress.org
+- [WHMCS Bridge](https://wordpress.org/plugins/whmcs-bridge/): this plugin integrates your WHMCS support and billing software into WordPress.
+
+Onehost is working perfectly with these plugins. It automatically adds more styles to them to make the design match the theme.
+
+To install these plugins:
+
+- Click **Begin installing plugins**
+- You'll be redirect to a page where all needed plugins are listed. Just click on **Install** below each plugin's name
+- After installing, if it's required to activate the plugin, just activate
+
+![install plugins](images/install-plugins.png)
+
+
+Import demo content
+-------------------
+
+If you are new to WordPress and have problems with setting up the theme you might want to import the demo content file that comes with the theme. The following actions will import some dummy posts and pages from the live preview:
+
+- Go to `Tools > Import`
+- Select **WordPress** from the list
+- If you haven't installed the **WordPress import plugin**, a popup window will appears and ask you to install it. Just click **Install Now**. When the installation progress is completed, click **Activate Plugin & Run Importer**. If you have installed this plugin, skip to next step.
+- Click **Browse** and select `sample-content.xml` file from the download package
+- Click **Upload file and import**
+- When you are asked to import author, you can create new author or import to existing author. You also should check the checkbox **Download and import file attachments**.
+
+![import](images/import-data.png)
+
+![install plugin importer](images/install-plugin-importer.png)
+
+![select demo content](images/select-import-data.png)
+
+After completing all above steps, go to `Posts`, `Pages`, `Portfolios`, `Team` to see imported data.
+
+
+
+Setup homepage and blog page
+-------------------------------------
+
+After install demo content, you'll see a page 8 Homepage pages, as you see on our demo. You can use one of theme as the homepage of the website. To set it as homepage, please go to `Settings \ Reading`, under **Front page displays**, please chose **A static page (select below)** and select a homepage version (eg: Homepage Slider Dark) for **Front page** and select **Blog** page for **Posts page**.
+
+![setup front page](images/setup-front-page.png)
+
+
+
+Setup Menu
+--------------
+
+Although the theme is working now and it shows menu, but because we haven't created a menu for primary location, the theme will display all pages by default. But displaying pages instead of one page sections is a bad idea, because Onehost is one page theme.
+
+
+
+
+###Edit imported menu (recommend)
+
+When you import demo data, WordPress automatically create a menu for you, named `**One Page Menu**.
+
+- Go to `Appearance > Menus`
+- Select **One Page Menu** and click **Select** button to edit it.
+- Select each menu item to edit, change the URL attribute to correct URL. With menu items for One Page, please input in format: `http://yoursite.com/#section-id`
+- Scroll to bottom of page and check **Primary Menu** for **_Theme location_**
+- Click **Save Menu**
+
+
+###Create New Menu
+
+Following these steps to create a menu:
+
+- Go to `Appearance > Menus`
+- Click the **create a new menu** link to create new menu.
+- For normal menu item: Select items from the left meta boxes and click **Add to Menu**
+- For menu items that you want to link to sections in the One Page: use Link meta box from the left, and input the URL in format: `http://yoursite.com/#section-id`, with `yoursite.com` is the you website's domain, and `#section-id` is the ID of section you wish to link to. (We will talk about how to set up ID for a section bellow).
+- On the right, feel free to drag and drop menu items to organize them
+- When you're done moving menu items, check **Primary Menu** for **Theme locations** at the bottom of the page
+- Click **Save Menu**
+
+![edit menu](images/edit-menu.png)
+
+------------------------------
+
+Setup WHMCS
+-----------
+WHMCS is the leading web hosting automation platform. Handling signups, provisioning, billing and support, WHMCS puts you firmly in control of your business.
+
+1. Download  [WHMCS 6 or WHMCS 7](https://download.whmcs.com/)
+2.  Install  [WHMCS 6 or WHMCS 7](http://docs.whmcs.com/Main_Page)
+3. Download and install [ WHMCS Bridge]  (https://wordpress.org/plugins/whmcs-bridge/) plugin
+4. Go to Settings > WHMCS Bridge > Settings, enter WHMCS URL is a URL of your WHMCS installation. Choose template is six.
+	- ![whmcs6](images/whmcs6.jpg)
+5. Go to Settings > WHMCS Bridge > Help, get the the Bridge Page and go to the bridge page, choose template is WHMCS.
+ - ![whmcs-bridge](images/whmcs-bridge.png) 
+ - ![whmcs-page](images/whmcs-page.png)
+6. If you don't have template six you can go to the theme package > Whmcs folder > six.zip, extract this file and upload it folder whmcs/six to folder templates of WHMCS.
+7. Login into whmcs admin page and go to Setup > General, choose template is Six.
+	- ![whmcs-template](images/whmcs-template.png)
+8. Login into whmcs admin page and go to Setup > Ordering, choose Default Order Form Template is Boxes.
+	- ![whmcs-order](images/whmcs-order.jpg)
+
+
+
+Create Your One Page
+====================
+
+Onehost uses page template and meta box to create onepage page, so the first step is just creating a page using `One Page` template (or you can edit exists page that has been imported via sample content file).
+
+![select-page-template](images/page-template.png)
+
+Onehost theme comes with Visual Composer plugin. This plugin allows you to forget about shortcodes and create most complex layouts within minutes without writing a single line of code!
+
+###Visual Composer Basics
+
+It has very simple and intuitive interface, but before getting started, you may find it useful to get accustomed with its documentation:
+
+[Visual Composer Documentation](https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress?title=Visual_Composer)
+
+In Onehost theme, we also create some new Elements and add some new parameters to exists elements of Visual Composer. It will help you a lot to build your One Page easier. Following we will go through some popular elements of Visual Composer and all of new elements that Onehost theme brings to you.
+
+###Row
+
+This is the most popular you can't live without when using Visual Composer. In Onehost theme, we use it as a section of One Page. So, when you edit a row, there is new parameters you will see beside the defaults:
+
+**_General tab_**:
+
+- **ID**: it is new parameter which is used to set the CSS ID of a section. This ID will be used to link to a menu item, as we wrote in the Menu section about.
+- **Full width content**: select this option will allow you to display all content inside this row in full width.
+
+**_Design options tab_**:
+
+- **Enable Parallax effect**: select it if you want to have parallax background effect on this row, of course you have to set a background for this row before. _NOTE_:  please set the background position as `Theme defaults`.
+- **Overlay**: this option allows to place an additional layer above the row's background.
+- **Particleground Animated**: show a HTML5 canvas animation as background. Just select it and you will have a cool background animation.
+- **Dot Color**: Select an color for dots in particleground. This option works only when **Particleground Animated** is enabled.
+- **Youtube Video Background**: enter an valid Youtube URL for video background. For better performance, this option will not work on mobile.
+
+
+###Column
+
+As Row, column is also the most popular element in Visual Composer, they are always be together. In Onehost theme, we add new tab called "**Animation**" when you edit a column. This tab contains options allow you to set up animation for that column when it appear on screen for the first time. This tab contains following options:
+
+- **Animation**: select an animation for this column. You can learn more about these animation in this link: [http://daneden.github.io/animate.css/](http://daneden.github.io/animate.css/)
+- **Duration**: set animation duration in ms.
+- **Delay**: set delay time to fire animation.
+
+
+###Section Title
+
+This element is used to create the title area for each section. It is used in almost section in our demo. It contains following parameters:
+
+- **Title**: the title content
+- **Text Color**: you can pick any color you want and it will be applied to title text color.
+- **Text Alignment**: select text alignment for this section title.
+- **Style**: select style for section title
+- **Description**: enter a short description for section.
+- **Extra class name**: enter extra class names if you want to apply your own style rule.
+
+###Pricing Table
+
+This element is used to create a single pricing table. So if you want to display multiple tables as our demo, you can create a row and set the layout of that row as 3, 4 or 5 columns, whatever you want, then insert a single pricing table into each column. A single table contains following parameters:
+
+- **Icon**: select icon to display at the top of table.
+- **Title**: enter title of table.
+- **Price**: enter the price of your plan/service. It can be any value, also a text if you want to enter something like "Free", "Contact", ...
+- **Time Duration**: enter the price unit, something like: "/Month", "Per Month", ...
+- **Featured**: select this option if you want to highlight this table
+- **Description**: enter the description for your plan. It usually entered in list format
+- **Button Text**: text of purchase button.
+- **Button URL**: link of purchase button.
+
+
+###Icon Box
+
+This element is used to present a single service or small paragraph with an icon. It contains following options:
+
+- **Icon**: select icon for this box.
+- **Icon Position**: select position to display icon in this box: top, left or right.
+- **Border Circle Icon**: select this option if you want to display icon in a circle.
+- **Background Color**: select background color for icon box.
+- **Title**: enter the box's title.
+- **Link**: enter an URL here if you want the title of this box clickable.
+- **Content**: enter content of this box.
+- **Extra class name**: enter extra class names if you want to apply your own style rule.
+
+
+###Image Box
+
+This element is used to present a single service or small paragraph with an image. It contains following options:
+
+- **Image**: select an image from library or upload a new one.
+- **Image Size**: Enter the name of image size which will be applied to selected image. There are all avaiable sizes:
+	- `tiny` : 80x80
+	- `thumbnail`: 150x150
+	- `medium`: 300x300
+	- `large`: 1024x1024
+	- `blog-thumb`: 670x335
+	- `blog-full-thumb`: 1140x470
+	- `widget-thumb`: 50x50
+- **Image Style**: select style to be applied to image
+- **Image Position**: select position of image.
+- **Title**: enter the box's title.
+- **Link**: enter an URL here if you want the title of this box clickable.
+- **Content**: enter content of this box.
+- **Extra class name**: enter extra class names if you want to apply your own style rule.
+
+
+###Testimonial
+
+This element is used to present a carousel slider of testimonials. It works only when you install and active plugin `TA Testimonials` that included and recommended by Onehost theme. It contains following options:
+
+- **Style**: Select style to display a single testimonial.
+- **Number Of Testimonials**: enter the number of testimonials that you wish to show.
+- **Enable Slider**: select this option if you want to display testimonials as slider.
+- **Single Item**: display only one item.
+- **Slideshow speed**: set the speed of the slideshow cycling (in ms).
+- **Auto Play**: select this option if you want to slider auto play.
+- **Show navigation control**: select this option if you want to show navigation arrows.
+- **Show pagination control**: select this option if you want to show pagination bullets.
+- **Extra class name**: enter extra class names if you want to apply your own style rule.
+
+
+###Onehost Images Carousel
+
+Beside the default Images Carousel of Visual Composer, we create another this element because we see the default element of Visual Composer does not work correctly in mobile. We use this element to show client's logos in our demo. It contains following options:
+
+- **Images**: uploads your images.
+- **Image size**: enter the image size you wish to display images in. There are all avaiable sizes:
+	- `tiny` : 80x80
+	- `thumbnail`: 150x150
+	- `medium`: 300x300
+	- `large`: 1024x1024
+	- `blog-thumb`: 670x335
+	- `blog-full-thumb`: 1140x470
+	- `widget-thumb`: 50x50
+- **Custom links**: enter link for images, each link in a single line.
+- **Custom link target**: select target to open a link.
+- **Slides per view**: set numbers of slides you want to display at the same time.
+- **Slider speed**: duration of animation between slides (in ms).
+- **Slider autoplay**: select this option if you want slider to auto play.
+- **Show navigation control**: select this option if you want to show pagination bullets.
+- **Extra class name**: enter extra class names if you want to apply your own style rule.
+
+
+------------------------------
+
+
+Theme Options
+=============
+
+Onehost theme comes with unique, creative and easy-to-use Theme Options page. You can change all theme options in one place!
+
+![customizer](images/theme-options.png)
+
+
+All options have full description so you can know what you are doing. Just click and save!
+
+
+------------------------------
+
+
+Post Format
+===========
+
+[Post Formats](http://codex.wordpress.org/Post_Formats) is theme feature which is a piece of meta information that can be used by a theme to customize its presentation of a post.
+
+In short, with a theme that supports Post Formats, a blogger can change how each post looks by choosing a Post Format from a radio-button list.
+
+Onehost theme supports the following post formats:
+
+- `gallery` - A gallery of images, which will be displayed in a responsive image slider, powered by Flexslider.
+- `link` - A link to another site.
+- `image` - A single image, which will be shown above post title.
+- `quote` - A quotation.
+- `video` - A single video, which can be any video from Youtube, Video or other video websites. Support URL or embed code. The video will be displayed above post title.
+- `audio` - An audio file, which can be any video from Youtube, Video or other video websites. Support URL or embed code. The video will be displayed using a powerful HTML5 audio player provided by Wordpress as default player.
+
+Using post format in Onehost lets you differentiate post from each other and make the blog page / single page looks more beautiful.
+
+[Go to blog page](http://demo.themealien.com/onehost/blog/) to see how post formats look.
+
+
+
+
+When you edit a post, select a format you want to apply to that post on the **Format** meta box on the right:
+
+![formats](images/post-format-box.png)
+
+When you choose a format, a corresponding meta box will appear **below** the content editor, here's the list of them:
+
+![formats](images/post-formats.png)
+
+All you need to do is just enter **all** information in the fields in these meta boxes. This information will be used to decorate the post. For example: gallery post format will uses uploaded images to show a slider above post title, a video post will display a video player above post title, etc.
+
+
+------------------------------
+
+
+Create And Manage Portfolio
+===========================
+
+Setting up the portfolio is quite easy and it requires only a few steps to set it up. Of course you need to install the "TA Portfolio Management" plugin in this case ( if you have not done it already ). Within the first step we recommend to create the portfolio categories first. This will make sure everything is right there when you need it. But what are portfolio categories? Let's take a look at the following example. Imagine you are a photographer and you have a wide range of images you like to show to the crowd. Inside your portfolio you have landscape and portrait images, than these both would be exactly your categories. Categories are mainly used for filtering your portfolio items later on.
+
+
+Add Portfolio Categories
+------------------------
+
+
+![Portfolio category](images/portfolio-category.png)
+
+In order to add new Portfolio category:
+
+
+**[1]** Go to `Portfolio > Categories`
+
+**[2]** Enter category name and hit `Enter`
+
+
+Add Portfolio Project
+---------------------
+
+
+Now you can start adding your portfolio item. Go to `Portfolio > Add new`. Basically there is not big difference to a regular blog post, all elements like featured image and the WordPress Editor are in the same place.
+
+![Portfolio Add New](images/portfolio-add-new.png)
+
+
+And these portfolio posts are handeled exactly the same way as blog post, with one exception, you need to set a featured image for all kind of post formats. These images are used inside the portfolio overview.
+
+**[1]** Enter portfolio project name here
+
+**[2]** Enter portfolio project description here
+
+**[3]** Enter portfolio project's client here
+
+**[4]** Enter portfolio project URL here
+
+**[5]** Enter portfolio project skills here, separate by commas
+
+**[6]** Select portfolio categories
+
+**[7]** Upload portfolio featured image
+
+
+Create Portfolio Showcase
+-------------------------
+
+Now is the time you show your portfolio to the world. Go to `Portfolio > Showcase` and click to `Add New` button to add new Portfolio showcase, or you can edit exists showcase that has been imported (recommended).
+
+![Portfolio showcase](images/portfolio-showcase.png)
+
+**[1] Showcase Name:** Enter name of Portfolio showcase, it just help you to manage showcases easier.
+
+**[2] Category To Dispaly:** Select categories you wish to get projects from. If no category is selected, we will get all projects from all categories.
+
+**[3] Number Of Portflio:** Enter number of portfolio project you want to display.
+
+**[4] Showcase Layout:** Select layout of showcase. It help you display your portfolio in difference styles. You can choose either Grid, Masonry or Metro layout.
+
+**[5] Spacing:** Enter the space between portfolio projects, in pixel.
+
+**[6] Enable Filter:** Select it if you want to display a filter at top of portfolio showcase.
+
+**[7] Enable Pagination:** If you select this option, a pagination for portfolio showcase will be displayed when the number of portfolio project is large and need to be paginated. It is useful when you want to display portfolio as an archive page.
+
+> **NOTE:** After finish creating or editing your showcase, remember to edit Front Page and select this showcase in `Section Portfolio` to display in the front end.
+
+
+------------------------------
+
+
+
+Create And Manage Team
+=====================
+
+Team are designed to show the various members of your organization or team. Of course you need to install the "TA Team Management" plugin in this case ( if you have not done it already ).
+
+
+Add Team Group (Optional)
+--------------
+
+Team Group was built to help you manage your team easier, it is not displayed in the front end. Adding new group is the same as Blog post category.
+
+
+![Add team group](images/team-add-group.png)
+
+
+**[1]** Go to `Team > Groups`
+
+**[2]** Enter group name and hit `Enter`
+
+
+Add Team Member
+---------------
+
+Now you can start adding your team member. Go to `Team > Add new`. Basically there is not big difference to a regular blog post, all elements like featured image and the WordPress Editor are in the same place.
+
+
+![Add team group](images/team-add-member.png)
+
+**[1]** Enter member name here
+
+**[2]** Enter a description about your team member
+
+**[3]** Enter some of information about your team member
+
+**[4]** Enter member socials link
+
+**[5]** Select team groups
+
+**[6]** Upload avatar image for member
+
+
+Create Team Showcase
+--------------------
+
+Now is the time you show your amazing team to the world. Go to `Team > Showcase` and click to `Add New` button to add new team showcase, or you can edit exists showcase that has been imported (recommended).
+
+![Add team showcase](images/team-add-showcase.png)
+
+**[1] Showcase Name:** Enter name of team showcase, it just help you to manage showcases easier.
+
+**[2] Group:** Select group you wish to get members from. If no group is selected, we will get all member.
+
+**[3] Number Of Member:** Enter number of members want to display.
+
+**[4] Orderby:** Select the order of members. It help you display your members in difference order. You can choose either Defaut, Name, ID or Random.
+
+**[5] Order:** Sort your team member in ascending or descending order.
+
+**[6] Grid:** Select grid to be used to display your team member. It is number of members to be displayed in one row. Eg: if you want to display 6 members, and select grid `Three Columns`, it will display 3 members in 1 row and your show case will have 2 rows.
+
+**[7] Image Style:** Select style of member avatar image. You can choose either Rounded, Square or Default (use style of current theme).
+
+**[8] Alignment:** Select the alignment for displaying a member.
+
+**[9] Display:** Select which information will be displayed for a member. You can chose either:
+
+- **Image Only:** Only show member image. When mouse hover, it will show name, job title and readmore button.
+- **Short Info:** Show member image, name, job title. When mouse hover, it will show social icons.
+- **Medium Info and Social Links:** Like Medium Info but also show socials icons bellow excerpt. Nothing will be show when mouse hover.
+- **Full Info:** Show all information of member. Nothing will be show when mouse hover.
+- **Custom:** You can decide what to be showed by default and when mouse hover.
+
+When you select **Custom**, new options will be display bellow, you can select which information of member will be showed in the front end.
+
+![Add team showcase custom](images/team-add-showcase-adv.png)
+
+During adding or editing team showcase, you can open _help_ tab at top right of page to see more details about options.
+
+> **NOTE:** After finish creating or editing your showcase, remember to edit Front Page and select this showcase in `Section Portfolio` to display in the front end.
+
+
+------------------------------
+
+
+Translation
+=========
+
+###Tell WordPress which language file to use.
+
+If you don’t use WordPress in your native language so far, you have to tell WordPress which language to use to activate the theme translation.
+
+You can do this by editing the wp-config.php file (the file is located in the main directory of your WordPress files) and defining the WPLANG constant. You have to set your language code there, for example fr_FR for French translation.
+
+ust add the line below to your wp-config.php or change it if it already exists:
+
+`define ('WPLANG', 'fr_FR');`
+
+
+###First Method: Using Codestyling Plugin
+
+The easiest way to translate your theme locally is by using the [Codestyling Localization](https://wordpress.org/plugins/codestyling-localization/) plugin. After you have installed and activated the plugin, simply go to `Tools > Localization` (shown in your language) and translate the theme from your WordPress backend following the [plugin instructions](http://www.code-styling.de/english/development/wordpress-plugin-codestyling-localization-en)
+
+###Second Mothod: Using Poedit
+
+Poedit is a common program which you can use to translate the theme. It’s available for free on [poedit.net](http://www.poedit.net/).
+
+After you have installed Poedit, you can open it and select `File > New Catalog from POT file`. Then select the .pot file from the theme you wish to translate which you can find in the `/lang/` folder of theme.
+
+Then go through every line of text and translate it to your native language. Afterwards you can save the catalog with your language code (for example `es_ES.po`). Normally Poedit automatically creates the .mo file and saves it, too.
+
+The last step you have to do is to upload your created language files to the language folder of your theme using FTP.
+
+
+------------------------------
+
+
+Child Theme
+===========
+
+Fastlat is fully child theme compatible. We have attached a basic child theme to the download package which contains the minimum of required files. If you are planing any code customisations we highly recommend to do this inside the child theme! Learn more about child themes [here](http://codex.wordpress.org/Child_Themes)
+
+
+
+Need Helps
+=========
+
+If you need help, please do not hesitate to contact us! To grant best support we set up a support forum at [http://themealien.com/support](http://themealien.com/support). Channeling all requests at one place keeps and makes it simple, easier and even more effective for every customers to get quick help. All issues, requests and questions can be discussed and answered at one place. Please note, you will only get access to our forums with a valid purchase key!
+
+
+</xmp>
+
+<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/toc.min.js"></script>
+<script>
+	jQuery(document).ready(function($) {
+		$('body').prepend('<div id="toc"></div>');
+		$('#toc').toc({
+			'selectors': 'h1,h2,h3,h4,h5,h6',
+			'container': '#content'
+		});
+	});
+</script>
+</body>
+</html>

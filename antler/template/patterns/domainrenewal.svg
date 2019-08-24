@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 657.3 652.5" style="enable-background:new 0 0 657.3 652.5;" xml:space="preserve">
+<style type="text/css">
+	.drenewal0{fill:#FFFFFF;stroke:#ee5586;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.drenewal1{fill:none;stroke:#808080;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.drenewal2{fill:#FFFFFF;stroke:#ee5586;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.drenewal3{fill:none;stroke:#ee5586;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.drenewal4{fill:#FFFFFF;stroke:#ee5586;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+
+<line class="drenewal1" x1="464.8" y1="533.1" x2="218.2" y2="533.1"/>
+<line class="drenewal1" x1="218.3" y1="434.1" x2="218.2" y2="533.1"/>
+<line class="drenewal1" x1="533" y1="408.4" x2="533" y2="225.3"/>
+<line class="drenewal1" x1="434" y1="225.3" x2="533" y2="225.3"/>
+
+<g>
+<path id="svg-concept" class="drenewal0" d="M408.6,533.1c0,2.5-2.1,4.6-4.6,4.6c-2.5,0-4.6-2.1-4.6-4.6c0-2.5,2.1-4.6,4.6-4.6
+	C406.6,528.5,408.6,530.6,408.6,533.1z"/>
+	<animateMotion
+		path="M0, 0 -185 0 -185 -185 -185"
+		begin="0s" 
+		dur="2s" 
+		repeatCount="indefinite"/>
+</g>
+<g>
+<path id="svg-concept" class="drenewal0" d="M448.5,225.3c0,2.5-2.1,4.6-4.6,4.6c-2.5,0-4.6-2.1-4.6-4.6s2.1-4.6,4.6-4.6
+	C446.4,220.7,448.5,222.7,448.5,225.3z"/>
+	<animateMotion
+		path="M0, 0 90 0 90 370 90"
+		begin="0s" 
+		dur="2s" 
+		repeatCount="indefinite"/>
+</g>
+
+<g>
+	<path id="svg-concept" class="drenewal2" d="M434,218.3C434,99.2,337.4,2.5,218.2,2.5C99.1,2.5,2.4,99.2,2.4,218.3c0,119.2,96.6,215.8,215.8,215.8
+		C337.4,434.1,434,337.5,434,218.3z"/>
+	<path id="svg-concept" class="drenewal3" d="M337.5,218.3c0-119.2-53.4-215.8-119.3-215.8c-65.9,0-119.3,96.6-119.3,215.8c0,119.2,53.4,215.8,119.3,215.8
+		C284.1,434.1,337.5,337.5,337.5,218.3z"/>
+	<g>
+		<path class="drenewal1" d="M46.6,90.2c42.8,31.7,103.8,51.6,171.6,51.6c67.8,0,128.9-19.9,171.6-51.6"/>
+		<path class="drenewal1" d="M389.8,346.5c-42.8-31.7-103.8-51.6-171.6-51.6c-67.8,0-128.9,19.9-171.6,51.6"/>
+	</g>
+	<line class="drenewal1" x1="4.3" y1="225.3" x2="432" y2="225.3"/>
+	<line class="drenewal1" x1="218.2" y1="4.1" x2="218.2" y2="431.8"/>
+	<path id="svg-concept" class="drenewal4" d="M653.8,529.2c0-66.7-54.1-120.8-120.8-120.8c-66.7,0-120.8,54.1-120.8,120.8c0,66.7,54.1,120.8,120.8,120.8
+		C599.7,650,653.8,595.9,653.8,529.2z"/>
+	<path id="svg-concept" class="drenewal3" d="M599.8,529.2c0-66.7-29.9-120.8-66.8-120.8c-36.9,0-66.8,54.1-66.8,120.8c0,66.7,29.9,120.8,66.8,120.8
+		C569.9,650,599.8,595.9,599.8,529.2z"/>
+	<g>
+		<path class="drenewal1" d="M437,457.5c23.9,17.8,58.1,28.9,96.1,28.9c37.9,0,72.1-11.1,96.1-28.9"/>
+		<path class="drenewal1" d="M629.1,600.9c-23.9-17.8-58.1-28.9-96.1-28.9c-37.9,0-72.1,11.1-96.1,28.9"/>
+	</g>
+	<line class="drenewal1" x1="412.2" y1="533.1" x2="653.8" y2="533.1"/>
+	<line class="drenewal1" x1="533" y1="408.4" x2="533" y2="650"/>
+</g>
+
+
+</svg>

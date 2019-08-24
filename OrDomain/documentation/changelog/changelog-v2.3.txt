@@ -1,0 +1,16 @@
+============================
+08 July, 2018 - Version 2.3
+============================
+
+-------------------------------------------------------------------------------------------
+Backup your theme/style folder and files before applying these updates.
+-------------------------------------------------------------------------------------------
+
+[+] Footer Widget Column Dynamic
+[+] Theme Option Social Icons More Dynamic
+[*] Implemented ThemeForest New Requirement
+[*] Fixed WordPress Theme Update Issue
+[*] Fixed Envato Theme Check Error
+[*] Fixed Some Other Issue
+
+***(need to update the 'ordomain' Theme & 'ordomain-core' plugin to get the above updates/changes)***

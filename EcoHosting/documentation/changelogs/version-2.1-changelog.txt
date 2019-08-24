@@ -1,0 +1,20 @@
+===============================
+01 March, 2018 - Version 2.1
+===============================
+
+-----------------------------------------------------------------------
+Backup your theme/style folder and files before applying these updates.
+-----------------------------------------------------------------------
+
+[+] Added Support for WooCommerce v3.3.3
+[*] Fixed Some Other Minor Issues
+
+***(need to update the 'ecohosting' Theme to get the above changes)***
+
+*. WHMCS template updated to be compatible with latest "WHMCS Version 7.4.2"
+----------------------------------------------------------------------------
+
+	*. Simply Replace The Following Files:
+	--------------------------------------
+		-> js/scripts.js
+		-> js/scripts.min.js

@@ -1,0 +1,98 @@
+===============================
+28 November, 2017 - Version 2.0
+===============================
+
+-----------------------------------------------------------------------
+Backup your theme/style folder and files before applying these updates.
+-----------------------------------------------------------------------
+
+[+] Added WooCommerce Support
+[+] Added PHP 7x Support 
+[+] Added WordPress 4.9x Support
+[+] Added More Flat Content Section
+[+] Improved One Click Demo Importer
+[*] Fixed Some Other Minor Issue
+[*] Fixed CMB2 Update Issue
+[*] Fixed Demo Data Import Issue
+[*] Fixed Required Plugins Install Error Issue
+
+***(need to update the 'ecohosting' Theme to get the above changes)***
+
+*. WHMCS template updated to be compatible with latest "WHMCS Version 7.4.1"
+----------------------------------------------------------------------------
+
+	*. Simply Add The Following Files:
+	----------------------------------
+		-> css/index.php
+		-> error/index.php
+		-> fonts/index.php
+		-> img/flags.png
+		-> img/flags@2x.png
+		-> img/index.php
+		-> includes/index.php
+		-> js/index.php
+		-> oauth/index.php
+		-> store/index.php
+		-> index.php
+
+	*. Simply Replace The Following Files:
+	--------------------------------------
+		-> css/colors/theme-color-1.css
+		-> css/colors/theme-color-2.css
+		-> css/colors/theme-color-3.css
+		-> css/colors/theme-color-4.css
+		-> css/colors/theme-color-5.css
+		-> css/colors/theme-color-6.css
+		-> css/colors/theme-color-7.css
+		-> css/colors/theme-color-8.css
+		-> css/colors/theme-color-9.css
+		-> css/colors/theme-color-10.css
+		-> css/all.css
+		-> css/all.min.css
+		-> css/ecohosting-style.css
+		-> css/ecohosting-style-responsive.css
+		-> css/help.md
+		-> css/styles.css
+		-> js/main.js
+		-> js/scripts.js
+		-> js/scripts.min.js
+		-> store/spamexperts/index.tpl
+		-> store/spamexperts/master.js
+		-> store/weebly/upgrade.tpl
+		-> creditcard.tpl
+		-> knowledgebase.tpl
+
+	*. Simply Replace The Following Codes:
+	--------------------------------------
+		-> header.tpl
+			=> Deleted:
+			-----------
+			Line 14: <body>
+			
+			=> Added:
+			---------
+			Line 14: <body data-phone-cc-input="{$phoneNumberInputStyle}">
+		
+		-> header.tpl
+			=> Deleted:
+			-----------
+			Line 280: <span class="input-group-btn">
+			Line 281:     {if $registerdomainenabled}
+			Line 282:         <input type="submit" class="btn btn-warning" value="{$LANG.search}" />
+			Line 283:     {/if}
+			Line 284:     {if $transferdomainenabled}
+			Line 285:         <input type="submit" name="transfer" class="btn btn-info" value="{$LANG.domainstransfer}" />
+			Line 286:     {/if}
+			Line 287: </span>
+			
+			=> Added:
+			---------
+			Line 280: <span class="input-group-btn">
+			Line 281:     {if $registerdomainenabled}
+			Line 282:         <input type="submit" class="btn search" value="{$LANG.search}" />
+			Line 283:     {/if}
+			Line 284:     {if $transferdomainenabled}
+			Line 285:         <input type="submit" name="transfer" class="btn transfer" value="{$LANG.domainstransfer}" />
+			Line 286:     {/if}
+			Line 287: </span>
+

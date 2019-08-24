@@ -1,0 +1,633 @@
+<!doctype html>
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>HostWHMCS - Responsive Web Hosting and WHMCS Template</title>
+
+    <meta name="description" content="HostWHMCS - Responsive Web Hosting and WHMCS Template">
+    <meta name="author" content="ThemeLooks">
+    <meta name="copyright" content="ThemeLooks">
+    <meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+    
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+    
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+
+
+
+    <script src="assets/js/jquery.js"></script>
+
+    <script src="assets/js/jquery.scrollTo.js"></script>
+    <script src="assets/js/jquery.easing.js"></script>
+
+    <script>
+        document.createElement('section');
+        var duration = '500',
+            easing = 'easeInOutExpo';
+    </script>
+    <script src="assets/js/script.js"></script>
+
+    <style>
+        html {
+            background-color: rgb(243, 243, 243);
+            color: #383838;
+        }
+        ::-moz-selection {
+            background: #444444;
+            color: #DDDDDD;
+        }
+        ::selection {
+            background: #444444;
+            color: #DDDDDD;
+        }
+        #documenter_sidebar #documenter_logo {
+            color: #303030;
+            font-weight: 700;
+            font-size: 24px;
+            display: table-cell;
+            vertical-align: middle;
+            height: 155px;
+            text-align: center;
+            text-decoration: none;
+            text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.3);
+        }
+        #documenter_sidebar #documenter_logo span {
+            color: #ff4719;
+        }
+        a {
+            color: #0000FF;
+        }
+        .btn {
+            border-radius: 3px;
+        }
+        .btn-primary {
+            background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+            background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+            background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+            background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+            background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+            background-image: linear-gradient(top, #0088CC, #0044CC);
+            filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+            border-color: #0044CC #0044CC #bfbfbf;
+            color: #FFFFFF;
+        }
+        .btn-primary:hover,
+        .btn-primary:active,
+        .btn-primary.active,
+        .btn-primary.disabled,
+        .btn-primary[disabled] {
+            border-color: #0088CC #0088CC #bfbfbf;
+            background-color: #0044CC;
+        }
+        hr {
+            border-top: 1px solid #EBEBEB;
+            border-bottom: 1px solid #FFFFFF;
+        }
+        #documenter_sidebar,
+        #documenter_sidebar ul a {
+            background-color: #DDDDDD;
+            color: #222222;
+        }
+        #documenter_sidebar ul a {
+            -webkit-text-shadow: 1px 1px 0px #EEEEEE;
+            -moz-text-shadow: 1px 1px 0px #EEEEEE;
+            text-shadow: 1px 1px 0px #EEEEEE;
+        }
+        #documenter_sidebar ul {
+            border-top: 1px solid #AAAAAA;
+        }
+        #documenter_sidebar ul a {
+            border-top: 1px solid #EEEEEE;
+            border-bottom: 1px solid #AAAAAA;
+            color: #444444;
+        }
+        #documenter_sidebar ul a:hover {
+            background: #444444;
+            color: #DDDDDD;
+            border-top: 1px solid #444444;
+        }
+        #documenter_sidebar ul a.current {
+            background: #444444;
+            color: #DDDDDD;
+            border-top: 1px solid #444444;
+        }
+        #documenter_copyright {
+            display: block !important;
+            visibility: visible !important;
+        }
+    </style>
+</head>
+
+<body class="documenter-project-radiofalgun">
+    <div id="documenter_sidebar">
+        <a href="#documenter_start" id="documenter_logo"><span><i class="fa fa-rocket"></i> Host</span>WHMCS</a>
+        <ul id="documenter_nav">
+            <li><a class="current" href="#documenter_content">START</a></li>
+            <li><a href="#documenter_cover">INTRODUCTION</a></li>
+            <li><a href="#installation" title="INSTALLATION">INSTALLATION</a></li>
+            <li><a href="#template_structure" title="TEMPLATE STRUCTURE">TEMPLATE STRUCTURE</a></li>
+            <li><a href="#html_structure" title="HTML STRUCTURE">HTML STRUCTURE</a></li>
+            <li><a href="#css_files_and_structure" title="CSS FILES AND STRUCTURE">CSS FILES AND STRUCTURE</a></li>
+            <li><a href="#javascript" title="JAVASCRIPT">JAVASCRIPT</a></li>
+            <li><a href="#source_and_creadits" title="SOURCE AND CREADITS">SOURCE AND CREADITS</a></li>
+            <li><a href="#faq" title="FAQ">FAQ</a></li>
+        </ul>
+        <div id="documenter_copyright">Copyright &copy; <a href="http://www.themelooks.com/">ThemeLooks</a> 2016</div>
+    </div>
+    <div id="documenter_content">
+        <div id="banner">
+            <img src="assets/images/banner.png" alt="" />
+        </div>
+        
+        <section id="documenter_start">
+            <h1>HostWHMCS</h1>
+            <h2>Responsive Web Hosting and WHMCS Template</h2>
+            <div id="documenter_buttons">
+                <a href="http://themeforest.net/user/themelooks#contact" class="btn btn-primary btn-large">Contact</a>
+                <a href="http://themelooks.com/" class="btn btn-primary btn-large">Support</a>
+            </div>
+            <hr>
+            <ul>
+                <li>created: 22/08/2016</li>
+                <li>by: <a href="http://themelooks.com/">ThemeLooks</a></li>
+                <li><a href="http://themelooks.com/">www.themelooks.com</a>
+                </li>
+                <li>email: <a href="mailto:support@themelooks.com">support@themelooks.com</a>
+                </li>
+            </ul>
+            <p>Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form here. Thanks so much!</p>
+            
+            <h2>How to get help:</h2>
+            <hr class="notop">
+            <p>We will respond to buyers' questions via the contact form on our profile.</p>
+            <p>We run support 24/7. You can expect a response within 24 hours.</p>
+            <ul>
+                <li style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(125, 192, 29)"><strong>Support requests are for:</strong></li>
+                <li>- Help using templates</li>
+                <li>- Instructions setting up templates</li>
+                <li style="margin-bottom: 15px;">- Bug reports and fixes</li>
+                <li style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(255, 0, 0);"><strong>Support requests aren’t for:</strong></li>
+                <li>- Help with 3rd party plugins</li>
+                <li>- Integration of 3rd party plugins</li>
+                <li>- Free Customization Requests of our templates</li>
+            </ul>
+        </section>
+        <section id="documenter_cover">
+            <h5><strong>HostWHMCS</strong> is a <strong>Responsive Web Hosting and WHMCS Template</strong> designed for All kinds of <strong>Domain and Hosting Business</strong>. It's an HTML5 template based on latest Bootstrap 3.3.7. Also included <strong>10 WHMCS Template</strong> based on <strong>WHMCS 6.3.1.</strong> Anyone can easily update/edit this template to follow our <strong>Well Sorted Documentation.</strong></h5>
+            <h2>Main Features of "HostWHMCS":</h2>
+            <ul>
+                <li>- Latest Bootstrap v3.3.7 Ready</li>
+                <li>- <strong>WHMCS 6.3.1</strong> Ready</li>
+                <li>- <strong>WHMCS Template</strong> Included</li>
+                <li>- <strong>Total 10 WHMCS Templates</strong> with 10 Different Color Version</li>
+                <li>- Retina Ready</li>
+                <li>- 10 Default Color with Color Switcher</li>
+                <li>- Clean Design</li>
+                <li>- Fully Responsive</li>
+                <li>- <strong>Working Contact Form</strong> Integrated With Validetor and PHP</li>
+                <li>- <strong>Mailchimp Integrated</strong> With Validetor</li>
+                <li>- Twitter API Integrated</li>
+                <li>- Modern Cross Browser Support</li>
+                <li>- W3C Validate Code</li>
+            </ul>
+            
+            <h2>Other Features of "HostWHMCS":</h2>
+            <ul>
+                <li>- Google Fonts</li>
+                <li>- FontAwesome Icons</li>
+                <li>- Well Documented</li>
+                <li>- and much more features…</li>
+            </ul>
+        </section>
+        
+        <section id="installation">
+            <div class="page-header">
+                <h3>INSTALLATION</h3>
+                <hr class="notop">
+            </div>
+            
+            <h2>HTML Template:</h2>
+            <ul>
+                <li>Open up your FTP Manager and connect to your Hosting</li>
+                <li><i>Browse to required directory (Normally public_html)</i></li>
+                <li>Unzip and Upload the files.</li>
+            </ul>
+            
+            <h2>WHMCS Template:</h2>
+            <p><strong>You'll get the step by step instructions to install the whmcs template in <i>"/whmcs-template/whmcs-6.3.1/Readme.txt"</i> file.</strong></p>
+        </section>
+        
+        <section id="template_structure">
+            <div class="page-header">
+                <h3>TEMPLATE STRUCTURE</h3>
+                <hr class="notop">
+            </div>
+            
+            <ul style="font-weight: bold;">
+                <li style="margin: 5px 15px;">./main_files
+                    <ul style="margin-top: 0;">
+                        <li style="margin: 5px 15px;">/html-template</li>
+                        <li>___ /index.html</li>
+                        <li>___ /shared-hosting.html</li>
+                        <li>___ /reseller-hosting.html</li>
+                        <li>___ /vps-hosting.html</li>
+                        <li>___ /dedicated-hosting.html</li>
+                        <li>___ /domains.html</li>
+                        <li>___ /about.html</li>
+                        <li>___ /affiliate.html</li>
+                        <li>___ /testimonial.html</li>
+                        <li>___ /blog.html</li>
+                        <li>___ /blog-details.html</li>
+                        <li>___ /blog-sidebar-left.html</li>
+                        <li>___ /blog-sidebar-right.html</li>
+                        <li>___ /faq.html</li>
+                        <li>___ /contact.html</li>
+                        <li>___ /login.html</li>
+                        <li>___ /signup.html</li>
+                        <li>___ /404.html</li>
+                    </ul>
+                </li>
+                <li style="margin: 5px 15px;">./whmcs-template
+                    <ul style="margin-top: 0;">
+                        <li>/HostWHMCV1</li>
+                        <li>/HostWHMCV2</li>
+                        <li>/HostWHMCV3</li>
+                        <li>/HostWHMCV4</li>
+                        <li>/HostWHMCV5</li>
+                        <li>/HostWHMCV6</li>
+                        <li>/HostWHMCV7</li>
+                        <li>/HostWHMCV8</li>
+                        <li>/HostWHMCV9</li>
+                        <li>/HostWHMCV10</li>
+                        <li>/orderforms</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="html_structure">
+            <div class="page-header">
+                <h3>HTML STRUCTURE</h3>
+                <hr class="notop">
+            </div>
+            
+            <p>The "HostWHMCS" template is a responsive HTML template based on Bootstrap 3.3.7. The structure based on a flexible grid that lets you change HTML pages quickly and logically with a nestable system.</p>
+
+            <p>If you would like to edit the layout of any elements in whole template, you would do the following:</p>
+
+            <p>Open any '.html' or, '.css', so that is extremely easy to change any html markup and css attributes. Simply find the related and commented heading in the html or, css file and make your magic.</p>
+            
+            <img src="assets/images/Screenshot_html.png" alt="" />
+            <img src="assets/images/Screenshot_html2.png" alt="" />
+        </section>
+        <section id="css_files_and_structure">
+            <div class="page-header">
+                <h3>CSS FILES AND STRUCTURE</h3>
+                <hr class="notop">
+            </div>
+            <p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+                &quot;HostWHMCS&quot; using the following CSS files:</p>
+            <p class="paragraph-style-one"><span>css/font-awesome.min.css</span><br> The css file for font-awesome icons. To see all the available icons and instructions on how to use them click&nbsp;<a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">here</a>
+            </p>
+            <p class="paragraph-style-one"><span>css/bootstrap.min.css</span><br> The main responsive grid stylesheets, from Bootstrap 3 framework. It is recommended to make any changes/additions to style.css and keep bootsrap.css and bootsrap-theme.css as it are. In this way, you can easily upgrade the grid framework when Bootstrap releases an update.</p>
+            <p class="paragraph-style-one"><span>css/jquery.bxslider.min.css</span>&nbsp;<br> The css file for vertical slider</p>
+            <p class="paragraph-style-one"><span>css/owl.carousel.css</span><br> The css file for owl carousel.</p>
+            <p class="paragraph-style-one"><span>css/animate.min.css</span><br> The css file for slider animations.</p>
+            <p class="paragraph-style-one"><span>style.css</span>&nbsp;<br> The main css file</p>
+            <p class="paragraph-style-one"><span>css/responsive-style.css</span>&nbsp;<br> The main css file for responsive styles.</p>
+            <p class="paragraph-style-one"><span>css/theme-color-1.css<br>css/theme-color-2.css<br>css/theme-color-3.css<br>css/theme-color-4.css<br>css/theme-color-5.css<br>css/theme-color-6.css<br>css/theme-color-7.css<br>css/theme-color-8.css<br>css/theme-color-9.css<br>css/theme-color-10.css</span>&nbsp;<br> The main css file for color scheme.</p>
+            <img src="assets/images/Screenshot_html3.png" alt="" />
+            <img src="assets/images/Screenshot_css1.png" alt="" />
+            <img src="assets/images/Screenshot_css2.png" alt="" />
+        </section>
+        
+        <section id="javascript">
+            <div class="page-header">
+                <h3>JAVASCRIPT</h3>
+                <hr class="notop">
+            </div>
+            <p class="paragraph-style-one"><span>js/jquery-3.1.0.min.js</span><br> The jQuery Framework</p>
+            <p class="paragraph-style-one"><span>js/bootstrap.min.js</span><br> The main js file that hook the supported scripts of Bootstrap 3 framework&nbsp;</p>
+            <p class="paragraph-style-one"><span>js/jquery.bxslider.min.js</span><br> The main js file that using for vertical slider</p>
+            <p class="paragraph-style-one"><span>js/jquery.validate.min.js</span><br> The script that using for form validation</p>
+            <p class="paragraph-style-one"><span>js/owl.carousel.min.js</span><br> The script that using for slider</p>
+            <p class="paragraph-style-one"><span>js/jquery.waypoints.min.js</span><br> The script that using for scroll events</p>
+            <p class="paragraph-style-one"><span>js/jquery.counterup.min.js</span><br> The script that using for counter</p>
+            <p class="paragraph-style-one"><span>js/retina.min.js</span><br> The script that using for hight resolution images</p>
+            <p class="paragraph-style-one"><span>js/custom-color-switcher.js</span><br> The main script for color scheme</p>
+            <p class="paragraph-style-one"><span>js/main.js</span><br> The main script for the template</p>
+            <img src="assets/images/Screenshot_html4.png" alt="" />
+            <img src="assets/images/Screenshot_js.png" alt="" />
+        </section>
+        <section id="source_and_creadits">
+            <div class="page-header">
+                <h2>SOURCE AND CREADITS</h2>
+                <hr class="notop">
+            </div>
+            
+            <h4>Photos:</h4>
+            <ul>
+                <li><strong><i>All '<u>images</u>' used on the demo site is for demonstration purposes only and are not included in the main download file.</i></strong></li>
+                <li><strong>All Images Collected From <i><a href="https://images.google.com/">'Google Image Search'</a></i></strong></li>
+            </ul>
+            
+            <h4>Fonts Used:</h4>
+            <ul>
+                <li><strong>Google Fonts (Raleway)</strong> - <a href="http://www.google.com/webfonts">http://www.google.com/webfonts</a></li>
+                <li><strong>Font Awesome</strong> - <a href="http://fontawesome.io/">http://fontawesome.io/</a></li>
+            </ul>
+            
+            <h4>Frameworks / Libraries:</h4>
+            <ul>
+                <li><strong>jQuery</strong> - <a href="https://jquery.com/">https://jquery.com/</a></li>
+                <li><strong>Twitter Bootstrap</strong> - <a href="http://getbootstrap.com">http://getbootstrap.com</a></li>
+            </ul>
+            
+            <h4>Plugins Used:</h4>
+            <ul>
+                <li><strong>jQuery Validation</strong> - <a href="http://jqueryvalidation.org/">http://jqueryvalidation.org/</a></li>
+                <li><strong>Waypoints</strong> - <a href="https://github.com/imakewebthings/waypoints/">https://github.com/imakewebthings/waypoints/</a></li>
+                <li><strong>jQuery CounterUP</strong> - <a href="https://github.com/bfintal/Counter-Up">https://github.com/bfintal/Counter-Up</a></li>
+                <li><strong>bxSlider</strong> - <a href="https://github.com/wandoledzep/bxslider-4">https://github.com/wandoledzep/bxslider-4</a></li>
+                <li><strong>Owl Carousel</strong> - <a href="https://github.com/OwlFonk/OwlCarousel">https://github.com/OwlFonk/OwlCarousel</a></li>
+                <li><strong>RetinaJS Plugin</strong> - <a href="https://github.com/imulus/retinajs">https://github.com/imulus/retinajs</a></li>
+                <li><strong>Twitter Widgets Plugin</strong> - <a href="https://platform.twitter.com/widgets.js">https://platform.twitter.com/widgets.js</a></li>
+            </ul>
+        </section>
+        <section id="faq">
+            <div class="page-header">
+                <h3>FAQ</h3>
+                <hr class="notop">
+            </div>
+            
+            <h3><strong>How can I remove the "Preloader"?</strong></h3>
+            <ul>
+                <li>Open Up your Desired <strong><i>'.html'</i></strong> file. (For Example, <strong>'index.html'</strong>)</li>
+                <li>Then Search For the Comment <strong><i>'&lt;!-- Preloader Start --&gt;'</i></strong></li>
+                <li>And remove the markup</li>
+            </ul>
+            <br />
+            <img src="assets/images/preloader.png" alt="" />
+            <br />
+            <br />
+            
+            <h3><strong>How can I change the "Logo"?</strong></h3>
+            <ul>
+                <li>Open Up your Desired <strong><i>'.html'</i></strong> file. (For Example, <strong>'index.html'</strong>)</li>
+                <li>Then Search For the Comment <strong><i>'&lt;!-- Logo Start --&gt;'</i></strong></li>
+                <li>Update The logo name <strong><i>'Eco Hosting'</i></strong> from there.</li>
+            </ul>
+            <br />
+            <img src="assets/images/logo_change.png" alt="" />
+            <br />
+            <br />
+            
+            <h3><strong>How can I change "Slider Text"?</strong></h3>
+            <ul>
+                <li>Open Up your Desired <strong><i>'.html'</i></strong> file. (For Example, <strong>'index.html'</strong>)</li>
+                <li>Then Search For the Comments <strong><i>'&lt;!-- Banner Content Start --&gt;'</i></strong></li>
+                <li>Update The <strong><i>'content'</i></strong> from there</li>
+            </ul>
+            <br />
+            <img src="assets/images/slider_change.png" alt="" />
+            <br />
+            <br />
+            
+            <h3><strong>How can I change the "Slider Background Image"?</strong></h3>
+            <ul>
+                <li>Open Up your Desired <strong><i>'.html'</i></strong> file. (For Example, <strong>'index.html'</strong>)</li>
+                <li>Then Search For the Comment <strong><i>'&lt;!-- Banner Area Start --&gt;'</i></strong></li>
+                <li>Update The <strong><i>'data-bg-img="img/banner-slider-img/rocket.png"'</i></strong> from there</li>
+            </ul>
+            <p><strong>For version 1 and 2 :</strong></p>
+            <img src="assets/images/slider_bg_change.png" alt="" />
+            <br />
+            <br />
+            
+            <h3><strong>How can I change "Pricing Table"?</strong></h3>
+            <ul>
+                <li>Open Your Desired <strong><i>'.html'</i></strong> file. (For Example, <strong>'index.html'</strong>)</li>
+                <li>Then Search For the Comment <strong><i>'&lt;!-- Pricing Item Start --&gt;'</i></strong></li>
+                <li>Update The <strong><i>'Price, Features and Link'</i></strong> from there</li>
+            </ul>
+            <br />
+            <img src="assets/images/pricing-table_change.png" alt="" />
+            <br />
+            <br />
+            
+            <h3><strong>How can I change "Testimonial Text and Image"?</strong></h3>
+            <ul>
+                <li>Open Up your Desired <strong><i>'.html'</i></strong> file. (For Example, <strong>'index.html'</strong>)</li>
+                <li>Then Search For the Comment <strong><i>'&lt;!-- Feedback Area Start --&gt;'</i></strong></li>
+                <li>Update The Image Link <strong>'Text and Image'</strong> from there</li>
+            </ul>
+            <br />
+            <img src="assets/images/testimonial-1.png" alt="" />
+            <br />
+            <br />
+            
+            <h3><strong>How can I change "Name, Image, and Social Links" (Team Section)?</strong></h3>
+            <p><strong><i>Make sure first you put your 'images' in the '/img/team-img' folder.</i></strong></p>
+            <ul>
+                <li>Open Your <strong><i>'about.html'</i></strong> file.</li>
+                <li>Then Search For the Comment <strong><i>'&lt;!-- Team Item Start --&gt;'</i></strong></li>
+                <li>Update The <strong><i>'Name, Image and Social Links'</i></strong> from there</li>
+            </ul>
+            <br />
+            <img src="assets/images/team_change.png" alt="" />
+            <br />
+            <br />
+            
+            <h3><strong>How can I change "FAQ Questions and Answers"?</strong></h3>
+            <ul>
+                <li>Open Your Desired <strong><i>'.html'</i></strong> file. (For Example, <strong>'faq.html'</strong>)</li>
+                <li>Then Search For the Comment <strong><i>'&lt;!-- Accordion Item Start --&gt;'</i></strong></li>
+                <li>Update The <strong><i>'Title and Content'</i></strong> from there</li>
+            </ul>
+            <br />
+            <img src="assets/images/faq.png" alt="" />
+            <br />
+            <br />
+            
+            <h3><strong>How can I change the "Contact Address" (Contact Page)?</strong></h3>
+            <ul>
+                <li>Open Your <strong><i>'contact.html'</i></strong> file.</li>
+                <li>Then Search For <strong><i>'&lt;!-- Contact Address Content Start --&gt;'</i></strong></li>
+                <li>Update The Address: <strong><i>'ShewraPara Bus Stand, Begum Rokeya Ave, Dhaka 1216, Bangladesh'</i></strong>, Phone Number: <strong><i>'+1-212-9876543'</i></strong> and Email Address: <strong><i>'support@example.com'</i></strong></li>
+            </ul>
+            <br />
+            <img src="assets/images/contact-info_change.png" alt="" />
+            <br />
+            <br />
+            
+            <h3><strong>How can I change "Counter Value"?</strong></h3>
+            <ul>
+                <li>Open Up your Desired <strong><i>'.html'</i></strong> file. (For Example, <strong>'about.html'</strong>)</li>
+                <li>Then Search For the Comment <strong><i>'&lt;!-- Counter Item Start --&gt;'</i></strong></li>
+                <li>Change The <strong>'Title'</strong> and <strong>'Numbers'</strong> from there</li>
+            </ul>
+            <br />
+            <img src="assets/images/counter_change.png" alt="" />
+            <br />
+            <br />
+            
+            <h3><strong>How can I change "Clients Logo"?</strong></h3>
+            <p><strong><i>Make sure first you put your 'images' in the '/img/clients-img/' folder.</i></strong></p>
+            <ul>
+                <li>Open Up your Desired <strong><i>'.html'</i></strong> file. (For Example, <strong>'about.html'</strong>)</li>
+                <li>Then Search For the Comment <strong><i>'&lt;!-- Clients Area Start --&gt;'</i></strong></li>
+                <li>Update The Image Link <strong><i>'img/clients-img/01.png'</i></strong> from there</li>
+            </ul>
+            <br />
+            <img src="assets/images/brand-img_change.png" alt="" />
+            <br />
+            <br />
+            
+            <h3><strong>How can I change the "Goolge Map Position"?</strong></h3>
+            <ul>
+                <li>Open Your <strong><i>'contact.html'</i></strong> file.</li>
+                <li>Then Search For the Comment <strong><i>'&lt;!-- MAP Area Start --&gt;'</i></strong></li>
+                <li>Update latitude/longitude <strong><i>data-latitude="23.790546", data-longitude="90.375583" and data-zoom="16"</i></strong> from there</li>
+            </ul>
+            <br />
+            <img src="assets/images/google-map.png" alt="" />
+            <br />
+            <br />
+            
+            <h3><strong>How can I change the "Mailchimp Subscription Link" in HTML and WHMCS Template both?</strong></h3>
+            <p><strong>We added a speacial feature 'mailchimp interrogation support' on this theme and will be add it to our future themes also.</strong></p>
+            <ul>
+                <li><strong>For HTML Template:</strong> Open Your Desired <strong><i>'.html'</i></strong> file. (For Example, <strong>'index.html'</strong>)</li>
+                <li><strong>For WHMCS Template:</strong> Open <strong><i>'footer.tpl'</i></strong> file.</li>
+                <li>Then Search For the Comment <strong><i>'&lt;!-- Subscribe Form Start --&gt;'</i></strong></li>
+                <li>Update The <strong><i>'action="..."'</i></strong> attribute value from there</li>
+            </ul>
+            <br />
+            <img src="assets/images/subscribe_change.png" alt="" />
+            <br />
+            <br />
+            
+            <h3><strong>How can I change the "About Us Text" (Footer Area) in HTML and WHMCS Template both?</strong></h3>
+            <ul>
+                <li><strong>For HTML Template:</strong> Open Your Desired <strong><i>'.html'</i></strong> file. (For Example, <strong>'index.html'</strong>)</li>
+                <li><strong>For WHMCS Template:</strong> Open <strong><i>'footer.tpl'</i></strong> file.</li>
+                <li>Then Search For <strong><i>'&lt;!-- Footer About Widget Start --&gt;'</i></strong></li>
+                <li>Update The <strong>'Text'</strong> and <strong>'Link'</strong></li>
+            </ul>
+            <br />
+            <img src="assets/images/about_widget.png" alt="" />
+            <br />
+            <br />
+            
+            <h3><strong>How can I change "Social Links" (Footer) in HTML and WHMCS Template both?</strong></h3>
+            <ul>
+                <li><strong>For HTML Template:</strong> Open Your Desired <strong><i>'.html'</i></strong> file. (For Example, <strong>'index.html'</strong>)</li>
+                <li><strong>For WHMCS Template:</strong> Open <strong><i>'footer.tpl'</i></strong> file.</li>
+                <li>Then Search For the Comment <strong><i>'&lt;!-- Footer About Widget Start --&gt;'</i></strong></li>
+                <li>Change The <strong><i>'Text'</i></strong> and anchor link <strong><i>'href="#"'</i></strong> from there</li>
+            </ul>
+            <br />
+            <img src="assets/images/social-link_change.png" alt="" />
+            <br />
+            <br />
+            
+            <h3><strong>How can I change "Copyright Text" in HTML and WHMCS Template both?</strong></h3>
+            <ul>
+                <li><strong>For HTML Template:</strong> Open Your Desired <strong><i>'.html'</i></strong> file. (For Example, <strong>'index.html'</strong>)</li>
+                <li><strong>For WHMCS Template:</strong> Open <strong><i>'footer.tpl'</i></strong> file.</li>
+                <li>Then Search For the Comment <strong><i>'&lt;!-- Footer Copyright Start --&gt;'</i></strong></li>
+                <li>Update The <strong><i>'Text and Link'</i></strong> from there</li>
+            </ul>
+            <br />
+            <img src="assets/images/copyright_change.png" alt="" />
+            <br />
+            <br />
+            
+            <h3><strong>How can I add my "Email Address" (Sendmail.php)?</strong></h3>
+            <ul>
+                <li>Open Up your <strong><i>'sendmail.php'</i></strong> file.</li>
+                <li>Then Search For the Comment <strong><i>'// Replace this with your own email address'</i></strong></li>
+                <li>Update The Email Address<strong><i>'example@example.com'</i></strong> and Owner Name <strong><i>'Example'</i></strong> from there</li>
+            </ul>
+            <br />
+            <img src="assets/images/email-address.png" alt="" />
+            <br />
+            <br />
+            
+            <h3><strong>How can I change the "YouTube Video Link" (Blog Page)?</strong></h3>
+            <ul>
+                <li>Open Up your <strong><i>'blog.html'</i></strong> file.</li>
+                <li>Then Search For the Comment <strong><i>'&lt;!-- Blog Post YouTube Video Start --&gt;'</i></strong></li>
+                <li>Update The <strong><i>'YouTube Vido Link'</i></strong> from there</li>
+            </ul>
+            <br />
+            <img src="assets/images/youtube-video_change.png" alt="" />
+            <br />
+            <br />
+            
+            <h3><strong>How can I change the "Vimeo Video Link" (Blog Page)?</strong></h3>
+            <ul>
+                <li>Open Up your <strong><i>'blog.html'</i></strong> file.</li>
+                <li>Then Search For the Comment <strong><i>'&lt;!-- Blog Post Vimeo Video Start --&gt;'</i></strong></li>
+                <li>Update The <strong><i>'Vimeo Vido Link'</i></strong> from there</li>
+            </ul>
+            <br />
+            <img src="assets/images/vimeo-video_change.png" alt="" />
+            <br />
+            <br />
+            
+            <h3><strong>How can I change the "Local Video Link" (Blog Page)?</strong></h3>
+            <ul>
+                <li>Open Up your <strong><i>'blog.html'</i></strong> file.</li>
+                <li>Then Search For the Comment <strong><i>'&lt;!-- Blog Post Local Video Start --&gt;'</i></strong></li>
+                <li>Update The <strong><i>'Vimeo Vido Link'</i></strong> from there</li>
+            </ul>
+            <br />
+            <img src="assets/images/local-video_change.png" alt="" />
+            <br />
+            <br />
+            
+            <h3><strong>How can I change the "Local Audio Link" (Blog Page)?</strong></h3>
+            <ul>
+                <li>Open Up your <strong><i>'blog.html'</i></strong> file.</li>
+                <li>Then Search For the Comment <strong><i>'&lt;!-- Blog Post Local Audio Start --&gt;'</i></strong></li>
+                <li>Update The <strong><i>'Vimeo Vido Link'</i></strong> from there</li>
+            </ul>
+            <br />
+            <img src="assets/images/local-audio_change.png" alt="" />
+            <br />
+            <br />
+            
+            <h3><strong>How can I change the "Soundcloud Audio Link" (Blog Page)?</strong></h3>
+            <ul>
+                <li>Open Up <strong><i>'blog.html'</i></strong> file.</li>
+                <li>Then Search For the Comment <strong><i>'&lt;!-- Blog Post Soundcloud Audio Start --&gt;'</i></strong></li>
+                <li>Update The <strong><i>'Vimeo Vido Link'</i></strong> from there</li>
+            </ul>
+            <br />
+            <img src="assets/images/sound-cloud.png" alt="" />
+            <br />
+            <br />
+            
+            <h3><strong>How can I remove "Color Switcher"?</strong></h3>
+            <ul>
+                <li>Open <strong><i>'main.js'</i></strong> file.</li>
+                <li>Then Search For the Comment <strong><i>'* COLOR SWITCHER'</i></strong></li>
+                <li>Remove the code block.</li>
+            </ul>
+            <br />
+            <img src="assets/images/color_switcher.png" alt="" />
+            <br />
+            <br />
+        </section>
+
+    </div>
+</body>
+</html>

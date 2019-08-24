@@ -1,0 +1,15 @@
+==============================
+24 October, 2018 - Version 1.1
+==============================
+
+-------------------------------------------------------------------------------------------
+Backup your theme/style folder and files before applying these updates.
+-------------------------------------------------------------------------------------------
+The best way is to use a compare tool, like: https://www.devart.com/codecompare/
+and use it to compare the 'folders' (the version you're using with the new version)
+-------------------------------------------------------------------------------------------
+Updating HTML Templates Requires Manual Work.
+-------------------------------------------------------------------------------------------
+
+*. Fixed some responsive issues
+-------------------------------------------------------------------------------------------

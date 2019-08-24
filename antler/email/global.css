@@ -1,0 +1,113 @@
+@media only screen {
+    html {
+        min-height: 100%;
+        background: #fff
+    }
+    a:visited {
+        text-decoration: none;
+    }
+    .footer-description a, .x_footer-description a {
+        color: #0057FF !important;
+        text-decoration: none !important;
+    }
+    a {text-decoration: none;}
+    a:visited {color:#7C8088; text-decoration:none;}
+
+    a {
+        text-decoration: none;
+    }
+    a:visited {
+        color: #7C8088;
+        text-decoration: none;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .small-float-center {
+        margin: 0 auto !important;
+        float: none !important;
+        text-align: center !important
+    }
+    .container-radius {
+        border-spacing: 16px 0 !important;
+        padding-top: 16px !important;
+    }
+    .mobile-hide{
+        display: none !important;
+    }
+    .table-order-description{
+        padding-left: 8px !important;
+    }
+}
+@media only screen and (max-width: 800px) {
+    table.img {
+        height: auto !important;
+    }
+    table.body img {
+        width: auto;
+        height: auto
+    }
+    table.row {
+        padding: 30px !important;
+    }
+    table.body center {
+        min-width: 0 !important;
+    }
+    table.body .container {
+        width: 95% !important
+    }
+    table.body .columns {
+        height: auto !important;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    table.body .columns .columns {
+        padding-left: 0 !important;
+        padding-right: 0 !important
+    }
+    table.body .collapse .columns {
+        padding-left: 0 !important;
+        padding-right: 0 !important
+    }
+    th.small-6 {
+        display: inline-block !important;
+        width: 50% !important
+    }
+    th.small-12 {
+        display: inline-block !important;
+        width: 100% !important
+    }
+    .columns th.small-12 {
+        margin-bottom: 8px;
+        display: block !important;
+        width: 100% !important
+    }
+    table.menu {
+        width: 100% !important
+    }
+    table.menu td, table.menu th {
+        width: auto !important;
+        display: inline-block !important
+    }
+    table.menu.vertical td, table.menu.vertical th {
+        display: block !important
+    }
+    table.menu[align=center] {
+        width: auto !important
+    }
+    .header-logo {
+        margin: 0 auto;
+    }
+    .header-top-text {
+        margin-right: auto;
+        text-align: center !important;
+    }
+    th.menu-item{
+        width: 50px !important;
+        min-width: 50px;
+        float: left !important;
+    }
+    th.menu-item .rounded-button{
+        float: left !important;
+    }
+}

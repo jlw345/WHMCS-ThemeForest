@@ -1,0 +1,79 @@
+============================
+05 April, 2018 - Version 2.2
+============================
+
+-------------------------------------------------------------------------------------------
+Backup your theme/style folder and files before applying these updates.
+-------------------------------------------------------------------------------------------
+The best way is to use a compare tool, like: https://sourceforge.net/projects/kdiff3/files/
+and use it to compare the 'folders' (the version you're using with the new version)
+-------------------------------------------------------------------------------------------
+Updating HTML Templates Requires Manual Work.
+-------------------------------------------------------------------------------------------
+
+
+*. WHMCS template updated to be compatible with latest "WHMCS Version 7.5.0":
+-----------------------------------------------------------------------------
+
+	*. New Files Added:
+	-------------------
+		-> store/login/sitelock.tpl
+		-> store/ssl/competitive-upgrade.tpl
+		-> store/sitelock/index.tpl
+		-> domain-pricing.tpl
+		-> subscription-manage.tpl
+		-> upgrade-configure.tpl
+	
+	*. Files Affected:
+	------------------
+		-> css/all.css
+		-> css/all.min.css
+		-> css/help.md
+		-> css/styles.css
+		-> includes/tablelist.tpl
+		-> js/scripts.js
+		-> js/scripts.min.js
+		-> js/whmcs.js
+		-> store/css/style.css
+		-> store/login/spamexperts.tpl
+		-> store/login/weebly.tpl
+		-> store/promos/cart.tpl
+		-> store/promos/slimupsell.tpl
+		-> store/promos/upsell.tpl
+		-> store/spamexperts/index.tpl
+		-> store/spamexperts/master.js
+		-> store/ssl/shared/certificate-pricing.tpl
+		-> store/ssl/shared/currency-chooser.tpl
+		-> store/ssl/shared/features.tpl
+		-> store/ssl/shared/logos.tpl
+		-> store/ssl/shared/nav.tpl
+		-> store/ssl/dv.tpl
+		-> store/ssl/ev.tpl
+		-> store/ssl/index.tpl
+		-> store/ssl/ov.tpl
+		-> store/ssl/wildcard.tpl
+		-> store/weebly/index.tpl
+		-> store/weebly/master.js
+		-> store/order.tpl
+		-> announcements.tpl
+		-> clientareadetails.tpl
+		-> clientareadomaindetails.tpl
+		-> clientareadomains.tpl
+		-> clientregister.tpl
+		-> homepage.tpl
+		-> knowledgebase.tpl
+		-> knowledgebasearticle.tpl
+		-> knowledgebasecat.tpl
+		-> viewannouncement.tpl
+	
+	*. File Changes:
+	--------------------------
+		-> includes/head.tpl
+			=> Deleted:
+			-----------
+			Line 25: saving = '{lang key="markdown.saving"}';
+			
+			=> Added:
+			---------
+			Line 25: saving = '{lang key="markdown.saving"}',
+			Line 26: whmcsBaseUrl = "{\WHMCS\Utility\Environment\WebHelper::getBaseUrl()}";

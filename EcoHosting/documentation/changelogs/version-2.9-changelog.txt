@@ -1,0 +1,84 @@
+===============================
+15 February, 2019 - Version 2.9
+===============================
+
+-------------------------------------------------------------------------------------------
+Backup your theme/style folder and files before applying these updates.
+-------------------------------------------------------------------------------------------
+The best way is to use a compare tool, like: https://sourceforge.net/projects/kdiff3/files/
+and use it to compare the 'folders' (the version you're using with the new version)
+-------------------------------------------------------------------------------------------
+Updating HTML Templates Requires Manual Work.
+-------------------------------------------------------------------------------------------
+
+[*] Subscribe AJAX Requests Issue Fixed
+
+***(need to remove and reinstall the 'ecohosting' theme and 'ecohosting-core' plugin to get the above update)***
+
+
+*. WHMCS template updated to be compatible with the latest "WHMCS Version 7.7.0":
+-----------------------------------------------------------------------------
+
+    *. New File/Folders Added:
+    -------------------
+        -> store/codeguard
+
+    *. Files Affected (Need to Replace): 
+    ------------------
+        -> css/all.css
+        -> css/all.min.css
+        -> css/styles.css
+        -> includes/captcha.tpl
+        -> js/scripts.js
+        -> js/scripts.min.js
+        -> js/whmcs.js
+        -> store/css/style.css
+        -> store/weebly/upgrade.tpl
+	-> clientareaaddcontact.tpl
+        -> clientareacontacts.tpl
+        -> clientareacreditcard.tpl
+	-> clientareadetails.tpl
+        -> clientareadomaindetails.tpl
+        -> clientareadomains.tpl
+        -> clientareahome.tpl
+        -> clientareaproductdetails.tpl
+        -> clientareaproducts.tpl
+        -> clientregister.tpl
+	-> contact.tpl
+	-> invoicepdf.tpl
+        -> knowledgebase.tpl
+        -> knowledgebasearticle.tpl
+        -> knowledgebasecat.tpl
+	-> login.tpl
+        -> supportticketsubmit-steptwo.tpl
+        -> twitterfeed.tpl
+        -> upgrade-configure.tpl
+        -> viewinvoice.tpl
+
+     *. File Changes:
+	--------------------------
+	-> includes/head.tpl
+		=> Deleted:
+		-----------
+		Line 28: recaptchaSiteKey = "{$recaptchaSiteKey}";
+			
+		=> Added:
+		---------
+		Line 4: <link href="{$WEB_ROOT}/assets/css/fontawesome-all.min.css" rel="stylesheet">
+		Line 28: requiredText = '{lang key="orderForm.required"}',
+        	Line 29: recaptchaSiteKey = "{if $captcha}{$captcha->recaptcha->getSiteKey()}{/if}";
+	-> header.tpl
+	-----------------------------
+		=> Deleted:
+		-----------
+		Line 269: <form method="post" action="domainchecker.php">
+		Line 273: <input type="text" class="form-control" name="domain" placeholder="{$LANG.exampledomain}" autocapitalize="none" />
+		Line 276: <input type="submit" class="btn search" value="{$LANG.search}" />
+		Line 279: <input type="submit" name="transfer" class="btn transfer" value="{$LANG.domainstransfer}" />
+
+		=> Added:
+		---------
+		Line 269: <form method="post" action="domainchecker.php" id="frmDomainHomepage">
+		Line 273: <input type="text" class="form-control" name="domain" placeholder="{$LANG.exampledomain}" autocapitalize="none" data-toggle="tooltip" data-placement="left" data-trigger="manual" title="{lang key='orderForm.required'}" />
+		Line 276: <input type="submit" class="btn search{$captcha->getButtonClass($captchaForm)}" value="{$LANG.search}" />
+		Line 279: <input type="submit" name="transfer" class="btn transfer{$captcha->getButtonClass($captchaForm)}" value="{$LANG.domainstransfer}" />

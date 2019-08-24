@@ -1,0 +1,314 @@
+.preloader_status {
+	background-image: url(../../img/loading.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+#logo {
+	background: url(../../img/logo.png) no-repeat left bottom;
+}
+#logo-white {
+	background: url(../../img/logo-white.png) no-repeat left bottom;
+}
+.menu_bgmain #logo {
+    background: url("../../img/logo-white.png") no-repeat scroll left bottom rgba(0, 0, 0, 0);
+}
+.menu_bgmain.one #logo{
+    background: url("../../img/logo.png") no-repeat scroll left bottom rgba(0, 0, 0, 0);
+}
+.menu_bgmain.one #logo-white{
+    background: url("../../img/logo-white.png") no-repeat scroll left bottom rgba(0, 0, 0, 0);
+}
+.shadow {
+	background:url(../../img/shadow.png) no-repeat center bottom;
+}
+.title4 .line {
+    background:url(../../img/title-line-blue.png) no-repeat center bottom;
+}
+.crossed_shape {
+    background: rgba(0, 0, 0, 0) url("../../img/top_shape.png") no-repeat scroll center -1px;
+}
+.crossed_shape.two {
+    background: rgba(0, 0, 0, 0) url("../../img/bottom_shape.png") no-repeat scroll center 1px;
+}
+.section1 {
+	background:#119ee7 url(../../img/parallax_lines.png) repeat center top;
+}
+.section1.one {
+	background:#119ee7 url(../../img/parallax_lines.png) repeat center top;
+}
+.section1.four {
+	background:#119ee7 url(../../img/parallax_bg_10.png) repeat center top;
+}
+.section1.five {
+	background:#119ee7 url(../../img/texture_bg_7.png) repeat center top;
+}
+.section3 {
+	background:url(../../img/parallax_bg_1.png) no-repeat center top fixed;
+}
+.section3 .one_half .offerbadge{
+	background: rgba(0, 0, 0, 0) url("../../img/badge-white1.png") no-repeat scroll 0 0;
+}
+.section3.one {
+	background:url(../../img/parallax_bg_11.png) no-repeat center top fixed;
+}
+.section4 {
+	background:url(../../img/parallax_bg_2.png) repeat center bottom fixed;
+}
+.price-col .price{
+	background:url(../../img/circle-shape-small.png) no-repeat center top;
+}
+.section4.one {
+	background:url(../../img/parallax_bg_1.png) no-repeat center top fixed;
+}
+.section4.two {
+	background: url(../../img/parallax_bg_2.png) repeat left top;
+}
+.section4.two.three{
+	background:url(../../img/parallax_bg_9.png) repeat center top fixed;
+}
+.section4.two.four{
+	background:url(../../img/parallax_bg_9.png) repeat center top fixed;
+}
+.section4.five{
+	background:url(../../img/texture_bg_2.png) repeat center top fixed;
+}
+.section4.six {
+	background:url(../../img/parallax_bg_2.png) repeat center bottom fixed;
+}
+.section5 {
+	background:url(../../img/parallax_bg_3.png) repeat center bottom fixed;
+}
+.section5.one {
+	background:#119ee7 url(../../img/parallax_lines.png) repeat center top;
+}
+.section5.two {
+	background:url(../../img/parallax_bg_3.png) repeat center bottom fixed;
+}
+.fea-col .icon{
+	background:url(../../img/circle-shape-1.png) no-repeat center top;
+}
+.fea-col:hover .icon, .fea-col.active .icon{
+	background:url(../../img/circle-shape-2.png) no-repeat center top;
+}
+.section6.one {
+	background:url(../../img/parallax_bg_8.png) repeat center bottom fixed;
+}
+.section6.one .fea-col:hover .icon, .section6.one .fea-col.active .icon{
+	background:url(../../img/circle-shape-2.png) no-repeat center top;
+}
+.section7 {
+	background:url(../../img/parallax_bg_4.png) repeat center bottom fixed;
+}
+.section7.one {
+	background:url(../../img/parallax_bg_6.png) repeat center bottom fixed;
+}
+.section7.two{
+	background:url(../../img/parallax_bg_12.png) repeat center bottom fixed;
+}
+.section8 .post-img .hover-box {
+    background: url("../../img/site-img5.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.section8.one .post-col .text-col {
+	background:url(../../img/shape-arrow.png) no-repeat center top;
+}
+.section8.two .post-col .text-col {
+	background:url(../../img/shape-arrow.png) no-repeat center top;
+}
+.section9 .tp-banner3 .hover-box {
+    background: url("../../img/site-img2.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.section10.two {
+	background: url("../../img/texture_bg_13.png") repeat left top;
+}
+.section13{
+	background:url(../../img/texture_bg_1.png) repeat left top;
+}
+.section14 {
+	background:url(../../img/parallax_bg_5.png) no-repeat center top fixed;
+}
+.section14.two {
+	background:url(../../img/parallax_bg_5.png) no-repeat center top fixed;
+}
+.section16 .post_img .hover_box {
+    background: url("../../img/site-img5.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.section17 {
+	background:url(../../img/texture_bg_2.png) repeat center top;
+}
+.section19 {
+	background:url(../../img/parallax_bg_7.png) repeat center top fixed;
+}
+.section19.two {
+	background:url(../../img/parallax_bg_15.png) repeat center top fixed;
+}
+.section19.three {
+	background:#090909 url(../../img/parallax_bg_18.png) no-repeat center top;
+}
+.section19.four {
+	background:url(../../img/parallax_bg_7.png) repeat center top fixed;
+}
+.section19.five {
+	background:#090909 url(../../img/parallax_bg_18.png) no-repeat center top;
+}
+.section21 {
+	background:url(../../img/parallax_bg_6.png) repeat center bottom fixed;
+}
+.section22 .ser-col{
+	background:#5dc7fe url(../../img/box-shape-white.png) no-repeat center top;
+}
+.section22 .one_third:hover .ser-col, .section22 .one_third .ser-col.active{
+	background:#119ee7 url(../../img/box-shape-white.png) no-repeat center top;
+}
+.section24 .post-img .hover-box {
+    background: url("../../img/site-img5.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.background-image-holder{
+	background:url(../../img/site-img24.jpg) repeat scroll 50% 0 rgba(0, 0, 0, 0);
+}
+.background-image-holder.one{
+	background:url(../../img/site-img25.jpg) repeat scroll 50% 0 rgba(0, 0, 0, 0);
+}
+.background-image-holder.two{
+    background-position: 50% 50% !important;
+    background-size: cover !important;
+	background:url(../../img/site-img26.jpg) repeat scroll 50% 0 rgba(0, 0, 0, 0);
+}
+.background-image-holder.four{
+    background-position: 50% 50% !important;
+    background-size: cover !important;
+	background:url(../../img/site-img27.jpg) repeat scroll 50% 0 rgba(0, 0, 0, 0);
+}
+.section27 {
+	background: url("../../img/texture_bg_5.png") repeat left top;
+}
+.section27 .test-col-one .review{
+	background: url("../../img/site-img20.png") no-repeat left top;
+}
+.section27.two {
+	background: url("../../img/texture_bg_12.png") repeat left top;
+}
+.section27.three {
+	background: url("../../img/texture_bg_5.png") repeat left top;
+}
+.section28 {
+	background: url("../../img/texture_bg_2.png") repeat left top;
+}
+.section29 {
+	background: url("../../img/parallax_bg_7.png") no-repeat center top;
+}
+.section31 {
+	background: url("../../img/sliders/slide_bg13.jpg") no-repeat center top;
+}
+.section32{
+	background: url("../../img/texture_bg_9.png") repeat center top;
+}
+.section34.one{
+	background: url("../../img/texture_bg_11.png") repeat left top;
+}
+.section35{
+	background:url(../../img/parallax_bg_13.png) no-repeat center top;
+}
+.section35.one{
+	background:#0c0c0c url("../../img/parallax_bg_16.png") no-repeat center top;
+}
+.section36.one{
+	background: url("../../img/texture_bg_3.png") repeat left top;
+}
+.section37{
+	background:url(../../img/parallax_bg_14.png) no-repeat center bottom fixed;
+}
+.section37.one{
+	background:url(../../img/parallax_bg_17.png) no-repeat center bottom fixed;
+}
+.section39.one{
+	background:#161616 url(../../img/parallax_bg_19.png) no-repeat center top;
+}
+.section40 .img_holder .img {
+	background: url(../../img/site-img36.jpg) center top no-repeat;
+}
+.section40 .img_holder .img.two {
+	background: url(../../img/site-img37.jpg) center top no-repeat;
+}
+.section40 .img_holder .img.three {
+	background: url(../../img/site-img38.jpg) center top no-repeat;
+}
+.section40 .img_holder .img.four {
+	background: url(../../img/site-img39.jpg) center top no-repeat;
+}
+.section40 .img_holder .img.five {
+	background: url(../../img/site-img40.jpg) center top no-repeat;
+}
+.section40 .img_holder .img.six {
+	background: url(../../img/site-img41.jpg) center top no-repeat;
+}
+.section40 .img_holder .img.seven {
+	background: url(../../img/site-img42.jpg) center top no-repeat;
+}
+.section40 .img_holder .img.eight {
+	background: url(../../img/site-img43.jpg) center top no-repeat;
+}
+.section40 .img_holder .img.nine {
+	background: url(../../img/site-img44.jpg) center top no-repeat;
+}
+.section40 .img_holder .hover_circle {
+	background: url(../../img/site-img5.png) 0px 0px repeat;
+}
+.section41 .post_img .overley {
+    background: url("../../img/site-img5.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.page_header {
+    background: url("../../img/site-img32.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+}
+.page_header.two {
+    background: url("../../img/site-img33.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+}
+.page_header.three{
+    background: url("../../img/site-img34.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+}
+.page_header.four{
+    background: url("../../img/site-img35.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+}
+.page_header.five{
+    background: url("../../img/site-img36.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+}
+.page_header.six{
+    background: url("../../img/site-img37.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+}
+.img_ho_st2 .text:hover {
+	background: url(../../img/site-img5.png) left top repeat;
+}
+.img_ho_st3 .text:hover {
+	background: url(../../img/site-img5.png) left top repeat;
+}
+.img_ho_st4 .text {
+	background: url(../../img/site-img5.png) left top repeat;
+}
+.img_ho_st5 .text {
+	background: url(../../img/site-img5.png) left top repeat;
+}
+.img_ho_st6 .text {
+	background: url(../../img/site-img5.png) left top repeat;
+}
+.footer.one{
+	background:url(../../img/texture_bg_3.png) repeat left top;
+}
+.footer.two{
+	background:url(../../img/texture_bg_4.png) repeat left top;
+}
+.footer.four{
+	background:url(../../img/texture_bg_5.png) repeat left top;
+}
+.footer.five{
+	background:url(../../img/texture_bg_8.png) repeat left top;
+}
+.footer.six{
+	background:url(../../img/texture_bg_10.png) repeat left top;
+}
+.copyrights.one {
+	background:url(../../img/texture_bg_4.png) repeat left top;
+}
+.scrollup {
+	background: #119ee7 url(../../img/scroll-top-arrow.png) no-repeat 15px 14px;
+}

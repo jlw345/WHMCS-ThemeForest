@@ -1,0 +1,7 @@
+# Hostio Theme for WHMCS Configuration File
+
+name: "Hostio Theme for WHMCS"
+description: "Hostio - Html5 WHMCS Theme"
+author: "Brandio"
+properties:
+  serverSidePagination: false # Defines client side will handle pagination

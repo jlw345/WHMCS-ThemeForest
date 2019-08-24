@@ -1,0 +1,2792 @@
+/*
+
+[Main Stylesheet]
+
+Project: HostWHMCS - Responsive Web Hosting and WHMCS Template
+Version: 1.0
+Author : themelooks.com
+
+[Table of Contents]
+
+1. GENERAL STYLES
+    1.1. WRAPPER
+    1.2. CUSTOM BUTTONS
+    1.3. BACKGROUND IMAGE
+    1.4. BACKGROUND COLORS
+    1.5. SECTION TITLE
+    1.6. SECTION FOOTER
+    1.7. BACK TO TOP BUTTON
+    1.8. PRELOADER
+
+2. HEADER AREA
+    2.1. HEADER NAVBAR
+    2.2. HEADER LOGO
+    2.3. HEADER NAVBAR TOGGLE
+    2.4. HEADER NAV
+    2.5. HEADER NAVBAR DARK
+
+3. BANNER AREA
+    3.1. BANNER BACKGROUND ANIMATION
+    3.2. BANNER SLIDER
+    3.3. BANNER SLIDER PAGINATION
+    3.4. BANNER CONTENT
+
+4. SERVICES AREA
+    4.1. SERVICE ITEM
+    4.2. SERVICE ICON
+    4.3. SERVICE CONTENT
+
+5. ABOUT DESCRIPTION AREA
+    5.1. ABOUT DESCRIPTION IMAGE
+
+6. DOMAIN SEARCH AREA
+    6.1. SECTION TITLE
+    6.2. DOMAIN SEARCH INPUT TEXT
+    6.3. DOMAIN SEARCH INPUT RADIO
+    6.4. DARK THEME
+
+7. FEATURES AREA
+    7.1. FEATURE ITEM
+    7.2. FEATURE ICON
+    7.3. FEATURE CONTENT
+
+8. PRICING AREA
+    8.1. PRICING ITEM
+    8.2. PRICING BODY
+    8.3. PRICING ICON
+    8.4. PRICING TAG
+    8.5. PRICING DETAILS
+    8.6. PRICING FOOTER
+
+9. PRICING AREA 2
+    9.1. PRICING 2 HEADER
+    9.2. PRICING 2 TITLE
+    9.3. PRICING 2 PRICE
+
+10. PRICE DETAILS AREA
+    10.1. PRICE DETAILS HEAD
+    10.2. PRICE DETAILS BODY
+
+11. PRICE DETAILS 2 AREA
+
+12. DOMAIN EXTENSION AREA
+    12.1. DOMAIN EXTENSION SLIDER
+    12.2. DOMAIN EXTENSION CONTENT
+    12.3. DOMAIN EXTENSION NAME
+
+13. COUNTER AREA
+    13.1. COUNTER ITEM
+    13.2. COUNTER ICON
+    13.3. COUNTER CONTENT
+    13.4. COUNTER DARK
+
+14. COUNTER AREA 2
+    14.1. COUNTER 2 ITEM
+    14.2. COUNTER 2 CONTENT
+    14.3. COUNTER 2 DARK
+
+15. TEAM AREA
+    15.1. TEAM ITEM
+    15.2. TEAM SOCIAL
+
+16. FEEDBACK AREA
+    16.1. FEEDBACK NAV TABS
+    16.2. FEEDBACK TRIANGLE
+    16.3. FEEDBACK TABS
+    16.4. FEEDBACK TABS CONTENT
+    16.5. GRAY THEME
+
+17. BLOG AREA
+    17.1. BLOG POST
+    17.2. BLOG POST IMAGE
+    17.3. BLOG POST VIDEO
+    17.4. BLOG POST AUDIO
+    17.5. BLOG POST TITLE
+    17.6. BLOG POST META
+    17.7. BLOG POST CONTENT
+    17.8. BLOG POST FOOTER
+    17.9. BLOG POST COMMENTS
+    17.10. BLOG POST COMMENT FORM
+    17.11. BLOG POST PAGINATION
+    17.11. BLOG WIDGET
+    17.12. BLOG WIDGET TITLE
+    17.13. BLOG SEARCH WIDGET
+    17.14. BLOG RECENT POSTS WIDGET
+    17.15. BLOG LINKS WIDGET
+    17.16. BLOG TAGS WIDGET
+    17.17. BLOG TWITTER WIDGET
+
+18. SUBSCRIBE AREA
+    18.1. SUBSCRIBE STICKY
+    18.2. SECTION TITLE
+    18.3. SUBSCRIBE CONTENT
+    18.4. SUBSCRIBE FORM
+    18.5. MAP + SUBSCRIBE
+
+19. CLIENTS AREA
+
+20. FAQ AREA
+    20.1. FAQ CATEGORIES
+    20.2. FAQ CONTENT
+    20.3. FAQ PANEL SIMPLE
+
+21. LOGIN/SIGNUP AREA
+
+22. CONTACT AREA
+    22.1. CONTACT ADDRESS
+    22.2. CONTACT SOCIAL
+    22.3. CONTACT FORM
+
+23. MAP AREA
+
+24. FOOTER AREA
+    24.1. FOOTER BG
+    24.2. FOOTER WIDGET
+    24.3. FOOTER ABOUT WIDGET
+    24.4. FOOTER LINKS WIDGET
+    24.5. FOOTER CONTACT WIDGET
+    24.6. FOOTER COPYRIGHT
+
+25. 404 AREA
+    25.1. 404 TITLE
+    25.2. 404 SEARCH BAR
+
+26. PAGE HEADER AREA
+    26.1. PAGE TITLE BREADCRUMB
+    26.2. PAGE HEADER BREADCRUMB
+
+27. DOMAIN PAGE
+    27.1. DOMAIN SEARCH AREA
+
+28. HELPER CLASSES
+    28.1. RESET-GUTTER
+    28.2. RESET-MARGIN
+    28.3. RESET-PADDING
+    28.4. VERTICAL-CENTERING
+
+*/
+
+/*------------------------------------*\
+    1. GENERAL STYLES
+\*------------------------------------*/
+html,
+body {
+    height: 100%;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #737373;
+}
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+}
+p:last-child {
+    margin-bottom: 0;
+}
+.fa.fm {
+    margin-right: 10px;
+}
+
+/* 1.1. WRAPPER */
+.wrapper {
+    height: 100%;
+}
+
+/* 1.2. CUSTOM BUTTONS */
+.btn--primary {
+    display: inline-block;
+    padding: 9px 29px;
+    color: #fff;
+    background-color: #ff4719;
+    border: none;
+    border-radius: 30px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 900;
+    outline: 0;
+}
+
+.btn--ripple {
+    position: relative;
+    -webkit-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+    overflow: hidden;
+    z-index: 0;
+}
+.btn--ripple-ink {
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 100%;
+    -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+            transform: scale(0);
+}
+.btn--ripple-animate {
+    -webkit-animation: ripple 0.65s linear;
+            animation: ripple 0.65s linear;
+}
+
+@-webkit-keyframes ripple {
+    100% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        -webkit-transform: scale(2.5);
+    }
+}
+@keyframes ripple {
+    100% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        -webkit-transform: scale(2.5);
+                transform: scale(2.5);
+    }
+}
+
+/* 1.3. BACKGROUND IMAGE */
+.bg--img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* 1.4. BACKGROUND COLORS */
+.bg--whitesmoke {
+    background-color: #f8f8f8;
+    border-style: solid;
+    border-width: 1px 0;
+    border-color: #e9e9e9;
+}
+.bg--midnight {
+    background-color: #232c3b;
+}
+
+/* 1.5. SECTION TITLE */
+.section--title {
+    margin-top: -80px;
+    margin-bottom: 80px;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.section--title > .row {
+    display: table;
+    width: 100%;
+}
+.section--title > .row > .col-md-6 {
+    float: none;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.section--title h2 {
+    margin: 0;
+    color: #232c3b;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 900;
+}
+
+.section--title h2 span {
+    color: #ff4719;
+}
+.section--title.block h2 span {
+    display: block;
+}
+.section--title p {
+    padding: 40px 0 40px 40px;
+    border-left: 1px solid #e9e9e9;
+}
+
+/* 1.6. SECTION FOOTER */
+.section--footer {
+    margin-top: 60px;
+    text-align: center;
+}
+
+/* 1.7. BACK TO TOP BUTTON */
+#backToTop {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 999;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.25s ease-in-out;
+            transition: opacity 0.25s ease-in-out;
+}
+#backToTop.show {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+#backToTop a {
+    width: 55px;
+    padding: 12px 0 14px;
+    border-radius: 50%;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+/* 1.8. PRELOADER */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #232c3b;
+    z-index: 99999;
+}
+
+.preloader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 3.75em;
+    height: 4.25em;
+    margin-left: -1.875em;
+    margin-top: -2.125em;
+    -webkit-transform-origin: center center;
+            -ms-transform-origin: center center;
+        transform-origin: center center;
+    -webkit-transform: rotateY(180deg) rotateZ(-60deg);
+            transform: rotateY(180deg) rotateZ(-60deg);
+    font-size: 20px;
+}
+
+.preloader .slice {
+    border-top: 1.125em solid transparent;
+    border-right: none;
+    border-bottom: 1em solid transparent;
+    border-left: 1.875em solid #ff4719;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    -webkit-transform-origin: left bottom;
+            -ms-transform-origin: left bottom;
+        transform-origin: left bottom;
+    border-radius: 3px 3px 0 0;
+}
+
+.preloader.loading {
+    -webkit-animation: 2s preload-flip steps(2) infinite both;
+            animation: 2s preload-flip steps(2) infinite both;
+}
+.preloader.loading .slice:nth-child(1) {
+    -webkit-transform: rotateZ(60deg) rotateY(90deg) rotateX(0);
+            transform: rotateZ(60deg) rotateY(90deg) rotateX(0);
+    -webkit-animation: 2s preload-cycle-1 linear infinite both;
+            animation: 2s preload-cycle-1 linear infinite both;
+}
+.preloader.loading .slice:nth-child(2) {
+    -webkit-transform: rotateZ(120deg) rotateY(90deg) rotateX(0);
+            transform: rotateZ(120deg) rotateY(90deg) rotateX(0);
+    -webkit-animation: 2s preload-cycle-2 linear infinite both;
+            animation: 2s preload-cycle-2 linear infinite both;
+}
+.preloader.loading .slice:nth-child(3) {
+    -webkit-transform: rotateZ(180deg) rotateY(90deg) rotateX(0);
+            transform: rotateZ(180deg) rotateY(90deg) rotateX(0);
+    -webkit-animation: 2s preload-cycle-3 linear infinite both;
+            animation: 2s preload-cycle-3 linear infinite both;
+}
+.preloader.loading .slice:nth-child(4) {
+    -webkit-transform: rotateZ(240deg) rotateY(90deg) rotateX(0);
+            transform: rotateZ(240deg) rotateY(90deg) rotateX(0);
+    -webkit-animation: 2s preload-cycle-4 linear infinite both;
+            animation: 2s preload-cycle-4 linear infinite both;
+}
+.preloader.loading .slice:nth-child(5) {
+    -webkit-transform: rotateZ(300deg) rotateY(90deg) rotateX(0);
+            transform: rotateZ(300deg) rotateY(90deg) rotateX(0);
+    -webkit-animation: 2s preload-cycle-5 linear infinite both;
+            animation: 2s preload-cycle-5 linear infinite both;
+}
+.preloader.loading .slice:nth-child(6) {
+    -webkit-transform: rotateZ(360deg) rotateY(90deg) rotateX(0);
+            transform: rotateZ(360deg) rotateY(90deg) rotateX(0);
+    -webkit-animation: 2s preload-cycle-6 linear infinite both;
+            animation: 2s preload-cycle-6 linear infinite both;
+}
+
+@-webkit-keyframes preload-cycle-1 {
+    5% {
+        -webkit-transform: rotateZ(60deg) rotateY(90deg) rotateX(0deg);
+                transform: rotateZ(60deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #9c2f2f;
+    }
+    10%,
+    75% {
+        -webkit-transform: rotateZ(60deg) rotateY(0) rotateX(0deg);
+                transform: rotateZ(60deg) rotateY(0) rotateX(0deg);
+        border-left-color: #ff4719;
+    }
+    80%,
+    100% {
+        -webkit-transform: rotateZ(60deg) rotateY(90deg) rotateX(0deg);
+                transform: rotateZ(60deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #9c2f2f;
+    }
+}
+@keyframes preload-cycle-1 {
+    5% {
+        -webkit-transform: rotateZ(60deg) rotateY(90deg) rotateX(0deg);
+                transform: rotateZ(60deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #9c2f2f;
+    }
+    10%,
+    75% {
+        -webkit-transform: rotateZ(60deg) rotateY(0) rotateX(0deg);
+                transform: rotateZ(60deg) rotateY(0) rotateX(0deg);
+        border-left-color: #ff4719;
+    }
+    80%,
+    100% {
+        -webkit-transform: rotateZ(60deg) rotateY(90deg) rotateX(0deg);
+                transform: rotateZ(60deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #9c2f2f;
+    }
+}
+
+@-webkit-keyframes preload-cycle-2 {
+    10% {
+        -webkit-transform: rotateZ(120deg) rotateY(90deg) rotateX(0deg);
+                transform: rotateZ(120deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #9c2f2f;
+    }
+    15%,
+    70% {
+        -webkit-transform: rotateZ(120deg) rotateY(0) rotateX(0deg);
+                transform: rotateZ(120deg) rotateY(0) rotateX(0deg);
+        border-left-color: #ff4719;
+    }
+    75%,
+    100% {
+        -webkit-transform: rotateZ(120deg) rotateY(90deg) rotateX(0deg);
+                transform: rotateZ(120deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #9c2f2f;
+    }
+}
+@keyframes preload-cycle-2 {
+    10% {
+        -webkit-transform: rotateZ(120deg) rotateY(90deg) rotateX(0deg);
+                transform: rotateZ(120deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #9c2f2f;
+    }
+    15%,
+    70% {
+        -webkit-transform: rotateZ(120deg) rotateY(0) rotateX(0deg);
+                transform: rotateZ(120deg) rotateY(0) rotateX(0deg);
+        border-left-color: #ff4719;
+    }
+    75%,
+    100% {
+        -webkit-transform: rotateZ(120deg) rotateY(90deg) rotateX(0deg);
+                transform: rotateZ(120deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #9c2f2f;
+    }
+}
+
+@-webkit-keyframes preload-cycle-3 {
+    15% {
+        -webkit-transform: rotateZ(180deg) rotateY(90deg) rotateX(0deg);
+                transform: rotateZ(180deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #9c2f2f;
+    }
+    20%,
+    65% {
+        -webkit-transform: rotateZ(180deg) rotateY(0) rotateX(0deg);
+                transform: rotateZ(180deg) rotateY(0) rotateX(0deg);
+        border-left-color: #ff4719;
+    }
+    70%,
+    100% {
+        -webkit-transform: rotateZ(180deg) rotateY(90deg) rotateX(0deg);
+                transform: rotateZ(180deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #9c2f2f;
+    }
+}
+@keyframes preload-cycle-3 {
+    15% {
+        -webkit-transform: rotateZ(180deg) rotateY(90deg) rotateX(0deg);
+                transform: rotateZ(180deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #9c2f2f;
+    }
+    20%,
+    65% {
+        -webkit-transform: rotateZ(180deg) rotateY(0) rotateX(0deg);
+                transform: rotateZ(180deg) rotateY(0) rotateX(0deg);
+        border-left-color: #ff4719;
+    }
+    70%,
+    100% {
+        -webkit-transform: rotateZ(180deg) rotateY(90deg) rotateX(0deg);
+                transform: rotateZ(180deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #9c2f2f;
+    }
+}
+
+@-webkit-keyframes preload-cycle-4 {
+    20% {
+        -webkit-transform: rotateZ(240deg) rotateY(90deg) rotateX(0deg);
+                transform: rotateZ(240deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #9c2f2f;
+    }
+    25%,
+    60% {
+        -webkit-transform: rotateZ(240deg) rotateY(0) rotateX(0deg);
+                transform: rotateZ(240deg) rotateY(0) rotateX(0deg);
+        border-left-color: #ff4719;
+    }
+    65%,
+    100% {
+        -webkit-transform: rotateZ(240deg) rotateY(90deg) rotateX(0deg);
+                transform: rotateZ(240deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #9c2f2f;
+    }
+}
+@keyframes preload-cycle-4 {
+    20% {
+        -webkit-transform: rotateZ(240deg) rotateY(90deg) rotateX(0deg);
+                transform: rotateZ(240deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #9c2f2f;
+    }
+    25%,
+    60% {
+        -webkit-transform: rotateZ(240deg) rotateY(0) rotateX(0deg);
+                transform: rotateZ(240deg) rotateY(0) rotateX(0deg);
+        border-left-color: #ff4719;
+    }
+    65%,
+    100% {
+        -webkit-transform: rotateZ(240deg) rotateY(90deg) rotateX(0deg);
+                transform: rotateZ(240deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #9c2f2f;
+    }
+}
+
+@-webkit-keyframes preload-cycle-5 {
+    25% {
+        -webkit-transform: rotateZ(300deg) rotateY(90deg) rotateX(0deg);
+                transform: rotateZ(300deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #9c2f2f;
+    }
+    30%,
+    55% {
+        -webkit-transform: rotateZ(300deg) rotateY(0) rotateX(0deg);
+                transform: rotateZ(300deg) rotateY(0) rotateX(0deg);
+        border-left-color: #ff4719;
+    }
+    60%,
+    100% {
+        -webkit-transform: rotateZ(300deg) rotateY(90deg) rotateX(0deg);
+                transform: rotateZ(300deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #9c2f2f;
+    }
+}
+@keyframes preload-cycle-5 {
+    25% {
+        -webkit-transform: rotateZ(300deg) rotateY(90deg) rotateX(0deg);
+                transform: rotateZ(300deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #9c2f2f;
+    }
+    30%,
+    55% {
+        -webkit-transform: rotateZ(300deg) rotateY(0) rotateX(0deg);
+                transform: rotateZ(300deg) rotateY(0) rotateX(0deg);
+        border-left-color: #ff4719;
+    }
+    60%,
+    100% {
+        -webkit-transform: rotateZ(300deg) rotateY(90deg) rotateX(0deg);
+                transform: rotateZ(300deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #9c2f2f;
+    }
+}
+
+@-webkit-keyframes preload-cycle-6 {
+    30% {
+        -webkit-transform: rotateZ(360deg) rotateY(90deg) rotateX(0deg);
+                transform: rotateZ(360deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #9c2f2f;
+    }
+    35%,
+    50% {
+        -webkit-transform: rotateZ(360deg) rotateY(0) rotateX(0deg);
+                transform: rotateZ(360deg) rotateY(0) rotateX(0deg);
+        border-left-color: #ff4719;
+    }
+    55%,
+    100% {
+        -webkit-transform: rotateZ(360deg) rotateY(90deg) rotateX(0deg);
+                transform: rotateZ(360deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #9c2f2f;
+    }
+}
+@keyframes preload-cycle-6 {
+    30% {
+        -webkit-transform: rotateZ(360deg) rotateY(90deg) rotateX(0deg);
+                transform: rotateZ(360deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #9c2f2f;
+    }
+    35%,
+    50% {
+        -webkit-transform: rotateZ(360deg) rotateY(0) rotateX(0deg);
+                transform: rotateZ(360deg) rotateY(0) rotateX(0deg);
+        border-left-color: #ff4719;
+    }
+    55%,
+    100% {
+        -webkit-transform: rotateZ(360deg) rotateY(90deg) rotateX(0deg);
+                transform: rotateZ(360deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #9c2f2f;
+    }
+}
+
+@-webkit-keyframes preload-flip {
+    0% {
+        -webkit-transform: rotateY(0deg) rotateZ(-60deg);
+                transform: rotateY(0deg) rotateZ(-60deg);
+    }
+    100% {
+        -webkit-transform: rotateY(360deg) rotateZ(-60deg);
+                transform: rotateY(360deg) rotateZ(-60deg);
+    }
+}
+@keyframes preload-flip {
+    0% {
+        -webkit-transform: rotateY(0deg) rotateZ(-60deg);
+                transform: rotateY(0deg) rotateZ(-60deg);
+    }
+    100% {
+        -webkit-transform: rotateY(360deg) rotateZ(-60deg);
+                transform: rotateY(360deg) rotateZ(-60deg);
+    }
+}
+
+/*------------------------------------*\
+    2. HEADER AREA
+\*------------------------------------*/
+/* 2.1. HEADER NAVBAR */
+.header--navbar {
+    margin-bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    -webkit-transition: padding 0.25s ease-in-out, background-color 0.25s ease-in-out, box-shadow 0.25s ease;
+            transition: padding 0.25s ease-in-out, background-color 0.25s ease-in-out, box-shadow 0.25s ease;
+}
+#header.sticky .header--navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.14), 0 2px 4px rgba(0, 0, 0, 0.28);
+}
+#header.sticky .header--navbar a {
+    color: #232c3b;
+    -webkit-transition: color 0.25s ease;
+            transition: color 0.25s ease;
+}
+
+/* 2.2. HEADER LOGO */
+.header--logo {
+    height: auto;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 900;
+}
+.header--logo span {
+    color: #ff4719;
+}
+
+/* 2.3. HEADER NAVBAR TOGGLE */
+.header--navbar .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+/* 2.4. HEADER NAV */
+#headerNav .nav > li > a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    -webkit-transition: color 0.25s ease;
+            transition: color 0.25s ease;
+}
+#headerNav .nav > li > a:hover,
+#headerNav .nav > li > a:focus,
+#headerNav .nav > .open > a,
+#headerNav .nav > .open > a:hover,
+#headerNav .nav > .open > a:focus {
+    background-color: transparent;
+}
+#headerNav .nav > li > a:hover,
+#headerNav .nav > li.active > a,
+#headerNav .nav > .dropdown.open > a {
+    color: #ff4719;
+}
+#headerNav .nav > li.active > a {
+    font-weight: 900;
+}
+#headerNav .nav > .dropdown > a > .caret {
+    margin-left: 5px;
+}
+#headerNav .nav > .dropdown > .dropdown-menu > li > a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    -webkit-transition: color 0.25s ease, background-color 0.25s ease-in-out;
+            transition: color 0.25s ease, background-color 0.25s ease-in-out;
+}
+#headerNav .nav > .dropdown > .dropdown-menu > li > a:hover,
+#headerNav .nav > .dropdown > .dropdown-menu > li > a:focus,
+#headerNav .nav > .dropdown > .dropdown-menu > li.active > a {
+    color: #fff;
+    background-color: #ff4719;
+}
+.header--login-btn {
+    float: right;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+#header.sticky .header--login-btn a.btn--primary {
+    color: #fff;
+}
+
+/* 2.5. HEADER NAVBAR DARK */
+.header--navbar.dark {
+    background-color: #232c3b;
+}
+
+/*------------------------------------*\
+    3. BANNER AREA
+\*------------------------------------*/
+#banner {
+    position: relative;
+    height: 100%;
+    background-color: #232c3b;
+    overflow: hidden;
+    z-index: 0;
+}
+
+/* 3.1. BANNER BACKGROUND ANIMATION */
+.banner--bg-animate {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-position: bottom right;
+    z-index: -1;
+}
+
+/* 3.2. BANNER SLIDER */
+#banner .bx-wrapper {
+    margin-bottom: 0;
+}
+#banner .bx-viewport {
+    left: 0;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+/* 3.3. BANNER SLIDER PAGINATION */
+#banner .bx-controls {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    overflow: hidden;
+    z-index: 1;
+}
+#banner .bx-pager {
+    position: relative;
+    bottom: auto;
+    float: right;
+    width: auto;
+    padding-top: 0;
+    font-size: 0;
+}
+#banner .bx-pager-item {
+    display: block;
+}
+#banner .bx-pager-link {
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin: 8px 0;
+    color: transparent;
+    background-color: transparent;
+    border: 2px solid #ff4719;
+    border-radius: 50%;
+    text-indent: 0;
+    -webkit-transition: background-color 0.25s ease-in-out;
+            transition: background-color 0.25s ease-in-out;
+}
+#banner .bx-pager-link.active {
+    background-color: #ff4719;
+}
+
+/* 3.4. BANNER CONTENT */
+.banner--content {
+    padding: 60px 0;
+    color: #fff;
+}
+.banner--content h2 {
+    margin: 0;
+    color: #ff4719;
+    font-size: 38px;
+    line-height: 46px;
+    font-weight: 900;
+}
+.banner--content h3 {
+    margin: 0;
+    font-size: 26px;
+    line-height: 34px;
+    font-weight: 900;
+}
+.banner--content p {
+    margin: 20px 0;
+}
+.banner--content ul {
+    margin: 20px 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+.banner--content ol {
+    margin: 0;
+    padding-left: 18px;
+    overflow: hidden;
+}
+.banner--content ul li,
+.banner--content ol li {
+    float: left;
+    width: 50%;
+}
+.banner--content ul li:before {
+    content: "\f05d";
+    font-family: "FontAwesome";
+    margin-right: 10px;
+    color: #ff4719;
+}
+.banner--content .btn--primary {
+    margin-top: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*------------------------------------*\
+    4. SERVICES AREA
+\*------------------------------------*/
+#services {
+    padding: 80px 0 77px;
+}
+
+/* 4.1. SERVICE ITEM */
+.service--item {
+    overflow: hidden;
+}
+
+/* 4.2. SERVICE ICON */
+.service--icon {
+    display: table-cell;
+    vertical-align: top;
+}
+
+/* 4.3. SERVICE CONTENT */
+.service--content {
+    padding-left: 30px;
+    display: table-cell;
+    vertical-align: top;
+}
+.service--content h3 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 900;
+}
+.service--content h3 span {
+    color: #ff4719;
+}
+
+/*------------------------------------*\
+    5. ABOUT DESCRIPTION AREA
+\*------------------------------------*/
+#aboutDesc {
+    padding: 80px 0;
+}
+#aboutDesc > .container > .row > div {
+    float: none;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* 5.1. ABOUT DESCRIPTION IMAGE */
+.about-desc--img img {
+    width: 100%;
+}
+
+/*------------------------------------*\
+    6. DOMAIN SEARCH AREA
+\*------------------------------------*/
+#domainSearch {
+    position: relative;
+    padding: 80px 0;
+}
+#domainSearch:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+    background-image: url("img/domain-search-img/01.png");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+
+/* 6.1. SECTION TITLE */
+#domainSearch .section--title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    border: none;
+}
+#domainSearch .section--title h2 {
+    padding-top: 0;
+}
+
+/* 6.2. DOMAIN SEARCH INPUT TEXT */
+.domain-search--form .input--text {
+    position: relative;
+}
+.domain-search--form .input--text input {
+    padding: 0;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0 0 1px;
+    border-color: #737373;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 18px;
+    line-height: 26px;
+}
+.domain-search--form .input--text .highlight {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ff4719;
+    -webkit-transition: width 0.55s ease-in-out, background-color 0.25s ease-in-out;
+            transition: width 0.55s ease-in-out, background-color 0.25s ease-in-out;
+}
+.domain-search--form .input--text input:focus + .highlight,
+.domain-search--form .input--text input.error + .highlight {
+    width: 100%;
+}
+.domain-search--form .input--text input.valid + .highlight {
+    background-color: #5cb85c;
+}
+
+/* 6.3. DOMAIN SEARCH INPUT RADIO */
+.domain-search--form .input--radio {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.domain-search--form .input--radio .radio-inline {
+    display: table-cell;
+    width: 1%;
+    margin: 0;
+}
+.domain-search--form .input--radio .radio-inline input {
+    margin-top: 8px;
+    visibility: hidden;
+}
+.domain-search--form .input--radio .radio-inline span {
+    position: relative;
+}
+.domain-search--form .input--radio .radio-inline span:before {
+    content: " ";
+    position: absolute;
+    top: 4px;
+    left: -20px;
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    border: 2px solid #737373;
+    border-radius: 50%;
+    -webkit-transition: border-color 0.25s ease, background-color 0.25s ease-in-out;
+            transition: border-color 0.25s ease, background-color 0.25s ease-in-out;
+}
+.domain-search--form .input--radio .radio-inline input:checked + span:before {
+    background-color: #ff4719;
+    border-color: #ff4719;
+}
+
+/* 6.4. DARK THEME */
+#domainSearch.bg--midnight .section--title h2,
+.bg--midnight .domain-search--form,
+.bg--midnight .domain-search--form .input--text input {
+    color: #fff;
+}
+.bg--midnight .domain-search--form .input--text input,
+.bg--midnight .domain-search--form .input--radio .radio-inline span:before {
+    border-color: #fff;
+}
+
+/*------------------------------------*\
+    7. FEATURES AREA
+\*------------------------------------*/
+#features {
+    padding: 77px 0;
+}
+
+/* 7.1. FEATURE ITEM */
+.feature--item {
+    text-align: center;
+}
+
+/* 7.2. FEATURE ICON */
+.feature--icon {
+    margin-bottom: 25px;
+}
+
+/* 7.3. FEATURE CONTENT */
+.feature--content h2 {
+    margin: 0 0 15px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 900;
+}
+.feature--content h2 span {
+    color: #ff4719;
+}
+
+/*------------------------------------*\
+    8. PRICING AREA
+\*------------------------------------*/
+#pricing {
+    padding: 80px 0;
+}
+
+/* 8.1. PRICING ITEM */
+.pricing--item {
+    margin-top: 80px;
+    padding-bottom: 47px;
+    background-color: #f8f8f8;
+    border: 1px solid #f0f0f0;
+    text-align: center;
+    -webkit-transition: box-shadow .25s ease;
+            transition: box-shadow .25s ease;
+}
+.pricing--item:hover {
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,.14),0 6px 30px 5px rgba(0,0,0,.12),0 8px 10px -5px rgba(0,0,0,.2);
+}
+.pricing--item.raised {
+    position: relative;
+    margin-top: 50px;
+    padding-bottom: 77px;
+    color: #fff;
+    background-color: #232c3b;
+    border: none;
+    z-index: 1;
+}
+.pricing--item.raised:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: -15px;
+    right: -15px;
+    bottom: 0;
+    background-color: #232c3b;
+    z-index: -1;
+}
+
+/* 8.2. PRICING BODY */
+.pricing--body {
+    padding-top: 50px;
+}
+.pricing--header + .pricing--body {
+    padding-top: 0;
+}
+.pricing--item.raised .pricing--body {
+    padding-top: 30px;
+}
+.pricing--item.raised .pricing--header + .pricing--body {
+    padding-top: 30px;
+}
+
+/* 8.3. PRICING ICON */
+.pricing--icon {
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+/* 8.4. PRICING TAG */
+.pricing--tag {
+    margin-bottom: 5px;
+}
+.pricing--tag p strong {
+    display: block;
+    margin-top: 5px;
+    color: #ff4719;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+/* 8.5. PRICING DETAILS */
+.pricing--details {
+    padding: 0 35px;
+}
+.pricing--details h2 {
+    margin: 0 0 5px;
+    font-size: 30px;
+    line-height: 38px;
+}
+.pricing--details h2 strong {
+    color: #ff4719;
+    font-weight: inherit;
+}
+
+/* 8.6. PRICING FOOTER */
+.pricing--footer {
+    margin-top: 45px;
+}
+
+/*------------------------------------*\
+    9. PRICING AREA 2
+\*------------------------------------*/
+#pricing2 {
+    padding: 80px 0;
+}
+
+/* 9.1. PRICING 2 HEADER */
+.pricing-2--header {
+    position: relative;
+    padding: 50px 15px 40px;
+    background-color: #f0f0f0;
+    border-top: 2px solid #ff4719;
+    text-align: center;
+    -webkit-transition: color 0.25s ease;
+            transition: color 0.25s ease;
+    z-index: 0;
+}
+.pricing-2--header:hover {
+    color: #fff;
+}
+.pricing-2--header:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #ff4719;
+    -webkit-transition: height 0.25s ease-in-out;
+            transition: height 0.25s ease-in-out;
+    z-index: -1;
+}
+.pricing-2--header:hover:before {
+    height: 100%;
+}
+
+/* 9.2. PRICING 2 TITLE */
+.pricing-2--title {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+/* 9.3. PRICING 2 PRICE */
+.pricing-2--price {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 900;
+}
+
+/*------------------------------------*\
+    10. PRICE DETAILS AREA
+\*------------------------------------*/
+#priceDetails {
+    padding: 80px 0;
+    border-top: 1px solid #e9e9e9;
+}
+.bg--whitesmoke .price-details--item.body .content {
+    background-color: #fff;
+}
+
+/* 10.1. PRICE DETAILS HEAD */
+.price-details--item.head .content,
+.price-details--item.body .content {
+    border-top: 1px solid #e9e9e9;
+}
+.price-details--item.head .content ul,
+.price-details--item.body .content ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.price-details--item.head .content li {
+    padding: 10px 20px;
+    border-style: solid;
+    border-width: 0 1px 1px;
+    border-color: #e9e9e9;
+    background-color: #fff;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.price-details--item.head .content li:nth-child(odd) {
+    background-color: #f0f0f0;
+}
+
+/* 10.2. PRICE DETAILS BODY */
+.price-details--item.body .content li {
+    border: 0;
+    padding: 10px 20px;
+    border-right: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+    overflow: hidden;
+}
+.price-details--item.body .content li:nth-child(odd) {
+    background-color: #f0f0f0;
+}
+.price-details--item.body .content .action-btn {
+    padding: 20px 0;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: #e9e9e9;
+    text-align: center;
+}
+.price-details--item.body:nth-child(2) .content .action-btn {
+    border-left: 1px solid #e9e9e9;
+}
+
+/*------------------------------------*\
+    11. PRICE DETAILS 2 AREA
+\*------------------------------------*/
+#priceDetails2 {
+    padding: 80px 0;
+    border-top: 1px solid #e9e9e9;
+}
+#priceDetails2.no--bd {
+    border: none;
+}
+.price-details-2--content table {
+    border: 1px solid #ccc;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.price-details-2--content table thead {
+    background-color: #232c3b;
+    color: #fff;
+}
+.price-details-2--content table thead th {
+    padding: 15px;
+}
+.price-details-2--content table tr {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+.price-details-2--content table th,
+.price-details-2--content table td {
+    padding: 10px 15px;
+}
+.price-details-2--content table th {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.price-details-2--content.text-center table th {
+    text-align: center;
+}
+.price-details-2--content table tbody td {
+    background-color: #fff;
+}
+.price-details-2--content table tbody tr:nth-child(even) td {
+    background-color: #f8f8f8;
+}
+.price-details-2--content.title--bold table tbody td:first-child {
+    font-weight: 900;
+}
+.price-details-2--content table tbody td .btn--primary {
+    white-space: nowrap;
+}
+
+/*------------------------------------*\
+    12. DOMAIN EXTENSION AREA
+\*------------------------------------*/
+#domainExt {
+    padding: 80px 0;
+    background-color: #e9e9e9;
+}
+
+/* 12.1. DOMAIN EXTENSION SLIDER */
+#domainExt .bx-wrapper {
+    margin-bottom: 0;
+}
+#domainExt .bx-viewport {
+    background-color: transparent;
+    border: none;
+}
+
+/* 12.2. DOMAIN EXTENSION CONTENT */
+.domain-ext--content {
+    position: relative;
+    padding: 5px 15px 15px;
+    background-color: #fff;
+    border-top: 2px solid #ff4719;
+    text-align: center;
+    -webkit-transition: color 0.25s ease;
+            transition: color 0.25s ease;
+    z-index: 0;
+}
+.domain-ext--content:hover {
+    color: #fff;
+}
+.domain-ext--content:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    background-color: #ff4719;
+    -webkit-transition: height 0.25s ease;
+            transition: height 0.25s ease;
+    z-index: -1;
+}
+.domain-ext--content:hover:before {
+    height: 100%;
+}
+
+/* 12.3. DOMAIN EXTENSION NAME */
+.domain-ext--name {
+    position: relative;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: 900;
+}
+.domain-ext--name:before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 50px;
+    height: 1px;
+    margin: 0 auto;
+    background-color: #ff4719;
+    -webkit-transition: background-color 0.25s ease-in-out;
+            transition: background-color 0.25s ease-in-out;
+}
+.domain-ext--content:hover .domain-ext--name:before {
+    background-color: #fff;
+}
+
+/*------------------------------------*\
+    13. COUNTER AREA
+\*------------------------------------*/
+#counter {
+    padding: 77px 0 47px;
+}
+
+/* 13.1. COUNTER ITEM */
+.counter--item-h {
+    margin-bottom: 30px;
+}
+
+.counter--item {
+    overflow: hidden;
+}
+
+/* 13.2. COUNTER ICON */
+.counter--icon {
+    float: left;
+    margin-right: 30px;
+}
+
+/* 13.3. COUNTER CONTENT */
+.counter--num {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 900;
+}
+
+/* 13.4. COUNTER DARK */
+#counter.bg--midnight {
+    color: #fff;
+}
+
+/*------------------------------------*\
+    14. COUNTER AREA 2
+\*------------------------------------*/
+#counter2 {
+    padding: 77px 0 47px;
+}
+
+/* 14.1. COUNTER 2 ITEM */
+.counter-2--item {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+/* 14.2. COUNTER 2 CONTENT */
+.counter-2--content {
+    text-align: center;
+}
+.counter-2--num {
+    margin-bottom: 10px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #ff4719;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 900;
+}
+
+/* 14.3. COUNTER 2 DARK */
+#counter2.bg--midnight {
+    color: #fff;
+}
+
+/*------------------------------------*\
+    15. TEAM AREA
+\*------------------------------------*/
+#team {
+    padding: 80px 0 50px;
+}
+
+/* 15.1. TEAM ITEM */
+.team--item {
+    margin-bottom: 30px;
+}
+
+.team--name {
+    margin: 0;
+    padding: 20px 0 10px;
+    font-weight: 900;
+    text-align: center;
+}
+.team--name a {
+    color: #737373;
+    -webkit-transition: color 0.25s ease;
+            transition: color 0.25s ease;
+}
+.team--item:hover .team--name a {
+    color: #ff4719;
+}
+.team--role {
+    color: #737373;
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+/* 15.2. TEAM SOCIAL */
+.team--social-links {
+    margin-top: 10px;
+    text-align: center;
+}
+.team--social-links ul {
+    display: inline-block;
+    font-size: 0;
+    float: none;
+}
+.team--social-links ul li a {
+    font-size: 15px;
+    color: #acacac;
+    padding: 0px 15px;
+    -webkit-transition: color 0.25s ease;
+            transition: color 0.25s ease;
+}
+.team--social-links ul li a:hover,
+.team--social-links ul li a:focus {
+    color: #ff4719;
+    background-color: transparent;
+}
+
+/*------------------------------------*\
+    16. FEEDBACK AREA
+\*------------------------------------*/
+#feedback {
+    padding: 80px 0;
+}
+
+/* 16.1. FEEDBACK NAV TABS */
+.feedback--nav-tabs {
+    position: relative;
+    font-size: 0;
+    line-height: 0;
+    text-align: center;
+}
+.feedback--nav-tabs .nav-tabs {
+    display: inline-block;
+    border: none;
+    font-size: 0;
+}
+.feedback--nav-tabs .nav-tabs li {
+    width: 25%;
+    margin-bottom: 0;
+    padding: 0 10px;
+}
+.feedback--nav-tabs .nav-tabs li:last-child {
+    margin-right: 0;
+}
+.feedback--nav-tabs .nav-tabs li a {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.feedback--nav-tabs .nav-tabs li a:hover,
+.feedback--nav-tabs .nav-tabs li a:focus,
+.feedback--nav-tabs .nav-tabs li.active a {
+    border: none;
+}
+
+.feedback--nav-tabs .nav-tabs > li > a > img {
+    max-width: 100%;
+}
+
+/* 16.2. FEEDBACK TRIANGLE */
+.feedback--triangle {
+    position: absolute;
+    bottom: -38px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 25px 25px 25px;
+    border-color: transparent transparent #f8f8f8 transparent;
+    -webkit-transition: left 0.25s ease-in-out;
+            transition: left 0.25s ease-in-out;
+}
+
+/* 16.3. FEEDBACK TABS */
+.feedback--tabs {
+    margin-top: 30px;
+}
+
+/* 16.4. FEEDBACK TABS CONTENT */
+.feedback--tabs .tab-content {
+    padding: 30px;
+    background-color: #f8f8f8;
+    box-shadow: 0px 0 1px 0px #e9e9e9;
+}
+.feedback--tabs .tab-content blockquote {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 16px;
+}
+
+/* 16.5. GRAY THEME */
+.bg--whitesmoke .feedback--tabs .tab-content {
+    background-color: #fff;
+}
+.bg--whitesmoke .feedback--triangle {
+    border-bottom-color: #fff;
+}
+
+/*------------------------------------*\
+    17. BLOG AREA
+\*------------------------------------*/
+#blog {
+    padding: 80px 0;
+}
+
+/* 17.1. BLOG POST */
+.blog--post {
+    margin-bottom: 30px;
+}
+.blog--post:last-child {
+    margin-bottom: 0;
+}
+
+/* 17.2. BLOG POST IMAGE */
+.blog--post-img img {
+    display: block;
+    width: 100%;
+}
+
+/* 17.3. BLOG POST VIDEO */
+.blog--post-video video {
+    max-width: 100%;
+    background-color: #000;
+}
+
+/* 17.4. BLOG POST AUDIO */
+.blog--post-audio audio {
+    width: 100%;
+}
+
+/* 17.5. BLOG POST TITLE */
+.blog--post-title {
+    padding: 22px 0 28px;
+}
+.blog--post-title h2 {
+    margin: 0;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 900;
+    word-wrap: break-word;
+}
+.blog--post-title h2 a {
+    display: block;
+    color: #737373;
+    -webkit-transition: color 0.25s ease;
+            transition: color 0.25s ease;
+}
+.blog--post-title h2 a:hover,
+.blog--post-title h2 a:focus {
+    color: #ff4719;
+}
+
+/* 17.6. BLOG POST META */
+.blog--post-meta {
+    padding: 10px 0;
+    border-style: solid;
+    border-width: 1px 0;
+    border-color: #e9e9e9;
+}
+.blog--post-meta .separator {
+    margin: 0 8px;
+}
+.blog--post-meta a {
+    color: #737373;
+    -webkit-transition: color 0.25s ease;
+            transition: color 0.25s ease;
+}
+.blog--post-meta a:hover,
+.blog--post-meta a:focus {
+    color: #ff4719;
+}
+
+/* 17.7. BLOG POST CONTENT */
+.blog--post-content {
+    padding-top: 25px;
+    padding-bottom: 23px;
+    border-bottom: 1px solid #e9e9e9;
+}
+.blog--post-content blockquote {
+    margin-bottom: 14px;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #f8f8f8;
+}
+.blog--post-content .read--more {
+    margin-top: 13px;
+}
+
+/* 17.8. BLOG POST FOOTER */
+.blog--post-footer {
+    padding: 25px 0;
+    border-bottom: 1px solid #e9e9e9;
+}
+.blog--post-footer a {
+    color: #737373;
+    -webkit-transition: color 0.25s ease;
+            transition: color 0.25s ease;
+}
+.blog--post-footer a:hover,
+.blog--post-footer a:focus {
+    color: #ff4719;
+}
+.blog--post-footer .tags + .cats,
+.blog--post-footer .cats + .tags {
+    margin-top: 20px;
+}
+.blog--post-footer .cats a,
+.blog--post-footer .tags a {
+    margin-left: 10px;
+}
+.blog--post-footer .author {
+    margin-top: 27px;
+    margin-bottom: 5px;
+    background-color: #f0f0f0;
+}
+.blog--post-footer .author a {
+    margin-left: 12px;
+}
+.blog--post-footer .share {
+    margin-top: 42px;
+    text-align: right;
+}
+.blog--post-footer .share ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+.blog--post-footer .share li {
+    display: inline-block;
+    margin-left: 4px;
+}
+.blog--post-footer .share li a {
+    color: #fff;
+    width: 40px;
+    padding: 9px 0;
+    text-align: center;
+}
+
+/* 17.9. BLOG POST COMMENTS */
+.blog--post-comments-title {
+    margin-top: -1px;
+    padding: 23px 0 0;
+    border-top: 1px solid #e9e9e9;
+}
+.blog--post-comments-title h3 {
+    position: relative;
+    margin: 0;
+    padding-bottom: 8px;
+    font-size: 26px;
+    line-height: 34px;
+    font-weight: 900;
+}
+.blog--post-comments-title h3:before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 1px;
+    background-color: #ff4719;
+}
+.blog--post-comment {
+    padding: 30px 0;
+    border-bottom: 1px solid #e9e9e9;
+}
+.blog--post-comments ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.blog--post-comments ul ul {
+    padding-left: 30px;
+}
+.blog--post-comment-img {
+    display: table-cell;
+    vertical-align: middle;
+}
+.blog--post-comment-meta {
+    padding-left: 15px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.blog--post-comment-meta a {
+    color: #737373;
+    -webkit-transition: color 0.25s ease;
+            transition: color 0.25s ease;
+}
+.blog--post-comment-meta a:hover,
+.blog--post-comment-meta a:focus {
+    color: #ff4719;
+}
+.blog--post-comment-body {
+    padding: 15px 0;
+}
+.blog--post-comment-footer .btn--primary {
+    display: block;
+    float: left;
+}
+
+/* 17.10. BLOG POST COMMENT FORM */
+.blog--post-comment-form {
+    margin-top: -1px;
+    border-top: 1px solid #e9e9e9;
+}
+.blog--post-comment-form .title {
+    padding: 23px 0 30px;
+}
+.blog--post-comment-form .title h3 {
+    position: relative;
+    margin: 0;
+    padding-bottom: 8px;
+    font-size: 26px;
+    line-height: 34px;
+    font-weight: 900;
+}
+.blog--post-comment-form .title h3:before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 1px;
+    background-color: #ff4719;
+}
+.blog--post-comment-form-group .form-control {
+    margin-bottom: 30px;
+    padding: 0;
+    border-width: 0 0 1px;
+    border-color: #e9e9e9;
+    border-radius: 0;
+    box-shadow: none;
+    resize: none;
+    outline: 0;
+}
+.blog--post-comment-form-group .input--text {
+    position: relative;
+}
+.blog--post-comment-form-group .input--text .highlight {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ff4719;
+    -webkit-transition: width 0.55s ease-in-out, background-color 0.25s ease-in-out;
+            transition: width 0.55s ease-in-out, background-color 0.25s ease-in-out;
+}
+.blog--post-comment-form-group input:focus + .highlight,
+.blog--post-comment-form-group textarea:focus + .highlight,
+.blog--post-comment-form-group input.error + .highlight,
+.blog--post-comment-form-group textarea.error + .highlight {
+    width: 100%;
+}
+.blog--post-comment-form-group input.valid + .highlight,
+.blog--post-comment-form-group textarea.valid + .highlight {
+    background-color: #5cb85c;
+}
+
+/* 17.11. BLOG POST PAGINATION */
+.blog--post-pagination .pagination {
+    display: block;
+    margin: 0;
+    font-size: 0;
+    border-radius: 0;
+    overflow: hidden;
+}
+.blog--post-pagination .pagination li {
+    display: inline-block;
+    vertical-align: top;
+}
+.blog--post-pagination .pagination > li > a {
+    display: block;
+    float: none;
+    color: #737373;
+    border-radius: 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 900;
+    -webkit-transition: color 0.25s ease, border-color 0.25s ease, background-color 0.25s ease;
+            transition: color 0.25s ease, border-color 0.25s ease, background-color 0.25s ease;
+}
+.blog--post-pagination .pagination > li > a:hover,
+.blog--post-pagination .pagination > li > a:focus,
+.blog--post-pagination .pagination > li.active > a {
+    color: #fff;
+    background-color: #ff4719;
+    border-color: #ff4719;
+}
+.blog--post-pagination .pagination > li:first-child > a,
+.blog--post-pagination .pagination > li:first-child > span {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.blog--post-pagination .pagination > li:last-child > a,
+.blog--post-pagination .pagination > li:last-child > span {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* 17.11. BLOG WIDGET */
+.blog--widget {
+    margin-bottom: 60px;
+}
+.blog--widget:last-child {
+    margin-bottom: 0;
+}
+
+/* 17.12. BLOG WIDGET TITLE */
+.blog--widget-title {
+    position: relative;
+    margin: -5px 0 25px;
+    padding-bottom: 5px;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 900;
+}
+.blog--widget-title:before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 1px;
+    background-color: #ff4719;
+}
+
+/* 17.13. BLOG SEARCH WIDGET */
+.blog--search-widget .input--text {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    z-index: 0;
+}
+.blog--search-widget .input--text input {
+    float: none;
+    display: block;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    background-color: transparent;
+    border-bottom: 1px solid #e9e9e9;
+    height: auto;
+    padding: 8px 0;
+}
+.blog--search-widget .input--text .highlight {
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    width: 0;
+    height: 2px;
+    background-color: #ff4719;
+    -webkit-transition: width 0.55s ease-in-out, background-color 0.25s ease-in-out;
+            transition: width 0.55s ease-in-out, background-color 0.25s ease-in-out;
+    z-index: 3;
+}
+.blog--search-widget .input--text input:focus + .highlight,
+.blog--search-widget .input--text input.error + .highlight {
+    width: 100%;
+}
+.blog--search-widget .input--text input.valid + .highlight {
+    background-color: #5cb85c;
+}
+.blog--search-widget .input-group-addon {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+
+/* 17.14. BLOG RECENT POSTS WIDGET */
+.blog--recent-posts-widget ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.blog--recent-posts-widget ul li {
+    margin-bottom: 25px;
+}
+.blog--recent-posts-widget ul li:last-child {
+    margin-bottom: 0;
+}
+.blog--recent-posts-widget ul li h4 {
+    margin: 0 0 10px;
+    line-height: 26px;
+    font-weight: 900;
+}
+.blog--recent-posts-widget ul li h4 a {
+    color: #737373;
+    -webkit-transition: color 0.25s ease;
+            transition: color 0.25s ease;
+}
+.blog--recent-posts-widget ul li h4 a:hover,
+.blog--recent-posts-widget ul li h4 a:focus {
+    color: #ff4719;
+}
+.blog--recent-posts-widget .time {
+    padding: 5px 0;
+    border-style: solid;
+    border-width: 1px 0;
+    border-color: #e9e9e9;
+}
+
+/* 17.15. BLOG LINKS WIDGET */
+.blog--links-widget ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.blog--links-widget ul li {
+    margin-bottom: 10px;
+}
+.blog--links-widget ul li:last-child {
+    margin-bottom: 0;
+}
+.blog--links-widget ul li a {
+    display: block;
+    padding-bottom: 5px;
+    color: #737373;
+    border-bottom: 1px dotted #e9e9e9;
+    -webkit-transition: color 0.25s ease, border-color 0.25s ease;
+            transition: color 0.25s ease, border-color 0.25s ease;
+}
+.blog--links-widget ul li a:hover,
+.blog--links-widget ul li a:focus {
+    color: #ff4719;
+    border-color: #ff4719;
+}
+.blog--links-widget ul ul {
+    padding-left: 30px;
+}
+
+/* 17.16. BLOG TAGS WIDGET */
+.blog--tags-widget .blog--widget-title {
+    margin-bottom: 15px;
+}
+.blog--tags-widget ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+}
+.blog--tags-widget ul li {
+    display: inline-block;
+    padding: 10px 25px 0 0;
+    cursor: pointer;
+}
+.blog--tags-widget ul li a {
+    display: block;
+    color: #737373;
+    font-size: 16px;
+    line-height: 24px;
+    -webkit-transition: color 0.25s ease;
+            transition: color 0.25s ease;
+}
+.blog--tags-widget ul li a:hover,
+.blog--tags-widget ul li a:focus {
+    color: #ff4719;
+}
+
+/* 17.17. BLOG TWITTER WIDGET */
+.blog--twitter-widget .blog--widget-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 14px 0;
+    color: #fff;
+    background-color: #ff4719;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    text-align: center;
+}
+.blog--twitter-widget .blog--widget-title:before {
+    display: none;
+}
+#twitterTimeline {
+    max-height: 300px;
+    border: 1px solid #e9e9e9;
+    overflow: auto;
+}
+
+/*------------------------------------*\
+    18. SUBSCRIBE AREA
+\*------------------------------------*/
+#subscribe {
+    position: relative;
+}
+
+/* 18.1. SUBSCRIBE STICKY */
+.subscribe--sticky {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* 18.2. SECTION TITLE */
+#subscribe .section--title {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: none;
+}
+#subscribe .section--title h2 {
+    padding-top: 0;
+}
+
+/* 18.3. SUBSCRIBE CONTENT */
+.subscribe--content {
+    padding: 60px;
+    background-size: auto;
+    background-repeat: repeat;
+}
+
+/* 18.4. SUBSCRIBE FORM */
+.subscribe--form {
+    margin-top: 23px;
+    overflow: hidden;
+}
+.subscribe--form .input--text {
+    position: relative;
+    float: left;
+    width: 100%;
+    max-width: 75%;
+    margin-top: 3px;
+}
+.subscribe--form .input--text input {
+    width: 100%;
+    padding: 5px 0;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0 0 1px;
+    border-color: #737373;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 18px;
+    line-height: 26px;
+    outline: 0;
+}
+.subscribe--form .input--text .highlight {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ff4719;
+    -webkit-transition: width 0.55s ease-in-out, background-color 0.25s ease-in-out;
+            transition: width 0.55s ease-in-out, background-color 0.25s ease-in-out;
+}
+.subscribe--form .input--text input:focus + .highlight,
+.subscribe--form .input--text input.error + .highlight {
+    width: 100%;
+}
+.subscribe--form .input--text input.valid + .highlight {
+    background-color: #5cb85c;
+}
+.subscribe--form .btn--primary {
+    display: block;
+    float: right;
+}
+
+/* 18.5. MAP + SUBSCRIBE */
+#map + #subscribe {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+        transform: translateY(-100%);
+}
+
+/*------------------------------------*\
+    19. CLIENTS AREA
+\*------------------------------------*/
+#clients {
+    padding: 80px 0;
+}
+
+/*------------------------------------*\
+    20. FAQ AREA
+\*------------------------------------*/
+#faq {
+    padding: 80px 0;
+}
+
+/* 20.1. FAQ CATEGORIES */
+.faq--categories h3 {
+    position: relative;
+    margin: 0;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+.faq--categories h3:before {
+    content: " ";
+    position: absolute;
+    bottom: 0px;
+    width: 40px;
+    height: 2px;
+    background-color: #ff4719;
+}
+.faq--categories ul {
+    margin-top: 25px;
+}
+.faq--categories ul li a {
+    margin-top: 6px;
+    color: #737373;
+    background-color: #e9e9e9;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 900;
+    -webkit-transition: color 0.25s ease, background-color 0.25s ease-in-out;
+            transition: color 0.25s ease, background-color 0.25s ease-in-out;
+}
+.faq--categories ul li a:hover,
+.faq--categories ul li.active a {
+    color: #fff;
+    background-color: #ff4719;
+}
+
+/* 20.2. FAQ CONTENT */
+.faq--content .panel-group {
+    margin-bottom: 0;
+}
+.faq--content .accordion .panel {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    line-height: 22px;
+}
+.faq--content .accordion .panel-heading {
+    padding: 0;
+}
+.faq--content .accordion .panel-heading a {
+    display: block;
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #ff4719;
+    text-transform: capitalize;
+}
+.faq--content .accordion .panel-heading a.collapsed {
+    background-color: #232c3b;
+}
+.faq--content .accordion .panel-heading a h4 {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 900;
+    overflow: hidden;
+}
+.faq--content .accordion .panel-heading a h4 i.fa-minus {
+    float: right;
+    color: #fff;
+}
+.faq--content .accordion .panel-heading a.collapsed i.fa-minus:before {
+    content: "\f067";
+}
+
+/* 20.3. FAQ PANEL SIMPLE */
+.faq--panel-simple {
+    padding-bottom: 30px;
+    border: none;
+}
+.faq--panel-simple:last-child {
+    padding-bottom: 0;
+}
+.faq--panel-simple .panel-title {
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.faq--panel-simple .panel-body {
+    padding: 0;
+}
+
+/*------------------------------------*\
+    21. LOGIN/SIGNUP AREA
+\*------------------------------------*/
+#login,
+#signup {
+    padding: 80px 0;
+}
+.login--form,
+.signup--form {
+    padding: 30px;
+    background-color: #f0f0f0;
+    max-width: 380px;
+    margin: 0 auto;
+}
+.signup--form {
+    max-width: 480px;
+}
+.login--form p.help-block,
+.signup--form p.help-block {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 25px 0 5px;
+}
+.login--form p.help-block {
+    margin-top: 20px;
+}
+.signup--form p.help-block {
+    margin-top: 10px;
+}
+.login--form p.help-block label,
+.signup--form p.help-block label {
+    margin-bottom: 0;
+}
+.signup--form p.help-block label a {
+    color: #ff4719;
+}
+.login--form p.help-block input[type="checkbox"],
+.signup--form p.help-block input[type="checkbox"] {
+    margin-top: 0;
+    margin-right: 8px;
+}
+.login--form .form-group,
+.signup--form .form-group {
+    position: relative;
+}
+.login--form input.form-control,
+.signup--form input.form-control {
+    box-shadow: none;
+    border-radius: 0;
+    height: auto;
+    min-height: 38px;
+    background-color: transparent;
+    border-width: 0 0 1px;
+    padding-left: 0;
+}
+.login--form input.form-control:focus,
+.signup--form input.form-control:focus {
+    border-color: #ccc;
+}
+.login--form .form-group .highlight,
+.signup--form .form-group .highlight {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ff4719;
+    -webkit-transition: width 0.25s ease-in-out, background-color 0.25s ease-in-out;
+            transition: width 0.25s ease-in-out, background-color 0.25s ease-in-out;
+}
+.login--form .form-group input:focus + .highlight,
+.signup--form .form-group input:focus + .highlight,
+.login--form .form-group input.error + .highlight,
+.signup--form .form-group input.error + .highlight {
+    width: 100%;
+}
+.login--form .form-group input.valid + .highlight,
+.signup--form .form-group input.valid + .highlight {
+    background-color: #5cb85c;
+}
+
+.login--form .btn--primary,
+.signup--form .btn--primary {
+    margin-top: 15px;
+}
+
+.login--form .btn--ripple,
+.signup--form .btn--ripple {
+    vertical-align: middle;
+}
+
+/*------------------------------------*\
+    22. CONTACT AREA
+\*------------------------------------*/
+#contact {
+    padding: 80px 0;
+}
+
+/* 22.1. CONTACT ADDRESS */
+.contact--address h2 {
+    position: relative;
+    margin: 0 0 25px;
+    padding-bottom: 15px;
+    color: #737373;
+    font-size: 26px;
+    line-height: 34px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.contact--address h2:before {
+    position: absolute;
+    content: " ";
+    width: 40px;
+    height: 2px;
+    background-color: #ff4719;
+    bottom: 0px;
+}
+.contact--address h2 span {
+    color: #ff4719;
+}
+.contact--address address {
+    margin-top: 30px;
+}
+.contact--address address p {
+    margin-bottom: 20px;
+    color: #737373;
+    font-weight: 400;
+    font-size: 16px;
+    overflow: hidden;
+}
+.contact--address address p:last-child {
+    margin-bottom: 0;
+}
+.contact--address address p img {
+    float: left;
+    display: block;
+    max-width: 60px;
+    margin-right: 15px;
+}
+.contact--address address p span {
+    display: block;
+    margin-top: -2px;
+}
+
+/* 22.2. CONTACT SOCIAL */
+.contact--social-links {
+    margin-top: 26px;
+}
+.contact--social-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+.contact--social-links li {
+    display: inline-block;
+    margin-right: 4px;
+}
+.contact--social-links li a {
+    width: 40px;
+    padding: 9px 0;
+    text-align: center;
+}
+
+/* 22.3. CONTACT FORM */
+.contact--form {
+    padding-left: 50px;
+    font-weight: 400;
+}
+.contact--form label {
+    font-weight: 400;
+}
+.contact--form .form-group {
+    position: relative;
+}
+.contact--form .form-control {
+    margin-bottom: 30px;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    background-color: transparent;
+    border-bottom: 1px solid #e9e9e9;
+    height: auto;
+    padding: 8px 0;
+}
+.contact--form textarea.form-control {
+    min-height: 172px;
+    resize: none;
+}
+.contact--form .highlight {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ff4719;
+    -webkit-transition: width 0.55s ease-in-out, background-color 0.25s ease-in-out;
+            transition: width 0.55s ease-in-out, background-color 0.25s ease-in-out;
+}
+.contact--form input:focus + .highlight,
+.contact--form textarea:focus + .highlight,
+.contact--form input.error + .highlight,
+.contact--form textarea.error + .highlight {
+    width: 100%;
+}
+.contact--form input.valid + .highlight,
+.contact--form textarea.valid + .highlight {
+    background-color: #5cb85c;
+}
+
+/*------------------------------------*\
+    23. MAP AREA
+\*------------------------------------*/
+#map {
+    min-height: 400px;
+}
+
+/*------------------------------------*\
+    24. FOOTER AREA
+\*------------------------------------*/
+#footer {
+    position: relative;
+    background-color: #232c3b;
+    border-bottom: 64px solid #151a23;
+    z-index: -1;
+}
+#footer .container {
+    position: relative;
+}
+
+/* 24.1. FOOTER BG */
+.footer--bg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -64px;
+    height: 100%;
+    background-size: auto;
+    background-position: -200px 100%;
+    z-index: -2;
+}
+
+/* 24.2. FOOTER WIDGET */
+.footer--widget {
+    margin-top: 165px;
+    margin-bottom: 45px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 22px;
+}
+.footer--widget:last-child {
+    margin-bottom: 0;
+}
+
+.footer--widget h2 {
+    position: relative;
+    margin: 0 0 25px;
+    padding-bottom: 5px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+}
+.footer--widget h2:before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 1px;
+    background-color: #ff4719;
+}
+
+/* 24.3. FOOTER ABOUT WIDGET */
+.footer--about a {
+    -webkit-transition: color 0.25s ease;
+            transition: color 0.25s ease;
+}
+.footer--about a:hover,
+.footer--about a:focus {
+    color: #ff4719;
+}
+
+/* 24.4. FOOTER LINKS WIDGET */
+.footer--links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer--links ul li {
+    margin-bottom: 8px;
+}
+.footer--links ul li:last-child {
+    margin-bottom: 0;
+}
+.footer--links ul li a {
+    display: block;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #fff;
+    -webkit-transition: color 0.25s ease, border-color 0.25s ease;
+            transition: color 0.25s ease, border-color 0.25s ease;
+}
+.footer--links ul li a:hover,
+.footer--links ul li a:focus {
+    color: #ff4719;
+    border-color: #ff4719;
+}
+
+/* 24.5. FOOTER CONTACT WIDGET */
+.footer--contact .btn--primary {
+    margin-top: 0;
+    font-weight: normal;
+    text-transform: none;
+}
+.footer--contact .btn-block {
+    display: block;
+}
+.footer--contact .btn-block + .btn-block {
+    margin-top: 8px;
+}
+.footer--contact-social .nav > li > a {
+    padding: 10px;
+    -webkit-transition: color 0.25s ease;
+            transition: color 0.25s ease;
+}
+.footer--contact-social .nav > li > a:hover,
+.footer--contact-social .nav > li > a:focus {
+    color: #ff4719;
+    background-color: transparent;
+}
+
+/* 24.6. FOOTER COPYRIGHT */
+.footer--copyright {
+    position: absolute;
+    left: 0;
+    bottom: -64px;
+    width: 100%;
+    padding: 20px 0;
+    color: #fff;
+}
+.footer--copyright a {
+    color: #ff4719;
+    font-weight: 900;
+}
+
+/*------------------------------------*\
+    25. 404 AREA
+\*------------------------------------*/
+#f0f {
+    height: 100%;
+    color: #fff;
+    background-color: #232c3b;
+    text-align: center;
+}
+#f0f > .container,
+#f0f > .container > .row,
+#f0f > .container > .row > div {
+    height: 100%;
+}
+
+/* 25.1. 404 TITLE */
+#f0f .title {
+    margin: 0;
+}
+#f0f .title h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 120px;
+    line-height: 128px;
+    font-weight: 900;
+}
+#f0f .title h2:before {
+    display: none;
+}
+
+#f0f .description p {
+    margin: 20px 0 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* 25.2. 404 SEARCH BAR */
+.f0f--search-bar .input--text {
+    position: relative;
+}
+.f0f--search-bar .form-control {
+    margin-bottom: 40px;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    color: #fff;
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+    height: auto;
+    padding: 8px 0;
+}
+.f0f--search-bar .highlight {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ff4719;
+    -webkit-transition: width 0.55s ease-in-out, background-color 0.25s ease-in-out;
+            transition: width 0.55s ease-in-out, background-color 0.25s ease-in-out;
+}
+.f0f--search-bar input:focus + .highlight,
+.f0f--search-bar input.error + .highlight {
+    width: 100%;
+}
+.f0f--search-bar input.valid + .highlight {
+    background-color: #5cb85c;
+}
+.f0f--search-bar .btn--primary {
+    min-width: 120px;
+    margin: 10px 5px 0;
+    vertical-align: middle;
+}
+
+/*------------------------------------*\
+    26. PAGE HEADER AREA
+\*------------------------------------*/
+#pageHeader {
+    margin-top: 90px;
+}
+
+/* 26.1. PAGE TITLE BREADCRUMB */
+#pageHeader .section--title {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* 26.2. PAGE HEADER BREADCRUMB */
+.page-header--breadcrumb {
+    padding: 50px 0 50px 40px;
+    border-left: 1px solid #e9e9e9;
+}
+.page-header--breadcrumb .breadcrumb {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.page-header--breadcrumb .breadcrumb li a {
+    color: #232c3b;
+    -webkit-transition: color 0.25s ease-in;
+            transition: color 0.25s ease-in;
+}
+.page-header--breadcrumb .breadcrumb li a:hover,
+.page-header--breadcrumb .breadcrumb > .active {
+    color: #ff4719;
+}
+
+/*------------------------------------*\
+    27. DOMAIN PAGE
+\*------------------------------------*/
+/* 27.1. DOMAIN SEARCH AREA */
+#domainSearch.page {
+    padding: 150px 0 120px;
+}
+
+/*------------------------------------*\
+    28. HELPER CLASSES
+\*------------------------------------*/
+/* 28.1. RESET-GUTTER */
+.reset-gutter {
+    margin-left: 0;
+    margin-right: 0;
+}
+.reset-gutter > [class*='col-'] {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* 28.2. RESET-MARGIN */
+.reset-margin {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/* 28.3. RESET-PADDING */
+.reset-padding {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* 28.4. VERTICAL-CENTERING */
+.vc-parent {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+.vc-child {
+    display: table-cell;
+    vertical-align: middle;
+}
+.vc-child-bottom {
+    display: table-cell;
+    vertical-align: bottom;
+}

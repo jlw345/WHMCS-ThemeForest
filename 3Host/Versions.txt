@@ -1,0 +1,24 @@
+Version 1.0 - 13/March/2016
+  -Initial Release
+
+
+Version 1.1 - 6/April/2016
+  - WHMCS Header and Footer Integration 6
+  - Domain Availability Lookup Integrated
+    	Integrated your site to allow potential clients to perform domain checks    	using WHMCS directly from that page.
+  - Last Version of Bootstrap
+
+
+Version 1.2 - 8/April/2016
+  - WHMCS bugs
+  - Added Dropdown menu to general site menu
+  - Button WHMCS from site general
+  - Improvements to documentation, about how to use WHMCS template
+
+
+Version 1.3 - 28/April/2016
+  - Bugs with dropdown of TLD search. Fixed
+  - Styles General
+  - Responsive Issues
+  - Firefox General Styles
+  - IE General Styles

@@ -1,0 +1,111 @@
+/**
+ * Primary Color
+ *
+ * Choose a value that works well with white foreground text.
+ * Used for links, headers, buttons and the content row color
+ * section, as well as other core elements.
+ *
+ * Default: #0098ef
+ */
+.text-color-primary
+{
+	color: #844fe1 !important;
+}
+
+a,table tr .highlight,table.table-layout-product-comparison tr.product-header td p.product-price,button,.button,.icon-feature,.icon-feature-large,.icon-feature-inline,.product-box .product-price,.product-slider > ul li:last-of-type .price .value,.product-configurator .configurator-order .configurator-total .value,.tab-group > ul li,.tab-group .tab-item .tab-item-title,#video-overlay-icon,#nav-overlay.nav-overlay-light nav .nav-primary > li a:not(.button),#nav-overlay.nav-overlay-gray nav .nav-primary > li a:not(.button),#nav-overlay.nav-overlay-dark nav .nav-primary > li a:not(.button),#nav-overlay-open.nav-overlay-light,#nav-overlay-close.nav-overlay-light,#nav-overlay-open.nav-overlay-gray,#nav-overlay-close.nav-overlay-gray,#nav-overlay-open.nav-overlay-dark,#nav-overlay-close.nav-overlay-dark,#content > .content-row .content-slider > ul li.active,#content > .content-row.content-row-color ul.list-style-nav li a:not(.button),#content > .content-row.content-row-color table a:not(.button),#content > .content-row.content-row-color pre a:not(.button),#content > .content-row.content-row-color .pre-code a:not(.button),#content > .content-row.content-row-color .tags li a:not(.button),#content > .content-row.content-row-color .feature-box a:not(.button),#content > .content-row.content-row-color .product-box a:not(.button),#content > .content-row.content-row-color .product-slider a:not(.button),#content > .content-row.content-row-color .product-configurator a:not(.button),#content > .content-row.content-row-color .network-map ul li span.label-top-left,#content > .content-row.content-row-color .network-map ul li span.label-top-right,#content > .content-row.content-row-color .network-map ul li span.label-bottom-left,#content > .content-row.content-row-color .network-map ul li span.label-bottom-right,#content > .content-row.content-row-color .testimonial .testimonial-content a:not(.button),#content > .content-row.content-row-color .blog-comment-group .blog-comment-content a:not(.button)
+{
+	color: #844fe1;
+}
+
+body.preload::before,table caption,button.button-primary,.button.button-primary,ul.tags li a,.product-box .product-popular,.product-slider .slider .range,.product-configurator .slider .range,.network-map ul li,.network-map ul li span.label-top-left,.network-map ul li span.label-top-right,.network-map ul li span.label-bottom-left,.network-map ul li span.label-bottom-right,.network-map ul li span.label-top-left::before,.network-map ul li span.label-top-right::before,.network-map ul li span.label-bottom-left::before,.network-map ul li span.label-bottom-right::before,.tab-group.tab-group-switch-style > ul li.active,.gallery.gallery-slider .gallery-previous:hover,.gallery.gallery-slider .gallery-next:hover,.video-overlay.video-overlay-has-icon:hover #video-overlay-icon,#nav-overlay-background,#header,#content > .content-row .content-slider > ul li.active:empty,#content > .content-row.content-row-color,#content > .content-row.content-row-color.content-row-split-left::after,#content > .content-row.content-row-color.content-row-split-right::after,#content > .content-row.content-row-color .content-box,#content > .content-row.content-row-color .tab-group .tab-item .tab-item-title,#content > .content-row.content-row-color .tab-group:not(.tab-group-switch-style) > ul li,#content > .content-row.content-row-color .tab-group:not(.tab-group-switch-style) > ul li::after,#content > .content-row.content-row-color .tab-group:not(.tab-group-switch-style) .tab-item .tab-item-inner,.footer-color
+{
+	background-color: #844fe1;
+}
+
+input:not(.no-custom-style):focus,select:not(.no-custom-style):focus,textarea:not(.no-custom-style):focus,form .checkbox-style.focus,form .radio-style.focus,form .select-style input.focus,.product-box.product-box-popular,.product-slider .slider .range .handle,.product-configurator .slider .range .handle,.pagination > li.active a
+{
+	border-color: #844fe1;
+}
+
+/**
+ * Secondary Color
+ *
+ * Choose a value that works well with dark foreground text
+ * and complements your primary color. Used for buttons and
+ * various secondary elements.
+ *
+ * Default: #ffcc33
+ */
+.text-color-secondary
+{
+	color: #ffcc33 !important;
+}
+
+#notification p a,#content > .content-row.content-row-color a:not(.button),#content > .content-row.content-row-color .icon-feature,#content > .content-row.content-row-color .icon-feature-large,#content > .content-row.content-row-color .icon-feature-inline,#content > .content-row.content-row-color .content-slider > ul li.active,#content > .content-row.content-row-color .tab-group .tab-item .tab-item-title,#content > .content-row.content-row-color .tab-group:not(.tab-group-switch-style) > ul li
+{
+	color: #ffcc33;
+}
+
+mark,button.button-secondary,.button.button-secondary
+{
+	background-color: #ffcc33;
+}
+
+#content > .content-row.content-row-color .pagination > li.active a
+{
+	border-color: #ffcc33;
+}
+
+/**
+ * Header Background
+ *
+ * The header uses the primary color by default but can be
+ * changed to a different color or gradient if desired.
+ *
+ * Default: #0098ef
+ */
+#header,#nav-overlay-background
+{
+}
+
+/**
+ * Notification Background
+ *
+ * Choose a value that works well combined with your color
+ * scheme and white foreground text. The custom styles for
+ * success, error and warning classes are unaffected.
+ *
+ * Default: #00629a
+ */
+#notification
+{
+	background-color: #844fe1;
+}
+
+/**
+ * Content Row Background
+ *
+ * This section uses the primary color by default but can be
+ * changed to a different color or gradient if desired.
+ *
+ * Default: #0098ef
+ */
+#content > .content-row.content-row-color,
+#content > .content-row.content-row-color.content-row-split-left::after,
+#content > .content-row.content-row-color.content-row-split-right::after
+{
+	background-color: #844fe1;
+}
+
+/**
+ * Footer Background
+ *
+ * The footer uses the primary color by default but can be
+ * changed to a different color or gradient if desired. Make
+ * sure to add the custom class to the body element.
+ *
+ * Default: #0098ef
+ */
+ .footer-color
+ {
+ }

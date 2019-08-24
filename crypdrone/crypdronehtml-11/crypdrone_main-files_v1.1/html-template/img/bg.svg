@@ -1,0 +1,12 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="603" reserveAspectRatio="xMinYMin slice" viewBox="0 0 1920 603">
+<defs>
+  <style>
+  </style>
+   <linearGradient id="linear-gradient" x1="960" y1="603" x2="960" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="var(--color-stop-1)"/>
+      <stop offset="1" stop-color="var(--color-stop-2)"/>
+    </linearGradient>
+</defs>
+
+<g id="Layer_2" data-name="Layer 2"><g id="bg" class="cls-1"><g id="bg-2" data-name="bg"><path class="cls-2" d="M1664,130c-181.72,51.35-319.87,1.59-363-12.17-69-22-167.39-49.44-259,41s-230-25.33-305-35-192.62-5.6-352,93.07S44.29,217.41,0,207V603H1920V0S1886.55,67.1,1664,130Z"/></g></g></g></svg>

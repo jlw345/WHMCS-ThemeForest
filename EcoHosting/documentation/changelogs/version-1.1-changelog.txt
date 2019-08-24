@@ -1,0 +1,8 @@
+2016 December 20 – Version 1.1
+
+// # List of updates
+// ------------------------------
+
+[+] WHMCS template updated to be compatible with latest "WHMCS Version 7.1" 
+
+[-] We stop offering an order form template with WHMCS for WHMCS 7.x. However, we are still providing CSS styles for the WHMCS default "Standard Cart" order form with our template. You could use the WHMCS default "Standard Cart" order form with our template.

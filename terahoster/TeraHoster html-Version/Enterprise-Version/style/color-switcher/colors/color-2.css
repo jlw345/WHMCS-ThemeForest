@@ -1,0 +1,238 @@
+.top-bar {
+    background-color: #4C6499;
+}
+
+.new-services {
+    background-color: #3056A8;
+}
+
+.home-header .box-container {
+    border-bottom: 6px solid #FF8411;
+}
+
+.home-header .box-container h2 {
+    color: #FF8411;
+}
+
+.home-header .btn-2.red {
+    background-color: #3056A8 !important;
+}
+
+.services6 .fa {
+    background-color: #3056A8;
+}
+
+.line-title {
+    background-color: #FF8411;
+}
+
+.title-arrow {
+    border-color: #FF8411 transparent transparent transparent;
+}
+
+nav.navbar ul.nav > li.active > a:hover,
+nav.navbar ul.nav li.active > a {
+    color: #FF8411 !important;
+}
+
+.navbar .before::before {
+    color: #FF8411;
+}
+
+.before-wd::before {
+    color: #FF8411;
+}
+
+.new {
+    background-color: #FF8411;
+}
+
+.why-tera .btn-2.red {
+    background-color: #FF8411 !important;
+}
+
+.why-tera .btn-2 {
+    background-color: #233F63;
+}
+
+.why-tera .wt-1::before {
+    color: #FF8411;
+}
+
+.why-tera .wt-2::before {
+    color: #FF8411;
+}
+
+.why-tera .wt-3::before {
+    color: #FF8411;
+}
+
+.list-part {
+    background: #0E1F56 !important;
+}
+
+.arrow-f5-dark {
+    background-color: #0E1F56;
+}
+
+.arrow-f5-dark2 {
+    background-color: #0E1F56;
+}
+
+.red-section {
+    background-color: #FF8411;
+}
+
+.arrow-red-top-dark {
+    border-color: transparent transparent #FF8411 transparent;
+}
+
+.side .fa-times {
+    color: #233F63;
+}
+
+.home-header .deal {
+    color: #FF8411;
+}
+
+.pricingTable-header > .heading {
+    background-color: #FF8411;
+}
+
+.pricingTable > .pricingTable-header {
+    background-color: #0E1F56;
+}
+
+.pricingTable-sign-up > .btn-block {
+    background-color: #FF8411;
+}
+
+.pricingTable > .pricingContent > ul > li:before {
+    color: #FF8411;
+}
+
+.pricingTable > .pricingContent > ul > .uncheck:before {
+    color: #FF8411;
+}
+
+.home-boxes .text-container::before {
+    border-right-color: #395273;
+    border-top-color: #395273;
+}
+
+.home-boxes .fa {
+    color: #395273;
+}
+
+body .features2 {
+    background: #0D2C54 !important;
+}
+
+.section1 .fa {
+    background-color: #FF8411;
+    border: 1px solid #FF8411;
+}
+
+.title-arrow-left {
+    border-color: #FF8411 transparent transparent transparent;
+}
+
+.section2 .box {
+    border-top: 5px solid #FF8411;
+}
+
+.section2 .fa {
+    background-color: #0D2C54;
+}
+
+.section-dd-ft {
+    background-color: #0D2C54;
+}
+
+.parallax .red {
+    background-color: #FF8411 !important;
+}
+
+.faq-new .panel-heading {
+    background-color: #395273;
+}
+
+.red-text {
+    color: #FF8411;
+}
+
+.item blockquote h6 {
+    color: #FF8411;
+}
+
+footer {
+    background: #0D2C54 !important;
+}
+
+.footer-bottom {
+    background-color: #0C284D;
+}
+
+.contact-p1 {
+    background-color: #0C284D;
+}
+
+.contact-p2 {
+    background-color: #FF8411;
+}
+
+#features-list li::before {
+    color: #FF8411;
+}
+
+.arrow-red {
+    border-color: #0D2C54 transparent transparent transparent;
+}
+
+#section-05 .fa {
+    background: #395273 !important;
+}
+
+.section-05-box {
+    border-bottom: 5px solid #FF8411;
+}
+
+body .btn-2.red {
+    background-color: #FF8411 !important;
+}
+
+body .btn-2 {
+    background-color: #233F63 !important;
+}
+#cl-web .fa {
+    color: #233F63;
+}
+#cl-web .cl-box {
+    border-bottom: 5px solid #FF8411;
+}
+.red-section .btn {
+    border: 1px solid #233F63;
+}
+.red-section .btn:hover {
+    border: 1px solid #FF8411 !important;
+    background-color: #FF8411 !important;
+}
+.home-boxes .btn:hover {
+    background-color: #FF8411 !important;
+}
+.icon-box-tabs .nav-pills > li > a:hover, .icon-box-tabs .nav-pills > li.active > a, .icon-box-tabs .nav-pills > li.active > a:focus, .icon-box-tabs .nav-pills > li.active > a:hover {
+    background-color: #FF8411 !important;
+}
+.icon-box-tabs .nav-pills > li > a:after {
+    border-color: #FF8411 transparent transparent transparent;
+}
+.icon-box-tabs .nav-pills > li > a {
+    background-color: #233F63 !important;
+}
+.toggle {
+    background-color: #FF8411 !important;
+}
+.pricing-columns #pricing-chart .plan:before,
+.pricing-columns-both #pricing-chart .plan:before {
+    background-color: #233F63 !important;
+}

@@ -1,0 +1,28 @@
+$c1: #44ce78
+
+
+$gradient-c1: #44ce78
+$gradient-c2: #43ce9f
+
+
+=colors($color, $class)
+    .#{$class}
+        color: $color 
+    .#{$class}-bg 
+        background-color: $color 
+    .#{$class}-bo 
+        border-color: $color !important
+
+/*
+	***********************
+	00: Theme Color CSS
+	***********************/
++colors($c1, c1)
+
+.gradient-bg
+	+horizontal-gradient($gradient-c1 0%, $gradient-c2 100%)
+
+.gradient-img
+    background-image: -webkit-gradient(linear, left top, right top, 0%(#44ce78), color-stop(#3cba92), color-stop(#30dd8a), 100%(#43ce9f))
+    background-image: -webkit-linear-gradient(left, #44ce78, #3cba92, #30dd8a, #43ce9f)
+    background-image: linear-gradient(to right, #44ce78, #3cba92, #30dd8a, #43ce9f)

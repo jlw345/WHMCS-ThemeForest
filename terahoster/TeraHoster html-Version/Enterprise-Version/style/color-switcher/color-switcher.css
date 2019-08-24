@@ -1,0 +1,108 @@
+/* ---------------------------------------------------------------------- 
+* Product Name: Color-Switcher-Plugin
+* Product URI: http://shariarbd.com/demo/color-switcher-plugin/
+* Author: Shariar
+* Author URI: http://shariarbd.com/
+* Description: Color Switcher plugin is a simple and easy to use plugin used to switch color of a site.
+* Version: 1.0.0
+* License: The MIT License (MIT)
+* Tags: color switcher
+* ---------------------------------------------------------------------- */
+
+
+/* Color Style Switcher 
+---------------------------------------------------------------------- */
+#color-style-switcher div h3 {
+    color: #ffffff;
+    font-size: 19px;
+    margin: 8px 3px 12px;
+}
+#color-style-switcher {
+    background: none repeat scroll 0 0 #FF8411;
+    left: -189px;
+    position: fixed;
+    top: 250px;
+    width: 195px;
+    z-index: 9999;
+}
+#color-style-switcher div {
+    padding: 5px 10px;
+}
+#color-style-switcher .bottom {
+    background: none repeat scroll 0 0 rgba(0,0,0,.7);
+    color: #252525;
+    padding: 0;
+}
+#color-style-switcher .bottom a.settings {
+    background-image: url(../../img/colors.png);
+    display: block;
+    height: 40px;
+    position: absolute;
+    right: -40px;
+    top: 0;
+    width: 40px;
+    padding: 3px;
+}
+#color-style-switcher select {
+    background: none repeat scroll 0 0 #F6F6F6;
+    border: 1px solid #FFFFFF;
+    line-height: 1;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    width: 150px;
+}
+ul.colors {
+    list-style: none outside none;
+    margin: 0 0 10px;
+    overflow: hidden;
+	padding:0;
+}
+ul.colors li {
+    float: left;
+    margin: 2px;
+}
+ul.colors li a {
+    cursor: pointer;
+    display: block;
+    height: 35px;
+    width: 35px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+}
+
+ul.colors li a.active {
+    position: relative;
+}
+ul.colors li a.active:after {
+    color: #fff;
+    content:"\f00c";
+    font-family: "FontAwesome";
+    font-size: 10px;
+    right: 12px;
+    position: absolute;
+    top: 9px;
+}
+ul.colors li a.color1.active:after {
+    color:#000000;
+}
+@media only screen and (max-width: 500px) {
+    #color-style-switcher {
+        display: none;
+    }
+}
+
+/* Color Style Switcher  End
+---------------------------------------------------------------------- */
+
+
+
+/* Colors
+---------------------------------------------------------------------- */
+ul.colors .color1 {
+    background: #F72C25;
+}
+ul.colors .color2 {
+    background: #1D64A3;
+}
+/* Colors End
+---------------------------------------------------------------------- */

@@ -1,0 +1,332 @@
+/*
+Theme Name: X-DATA
+Theme URI: http://www.whmcsdes.com
+Description: X-DATA Template v1.0
+Version: 1.0
+Author: WHMCSdes
+Author URI: http://whmcsdes.com
+Tags: powerful, host
+*/
+
+
+/* Footer */
+
+footer {
+    margin-top: 0;
+}
+
+.contact {
+    text-align: center;
+    padding: 30px 0;
+    color: #fff;
+    font-family: open sans, sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.map,
+.phone,
+.mail,
+.l-chat {
+    display: inline;
+    margin: 0 25px;
+}
+
+.fa.fa-map-marker.cont,
+.fa.fa-phone.cont,
+.fa.fa-headphones.cont,
+.fa.fa-envelope.cont {
+    padding-right: 7px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.f-lv2 {
+    background: #fff;
+    padding: 40px 0;
+}
+
+.about img {
+    margin: 0 0 20px 0;
+}
+
+.about p {
+    font-family: open sans, sans-serif;
+    color: #a4a6a6;
+    line-height: 25px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.about a {
+    text-decoration: none;
+    color: #acacac;
+    font-weight: 600;
+    font-family: open sans, sans-serif;
+    font-size: 13px;
+    transition: all .3s;
+    margin: 5px 0;
+    display: inline-block;
+}
+
+.about a:hover {
+    color: #3897F0;
+}
+
+.about h4 {
+    color: #c7c7c7;
+    font-family: open sans, sans-serif;
+    font-size: 13px;
+    margin-bottom: 0;
+    line-height: 25px;
+}
+
+.links-foot h2 {
+    margin: 0;
+    font-family: raleway, sans-serif;
+    font-weight: 700;
+    color: #656d78;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.links-foot ul {
+    margin: 30px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.links-foot li {
+    margin: 8px 0 0;
+    color: #acacac;
+}
+
+.links-foot a {
+    color: #acacac;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: open sans, sans-serif;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.links-foot a:hover {
+    color: #3897F0;
+}
+
+.links-foot p {
+    margin: 30px 0 0;
+    font-family: open sans, sans-serif;
+    color: #a4a6a6;
+    line-height: 25px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.email-news {
+    font-family: open sans, sans-serif;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px 10px;
+    margin: 20px 0;
+    color: #000;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.sub-news {
+    background: #3897F0;
+    color: #fff;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    font-family: open sans, sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-left: 5px;
+    transition: all .3s;
+}
+
+.sub-news:hover {
+    background: #656D78;
+}
+
+.contact {
+    background: #5FB636;
+    background: -webkit-linear-gradient(to left, #66c23a, #5FB636);
+    background: linear-gradient(to left, #66c23a, #5FB636);
+}
+
+
+/* Homepage CleintArea */
+
+.dom-input-c {
+    width: 100%;
+    border: 2px solid #656D78;
+    padding: 10px;
+    border-radius: 4px;
+    color: #000;
+    font-family: open sans, sans-serif;
+    font-size: 16px;
+}
+
+.search-btn-c {
+    border: 2px solid #656D78;
+    color: #656D78;
+    background: transparent;
+    font-family: open sans, sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 12px 18px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.transfer-btn-c {
+    border: 2px solid #656D78;
+    background: #656D78;
+    color: #fff;
+    font-family: open sans, sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 12px 18px;
+    border-radius: 5px;
+}
+
+.customicon {
+    padding-right: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* Custom Panel */
+
+.panel-custom {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    margin-top: 13px;
+}
+
+.custom-bot {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.fa.fa-globe.c-area {
+    color: #F87822;
+}
+
+.fa.fa-comments.c-area {
+    color: #F35958;
+}
+
+.fa.fa-credit-card.c-area {
+    color: #5BC0DE;
+}
+
+.fa.fa-cube.c-area {
+    color: #10C469;
+}
+
+
+/* News */
+
+.announcement-single h3 a,
+.announcement-single h2 a {
+    font-family: raleway, sans-serif;
+    font-weight: 700;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.announcement-single p {
+    line-height: 27px;
+    color: #7e7e7e;
+    font-size: 13px;
+    font-family: open sans, sans-serif;
+}
+
+.announcement-single p a {
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+    padding: 10px;
+    display: table;
+    margin-top: 10px;
+}
+
+.label-default {
+    background-color: #61B937;
+}
+
+.tweetbox {
+    background: #fff;
+    border: 1px solid #cacbcb;
+    padding: 30px;
+    border-radius: 2px;
+    margin: 30px 0;
+}
+
+.list-group-item.active,
+.list-group-item.active:focus,
+.list-group-item.active:hover {
+    background-color: #61B937;
+    border-color: #61B937;
+}
+
+.breadcrumb {
+    background: #fff;
+    border: 1px solid #cacbcb;
+    font-family: open sans, sans-serif;
+    font-size: 13px;
+}
+
+.count-cart {
+    background: #3897F0;
+    color: #fff;
+    border-radius: 360px;
+    padding: 1px 5px;
+    font-family: open sans, sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    text-decoration: none;
+    position: relative;
+    bottom: 8px;
+    left: 1px;
+    text-decoration: none;
+}
+
+.kbcategories,
+.kbarticles {
+    background: #fff;
+    border: 1px solid #cacbcb;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.ticket-box {
+    background: #fff;
+    border: 1px solid #cacbcb;
+    padding: 10px 20px;
+    font-family: open sans, sans-serif;
+}
+
+.title-tic a {
+    color: #000;
+    text-decoration: none;
+}
+
+.desc-tic {
+    font-size: 13px;
+    color: #7e7e7e;
+}
+
+.fromay {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #e7e7e7;
+}

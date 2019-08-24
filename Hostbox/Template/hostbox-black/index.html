@@ -1,0 +1,481 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+<title>Hostbox</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/black-theme.css">
+</head>
+
+<body onload="init();">
+<div id="top-content" class="container-fluid">
+  <div class="color-overlay accent-color-bg"></div>
+  <div class="container-fluid logo-menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6 text-left">
+          <canvas id="logo-canvas" width="50" height="50"></canvas>
+          <div class="logo-txt">Hostbox</div>
+        </div>
+        <div class="col-xs-6 text-right">
+          <div id="default-button" class="menu-button">
+            <div class="fa fa-circle-o"></div>
+            <div class="fa fa-circle-o"></div>
+            <div class="fa fa-circle-o"></div>
+          </div>
+            <div id="default-menu" class="fullpage-menu">
+                <div class="close-btn"><img src="images/close-btn.png" alt=""></div>
+                <div class="menu-holder">
+                    <ul>
+                        <li><a class="menu-link" href="#header">Home</a></li>
+                        <li><a class="menu-link" href="#features">Features</a></li>
+                        <li><a class="menu-link" href="#pricing">Pricing</a></li>
+                        <li><a class="menu-link" href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row header-content">
+      <div class="col-xs-12 text-center">
+        <div class="header-text-1"> 
+          <div class="word">Affordable</div>
+        </div>
+        <div class="header-text-2">developers hosting</div>
+        <div class="header-text-3">Starting From As Low As
+          <div class="currency">$</div>
+          <div class="price">0.99</div>
+          <div class="duration">/Mo</div>
+        </div>
+        <div class="signup-button">Sign Up</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="partners" class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="partners-slider">
+          <div><img src="images/partners/1.jpg" alt=""></div>
+          <div><img src="images/partners/2.jpg" alt=""></div>
+          <div><img src="images/partners/3.jpg" alt=""></div>
+          <div><img src="images/partners/4.jpg" alt=""></div>
+          <div><img src="images/partners/5.jpg" alt=""></div>
+          <div><img src="images/partners/6.jpg" alt=""></div>
+          <div><img src="images/partners/7.jpg" alt=""></div>
+          <div><img src="images/partners/8.jpg" alt=""></div>
+          <div><img src="images/partners/9.jpg" alt=""></div>
+          <div><img src="images/partners/10.jpg" alt=""></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="features" class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 row-title accent-color-text"> Our Hosting Features </div>
+    </div>
+    <div class="row feature-buttons-holder">
+      <div class="box3d">
+        <div class="box3d-top box3d-part accent-color-bg"></div>
+        <div class="box3d-left box3d-part accent-color-bg"></div>
+        <div class="box3d-right box3d-part accent-color-bg"></div>
+      </div>
+      <div class="feature-button feature1 color1-bg inside-box-left" data-num="1">
+        <div class="feature-icon"><img src="images/feature1.png" alt=""></div>
+        <div class="feature-title">Custom</div>
+        <div class="feature-line color1-border feature-line-hide"></div>
+        <div class="feature-star fa fa-star color1 feature-star-hide"></div>
+      </div>
+      <div class="feature-button feature2 color2-bg inside-box-left" data-num="2">
+        <div class="feature-icon"><img src="images/feature2.png" alt=""></div>
+        <div class="feature-title">Smart</div>
+        <div class="feature-line color2-border feature-line-hide"></div>
+        <div class="feature-star fa fa-star color2 feature-star-hide"></div>
+      </div>
+      <div class="feature-button feature3 color3-bg inside-box-right" data-num="3">
+        <div class="feature-icon"><img src="images/feature3.png" alt=""></div>
+        <div class="feature-title">Free Space</div>
+        <div class="feature-line color3-border feature-line-hide"></div>
+        <div class="feature-star fa fa-star color3 feature-star-hide"></div>
+      </div>
+      <div class="feature-button feature4 color4-bg inside-box-right" data-num="4">
+        <div class="feature-icon"><img src="images/feature4.png" alt=""></div>
+        <div class="feature-title">Award Win</div>
+        <div class="feature-line color4-border feature-line-hide"></div>
+        <div class="feature-star fa fa-star color4 feature-star-hide"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="feature-details1" class="container-fluid f-details color1-bg hide-f-details">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="feature-icon"><img src="images/feature1.png" alt=""></div>
+        <div class="feature-title">Custom</div>
+        <div class="feature-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="feature-details2" class="container-fluid f-details color2-bg hide-f-details">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="feature-icon"><img src="images/feature2.png" alt=""></div>
+        <div class="feature-title">Smart</div>
+        <div class="feature-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="feature-details3" class="container-fluid f-details color3-bg hide-f-details">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="feature-icon"><img src="images/feature3.png" alt=""></div>
+        <div class="feature-title">Free Space</div>
+        <div class="feature-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="feature-details4" class="container-fluid f-details color4-bg hide-f-details">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="feature-icon"><img src="images/feature4.png" alt=""></div>
+        <div class="feature-title">Award Win</div>
+        <div class="feature-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pricing" class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 row-title accent-color-text"> Pricing Lists </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 row-sub-title accent-color-text">
+      Select the best location based on latency, or deploy across regions for high availability.
+      </div>
+    </div>
+    <div class="row">
+    	<div class="col-md-3 col-sm-6 price-column">
+        		<div class="price-table pr-color1">
+                	<div class="price-top-bar">
+                    	<div class="pbar color1-bg"></div>
+                        <div class="diamond">
+                            <div class="diamond-back"><div class="color1-bg"></div></div>
+                            <div class="diamond-top"><div class="color1-bg"></div></div>
+                            <div class="diamond-bottom"><div class="color1-bg"></div></div>
+                        </div>
+                    </div>
+                	<div class="price-title color1-bg">Smallbox</div>
+                	<div class="price accent-color-text">
+            			<span class="monthly-num"><span class="currency">$</span>9.99</span>
+          			</div>
+          			<div class="duration accent-color-text">
+                    	<span class="monthly-obj">/monthly</span>
+          			</div>
+                	<ul class="details-list">
+                        <li>GB 1000 Storage</li>
+                        <li>GB 2000 Monthly Traffic</li>
+                        <li>128Mb Ram</li>
+                        <li>10Subdomains</li>
+                        <li>Sharing data</li>
+                        <li>Unlimited Email accounts</li>
+                        <li>Support 24/7</li>
+                        <li>Linux server</li>
+                    </ul>
+                    <a href="#" class="price-btn"><div class="pr-signup-button accent-color-bg">Sign Up</div></a>
+                </div>
+        	</div>
+        	<div class="col-md-3 col-sm-6 price-column">
+        		<div class="price-table pr-color2">
+                	<div class="price-top-bar">
+                    	<div class="pbar color2-bg"></div>
+                        <div class="diamond">
+                            <div class="diamond-back"><div class="color2-bg"></div></div>
+                            <div class="diamond-top"><div class="color2-bg"></div></div>
+                            <div class="diamond-bottom"><div class="color2-bg"></div></div>
+                        </div>
+                    </div>
+                	<div class="price-title color2-bg">Mediumbox</div>
+                	<div class="price accent-color-text">
+          				<span class="monthly-num"><span class="currency">$</span>10.99</span>
+          			</div>
+          			<div class="duration accent-color-text">
+          				<span class="monthly-obj">/monthly</span>
+          			</div>
+                	<ul class="details-list">
+                        <li>GB 1000 Storage</li>
+                        <li>GB 2000 Monthly Traffic</li>
+                        <li>128Mb Ram</li>
+                        <li>10Subdomains</li>
+                        <li>Sharing data</li>
+                        <li>Unlimited Email accounts</li>
+                        <li>Support 24/7</li>
+                        <li>Linux server</li>
+                    </ul>
+                    <a href="#" class="price-btn"><div class="pr-signup-button accent-color-bg">Sign Up</div></a>
+                </div>
+        	</div>
+            <div class="col-md-3 col-sm-6 price-column">
+        		<div class="price-table pr-color3">
+                	<div class="price-top-bar">
+                    	<div class="pbar color3-bg"></div>
+                        <div class="diamond">
+                            <div class="diamond-back"><div class="color3-bg"></div></div>
+                            <div class="diamond-top"><div class="color3-bg"></div></div>
+                            <div class="diamond-bottom"><div class="color3-bg"></div></div>
+                        </div>
+                    </div>
+                	<div class="price-title color3-bg">Wowbox</div>
+                	<div class="price accent-color-text">
+            			<span class="monthly-num"><span class="currency">$</span>12.99</span>
+          			</div>
+          			<div class="duration accent-color-text">
+          				<span class="monthly-obj">/monthly</span>
+          			</div>
+                    <ul class="details-list">
+                        <li>GB 1000 Storage</li>
+                        <li>GB 2000 Monthly Traffic</li>
+                        <li>128Mb Ram</li>
+                        <li>10Subdomains</li>
+                        <li>Sharing data</li>
+                        <li>Unlimited Email accounts</li>
+                        <li>Support 24/7</li>
+                        <li>Linux server</li>
+                    </ul>
+                    <a href="#" class="price-btn"><div class="pr-signup-button accent-color-bg">Sign Up</div></a>
+                </div>
+        	</div>
+        	<div class="col-md-3 col-sm-6 price-column">
+        		<div class="price-table pr-color4">
+                	<div class="price-top-bar">
+                    	<div class="pbar color4-bg"></div>
+                        <div class="diamond">
+                            <div class="diamond-back"><div class="color4-bg"></div></div>
+                            <div class="diamond-top"><div class="color4-bg"></div></div>
+                            <div class="diamond-bottom"><div class="color4-bg"></div></div>
+                        </div>
+                    </div>
+                	<div class="price-title color4-bg">Deluxbox</div>
+                	<div class="price accent-color-text">
+            			<span class="monthly-num"><span class="currency">$</span>13.99</span>
+          			</div>
+          			<div class="duration accent-color-text">
+          				<span class="monthly-obj">/monthly</span>
+          			</div>
+                	<ul class="details-list">
+                        <li>GB 1000 Storage</li>
+                        <li>GB 2000 Monthly Traffic</li>
+                        <li>128Mb Ram</li>
+                        <li>10Subdomains</li>
+                        <li>Sharing data</li>
+                        <li>Unlimited Email accounts</li>
+                        <li>Support 24/7</li>
+                        <li>Linux server</li>
+                    </ul>
+                    <a href="#" class="price-btn"><div class="pr-signup-button accent-color-bg">Sign Up</div></a>
+                </div>
+        	</div>
+    </div>
+  </div>
+</div>
+<div id="info1" class="container-fluid info">
+  <div class="container">
+    <div class="row">
+    	<div class="col-md-8 info-text">
+        	<h2 class="info-color1">Cloud Host that made easy</h2>
+            <ul class="fa-ul">
+            	<li>
+                <i class="fa-li fa fa-circle-thin info-color1"><i class="fa fa-check info-color1"></i></i>Duis posuere blandit orci sed tincidunt. Curabitur porttitor nisi ac nunc ornare, in fringilla nisl blandit</li>
+                <li><i class="fa-li fa fa-circle-thin info-color1"><i class="fa fa-check info-color1"></i></i>Duis posuere blandit orci sed tincidunt. Curabitur porttitor nisi ac nunc ornare, in fringilla nisl blandit</li>
+            </ul>
+        </div>
+        <div class="col-md-4 info-image">
+        	<img src="images/computer.png" alt="">
+        </div>
+    </div>
+  </div>
+</div>
+<div id="info2" class="container-fluid info">
+  <div class="container">
+    <div class="row">
+    	<div class="col-md-4 info-image">
+        	<img src="images/mobile.png" alt="">
+        </div>
+    	<div class="col-md-8 info-text">
+        	<h2 class="info-color2">Cloud Host that made easy</h2>
+            <ul class="fa-ul">
+            	<li><i class="fa-li fa fa-circle-thin info-color2"><i class="fa fa-check info-color2"></i></i>Duis posuere blandit orci sed tincidunt. Curabitur porttitor nisi ac nunc ornare, in fringilla nisl blandit</li>
+                <li><i class="fa-li fa fa-circle-thin info-color2"><i class="fa fa-check info-color2"></i></i>Duis posuere blandit orci sed tincidunt. Curabitur porttitor nisi ac nunc ornare, in fringilla nisl blandit</li>
+            </ul>
+        </div>
+    </div>
+  </div>
+</div>
+<div id="info3" class="container-fluid info">
+  <div class="container">
+    <div class="row">
+    	<div class="col-md-8 info-text">
+        	<h2 class="info-color3">Cloud Host that made easy</h2>
+            <ul class="fa-ul">
+            	<li><i class="fa-li fa fa-circle-thin info-color3"><i class="fa fa-check info-color3"></i></i>Duis posuere blandit orci sed tincidunt. Curabitur porttitor nisi ac nunc ornare, in fringilla nisl blandit</li>
+                <li><i class="fa-li fa fa-circle-thin info-color3"><i class="fa fa-check info-color3"></i></i>Duis posuere blandit orci sed tincidunt. Curabitur porttitor nisi ac nunc ornare, in fringilla nisl blandit</li>
+            </ul>
+        </div>
+        <div class="col-md-4 info-image">
+        	<img src="images/contact.png" alt="">
+        </div>
+    </div>
+  </div>
+</div>
+<div id="testimonials" class="container-fluid">
+  <div class="container">
+    <div class="row">
+    	<div class="col-xs-12 message-icon-holder">
+        	<div class="message-icon">
+            	<div class="message-icon-body accent-color-bg">...</div>
+                <div class="message-icon-arrow accent-color-border"></div>
+            </div>
+        </div>
+        <div class="col-xs-12 testimonial-text-holder">
+        	<div class="testimonial-text t1 accent-color-text">
+            	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+            <div class="testimonial-text t2 accent-color-text testimonial-text-hide">
+            	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+            </div>
+            <div class="testimonial-text t3 accent-color-text testimonial-text-hide">
+            	<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,</p>
+            </div>
+            <div class="testimonial-text t4 accent-color-text testimonial-text-hide">
+            	<p>nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+            </div>
+            <div class="testimonial-text t5 accent-color-text testimonial-text-hide">
+            	<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="testimonial-text t6 accent-color-text testimonial-text-hide">
+            	<p>sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam</p>
+            </div>
+        </div>
+        <div class="col-xs-12">
+        	 <div class="people-slider">
+          		<div class="person-details person-details-show" data-num="1">
+                	<div class="person-image-holder">
+                		<img class="person-image" src="images/people/1.jpg" alt="">
+                    </div>
+                    <div class="person-details-holder">
+                    	<div class="person-name">Jane Doe</div>
+                        <div class="person-title">Job Title</div>
+                    </div>
+                </div>
+                <div class="person-details" data-num="2">
+                	<div class="person-image-holder">
+                		<img class="person-image" src="images/people/2.jpg" alt="">
+                    </div>
+                    <div class="person-details-holder">
+                    	<div class="person-name">Jane Doe</div>
+                        <div class="person-title">Job Title</div>
+                    </div>
+                </div>
+                <div class="person-details" data-num="3">
+                	<div class="person-image-holder">
+                		<img class="person-image" src="images/people/3.jpg" alt="">
+                    </div>
+                    <div class="person-details-holder">
+                    	<div class="person-name">Jane Doe</div>
+                        <div class="person-title">Job Title</div>
+                    </div>
+                </div>
+                <div class="person-details" data-num="4">
+                	<div class="person-image-holder">
+                		<img class="person-image" src="images/people/4.jpg" alt="">
+                    </div>
+                    <div class="person-details-holder">
+                    	<div class="person-name">Jane Doe</div>
+                        <div class="person-title">Job Title</div>
+                    </div>
+                </div>
+                <div class="person-details" data-num="5">
+                	<div class="person-image-holder">
+                		<img class="person-image" src="images/people/1.jpg" alt="">
+                    </div>
+                    <div class="person-details-holder">
+                    	<div class="person-name">Jane Doe</div>
+                        <div class="person-title">Job Title</div>
+                    </div>
+                </div>
+                <div class="person-details" data-num="6">
+                	<div class="person-image-holder">
+                		<img class="person-image" src="images/people/2.jpg" alt="">
+                    </div>
+                    <div class="person-details-holder">
+                    	<div class="person-name">Jane Doe</div>
+                        <div class="person-title">Job Title</div>
+                    </div>
+                </div>
+        	</div>
+        </div>
+    </div>
+  </div>
+</div>
+<div id="contact" class="container-fluid accent-color-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 row-title"> Contact Us </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-5">
+        <div class="sub-title">Location information</div>
+        <p> John doe<br>
+          Street 38, Blcok 1205<br>
+          Road 544<br>
+          United Kingdom. </p>
+        <p> +123 58230189<br>
+          contact@hotstbox.com </p>
+      </div>
+      <div class="col-sm-7">
+        <form id="contactform" method="post" action="mailer.php">
+            <div class="form-items-holder">
+                <div><input type="text" id="name" name="name" placeholder="Name" required></div>
+                <div><input type="email" id="email" name="email" placeholder="Email" required></div>
+                <div class="form-label">Message</div>
+                <div><textarea id="message" name="message" required></textarea></div>
+                <div class="ajax-button">
+                   <div class="fa fa-check done"></div>
+            	   <div class="fa fa-close failed"></div>
+                   <input id="submit" type="submit" value="Send It">
+                </div>
+                <div id="form-messages"></div>
+            </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/jquery.min.js"></script> 
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/modernizr-custom.js"></script>
+<script src="js/slick.min.js"></script> 
+<script src="js/createjs.min.js"></script> 
+<script src="js/logo.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

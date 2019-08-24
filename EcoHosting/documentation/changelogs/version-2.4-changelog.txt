@@ -1,0 +1,12 @@
+============================
+09 June, 2018 - Version 2.4
+============================
+
+-------------------------------------------------------------------------------------------
+Backup your theme/style folder and files before applying these updates.
+-------------------------------------------------------------------------------------------
+
+[*] Fixed Pricing Table Select Option Issue
+
+
+***(need to update the 'ecohosting' Theme to get the above changes)***

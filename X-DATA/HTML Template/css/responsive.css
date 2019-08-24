@@ -1,0 +1,323 @@
+/* Smart Phones */
+
+@media only screen and (min-width: 160px) and (max-width: 767px) {
+    .custom-btn-res {
+        margin-right: 0;
+        margin-top: 27px;
+        padding: 0;
+    }
+    .icon-bar {
+        background: #fff;
+    }
+    .navbar-collapse {
+        background: #4b5159;
+        width: 100%;
+    }
+    .l-area,
+    .s-area {
+        height: auto;
+    }
+    .s-area span {
+        display: none;
+    }
+    .s-area {
+        display: block;
+        width: 100%;
+        float: left;
+        text-align: center;
+        padding: 15px 0;
+    }
+    .l-area {
+        float: left;
+        width: 100%;
+        display: block;
+        position: relative;
+        border-radius: 0 0 4px 4px;
+        padding: 0 20px;
+    }
+    .l-area::before {
+        background: transparent;
+    }
+    .menu li {
+        float: left;
+        margin-left: 0;
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        border-bottom: 1px solid #383c42;
+    }
+    .active-link,
+    .menu a:hover {
+        border-top: 0;
+        padding-top: 0;
+    }
+    .dropdown-menu.custom li,
+    .dropdown-menu.carti li {
+        text-align: left;
+    }
+    .dropdown-menu.custom {
+        top: 40px;
+        left: 38px;
+    }
+    .user-drpd {
+        width: 91.0%;
+    }
+    .reg-drpd:hover {
+        padding: 6px 10px !important;
+    }
+    .dropdown-menu.carti {
+        top: 41px;
+        left: 38px;
+    }
+    .popular-plan {
+        margin: 34px auto 0;
+        display: inline-block;
+    }
+    .h-plans {
+        height: auto;
+        padding-bottom: 75px;
+    }
+    .dom-area {
+        margin: 50px 0;
+    }
+    .sea-dom,
+    .ext-d {
+        margin-bottom: 20px;
+    }
+    .sea-dom {
+        width: 70%;
+        float: left;
+    }
+    .ext-d {
+        padding: 8.9px 15px;
+        width: 28%;
+    }
+    .reg-dom,
+    .tra-dom,
+    .mna-dom {
+        padding: 10px;
+        width: 100%;
+    }
+    .partners img {
+        text-align: center;
+        margin: 10px auto;
+        display: block;
+        border: 1px solid #ddd;
+    }
+    .map,
+    .phone,
+    .mail,
+    .l-chat {
+        display: block;
+        margin: 10px 15px;
+        text-align: left;
+    }
+    .about,
+    .links-foot {
+        margin-bottom: 40px;
+    }
+    .f-lv2 {
+        padding: 40px 0 0;
+    }
+    .block-fea {
+        margin: 15px 0;
+    }
+    .nav-tabs>li {
+        text-align: left;
+    }
+    .fa.fa-plus-circle.coll-a {
+        display: none;
+    }
+    .breadcrumb {
+        padding: 170px 0 0;
+        background-size: cover !important;
+    }
+    .breadcrumb h2 {
+        font-size: 20px;
+        text-shadow: 1px 1px #7e7e7e;
+    }
+    .breadcrumb p {
+        width: 100%;
+        margin: 0 0 50px 0;
+        text-shadow: 1px 1px #7e7e7e;
+    }
+    .h-plans.page {
+        height: auto;
+    }
+    .plan-det {
+        margin: 25px 0;
+    }
+    .block-inte {
+        margin-bottom: 45px;
+    }
+    .h-plans.page.domain {
+        height: 371px;
+    }
+    .ext-dom {
+        width: 50%;
+    }
+    .features.c-page.domi {
+        margin-top: 109px;
+    }
+    #map,
+    .app {
+        width: 100%;
+    }
+    .app-mob {
+        display: none;
+    }
+    .app-btns {
+        width: 100%;
+    }
+    .app {
+        height: auto;
+    }
+    .block-comp {
+        margin: 20px 40px;
+    }
+    .social-media ul li {
+        margin: 0 3px;
+    }
+    .user-n,
+    .user-n.half {
+        width: 98%;
+        margin: 0 0 15px 0;
+    }
+    .block-faq-lv1 {
+        width: 100%;
+        float: left;
+    }
+    .cat ul li a:hover {
+        border-top: 0;
+        padding-top: 0;
+    }
+    .active-d {
+        border: 0;
+    }
+    .plan-st2,
+    .plan-st3 {
+        margin-bottom: 60px;
+    }
+    .plans-tabs li {
+        width: 100%;
+        margin: 0;
+    }
+    .popular-plan.cus-pk {
+        width: 100%;
+    }
+    .login-f {
+        margin: 100px 0 30px;
+        width: 100%;
+    }
+    .user-l.custom {
+        width: 100%;
+        margin: 20px 0 0;
+    }
+    .com-title h1 {
+        font-size: 44px;
+    }
+    .menu {
+        float: none;
+    }
+}
+
+
+/* iPads (landscape) */
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .menu li {
+        margin-left: 25px;
+    }
+    .l-area,
+    .s-area {
+        width: 100%;
+    }
+    .s-area {
+        text-align: center;
+    }
+    .sea-dom {
+        margin-bottom: 20px;
+    }
+    .tab-content.custom {
+        margin: 0;
+        width: 100%;
+    }
+    .nav.nav-tabs.custom li a {
+        min-height: 143px;
+    }
+    .nav.nav-tabs.custom li a img {
+        text-align: center;
+        margin: 0 auto 10px;
+        display: block;
+    }
+    .fa.fa-plus-circle.coll-a {
+        display: none;
+    }
+    .partners {
+        text-align: center;
+    }
+    .partners img {
+        text-align: center;
+        margin: 15px;
+        display: inline;
+        border: 1px solid #ddd;
+    }
+    .email-news {
+        width: 96%;
+    }
+    .map,
+    .phone,
+    .mail,
+    .l-chat {
+        margin: 0 5px;
+    }
+    .cusz {
+        min-height: auto !important;
+    }
+    .breadcrumb {
+        padding: 190px 0 50px;
+        background-size: cover !important;
+    }
+    .breadcrumb h2 {
+        font-size: 30px;
+    }
+    .h-plans.page.domain {
+        height: 374px
+    }
+    .app-mob {
+        display: none;
+    }
+    .app-btns {
+        width: 100%;
+    }
+    .user-n,
+    .user-n.half {
+        width: 98%;
+    }
+    .block-comp {
+        margin: 0 35px;
+    }
+    .block-faq-lv1 {
+        width: 100%;
+        float: left;
+    }
+    .plan-st2,
+    .plan-st3 {
+        margin-bottom: 60px;
+    }
+    .login-f {
+        width: 70%;
+    }
+    .l-area {
+        float: left;
+        width: 100%;
+        display: block;
+        position: relative;
+        border-radius: 0 0 4px 4px;
+        padding: 0 20px;
+    }
+    .l-area::before {
+        background: transparent;
+    }
+}

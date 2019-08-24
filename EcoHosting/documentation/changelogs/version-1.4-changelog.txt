@@ -1,0 +1,9 @@
+2017 February 04 – Version 1.4
+
+// # List of updates
+// ------------------------------
+
+[*] Fixed Pricing Table Different Button Different URL Issue
+
+
+

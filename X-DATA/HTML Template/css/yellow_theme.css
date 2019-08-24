@@ -1,0 +1,262 @@
+/*
+Theme Name: X-DATA Yellow Color
+Theme URI: http://www.whmcsdes.com
+Description: X-DATA Template v1.0
+Version: 1.0
+Author: WHMCSdes
+Author URI: http://whmcsdes.com
+Tags: powerful, host
+*/
+
+header {
+    background: #F88C00;
+    background: -webkit-linear-gradient(to left, #e88300, #F88C00);
+    background: linear-gradient(to left, #e88300, #F88C00);
+}
+
+.sub-drpd {
+    background: #F88C00;
+}
+
+a.sub-drpd:focus {
+    background: #F88C00;
+    border-bottom: 3px solid #F88C00;
+}
+
+.sub-drpd {
+    border-bottom: 3px solid #358cdd;
+}
+
+.fa.fa-database.plan-icon,
+.fa.fa-rocket.plan-icon,
+.fa.fa-group.plan-icon {
+    color: #F88C00;
+}
+
+a.order-plan {
+    background: #F88C00;
+}
+
+.reg-dom {
+    background: #F88C00;
+    border: 1px solid #F88C00;
+}
+
+.reg-dom:hover {
+    color: #F88C00;
+    border: 1px solid #F88C00;
+}
+
+.sub-news:focus {
+    background: #F88C00;
+}
+
+.block-inte a {
+    color: #F88C00;
+    border: 1px solid #F88C00;
+}
+
+.ext-dom {
+    background: #F88C00;
+}
+
+.ext-dom.grad1 {
+    background: #e88300;
+}
+
+.ext-dom.grad2 {
+    background: #d87a01;
+}
+
+.ext-dom.grad3 {
+    background: #cc7300;
+}
+
+.ext-dom.grad4 {
+    background: #bb6a01;
+}
+
+.block-comp span {
+    color: #F88C00;
+}
+
+a.chat-n {
+    border: 1px solid #F88C00;
+    color: #F88C00;
+}
+
+.loading {
+    background: #F88C00;
+}
+
+.social-media,
+.user-sub,
+.contact,
+.l-border,
+.s-area,
+.cat {
+    background: #F88C00;
+    background: -webkit-linear-gradient(to left, #e88300, #F88C00);
+    background: linear-gradient(to left, #e88300, #F88C00);
+}
+
+.table-head th {
+    border: 1px solid #e88300 !important;
+}
+
+.active-d {
+    border-right: 1px solid #cd7400;
+    border-left: 1px solid #cd7400;
+}
+
+.icon-cog {
+    background: #F88C00;
+}
+
+.info-bio h4 {
+    color: #F88C00;
+}
+
+.icon-cog {
+    background: #F88C00;
+}
+
+.login-f {
+    border-bottom: 4px solid #F88C00;
+}
+
+.plan-st2.active-st2 {
+    background: #F88C00;
+}
+
+.plan-st2:hover {
+    background: #F88C00;
+}
+
+.plan-st2 span {
+    color: #F88C00;
+}
+
+.plan-st3 h3 {
+    background: #F88C00;
+}
+
+a.order-st3 {
+    background: #F88C00;
+}
+
+.active-tabp {
+    background: #F88C00 !important;
+}
+
+.table-head {
+    background: #F88C00;
+}
+
+.order-table .fa.fa-arrow-right {
+    color: #F88C00;
+}
+
+.title-error-t {
+    color: #F88C00;
+}
+
+.t-sty-a.colored h2 {
+    color: #F88C00;
+}
+
+.bg-colored {
+    background: #F88C00;
+}
+
+.fa.fa-rocket.short-sq.bgz {
+    border: 1px solid #F88C00;
+    background: #F88C00;
+}
+
+.fa.fa-rocket.short-circ.bgz {
+    border: 1px solid #F88C00;
+    background: #F88C00;
+}
+
+.fa.fa-rocket.short-rad.bgz {
+    border: 1px solid #F88C00;
+    background: #F88C00;
+}
+
+.x-data-alert {
+    border-left: 6px solid #F88C00;
+}
+
+.x-data-alert.bg-col {
+    background: #F88C00;
+}
+
+.bg-btn,
+.bg-btn.md,
+.bg-btn.lg {
+    background: #F88C00;
+}
+
+.bg-btn-o-brd,
+.bg-btn-o-brd.md,
+.bg-btn-o-brd.lg {
+    border: 2px solid #F88C00;
+    color: #F88C00;
+}
+
+.bg-btn-o-brd:hover,
+.bg-btn-o-brd.md:hover,
+.bg-btn-o-brd.lg:hover {
+    background: #F88C00;
+}
+
+.bg-btn-b-brd,
+.bg-btn-b-brd.md,
+.bg-btn-b-brd.lg {
+    border-bottom: 2px solid #F88C00;
+    color: #F88C00;
+}
+
+.bg-btn-b-brd:hover,
+.bg-btn-b-brd.md:hover,
+.bg-btn-b-brd.lg:hover {
+    background: #F88C00;
+}
+
+.bg-btn-icon,
+.bg-btn-icon.md,
+.bg-btn-icon.lg {
+    background: #F88C00;
+    border: 2px solid #F88C00;
+}
+
+.bg-btn-o-brd.md,
+.bg-btn-o-brd.lg {
+    border: 2px solid #F88C00;
+    color: #F88C00;
+}
+
+.bg-btn-o-brd.md:hover,
+.bg-btn-o-brd.lg:hover {
+    background: #F88C00;
+}
+
+.bg-btn-cys:hover,
+.bg-btn-cys.md:hover,
+.bg-btn-cys.lg:hover {
+    background: #F88C00;
+    border: 2px solid #F88C00;
+}
+
+.fa.fa-star.x-icon {
+    color: #F88C00;
+}
+
+.fa.fa-database.circle-icon {
+    background: #F88C00;
+}
+
+.fa.fa-group.border-icon {
+    border: 2px solid #F88C00;
+}

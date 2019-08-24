@@ -1,0 +1,19 @@
+===========================
+08 June, 2017 - Version 1.9
+===========================
+
+[+] Added Slider Speed Controller Option
+
+[*] Fixed Drop-down Main Menu Link Issue
+[*] Fixed Social Link Open
+ in Same Window Issue
+[+] Added Support for Shortcode in Flat content Section
+
+***(need to update the 'ecohosting' Theme to get the above changes)***
+
+=========================================================================
+=========================================================================
+
+[*] Fixed WHMCS MarketConnect CSS Issue
+
+***(need to update the 'style.css' file of WHMCS Template)***

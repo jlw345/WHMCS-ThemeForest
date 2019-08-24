@@ -1,0 +1,177 @@
+#logo, .menu_bgmain.one #logo {
+	background: url(../../../img/logo-red.png) no-repeat left bottom;
+}
+.title4 .line {
+    background:url(../../../img/title-line-red.png) no-repeat center bottom;
+}
+.fea-col:hover .icon, .fea-col.active .icon, .section6.one .fea-col:hover .icon, .section6.one .fea-col.active .icon{
+	background:url(../../../img/circle-shape-2-red.png) no-repeat center top;
+	color:#e71a1a;
+}
+.section8.one .post-col .text-col, .section8.two .post-col .text-col {
+	background:url(../../../img/shape-arrow-red.png) no-repeat center top;
+}
+.top_nav li i:hover, .top_nav li a:hover, .top_nav ul.right-nav li:hover a, .top_nav ul.right-nav li:hover i, ul.nav>li>a.active,
+ul.nav>li>a:hover.active, ul.nav>li>a:hover, ul.nav.dark>li>a.active, ul.nav.dark>li>a:hover.active, .tp-caption.text1,
+.tp-caption.textblue, .tp-caption.textblue_one, .tp-caption.text1 span, .tp-caption.text2 span, .btns .whiteline:hover, .btns .whitebox,
+.tp-caption.textblue_one, .fe-col-wrp.type1:hover .icon span, .fe-col-wrp.type1.active .icon span, .ca-col:hover .icon span, 
+.ca-col:hover h3 em, .fea-col:hover .bref-info h5, .fea-col.active .bref-info h5, .client-info, .section8 .post-col:hover .text-col h4, .readmore .linebtn.one:hover, .domain_search_home ul.tld_list.one li, .section13 .one_third:hover .fe-cols h2, .section13 .one_third.active .fe-cols h2, 
+.section13 .one_third:hover .fe-cols a, .section13 .one_third.active .fe-cols a, .tabs7 li a:hover, .section12 .one_half .fea-cols ul li span,
+.section14 .one_half .offer-col .one_half h3 span.bluetext, .section14 .one_half .offer-col .one_half h3 span, .btns .whitebox.one,
+.section7.one .test-col .review h5, .section16 .post_holder .text_holder ul.date-user li span, .phonenos span,
+.section18 .ser-col:hover h2, .section18 .ser-col.active h2, .readmore .linebtn.two:hover, .section18 .ser-col:hover .readmore .linebtn.two, .section18 .ser-col.active .readmore .linebtn.two, .section6.one .bref-info:hover h5, .section6.one .fea-col.active .bref-info h5,
+.section8 .post-img .hover-box .box-inner .icon:hover a, .section21 .quote, .section21 .test-col-one .review h5, ul.nav.four>li>a.active,
+.readmore .linebtn.four:hover, .section27 .test-col-one .review h5, .tp-caption.text7 span, ul.postlist li a:hover, 
+.section28 .fea-col:hover .icon, .section28 .fea-col.active .icon, .domain_search_home ul.tld_list.listone li, .section29 ul li span,
+.footer ul.faddress li a:hover, .section8.one .post-col .month, .section8.one .post-col .postinfo ul.date-user li span, ul.nav.eight>li>a.active,
+.dlist span, .fea-cols ul li span, .menu li a.current, .menu li a.current i, .menu li a:hover, .info-links a, .price-col.three .prices span, .info-links, .readmore .linebtn.six, .date-col.one .comments i, .address-info .icon, .section37.one .fea-col:hover .bref-info h5, .section37.one .fea-col.active .bref-info h5, .pagenation a, .widget_categories .list li a:hover, .widget_recent_entries .list li a:hover, .widget_archive .list li a:hover, .widget_meta .list li a:hover, .widget_pages .list li a:hover, .widget_recent_comments .list li a:hover, .sidebar_latest_posts .post_holder .text a h6:hover, .sky-form a, .sky-form .checkbox input + i:after, .cyan, .cbp-l-filters-alignCenter .cbp-filter-item.cbp-filter-item-active, .cbp-l-filters-alignCenter .cbp-filter-item:hover, .cbp-l-grid-masonry-projects-title, .cbp-l-filters-buttonCenter .cbp-filter-item.cbp-filter-item-active,
+.section3 .one_half.freesite ul li.price span, .section3 .one_half .offerbadge, .section3 .one_half h3 span, div.header-lined h1, .announcement-single h2 a
+{
+	color: #e71a1a !important;
+}
+ul.nav > li > a.active, ul.nav.three > li > a.active, .section8.one .post-col:hover .text-col, ul.nav.eight>li>a.active{
+	border-bottom: 3px solid #e71a1a;
+}
+ul.nav.five > li > a.active{
+	border:0;
+}
+.section8 .post-col:hover .text-col, .section14 .one_half .offer-col {
+	border-bottom:solid 5px #e71a1a;
+}
+.dropdown-menu{
+	border-top: 3px solid #e71a1a;
+}
+.section28 .fea-col .icon{
+	background: none;
+}
+.dataTables_wrapper .dataTables_info, .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .btns .whitebox:after, .btns .whitebox:hover, .tp-caption.slide_list2 i, .scrollup,
+.section1, .fe-col-wrp.type1:hover, .fe-col-wrp.type1.active, .price-col:hover, .price-col.active, .domain_search_home button.searchsubmit,
+.title .line.blueline, .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span, 
+.section8 .post-col .date, .section11, ul.social_icons li a:hover, .section1.one, .section1.three, .title5 .line,
+.owl-carousel.one .owl-controls .owl-page.active span, .smk_accordion .accordion_in.acc_active > .acc_head, .section5.one, 
+.owl-carousel.one .owl-controls.clickable .owl-page:hover span, .price-col.one:hover .price, .price-col.one.active .price, .readmore .bluebtn,
+.section13 .one_third:hover .fe-cols .icon span, .section13 .one_third.active .fe-cols .icon span, .tabs7 li.active a,
+.section16 .post_holder.active .text_holder, .section16 .post_holder:hover .text_holder, .section16 .post_img .hover_box .box_inner .icon:hover,
+.footer.one .title_line, .newsletter .email_submit, .section18 .ser-col:hover .diamond-shape, .section18 .ser-col.active .diamond-shape,
+.section4.two .diamond-shape, .readmore .linebtn.three:hover, .readmore .linebtn.three:after, .title6 .line,
+.section20 .one_third .fe-col-wrp.type1:hover, .section20 .one_third .fe-col-wrp.type1.active, .scrollto_sticky.five, 
+.copyrights .socil-media ul.social_icons li a:hover, .section19.one, .tabs li.active a, .footer .title_line.blueline,
+ul.social_icons.four li a:hover, .top_nav4, #domain-searchform .search-submit, .section28 .fea-col:hover h5 span.line, .section28 .fea-col.active h5 span.line, .prices.two, .btns .whitebox.one:after, .btns .whitebox.one:hover, .section3.one .one_fourth:hover .ca-col, .section3.one .one_fourth .ca-col.active, .section8.two .post-col .date, .divline, .domain_search_home #search-submit, .menui, .fea-col:hover .icon.one, .fea-col.active .icon.one, .readmore .linebtn.six:after, .readmore .linebtn.six:hover, form .submit-btn, .copyrights .socil-media ul.social_icons.four li a:hover, .domain_search_home #searchsubmitblue, .table-list3 th, .section40 .one_fourth.active .member_info, .section40 .one_fourth:hover .member_info, .section40 .img_holder .social_icon li a:hover, .widget_tag_cloud .tags li a:hover, .widget_tag_cloud .tags a:hover, a.knowmore_but, .sky-form .radio input + i:after, .sky-form .button, .smk_accordion .accordion_in.three.acc_active > .acc_head, .table-list th, .table-list2 tr:hover td, .cbp-l-filters-button .cbp-filter-item.cbp-filter-item-active, .cbp-l-caption-buttonLeft, .cbp-l-caption-buttonRight, .cbp-l-filters-work .cbp-filter-item.cbp-filter-item-active, .cbp-l-filters-work .cbp-filter-item:hover, .cbp-l-filters-alignRight .cbp-filter-item.cbp-filter-item-active, .cbp-l-filters-alignRight .cbp-filter-counter, .cbp-l-filters-buttonCenter .cbp-filter-counter, .section41 .post_img .date, .section41 .post_img .overley .icon:hover, .page-numbers li a:hover, .page-numbers li span:hover, .readmore_bu5, .sky-form .button.seven, .section41 a.loadmore_but
+{
+    background-color: #e71a1a !important;
+}
+.top-animate, .bottom-animate, .pricing-new.two .diamond-shape, .navbar-main .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
+    background-color: #e71a1a !important;
+}
+.owl-page.active, .owl-carousel.one .owl-controls .owl-page.active, .section16 .post_img .hover_box .box_inner,
+.section13 .one_third:hover .fe-cols .icon, .section13 .one_third.active .fe-cols .icon, .newsletter .email_submit,
+.section18 .ser-col:hover .diamond-shape, .section18 .ser-col.active .diamond-shape, .section4.two .diamond-shape,
+.readmore .linebtn.two:hover, .section18 .ser-col:hover .readmore .linebtn.two, .section18 .ser-col.active .readmore .linebtn.two,
+.readmore .linebtn.three:hover, .owl-page.active, .btns .whitebox.one:hover, .pricing-new.two .diamond-shape
+{
+	border: 1px solid #e71a1a;
+}
+.pricing-new.two .price-col.active .diamond-shape, .pricing-new.two .price-col:hover .diamond-shape {
+    background-color: #1a1a1a !important;
+    border: 1px solid #1a1a1a !important;
+}
+.domain_search_home button.searchsubmit:hover {
+    background-color: #cd0e0e;
+}
+
+.fe-col-wrp.type1:hover, .fe-col-wrp.type1.active, .section20 .one_third .fe-col-wrp.type1:hover, .section20 .one_third .fe-col-wrp.type1.active{
+	color:#b00000;
+}
+.top_nav2.top_nav3, .cbp-l-filters-alignRight .cbp-filter-counter:before, .cbp-l-filters-buttonCenter .cbp-filter-counter::before{
+	border-top:solid 4px #e71a1a;
+}
+.btns .whitebox:hover, .ui-progress.style2, .section8.two .post-col:hover .text-col, .fea-col:hover .icon.one, .fea-col.active .icon.one, .readmore .linebtn.six, .readmore .linebtn.six:hover, .section40 .one_fourth.active .member_info, .section40 .one_fourth:hover .member_info, .widget_tag_cloud .tags li a:hover, .widget_tag_cloud .tags a:hover, .sky-form .radio input:checked + i, .sky-form .checkbox input:checked + i, .sky-form .toggle input:checked + i, .sky-form .input input:focus, .sky-form .select select:focus, .sky-form .textarea textarea:focus, .sky-form .radio input:focus + i, .sky-form .checkbox input:focus + i, .sky-form .toggle input:focus + i, .table-list2 tr, .cbp-l-filters-button .cbp-filter-item.cbp-filter-item-active, .cbp-l-filters-alignCenter .cbp-filter-item.cbp-filter-item-active, .cbp-l-filters-alignRight .cbp-filter-item.cbp-filter-item-active, .cbp-l-filters-buttonCenter .cbp-filter-item.cbp-filter-item-active, .section41 .comment:hover{
+	border-color: #e71a1a !important;
+}
+.punchline_text_box{
+	border-left-color:#e71a1a;
+}
+.section22 .ser-col{
+	background:#f65959 url(../../../img/box-shape-white.png) no-repeat center top;
+}
+.section22 .one_third:hover .ser-col, .section22 .one_third .ser-col.active{
+	background:#e71a1a url(../../../img/box-shape-white.png) no-repeat center top;
+}
+.section25 .fea-col:hover .icon, .section25 .fea-col.active .icon{
+	background:#e71a1a;
+	border-bottom:solid 4px #bd0505;
+}
+.top_nav4 ul.right-nav li:hover a, .top_nav4 ul.right-nav li:hover i{
+	color:#222222;
+}
+
+/* blue line btn */
+.btns .blueline {
+	border: 1px solid #e71a1a;
+	color: #e71a1a;
+}
+.btns .blueline:after {
+	background-color: #e71a1a;
+}
+.btns .blueline:hover {
+	border-color: #e71a1a;
+	background-color:#e71a1a;
+}
+
+/* whmcs pages colors */
+.div.header-lined h1, ol.breadcrumb li a, h1 small, .kbcategories a, .kbcategories a .glyphicon, .kbarticles a, .kbarticles a .glyphicon{
+	color: #e71a1a !important;
+}
+.btn-primary, .kbcategories .badge, a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus, .btn-info, .btn-info:hover{
+	background-color: #e71a1a !important;
+}
+.nav .caret, .nav a:hover .caret {
+    border-bottom-color: #e71a1a;
+    border-top-color: #e71a1a;
+}
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover, .btn-primary, .btn-primary:hover, .btn-info, .btn-info:hover{
+	border-color: #e71a1a;
+}
+blockquote {
+    border-left: 5px solid #e71a1a;
+}
+.home-shortcuts {
+    background: #e71a1a none repeat scroll 0 0;
+}
+.home-shortcuts li:first-child {
+    border-left: 1px solid #fe3131;
+}
+.home-shortcuts li {
+    border-right: 1px solid #fe3131;
+}
+.table > thead > tr > th {
+    border-bottom: 1px solid #e71a1a;
+}
+#main-body .table-container table.table-list thead th{
+	background-color: #e6ecef !important;
+}
+#main-body .table-container .table > thead > tr > th {
+    border-bottom: 1px solid #e6ecef;
+}
+/**Premium comparison table**/
+#order-premium_comparison .price-table-container .price-table .top-head {
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #e71a1a 0%, #fe3131 100%) repeat scroll 0 0  !important;
+}
+#order-premium_comparison .price-table-container .price-table .top-head .top-area {
+    border-bottom: 1px solid #fe3131 !important;
+}
+#order-premium_comparison .price-table-container .price-table .top-head .price-area {
+    border-top: 1px solid #e71a1a !important;
+}
+#order-premium_comparison .price-table-container .order-button, #order-premium_comparison .price-table-container .order-button:hover {
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #e71a1a 0%, #fe3131 100%) repeat scroll 0 0 !important;
+}
+/**Premium comparison table end**/
+
+@media only screen and (max-width: 479px) {
+	#logo {
+	background: url(../../../img/logo-red.png) no-repeat center bottom;
+}
+}
+
+

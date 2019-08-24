@@ -1,0 +1,57 @@
+[
+    {
+        "title": "Plan 1",
+        "cpu": "1 CORE",
+        "ram": "1 GB",
+        "disk_space": "100 GB",
+        "bandwidth": "1000 GB",
+        "setup": "FREE",
+        "ip": "UP TO 1",
+        "price": "$19.99",
+        "url": "http://billing.ywhmcs.com/cart.php?systpl=MoonHost01&a=add&pid=12"
+    },
+    {
+        "title": "Plan 2",
+        "cpu": "2 CORE",
+        "ram": "2 GB",
+        "disk_space": "200 GB",
+        "bandwidth": "2000 GB",
+        "setup": "FREE",
+        "ip": "UP TO 2",
+        "price": "$29.99",
+        "url": "http://billing.ywhmcs.com/cart.php?systpl=MoonHost01&a=add&pid=13"
+    },
+    {
+        "title": "Plan 3",
+        "cpu": "3 CORE",
+        "ram": "3 GB",
+        "disk_space": "300 GB",
+        "bandwidth": "3000 GB",
+        "setup": "FREE",
+        "ip": "UP TO 3",
+        "price": "$39.99",
+        "url": "http://billing.ywhmcs.com/cart.php?systpl=MoonHost01&a=add&pid=14"
+    },
+    {
+        "title": "Plan 4",
+        "cpu": "4 CORE",
+        "ram": "4 GB",
+        "disk_space": "400 GB",
+        "bandwidth": "4000 GB",
+        "setup": "FREE",
+        "ip": "UP TO 4",
+        "price": "$49.99",
+        "url": "http://billing.ywhmcs.com/cart.php?systpl=MoonHost01&a=add&pid=15"
+    },
+    {
+        "title": "Plan 5",
+        "cpu": "5 CORE",
+        "ram": "5 GB",
+        "disk_space": "500 GB",
+        "bandwidth": "5000 GB",
+        "setup": "FREE",
+        "ip": "UP TO 5",
+        "price": "$59.99",
+        "url": "http://billing.ywhmcs.com/cart.php?systpl=MoonHost01&a=add&pid=16"
+    }
+]

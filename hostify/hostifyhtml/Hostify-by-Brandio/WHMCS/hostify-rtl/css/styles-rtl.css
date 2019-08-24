@@ -1,0 +1,327 @@
+section#footer .back-to-top {
+    float: left;
+}
+div.header-lined .breadcrumb {
+    padding-left: initial;
+    padding-right: 0;
+}
+.home-shortcuts li {
+  float: right;
+}
+.home-shortcuts li:first-child {
+  border-left: 0px solid #0E88B0;
+  border-right: 1px solid #0E88B0;
+}
+@media (max-width: 767px) {
+  .home-shortcuts li {
+    border-right: inherit;
+    border-left: 0;
+  }
+  .home-shortcuts li:first-child {
+    border-left: inherit;
+    border-right: 0;
+  }
+}
+.home-kb-search .form-control {
+    padding-left: initial;
+    padding-right: 50px;
+}
+.home-kb-search i {
+    float: right;
+    margin-left: initial;
+    margin-right: 20px;
+}
+.alert-bordered-left {
+    border-left: 0 solid;
+    border-right: 3px solid;
+    text-align: right;
+}
+.tiles .tile {
+    border-right: 0px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+.tile .icon {
+    right: inherit;
+    left: 10px;
+}
+
+.col-button-left {
+    padding-left: 7px;
+    padding-right: 0;
+}
+.col-button-right {
+    padding-left: 0;
+    padding-right: 7px;
+}
+
+ul.top-nav {
+    float: left;
+    padding-left: initial;
+    padding-right: 0;
+}
+ul.top-nav > li.primary-action {
+    padding-left: initial;
+    padding-right: 15px;
+    margin-left: initial;
+    margin-right: 5px;
+    border-left: solid 0px #ddd;
+    border-right: solid 1px #ddd;
+}
+ul.top-nav > li > a.btn-logged-in-admin {
+    margin-left: initial;
+    margin-right: 5px;
+}
+ul.top-nav .tooltip-inner {
+    margin-left: initial;
+    margin-right: -200px;
+}
+
+@media (min-width: 992px) {
+    .pull-md-left {
+        float: right;
+    }
+    .pull-md-right {
+        float: left;
+    }
+}
+@media (min-width: 768px) {
+    .pull-sm-left {
+        float: right;
+    }
+    .pull-sm-right {
+        float: left;
+    }
+    .text-right-sm {
+        text-align: left;
+    }
+}
+
+
+div.tweet > i {
+    float: right;
+    margin-right: initial;
+    margin-left: 15px;
+}
+
+div.domainresults div:not(.btn-group) span {
+    padding-left: initial;
+    padding-right: 20px;
+}
+.domain-bulk-options-box {
+    right: inherit;
+    left: 134px;
+}
+div.domainresults div.domain-checkout-area {
+    float: left;
+}
+.domain-pricing .two-row-center {
+    border-right: 0 solid #c7d7e6;
+    border-left: 2px solid #c7d7e6;
+}
+div.announcement-single .label {
+    margin-right: initial;
+    margin-left: 10px;
+}
+
+.dataTables_wrapper .dataTables_info {
+    text-align: right!important;
+}
+.dataTables_wrapper .dataTables_filter {
+    float: left;
+}
+.dataTables_wrapper .dataTables_filter label .form-control {
+    padding: 7px 45px 7px 10px!important;
+}
+
+@media (max-width: 600px) {
+    .dataTables_wrapper .dataTables_filter {
+        float: left;
+    }
+}
+.dataTables_wrapper .dataTables_length label {
+    padding: 10px 30px 0 10px;
+}
+.dataTables_wrapper .dataTables_paginate {
+    float: left;
+}
+.table-list > tbody > tr > td a.border-left {
+    border-left: 0px solid #eee;
+    border-right: 1px solid #eee;
+    padding-left: initial;
+    padding-right: 20px;
+}
+.affiliate-stat i {
+    float: right;
+}
+
+.ticket-reply .date {
+    float: left;
+}
+.ticket-reply .user i {
+    float: right;
+}
+.ticket-reply .rating,
+.ticket-reply .rating-done {
+    float: left;
+    direction: ltr;
+}
+.ticket-reply .rating span.star:before,
+.ticket-reply .rating-done span.star:before {
+    padding-right: initial;
+    padding-left: 0;
+}
+.ticketfeedbackrating .rate {
+    float: right;
+}
+
+.popover-user-notifications ul li a {
+    padding: 10px 12px 10px 15px;
+}
+.popover-user-notifications ul li i.fa {
+    float: right;
+}
+.popover-user-notifications ul li .message {
+    margin-left: initial;
+    margin-right: 40px;
+}
+.captchaimage {
+    text-align: left;
+}
+div.credit-card div.card-type {
+    float: left;
+}
+div.credit-card div.card-icon {
+    float: right;
+}
+div.credit-card div.card-start {
+    float: right;
+    padding: 20px 50px 50px 0;
+    text-align: left;
+}
+
+div.credit-card div.card-expiry {
+    float: left;
+    padding: 20px 0 50px 50px;
+    text-align: left;
+}
+.kb-article-title .btn-print {
+    float: left;
+}
+.kb-article-details li {
+    float: right;
+    padding-right: initial;
+    padding-left: 30px;
+}
+h3.with-badge span, h3.with-badge i {
+    float: right;
+    padding-right: initial;
+    padding-left: 8px;
+}
+@media (min-width: 992px) {
+    h3.with-badge .badge {
+        padding: 3px 8px 3px 7px;
+    }
+    .sidebar .list-group-item .badge {
+        padding: 3px 8px 3px 7px;
+    }
+}
+
+.admin-masquerade-notice {
+    text-align: left;
+}
+.language-popover .popover-content li {
+    float: right;
+    padding: 0 40px 0 20px;
+}
+@media (max-width: 991px) {
+    #google-recaptcha-domainchecker {
+        padding-left: initial;
+        padding-right: 2.5%;
+    }
+}
+@media (max-width: 320px) {
+    #google-recaptcha-domainchecker {
+        padding-left: initial;
+        padding-right: 13.5%;
+    }
+}
+.email-verification .fa {
+    float: right;
+    padding-right: initial;
+    padding-left: 20px;
+}
+.email-verification .btn {
+    float: left;
+    margin: 6px 15px 0 0;
+}
+.email-verification .btn.close {
+    padding: 0 20px 0 0;
+}
+.email-verification .button {
+    float: left;
+}
+.markdown-editor-status {
+    text-align: left;
+
+}
+
+.panel-sidebar .list-group-item i.fa:not(.fa-circle-o):not(.fa-dot-circle-o) {
+    float: left;
+}
+.store-order-container .store-domain-tabs li a {
+    margin-right: initial;
+    margin-left: 10px;
+}
+@media (min-width: 768px) {
+    .store-order-container .payment-term {
+        float: left;
+    }
+}
+.store-promoted-product ul.features li {
+    float: right;
+}
+.store-promoted-product ul.features li .fa:not(.fa-spinner) {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.promo-banner .icon {
+    float: right;
+    margin: 0 0 0 20px;
+}
+@media (min-width: 768px) {
+    .promo-banner .icon-left {
+        float: right;    }
+    .promo-banner .content {
+        margin-left: initial;
+        margin-right: 185px;
+    }
+}
+@media (min-width: 1200px) {
+    .promo-banner ul li {
+        float: right;
+    }
+}
+
+.promo-banner .fa:not(.fa-spinner) {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+@media (min-width: 768px) {
+    .promo-cart .content {
+        margin-left: initial;
+        margin-right: 140px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px), (min-width: 1200px) {
+    .promo-cart .pricing {
+        float: left;
+    }
+}
+.promo-banner-slim .content {
+    margin-left: initial;
+    margin-right: 110px;
+}
+.promo-banner-slim.weebly .content {
+    margin-left: initial;
+    margin-right: 185px;
+}

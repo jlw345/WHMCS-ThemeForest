@@ -1,0 +1,163 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 18/04/2017 08:33
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-063-atomic:before { content: "\f100"; }
+.flaticon-063-beaker:before { content: "\f101"; }
+.flaticon-063-beater:before { content: "\f102"; }
+.flaticon-063-blender:before { content: "\f103"; }
+.flaticon-063-book:before { content: "\f104"; }
+.flaticon-063-bulldozer:before { content: "\f105"; }
+.flaticon-063-calculator:before { content: "\f106"; }
+.flaticon-063-cells:before { content: "\f107"; }
+.flaticon-063-cells-1:before { content: "\f108"; }
+.flaticon-063-chemistry:before { content: "\f109"; }
+.flaticon-063-circuit:before { content: "\f10a"; }
+.flaticon-063-clapperboard:before { content: "\f10b"; }
+.flaticon-063-clipboard:before { content: "\f10c"; }
+.flaticon-063-compact-disc:before { content: "\f10d"; }
+.flaticon-063-compass:before { content: "\f10e"; }
+.flaticon-063-dna:before { content: "\f10f"; }
+.flaticon-063-dropper:before { content: "\f110"; }
+.flaticon-063-flashlight:before { content: "\f111"; }
+.flaticon-063-flask:before { content: "\f112"; }
+.flaticon-063-flask-1:before { content: "\f113"; }
+.flaticon-063-flask-2:before { content: "\f114"; }
+.flaticon-063-gamepad:before { content: "\f115"; }
+.flaticon-063-germs:before { content: "\f116"; }
+.flaticon-063-gopro:before { content: "\f117"; }
+.flaticon-063-hairdryer:before { content: "\f118"; }
+.flaticon-063-joystick:before { content: "\f119"; }
+.flaticon-063-lamp:before { content: "\f11a"; }
+.flaticon-063-lamp-1:before { content: "\f11b"; }
+.flaticon-063-light-bulb:before { content: "\f11c"; }
+.flaticon-063-loupe:before { content: "\f11d"; }
+.flaticon-063-magnetism:before { content: "\f11e"; }
+.flaticon-063-magnifying-glass:before { content: "\f11f"; }
+.flaticon-063-medical-history:before { content: "\f120"; }
+.flaticon-063-microphone:before { content: "\f121"; }
+.flaticon-063-microphone-1:before { content: "\f122"; }
+.flaticon-063-microscope:before { content: "\f123"; }
+.flaticon-063-molecules:before { content: "\f124"; }
+.flaticon-063-molecules-1:before { content: "\f125"; }
+.flaticon-063-mortar:before { content: "\f126"; }
+.flaticon-063-music-player:before { content: "\f127"; }
+.flaticon-063-nuclear:before { content: "\f128"; }
+.flaticon-063-open-book:before { content: "\f129"; }
+.flaticon-063-physics:before { content: "\f12a"; }
+.flaticon-063-question:before { content: "\f12b"; }
+.flaticon-063-rocket-launch:before { content: "\f12c"; }
+.flaticon-063-satellite:before { content: "\f12d"; }
+.flaticon-063-satellite-dish:before { content: "\f12e"; }
+.flaticon-063-saturn:before { content: "\f12f"; }
+.flaticon-063-school-bell:before { content: "\f130"; }
+.flaticon-063-server:before { content: "\f131"; }
+.flaticon-063-skull:before { content: "\f132"; }
+.flaticon-063-smartphone:before { content: "\f133"; }
+.flaticon-063-smartwatch:before { content: "\f134"; }
+.flaticon-063-syringe:before { content: "\f135"; }
+.flaticon-063-telescope:before { content: "\f136"; }
+.flaticon-063-television:before { content: "\f137"; }
+.flaticon-063-test-tube:before { content: "\f138"; }
+.flaticon-063-test-tube-1:before { content: "\f139"; }
+.flaticon-063-test-tubes:before { content: "\f13a"; }
+.flaticon-063-ufo:before { content: "\f13b"; }
+.flaticon-063-usb:before { content: "\f13c"; }
+.flaticon-063-webcam:before { content: "\f13d"; }
+    
+    $font-Flaticon-063-atomic: "\f100";
+    $font-Flaticon-063-beaker: "\f101";
+    $font-Flaticon-063-beater: "\f102";
+    $font-Flaticon-063-blender: "\f103";
+    $font-Flaticon-063-book: "\f104";
+    $font-Flaticon-063-bulldozer: "\f105";
+    $font-Flaticon-063-calculator: "\f106";
+    $font-Flaticon-063-cells: "\f107";
+    $font-Flaticon-063-cells-1: "\f108";
+    $font-Flaticon-063-chemistry: "\f109";
+    $font-Flaticon-063-circuit: "\f10a";
+    $font-Flaticon-063-clapperboard: "\f10b";
+    $font-Flaticon-063-clipboard: "\f10c";
+    $font-Flaticon-063-compact-disc: "\f10d";
+    $font-Flaticon-063-compass: "\f10e";
+    $font-Flaticon-063-dna: "\f10f";
+    $font-Flaticon-063-dropper: "\f110";
+    $font-Flaticon-063-flashlight: "\f111";
+    $font-Flaticon-063-flask: "\f112";
+    $font-Flaticon-063-flask-1: "\f113";
+    $font-Flaticon-063-flask-2: "\f114";
+    $font-Flaticon-063-gamepad: "\f115";
+    $font-Flaticon-063-germs: "\f116";
+    $font-Flaticon-063-gopro: "\f117";
+    $font-Flaticon-063-hairdryer: "\f118";
+    $font-Flaticon-063-joystick: "\f119";
+    $font-Flaticon-063-lamp: "\f11a";
+    $font-Flaticon-063-lamp-1: "\f11b";
+    $font-Flaticon-063-light-bulb: "\f11c";
+    $font-Flaticon-063-loupe: "\f11d";
+    $font-Flaticon-063-magnetism: "\f11e";
+    $font-Flaticon-063-magnifying-glass: "\f11f";
+    $font-Flaticon-063-medical-history: "\f120";
+    $font-Flaticon-063-microphone: "\f121";
+    $font-Flaticon-063-microphone-1: "\f122";
+    $font-Flaticon-063-microscope: "\f123";
+    $font-Flaticon-063-molecules: "\f124";
+    $font-Flaticon-063-molecules-1: "\f125";
+    $font-Flaticon-063-mortar: "\f126";
+    $font-Flaticon-063-music-player: "\f127";
+    $font-Flaticon-063-nuclear: "\f128";
+    $font-Flaticon-063-open-book: "\f129";
+    $font-Flaticon-063-physics: "\f12a";
+    $font-Flaticon-063-question: "\f12b";
+    $font-Flaticon-063-rocket-launch: "\f12c";
+    $font-Flaticon-063-satellite: "\f12d";
+    $font-Flaticon-063-satellite-dish: "\f12e";
+    $font-Flaticon-063-saturn: "\f12f";
+    $font-Flaticon-063-school-bell: "\f130";
+    $font-Flaticon-063-server: "\f131";
+    $font-Flaticon-063-skull: "\f132";
+    $font-Flaticon-063-smartphone: "\f133";
+    $font-Flaticon-063-smartwatch: "\f134";
+    $font-Flaticon-063-syringe: "\f135";
+    $font-Flaticon-063-telescope: "\f136";
+    $font-Flaticon-063-television: "\f137";
+    $font-Flaticon-063-test-tube: "\f138";
+    $font-Flaticon-063-test-tube-1: "\f139";
+    $font-Flaticon-063-test-tubes: "\f13a";
+    $font-Flaticon-063-ufo: "\f13b";
+    $font-Flaticon-063-usb: "\f13c";
+    $font-Flaticon-063-webcam: "\f13d";

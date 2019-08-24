@@ -1,0 +1,7 @@
+# Spacehost Theme for WHMCS Configuration File
+
+name: "Spacehost Theme for WHMCS"
+description: "Spacehost - Html5 WHMCS Theme"
+author: "Brandio"
+properties:
+  serverSidePagination: false # Defines client side will handle pagination

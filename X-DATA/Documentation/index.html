@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>X-DATA - WMHCS &amp; HTML Web Hosting Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- SideBar -->
+    <aside>
+        <img class="logoz" src="img/custom-logo.png" alt="X-Data">
+        <div class="date">
+            <i class="glyphicon glyphicon-time"></i><span>Created on: 25-November-2016</span> <br /><br />
+        </div>
+        <div class="version">
+            <i class="glyphicon glyphicon-send"></i><span>Version: 1.0</span>
+        </div>
+        <!-- Links -->
+        <ul class="links">
+            <li class="active"><a href="#start">Start</a></li>
+            <li><a href="#structure">Folder &amp; HTML Structure</a></li>
+            <li><a href="#install">Install WHMCS Template</a></li>
+            <li><a href="#logo">Logo</a></li>
+            <li><a href="#plugins">CSS, Fonts &amp; Javascripts</a></li>
+            <li><a href="#cutdown">Countdown Setup</a></li>
+            <li><a href="#carousel">Carousel</a></li>
+            <li><a href="#icon">Changing Icons</a></li>
+            <li><a href="#maps">Changing Maps api_key</a></li>
+            <li><a href="#credits">Credits</a></li>
+        </ul>
+    </aside>
+
+    <article>
+
+        <!-- Thank you -->
+        <div class="start" id="start">
+            <h1>Thank You!</h1>
+            <h2>Thank you for purchasing X-DATA - WMHCS &amp; HTML Web Hosting Template. This documentation will help you understand basic structure of the template. If you have any questions that are beyond the scope of this help file, you can create support ticket at 
+            <a href="https://whmcsdes.com/ca">https://whmcsdes.com/ca</a> or email us on info@whmcsdes.com.</h2>
+        </div>
+
+        <!-- HTML Structure -->
+        <div class="structure" id="structure">
+            <h1>Folder &amp; HTML Structure</h1>
+            <h2>X-DATA - WMHCS &amp; HTML Web Hosting Template So, mostly you will need one .html file &amp; supporting .css, .js,files with some images. Structure of your the template would look like following image.</h2>
+            <img class="structurez" src="img/structure.jpg" alt="X-DATA">
+            <blockquote>
+                <ul class="struc">
+                    <li><a>All .html files are in the root directory.</a></li>
+                    <li><a>Separete folders are created for .css, .js files & for images.</a></li>
+                    <li><a>All fonts other than web-fonts are located in fonts folder.</a></li>
+                </ul>
+            </blockquote>
+        </div>
+
+        <!-- Install WHMCS Template -->
+        <div class="structure" id="install">
+            <h1>Install WHMCS Template</h1>
+            <br />
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cQrLJ6iH1bU"  allowfullscreen></iframe>
+        </div>
+        
+        <!-- Logo -->
+        <div class="logo" id="logo">
+            <h1>Logo</h1>
+            <h2>It's very easy to change your logo. Just take a look at the below screenshot. Change the image link to your own logo.</h2>
+            <img class="structurez" src="img/logo.png" alt="X-DATA">
+            <blockquote>
+                <ul class="struc">
+                    <li><a>We attached the psd of logo , you can edit it with photoshop</a></li>
+                </ul>
+            </blockquote>
+        </div>
+
+        <!-- Plugins -->
+        <div class="plugins" id="plugins">
+            <h1>CSS</h1>
+            <h2>Following css files must be included in your HTML file to make this Template work. Make sure path of the css folder is mentioned correctly.</h2>
+            <div class="code">
+                <pre>
+&lt;!-- ========== Bootstrap & Other CSS Files ========== --&gt;
+&lt;link rel="stylesheet" href="css/bootstrap.css"&gt;
+&lt;link rel="stylesheet" href="css/owl.carousel.css"&gt;
+&lt;link rel="stylesheet" href="css/owl.theme.css"&gt;
+&lt;link rel="stylesheet" href="css/responsive.css"&gt;
+&lt;link rel='stylesheet' href='//fonts.googleapis.com/css?family=Raleway+Slab:400,100,300,700' type='text/css'&gt;
+&lt;link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' type='text/css'&gt;
+
+&lt;!-- ========== Main Style CSS ========== --&gt;
+&lt;link rel="stylesheet" href="css/style.css"&gt;
+                </pre>
+            </div>
+            <h1>Fonts</h1>
+            <h2>We have used 2 different web fonts for text in this theme. 'Open Sans' and 'Roboto Slab'. Following two lines of code fetch web fonts from Google.</h2>
+            <div class="code">
+                <pre>
+&lt;link rel='stylesheet' href='//fonts.googleapis.com/css?family=Raleway:400,700' type='text/css'&gt;
+&lt;link rel='stylesheet' href='//fonts.googleapis.com/css?family=open+sans:400,700' type='text/css'&gt;
+                </pre>
+            </div>
+            <h1>Javascripts</h1>
+            <h2>Following js files are required to be added to your HTML page to make this Template work.</h2>
+            <div class="code">
+                <pre>
+&lt;!-- ========== Include jQuery ========== --&gt;
+&lt;script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"&gt;&lt;/script&gt;
+
+&lt;!-- ========== Other JS ========== --&gt;
+
+&lt;script src="js/jquery.plugin.js"&gt;&lt;/script&gt; &lt;!-- CountDown --&gt;
+&lt;script src="js/jquery.countdown.js"&gt;&lt;/script&gt; &lt;!-- CountDown --&gt;
+&lt;script src="js/owl.carousel.min.js"&gt;&lt;/script&gt; &lt;!-- Carousel --&gt;
+&lt;script src="js/bootstrap.js"&gt;&lt;/script&gt; &lt;!-- Bootstrap --&gt;
+&lt;script src="js/jquery.nicescroll.min.js"&gt;&lt;/script&gt; &lt;!-- NiceScroll --&gt;
+
+&lt;!-- ========== Main js file ========== --&gt;
+&lt;script src="js/plugins.js"&gt;&lt;/script&gt; &lt;!-- Main custom javascript file --&gt;
+                </pre>
+            </div>
+        </div>
+
+        <!-- CountDown -->
+        <div class="cutdown" id="cutdown">
+            <h1>CountDown Setup</h1>
+            <h2>Adding countdown is easy. Make sure you have added following js files at end of body:</h2>
+            <div class="code">
+                <pre>
+&lt;script src="js/jquery.plugin.js"&gt;&lt;/script&gt; &lt;!-- CountDown --&gt;
+&lt;script src="js/jquery.countdown.js"&gt;&lt;/script&gt; &lt;!-- CountDown --&gt;
+                </pre>
+                <p>edit the date 2016, 12 , 25</p>
+                <pre>
+;
+(function ($) {
+    var austDay = new Date(2016, 12 - 1, 25);
+    austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 26);
+    $('#defaultCountdown').countdown({
+        until: austDay
+    });
+})(jQuery);
+                </pre>
+                <p>and add this id</p>
+                <pre>defaultCountdown</pre>
+            </div>
+        </div>
+
+        <!-- Carousel -->
+        <div class="carousel" id="carousel">
+            <h1>Carousel</h1>
+            <h2>To Edit Testimonial Carousel you need to edit it as in below screen</h2>
+            <img src="img/testimonial.png" class="structurez" alt="X-DATA">
+        </div>
+
+        <!-- Icons -->
+        <div class="icon" id="icon">
+            <h1>Icons</h1>
+            <h2>We have used two different font icons for wider variety of icons. Following two lines are for these font icons:</h2>
+            <pre>
+&lt;link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' type='text/css'&gt;
+Glyphicons
+            </pre>
+            <h2>List of icons and classes to be used for them can be found on</h2>
+            <blockquote>
+                <a href="http://fontawesome.io/icons/">FONT Awesome</a>
+                <br/>
+                <a href="http://getbootstrap.com/components/#glyphicons">FONT Glyphicons</a>
+            </blockquote>
+        </div>
+        
+        <!-- Maps -->
+        <div class="icon" id="maps">
+            <h1>Changin Google Maps api_key</h1>
+            <pre>
+                &lt;script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"&gt;&lt;/script&gt; &lt;!-- GoogleMaps --&gt;
+            </pre>
+            <h2>replace YOUR_API_KEY with your key and enjoy ;&#41;</h2>
+        </div>
+
+        <!-- Credits -->
+        <div class="credits" id="credits">
+            <h1>Credits</h1>
+            <br />
+            <ul>
+                <li>jQuery - <a href="http://jquery.com/" target="_blank">http://jquery.com/</a></li>
+                <li>Bootstrap - <a href="http://getbootstrap.com/" target="_blank">http://getbootstrap.com/</a> </li>
+                <li>jQuery CountDown - <a href="http://keith-wood.name/countdown.html" target="_blank">http://keith-wood.name/countdown.html</a></li>
+                <li>FontAwesome - <a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">http://fortawesome.github.io/Font-Awesome/</a></li>
+                <li>Owl Carousel - <a href="http://owlgraphic.com/owlcarousel/" target="_blank">http://owlgraphic.com/owlcarousel/</a></li>
+                <li>Pixabay - <a href="https://pixabay.com" target="_blank">https://pixabay.com</a></li>
+                <li>Images - <a href="http://picalls.com/constellation/" target="_blank">http://picalls.com/constellation/</a></li>
+                <li>Google Fonts - <a href="https://fonts.google.com/" target="_blank">https://fonts.google.com/</a></li>
+            </ul>
+        </div>
+    </article>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+    $(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+    </script>
+</body>
+
+</html>

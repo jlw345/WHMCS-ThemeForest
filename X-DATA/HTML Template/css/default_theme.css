@@ -1,0 +1,258 @@
+/*
+Theme Name: X-DATA Green Color
+Theme URI: http://www.whmcsdes.com
+Description: X-DATA Template v1.0
+Version: 1.0
+Author: WHMCSdes
+Author URI: http://whmcsdes.com
+Tags: powerful, host
+*/
+
+header {
+    background: #5FB636;
+    background: -webkit-linear-gradient(to left, #66c23a, #5FB636);
+    background: linear-gradient(to left, #66c23a, #5FB636);
+}
+
+.sub-drpd {
+    background: #5FB636;
+}
+
+a.sub-drpd:focus {
+    background: #5FB636;
+    border-bottom: 3px solid #5FB636;
+}
+
+.sub-drpd {
+    border-bottom: 3px solid #4e962b;
+}
+
+.fa.fa-database.plan-icon,
+.fa.fa-rocket.plan-icon,
+.fa.fa-group.plan-icon {
+    color: #5FB636;
+}
+
+a.order-plan {
+    background: #5FB636;
+}
+
+.reg-dom {
+    background: #5FB636;
+    border: 1px solid #5FB636;
+}
+
+.reg-dom:hover {
+    color: #5FB636;
+    border: 1px solid #5FB636;
+}
+
+.sub-news:focus {
+    background: #5FB636;
+}
+
+.block-inte a {
+    color: #5FB636;
+    border: 1px solid #5FB636;
+}
+
+.ext-dom {
+    background: #64BF39;
+}
+
+.ext-dom.grad1 {
+    background: #5bad34;
+}
+
+.ext-dom.grad2 {
+    background: #529d2f;
+}
+
+.ext-dom.grad3 {
+    background: #4b8d2c;
+}
+
+.ext-dom.grad4 {
+    background: #468329;
+}
+
+.block-comp span {
+    color: #5FB636;
+}
+
+a.chat-n {
+    border: 1px solid #5FB636;
+    color: #5FB636;
+}
+
+.loading {
+    background: #5FB636;
+}
+
+.social-media,
+.user-sub,
+.contact,
+.l-border,
+.s-area,
+.cat {
+    background: #5FB636;
+    background: -webkit-linear-gradient(to left, #66c23a, #5FB636);
+    background: linear-gradient(to left, #66c23a, #5FB636);
+}
+
+.table-head th {
+    border: 1px solid #55a430 !important;
+}
+
+.active-d {
+    border-right: 1px solid #50962e;
+    border-left: 1px solid #50962e;
+}
+
+.icon-cog {
+    background: #63BE38;
+}
+
+.info-bio h4 {
+    color: #67c53a;
+}
+
+.login-f {
+    border-bottom: 4px solid #64BF39;
+}
+
+.plan-st2.active-st2 {
+    background: #62BC37;
+}
+
+.plan-st2:hover {
+    background: #62BC37;
+}
+
+.plan-st2 span {
+    color: #62BC37;
+}
+
+.plan-st3 h3 {
+    background: #62BC37;
+}
+
+a.order-st3 {
+    background: #62BC37;
+}
+
+.active-tabp {
+    background: #62BC37 !important;
+}
+
+.table-head {
+    background: #62BC37;
+}
+
+.order-table .fa.fa-arrow-right {
+    color: #62BC37;
+}
+
+.title-error-t {
+    color: #60B736;
+}
+
+.t-sty-a.colored h2 {
+    color: #5EB335;
+}
+
+.bg-colored {
+    background: #5EB335;
+}
+
+.fa.fa-rocket.short-sq.bgz {
+    border: 1px solid #60B936;
+    background: #60B936;
+}
+
+.fa.fa-rocket.short-circ.bgz {
+    border: 1px solid #60B936;
+    background: #60B936;
+}
+
+.fa.fa-rocket.short-rad.bgz {
+    border: 1px solid #60B936;
+    background: #60B936;
+}
+
+.x-data-alert {
+    border-left: 6px solid #5EB435;
+}
+
+.x-data-alert.bg-col {
+    background: #5FB636;
+}
+
+.bg-btn,
+.bg-btn.md,
+.bg-btn.lg {
+    background: #60B836;
+}
+
+.bg-btn-o-brd,
+.bg-btn-o-brd.md,
+.bg-btn-o-brd.lg {
+    border: 2px solid #60B836;
+    color: #60B836;
+}
+
+.bg-btn-o-brd:hover,
+.bg-btn-o-brd.md:hover,
+.bg-btn-o-brd.lg:hover {
+    background: #60B836;
+}
+
+.bg-btn-b-brd,
+.bg-btn-b-brd.md,
+.bg-btn-b-brd.lg {
+    border-bottom: 2px solid #60B836;
+    color: #60B836;
+}
+
+.bg-btn-b-brd:hover,
+.bg-btn-b-brd.md:hover,
+.bg-btn-b-brd.lg:hover {
+    background: #60B836;
+}
+
+.bg-btn-icon,
+.bg-btn-icon.md,
+.bg-btn-icon.lg {
+    background: #5FB736;
+    border: 2px solid #5FB736;
+}
+
+.bg-btn-o-brd.md,
+.bg-btn-o-brd.lg {
+    border: 2px solid #60B836;
+    color: #60B836;
+}
+
+.bg-btn-o-brd.md:hover,
+.bg-btn-o-brd.lg:hover {
+    background: #60B836;
+}
+
+.bg-btn-cys:hover,
+.bg-btn-cys.md:hover,
+.bg-btn-cys.lg:hover {
+    background: #5FB636;
+    border: 2px solid #5FB636;
+}
+
+.fa.fa-star.x-icon {
+    color: #5EB435;
+}
+
+.fa.fa-database.circle-icon {
+    background: #5EB335;
+}
+
+.fa.fa-group.border-icon {
+    border: 2px solid #63BE38;
+}

@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>CloudHost Documentation</title>
+	<style type="text/css" media="screen">
+		#toc {
+			position: fixed;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			width: 320px;
+			padding: 30px 15px;
+			overflow: auto;
+			background: #333;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+		#toc ul {
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+		}
+
+		#toc li {
+			line-height: 1.7;
+		}
+
+		.toc-h1 {
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+
+		.toc-h1 a {
+			color: #fff;
+		}
+
+		.toc-h2 {
+			font-size: 13px;
+			padding-left: 15px;
+		}
+
+		.toc-h3 {
+			font-size: 13px;
+			padding-left: 30px;
+		}
+
+		.toc-h4 {
+			font-size: 13px;
+			padding-left: 45px;
+		}
+
+		.toc-active {
+			font-style: italic;
+			font-weight: bold;
+			text-decoration: underline;
+		}
+
+		#content {
+			width: 100%;
+			padding: 0 0 0 330px;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+		.navbar {
+			display: none;
+		}
+
+		#content h1,
+		#content h2,
+		#content h3 {
+			margin: 30px 0;
+		}
+
+		@media (max-width: 768px) {
+			#toc {
+				display: none;
+			}
+			#content {
+				padding: 0 30px;
+			}
+		}
+	</style>
+</head>
+<body>
+
+<xmp theme="simplex" style="display:none;">
+
+
+
+
+Introduction
+==========
+
+We would like to thank you for purchasing CloudHost! We are very pleased that you have chosen CloudHost for your website, you will not be disappointed! Before you get started, please be sure to always search our Documentation. We outline all kinds of good information, and provide you with all the details you need to use CloudHost. The theme can only be used with WordPress and we assume that you already have WordPress installed and ready to go. If you do not, please go to [wordpress.org](http://wordpress.org) to download and install the latest version of Wordpress.
+
+
+-----------------------------
+
+WordPress Information
+=====================
+
+To install this theme you must have a working version of WordPress already installed. If you need help installing WordPress, follow the instructions in [WordPress Codex](http://codex.wordpress.org/Installing_WordPress). Below are all the useful links for WordPress information.
+
+- [WordPress Codex](http://codex.wordpress.org/Installing_WordPress) – General info about WordPress and how to install on your server.
+- [First Steps With WordPress](http://codex.wordpress.org/First_Steps_With_WordPress) – General info about multiple topics about WordPress.
+- [FAQ New To WordPress](http://codex.wordpress.org/FAQ_New_To_WordPress) – The most popular FAQ’s regarding WordPress.
+
+Licensing Plugins
+=================
+
+There are two licensing plugins used in the theme: **Visual Composer** and **Revolution Slider**, we purchased them from codecanyone.net and included them in the theme package. We are not allowed to include the license key for each of them. If there is any update, we are accountable for updating the theme with the newest version of plugins.
+In fact, the license key will not help you anything even updating plugins to the newest version. Only direct buyers can do this. Because we provide those with the themes; therefore, we will take care of updating them for our customers. Just take a look at the link by the author of plugins to see more. http://www.themepunch.com/faq/how-to-update-the-slider/ We will keep the plugins up - to - date.
+
+Files included in the package
+=========================
+
+When you purchase our theme from ThemeForest, you need to download the theme package from your themeforest account. Navigate to your downloads tab on ThemeForest and find CloudHost. Click the download button to see the two options. The **All files & documentation** contain everything, the **Installable WordPress** Theme is just the installable WordPress theme file. Below is a full list of everything that is included when you download the main files, along with a brief description of each item.
+
+- `cloudhost.zip`: main theme file that need to be uploaded to host to install CloudHost theme.
+- `cloudhost-child.zip`: basic child theme of CloudHost theme. It is created for people who want to customize code of the CloudHost theme.
+- `Sliders`: this folder contains sliders which are exported from our demo.
+- `widgets-data.wie`: this file contains all widgets which are exported from our demo.
+- `theme-options.txt`: theme option backup file. You'll need this to restore the default theme options that setup for demo website.
+- `demo-content.xml`: this file contains all sample content which will help you to have a first look of how we use CloudHost theme.
+- `Documentation`: documentation folder that contains documentation files.
+
+
+------------------------------
+
+Installation
+=========
+
+
+Step 1 - Install theme
+-------------------------
+
+After you download the package from ThemeForest, please unzip it. You'll see a file called `CloudHost.zip`, which is the main file needed to upload and install.
+
+You can either choose to upload and installl the theme using **WordPress theme install** or use **FTP** function.
+
+**Install theme using WordPress install function**
+
+- Go to `Appearance > Themes` and click **Add New**
+- Select **Upload**
+- Click **Browse** and select the `cloudhost.zip` file
+- Click **Install Now**
+- When upload and installation progresses are completed, click **Activate**, or go to `Appearance > Themes` and activate the **CloudHost** theme
+
+**Upload and install using FTP**
+
+If you get any fail when install theme by Wordpress install function, we recommend to use FTP:
+
+- Unzip the `cloudhost.zip` file, you'll get a folder `cloudhost`
+- Use a FTP client like [FileZilla](http://filezilla-project.org/) and upload that folder to `wp-content/themes` folder on your host
+- Go to `Appearance > Themes` and activate the **cloudhost** theme
+
+
+
+Step 2 - Install plugins
+----------------
+
+After installing the CloudHost theme, you'll see a notification in the top of the page that says the theme needs some plugins to function properly.
+
+The CloudHost theme **requires** following plugins:
+
+- CloudHost Visual Composer Addons: extra elements for Visual Composer. It was built for CloudHost theme.
+- [Meta Box](https://wordpress.org/plugins/meta-box/): plugin for creating meta boxes for posts, pages,... It is free and available on WordPress.org
+- [WPBakery Visual Composer](http://vc.wpbakery.com/): it is Drag and Drop Frontend and Backend Pagebuilder Plugin for Wordpress.
+
+The CloudHost theme **recommends** following plugins:
+
+- [Revolution Slider](http://revolution.themepunch.com/): is an all-purpose slide displaying solution that allows for showing almost any kind of content with highly customizable, transitions, effects and custom animations. Due to its visual oriented interface and countless options, Slider Revolution is suited for beginners and pro’s alike!
+- [Contact Form 7](https://wordpress.org/plugins/contact-form-7/): plugin for creating contact forms. It is free and available on WordPress.org
+- [WP Live Chat Support](https://wordpress.org/plugins/wp-live-chat-support/): Add live chat support to your site now.
+- [WP Live Chat Support](https://wordpress.org/plugins/mailchimp-for-wp/):  Subscribe your WordPress site visitors to your MailChimp lists, with ease.
+- OT Testimonial: this plugin is used to manage testimonials.
+- OT Team: this plugin is used to manage team.
+
+CloudHost is working perfectly with these plugins. It automatically adds more styles to them to make the design match the theme.
+
+To install these plugins:
+
+- Click **Begin installing plugins**
+- You'll be redirect to a page where all needed plugins are listed. Just click on **Install** below each plugin's name
+- After installing, if it's required to activate the plugin, just activate
+
+One click import demo content
+=============================
+
+Before importing the available content, make sure you have installed and activated all the required plugins. Please take a look at Step 2 - Install plugins to know how to install and active plugins.
+
+Step 1 - Install Demo Importer plugin
+-------------------------------------
+
+- Download [CloudHost Demo Content](http://demo2.oceanthemes.net/wp-content/plugins/clouhhost-demo-content.zip)
+
+- Install a Plugin using Upload Method
+	- Go to Plugins > Add New.
+	- Click to Upload Plugin.
+	- Click to Choose File, browse clouhhost-demo-content.zip in plugins folder of package theme and upload it.
+	- Click to Install Now.
+	- Click on Activate the plugin.
+- Install a Plugin using FTP Manager
+	- You can use a FTP client like FileZilla.
+	- Unzip the clouhhost-demo-content.zip file, you'll get a folder clouhhost-demo-content.
+	- Upload that folder to wp-content/plugins folder on your host.
+	- Go to Appearance > Plugins and activate the clouhhost-demo-content plugin.
+
+Step 2 - Import demo content
+----------------------------
+
+- To import available demo content, just go to `Appearance`>`Theme option data` and click on `Import Demo Content` button.
+
+![One Click Import](images/one-click-import.png)
+
+- After installing demo content,  your website won’t look like the live preview. You’ll still need to config a few more things in your website.
+
+Step 3 - The final setup
+------------------------
+
+**Custom Menu**: The import function of Wordpress doesn't support to import setting of widget Custom Menu, you have to edit all of them and select the menu you want to show. We will list all Custom Menu widget you have to edit manually. Firstly, go to Appearance > Widgets:
+
+- Footer 2: select Footer Menu - Hosting.
+- Footer 3: select Footer Menu - Products.
+- Footer 4: select Footer Menu - Company.
+- Footer 5: select Footer Menu - Support.
+
+**MailChimp Form**
+
+- Go to MailChimp for WP>Forms:
+- Click **Save Changes**
+
+**Contact Form 7**:
+
+- Go to Contact>Contact forms>Edit Contact form>Mail:
+- Contact Form 7 : There are several things you need to change here such as the email addresses
+
+Manual Import  demo content
+===================
+
+Step 1 - Import demo content
+----------------------------
+
+- Go to `Tools > Import`
+- Select **WordPress** from the list
+- If you haven't installed the **WordPress import plugin**, a popup window will appears and ask you to install it. Just click **Install Now**. When the installation progress is completed, click **Activate Plugin & Run Importer**. If you have installed this plugin, skip to next step.
+- Click **Browse** and select `demo-content.xml` file from the download package
+- Click **Upload file and import**
+- When you are asked to import author, you can create new author or import to existing author. You also should check the checkbox **Download and import file attachments**.
+
+![import](images/import-data.png)
+
+![install plugin importer](images/install-plugin-importer.png)
+
+![select demo content](images/select-import-data.png)
+
+![install plugin importer](images/install-plugin-importer.png)
+
+![select demo content](images/select-import-data.png)
+
+After completing all above steps, go to `Posts`, `Pages`, `Products` to see imported data.
+
+Step 2 - Import Widgets Data
+----------------------------
+- Install and activate the Widgets Importer/Exporter plugin.
+- Go to Tools > Widget Importer & Exporter, click Choose file button and select widgets-data.wie file from the download package.
+- Click to Import widgets.
+- ![import widgets](images/import-widgets.png)
+
+Step 3 - Import Revolution Sliders
+----------------------------------
+
+- Go to Revolution Slider.
+- Click Import Slider button on the bottom right.
+- Click Choose file and select a slider in Slider folder from the download package.
+- Click Import Slider button to start importing. It usaually takes seconds to finish.
+- ![import rev slider](images/import-rev-slider.png)
+
+Step 4 - Import Theme Options
+----------------------------------
+
+- Open the `theme-options.txt` file from from the download package.
+- Copy all content inside this file.
+- Go to `Appearance > Theme Options > Backup - Restore`, and paste the text file’s contents into the ‘Backup Settings’ field.
+- Click the **Import Options** button to start importing theme opitons.
+
+
+
+Step 5 - Setup homepage and blog page
+-------------------------------------
+
+After install demo content, you'll see a page `Front Page`. This page will be used as the homepage of the website. To set it as homepage, please go to `Settings \ Reading`, under **Front page displays**, please chose **A static page (select below)** and select **Front Page** for **Front page** and **Blog** page for **Posts page**.
+
+![setup front page](images/setup-front-page.png)
+
+Step 6 - Setup Menu
+-------------------
+
+Although the theme is working now and it shows menu, but because we haven't created a menu for primary location, the theme will display all pages by default. When you import the demo data, WordPress automatically create menus for you. These menus are the same as our demo.
+
+**Primary Menu**
+
+- Go to Appearance > Menus
+- Select Primary Menu and click Select button to edit it.
+- Scroll to bottom of page and check Primary Menu for Theme location
+- Click Save Menu
+
+
+
+Create New Menu
+===============
+
+Following these steps to create a menu:
+
+- Go to `Appearance > Menus`
+- Click the **create a new menu** link to create new menu.
+- Select items from the left meta boxes and click **Add to Menu**
+- On the right, feel free to drag and drop menu items to organize them
+- When you're done moving menu items, check **Primary Menu** for **Theme locations** at the bottom of the page
+- Click **Save Menu**
+
+![edit menu](images/edit-menu.png)
+
+
+Setup WHMCS
+===============
+WHMCS is the leading web hosting automation platform. Handling signups, provisioning, billing and support, WHMCS puts you firmly in control of your business.
+
+1. Download  [WHMCS 6](https://download.whmcs.com/)
+2.  Install  [WHMCS 6](http://docs.whmcs.com/Main_Page)
+3. Download and install [ WHMCS Bridge]  (https://wordpress.org/plugins/whmcs-bridge/) plugin
+4. Go to Settings > WHMCS Bridge > Settings, enter WHMCS URL is a URL of your WHMCS installation. Choose template is portal.
+	- ![whmcs6](images/whmcs6.png)
+5. Go to Settings > WHMCS Bridge > Help, get the the Bridge Page and go to the bridge page, choose template is WHMCS.
+ - ![whmcs-bridge](images/whmcs-bridge.png) 
+ - ![whmcs-page](images/whmcs-page.png)
+6. Login into whmcs admin page and go to Setup > General, choose template is Portal.
+	- ![whmcs-template](images/whmcs-template.png)
+7. Login into whmcs admin page and go to Setup > Ordering, choose Default Order Form Template is Portal.
+	- ![whmcs-order](images/whmcs-order.png)
+
+
+
+Visual Composer Basics
+======================
+
+It has very simple and intuitive interface, but before getting started, you may find it useful to get accustomed with its documentation:
+
+[Visual Composer Documentation](https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress?title=Visual_Composer)
+
+In CloudHost theme, we also create some new elements and add some new parameters to exists elements of Visual Composer. It will help you a lot to build your HomePage easier. Following we will go through some popular elements of Visual Composer and all of new elements that CloudHost theme brings to you.
+
+
+------------------------------
+
+Theme Options
+=============
+
+CloudHost theme comes with unique, creative and easy-to-use Theme Options page. You can change all theme options in one place!
+
+
+
+All options have full description so you can know what you are doing. Just click and save!
+
+
+
+Post Format
+===========
+
+[Post Formats](http://codex.wordpress.org/Post_Formats) is theme feature which is a piece of meta information that can be used by a theme to customize its presentation of a post.
+
+In short, with a theme that supports Post Formats, a blogger can change how each post looks by choosing a Post Format from a radio-button list.
+
+CloudHost theme supports the following post formats:
+
+- `gallery` - A gallery of images, which will be displayed in a responsive image slider, powered by Flexslider.
+- `link` - A link to another site.
+- `image` - A single image, which will be shown above post title.
+- `quote` - A quotation.
+- `video` - A single video, which can be any video from Youtube, Video or other video websites. Support URL or embed code. The video will be displayed above post title.
+- `audio` - An audio file, which can be any video from Youtube, Video or other video websites. Support URL or embed code. The video will be displayed using a powerful HTML5 audio player provided by Wordpress as default player.
+
+Using post format in CloudHost lets you differentiate post from each other and make the blog page / single page looks more beautiful.
+
+[Go to blog page](http://demo.http://oceanthemes.net//-aa-/blog/) to see how post formats look.
+
+
+
+
+When you edit a post, select a format you want to apply to that post on the **Format** meta box on the right:
+
+![formats](images/post-format-box.png)
+
+When you choose a format, a corresponding meta box will appear **below** the content editor, here's the list of them:
+
+![formats](images/post-formats.png)
+
+All you need to do is just enter **all** information in the fields in these meta boxes. This information will be used to decorate the post. For example: gallery post format will uses uploaded images to show a slider above post title, a video post will display a video player above post title, etc.
+
+
+
+------------------------------
+
+Translation
+=========
+
+###Tell WordPress which language file to use.
+
+If you don’t use WordPress in your native language so far, you have to tell WordPress which language to use to activate the theme translation.
+
+You can do this by editing the wp-config.php file (the file is located in the main directory of your WordPress files) and defining the WPLANG constant. You have to set your language code there, for example fr_FR for French translation.
+
+ust add the line below to your wp-config.php or change it if it already exists:
+
+`define ('WPLANG', 'fr_FR');`
+
+
+###First Method: Using Codestyling Plugin
+
+The easiest way to translate your theme locally is by using the [Codestyling Localization](https://wordpress.org/plugins/codestyling-localization/) plugin. After you have installed and activated the plugin, simply go to `Tools > Localization` (shown in your language) and translate the theme from your WordPress backend following the [plugin instructions](http://www.code-styling.de/english/development/wordpress-plugin-codestyling-localization-en)
+
+###Second Mothod: Using Poedit
+
+Poedit is a common program which you can use to translate the theme. It’s available for free on [poedit.net](http://www.poedit.net/).
+
+After you have installed Poedit, you can open it and select `File > New Catalog from POT file`. Then select the .pot file from the theme you wish to translate which you can find in the `/lang/` folder of theme.
+
+Then go through every line of text and translate it to your native language. Afterwards you can save the catalog with your language code (for example `es_ES.po`). Normally Poedit automatically creates the .mo file and saves it, too.
+
+The last step you have to do is to upload your created language files to the language folder of your theme using FTP.
+
+
+------------------------------
+
+
+Child Theme
+===========
+
+CloudHost is fully child theme compatible. We have attached a basic child theme to the download package which contains the minimum of required files. If you are planing any code customizations we highly recommend to do this inside the child theme! Learn more about child themes [here](http://codex.wordpresss.org/Child_Themes)
+
+
+------------------------------
+
+
+
+FAQs
+====
+
+1. **How to change the default logo to other?**
+
+	Go to `Appearance > Theme Options > Header`, the option for change logo is there.
+
+2. **How to change the color of theme?**
+
+	Go to `Appearance > Theme Options > Style`. There are options to pick color form pre-defined colors or pick your favorite color.
+
+3. **Does CloudHost theme support child theme?**
+
+	Yes, it does. Please see details in above section.
+
+-------------------------
+
+
+Need Helps
+=========
+
+If you need help, please do not hesitate to contact us! To grant best support we set up a support forum at [http://oceanthemes.net/support](http://oceanthemes.net/support). Channeling all requests at one place keeps and makes it simple, easier and even more effective for every customers to get quick help. All issues, requests and questions can be discussed and answered at one place.
+
+Please note, you will only get access to our forums with a valid purchase key!
+
+
+
+
+
+
+
+
+
+
+</xmp>
+
+<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/toc.min.js"></script>
+<script>
+	jQuery(document).ready(function($) {
+		$('body').prepend('<div id="toc"></div>');
+		$('#toc').toc({
+			'selectors': 'h1,h2,h3,h4,h5,h6',
+			'container': '#content'
+		});
+	});
+</script>
+</body>
+</html>

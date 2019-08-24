@@ -1,0 +1,13 @@
+============================
+30 July, 2018 - Version 2.4
+============================
+
+-----------------------------------------------------------------------------------------
+Backup your theme/style folder and files before applying these updates.
+-----------------------------------------------------------------------------------------
+
+
+[*] Fixed Section Background Image Issue
+[*] Fixed Some Other Minor Issue
+
+***(need to update the 'ordomain' Theme to get the above updates/changes)***

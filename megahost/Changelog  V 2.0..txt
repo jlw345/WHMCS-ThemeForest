@@ -1,0 +1,117 @@
+<pre>Legend:
++   Addition
+^   Change
+-   Removed
+*   Security Fix
+#   Bug Fix
+!   Note</pre>
+<!-- Code Block >> End --> 
+
+
+<p><strong>Version 2</strong> – 15/08/2017</p>
+<pre>   
+ ^  It developed completely from scratch.
+ +  Add Elementor page builder
+</pre>
+
+
+<p><strong>Version 1.7</strong> – 12/08/2015</p>
+<pre>   
+ ^  Update Plugins
+ #  Fix Whmcs Integration
+ +  Add options to Sections title
+ -  Removed widget login, to support.
+ #  Portfolio Category
+ ^  Update Scrips
+ #  menor fixed
+</pre>
+
+<p><strong>Version 1.6</strong> – 05/12/2014</p>
+<pre>   
+ ^  Update Plugins
+ #  Fix Whmcs Integration
+ +  Add background Image - Sections title
+ +  Add widget login, to support.
+ #  Search domain in responsive
+ ^  Update Scrips
+ #  Fix "alt" title for images.
+ +  Target options in the links
+ #  Fix category pagination
+</pre>
+
+<p><strong>Version 1.5</strong> – 05/08/2014</p>
+<pre>   
+ +  Add video version
+ +  Add parallax version
+ +  Add Portfolio Options
+ #  fix logo problems.
+ ^  Update Plugins
+ #  Fix seo plugin compatible 
+ +  Add More Pages ( 7 home versions, 4 about versions, 2 services versions)
+ ^  Update Demo Content.
+ +  Add Animation zone
+ #  Fix Blog problems ( Category and titles)
+</pre>
+
+<p><strong>Version 1.4</strong> – 11/06/2014</p>
+<pre>   
+ + Add 8 skins more (red,blue,yellow,green,orange,Purple, pink, cocoa)
+ + Add 2 Layout ( Boxed, Boxed Margin)
+ + Add Mailchip (Newsletter)
+ # Fix ipad, version.
+ + add carousel ( sponsors, facilities, stories).
+ + add icosns svg awesome 4.1.
+ ^ Update bootstrap version to 3.1
+ ^ Change Theme Options
+ + Add Revolution Slider
+ + Add Custom Type Zones
+ + Add Unlimited Sidebars
+ # Fix whmcs integration.
+</pre>
+
+<p><strong>Version 1.3.1</strong> – 01/04/2014</p>
+<pre>   
+ # just have added some lines of code in  the styles of the dark version.
+</pre>
+
+<p><strong>Version 1.3</strong> – 04/01/2014</p>
+<pre>   
+ + Add Theme child
+ + Add Integration Mailchip
+ + Add Left sidebar and right Sidebar in blog page.
+</pre>
+
+<p><strong>Version 1.2</strong> – 05/09/2013</p>
+<pre>   
+  + We added Carousel sponsors.
+  + We added Carousel Facilities.
+  + We added Carousel Stories.
+  + We added reseller page.
+  + Add Domain search function.
+  + We add cloud page.
+  + We add 5 Skins (Default, blue, yellow, green, red).
+  + Add option logo  image.
+  + Add import demo content.
+</pre>
+
+<p><strong>Version 1.1.1</strong> – 16/08/2013</p>
+<pre>   
+  # Fixed issue with users login.
+  + They added an html version in the download package.
+  ^ Improved documentation for initial settings!  
+</pre>
+
+<p><strong>Version 1.1</strong> – 25/07/2013</p>
+<pre>   
+  + Full Integration with whmcs.
+  # Correction items price tables.
+  # Correction Number of price tables.
+  # Correction Number of Members in about.
+  + Add Domain search function.
+  + Add Simple Page.
+</pre>
+
+<p><strong>Version 1.0</strong> – 27/06/2013</p>
+<pre>   
+  ! Initial Release.
+</pre>

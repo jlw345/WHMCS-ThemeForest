@@ -1,0 +1,56 @@
+<svg id="Icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68" height="71" viewBox="0 0 68 71">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #44ce7c;
+      }
+
+      .cls-1 {
+        opacity: 0.1;
+      }
+
+      .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="904" y1="2181.5" x2="947" y2="2181.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#44ce75"/>
+      <stop offset="1" stop-color="#43cea2"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rounded_Rectangle_541" data-name="Rounded Rectangle 541" class="cls-1" x="21" y="30" width="35" height="41" rx="3" ry="3"/>
+  <path id="icon-2" data-name="icon" class="cls-2" d="M925.5,2165.61H914.283a0.935,0.935,0,1,0,0,1.87H925.5A0.935,0.935,0,1,0,925.5,2165.61Zm20.565,13.08H935.783v-14.02a4.681,4.681,0,0,0-4.674-4.67H908.674a4.681,4.681,0,0,0-4.674,4.67v37.39a0.935,0.935,0,1,0,1.869,0v-28.97h28.044v5.6H923.63a0.936,0.936,0,0,0-.934.94v2.8H910.543a0.936,0.936,0,0,0-.934.94v9.35a0.934,0.934,0,0,0,.934.93H922.7v2.8a0.936,0.936,0,0,0,.934.94h10.283v4.67a0.935,0.935,0,1,0,1.87,0v-4.67h10.282a0.937,0.937,0,0,0,.935-0.94v-16.82A0.937,0.937,0,0,0,946.065,2178.69ZM922.7,2191.78H911.478v-7.48H922.7v7.48Zm-16.827-20.56v-6.55a2.809,2.809,0,0,1,2.8-2.8h22.435a2.808,2.808,0,0,1,2.8,2.8v6.55H905.869Zm39.261,24.3H924.565v-11.46l9.812,5.72a0.918,0.918,0,0,0,.942,0l9.811-5.72v11.46Zm0-13.62-10.282,6-10.283-6v-1.34H945.13v1.34Z" transform="translate(-890 -2136)"/>
+  <path id="Star" class="cls-3" d="M953,2172.66h5v1.68h-5v-1.68Zm1.656-1.66h1.688v5h-1.688v-5ZM915,2141h3v1h-3v-1Zm1-1h1v3h-1v-3Zm-23.5,39a2.5,2.5,0,1,1-2.5,2.5A2.5,2.5,0,0,1,892.5,2179Zm52-25a1.5,1.5,0,1,1-1.5,1.5A1.5,1.5,0,0,1,944.5,2154Zm-9.5-16.34h5v1.68h-5v-1.68Zm1.656-1.66h1.688v5h-1.688v-5ZM890,2152h6v2h-6v-2Zm2-2h2v6h-2v-6Z" transform="translate(-890 -2136)"/>
+</svg>

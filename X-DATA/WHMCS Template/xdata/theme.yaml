@@ -1,0 +1,7 @@
+# WHMCS X-DATA Theme Configuration File
+
+name: "X-DATA WHMCS Template"
+description: "The Default Theme for WHMCS Version 7.0.1"
+author: "WHMCSdes"
+properties:
+  serverSidePagination: false # Defines client side will handle pagination

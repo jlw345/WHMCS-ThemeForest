@@ -1,0 +1,9 @@
+# Hostrocket Theme for WHMCS Configuration File
+
+name: "Hostrocket Theme for WHMCS"
+description: "Hostrocket - Html5 WHMCS Theme"
+author: "Brandio"
+properties:
+  serverSidePagination: false # Defines client side will handle pagination
+
+# WHMCS version 7.7.1

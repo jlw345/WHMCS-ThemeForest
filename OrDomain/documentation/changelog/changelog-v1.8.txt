@@ -1,0 +1,433 @@
+==============================
+15 October, 2017 - Version 1.8
+==============================
+
+-----------------------------------------------------------------------
+Backup your theme/style folder and files before applying these updates.
+-----------------------------------------------------------------------
+
+*. WHMCS template updated to be compatible with latest "WHMCS Version 7.3"
+----------------------------------------------------------------------------
+
+	*. Simply Replace The Following Files:
+	--------------------------------------
+		-> css/all.css
+		-> css/all.min.css
+		-> css/invoice.css
+		-> css/main-color-1.css
+		-> css/main-color-2.css
+		-> css/main-color-3.css
+		-> css/main-color-4.css
+		-> css/main-color-5.css
+		-> css/main-color-6.css
+		-> css/main-color-7.css
+		-> css/main-color-8.css
+		-> css/main-color-9.css
+		-> css/main-color-10.css
+		-> css/style_ordomain.css
+		-> css/styles.css
+		-> css/help.md (+Add)
+		-> error/page-not-found.tpl
+		-> includes/captcha.tpl
+		-> includes/verifyemail.tpl
+		-> includes/linkedaccounts.tpl (+Add)
+		-> js/main.js
+		-> js/scripts.js
+		-> js/scripts.min.js
+		-> js/whmcs.js
+		-> store/spamexperts/index.tpl
+		-> store/ssl/dv.tpl
+		-> store/ssl/ev.tpl
+		-> store/ssl/index.tpl
+		-> store/ssl/ov.tpl
+		-> store/ssl/wildcard.tpl
+		-> store/weebly/index.tpl
+		-> store/weebly/upgrade.tpl
+		-> clientareaaddcontact.tpl
+		-> clientareacontacts.tpl
+		-> clientareacreditcard.tpl
+		-> clientareasecurity.tpl
+		-> clientregister.tpl
+		-> knowledgebasearticle.tpl
+		-> login.tpl
+		-> twitterfeed.tpl
+		-> viewinvoice.tpl
+
+	*. Simply Replace The Following Codes:
+	--------------------------------------
+		-> header.tpl
+			=> Deleted:
+			-----------
+			Line 18 :<!-- Navigation Area Start -->
+			Line 19 :<nav id="navigation">
+			Line 20 :    <div class="contact-bar">
+			Line 21 :        <div class="container">
+			Line 22 :            <div class="social-icons pull-left">
+			Line 23 :                <ul class="nav nav-tabs">
+			Line 24 :                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+			Line 25 :                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+			Line 26 :                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+			Line 27 :                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+			Line 28 :                </ul>
+			Line 29 :            </div>
+			Line 30 :            <div class="contact-bar--text pull-left">
+			Line 31 :                <p><a href="mailto:support@example.com"><i class="fa fm fa-envelope-o"></i>support@example.com</a></p>
+			Line 32 :            </div>
+			Line 33 :            <div class="contact-bar--text pull-left">
+			Line 34 :                <p><a href="tel:+444000000000"><i class="fa fm fa-phone"></i>+444-000-000-000</a></p>
+			Line 35 :            </div>
+			Line 36 :
+			Line 37 :            {if $adminLoggedIn || $loggedin }
+			Line 38 :                <div class="contact-bar--text text-capitalize pull-right">
+			Line 39 :                    <p>
+			Line 40 :                        <a href="{$WEB_ROOT}/logout.php"><i class="fa fm fa-sign-out"></i>logout</a>
+			Line 41 :                    </p>
+			Line 42 :                </div>
+			Line 43 :                 <!-- Top Bar -->
+			Line 44 :                <div id="top-nav">
+			Line 45 :
+			Line 46 :                    <!-- Language -->
+			Line 47 :                    {if $languagechangeenabled && count($locales) > 1}
+			Line 48 :                        <div class="pull-right nav">
+			Line 49 :                            <a href="#" class="quick-nav" data-toggle="popover" id="languageChooser"><i class="fa fa-language"></i> {$LANG.chooselanguage} <span class="caret"></span></a>
+			Line 50 :                            <div id="languageChooserContent" class="hidden">
+			Line 51 :                                <ul>
+			Line 52 :                                    {foreach from=$locales item=locale}
+			Line 53 :                                        <li><a href="{$currentpagelinkback}language={$locale.language}">{$locale.localisedName}</a></li>
+			Line 54 :                                    {/foreach}
+			Line 55 :                                </ul>
+			Line 56 :                            </div>
+			Line 57 :                        </div>
+			Line 58 :                    {/if}
+			Line 59 :    
+			Line 60 :                    <!-- Login/Account Notifications -->
+			Line 61 :                    {if $loggedin}
+			Line 62 :                        <div class="pull-right nav">
+			Line 63 :                            <a href="#" class="quick-nav" data-toggle="popover" id="accountNotifications" data-placement="bottom" title="{lang key="notifications"}"><i class="fa fa-info"></i> {$LANG.notifications} ({$clientAlerts|count})</a>
+			Line 64 :                            <div id="accountNotificationsContent" class="hidden">
+			Line 65 :                                {foreach $clientAlerts as $alert}
+			Line 66 :                                    <div class="clientalert text-{$alert->getSeverity()}">{$alert->getMessage()}{if $alert->getLinkText()} <a href="{$alert->getLink()}" class="btn btn-xs btn-{$alert->getSeverity()}">{$alert->getLinkText()}</a>{/if}</div>
+			Line 67 :                                {foreachelse}
+			Line 68 :                                    <div class="clientalert text-success"><i class="fa fa-check-square-o"></i> {$LANG.notificationsnone}</div>
+			Line 69 :                                {/foreach}
+			Line 70 :                            </div>
+			Line 71 :                        </div>
+			Line 72 :                    {else}
+			Line 73 :                        <div class="pull-right nav">
+			Line 74 :                            <a href="#" class="quick-nav" data-toggle="popover" id="loginOrRegister" data-placement="bottom"><i class="fa fa-user"></i> {$LANG.login}</a>
+			Line 75 :                            <div id="loginOrRegisterContent" class="hidden">
+			Line 76 :                                    <form action="{if $systemsslurl}{$systemsslurl}{else}{$systemurl}{/if}dologin.php" method="post" role="form">
+			Line 77 :                                        <div class="form-group">
+			Line 78 :                                            <input type="email" name="username" class="form-control" placeholder="{$LANG.clientareaemail}" required />
+			Line 79 :                                        </div>
+			Line 80 :                                        <div class="form-group">
+			Line 81 :                                            <div class="input-group">
+			Line 82 :                                                <input type="password" name="password" class="form-control" placeholder="{$LANG.loginpassword}" autocomplete="off" required />
+			Line 83 :                                                <span class="input-group-btn">
+			Line 84 :                                                    <input type="submit" class="btn btn-primary" value="{$LANG.login}" />
+			Line 85 :                                                </span>
+			Line 86 :                                            </div>
+			Line 87 :                                        </div>
+			Line 88 :                                        <label class="checkbox-inline">
+			Line 89 :                                            <input type="checkbox" name="rememberme" /> {$LANG.loginrememberme} &bull; <a href="{$WEB_ROOT}/pwreset.php">{$LANG.forgotpw}</a>
+			Line 90 :                                        </label>
+			Line 91 :                                    </form>
+			Line 92 :                                    {if $condlinks.allowClientRegistration}
+			Line 93 :                                    <hr />
+			Line 94 :                                    {$LANG.newcustomersignup|sprintf2:"<a href=\"$WEB_ROOT/register.php\">":"</a>"}
+			Line 95 :                                {/if}
+			Line 96 :                            </div>
+			Line 97 :                        </div>
+			Line 98 :                    {/if}
+			Line 99 :                    
+			Line 100:                    <!-- Shopping Cart -->
+			Line 101:                    <div class="pull-right nav">
+			Line 102:                        <a href="{$WEB_ROOT}/cart.php?a=view" class="quick-nav"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs">{$LANG.viewcart} (</span><span id="cartItemCount">{$cartitemcount}</span><span class="hidden-xs">)</span></a>
+			Line 103:                    </div>
+			Line 104:
+			Line 105:                    {if $adminMasqueradingAsClient}
+			Line 106:                        <!-- Return to admin link -->
+			Line 107:                        <div class="alert alert-danger admin-masquerade-notice">
+			Line 108:                            {$LANG.adminmasqueradingasclient}<br />
+			Line 109:                            <a href="{$WEB_ROOT}/logout.php?returntoadmin=1" class="alert-link">{$LANG.logoutandreturntoadminarea}</a>
+			Line 110:                        </div>
+			Line 111:                    {elseif $adminLoggedIn}
+			Line 112:                        <!-- Return to admin link -->
+			Line 113:                        <div class="alert alert-danger admin-masquerade-notice">
+			Line 114:                            {$LANG.adminloggedin}
+			Line 115:                            <a href="{$WEB_ROOT}/logout.php?returntoadmin=1" class="alert-link">{$LANG.returntoadminarea}</a>
+			Line 116:                        </div>
+			Line 117:                    {/if}
+			Line 118:
+			Line 119:                </div>
+			Line 120:            {else}
+			Line 121:                <div class="contact-bar--text text-capitalize pull-right">
+			Line 122:                    <p>
+			Line 123:                        <a href="{$WEB_ROOT}/clientarea.php"><i class="fa fm fa-user"></i>login</a>
+			Line 124:                        <span class="slash">/</span>
+			Line 125:                        <a href="{$WEB_ROOT}/register.php"><i class="fa fm fa-user-plus"></i>signup</a>
+			Line 126:                    </p>
+			Line 127:                </div>
+			Line 128:            {/if}
+			Line 129:        </div>
+			Line 130:    </div>
+			Line 131:    <div class="navbar">
+			Line 132:        <div class="container">
+			Line 133:            <div class="navbar-header">
+			Line 134:                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+			Line 135:                    <span class="sr-only">Toggle navigation</span>
+			Line 136:                    <span class="icon-bar"></span>
+			Line 137:                    <span class="icon-bar"></span>
+			Line 138:                    <span class="icon-bar"></span>
+			Line 139:                </button>
+			Line 140:                <!-- Logo Start -->
+			Line 141:                <a class="navbar-brand" href="http://themelooks.us/demo/ordomain/html/preview/index.html"><span><i class="fa fa-globe"></i> Or</span>Domain</a>
+			Line 142:                <!-- Logo End -->
+			Line 143:            </div>
+			Line 144:            <div id="navbar" class="navbar-collapse collapse navbar-right reset-padding">
+			Line 145:                <!-- Navigation Links Start -->
+			Line 146:                <ul class="nav navbar-nav">
+			Line 147:                    <li class="active"><a href="http://themelooks.us/demo/ordomain/html/preview/index.html">Home</a></li>
+			Line 148:                    <li class="dropdown">
+			Line 149:                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hosting <span class="caret"></span></a>
+			Line 150:                        <ul class="dropdown-menu">
+			Line 151:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/shared-hosting.html">Shared</a></li>
+			Line 152:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/reseller-hosting.html">Reseller</a></li>
+			Line 153:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/vps-hosting-1.html">VPS Style 1</a></li>
+			Line 154:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/vps-hosting-2.html">VPS Style 2</a></li>
+			Line 155:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/dedicated-hosting-1.html">Dedicated Style 1</a></li>
+			Line 156:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/dedicated-hosting-2.html">Dedicated Style 2</a></li>
+			Line 157:                        </ul>
+			Line 158:                    </li>
+			Line 159:                    <li><a href="http://themelooks.us/demo/ordomain/html/preview/domains.html">Domains</a></li>
+			Line 160:                    <li class="dropdown">
+			Line 161:                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <span class="caret"></span></a>
+			Line 162:                        <ul class="dropdown-menu">
+			Line 163:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/about.html">About</a></li>
+			Line 164:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/faq.html">FAQ</a></li>
+			Line 165:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/datacenter.html">Datacenter</a></li>
+			Line 166:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/testimonial.html">Testimonial</a></li>
+			Line 167:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/login.html">Login</a></li>
+			Line 168:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/affiliate.html">Affiliate</a></li>
+			Line 169:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/404.html">404</a></li>
+			Line 170:                        </ul>
+			Line 171:                    </li>
+			Line 172:                    <li class="dropdown">
+			Line 173:                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <span class="caret"></span></a>
+			Line 174:                        <ul class="dropdown-menu">
+			Line 175:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/blog.html">Blog</a></li>
+			Line 176:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/blog_sidebar-left.html">Blog Sidebar Left</a></li>
+			Line 177:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/blog_sidebar-right.html">Blog Sidebar Right</a></li>
+			Line 178:                        </ul>
+			Line 179:                    </li>
+			Line 180:                    <li><a href="http://themelooks.us/demo/ordomain/html/preview/contact.html">Contact</a></li>
+			Line 181:                </ul>
+			Line 182:                <!-- Navigation Links End -->
+			Line 183:            </div>
+			Line 184:        </div>
+			Line 185:    </div>
+			Line 186:</nav>
+			Line 187:<!-- Navigation Area End -->
+
+			=> Added:
+			---------
+			Line 18 :<!-- Preloader Start -->
+			Line 19 :<div id="preloader">
+			Line 20 :	<div class="preloader--bounce">
+			Line 21 :		<div class="preloader-bouncer--1"></div>
+			Line 22 :		<div class="preloader-bouncer--2"></div>
+			Line 23 :	</div>
+			Line 24 :</div>
+			Line 25 :<!-- Preloader End -->
+			Line 26 :
+			Line 27 :<!-- Navigation Area Start -->
+			Line 28 :<nav id="navigation">
+			Line 29 :    <div class="contact-bar">
+			Line 30 :        <div class="container">
+			Line 31 :            <div class="social-icons pull-left">
+			Line 32 :                <ul class="nav nav-tabs">
+			Line 33 :                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+			Line 34 :                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+			Line 35 :                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+			Line 36 :                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+			Line 37 :                </ul>
+			Line 38 :            </div>
+			Line 39 :            <div class="contact-bar--text pull-left">
+			Line 40 :                <p><a href="mailto:support@example.com"><i class="fa fm fa-envelope-o"></i>support@example.com</a></p>
+			Line 41 :            </div>
+			Line 42 :            <div class="contact-bar--text pull-left">
+			Line 43 :                <p><a href="tel:+444000000000"><i class="fa fm fa-phone"></i>+444-000-000-000</a></p>
+			Line 44 :            </div>
+			Line 45 :
+			Line 46 :            {if $adminLoggedIn || $loggedin }
+			Line 47 :                <div class="contact-bar--text text-capitalize pull-right">
+			Line 48 :                    <p>
+			Line 49 :                        <a href="{$WEB_ROOT}/logout.php"><i class="fa fm fa-sign-out"></i>logout</a>
+			Line 50 :                    </p>
+			Line 51 :                </div>
+			Line 52 :				<ul class="top-nav">
+			Line 53 :					{if $languagechangeenabled && count($locales) > 1}
+			Line 54 :						<li>
+			Line 55 :							<a href="#" class="choose-language" data-toggle="popover" id="languageChooser">
+			Line 56 :								{$activeLocale.localisedName}
+			Line 57 :								<b class="caret"></b>
+			Line 58 :							</a>
+			Line 59 :							<div id="languageChooserContent" class="hidden">
+			Line 60 :								<ul>
+			Line 61 :									{foreach $locales as $locale}
+			Line 62 :										<li>
+			Line 63 :											<a href="{$currentpagelinkback}language={$locale.language}">{$locale.localisedName}</a>
+			Line 64 :										</li>
+			Line 65 :									{/foreach}
+			Line 66 :								</ul>
+			Line 67 :							</div>
+			Line 68 :						</li>
+			Line 69 :					{/if}
+			Line 70 :					{if $loggedin}
+			Line 71 :						<li>
+			Line 72 :							<a href="#" data-toggle="popover" id="accountNotifications" data-placement="bottom">
+			Line 73 :								{$LANG.notifications}
+			Line 74 :								{if count($clientAlerts) > 0}<span class="label label-info">NEW</span>{/if}
+			Line 75 :								<b class="caret"></b>
+			Line 76 :							</a>
+			Line 77 :							<div id="accountNotificationsContent" class="hidden">
+			Line 78 :								<ul class="client-alerts">
+			Line 79 :								{foreach $clientAlerts as $alert}
+			Line 80 :									<li>
+			Line 81 :										<a href="{$alert->getLink()}">
+			Line 82 :											<i class="fa fa-fw fa-{if $alert->getSeverity() == 'danger'}exclamation-circle{elseif $alert->getSeverity() == 'warning'}warning{elseif $alert->getSeverity() == 'info'}info-circle{else}check-circle{/if}"></i>
+			Line 83 :											<div class="message">{$alert->getMessage()}</div>
+			Line 84 :										</a>
+			Line 85 :									</li>
+			Line 86 :								{foreachelse}
+			Line 87 :									<li class="none">
+			Line 88 :										{$LANG.notificationsnone}
+			Line 89 :									</li>
+			Line 90 :								{/foreach}
+			Line 91 :								</ul>
+			Line 92 :							</div>
+			Line 93 :						</li>
+			Line 94 :						<li class="primary-action">
+			Line 95 :							<a href="{$WEB_ROOT}/logout.php" class="btn">
+			Line 96 :								{$LANG.clientareanavlogout}
+			Line 97 :							</a>
+			Line 98 :						</li>
+			Line 99 :					{else}
+			Line 100:						<li>
+			Line 101:							<a href="{$WEB_ROOT}/clientarea.php">{$LANG.login}</a>
+			Line 102:						</li>
+			Line 103:						{if $condlinks.allowClientRegistration}
+			Line 104:							<li>
+			Line 105:								<a href="{$WEB_ROOT}/register.php">{$LANG.register}</a>
+			Line 106:							</li>
+			Line 107:						{/if}
+			Line 108:						<li class="primary-action">
+			Line 109:							<a href="{$WEB_ROOT}/cart.php?a=view" class="btn">
+			Line 110:								{$LANG.viewcart}
+			Line 111:							</a>
+			Line 112:						</li>
+			Line 113:					{/if}
+			Line 114:					{if $adminMasqueradingAsClient || $adminLoggedIn}
+			Line 115:						<li>
+			Line 116:							<a href="{$WEB_ROOT}/logout.php?returntoadmin=1" class="btn btn-logged-in-admin" data-toggle="tooltip" data-placement="bottom" title="{if $adminMasqueradingAsClient}{$LANG.adminmasqueradingasclient} {$LANG.logoutandreturntoadminarea}{else}{$LANG.adminloggedin} {$LANG.returntoadminarea}{/if}">
+			Line 117:								<i class="fa fa-sign-out"></i>
+			Line 118:							</a>
+			Line 119:						</li>
+			Line 120:					{/if}
+			Line 121:				</ul>
+			Line 122:            {else}
+			Line 123:                <div class="contact-bar--text text-capitalize pull-right">
+			Line 124:                    <p>
+			Line 125:                        <a href="{$WEB_ROOT}/clientarea.php"><i class="fa fm fa-user"></i>login</a>
+			Line 126:                        <span class="slash">/</span>
+			Line 127:                        <a href="{$WEB_ROOT}/register.php"><i class="fa fm fa-user-plus"></i>signup</a>
+			Line 128:                    </p>
+			Line 129:                </div>
+			Line 130:            {/if}
+			Line 131:        </div>
+			Line 132:    </div>
+			Line 133:    <div class="navbar">
+			Line 134:        <div class="container">
+			Line 135:            <div class="navbar-header">
+			Line 136:                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+			Line 137:                    <span class="sr-only">Toggle navigation</span>
+			Line 138:                    <span class="icon-bar"></span>
+			Line 139:                    <span class="icon-bar"></span>
+			Line 140:                    <span class="icon-bar"></span>
+			Line 141:                </button>
+			Line 142:                <!-- Logo Start -->
+			Line 143:                <a class="navbar-brand" href="http://themelooks.us/demo/ordomain/html/preview/index.html"><span><i class="fa fa-globe"></i> Or</span>Domain</a>
+			Line 144:                <!-- Logo End -->
+			Line 145:            </div>
+			Line 146:            <div id="navbar" class="navbar-collapse collapse navbar-right reset-padding">
+			Line 147:                <!-- Navigation Links Start -->
+			Line 148:                <ul class="nav navbar-nav">
+			Line 149:                    <li class="active"><a href="http://themelooks.us/demo/ordomain/html/preview/index.html">Home</a></li>
+			Line 150:                    <li class="dropdown">
+			Line 151:                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hosting <span class="caret"></span></a>
+			Line 152:                        <ul class="dropdown-menu">
+			Line 153:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/shared-hosting.html">Shared</a></li>
+			Line 154:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/reseller-hosting.html">Reseller</a></li>
+			Line 155:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/vps-hosting-1.html">VPS Style 1</a></li>
+			Line 156:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/vps-hosting-2.html">VPS Style 2</a></li>
+			Line 157:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/dedicated-hosting-1.html">Dedicated Style 1</a></li>
+			Line 158:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/dedicated-hosting-2.html">Dedicated Style 2</a></li>
+			Line 159:                        </ul>
+			Line 160:                    </li>
+			Line 161:                    <li><a href="http://themelooks.us/demo/ordomain/html/preview/domains.html">Domains</a></li>
+			Line 162:                    <li class="dropdown">
+			Line 163:                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <span class="caret"></span></a>
+			Line 164:                        <ul class="dropdown-menu">
+			Line 165:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/about.html">About</a></li>
+			Line 166:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/faq.html">FAQ</a></li>
+			Line 167:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/datacenter.html">Datacenter</a></li>
+			Line 168:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/testimonial.html">Testimonial</a></li>
+			Line 169:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/login.html">Login</a></li>
+			Line 170:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/affiliate.html">Affiliate</a></li>
+			Line 171:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/404.html">404</a></li>
+			Line 172:                        </ul>
+			Line 173:                    </li>
+			Line 174:                    <li class="dropdown">
+			Line 175:                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <span class="caret"></span></a>
+			Line 176:                        <ul class="dropdown-menu">
+			Line 177:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/blog.html">Blog</a></li>
+			Line 178:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/blog_sidebar-left.html">Blog Sidebar Left</a></li>
+			Line 179:                            <li><a href="http://themelooks.us/demo/ordomain/html/preview/blog_sidebar-right.html">Blog Sidebar Right</a></li>
+			Line 180:                        </ul>
+			Line 181:                    </li>
+			Line 182:                    <li><a href="http://themelooks.us/demo/ordomain/html/preview/contact.html">Contact</a></li>
+			Line 183:                </ul>
+			Line 184:                <!-- Navigation Links End -->
+			Line 185:            </div>
+			Line 186:        </div>
+			Line 187:    </div>
+			Line 188:</nav>
+			Line 189:<!-- Navigation Area End -->
+		
+		-> footer.tpl
+			=> Deleted:
+			-----------
+			Line 1 :			</div><!-- /.main-content -->
+			Line 2 :			{if !$inShoppingCart && $secondarySidebar->hasChildren()}
+			Line 3 :				<div class="col-md-3 pull-md-left sidebar">
+			Line 4 :					{include file="$template/includes/sidebar.tpl" sidebar=$secondarySidebar}
+			Line 5 :				</div>
+			Line 6 :			{/if}
+			Line 7 :		</div>
+			Line 8 :		<div class="clearfix"></div>
+			Line 9 :	</div>
+			Line 10:</section>
+			
+			=> Added:
+			---------
+			Line 1 :
+			Line 2 :                </div><!-- /.main-content -->
+			Line 3 :                {if !$inShoppingCart && $secondarySidebar->hasChildren()}
+			Line 4 :                    <div class="col-md-3 pull-md-left sidebar">
+			Line 5 :                        {include file="$template/includes/sidebar.tpl" sidebar=$secondarySidebar}
+			Line 6 :                    </div>
+			Line 7 :                {/if}
+			Line 8 :            <div class="clearfix"></div>
+			Line 9 :        </div>
+			Line 10:    </div>
+			Line 11:</section>

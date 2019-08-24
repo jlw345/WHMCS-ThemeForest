@@ -1,0 +1,34 @@
+a,
+a:hover,
+.menu li a:hover,
+.menu li a,
+.btns-fixed ul li:hover,
+.btns-fixed ul li,
+.social-big-zone a:hover i,
+.social-big-zone a i,
+.box-services-active li:hover .btn-link,
+.box-services-active li .btn-link,
+.star-style-pricing:hover,
+.star-style-pricing,
+.btn-link-border:hover,
+.btn-link-border,
+.quote-company:hover span,
+.quote-company span,
+.star-style-pricing .star-discount,
+.star-style-pricing:hover .star-discount,
+.about-short-text h2:hover,
+.about-short-text h2,
+.social li a:hover i,
+.social li a i,
+.form-contact input[type=submit],
+.form-contact,
+.box-services-active li:hover i,
+.box-services-active li i,
+.testimonials:hover .link-color i,
+.testimonials .link-color i{	
+	-webkit-transition: 0.3s all ease;
+	-moz-transition: 0.3s all ease;
+	-o-transition: 0.3s all ease;
+	-ms-transition: 0.3s all ease;
+	transition: 0.3s all ease;
+}

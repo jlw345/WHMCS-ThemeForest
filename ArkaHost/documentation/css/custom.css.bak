@@ -1,0 +1,57 @@
+body hr{
+	margin:60px 0; 
+}
+
+body .divline{
+	margin: 40px 0;
+    border-top: 1px solid #eee;
+    height: 0;
+    width: 100%;
+    display: block;
+    float: left;
+}
+
+body .intro .dropdown > ul{
+	display:none;
+	-webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;    
+    transition: all 0.5s ease-in-out;
+}
+body .intro .dropdown.open > ul{
+	display: block;
+	
+}
+body .intro .dropdown-toggle{
+	font-weight:600;
+}
+
+body .intro .dropdown-toggle span{
+	margin-left:10px;
+}
+
+.intro ul li:before {
+	background: #86c723 none repeat scroll 0 0;
+	content: " ";
+	display: block;
+	float: left;
+	height: 10px;
+	margin-left: -20px;
+	margin-right: 10px;
+	margin-top: 6px;
+	width: 10px;
+}
+
+.intro ul li{
+	margin-bottom: 12px;
+    line-height: 24px;
+}
+
+.whmcs-bridge-feature li{
+	list-style: disc;
+	margin-left: 30px;
+}
+.dropdown-menu strong{
+	margin-left:10px;
+}

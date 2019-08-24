@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en" class="no-outlines" data-ng-app="doc" data-ng-controller="doc">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- ==== Document Title ==== -->
+    <title data-ng-bind="doc.document.title"></title>
+
+    <!-- ==== Favicon ==== -->
+    <link rel="icon" href="assets/img/themelooks.png" type="image/png">
+
+    <!-- ==== Google Font ==== -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/perfect-scrollbar.min.css">
+    <link rel="stylesheet" href="assets/css/prism.css">
+    <link rel="stylesheet" href="assets/css/summernote-bs4.min.css">
+    <link rel="stylesheet" href="assets/css/summernote-bs4-overrides.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+<body>
+
+    <!-- Wrapper Start -->
+    <div class="wrapper">
+        <!-- Navbar Start -->
+        <header class="navbar navbar-fixed">
+            <!-- Navbar Header Start -->
+            <div class="navbar--header">
+                <!-- Logo Start -->
+                <a href="index.html" class="logo" title="Crypdrone">
+                    <img src="assets/img/logo.png" alt="Crypdrone">
+                </a>
+                <!-- Logo End -->
+
+                <!-- Sidebar Toggle Button Start -->
+                <a href="#" class="navbar--btn" data-toggle="sidebar" title="Toggle Sidebar">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <!-- Sidebar Toggle Button End -->
+            </div>
+            <!-- Navbar Header End -->
+
+            <!-- Sidebar Toggle Button Start -->
+            <a href="#" class="navbar--btn" data-toggle="sidebar" title="Toggle Sidebar">
+                <i class="fa fa-bars"></i>
+            </a>
+            <!-- Sidebar Toggle Button End -->
+
+            <div class="navbar--nav">
+                <ul class="nav">
+                    <li class="nav-item dropdown">
+                        <a href="https://www.themelooks.com/support/support-policy/" class="btn btn-outline-info" target="_blank">
+                            <i class="far fa-life-ring"></i>
+                            <span>Support Policy</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a href="https://themeforest.net/user/themelooks#contact" class="btn btn-outline-info" target="_blank">
+                            <i class="far fa-envelope"></i>
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <!-- Navbar End -->
+
+        <!-- Sidebar Start -->
+        <aside class="sidebar" data-trigger="scrollbar">
+            <!-- Sidebar Profile Start -->
+            <div class="sidebar--profile">
+                <div class="profile--img">
+                    <a href="https://themeforest.net/user/themelooks/portfolio" target="_blank">
+                        <img src="assets/img/themelooks.png" alt="" class="rounded-circle">
+                    </a>
+                </div>
+
+                <div class="profile--name">
+                    <a href="https://themeforest.net/user/themelooks/portfolio" class="btn-link" target="_blank">ThemeLooks</a>
+                </div>
+
+                <div class="profile--nav">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="https://themeforest.net/user/themelooks/portfolio" class="nav-link" title="Profile" target="_blank">
+                                <i class="fab fa-envira fa-rotate-90"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.themelooks.com/" class="nav-link" title="Website" target="_blank">
+                                <i class="fa fa-globe"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.facebook.com/ThemeLooks/" class="nav-link" title="Facebook" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://twitter.com/themelooks" class="nav-link" title="Twitter" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.youtube.com/channel/UCn3HJFPxoEUoUYupJaARxDw" class="nav-link" title="Youtube" target="_blank">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Sidebar Profile End -->
+
+            <!-- Sidebar Navigation Start -->
+            <div class="sidebar--nav" data-trigger="scroll_spy smooth_scroll_links">
+                <ul>
+                    <li data-ng-repeat="menu_item in doc.contents">
+                        <a href="#" data-ng-if="menu_item.title" data-ng-bind="menu_item.title" data-ng-click="panel_action( $event.currentTarget, 'group_title' )"></a>
+
+                        <ul>
+                            <li data-ng-repeat="sub_menu_item in menu_item.contents">
+                                <a href="#panel-{{ $parent.$index }}{{ $index }}" data-ng-bind="sub_menu_item.title"></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- Sidebar Navigation End -->
+        </aside>
+        <!-- Sidebar End -->
+
+        <!-- Main Container Start -->
+        <main class="main--container">
+            <!-- Main Content Start -->
+            <section class="main--content">
+                <div class="panel-wrap" data-ng-repeat="panel in doc.contents">
+                    <div id="panel-{{ $parent.$index }}{{ $index }}" class="panel" data-ng-repeat="panel in panel.contents">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" data-ng-bind="panel.title"></h3>
+
+                            <div class="panel-actions" data-ng-if="panel_btns">
+                                <button type="button" class="btn btn-sm {{ panel_btn[1] }}" data-ng-repeat="panel_btn in panel_btns" data-ng-bind="panel_btn[0]" data-ng-click="panel_action( $event.currentTarget, this.panel_btn[2] )"></button>
+                            </div>
+                        </div>
+
+                        <div class="panel-content" data-ng-custom-html></div>
+                    </div>
+                </div>
+            </section>
+            <!-- Main Content End -->
+
+            <!-- Main Footer Start -->
+            <footer class="main--footer main--footer-light">
+                <p>Copyright &copy; <a href="https://www.themelooks.com" target="_blank">ThemeLooks</a>. All Rights Reserved.</p>
+            </footer>
+            <!-- Main Footer End -->
+        </main>
+        <!-- Main Container End -->
+    </div>
+    <!-- Wrapper End -->
+
+    <!-- Document Data -->
+    <script src="assets/json/data.js"></script>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/angular.min.js"></script>
+    <script src="assets/js/angular-init.min.js"></script>
+    <script src="assets/js/jquery.scrollTo.min.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/perfect-scrollbar.min.js"></script>
+    <script src="assets/js/prism.js"></script>
+    <script src="assets/js/summernote-bs4.min.js"></script>
+    <script src="assets/js/sticky.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
